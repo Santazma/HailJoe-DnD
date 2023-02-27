@@ -5,7 +5,7 @@
 		<description>A homebrew content for my campaign.</description>
 		<author url="https://openai.com/">ChatGPT, a language model trained by OpenAI</author>
 		<update version="1.0">
-			<file name="voidborn-race.xml" url="https://raw.githubusercontent.com/[INSERT YOUR REPOSITORY NAME HERE]/[INSERT YOUR FILE NAME HERE]" />
+			<file name="race-voidborn.xml" url="https://raw.githubusercontent.com/[INSERT YOUR REPOSITORY NAME HERE]/[INSERT YOUR FILE NAME HERE]" />
 		</update>
 	</info>
 	<files>
