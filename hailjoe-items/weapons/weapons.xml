@@ -28,6 +28,7 @@
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">400</set>
       <set name="type" addition="dagger">Weapon</set>
+      <set name="attunement">true</set>
       <set name="rarity">Uncommon</set>
       <set name="enhancement">1</set>
       <set name="weapon">Dagger</set>
