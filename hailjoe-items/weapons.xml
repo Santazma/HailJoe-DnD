@@ -29,5 +29,4 @@ The user's unarmed strikes and attacks with the Fang of the Dhampir deal an addi
 			<set name="weapon">Dagger</set>
 		</setters>
 	</element>
-	
- </elements>
+</elements>
