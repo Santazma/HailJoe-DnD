@@ -5,13 +5,10 @@
 		<description>Homebrew Weapons</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.5">
-			<file name="monster-manual.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual.index" />
+			<file name="weapons.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual/source.xml" />
-		<file name="companions.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual/companions.xml" />
-		<file name="languages.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual/languages.xml" />
-		<file name="lycanthropy-additional-feature.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual/lycanthropy-additional-feature.xml" />
+		<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.xml" />
 	</files>
 </index>
