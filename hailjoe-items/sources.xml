@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.3">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/source.xml" />
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/sources.xml" />
 		</update>
 	</info>
-	<element name="Dungeon Master’s Guide" type="Source" source="Core" id="ID_SOURCE_HAILJOE">
+	<element name="HailJoe Items" type="Source" source="Homebrew" id="ID_SOURCE_HAILJOE">
 		<description>
 			<p><strong>Everything a Dungeon Master needs to weave legendary stories for the world’s greatest roleplaying game.</strong></p>
 			<p>The <i>Dungeon Master’s Guide</i> provides the inspiration and the guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy.</p>
@@ -18,7 +18,7 @@
 			<set name="errata">https://media.wizards.com/2018/dnd/downloads/DMG-Errata.pdf</set>
 			<set name="author" abbreviation="HJ" url="https://github.com/Santazma/HailJoe-DnD">HailJoe DnD</set>
 			<set name="official">true</set>
-			<set name="core">true</set>
+			<set name="homebrew">true</set>
 			<set name="release">20140930</set>
 		</setters>
 	</element>
