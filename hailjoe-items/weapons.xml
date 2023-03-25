@@ -8,7 +8,6 @@
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.xml" />
 		</update>
 	</info>
-	
 	<element name="Fang of the Dhampir" type="Magic Item" id="ID_HAILJOE_FANG_OF_THE_DHAMPIR">
 		<description>
 			<p>This item appears to be a simple wooden stake with a carved silver tip. Upon closer inspection, the silver tip is actually a sharp fang, which appears to have been taken from a vampire or dhampir. The wooden stake is infused with magical energy that allows it to draw strength from the blood of the user's enemies.</p>
