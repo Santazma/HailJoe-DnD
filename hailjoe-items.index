@@ -9,15 +9,9 @@
 		</update>
 	</info>
 	<files>
-		<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.xml">
-			<info>
-				<name>weapons</name>
-				<description></description>
-				<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-				<update version="0.0.1">
-					<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.xml" />
-				</update>
-			</info>
-		</file>
+
+		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide.index" />
+		<file name="monster-manual.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual.index" />
+		<file name="players-handbook.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook.index" />
 	</files>
 </index>
