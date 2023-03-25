@@ -9,9 +9,6 @@
 		</update>
 	</info>
 	<files>
-
-		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide.index" />
-		<file name="monster-manual.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual.index" />
-		<file name="players-handbook.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook.index" />
+		<file name="weapons.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
 	</files>
 </index>
