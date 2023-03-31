@@ -26,7 +26,7 @@
       </ul>
     </description>
       <rules>
-        <stat name="melee:attack" value="wisdom:modifier" bonus="ability" />
+        <stat name="melee:damage" value="wisdom:modifier" bonus="ability" />
       </rules>
     <setters>
       <set name="keywords">head, helmet</set>
