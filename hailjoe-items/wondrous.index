@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Wondrous</name>
+		<description>Homebrew Wondrous Items</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="wondrous.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
+		</update>
+	</info>
+	<files>
+		<file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml" />
+	</files>
+</index>
