@@ -1,1 +1,42 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>wondrous</name>
+    <description/>
+    <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+    <update version="0.0.1">
+      <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
+    </update>
+  </info>
+  <element name="Kabuto's Helmet" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_KABUTOS_HELMET">
+    <description>
+      <p>This helmet appears to be a traditional samurai kabuto, but upon closer inspection, its craftsmanship is far superior to any mortal creation. The helmet is adorned with intricate silver and gold filigree, and the visor is inlaid with a clear crystal that glimmers in the light. The wearer of this helmet feels a powerful surge of energy, as if the spirit of an ancient warrior has been awakened within them.</p>
+      <p>Effect: When a fighter wearing the Kabuto's Helmet takes the Attack action and attacks with a melee weapon, they gain the following benefits:</p>
+      <ul>
+        <li>The user can add their Wisdom modifier to the damage roll of their attacks.</li>
+        <li>If the user reduces an enemy to 0 hit points with a melee attack, they gain temporary hit points equal to their fighter level + their Wisdom modifier.</li>
+        <li>The user is immune to the Frightened condition.</li>
+        <li>The user gains resistance to psychic damage.</li>
+        <li>Once per day, the user can invoke the power of the Kabuto's Helmet to enter a state of heightened awareness. While in this state, the user gains the following benefits for 1 minute:</li>
+      </ul>
+      <ul>
+          <li>You have advantage on all Wisdom (Perception) checks and initiative rolls.</li>
+          <li>Your movement speed increases by 10 feet.</li>
+          <li>You can make an additional attack as part of your Attack action.</li>
+      </ul>
+    </description>
+      <rules>
+        <stat name="melee:attack" value="wisdom:modifier" bonus="ability" />
+      </rules>
+    <setters>
+      <set name="keywords">head, helmet</set>
+      <set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+    </setters>
+  </element>
+</elements>
