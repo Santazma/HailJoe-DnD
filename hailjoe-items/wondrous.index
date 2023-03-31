@@ -5,10 +5,10 @@
 		<description>Homebrew Wondrous Items</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="wondrous.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
+			<file name="wondrous.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous.index" />
 		</update>
 	</info>
 	<files>
-		<file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml" />
+		<file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml" />
 	</files>
 </index>
