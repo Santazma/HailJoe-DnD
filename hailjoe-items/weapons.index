@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description>Homebrew Weapons</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="weapons.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
 		</update>
 	</info>
