@@ -39,4 +39,35 @@
       <set name="rarity">Rare</set>
     </setters>
   </element>
+  
+  <element name="Cursed Hammer of the Fallen Blacksmith" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_CHOTFB">
+    <description>
+      <p>This hammer appears to be a well-worn blacksmith's hammer, but upon closer inspection, its craftsmanship is far superior to any mortal creation. The hammer's head is made of a gleaming silver metal, and the handle is carved from a rare wood that is said to have magical properties. The hammer seems to almost vibrate with power in the hands of a skilled blacksmith.</p>
+      <p>Effect: When a blacksmith wielding the Cursed Hammer of the Fallen Blacksmith creates a weapon or armor, they gain the following benefits:</p>
+      <ul>
+        <li>The time required to create the item is halved.</li>
+        <li>The final product is of exceptional quality, granting a +1 bonus to its AC or attack and damage rolls.</li>
+        <li>The final product is imbued with a minor magical enchantment of the DM's choice, appropriate to the item being crafted.</li>
+      </ul>
+      <ul>
+        <li>Additionally, while holding the Cursed Hammer of the Fallen Blacksmith, the user gains the following benefits:</li>
+      </ul>
+      <ul>
+          <li>The user gains proficiency in the Smith's Tools if they do not already have it.</li>
+          <li>The user can cast the <em>identify</em> spell once per day as a ritual, without expending a spell slot.</li>
+      </ul>
+      <p>This hammer has 1d4+1 charges. The user can invoke the power of the Cursed Hammer of the Fallen Blacksmith and uses 1 charge of the hammer to create an exceptional masterpiece. When doing so, the user must spend 12 hours crafting a single weapon or armor. The final product is of very rare quality, granting a +2 bonus to its AC or its attack and damage rolls, and is imbued with a powerful magical enchantment of the DM's choice, appropriate to the item being crafted.</p>
+      <p>However, the Cursed Hammer of the Fallen Blacksmith has a malevolent curse that afflicts its user. Whenever the user creates an item with the hammer, there is a chance that the item will become corrupted and unstable. Roll a d4. On a roll of 1-2, the item created is cursed and has a detrimental effect on its user or whoever wields it. The nature of the curse is up to the DM's discretion and can range from minor annoyances to major setbacks.</p>
+      <p>Additionally, the user's own creations begin to turn against them. Any item created by the user using the Cursed Hammer of the Fallen Blacksmith has a chance to turn on its creator. Roll a d4. On a roll of 1-2, the item becomes sentient and seeks to harm the user or whoever wields it.</p>
+    </description>
+    <setters>
+      <set name="keywords">hammer</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
 </elements>
