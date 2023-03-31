@@ -31,12 +31,12 @@
     <setters>
       <set name="keywords">head, helmet</set>
       <set name="category">Wondrous Items</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="7">7 lb.</set>
-			<set name="slot">head</set>
-			<set name="type">Wondrous Item</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="7">7 lb.</set>
+      <set name="slot">head</set>
+      <set name="type">Wondrous Item</set>
       <set name="attunement">true</set>
-			<set name="rarity">Rare</set>
+      <set name="rarity">Rare</set>
     </setters>
   </element>
 </elements>
