@@ -34,7 +34,31 @@
       <set name="weapon">Dagger</set>
     </setters>
     <rules>
-		        <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
-		</rules>
+	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+    </rules>
+  </element>
+
+ <element name="Sanguinary Bloodreaper" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SANGUINARY_BLOODREAPER">
+    <description>
+      <p>The Bloodreaper is a longsword made of a dark obsidian, almost vantablack in color. The blade is slightly curved and glimmers with a faint crimson sheen. The handle is wrapped in black leather, and the pommel is adorned with a red gemstone that seems to pulse with energy. The sword seems to sing a haunting melody when it's wielded in battle.</p>
+      <p>Effect: When a hexblade warlock wields the Bloodreaper, they gain the following benefits:</p>
+      <ul>
+        <li>The sword is a +3 magic weapon made with obsidian.</li>
+        <li>Whenever the user lands a successful hit with the sword, they regain 1d8 + Constitution modifier.</li>
+      </ul>
+      <p class="indent"><i><b>Blood Bond:</b></i> The sword has a special ability called Blood Bond. Whenever the user successfully hits a creature with the sword, they form a blood bond with that creature. While the bond is active, the user can use their bonus action to make a melee spell attack against the creature, dealing an additional 2d6 necrotic damage. The bond lasts for 24 hours or until the creature dies. If the user becomes unconscious, the bond vanishes immediately. This bonus action melee spell attack, doesn't count as "successful hit with the sword" so the user can't regain hit points via using bonus attack.</p>
+      <p class="indent"><i><b>Sanguine Strike:</b></i> The sword also has an ability called Sanguine Strike. Once per day, the user leaps forward and can choose to deal a massive amount of damage on a successful attack with this sword. Once per short or long rest, you can teleport up to 15 feet forward and stab this sword into the ground. After the jump; except all the creature away 5 feet to center point, everyone in this 15 feet circle knocks back 10 feet. The blade bursts out of the ground beneath the enemies. All targets within 15 feet range must make a Dexterity saving throw with a DC equal to 8+ your Proficiency bonus + your Charisma modifier, taking 6d6 necrotic damage on a failed saving throw, or half as much damage on a successful one. Creatures who succeeds the saving throw doesn't knocks back.</p>
+      <p class="indent"><i><b>Bloodletting:</b></i> The sword has a passive ability called Bloodletting. Whenever the user is struck by a melee attack, they can use their reaction to make a melee attack against the attacker with the Bloodreaper. If the attack hits, the attacker takes an extra 1d6 necrotic damage and the user regains hit points equal to the damage dealt. The user can only use this reaction once bonded with "Blood Bond", otherwise user can't use this reaction.</p>
+    </description>
+    <setters>
+      <set name="keywords">longsword</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="longsword">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">3</set>
+      <set name="weapon">Longsword</set>
+    </setters>
   </element>
 </elements>
