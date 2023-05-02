@@ -26,7 +26,9 @@
       </ul>
     </description>
       <rules>
-        <stat name="melee:damage" value="wisdom:modifier" bonus="ability" />
+              <stat name="melee:damage" value="wisdom:modifier" bonus="ability" />
+              <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+              <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FRIGHTENED" />
       </rules>
     <setters>
       <set name="keywords">head, helmet</set>
@@ -68,6 +70,7 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
+      <set name="charges">5</set>
     </setters>
   </element>
 </elements>
