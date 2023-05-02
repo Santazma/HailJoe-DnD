@@ -28,7 +28,6 @@
       <rules>
               <stat name="melee:damage" value="wisdom:modifier" bonus="ability" />
               <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
-              <grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_FRIGHTENED" />
       </rules>
     <setters>
       <set name="keywords">head, helmet</set>
