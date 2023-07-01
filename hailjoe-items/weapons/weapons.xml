@@ -4,7 +4,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -58,6 +58,27 @@
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
       <set name="enhancement">3</set>
+      <set name="weapon">Longsword</set>
+    </setters>
+  </element>
+ <element name="Soulrender (Dormant)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOULRENDER">
+    <description>
+      <p>Soulrender is a mesmerizing weapon of shadow and steel. Its sleek black blade glimmers with an otherworldly sheen, adorned with meticulously etched engravings that dance with ethereal light. The hilt is wrapped in supple, obsidian-hued leather, and a single crimson gemstone, pulsating with arcane energy, rests in the pommel. As you grip the scythe, a whispered voice echoes in your mind, the sentience of the weapon stirring with curiosity and anticipation.</p>
+      <p>Effect: When a hexblade warlock wields the Soulreaper (Dormant), they gain the following benefits:</p>
+      <ul>
+        <li>As a melee weapon, Soulrender functions as a +1 magic longsword/longbow. As a ranged weapon, it functions as a longbow with a range of 150/600 feet.</li>
+        <li>Soulrender is a Sentient Weapon with an Intelligence score of 12, Wisdom score of 14 and Charisma score of 16. It can communicate telepathically with its wielder. It has hearing and darkvision to 120 ft.</li>
+	<li>While attuned to Soulrender, the Hexblade Warlocks and Oath of Vengeance Paladins gains a +1 bonus to their spell attack rolls and saving throw DC for spells cast using their Pact Magic and Divine Magic features.</li>
+      </ul>
+    </description>
+    <setters>
+      <set name="keywords">longsword</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="longsword">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">1</set>
       <set name="weapon">Longsword</set>
     </setters>
   </element>
