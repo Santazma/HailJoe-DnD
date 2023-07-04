@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors/armors.xml" />
+		<file name="armors.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors/armors.xml" />
 	</files>
 </index>
