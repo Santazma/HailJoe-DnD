@@ -11,5 +11,6 @@
 	<files>
 		<file name="weapons.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
 		<file name="wondrous.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous.index" />
+		<file name="armors.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors.index" />
 	</files>
 </index>
