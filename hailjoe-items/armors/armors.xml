@@ -25,15 +25,15 @@
 			<set name="category">Magic Armor</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="slot">body</set>
-      <set name="attunement" addition="by a Order of the Lycan">true</set>
+      			<set name="attunement" addition="by a Order of the Lycan">true</set>
 			<set name="type" addition="studded leather">Armor</set>
 			<set name="rarity">Rare</set>
 			<set name="armor">Studded Leather</set>
 			<set name="enhancement">1</set>
-		</setters>
+    </setters>
     <rules>
-			<stat name="perception:misc" value="2" />
+      <stat name="perception:misc" value="2" />
       <stat name="survival:misc" value="2" />
-		</rules>
+    </rules>
   </element>
 </elements>
