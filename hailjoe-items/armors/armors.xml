@@ -1,1 +1,39 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>armors</name>
+    <description/>
+    <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+    <update version="0.0.1">
+      <file name="armors.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors/armors.xml"/>
+    </update>
+  </info>
+  <element name="Fangweave Armor" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FANGWEAVE_ARMOR">
+    <description>
+      <p>Fangweave is a studded leather armor made from the hides of various lycan predators, such as wolves, bears, and rats The armor is adorned with razor-sharp fangs and claws, which have been carefully sewn into the leather to create a menacing appearance. When worn, the armor seems to take on a life of its own, as if the spirits of the creatures from which it was made have been imbued into the armor. The armor is lightweight and flexible, allowing for maximum mobility in combat, and is designed specifically for Blood Hunters and members of the Order of the Lycan. The fangs and claws of the armor also grant the user additional protection against beasts magical pyhsical attacks, and provide the wearer with enhanced senses and tracking abilities. The Fangweave is a symbol of the wearer's mastery of the hunt, and a warning to any who would dare to cross their path.</p>
+      <p>Effect: When a Blood Hunter / Order of the Lycan class member wears the Fangweave, they gain the following benefits:</p>
+      <ul>
+        <li>The armor is a +1 magic armor.</li>
+        <li>The user gains a +2 bonus to their Survival and Perception skills.</li>
+        <li>The user can cast the <em>pass without trace</em> spell once per day without expending a spell slot.</li>
+      </ul>
+      <p class="indent"><i><b>Beast Warding:</b></i> The user gains resistance to all magical bludgeoning, piercing, and slashing damage dealt by beasts. In addition, the user has advantage on saving throws against being charmed, frightened, or paralyzed by beasts.</p>
+      <p class="indent"><i><b>The Grim Resolve:</b></i> Once per long rest, when the wearer would be reduced to 0 hit points, they can use their reaction to instead drop to 1 hit point and enter a state of deathly determination. While in this state, if the Crimson Rite actives, the wearer gains their melee attacks deal one additional Hemocraft Die damage equal to your active Rite's damage type (Hemocraft Die increases with the wearer's Blood Hunter Level), and gain temporary hit points equal to their Blood Hunter level + their Constitution modifier (minimum of 1). This state of deathly determination lasts for 1 minute or until the wearer is knocked unconscious or killed. After the state ends, the wearer suffers one level of exhaustion. The Grim Resolve ability reflects the Blood Hunter's unwavering determination and willingness to defy death itself in order to achieve their goals.</p>
+    </description>
+    <setters>
+			<set name="keywords">studded, leather</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+      <set name="attunement" addition="by a Order of the Lycan">true</set>
+			<set name="type" addition="studded leather">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Studded Leather</set>
+			<set name="enhancement">1</set>
+		</setters>
+    <rules>
+			<stat name="perception:misc" value="2" />
+      <stat name="survival:misc" value="2" />
+		</rules>
+  </element>
+</elements>
