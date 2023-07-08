@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
     <name>weapons</name>
@@ -16,11 +15,11 @@
         <li>The user gains temporary hit points equal to their Wisdom modifier whenever they score a critical hit against a creature with blood flowing through their veins (excluding constructs and undead).</li>
         <li>The user can spend 1 ki point as a bonus action to gain advantage on their next attack roll with the Fang of the Dhampir against a creature with blood flowing through their veins (excluding constructs and undead).</li>
         <li>Once per day, the user can choose to infuse the Fang of the Dhampir with their own blood. Doing so grants the following additional benefits until the next dawn:</li>
-      </ul>
-      <ul>
-        <li>The user gains resistance to necrotic damage.</li>
-        <li>The user gains advantage on Wisdom (Perception) checks that rely on smell.</li>
-        <li>The user's unarmed strikes and attacks with the Fang of the Dhampir deal an additional 1d4 necrotic damage to creatures with blood flowing through their veins (excluding constructs and undead).</li>
+        <ul>
+          <li>The user gains resistance to necrotic damage.</li>
+          <li>The user gains advantage on Wisdom (Perception) checks that rely on smell.</li>
+          <li>The user's unarmed strikes and attacks with the Fang of the Dhampir deal an additional 1d4 necrotic damage to creatures with blood flowing through their veins (excluding constructs and undead).</li>
+        </ul>
       </ul>
     </description>
     <setters>
@@ -34,21 +33,22 @@
       <set name="weapon">Dagger</set>
     </setters>
     <rules>
-	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
     </rules>
   </element>
 
- <element name="Sanguinary Bloodreaper" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SANGUINARY_BLOODREAPER">
+  <element name="Sanguinary Bloodreaper" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SANGUINARY_BLOODREAPER">
     <description>
-      <p>The Bloodreaper is a longsword made of a dark obsidian, almost vantablack in color. The blade is slightly curved and glimmers with a faint crimson sheen. The handle is wrapped in black leather, and the pommel is adorned with a red gemstone that seems to pulse with energy. The sword seems to sing a haunting melody when it's wielded in battle.</p>
+      <p>The Bloodreaper is a longsword made of dark obsidian, almost vantablack in color. The blade is slightly curved and glimmers with a faint crimson sheen. The handle is wrapped in black leather, and the pommel is adorned with a red gemstone that seems to pulse with energy. The sword seems to sing a haunting melody when wielded in battle.</p>
       <p>Effect: When a hexblade warlock wields the Bloodreaper, they gain the following benefits:</p>
       <ul>
-        <li>The sword is a +3 magic weapon made with obsidian.</li>
-        <li>Whenever the user lands a successful hit with the sword, they regain 1d8 + Constitution modifier.</li>
+        <li>The sword is a +3 magic weapon made of obsidian.</li>
+        <li>Whenever the user lands a successful hit with the sword, they regain 1d8 + Constitution modifier hit points.</li>
       </ul>
-      <p class="indent"><i><b>Blood Bond:</b></i> The sword has a special ability called Blood Bond. Whenever the user successfully hits a creature with the sword, they form a blood bond with that creature. While the bond is active, the user can use their bonus action to make a melee spell attack against the creature, dealing an additional 2d6 necrotic damage. The bond lasts for 24 hours or until the creature dies. If the user becomes unconscious, the bond vanishes immediately. This bonus action melee spell attack, doesn't count as "successful hit with the sword" so the user can't regain hit points via using bonus attack.</p>
-      <p class="indent"><i><b>Sanguine Strike:</b></i> The sword also has an ability called Sanguine Strike. Once per day, the user leaps forward and can choose to deal a massive amount of damage on a successful attack with this sword. Once per short or long rest, you can teleport up to 15 feet forward and stab this sword into the ground. After the jump; except all the creature away 5 feet to center point, everyone in this 15 feet circle knocks back 10 feet. The blade bursts out of the ground beneath the enemies. All targets within 15 feet range must make a Dexterity saving throw with a DC equal to 8+ your Proficiency bonus + your Charisma modifier, taking 6d6 necrotic damage on a failed saving throw, or half as much damage on a successful one. Creatures who succeeds the saving throw doesn't knocks back.</p>
-      <p class="indent"><i><b>Bloodletting:</b></i> The sword has a passive ability called Bloodletting. Whenever the user is struck by a melee attack, they can use their reaction to make a melee attack against the attacker with the Bloodreaper. If the attack hits, the attacker takes an extra 1d6 necrotic damage and the user regains hit points equal to the damage dealt. The user can only use this reaction once bonded with "Blood Bond", otherwise user can't use this reaction.</p>
+      <p class="indent"><i><b>Blood Bond:</b></i> The sword has a special ability called Blood Bond. Whenever the user successfully hits a creature with the sword, they form a blood bond with that creature. While the bond is active, the user can use their bonus action to make a melee spell attack against the creature, dealing an additional 2d6 necrotic damage. The bond lasts for 24 hours or until the creature dies. If the user becomes unconscious, the bond vanishes immediately. This bonus action melee spell attack does not count as a "successful hit with the sword," so the user can't regain hit points by using the bonus attack.</p>
+      <p class="indent"><i><b>Sanguine Strike:</b></i> The sword also has an ability called Sanguine Strike. Once per short or long rest, the user can teleport up to 15 feet forward and stab the sword into the ground. After the jump, all creatures within a 15-foot radius centered on the user are pushed 5 feet away from the center point, and all creatures in this area must make a Dexterity saving throw with a DC equal to 8 + the user's proficiency bonus + the user's Charisma modifier. On a failed saving throw, they take```xml
+      <p class="indent"><i><b>Sanguine Strike:</b></i> The sword also has an ability called Sanguine Strike. Once per short or long rest, the user can teleport up to 15 feet forward and stab the sword into the ground. After the jump, all creatures within a 15-foot radius centered on the user are pushed 5 feet away from the center point, and all creatures in this area must make a Dexterity saving throw with a DC equal to 8 + the user's proficiency bonus + the user's Charisma modifier. On a failed saving throw, they take 6d6 necrotic damage, or half as much damage on a successful one. Creatures who succeed on the saving throw are not pushed away.</p>
+      <p class="indent"><i><b>Bloodletting:</b></i> The sword has a passive ability called Bloodletting. Whenever the user is struck by a melee attack, they can use their reaction to make a melee attack against the attacker with the Bloodreaper. If the attack hits, the attacker takes an extra 1d6 necrotic damage, and the user regains hit points equal to the damage dealt. The user can only use this reaction when bonded with the "Blood Bond" ability; otherwise, the user can't use this reaction.</p>
     </description>
     <setters>
       <set name="keywords">longsword</set>
@@ -61,14 +61,15 @@
       <set name="weapon">Longsword</set>
     </setters>
   </element>
- <element name="Soulrender (Dormant)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOULRENDER_DORMANT">
+  
+  <element name="Soulrender (Dormant)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOULRENDER_DORMANT">
     <description>
       <p>Soulrender is a mesmerizing weapon of shadow and steel. Its sleek black blade glimmers with an otherworldly sheen, adorned with meticulously etched engravings that dance with ethereal light. The hilt is wrapped in supple, obsidian-hued leather, and a single crimson gemstone, pulsating with arcane energy, rests in the pommel. As you grip the scythe, a whispered voice echoes in your mind, the sentience of the weapon stirring with curiosity and anticipation.</p>
       <p>Effect: When a hexblade warlock wields the Soulreaper (Dormant), they gain the following benefits:</p>
       <ul>
         <li>As a melee weapon, Soulrender functions as a +1 magic longsword/longbow. As a ranged weapon, it functions as a longbow with a range of 150/600 feet.</li>
-        <li>Soulrender is a Sentient Weapon with an Intelligence score of 12, Wisdom score of 14 and Charisma score of 16. It can communicate telepathically with its wielder. It has hearing and darkvision to 120 ft.</li>
-	<li>While attuned to Soulrender, the Hexblade Warlocks and Oath of Vengeance Paladins gains a +1 bonus to their spell attack rolls and saving throw DC for spells cast using their Pact Magic and Divine Magic features.</li>
+        <li>Soulrender is a Sentient Weapon with an Intelligence score of 12, Wisdom score of 14, and Charisma score of 16. It can communicate telepathically with its wielder. It has hearing and darkvision to 120 ft.</li>
+        <li>While attuned to Soulrender, hexblade warlocks and Oath of Vengeance paladins gain a +1 bonus to their spell attack rolls and saving throw DC for spells cast using their Pact Magic and Divine Magic features.</li>
       </ul>
     </description>
     <setters>
@@ -82,22 +83,23 @@
       <set name="weapon">Longsword</set>
     </setters>
   </element>
- <element name="Soulrender (Awakened)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOULRENDER_AWAKENED">
+  
+  <element name="Soulrender (Awakened)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOULRENDER_AWAKENED">
     <description>
-      <p>Soulrender, has undergone a profound metamorphosis, embodying both elegance and menace. The blade emanates an incandescent glow, a fusion of radiant and shadowy energies that intertwine with every stroke. The engravings upon its surface shimmer with arcane brilliance, evoking a sense of forbidden power. The hilt, now enveloped in a wispy, ethereal mist, grants an ethereal connection between wielder and weapon. The sentience within the scythe resonates with heightened awareness, a guide and companion in the arcane mysteries.</p>
+      <p>Soulrender has undergone a profound metamorphosis, embodying both elegance and menace. The blade emanates an incandescent glow, a fusion of radiant and shadowy energies that intertwine with every stroke. The engravings upon its surface shimmer with arcane brilliance, evoking a sense of forbidden power. The hilt, now enveloped in a wispy, ethereal mist, grants an ethereal connection between wielder and weapon. The sentience within the scythe resonates with heightened awareness, a guide and companion in the arcane mysteries.</p>
       <p>Effect: When a hexblade warlock wields the Soulreaper (Awakened), they gain the following benefits:</p>
       <ul>
         <li>As a melee weapon, Soulrender functions as a +2 magic longsword/longbow. As a ranged weapon, it functions as a longbow with a range of 200/800 feet.</li>
-        <li>Soulrender is a Sentient Weapon with an Intelligence score of 12, Wisdom score of 14 and Charisma score of 16. It can communicate telepathically with its wielder. It has hearing and darkvision to 120 ft.</li>
-	<li>While attuned to Soulrender, the Hexblade Warlocks and Oath of Vengeance Paladins gains a +2 bonus to their spell attack rolls and saving throw DC for spells cast using their Pact Magic and Divine Magic features.</li>
+        <li>Soulrender is a Sentient Weapon with an Intelligence score of 12, Wisdom score of 14, and Charisma score of 16. It can communicate telepathically with its wielder. It has hearing and darkvision to 120 ft.</li>
+        <li>While attuned to Soulrender, hexblade warlocks and Oath of Vengeance paladins gain a +2 bonus to their spell attack rolls and saving throw DC for spells cast using their Pact Magic and Divine Magic features.</li>
       </ul>
-      <p>Effect (in addition to the Dormant Version benefits):</p>
+      <p>Additional Effects (in addition to the Dormant Version benefits):</p>
       <p class="indent"><i><b>Awakening Resistance:</b></i> The user gains resistance to necrotic damage.</p>
-      <p class="indent"><i><b>Heightened Curse:</b></i> When the user, uses the "Hexblade's Curse" feature, the critical range extends to 18 rather than 19.</p>
-      <p class="indent"><i><b>Divined Hex Strike:</b></i> Once per short rest, the wielder can use a bonus action to unleash an Divined Hex Strike. The next successful attack with Soulrender deals an additional 6d6 force or radiant damage.</p>    
+      <p class="indent"><i><b>Heightened Curse:</b></i> When the user uses the "Hexblade's Curse" feature, the critical range extends to 18 rather than 19.</p>
+      <p class="indent"><i><b>Divined Hex Strike:</b></i> Once per short rest, the wielder can use a bonus action to unleash a Divined Hex Strike. The next successful attack with Soulrender deals an additional 6d6 force or radiant damage.</p>    
     </description>
     <sheet action="Bonus Action" usage="1/Short Rest">
-	   <description>With Awakened version of Soulrender, your Hexblade's Curse feature evolves. Now, until the curse ends, you gain a +{{proficiency}} bonus to damage rolls against the cursed target and any attack roll you make against the cursed target is a critical hit on a roll of 18, 19 or 20 on the d20. If the cursed target dies, you regain {{hexblades curse:hp}}HP.</description>
+      <description>With the Awakened version of Soulrender, your Hexblade's Curse feature evolves. Now, until the curse ends, you gain a +{{proficiency}} bonus to damage rolls against the cursed target, and any attack roll you make against the cursed target is a critical hit on a roll of 18, 19, or 20 on the d20. If the cursed target dies, you regain {{hexblades curse:hp}} HP.</description>
     </sheet>
     <setters>
       <set name="keywords">longsword</set>
@@ -110,27 +112,28 @@
       <set name="weapon">Longsword</set>
     </setters>
     <rules>
-	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
     </rules> 
   </element>
- <element name="Soulrender (Exalted)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOULRENDER_EXALTED">
+  
+  <element name="Soulrender (Exalted)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOULRENDER_EXALTED">
     <description>
       <p>In its Exalted form, Soulrender stands as a pinnacle of divine craftsmanship and profane artistry. The blade is a tempest of intertwining shadows and radiant light, swirling in a mesmerizing dance that defies comprehension. Each etching upon the blade pulses with potent arcane energy, revealing the secrets of ancient magics. The hilt is now enshrouded in an ethereal mist, exuding an aura of raw power. As you grasp the scythe, the sentience within resonates with an amplified presence, an entity steeped in both wisdom and darkness, a willing partner in the pursuit of ascendance.</p>
       <p>Effect: When a hexblade warlock wields the Soulreaper (Exalted), they gain the following benefits:</p>
       <ul>
         <li>As a melee weapon, Soulrender functions as a +3 magic longsword/longbow. As a ranged weapon, it functions as a longbow with a range of 250/1000 feet.</li>
-        <li>Soulrender is a Sentient Weapon with an Intelligence score of 12, Wisdom score of 14 and Charisma score of 16. It can communicate telepathically with its wielder. It has hearing and darkvision to 120 ft.</li>
-	<li>While attuned to Soulrender, the Hexblade Warlocks and Oath of Vengeance Paladins gains a +3 bonus to their spell attack rolls and saving throw DC for spells cast using their Pact Magic and Divine Magic features.</li>
+        <li>Soulrender is a Sentient Weapon with an Intelligence score of 12, Wisdom score of 14, and Charisma score of 16. It can communicate telepathically with its wielder. It has hearing and darkvision to 120 ft.</li>
+        <li>While attuned to Soulrender, hexblade warlocks and Oath of Vengeance paladins gain a +3 bonus to their spell attack rolls and saving throw DC for spells cast using their Pact Magic and Divine Magic features.</li>
       </ul>
       <p>All Effects (in addition to the Dormant and Awakened Version benefits):</p>
       <p class="indent"><i><b>Exalted Immunity:</b></i> The user gains immunity to necrotic damage.</p>
-      <p class="indent"><i><b>Heightened Curse:</b></i> When the user, uses the "Hexblade's Curse" feature, the critical range extends to 18 rather than 19.</p>
-      <p class="indent"><i><b>Divined Hex Strike:</b></i> Once per short rest, the wielder can use a bonus action to unleash an Divined Hex Strike. The next successful attack with Soulrender deals an additional 6d6 force or radiant damage.</p>
+      <p class="indent"><i><b>Heightened Curse:</b></i> When the user uses the "Hexblade's Curse" feature, the critical range extends to 18 rather than 19.</p>
+      <p class="indent"><i><b>Divined Hex Strike:</b></i> Once per short rest, the wielder can use a bonus action to unleash a Divined Hex Strike. The next successful attack with Soulrender deals an additional 6d6 force or radiant damage.</p>
       <p class="indent"><i><b>Soul Devourer:</b></i> Once per long rest, the wielder can activate Soul Devourer. Upon hitting a target with Soulrender, they can choose to consume the target's soul, instantly killing them if they fail a DC 18 Charisma saving throw. If the target succeeds, they take an additional 10d6 necrotic damage.</p>
-      <p class="indent"><i><b>Shadow Blades of the Abundent Darkness:</b></i> The wielder gains the ability to summon Shadow Blades of the Abundent Darkness. Once per short rest, they can summon spectral blades that orbit around them, granting advantage on weapon attacks with Soulrender for 1 minute. There is 10 spectral blades that hovers with the Soulrender. The user can choose to use the blades for extra damage. Each blade deals additional 1d6 necrotic damage and can travel with attacks. After a blade used for an attack, the spectral blade that used, vanishes immediately. The user can use more than once blade in a single turn.</p>    
+      <p class="indent"><i><b>Shadow Blades of the Abundant Darkness:</b></i> The wielder gains the ability to summon Shadow Blades of the Abundant Darkness. Once per short rest, they can summon spectral blades that orbit around them, granting advantage on weapon attacks with Soulrender for 1 minute. There are 10 spectral blades that hover with Soulrender. The user can choose to use the blades for extra damage. Each blade deals an additional 1d6 necrotic damage and can travel with attacks. After a blade is used for an attack, the spectral blade vanishes immediately. The user can use more than one blade in a single turn.</p>    
     </description>
     <sheet action="Bonus Action" usage="1/Short Rest">
-	   <description>With Awakened and Exalted version of Soulrender, your Hexblade's Curse feature evolves. Now, until the curse ends, you gain a +{{proficiency}} bonus to damage rolls against the cursed target and any attack roll you make against the cursed target is a critical hit on a roll of 18, 19 or 20 on the d20. If the cursed target dies, you regain {{hexblades curse:hp}}HP.</description>
+      <description>With the Awakened and Exalted versions of Soulrender, your Hexblade's Curse feature evolves. Now, until the curse ends, you gain a +{{proficiency}} bonus to damage rolls against the cursed target, and any attack roll you make against the cursed target is a critical hit on a roll of 18, 19, or 20 on the d20. If the cursed target dies, you regain {{hexblades curse:hp}} HP.</description>
     </sheet>
     <setters>
       <set name="keywords">longsword</set>
@@ -143,7 +146,7 @@
       <set name="weapon">Longsword</set>
     </setters>
     <rules>
-	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
     </rules> 
   </element>
 </elements>
