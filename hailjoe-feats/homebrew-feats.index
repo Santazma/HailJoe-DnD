@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew Feats</name>
+		<description>Homebrew Feats that doesn't exist in the game and made by HailJoe</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="homebrew-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats.index" />
+		</update>
+	</info>
+	<files>
+		<file name="homebrew-feats.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats/homebrew-feats.xml" />
+	</files>
+</index>
