@@ -9,6 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/feats.index" />
+		<file name="homebrew-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats.index" />
+		<file name="revised-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/revised-feats.index" />
 	</files>
 </index>
