@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -97,9 +97,6 @@
       <p class="indent"><i><b>Heightened Curse:</b></i> When the user uses the "Hexblade's Curse" feature, the critical range extends to 18 rather than 19.</p>
       <p class="indent"><i><b>Divined Hex Strike:</b></i> Once per short rest, the wielder can use a bonus action to unleash a Divined Hex Strike. The next successful attack with Soulrender deals an additional 6d6 force or radiant damage.</p>    
     </description>
-    <sheet action="Bonus Action" usage="1/Short Rest">
-      <description>With the Awakened version of Soulrender, your Hexblade's Curse feature evolves. Now, until the curse ends, you gain a +{{proficiency}} bonus to damage rolls against the cursed target, and any attack roll you make against the cursed target is a critical hit on a roll of 18, 19, or 20 on the d20. If the cursed target dies, you regain {{hexblades curse:hp}} HP.</description>
-    </sheet>
     <setters>
       <set name="keywords">longsword</set>
       <set name="category">Magic Weapons</set>
@@ -131,9 +128,6 @@
       <p class="indent"><i><b>Soul Devourer:</b></i> Once per long rest, the wielder can activate Soul Devourer. Upon hitting a target with Soulrender, they can choose to consume the target's soul, instantly killing them if they fail a DC 18 Charisma saving throw. If the target succeeds, they take an additional 10d6 necrotic damage.</p>
       <p class="indent"><i><b>Shadow Blades of the Abundant Darkness:</b></i> The wielder gains the ability to summon Shadow Blades of the Abundant Darkness. Once per short rest, they can summon spectral blades that orbit around them, granting advantage on weapon attacks with Soulrender for 1 minute. There are 10 spectral blades that hover with Soulrender. The user can choose to use the blades for extra damage. Each blade deals an additional 1d6 necrotic damage and can travel with attacks. After a blade is used for an attack, the spectral blade vanishes immediately. The user can use more than one blade in a single turn.</p>    
     </description>
-    <sheet action="Bonus Action" usage="1/Short Rest">
-      <description>With the Awakened and Exalted versions of Soulrender, your Hexblade's Curse feature evolves. Now, until the curse ends, you gain a +{{proficiency}} bonus to damage rolls against the cursed target, and any attack roll you make against the cursed target is a critical hit on a roll of 18, 19, or 20 on the d20. If the cursed target dies, you regain {{hexblades curse:hp}} HP.</description>
-    </sheet>
     <setters>
       <set name="keywords">longsword</set>
       <set name="category">Magic Weapons</set>
