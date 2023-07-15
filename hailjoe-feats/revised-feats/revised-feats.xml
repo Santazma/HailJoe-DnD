@@ -21,7 +21,7 @@
       </description>
       <sheet>
         <description>On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.
-        Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -{{proficiency}} penalty to the attack roll. If the attack hits, you add +{{proficiency * 2}} to the attack's damage.</description>
+        Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a penalty equal to your proficiency bonus to the attack roll. If the attack hits, you add double amount of your proficiency bonus to the attack's damage.</description>
       </sheet>
     </element>
     <element name="Sharpshooter Revised" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_SHARPSHOOTER_REVISED">
@@ -38,7 +38,7 @@
       <sheet>
         <description>Attacking at long range doesn’t impose disadvantage on your ranged weapon attack rolls.
         Your ranged weapon attacks ignore half cover and three-quarters cover.
-        Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -{{proficiency}} penalty to the attack roll. If the attack hits, you add +{{proficiency}} to the attack’s damage.</description>
+        Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a penalty equal to your proficiency bonus to the attack roll. If the attack hits, you add your proficiency bonus to the attack’s damage.</description>
       </sheet>
     </element>
   </elements>
