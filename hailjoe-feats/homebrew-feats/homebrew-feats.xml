@@ -1,1 +1,28 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <elements>
+    <info>
+      <name>homebrew feats</name>
+      <description>Homebrew Feats from the HailJoe.</description>
+      <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+      <update version="0.0.1">
+        <file name="homebrew-feats.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats/homebrew-feats.xml" />
+      </update>
+    </info>
+    <element name="Ancestral Artisan Craftsman" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ANCESTRAL_ARTISAN_CRAFTSMAN">
+      <description>
+        <p>You have honed your blacksmithing skills coming from you heritage to a level of mastery, becoming a true artisan in the forge. Through countless hours of practice and dedication, you have gained unparalleled expertise in shaping metal and crafting extraordinary creations. As a Master Craftsman, your keen eye for detail and meticulous techniques set you apart from other blacksmiths.</p>
+        <ul>
+          <li>Whenever you make an Intelligence (History) check related to the origin of blacksmith crafting, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</li>
+          <li>Once per long rest, you can spend 8 hours and 250 gold pieces worth of materials to infuse a non-magical weapon or armor with a temporary magical property. The infused item gains a +1 bonus to attack rolls and damage rolls for 24 hours. This bonus increases to +2 at 10th level and +3 at 15th level. This temporary upgrade, lasts for 1 day.</li>
+          <li>You can also imbue your creations with elemental properties instead of pure upgrade. Once per long rest, instead of giving a pure upgrade, you can spend required time and resources to infuse a non-magical weapon or armor with elemental damage (e.g., fire, cold, or lightning) for 24 hours. The infused item gains a 1d6 bonus to damage rolls for 24 hours. You choose the damage type while forging. This bonus increases to 2d6 at 10th level and 3d6 at 15th level. This temporary upgrade, lasts for 1 day.</li>
+        </ul>
+      </description>
+      <sheet>
+        <description>Whenever you make an Intelligence (History) check related to the origin of blacksmith crafting, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+        Once per long rest, you can spend 8 hours and 250 gold pieces worth of materials to infuse a non-magical weapon or armor with a temporary magical property. The infused item gains a +1 bonus to attack rolls and damage rolls for 24 hours. This bonus increases to +2 at 10th level and +3 at 15th level. This temporary upgrade, lasts for 1 day.
+        You can also imbue your creations with elemental properties instead of pure upgrade. Once per long rest, instead of giving a pure upgrade, you can spend required time and resources to infuse a non-magical weapon or armor with elemental damage (e.g., fire, cold, or lightning) for 24 hours. The infused item gains a 1d6 bonus to damage rolls for 24 hours. You choose the damage type while forging. This bonus increases to 2d6 at 10th level and 3d6 at 15th level. This temporary upgrade, lasts for 1 day.</description>
+      </sheet>
+    </element>
+  </elements>
+</root>
