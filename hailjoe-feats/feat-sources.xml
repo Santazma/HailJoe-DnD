@@ -14,12 +14,12 @@
 		<setters>
 			<set name="abbreviation">HJ</set>
 			<set name="url">https://github.com/Santazma/HailJoe-DnD</set>
-			<set name="image">https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/D%26D%20Feats%20Image.png</set>
+			<set name="image">https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/DnD%20Feats%20Image.png</set>
 			<set name="errata">https://media.wizards.com/2018/dnd/downloads/DMG-Errata.pdf</set>
 			<set name="author" abbreviation="HJ" url="https://github.com/Santazma/HailJoe-DnD">HailJoe DnD</set>
 			<set name="official">true</set>
 			<set name="homebrew">true</set>
-			<set name="release">20140930</set>
+			<set name="release">20140931</set>
 		</setters>
 	</element>
 </elements>
