@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="feat-sources.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/feat-sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/sources.xml" />
 		</update>
 	</info>
-	<element name="HailJoe Feats" type="Source" source="Homebrew" id="ID_SOURCE_HAILJOE">
+	<element name="HailJoe Feats" type="Source" source="Homebrew" id="ID_SOURCE_HAILJOE_FEATS_SOURCE">
 		<description>
 			<p><strong>Everything a Dungeon Master needs to weave legendary stories for the world’s greatest roleplaying game.</strong></p>
 			<p>The <i>Dungeon Master’s Guide</i> provides the inspiration and the guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy.</p>
