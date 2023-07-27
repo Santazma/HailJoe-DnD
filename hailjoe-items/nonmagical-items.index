@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Nonmagical Items</name>
+		<description>Homebrew Nonmagical Items</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="wondrous.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/nonmagical-items.index" />
+		</update>
+	</info>
+	<files>
+		<file name="nonmagical-weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/nonmagical-items/nonmagical-weapons.xml" />
+	</files>
+</index>
