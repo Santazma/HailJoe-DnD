@@ -1,1 +1,26 @@
-
+<elements>
+  <info>
+    <name>weapons</name>
+    <description/>
+    <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+    <update version="0.0.5">
+      <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
+    </update>
+  </info>
+  <element name="Chain Blades" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_CHAIN_BLADES">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+		<description>
+			<p>Chain blades are exotic weapons that consist of a pair of connected blades attached to a chain, with a handle in the center. The wielder can wrap the chains around their arm to gain better control over the weapon's movements and attacks. The chain blades can be swung around in a wide arc, making them effective against multiple opponents.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">40</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand</set>
+      <set name="range">15</set>
+			<set name="damage" type="slashing">1d6</set>
+      <set name="versatile">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAIN_BLADES</set>
+		</setters>
+	</element>
+</elements>
