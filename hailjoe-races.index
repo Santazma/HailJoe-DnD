@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="voidborn-race.xml" url="https://raw.githubusercontent.com/[INSERT YOUR REPOSITORY NAME HERE]/[INSERT YOUR FILE NAME HERE]" />
+		<file name="race-atatsu.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-atatsu.xml" />
 	</files>
 </index>
