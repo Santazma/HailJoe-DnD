@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>HailJoe's Races</name>
-		<description>HailJoe's homebrew races.</description>
+		<name>HailJoe Items</name>
+		<description>Hailjoe's homebrew items</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
-			<file name="hailjoe-races.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races.index" />
+		<update version="0.0.4">
+			<file name="hailjoe-items.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-atatsu.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-atatsu.xml" />
+		<file name="weapons.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
+		<file name="wondrous.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous.index" />
+		<file name="armors.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors.index" />
 	</files>
 </index>
