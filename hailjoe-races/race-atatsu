@@ -3,7 +3,7 @@
     <info>
         <name>Atatsu</name>
         <update version="0.0.1">
-            <file name="race-atatsu" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/races/race-elf.xml" />
+            <file name="race-atatsu" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-atatsu" />
         </update>
     </info>
 
