@@ -1,8 +1,8 @@
 ?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Voidborn Race</name>
-		<description>A homebrew content for my campaign.</description>
+		<name>HailJoe's Race</name>
+		<description>A homebrew content of races for my campaign.</description>
 		<author url="https://openai.com/">ChatGPT, a language model trained by OpenAI</author>
 		<update version="1.0">
 			<file name="race-voidborn.xml" url="https://raw.githubusercontent.com/[INSERT YOUR REPOSITORY NAME HERE]/[INSERT YOUR FILE NAME HERE]" />
