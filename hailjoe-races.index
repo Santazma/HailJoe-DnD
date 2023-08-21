@@ -10,5 +10,6 @@
 	</info>
 	<files>
 		<file name="race-atatsu.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-atatsu.xml" />
+		<file name="race-sarujin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-sarujin.xml" />
 	</files>
 </index>
