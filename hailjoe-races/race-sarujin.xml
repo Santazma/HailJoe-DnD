@@ -1,1 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Sarujin</name>
+		<update version="0.0.1">
+			<file name="race-sarujin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-sarujin" />
+		</update>
+	</info>
 
+	<element name="Sarujin" type="Race" source="HailJoe's Races" id="ID_RACE_SARUJIN">
+		<description>
+			<p class="flavor">There’s magic in this world that goes beyond flashes, bangs, and jets of flame. An earthy magic of food, structure, and fellowship. It’s the magic of a thousand mundane hands raising a city from velvet snow. A magic woven by walking into the cruellest, biting blizzard and welcoming it as your home. These people understand that magic. The mightest yokai and grandest kaiju might be able to survive here, for a time, but only the sarujin can thrive. Beneath snow-capped peaks, where white drifts bury the chaos of rocks and streams, the formidable sarujin (sa-RU-jin) make cities of ice and snow. Well-adapted to colder climes, these thick-furred simian folk blend an innate skill for survival with a piercing intelligence, making homes in inhospitable environments.</p>
+			<h4>COMMUNITY AND CRAFTSMANSHIP</h4>
+			<p>Sarujin have a transformative effect on their environment, domesticating beasts, curtailing avalanches, and building sprawling towns. With singular intent, sarujin collaborate to form a unified community capable of raising a city from the icy wastes in a matter of months. Their realms can be found within vast glaciers and snow- fields, boasting soul-soothing hot springs and serving steaming winter cider fermented inside the trunks of hibernating trees.</p>
+			<p class="indent">Few sarujin structures are ancient; the ephemeral nature of ice and slow creeping of glaciers means only those structures in the coldest, flattest expanses are over a few hundred years old. This transient nature leads to sarujin valuing their kith and kin—their troop—over any single location, and has made them masters of ice-crafting. With saw and skin, Sarujin cut and melt ice just enough so that it forms solid bonds upon re-freezing. This method produces edifices of fantastical shapes; indeed, sarujin architecture is widely regarded as some of the most beautiful by the few foreign eyes to have seen it.</p>
+			<h4>TROOPS OF SOLITUDE</h4>
+			<p>Masters of ice-craft, sarujin guard their crafting secrets fiercely and rarely trade anything more than the essentials with other races. Though it is rare for a sarujin to leave its troop, the lure of master crafters specialising in metal and stone and tales of bestial, simian cousins can lead some into lives of adventure. Fewer still return to their kin, though those that do are warmly welcomed and can expect a peaceful old age in return for sharing the wisdom of their travels.</p>
+			<p class="indent">Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.</p>
+			<p class="indent">Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud.</p>
+			<h4>GODS, MONASTRY AND TRADITION</h4>
+			<p>The Sarujin monkeys, a tranquil and contemplative tribe, inhabit the secret realms of Wano, where their monasteries stand as symbols of their deep connection with the divine. Embracing a life of spiritual devotion, the Sarujin monks seek not only inner harmony but also a heightened understanding of the world's intricate tapestry. Guided by the whispers of the wind and the wisdom of ancient trees, they view their jungle home as a sacred sanctuary, where the spirits of the land and sky intertwine. The name "Sarujin" echoes the divine unity they strive to embody, an embodiment that radiates through their peaceful existence and profound insights into the natural world.</p>
+			<h4>SARUJIN NAMES</h4>
+			<p>A Sarujin's name is a reflection of their spiritual journey, carefully bestowed by the elder monks in accordance with ancient customs. Each name carries the essence of generations, passed down through the tranquil sanctuaries of Wano. A Sarujin's name is a tribute to their shared unity and harmony, representing the tribe's collective wisdom. Those who stray from the path of peace and dishonor their name find themselves disconnected from the tribe's essence, a fate more profound than mere absence.</p>
+			<ul class="unstyled">
+				<li><strong>Male Names:</strong> Akira, Daichi, Fujin, Hideo, Isamu, Kaito, Michio, Naoki, Renjiro, Shiro, Takeshi, Toru, Yosuke, Zenji</li>
+				<li><strong>Female Names:</strong> Ayame, Chihiro, Emiko, Hanae, Izumi, Kaori, Mei, Noriko, Sakura, Tomiko, Yuki, Yuri</li>
+				<li><strong>Unity Names:</strong> Asai (Morning Calm), Haruwa (Spring Harmony), Kazeji (Wind Whisper), Mizuyu (Water Serenity), Tokiwa (Evergreen)</li>
+			</ul>
+			<h4>SARUJIN TRAITS</h4>
+			<p>As a sarujin, you have the following traits:</p>			
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> A sarujin reaches maturity at 15 years of age and can live up to 80 years.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Sarujins stand between 5 and 7 feet tall and average about 120 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Thick Fur.</em></strong> You have resistance to cold damage.</p>
+			<p class="indent"><strong><em>Tool Proficiency.</em></strong> You gain proficiency with one tool of your choice.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language of your choice.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> Two main subraces of dwarves populate the worlds of D&amp;D: hill dwarves and mountain dwarves. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Akira, Daichi, Fujin, Hideo, Isamu, Kaito, Michio, Naoki, Renjiro, Shiro, Takeshi, Toru, Yosuke, Zenji</set>
+			<set name="names" type="female">Ayame, Chihiro, Emiko, Hanae, Izumi, Kaori, Mei, Noriko, Sakura, Tomiko, Yuki, Yuri</set>
+			<set name="names" type="unity">Asai (Morning Calm), Haruwa (Spring Harmony), Kazeji (Wind Whisper), Mizuyu (Water Serenity), Tokiwa (Evergreen)</set>
+			<set name="names-format">{{name}} {{unity}}</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Sarujin)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_THICK_FUR" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TOOL_PROFICIENCY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SARUJIN_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Thick Fur" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_THICK_FUR">
+		<description>
+			<p>You have resistance to cold damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to cold damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />>
+		</rules>
+	</element>
+	<element name="Tool Proficiency" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_TOOL_PROFICIENCY">
+		<description>
+			<p>You gain proficiency with the artisan’s tools of your choice.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency (Sarujin)" supports="Artisan tools"/>
+		</rules>
+	</element>
+	<element name="Sarujin Subrace" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_SARUJIN_SUBRACE">
+		<description>
+			<p>Two main subraces of dwarves populate the worlds of D&amp;D: hulking sarujins and springtail sarujins. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Sarujin Subrace" supports="Sarujin" />
+		</rules>
+	</element>
+
+	<element name="Hulking Sarujin" type="Sub Race" source="Hailjoe's Races" id="ID_SUB_RACE_HULKING_SARUJIN">
+		<supports>Sarujin</supports>
+		<description>
+			<p>Every bit as rugged, resolute, and unflinching as the frigid mountains they call home, hulking sarujin are known for their fierce, calculating minds and explosive physical strength. Rarely do hulking sarujin act swiftly. They prefer to assess, analyse, and contemplate before choosing a path. However, when moved to action, the mountains move with them.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed.</p>
+      <p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+      <p class="indent"><strong><em>Chest Beating.</em></strong> As a bonus action, you can pound your fists to your chest, causing a surge of adrenaline and valour. Until the start of your next turn, you have resistance to bludgeoning, slashing, and piercing damage, and you have advantage on Intimidation checks. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+      <p class="indent"><strong><em>Natural Cooks.</em></strong> With 1 sp worth of ingredients, you can prepare a meal for a number of Medium or smaller creatures equal to 2 + your proficiency bonus over the course of a short or a long rest. A creature who eats the meal at the end of the rest regains one spent Hit Die and gains temporary hit points equal to 1d6 + your proficiency bonus.</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d4">4'8"</set>
+			<set name="weight" modifier="2d6">95 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hulking Sarujin)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <stat name="speed:climb" value="speed" bonus="base" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_POWERFUL_BUILD" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CHEST_BEATING" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_COOKS" />
+		</rules>
+	</element>
+	<element name="Powerful Build" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet display="false">
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+  
+  <element name="Chest Beating" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_CHEST_BEATING">
+		<description>
+			<p>As a bonus action, you can pound your fists to your chest, causing a surge of adrenaline and valour. Until the start of your next turn, you have resistance to bludgeoning, slashing, and piercing damage, and you have advantage on Intimidation checks. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet display="true">
+			<description>With your bonus action, until the start of your next turn, you have resistance to bludgeoning, slashing, and piercing damage, and you have advantage on Intimidation checks for number of equal to your proficiency bonus.</description>
+		</sheet>
+	</element>
+
+  <element name="Natural Cooks" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_NATURAL_COOKS">
+		<description>
+			<p>With 1 sp worth of ingredients, you can prepare a meal for a number of Medium or smaller creatures equal to 2 + your proficiency bonus over the course of a short or a long rest. A creature who eats the meal at the end of the rest regains one spent Hit Die and gains temporary hit points equal to 1d6 + your proficiency bonus.</p>
+		</description>
+		<sheet display="true">
+			<description> A creature who eats your meal at the end of the rest regains one spent Hit Die and gains temporary hit points equal to 1d6 + your proficiency bonus.</description>
+		</sheet>
+	</element>
+
+	<element name="Springtail Sarujin" type="Sub Race" source="Hailjoe's Races" id="ID_SUB_RACE_SPRINGTAIL_SARUJIN">
+		<supports>Sarujin</supports>
+		<description>
+			<p>Vibrant, dynamic, and swift, springtail sarujin are the more sociable of their race. Their bonds of fellowship extend to the environment around them; they are masters of taming beasts of land and sky for both work and companionship. Rarely sitting still, springtails walk, speak, and trust quickly.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 feet, and you have a climbing speed equal to your walking speed. In addition, climbing on a creature larger than you doesn’t count as difficult terrain for you.</p>
+      <p class="indent"><strong><em>Skillful.</em></strong> You gain proficiency in your choice of two of the following skills: Acrobatics, Animal Handling, Nature, Performance, or Survival.</p>
+      <p class="indent"><strong><em>Beast Wardens.</em></strong> You have advantage on ability checks to tame or influence Beasts.</p>
+      <p class="indent"><strong><em>Springing Leap.</em></strong> You can calculate your jump distance using your Dexterity. When you do, your long jump covers a number of feet equal to your Dexterity score with or without a running start, and your high jump equals 3 + your Dexterity modifier (minimum of 0 feet) with or without a running start. Either way, each foot you clear on the jump costs a foot of movement.</p>
+      <p class="indent"><strong><em>Sturdy Tail.</em></strong> Your tail can support your weight and balance. When you make an ability check or saving throw to avoid being forcibly moved, you can use your reaction to curl your tail around an object within 5 feet of you that is attached to the ground or another sturdy surface. If you do so, you have advantage on that check or save.</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d4">5'</set>
+			<set name="weight" modifier="2d6">75 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Springtail Sarujin)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <stat name="innate speed" value="35" bonus="base" />
+      <stat name="speed:climb" value="speed" bonus="base" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SKILLFUL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEAST_WARDENS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPRINGING_LEAP" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_STURDY_TAIL" />
+		</rules>
+	</element>
+	<element name="Skillful" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_SKILLFUL">
+		<description>
+			<p>You gain proficiency in your choice of two of the following skills: Acrobatics, Animal Handling, Nature, Performance, or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency in your choice of two of the following skills: Acrobatics, Animal Handling, Nature, Performance, or Survival.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Skillful)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Skillful)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Beast Wardens" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_BEAST_WARDENS">
+		<description>
+			<p>You have advantage on ability checks to tame or influence Beasts.</p>
+		</description>
+		<sheet display="true">
+			<description>You have advantage on ability checks to tame or influence Beasts.</description>
+		</sheet>
+	</element>
+  <element name="Springing Leap" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_SPRINGING_LEAP">
+		<description>
+			<p>You can calculate your jump distance using your Dexterity. When you do, your long jump covers a number of feet equal to your Dexterity score with or without a running start, and your high jump equals 3 + your Dexterity modifier (minimum of 0 feet) with or without a running start. Either way, each foot you clear on the jump costs a foot of movement.</p>
+		</description>
+		<sheet display="true">
+			<description>You can calculate your jump distance using your Dexterity. When you do, your long jump covers a number of feet equal to your Dexterity score with or without a running start, and your high jump equals 3 + your Dexterity modifier (minimum of 0 feet) with or without a running start. Either way, each foot you clear on the jump costs a foot of movement.</description>
+		</sheet>
+	</element>
+  <element name="Sturdy Tail" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_STURDY_TAIL">
+		<description>
+			<p>Your tail can support your weight and balance. When you make an ability check or saving throw to avoid being forcibly moved, you can use your reaction to curl your tail around an object within 5 feet of you that is attached to the ground or another sturdy surface. If you do so, you have advantage on that check or save.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>You can use your reaction and have advantage on the ability checks or saving throws against forcibly moving.</description>
+		</sheet>
+	</element>
+</elements>
