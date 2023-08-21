@@ -58,9 +58,7 @@
 		<description>
 			<p>You have resistance to cold damage.</p>
 		</description>
-		<sheet>
-			<description>You have resistance to cold damage.</description>
-		</sheet>
+		<sheet display="false"/>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />>
 		</rules>
