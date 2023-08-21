@@ -60,7 +60,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 		</rules>
 	</element>
 	<element name="Tool Proficiency" type="Racial Trait" source="Hailjoe's Races" id="ID_RACIAL_TRAIT_TOOL_PROFICIENCY">
