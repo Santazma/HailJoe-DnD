@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -140,6 +140,41 @@
     </setters>
     <rules>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
+    </rules> 
+  </element>
+  <element name="Infernal Baneblade" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_INFERNAL_BANEBLADE">
+    <description>
+      <p>The Infernal Baneblade is a finely crafted longsword forged from the darkest of metals and adorned with intricate, ominous engravings. Its hilt is wrapped in deep crimson leather, and a sinister ruby gemstone is embedded in the pommel. The blade itself seems to flicker with an internal flame, casting eerie shadows even in the brightest light.</p>
+      p class="indent"><i><b>Effect:</b></i> When the user attunes to the Infernal Baneblade, they gain the following benefits:</p>
+      <ul>
+        <li>As a melee weapon, Infernal Baneblade functions as a +2 magic longsword</li>
+        <li>Soulrender is a Sentient Weapon with unknown stats. It can communicate telepathically with its wielder. It has hearing and Devil's Sight to 120 ft and he can see through the magical darkness.</li>
+      </ul>
+      <p>All Effects:</p>
+      <p class="indent"><i><b>Infernal Fury:</b></i> The sword deals an additional 2d6 fire damage on every successful hit, against fiends. This fire damage is considered magical and bypasses any fire resistance or immunity possessed by demons.</p>
+      <p class="indent"><i><b>Demonbane Enchantment:</b></i> The Infernal Baneblade has been imbued with the essence of demonic creatures during its creation. As a result, it grants its wielder advantage on all attack rolls against demons.</p>
+      <p class="indent"><i><b>Demonic Resonance:</b></i> When attuned to the Infernal Baneblade, the wielder gains resistance to fire damage, taking half damage from all fire-based attacks and effects.</p>
+      <p class="indent"><i><b>Hellfire Strike:</b></i> Once per long rest, the wielder can channel the sword's demonic energy to deliver a devastating Hellfire Strike. This strike envelops the blade in raging flames and allows the wielder to make a single melee attack with advantage. If the attack hits, it deals an additional 4d6 fire damage, and the target must make a DC 16 Dexterity saving throw or be set ablaze, taking an additional 2d6 fire damage at the start of each of its turns until it takes an action to extinguish the flames.</p>
+      <p class="indent"><strong><em>Curse of the Blood Hunger.</em></strong> This insidious curse, steeped in dark and ancient magic, ignites an unquenchable thirst within its unfortunate victim. From the moment it takes hold, an insatiable craving for the life essence of others consumes them. The cursed individual is driven to seek out fresh blood, be it from mortal veins or the pulsing hearts of creatures. As time goes on, the hunger grows more ravenous, slowly eroding their humanity and instilling a relentless predator's instinct. The curse distorts their thoughts, warping their once noble intentions into a primal obsession for sating their unending bloodlust. The cursed one is forever tormented by the dichotomy of their desires—a desperate longing for release from the curse's grip, while simultaneously reveling in the euphoria that accompanies the taste of warm, crimson life.</p>
+      <p class="indent">When the Infernal Baneblade is equipped and attuned, with each kill that has taken by this swors wearer, "Infernal Baneblade" absorbs the blood. The user rolls for DC 16 Constitution saving throw. On failing save, causing the crystals to glow on the item, and increase the wearer's attack and damage bonus by +1 but reducing his max HP by -5, up to a 5 stacks, resetting each day. The user may willingly choose to fail this save.</p>
+      <p class="indent">After a threshold of 5 is reached in one day, the sword would curse and bind itself to the wearer, making its effects permanent, but requiring a blood tax - either in the form of necrotic damage to the wearer, or forcing the character to kill a given number of creatures in required blood amount for every day. Each day, the wearer should kill at least 3 kills.</p>
+      <p class="indent">For each day that user neglects the dark urge, the wearer has to make an DC 19 Constitution saving throw and take 2d6 necrotic damage or half as much in a success. Whether success or fails, the user also lose his/her max hit points equal amount to the damage recieves. The only way to gain lost hit points in this way, is feeding the relentless blood urge. The user has to feed the item with blood in sufficient amount which is 3 medium sized humanoid creatures blood. This sufficient amount stacks when the user doesn't feeds the item.</p>
+      <p class="indent">If the item drains the wearers hit points to zero, it will consume their body and the sword becomes alive, a Chaotic Evil creature with equal amount the CR to the characters level or monster CR it just killed. It would echo the wearer's voice, but it would be a demonic entity that the ultimate demonic entities wishes. When the appeared demonic entity killed, the sword itself would return to being just as a sword, waiting to be used for its next victim.</p>
+      <p class="indent">The person who died in this manner, can't return back from the death. Upon with his/her death, the users soul merges with the Evil creature, and when the user tried to turn back to life, Evil creature will return back instead of him/her. The users will and soul, shatters in the dark existance and will no longer be able to return...</p>
+      <p class="indent">This item is impervious to magical effects and damage, even without the exception of a remove curse spell, which would normally detach the seal from its wearer and unattune from them automatically. But for this uncontrollable hunger, there is no solution except dying. Even after the dying, the users soul will be long gone. Only "Wish" spell could find a cure with an uncertain and unclear manner.</p>
+    </description>
+    <setters>
+      <set name="keywords">longsword</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="longsword">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">2</set>
+      <set name="weapon">Longsword</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
     </rules> 
   </element>
 </elements>
