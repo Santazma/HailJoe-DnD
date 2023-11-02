@@ -145,10 +145,10 @@
   <element name="Infernal Baneblade" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_INFERNAL_BANEBLADE">
     <description>
       <p>The Infernal Baneblade is a finely crafted longsword forged from the darkest of metals and adorned with intricate, ominous engravings. Its hilt is wrapped in deep crimson leather, and a sinister ruby gemstone is embedded in the pommel. The blade itself seems to flicker with an internal flame, casting eerie shadows even in the brightest light.</p>
-      p class="indent"><i><b>Effect:</b></i> When the user attunes to the Infernal Baneblade, they gain the following benefits:</p>
+      <p>class="indent"><i><b>Effect:</b></i> When the user attunes to the Infernal Baneblade, they gain the following benefits:</p>
       <ul>
         <li>As a melee weapon, Infernal Baneblade functions as a +2 magic longsword</li>
-        <li>Soulrender is a Sentient Weapon with unknown stats. It can communicate telepathically with its wielder. It has hearing and Devil's Sight to 120 ft and he can see through the magical darkness.</li>
+        <li>Infernal Baneblade is a Sentient Weapon with unknown stats. It can communicate telepathically with its wielder. It has hearing and Devil's Sight to 120 ft and he can see through the magical darkness.</li>
       </ul>
       <p>All Effects:</p>
       <p class="indent"><i><b>Infernal Fury:</b></i> The sword deals an additional 2d6 fire damage on every successful hit, against fiends. This fire damage is considered magical and bypasses any fire resistance or immunity possessed by demons.</p>
