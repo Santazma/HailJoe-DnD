@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -70,6 +70,31 @@
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
       <set name="charges">5</set>
+    </setters>
+  </element>
+
+  <element name="Lunar Predator's Claw Tattoo" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_LPCT">
+    <description>
+      <p>Produced by a special needle, this tattoo once was called as Eldritch Claw Tattoo. After a special regard becomes a demand for "Vague Trader" -a drow thy liveth in Saphentitte-, this magic tattoo transformed to depicts clawlike forms and to other jagged shapes.</p>
+      <p class="indent"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+      <p class="indent"><strong><em>Magical Strikes.</em></strong> While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes.</p>
+			<p class="indent"><strong><em>Lunar Predator's Maul.</em></strong> As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, on a hit, your melee attacks deal an extra force damage equal to your hemocraft die depending on your level. Once this feature is used, this bonus action can't be used again until the next dawn.</p>
+      <p class="indent"><strong><em>Lycanthropic Empowerment.</em></strong> The tattoo resonates with the primal power of lycanthropy, enhancing your bestial abilities. While empowered by the Eldritch Claw Tattoo, the features of your Lycan transformation gain the following benefits:</p>
+      <p class="indent"><strong><em>Enhanced Claws.</em></strong> The damage of your Crimson Rite-infused claw attacks, starts to shreds the skin and sunder the veins and starts victim to bleed up until thy remains bone and dust. This bleed effect, inflicts an extra necrotic damage equal to your hemocraft die depending on your level to its victim at the start of the victims turn. At the end of the victims turn, the victim rolls a Constitution Saving Throw equal to your hemocraft DC to end its effect.</p>
+      <p class="indent"><strong><em>Bloodhunter's Vigor.</em></strong> As an action, you can expend hit points equal to two times of your Bloodhunter level to regain one use of your Lunar Predator's Maul feature. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+      <p class="indent"><i><b>Curse of Eternal Bond.</b></i> Once attuned to this tattoo, the user finds that attempts to remove it are futile. Any effort to erase, dispel, or magically remove the tattoo is met with resistance, causing intense pain and leaving the tattoo untouched. Additionally, the tattoo cannot be covered or concealed by any means; it always remains visible.</p>
+      <p>All Effects of the Curse of the Eternal Bond:</p>
+      <p class="indent"><strong><em>Painful Removal.</em></strong> If the user attempts to magically remove or dispel the tattoo, they suffer excruciating pain, taking 12d6 psychic damage.</p>
+      <p class="indent"><strong><em>Inescapable Mark.</em></strong> Any attempts to cover or conceal the tattoo magically are unsuccessful. It always remains visible, even through illusions.</p>
+      <p class="indent"><strong><em>Persistent Presence.</em></strong> Even if the user dies and is brought back to life, independently from body, the tattoo reappears on their new or old body.</p>
+    </description>
+    <setters>
+      <set name="keywords">tattoo, unarmed</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement" addition="by an Order of the Lycan Bloodhunter">true</set>
     </setters>
   </element>
 </elements>
