@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.6">
+    <update version="0.0.7">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -142,6 +142,7 @@
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
     </rules> 
   </element>
+  
   <element name="Infernal Baneblade" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_INFERNAL_BANEBLADE">
     <description>
       <p>The Infernal Baneblade is a finely crafted longsword forged from the darkest of metals and adorned with intricate, ominous engravings. Its hilt is wrapped in deep crimson leather, and a sinister ruby gemstone is embedded in the pommel. The blade itself seems to flicker with an internal flame, casting eerie shadows even in the brightest light.</p>
@@ -176,5 +177,25 @@
     <rules>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
     </rules> 
+  </element>
+  
+  <element name="Rhapsody" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_RHAPSODY">
+    <description>
+      <p>This slender dagger, adorned with intricate ruBİES that shimmer like stardust, is a masterpiece crafted by an enigmatic artisan. The Rhapsody - Dagger possesses mystical properties that unfold in a majestic symphony of power and grace.</p>
+      <p>All Effects:</p>
+      <p class="indent"><i><b>Scarlet Remittance:</b></i> Gain a +1 bonus to Attack Rolls, damage, and Spell Save DC for every foe you slay, up to a maximum of +3.</p>
+      <p class="indent"><i><b>Sweet Bloodletting:</b></i> Possibly inflict Bleeding when hitting a creature with this weapon while Hiding or Invisible.</p>
+      <p class="indent"><i><b>Bleeding Effect:</b></i> Takes 1d4 Slashing damage at the start of each turn and has Disadvantage on Constitution Saving Throws. At the end of the turn, creatures whose are bleeding, can roll Constitution Saving Throw equal to your spell save DC to end the bleeding effect. Can be removed by healing.</p>
+    </description>
+    <setters>
+      <set name="keywords">dagger</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="dagger">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="weapon">Dagger</set>
+    </setters> 
   </element>
 </elements>
