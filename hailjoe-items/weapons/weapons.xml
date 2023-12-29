@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -196,6 +196,25 @@
       <set name="rarity">Very Rare</set>
       <set name="enhancement">2</set>
       <set name="weapon">Dagger</set>
+    </setters> 
+  </element>
+
+  <element name="Sword of Answering (Replier)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SOA_REPLIER">
+    <description>
+      <p>In the world of Aiwelen, only nine of these blades are known to exist. Each is patterned after the legendary sword Fragarach, which is variously translated as "Final Word." Each of the nine swords has its own name and alignment, and each bears a different gem in its pommel.</p>
+      <p>Replier is a True Neutral aligned sword, has a peridot set in its pommel.</p>
+      <p>Replier does not desire for its users to become attuned to itself. However, in exchange, the sword can only be held by fighters who are True Neutral aligned.</p>
+      <p class="indent"><i><b>Effects:</b></i> You gain a +3 bonus to attack and damage rolls made with this sword. In addition, while you hold the sword, you can use your reaction to make one melee attack with it against any creature in your reach that deals damage to you. You have advantage on the attack roll, and any damage dealt with this special attack ignores any damage immunity or resistance the target has.</p>
+    </description>
+    <setters>
+      <set name="keywords">longsword</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="longsword">Weapon</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Legendary</set>
+      <set name="enhancement">3</set>
+      <set name="weapon">Longsword</set>
     </setters> 
   </element>
 </elements>
