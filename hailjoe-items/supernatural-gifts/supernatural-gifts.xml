@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<info>
-		<name>Supernatural Gifts</name>
-		  <update version="0.0.1">
-			  <file name="items-gifts.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/items/items-gifts.xml" />
-		  </update>
-	</info>
+    <info>
+        <name>Supernatural Gifts</name>
+        <update version="0.0.1">
+            <file name="items-gifts.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/items/items-gifts.xml" />
+        </update>
+    </info>
     <element name="Blessing of Lunar Father" type="Magic Item" source="Dungeon Master’s Guide" id="ID_HAILJOE_MAGIC_ITEM_BLESSING_OF_LUNAR_FATHER">
-		  <description>
-			  <p>After consuming the heart of the defeated Lunar Lycanthropy Werewolf Alpha, "The All Devourer" undergoes a transformative experience, gaining a potent mutational power-up with both benefits and drawbacks.</p>
-        <p class="indent"><i><b>Enhanced Vigor:</b></i> Your Constitution score increases by +2, maximum of 22, and you gain advantage on Constitution saving throws.</p>
-        <p class="indent"><i><b>Necrotic Resilience:</b></i> You gain resistance to necrotic damage, and you can use your reaction to absorb necrotic energy, healing for half the damage you would have taken.</p>
-        <p class="indent"><i><b>Uncontrollable Transformation:</b></i> During periods of a full moon or when exposed to intense moonlight, you must make a DC 16 Constitution saving throw. On a failure, you unwillingly transform into a werewolf for 1 hour, losing control of your actions. Your alignment temporarily shifts to chaotic evil nonetheless during these transformations.</p>
-        <p class="indent"><i><b>Lunar Dependency:</b></i> You become reliant on moonlight to maintain your strength. In the absence of moonlight, you suffer a -2 penalty to all of your ability scores and deal 1d8 necrotic damage to yourself at the start of each of your turns. You can't benefit long or short rest in this situation. This effect is negated as soon as you are exposed to moonlight again.</p>
-		  </description>
-		  <setters>
-			  <set name="category">Supernatural Gifts</set>
-			  <set name="type">Blessing</set>
-			  <set name="slot">gift</set>
-		  </setters>
-		  <rules>
-			  <stat name="constitution" value="2" />
-			  <stat name="constitution:max" value="22" bonus="base" />
-        <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
-		  </rules>
+        <description>
+            <p>After consuming the heart of the defeated Lunar Lycanthropy Werewolf Alpha, "The All Devourer" undergoes a transformative experience, gaining a potent mutational power-up with both benefits and drawbacks.</p>
+            <p class="indent"><i><b>Enhanced Vigor:</b></i> Your Constitution score increases by +2, maximum of 22, and you gain advantage on Constitution saving throws.</p>
+            <p class="indent"><i><b>Necrotic Resilience:</b></i> You gain resistance to necrotic damage, and you can use your reaction to absorb necrotic energy, healing for half the damage you would have taken.</p>
+            <p class="indent"><i><b>Uncontrollable Transformation:</b></i> During periods of a full moon or when exposed to intense moonlight, you must make a DC 16 Constitution saving throw. On a failure, you unwillingly transform into a werewolf for 1 hour, losing control of your actions. Your alignment temporarily shifts to chaotic evil nonetheless during these transformations.</p>
+            <p class="indent"><i><b>Lunar Dependency:</b></i> You become reliant on moonlight to maintain your strength. In the absence of moonlight, you suffer a -2 penalty to all of your ability scores and deal 1d8 necrotic damage to yourself at the start of each of your turns. You can't benefit long or short rest in this situation. This effect is negated as soon as you are exposed to moonlight again.</p>
+        </description>
+        <setters>
+            <set name="category">Supernatural Gifts</set>
+            <set name="type">Blessing</set>
+            <set name="slot">gift</set>
+        </setters>
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="constitution:max" value="22" bonus="base" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
     </element>
 </elements>
