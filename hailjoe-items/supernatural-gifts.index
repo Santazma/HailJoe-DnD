@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-	<info>
-		<name>Supernatural Gifts</name>
-		<description>Homebrew Blessings and Gifts</description>
-		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
-			<file name="supernatural-gifts" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts.index" />
-		</update>
-	</info>
-	<files>
-		<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml" />
-	</files>
+    <info>
+        <name>Supernatural Gifts</name>
+        <description>Homebrew Blessings and Gifts</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+        <update version="0.0.1">
+            <file name="supernatural-gifts" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts.index" />
+        </update>
+    </info>
+    <files>
+        <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
+    </files>
 </index>
