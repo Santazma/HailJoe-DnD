@@ -6,7 +6,7 @@
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
-    <element name="Blessing of Lunar Father" type="Magic Item" source="Dungeon Master’s Guide" id="ID_HAILJOE_MAGIC_ITEM_BLESSING_OF_LUNAR_FATHER">
+    <element name="Blessing of Lunar Father" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MAGIC_ITEM_BLESSING_OF_LUNAR_FATHER">
         <description>
             <p>After consuming the heart of the defeated Lunar Lycanthropy Werewolf Alpha, "The All Devourer" undergoes a transformative experience, gaining a potent mutational power-up with both benefits and drawbacks.</p>
             <p class="indent"><i><b>Enhanced Vigor:</b></i> Your Constitution score increases by +2, maximum of 22, and you gain advantage on Constitution saving throws.</p>
