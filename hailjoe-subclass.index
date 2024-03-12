@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>HailJoe Races</name>
-		<description>Hailjoe's homebrew races</description>
+		<name>HailJoe Subclasses</name>
+		<description>Hailjoe's homebrew subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
-			<file name="hailjoe-races.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races.index" />
+		<update version="0.0.1">
+			<file name="hailjoe-subclass.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-atatsu.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-atatsu.xml" />
-		<file name="race-sarujin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-sarujin.xml" />
+		<file name="hailjoe-subclass-cleric.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-cleric.index" />
 	</files>
 </index>
