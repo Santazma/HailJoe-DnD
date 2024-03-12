@@ -5,7 +5,7 @@
 		<description>Homebrew Cleric Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="hailjoe-subclass-cleric.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
+			<file name="hailjoe-subclass-cleric.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-cleric.index" />
 		</update>
 	</info>
 	<files>
