@@ -2,10 +2,10 @@
 <index>
 	<info>
 		<name>Weapons</name>
-		<description>Homebrew Weapons</description>
+		<description>Homebrew C</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="weapons.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
+			<file name="hailjoe-subclass-cleric.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons.index" />
 		</update>
 	</info>
 	<files>
