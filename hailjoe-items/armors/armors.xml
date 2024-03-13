@@ -4,7 +4,7 @@
     <name>armors</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="armors.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors/armors.xml"/>
     </update>
   </info>
@@ -35,6 +35,34 @@
       <stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
       <stat name="perception:misc" value="2" />
       <stat name="survival:misc" value="2" />
+    </rules>
+  </element>
+
+  <element name="Armor of Wilds" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ARMOR_OF_WILDS">
+    <description>
+      <p>This finely crafted armor resonates with the essence of nature itself, designed specifically to empower those who are attuned to the wilds. It embodies the harmony between the natural world and the druid who wears it, granting protection without compromising the connection to the primal forces.</p>
+      <p>Effect: When a druid class member wears the Fangweave, they gain the following benefits:</p>
+      <ul>
+        <li>The armor is a +1 magic armor.</li>
+        <li>The user gains a +1 bonus to their Survival and Nature skills.</li>
+        <li>The user gains bonus +4 AC in Wild Shape form, regardless from the animal type.</li>
+      </ul>
+    </description>
+    <setters>
+			<set name="keywords">hide</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+      			<set name="attunement" addition="by a Druid">true</set>
+			<set name="type" addition="hide">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Studded Leather</set>
+			<set name="enhancement">1</set>
+    </setters>
+    <rules>
+      <stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+      <stat name="nature:misc" value="1" />
+      <stat name="survival:misc" value="1" />
     </rules>
   </element>
 </elements>
