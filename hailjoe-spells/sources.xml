@@ -5,7 +5,7 @@
 			<file name="sources.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/sources.xml" />
 		</update>
 	</info>
-	<element name="HailJoe Subclasses" type="Source" source="Homebrew" id="ID_SOURCE_HAILJOE_SUBCLASSES_SOURCE">
+	<element name="HailJoe Spells" type="Source" source="Homebrew" id="ID_SOURCE_HAILJOE_SPELLS_SOURCE">
 		<description>
 			<p><strong>Everything a Dungeon Master needs to weave legendary stories for the world’s greatest roleplaying game.</strong></p>
 			<p>The <i>Dungeon Master’s Guide</i> provides the inspiration and the guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy.</p>
