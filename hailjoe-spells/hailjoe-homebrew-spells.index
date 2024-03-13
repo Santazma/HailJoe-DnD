@@ -5,10 +5,10 @@
 		<description>HailJoe's Homebrew Spells</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="hailjoe-subclass-cleric.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-cleric.index" />
+			<file name="hailjoe-homebrew-spells.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells.index" />
 		</update>
 	</info>
 	<files>
-		<file name="cleric-void.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-cleric/cleric-void.xml" />
+		<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 	</files>
 </index>
