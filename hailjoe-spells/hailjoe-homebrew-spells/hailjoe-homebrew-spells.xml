@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Spells</name>
+        <name>HailJoe's Homebrew Spells</name>
         <update version="0.0.1">
             <file name="spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
         </update>
