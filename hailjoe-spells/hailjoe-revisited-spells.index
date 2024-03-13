@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Homebrew Spells</name>
-		<description>HailJoe's Homebrew Spells</description>
+		<name>Revisited Spells</name>
+		<description>HailJoe's Revisited, Already Existing Spells with Changes</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
 			<file name="hailjoe-homebrew-spells.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells.index" />
