@@ -5,7 +5,7 @@
 		<description>Hailjoe's homebrew and revised spells</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="hailjoe-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats.index" />
+			<file name="hailjoe-spells.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells.index" />
 		</update>
 	</info>
 	<files>
