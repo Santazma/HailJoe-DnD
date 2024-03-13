@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -95,6 +95,51 @@
 			<set name="type">Tattoo</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement" addition="by an Order of the Lycan Bloodhunter">true</set>
+    </setters>
+  </element>
+
+  <element name="Coin of Malakhar" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_COIN_OF_MALAKHAR">
+    <description>
+      <p>This silver coin has the head of a raven on one side and a dagger on the other. On a roll you would normally use a d20, flip a coin instead. Heads is a critical success (natural 20), tails is a critical fail (natural 1). Once you use this coin instead of a normal roll, you can’t do so again until you finish a short rest.</p>
+    </description>
+    <setters>
+      <set name="keywords">coin</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Very Rare</set>
+    </setters> 
+  </element>
+
+  <element name="Flask of Rivers" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FLASK_OF_RIVERS">
+    <description>
+      <p>This common looking metal flask is always cool when you touch it. When opened and poured, this flask produces up to 2 gallons of cold and clear water. Once emptied, the flask refills in 1 hour.</p>
+      <p>Any water poured from this flask that isn’t consumed within 1 hour turns into sand.</p>	    
+    </description>
+    <setters>
+      <set name="keywords">flask</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+
+  <element name="Tent of Traveler" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_TENT_OF_TRAVELER">
+    <description>
+      <p>The Tent of Traveler looks like a regular two-person tent. Setting up the tent takes ten minutes of effort. But the tent is bigger on the inside. Upon stepping through the entrance flap, you find yourself in a larger than expected space - containing 300 sq ft of floor room and a 15ft high ceiling, with a small kitchen, separated outhouse, and a central hearth and sitting area. There are enough beds and accommodations for 6 people to sleep comfortably, even if more may fit physically.</p>
+      <p>Rain will not enter through the roof and the temperature inside the tent is always warm and comfortable, never too hot or too cold.</p>
+      <p>Additionally, the tent has a number of furnishings and furniture which are bound to it; these will remain inside at all times, and cannot be removed. If destroyed, the furniture will reappear the next time the tent is set up. Any objects left inside will be dumped out after the tent is dismantled. The Tent of Traveler can be destroyed like a mundane ordinary tent.</p>
+    </description>
+    <setters>
+      <set name="keywords">tent</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Uncommon</set>
     </setters>
   </element>
 </elements>
