@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
+		<file name="hailjoe-revisited-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-revisited-spells/hailjoe-revisited-spells.xml" />
 	</files>
 </index>
