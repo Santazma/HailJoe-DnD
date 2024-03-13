@@ -230,4 +230,22 @@
       <set name="weapon">Longsword</set>
     </setters> 
   </element>
+
+  <element name="Wormfang Dagger" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WORMFANG_DAGGER">
+    <description>
+      <p>A Wormfang Dagger is a weapon whose blade was made from the tooth of a dead sandworm from the south deserts of Malevolent Expanse. Wormfang Daggers are a highly valued choice of weapons for renowned assassins but they are really hard to come by.</p>
+      <p>It is a +1 dagger that deals an additional 1d6 poison damage to any creature hit by it. Once per day, the dagger’s sand tremors ability can be activated by using an action.</p>
+      <p class="indent"><i><b>Sand Tremors:</b></i> You cause a tremor in the ground around you in a ten foot radius. Each creature other than you in that area must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is sand, it becomes difficult terrain for 1 hour.</p>
+    </description>
+    <setters>
+      <set name="keywords">dagger</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="dagger">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">1</set>
+      <set name="weapon">Dagger</set>
+    </setters> 
+  </element>		
 </elements>
