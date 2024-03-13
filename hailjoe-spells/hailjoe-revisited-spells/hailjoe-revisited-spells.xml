@@ -4,7 +4,7 @@
         <name>HailJoe's Revisited Spells</name>
         <description>HailJoe's Revisited, Already Existing Spells with Changes.</description>
         <update version="0.0.1">
-            <file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
+            <file name="hailjoe-revisited-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-revisited-spells/hailjoe-revisited-spells.xml" />
         </update>
     </info>
 
