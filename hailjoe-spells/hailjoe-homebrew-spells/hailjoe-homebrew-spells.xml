@@ -2,28 +2,141 @@
 <elements>
     <info>
         <name>HailJoe's Homebrew Spells</name>
+        <description>Homebrew Feats from the HailJoe.</description>
         <update version="0.0.1">
-            <file name="spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
+            <file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
         </update>
     </info>
 
-    <element name="Abi-Dalzim’s Horrid Wilting" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ABI_DALZIMS_HORRID_WILTING">
-        <supports>Sorcerer, Wizard, Spell Saving Throw</supports>
+    <element name="Corpse Explosion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CORPSE_EXPLOSION">
+        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
         <description>
-            <p>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</p>
-            <p class="indent">Nonmagical plants in the area that aren’t creatures, such as trees and shrubs, wither and die instantly.</p>
+            <p>At your command, the lifeless body of a recently deceased creature swiftly swells and bursts into a horrifying explosion. You choose a corpse of a creature that has been lifeless for no more than 1 minute that you can see within range, triggering an explosion. Each creature within a 10-footradius sphere centered on that corpse must make a Dexterity saving throw. A target takes 3d6 necrotic damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent">The size of the explosion increases by 5 feet for every size larger than medium.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
         </description>
         <setters>
             <set name="keywords">necrotic</set>
-            <set name="level">8</set>
+            <set name="level">1</set>
             <set name="school">Necromancy</set>
             <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
-            <set name="range">150 feet</set>
+            <set name="range">120 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a bit of sponge</set>
+            <set name="materialComponent">a corpse, destroyed upon casting</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shadow Bending" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOW_BENDING">
+        <supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You manipulate the shadow of a creature you can see within range according to your will. The target must make a Wisdom saving throw against your spell save DC or its shadow animates into a malevolent attacker. For the duration, the shadow stays attached to the target, sharing its space and constantly hindering it, granting advantage on all attacks against it. On each of your turns for the duration, you can use your action to deal 2d6 necrotic damage to the target automatically.</p>
+            <p class="indent">At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">2</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a candle</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Wisdom of Taltharion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WISDOM_OF_TALTHARION">
+        <supports>Bard, Cleric, Warlock, Wizard</supports>
+        <description>
+            <p>For the duration, you gain the ability to read non-magical texts at a rate of 100 pages per minute. After the spell has ended, you can remember the details of what you read as if you had read it normally with a clear mind. You must be able to comprehend the language in which a text is written in order to utilize this spell.</p>
+            <p class="indent">Additionally, you can combine this spell with any other spell that enables you to read and understand texts written in languages you don’t know.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Hour</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a book that is written at least 50 years ago and a small bag of coffee beans</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Rapid Decay" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RAPID_DECAY">
+        <supports>Cleric, Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>You reach out and touch the corpse of a creature. Within a minute, the corpse rapidly begins to decompose. It becomes covered in fungi and mold, but during this process, no odor emanates. All the water in the body disappears, and at the end of the duration, only a handful of dust remains from the corpse.</p>
+            <p class="indent">The spell’s target corpse count increases when you reach 5th level 4, 11th level 16, and 17th level it becomes a pile of corpses with indefinite amount.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Macabre Choir" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_MACABRE_CHOIR">
+        <supports>Bard, Wizard</supports>
+        <description>
+            <p>Using the instrument in your hand, you produce a simple sound. Within the range of the spell, at the location you pointed to, five barely visible, translucent ghostly figures appear.</p>
+            <p class="indent">These figures, aside from their pale colors, resemble well-dressed bards and play the songs you desire with perfect flawlessness throughout the duration.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a musical instrument</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Timebane" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TIMEBANE">
+        <supports>Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. If the save fails by 5 or more, the target also ages 1d4 × 10 years. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+            <p class="indent">The aging effect can be reversed with a greater restoration spell, but only within 24 hours of its occurrence. Otherwise, it can only be reversed with the "Wish" spell.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a hourglass</set>
             <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>
