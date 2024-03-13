@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>HailJoe's Homebrew Spells</name>
-        <description>Homebrew Feats from the HailJoe.</description>
+        <description>Newmade Homebrew Spells from the HailJoe.</description>
         <update version="0.0.1">
             <file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
         </update>
