@@ -191,19 +191,6 @@
 		<supports>Cleric, Druid, Warlock</supports>
 		<description>
 			<p>You point at a non-magical weapon within range and curse it with the bane of blades. The weapon begins to rust and corrode, losing its edge and becoming useless in combat. For the duration of the spell, targeted nonmagical weapons that are held by creatures or that are not being worn or carried take damage from rust and corrosion at the end of their wielder's turn. The number of turns a weapon can withstand this spell without breaking depends on the material of the weapon, as shown in the table below:</p>
-			<table>
-				<thead>
-					<tr><td class="left">Material</td><td>Durability(Turns)</td></tr>
-				</thead>
-				<tr><td class="left">Wood</td><td>1</td></tr>
-				<tr><td class="left">Bone</td><td>1</td></tr>
-				<tr><td class="left">Stone</td><td>2</td></tr>
-				<tr><td class="left">Iron</td><td>3</td></tr>
-				<tr><td class="left">Bronze</td><td>4</td></tr>
-				<tr><td class="left">Silver</td><td>4</td></tr>
-				<tr><td class="left">Gold</td><td>5</td></tr>
-				<tr><td class="left">Steel</td><td>5</td></tr>
-			</table>
 			<p class="indent">If a weapon's durability is reduced to zero, it is destroyed. If the wielder of a weapon affected by this spell leaves the area of the spell, the spell ends for the weapon, and the weapon reverts back to its undamaged version. If a weapon is destroyed before the end of the spell, it is destroyed permanently. Additionally, if a weapon is thrown or moved outside of the spell's area of effect, the spell ends on that weapon. You cannot target the same weapon multiple times with this spell, even if you cast it with a higher-level spell slot. If you cast this spell using a spell slot of 3rd level or higher, the number of weapons you can target increases by one for each spell slot level above 2nd.</p>
 		</description>
 		<setters>
@@ -300,15 +287,6 @@
 			<p class="indent">You can ask five specific questions about future events or seek general guidance on how to prepare for the future. The GM provides answers to these questions based on the results of the divination, although the answers may be cryptic or vague.</p>
 			<p class="indent">Roll a d100 to see the prophetic capabilities of the carcass you are inspecting. If you are using the carcass of a recently dead humanoid, you don't need to roll; the roll is assumed to be a 100 without a roll. Any carcass this spell is cast on cannot be revived with a spell below 7th level. Then roll an Insight check to interpret the results. Interpretation of the results gets harder as the depth of the knowledge you seek increases.</p>
 			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the number of questions you can ask increases by 1 for each spell slot above 7th level.</p>
-			<table>
-				<thead>
-					<tr><td class="left">Roll Result</td><td>DC</td><td>Result Description</td></tr>
-				</thead>
-				<tr><td class="left">1-25</td><td>15</td><td>Vague or ambiguous information, or information that is difficult to interpret or act on</td></tr>
-				<tr><td class="left">26-50</td><td>17</td><td>General information about future events or circumstances, with some specific details</td></tr>
-				<tr><td class="left">51-90</td><td>20</td><td>Specific information about future events, with clear details about time, place, and participants</td></tr>
-				<tr><td class="left">91+</td><td>25</td><td>Divine insight into the future, revealing hidden truths and secrets that are difficult to discover through other means</td></tr>
-			</table>
 		</description>
 		<setters>
 			<set name="keywords"></set>
