@@ -3,7 +3,7 @@
     <info>
         <name>HailJoe's Homebrew Spells</name>
         <description>Newmade Homebrew Spells from the HailJoe.</description>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
         </update>
     </info>
@@ -202,8 +202,8 @@
 				<tr><td class="left">Bronze</td><td>4</td></tr>
 				<tr><td class="left">Silver</td><td>4</td></tr>
 				<tr><td class="left">Gold</td><td>5</td></tr>
-                <tr><td class="left">Steel</td><td>5</td></tr>
-			</table>
+                 		<tr><td class="left">Steel</td><td>5</td></tr>
+	    </table>
             <p class="indent">If a weapon's durability is reduced to zero, it is destroyed. If the wielder of a weapon affected by this spell leaves the area of the spell, the spell ends for the weapon, and the weapon reverts back to its undamaged version. If a weapon is destroyed before the end of the spell, it is destroyed permanently. Additionally, if a weapon is thrown or moved outside of the spell's area of effect, the spell ends on that weapon. You cannot target the same weapon multiple times with this spell, even if you cast it with a higher-level spell slot. If you cast this spell using a spell slot of 3rd level or higher, the number of weapons you can target increases by one for each spell slot level above 2nd.</p>
         </description>
         <setters>
@@ -308,7 +308,7 @@
 				<tr><td class="left">26-50</td><td>17</td><td>General information about future events or circumstances, with some specific details</td></tr>
 				<tr><td class="left">51-90</td><td>20</td><td>Specific information about future events, with clear details about time, place, and participants</td></tr>
 				<tr><td class="left">91+</td><td>25</td><td>Divine insight into the future, revealing hidden truths and secrets that are difficult to discover through other means</td></tr>
-			</table>
+	    </table>
         </description>
         <setters>
             <set name="keywords"></set>
@@ -357,7 +357,7 @@
 	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the amount of healing increases by 1d8 for each slot level above 5th.</p>
         </description>
         <setters>
-            <set name="keywords">force</set>
+            <set name="keywords">radiant</set>
             <set name="level">5</set>
             <set name="school">Evocation</set>
             <set name="time">1 bonus action</set>
@@ -369,6 +369,225 @@
             <set name="materialComponent">a diamond worth at least 100 gp, which the spell consumes</set>
             <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Secret Listener" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SECRET_LISTENER">
+        <supports>Bard, Cleric, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You attune your senses to any sending spells directed at a creature you choose. For the duration of the spell, you can secretly listen to any sending spells sent to that creature. You hear both the message and the response as if you were eavesdropping on a private conversation. You must wear the earpiece for the duration of the spell.</p>
+            <p class="indent">However, the target creature can make a Wisdom saving throw when they receive a sending spell to recognize that their conversation is being listened to. If the creature succeeds on their saving throw, they know that someone is eavesdropping on them and may act accordingly.</p>
+	    <p class="indent">To use this spell, you must first know the name of the creature you wish to target, and you must have seen or met them before. If the target is on a different plane of existence, the spell fails.</p>
+	    <p class="indent">If the target creature is under the effect of a spell or magical effect that would prevent them from receiving sending spells, such as the nondetection spell, this spell fails.</p>
+	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the duration increases by 24 hours for each slot level above 3rd. Additionally, you can target one additional creature for each slot level above 3rd. However, you must provide a separate silver earpiece for each target.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 24 hours</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small silver earpiece worth 50 gp, which the spell consumes</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shapechanger’s Raiment" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHAPECHANGERS_RAINMENT">
+        <supports>Bard, Cleric, Druid</supports>
+        <description>
+            <p>You touch a willing creature and transmute their clothing into a set of form-fitting garments that adapt to the wearer's current form, allowing them to change shape without worrying about their clothes. For the duration of the spell, the target's clothing changes with them when they use a shapechanging ability, such as the Druid's Wild Shape or the Changeling's Shapechanger trait. This has the following benefits:</p>
+            <ul>
+		<li>The target gains a +2 bonus to AC while in their alternate form, as their clothing adjusts to provide optimal protection.</li>
+		<li>The target's clothing also changes appearance to match their new form, giving them proficiency in utilizing their armor.</li>
+		<li>The target can expend a bonus action to cause their clothing to return to its original form if desired.</li>
+	    </ul>
+	    <p class="indent">Additionally, if the target is transformed by a spell or effect that does not allow them to maintain their equipment, such as the Polymorph spell, the Shapechanger's Raiment spell allows them to maintain their clothing and any small objects they are carrying (such as a wand or potion) while transformed. These items too shape change to allow the new form to utilize them.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a scrap of fabric from a shapeshifter’s clothing</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Stage of the Triumphant" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_STAGE_OF_TRIUMPHANT">
+        <supports>Bard</supports>
+        <description>
+            <p>Centered around your initial location when you cast this spell, you create a 30-foot radius area where motivating and invigorating music starts to play. Creatures of your choice within the area receive 1d6 to their ability checks and attack rolls. However, any target who fails a check within the area loses this effect.</p>
+            <p class="indent">When there is only one creature left within the area, the spell grants 2d8 healing to the target.</p>
+	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a 3rd-level spell slot or higher, the healing effect increases by a d8 for each slot level higher than 2nd. Also, when you cast this spell using a 5th-level spell slot or higher, you and your allies can also add the d6 to the saving throws made within the area.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Stone of Defiling" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_STONE_OF_DEFILING">
+        <supports>Cleric, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You call upon the spirits of the dead, drawing power from a magical onyx tablet that you create, which dot the plains. When you cast this spell, you inscribe a glyph of dark energy onto the surface of the tablet and place it on the ground. For the duration of the spell, as long as you are within 60 feet of the tablet, you can channel the power of the dead through this glyph, empowering your spells and abilities.</p>
+	    <p class="indent">While concentrating on this spell, you gain the following benefits:</p>
+            <ul>
+		<li>You can add your proficiency bonus to the damage of any spell that deals necrotic damage.</li>
+		<li>As a bonus action, you can expend a spell slot and create a blast of necrotic energy that emanates from the glyph. The blast deals necrotic damage equal to five times the level of the spell slot expended, and all creatures within a 30-foot radius of the glyph must make a Constitution saving throw. On a success, a creature gets half damage. Undead creatures in the area automatically fail this saving throw.</li>
+		<li>You can use your bonus action to summon a ghostly warrior to fight at your side. The warrior has the same statistics as a specter, except that it is immune to necrotic damage and gains a bonus to attack and damage rolls equal to your proficiency bonus. The warrior remains for 8 hours or until it is destroyed.</li>
+	    </ul>
+	    <p class="indent">The glyph of dark energy created by this spell is visible to all creatures within 60 feet of it and can be targeted and destroyed with a successful dispel magic spell. Additionally, this spell draws on the power of the dead and may attract unwanted attention from undead creatures or necromancers.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">6</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 minute</set>
+            <set name="duration">Concentration, up to 1 hour, after which the spell becomes permanent and does not require concentration</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a black onyx worth at least 500 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Thunderbolt Rod" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_THUNDERBOLT_ROD">
+        <supports>Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You summon a powerful bolt of lightning from the sky to strike a target within range. The bolt deals 6d8 lightning damage on a failed Dexterity saving throw or half as much on a successful one.</p>
+            <p class="indent">If the target is wearing metal armor, the saving throw is made with disadvantage. Additionally, if the target is holding or carrying spears, javelins, metal swords, or any metal object that is longer than a foot, it takes an additional 1d8 lightning damage per object.</p>
+	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the initial damage increases by 1d8 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">lightning</set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a copper rod or lightning-struck iron, worth at least 100 gp</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Transmute Aura" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TRANSMUTE_AURA">
+        <supports>Cleric, Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>You transmute your own aura, altering the magic that surrounds you and temporarily changing your vulnerabilities and resistances. You can choose one damage type (acid, cold, fire, lightning, poison, thunder) and one condition (blinded, deafened, paralyzed, poisoned, stunned). You gain resistance to the chosen damage type and immunity to the chosen condition for the duration of the spell.</p>
+            <p class="indent">In addition, you can use a bonus action on each of your turns to change the chosen damage type or condition. You can choose a new damage type and condition each time you use this bonus action, or you can keep the same ones if you wish.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small crystal prism</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Citrus Glutton" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CITRUS_GLUTTON">
+        <supports>Druid, Sorcerer, Wizard, Spell Attack</supports>
+        <description>
+            <p>You fire a ray of corrosive acidic plasma at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 3d6 acid damage. If you roll the same number on two of the d6s, the corrosive energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.</p>
+            <p class="indent">A creature can be targeted only once by each casting of this spell.</p>
+	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">acid</set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a citrus</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Ward of the Evil Eye" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WARD_OF_THE_EVIL_EYE">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You call upon the power of the evil eye to create a protective ward around yourself and your allies. When you cast this spell, you create a faint aura with a radius of 10 feet centered on yourself, and the aura moves with you. The aura provides protection to you and your allies within it.</p>
+            <p class="indent">While the aura is active, you and your allies within it gain resistance to one type of damage of your choice, except psychic. Additionally, any enemy within the aura has disadvantage on attack rolls against you and your allies as long as you remain conscious.</p>
+	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the radius of the aura increases by 5 feet for each level above 4th.</p>
+	    <p class="indent">The evil eye talisman used as the material component of this spell can be any small, round object with an eye symbol on it. It can be made of any material, but it must be consecrated by a priest of an evil deity before it can be used in this spell.</p>	
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an evil eye talisman</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Warding Smoke" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WARDING_SMOKE">
+        <supports>Cleric, Druid, Paladin, Ranger</supports>
+        <description>
+            <p>You call upon the protective properties of wild rue to create a cloud of smoke that wards off evil influences. When you cast this spell, you burn the wild rue seeds, and the smoke fills a 20-foot-radius sphere centered on a campfire within 10 feet of you.</p>
+            <p class="indent">While the smoke persists, you and your allies within it gain advantage on saving throws against spells and magical effects. Additionally, any hostile creatures within the smoke have disadvantage on attack rolls and saving throws against your spells and abilities.</p>
+	    <p class="indent">The smoke lasts for the duration of the spell, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Once the smoke dissipates, the protection ends.</p>
+	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the radius of the sphere increases by 10 feet for each level above 2nd.</p>	
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Abjuration</set>
+            <set name="time">10 minutes</set>
+            <set name="duration">8 hours</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a handful of wild rue seeds</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
         </setters>
     </element>
 </elements>
