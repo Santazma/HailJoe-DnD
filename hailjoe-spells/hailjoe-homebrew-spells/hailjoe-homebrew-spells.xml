@@ -348,24 +348,26 @@
         </setters>
     </element>
 
-    <element name="Mage’s Bane" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_MAGES_BANE">
-        <supports>Cleric, Spell Saving Throw</supports>
+    <element name="Righteous Lightning" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RIGHTEOUS_LIGHTNING">
+        <supports>Cleric, Druid, Spell Saving Throw</supports>
         <description>
-            <p>As an action, you point your finger at a spellcaster. The spellcaster makes a concentration save against your spell save DC. On a failure, the target takes a d4 force damage per the number of spell slots it has.</p>
-            <p class="indent">Additionally, on a failure, the target loses 2d6 spell slots it has starting from the highest level available. If a target drops to 0 hit points as a result of this spell, it bursts into arcane flames and turns to ash.</p>
+            <p>You create a burst of healing energy that jumps from creature to creature. Choose a creature within range to be the first target of the spell. That creature regains hit points equal to 3d8 + your spellcasting ability modifier.</p>
+            <p class="indent">The spell then jumps to up to three other creatures of your choice within 30 feet of the first target, each of which regains hit points equal to 3d8 + your spellcasting ability modifier. The spell can jump to a total of four creatures, and each creature can only be targeted maximum twice.</p>
+	    <p class="indent">If any of the creatures you target are undead, they take radiant damage instead of regaining hit points. These targets make a Dexterity saving throw against your spell save DC. On a success, they receive half the damage. On a fail, the damage dealt is equal to the amount of healing they would have received.</p>
+	    <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the amount of healing increases by 1d8 for each slot level above 5th.</p>
         </description>
         <setters>
             <set name="keywords">force</set>
-            <set name="level">7</set>
+            <set name="level">5</set>
             <set name="school">Evocation</set>
-            <set name="time">1 action</set>
-            <set name="duration">Concentration, up to 1 minute</set>
-            <set name="range">30 feet</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">false</set>
-            <set name="materialComponent"></set>
-            <set name="isConcentration">yes</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a diamond worth at least 100 gp, which the spell consumes</set>
+            <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
