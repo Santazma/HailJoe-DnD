@@ -4,7 +4,7 @@
 		<name>Homebrew Spells</name>
 		<description>HailJoe's Homebrew Spells</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="hailjoe-homebrew-spells.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells.index" />
 		</update>
 	</info>
