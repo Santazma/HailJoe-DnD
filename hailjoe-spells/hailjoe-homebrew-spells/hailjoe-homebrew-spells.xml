@@ -1,144 +1,593 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
-        <name>HailJoe's Homebrew Spells</name>
-        <description>Newmade Homebrew Spells from the HailJoe.</description>
-        <update version="0.0.11">
-            <file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
-        </update>
-    </info>
-
-    <element name="Corpse Explosion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CORPSE_EXPLOSION">
-        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
-        <description>
-            <p>At your command, the lifeless body of a recently deceased creature swiftly swells and bursts into a horrifying explosion. You choose a corpse of a creature that has been lifeless for no more than 1 minute that you can see within range, triggering an explosion. Each creature within a 10-footradius sphere centered on that corpse must make a Dexterity saving throw. A target takes 3d6 necrotic damage on a failed save, or half as much damage on a successful one.</p>
-            <p class="indent">The size of the explosion increases by 5 feet for every size larger than medium.</p>
-            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
-        </description>
-        <setters>
-            <set name="keywords">necrotic</set>
-            <set name="level">1</set>
-            <set name="school">Necromancy</set>
-            <set name="time">1 action</set>
-            <set name="duration">Instantaneous</set>
-            <set name="range">120 feet</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a corpse, destroyed upon casting</set>
-            <set name="isConcentration">false</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
-
-    <element name="Shadow Bending" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOW_BENDING">
-        <supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
-        <description>
-            <p>You manipulate the shadow of a creature you can see within range according to your will. The target must make a Wisdom saving throw against your spell save DC or its shadow animates into a malevolent attacker. For the duration, the shadow stays attached to the target, sharing its space and constantly hindering it, granting advantage on all attacks against it. On each of your turns for the duration, you can use your action to deal 2d6 necrotic damage to the target automatically.</p>
-            <p class="indent">At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p>
-            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
-        </description>
-        <setters>
-            <set name="keywords">necrotic</set>
-            <set name="level">2</set>
-            <set name="school">Necromancy</set>
-            <set name="time">1 action</set>
-            <set name="duration">Concentration, up to 1 minute</set>
-            <set name="range">60 feet</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a candle</set>
-            <set name="isConcentration">true</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
-
-    <element name="Wisdom of Taltharion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WISDOM_OF_TALTHARION">
-        <supports>Bard, Cleric, Warlock, Wizard</supports>
-        <description>
-            <p>For the duration, you gain the ability to read non-magical texts at a rate of 100 pages per minute. After the spell has ended, you can remember the details of what you read as if you had read it normally with a clear mind. You must be able to comprehend the language in which a text is written in order to utilize this spell.</p>
-            <p class="indent">Additionally, you can combine this spell with any other spell that enables you to read and understand texts written in languages you don’t know.</p>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="level">3</set>
-            <set name="school">Divination</set>
-            <set name="time">1 action</set>
-            <set name="duration">1 Hour</set>
-            <set name="range">Self</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a book that is written at least 50 years ago and a small bag of coffee beans</set>
-            <set name="isConcentration">false</set>
-            <set name="isRitual">true</set>
-        </setters>
-    </element>
-
-    <element name="Rapid Decay" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RAPID_DECAY">
-        <supports>Cleric, Druid, Sorcerer, Wizard</supports>
-        <description>
-            <p>You reach out and touch the corpse of a creature. Within a minute, the corpse rapidly begins to decompose. It becomes covered in fungi and mold, but during this process, no odor emanates. All the water in the body disappears, and at the end of the duration, only a handful of dust remains from the corpse.</p>
-            <p class="indent">The spell’s target corpse count increases when you reach 5th level 4, 11th level 16, and 17th level it becomes a pile of corpses with indefinite amount.</p>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="level">0</set>
-            <set name="school">Necromancy</set>
-            <set name="time">1 action</set>
-            <set name="duration">1 minute</set>
-            <set name="range">Touch</set>
-            <set name="hasVerbalComponent">false</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">false</set>
-            <set name="materialComponent"></set>
-            <set name="isConcentration">false</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
-
-    <element name="Macabre Choir" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_MACABRE_CHOIR">
-        <supports>Bard, Wizard</supports>
-        <description>
-            <p>Using the instrument in your hand, you produce a simple sound. Within the range of the spell, at the location you pointed to, five barely visible, translucent ghostly figures appear.</p>
-            <p class="indent">These figures, aside from their pale colors, resemble well-dressed bards and play the songs you desire with perfect flawlessness throughout the duration.</p>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="level">1</set>
-            <set name="school">Conjuration</set>
-            <set name="time">1 action</set>
-            <set name="duration">Concentration, up to 1 hour</set>
-            <set name="range">30 feet</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a musical instrument</set>
-            <set name="isConcentration">true</set>
-            <set name="isRitual">true</set>
-        </setters>
-    </element>
-
-    <element name="Timebane" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TIMEBANE">
-        <supports>Warlock, Wizard, Spell Saving Throw</supports>
-        <description>
-            <p>You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. If the save fails by 5 or more, the target also ages 1d4 × 10 years. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
-            <p class="indent">The aging effect can be reversed with a greater restoration spell, but only within 24 hours of its occurrence. Otherwise, it can only be reversed with the "Wish" spell.</p>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="level">3</set>
-            <set name="school">Transmutation</set>
-            <set name="time">1 action</set>
-            <set name="duration">Instantaneous</set>
-            <set name="range">60 feet</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a hourglass</set>
-            <set name="isConcentration">false</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
+	<info>
+		<name>HailJoe's Homebrew Spells</name>
+		<description>Newmade Homebrew Spells from the HailJoe.</description>
+		<update version="0.0.12">
+			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
+		</update>
+	</info>
+	
+	<element name="Corpse Explosion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CORPSE_EXPLOSION">
+		<supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>At your command, the lifeless body of a recently deceased creature swiftly swells and bursts into a horrifying explosion. You choose a corpse of a creature that has been lifeless for no more than 1 minute that you can see within range, triggering an explosion. Each creature within a 10-footradius sphere centered on that corpse must make a Dexterity saving throw. A target takes 3d6 necrotic damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">The size of the explosion increases by 5 feet for every size larger than medium.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">necrotic</set>
+			<set name="level">1</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a corpse, destroyed upon casting</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Shadow Bending" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOW_BENDING">
+		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You manipulate the shadow of a creature you can see within range according to your will. The target must make a Wisdom saving throw against your spell save DC or its shadow animates into a malevolent attacker. For the duration, the shadow stays attached to the target, sharing its space and constantly hindering it, granting advantage on all attacks against it. On each of your turns for the duration, you can use your action to deal 2d6 necrotic damage to the target automatically.</p>
+			<p class="indent">At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="keywords">necrotic</set>
+			<set name="level">2</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a candle</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Wisdom of Taltharion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WISDOM_OF_TALTHARION">
+		<supports>Bard, Cleric, Warlock, Wizard</supports>
+		<description>
+			<p>For the duration, you gain the ability to read non-magical texts at a rate of 100 pages per minute. After the spell has ended, you can remember the details of what you read as if you had read it normally with a clear mind. You must be able to comprehend the language in which a text is written in order to utilize this spell.</p>
+			<p class="indent">Additionally, you can combine this spell with any other spell that enables you to read and understand texts written in languages you don’t know.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 Hour</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a book that is written at least 50 years ago and a small bag of coffee beans</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	
+	<element name="Rapid Decay" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RAPID_DECAY">
+		<supports>Cleric, Druid, Sorcerer, Wizard</supports>
+		<description>
+			<p>You reach out and touch the corpse of a creature. Within a minute, the corpse rapidly begins to decompose. It becomes covered in fungi and mold, but during this process, no odor emanates. All the water in the body disappears, and at the end of the duration, only a handful of dust remains from the corpse.</p>
+			<p class="indent">The spell’s target corpse count increases when you reach 5th level 4, 11th level 16, and 17th level it becomes a pile of corpses with indefinite amount.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Macabre Choir" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_MACABRE_CHOIR">
+		<supports>Bard, Wizard</supports>
+		<description>
+			<p>Using the instrument in your hand, you produce a simple sound. Within the range of the spell, at the location you pointed to, five barely visible, translucent ghostly figures appear.</p>
+			<p class="indent">These figures, aside from their pale colors, resemble well-dressed bards and play the songs you desire with perfect flawlessness throughout the duration.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a musical instrument</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	
+	<element name="Timebane" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TIMEBANE">
+		<supports>Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. If the save fails by 5 or more, the target also ages 1d4 × 10 years. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+			<p class="indent">The aging effect can be reversed with a greater restoration spell, but only within 24 hours of its occurrence. Otherwise, it can only be reversed with the "Wish" spell.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a hourglass</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Acid Spit" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ACID_SPIT">
+		<supports>Druid, Sorcerer, Wizard, Spell Attack</supports>
+		<description>
+			<p>You spit a small amount of highly corrosive saliva to a creature within range. Make a ranged spell attack against the target on a hit the target takes 1d12 acid damage. On a roll of 1 you take the damage of the spell as the globe of acid explodes in your mouth.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
+		</description>
+		<setters>
+			<set name="keywords">acid</set>
+			<set name="level">0</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">15 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Acidic Vortex" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ACIDIC_VORTEX">
+		<supports>Sorcerer, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You create a sudden eruption of acidic energy at a point you can see within range. Each creature within a 10-foot radius of that point must make a Dexterity saving throw. On a failed save, a creature takes 4d4 acid damage, and their skin is temporarily weakened, causing them to take an additional 1d4 acid damage at the start of each of their turns for the duration of the spell, or until they take an action to wipe off the acid. On a successful save, a creature takes half as much damage and is not affected by the ongoing acid damage.</p>
+			<p class="indent">While you maintain concentration on this spell, you can use a bonus action on each of your turns to move the point of origin up to 30 feet in any direction. Any creature that starts its turn within the area of effect must make the initial Dexterity saving throw, even if they have already taken damage from the spell.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by 1d4 for each slot level above 3rd. Additionally, the ongoing acid damage increases by 1d4 for each slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">acid</set>
+			<set name="level">3</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a small vial of acid</set>
+			<set name="isConcentration">yes</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Bane of Blades" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BANE_OF_BLADES">
+		<supports>Cleric, Druid, Warlock</supports>
+		<description>
+			<p>You point at a non-magical weapon within range and curse it with the bane of blades. The weapon begins to rust and corrode, losing its edge and becoming useless in combat. For the duration of the spell, targeted nonmagical weapons that are held by creatures or that are not being worn or carried take damage from rust and corrosion at the end of their wielder's turn. The number of turns a weapon can withstand this spell without breaking depends on the material of the weapon, as shown in the table below:</p>
+			<table>
+				<thead>
+					<tr><td class="left">Material</td><td>Durability(Turns)</td></tr>
+				</thead>
+				<tr><td class="left">Wood</td><td>1</td></tr>
+				<tr><td class="left">Bone</td><td>1</td></tr>
+				<tr><td class="left">Stone</td><td>2</td></tr>
+				<tr><td class="left">Iron</td><td>3</td></tr>
+				<tr><td class="left">Bronze</td><td>4</td></tr>
+				<tr><td class="left">Silver</td><td>4</td></tr>
+				<tr><td class="left">Gold</td><td>5</td></tr>
+				<tr><td class="left">Steel</td><td>5</td></tr>
+			</table>
+			<p class="indent">If a weapon's durability is reduced to zero, it is destroyed. If the wielder of a weapon affected by this spell leaves the area of the spell, the spell ends for the weapon, and the weapon reverts back to its undamaged version. If a weapon is destroyed before the end of the spell, it is destroyed permanently. Additionally, if a weapon is thrown or moved outside of the spell's area of effect, the spell ends on that weapon. You cannot target the same weapon multiple times with this spell, even if you cast it with a higher-level spell slot. If you cast this spell using a spell slot of 3rd level or higher, the number of weapons you can target increases by one for each spell slot level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">yes</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Chain of Chill" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CHAIN_OF_CHILL">
+		<supports>Cleric, Druid, Ranger, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You point at a creature and cause freezing cold chains to wrap around the target. The target makes a Dexterity saving throw on a fail; it takes 5d8 cold damage and gets restrained, on a success the target takes half damage and is not restrained.</p>
+			<p class="indent">The restrained target can, as an action, try to break free of the chains with an athletics check against the spell save DC of the caster.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">cold</set>
+			<set name="level">3</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">yes</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Divination of the Molten Lead" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DIVINATION_OF_THE_MOLTEN_LEAD">
+		<supports>Cleric, Druid, Sorcerer, Wizard</supports>
+		<description>
+			<p>You seek guidance from the fates by performing the ancient ritual of spilling molten lead into water. When you cast this spell, you heat up the lead until it becomes molten, and then pour it into the vessel of water</p>
+			<p class="indent">As the molten lead cools and solidifies in the water, it forms unique shapes and patterns that can be interpreted as omens or messages from the divine. You can make an Intelligence check to interpret the significance of the shapes and patterns, with the DC determined by the GM based on the complexity of the interpretation.</p>
+			<p class="indent">The interpretation can provide insight into a specific question or situation you are facing, or it can reveal general guidance or warnings. The interpretation is not always clear or definitive, and the GM has the final say on the outcome of the divination.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, you gain advantage on the Intelligence check to interpret the divination.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Divination</set>
+			<set name="time">1 hour</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">molten lead and a vessel of water</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	
+	<element name="Globe of Corrosion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GLOBE_OF_CORROSION">
+		<supports>Sorcerer, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You point your finger at a location within range, and the air around the air within 20 ft. of the point you choose becomes filled with acid particles floating mid-air. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.</p>
+			<p class="indent">When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 8d4 poison damage on a failed save or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.</p>
+		</description>
+		<setters>
+			<set name="keywords">poison</set>
+			<set name="level">4</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">150 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a corroded copper piece</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Haruspex’s Insight" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_HARUSPEXS_INSIGHT">
+		<supports>Cleric, Druid</supports>
+		<description>
+			<p>You perform the ancient art of Haruspicina, using the entrails of a sacrificial animal to gain insight into the future. When you cast this spell, you must have access to the entrails of a recently deceased animal, which you use to divine the signs and portents of the future.</p>
+			<p class="indent">As you perform the divination, you toss the divination bones or knucklebones, interpreting the patterns and symbols they form to reveal information about future events. The GM provides you with information about potential events that could happen in the near future, such as battles, natural disasters, or political upheavals.</p>
+			<p class="indent">You can ask five specific questions about future events or seek general guidance on how to prepare for the future. The GM provides answers to these questions based on the results of the divination, although the answers may be cryptic or vague.</p>
+			<p class="indent">Roll a d100 to see the prophetic capabilities of the carcass you are inspecting. If you are using the carcass of a recently dead humanoid, you don't need to roll; the roll is assumed to be a 100 without a roll. Any carcass this spell is cast on cannot be revived with a spell below 7th level. Then roll an Insight check to interpret the results. Interpretation of the results gets harder as the depth of the knowledge you seek increases.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the number of questions you can ask increases by 1 for each spell slot above 7th level.</p>
+			<table>
+				<thead>
+					<tr><td class="left">Roll Result</td><td>DC</td><td>Result Description</td></tr>
+				</thead>
+				<tr><td class="left">1-25</td><td>15</td><td>Vague or ambiguous information, or information that is difficult to interpret or act on</td></tr>
+				<tr><td class="left">26-50</td><td>17</td><td>General information about future events or circumstances, with some specific details</td></tr>
+				<tr><td class="left">51-90</td><td>20</td><td>Specific information about future events, with clear details about time, place, and participants</td></tr>
+				<tr><td class="left">91+</td><td>25</td><td>Divine insight into the future, revealing hidden truths and secrets that are difficult to discover through other means</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">6</set>
+			<set name="school">Divination</set>
+			<set name="time">1 hour</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a set of divination bones or knucklebones</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	
+	<element name="Mage’s Bane" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_MAGES_BANE">
+		<supports>Cleric, Spell Saving Throw</supports>
+		<description>
+			<p>As an action, you point your finger at a spellcaster. The spellcaster makes a concentration save against your spell save DC. On a failure, the target takes a d4 force damage per the number of spell slots it has.</p>
+			<p class="indent">Additionally, on a failure, the target loses 2d6 spell slots it has starting from the highest level available. If a target drops to 0 hit points as a result of this spell, it bursts into arcane flames and turns to ash.</p>
+		</description>
+		<setters>
+			<set name="keywords">force</set>
+			<set name="level">7</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">yes</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Righteous Lightning" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RIGHTEOUS_LIGHTNING">
+		<supports>Cleric, Druid, Spell Saving Throw</supports>
+		<description>
+			<p>You create a burst of healing energy that jumps from creature to creature. Choose a creature within range to be the first target of the spell. That creature regains hit points equal to 3d8 + your spellcasting ability modifier.</p>
+			<p class="indent">The spell then jumps to up to three other creatures of your choice within 30 feet of the first target, each of which regains hit points equal to 3d8 + your spellcasting ability modifier. The spell can jump to a total of four creatures, and each creature can only be targeted maximum twice.</p>
+			<p class="indent">If any of the creatures you target are undead, they take radiant damage instead of regaining hit points. These targets make a Dexterity saving throw against your spell save DC. On a success, they receive half the damage. On a fail, the damage dealt is equal to the amount of healing they would have received.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the amount of healing increases by 1d8 for each slot level above 5th.</p>
+		</description>
+		<setters>
+			<set name="keywords">radiant</set>
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a diamond worth at least 100 gp, which the spell consumes</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Secret Listener" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SECRET_LISTENER">
+		<supports>Bard, Cleric, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You attune your senses to any sending spells directed at a creature you choose. For the duration of the spell, you can secretly listen to any sending spells sent to that creature. You hear both the message and the response as if you were eavesdropping on a private conversation. You must wear the earpiece for the duration of the spell.</p>
+			<p class="indent">However, the target creature can make a Wisdom saving throw when they receive a sending spell to recognize that their conversation is being listened to. If the creature succeeds on their saving throw, they know that someone is eavesdropping on them and may act accordingly.</p>
+			<p class="indent">To use this spell, you must first know the name of the creature you wish to target, and you must have seen or met them before. If the target is on a different plane of existence, the spell fails.</p>
+			<p class="indent">If the target creature is under the effect of a spell or magical effect that would prevent them from receiving sending spells, such as the nondetection spell, this spell fails.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the duration increases by 24 hours for each slot level above 3rd. Additionally, you can target one additional creature for each slot level above 3rd. However, you must provide a separate silver earpiece for each target.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 24 hours</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a small silver earpiece worth 50 gp, which the spell consumes</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Shapechanger’s Raiment" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHAPECHANGERS_RAINMENT">
+		<supports>Bard, Cleric, Druid</supports>
+		<description>
+			<p>You touch a willing creature and transmute their clothing into a set of form-fitting garments that adapt to the wearer's current form, allowing them to change shape without worrying about their clothes. For the duration of the spell, the target's clothing changes with them when they use a shapechanging ability, such as the Druid's Wild Shape or the Changeling's Shapechanger trait. This has the following benefits:</p>
+			<ul>
+				<li>The target gains a +2 bonus to AC while in their alternate form, as their clothing adjusts to provide optimal protection.</li>
+				<li>The target's clothing also changes appearance to match their new form, giving them proficiency in utilizing their armor.</li>
+				<li>The target can expend a bonus action to cause their clothing to return to its original form if desired.</li>
+			</ul>
+			<p class="indent">Additionally, if the target is transformed by a spell or effect that does not allow them to maintain their equipment, such as the Polymorph spell, the Shapechanger's Raiment spell allows them to maintain their clothing and any small objects they are carrying (such as a wand or potion) while transformed. These items too shape change to allow the new form to utilize them.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 hour</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a scrap of fabric from a shapeshifter’s clothing</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Stage of the Triumphant" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_STAGE_OF_TRIUMPHANT">
+		<supports>Bard</supports>
+		<description>
+			<p>Centered around your initial location when you cast this spell, you create a 30-foot radius area where motivating and invigorating music starts to play. Creatures of your choice within the area receive 1d6 to their ability checks and attack rolls. However, any target who fails a check within the area loses this effect.</p>
+			<p class="indent">When there is only one creature left within the area, the spell grants 2d8 healing to the target.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a 3rd-level spell slot or higher, the healing effect increases by a d8 for each slot level higher than 2nd. Also, when you cast this spell using a 5th-level spell slot or higher, you and your allies can also add the d6 to the saving throws made within the area.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration up to 1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Stone of Defiling" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_STONE_OF_DEFILING">
+		<supports>Cleric, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You call upon the spirits of the dead, drawing power from a magical onyx tablet that you create, which dot the plains. When you cast this spell, you inscribe a glyph of dark energy onto the surface of the tablet and place it on the ground. For the duration of the spell, as long as you are within 60 feet of the tablet, you can channel the power of the dead through this glyph, empowering your spells and abilities.</p>
+			<p class="indent">While concentrating on this spell, you gain the following benefits:</p>
+			<ul>
+				<li>You can add your proficiency bonus to the damage of any spell that deals necrotic damage.</li>
+				<li>As a bonus action, you can expend a spell slot and create a blast of necrotic energy that emanates from the glyph. The blast deals necrotic damage equal to five times the level of the spell slot expended, and all creatures within a 30-foot radius of the glyph must make a Constitution saving throw. On a success, a creature gets half damage. Undead creatures in the area automatically fail this saving throw.</li>
+				<li>You can use your bonus action to summon a ghostly warrior to fight at your side. The warrior has the same statistics as a specter, except that it is immune to necrotic damage and gains a bonus to attack and damage rolls equal to your proficiency bonus. The warrior remains for 8 hours or until it is destroyed.</li>
+			</ul>
+			<p class="indent">The glyph of dark energy created by this spell is visible to all creatures within 60 feet of it and can be targeted and destroyed with a successful dispel magic spell. Additionally, this spell draws on the power of the dead and may attract unwanted attention from undead creatures or necromancers.</p>
+		</description>
+		<setters>
+			<set name="keywords">necrotic</set>
+			<set name="level">6</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 minute</set>
+			<set name="duration">Concentration, up to 1 hour, after which the spell becomes permanent and does not require concentration</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a black onyx worth at least 500 gp</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Thunderbolt Rod" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_THUNDERBOLT_ROD">
+		<supports>Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You summon a powerful bolt of lightning from the sky to strike a target within range. The bolt deals 6d8 lightning damage on a failed Dexterity saving throw or half as much on a successful one.</p>
+			<p class="indent">If the target is wearing metal armor, the saving throw is made with disadvantage. Additionally, if the target is holding or carrying spears, javelins, metal swords, or any metal object that is longer than a foot, it takes an additional 1d8 lightning damage per object.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the initial damage increases by 1d8 for each slot level above 5th.</p>
+		</description>
+		<setters>
+			<set name="keywords">lightning</set>
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a copper rod or lightning-struck iron, worth at least 100 gp</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Transmute Aura" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TRANSMUTE_AURA">
+		<supports>Cleric, Druid, Sorcerer, Wizard</supports>
+		<description>
+			<p>You transmute your own aura, altering the magic that surrounds you and temporarily changing your vulnerabilities and resistances. You can choose one damage type (acid, cold, fire, lightning, poison, thunder) and one condition (blinded, deafened, paralyzed, poisoned, stunned). You gain resistance to the chosen damage type and immunity to the chosen condition for the duration of the spell.</p>
+			<p class="indent">In addition, you can use a bonus action on each of your turns to change the chosen damage type or condition. You can choose a new damage type and condition each time you use this bonus action, or you can keep the same ones if you wish.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">5</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a small crystal prism</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Citrus Glutton" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CITRUS_GLUTTON">
+		<supports>Druid, Sorcerer, Wizard, Spell Attack</supports>
+		<description>
+			<p>You fire a ray of corrosive acidic plasma at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 3d6 acid damage. If you roll the same number on two of the d6s, the corrosive energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.</p>
+			<p class="indent">A creature can be targeted only once by each casting of this spell.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">acid</set>
+			<set name="level">1</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a citrus</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Ward of the Evil Eye" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WARD_OF_THE_EVIL_EYE">
+		<supports>Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You call upon the power of the evil eye to create a protective ward around yourself and your allies. When you cast this spell, you create a faint aura with a radius of 10 feet centered on yourself, and the aura moves with you. The aura provides protection to you and your allies within it.</p>
+			<p class="indent">While the aura is active, you and your allies within it gain resistance to one type of damage of your choice, except psychic. Additionally, any enemy within the aura has disadvantage on attack rolls against you and your allies as long as you remain conscious.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the radius of the aura increases by 5 feet for each level above 4th.</p>
+			<p class="indent">The evil eye talisman used as the material component of this spell can be any small, round object with an eye symbol on it. It can be made of any material, but it must be consecrated by a priest of an evil deity before it can be used in this spell.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an evil eye talisman</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Warding Smoke" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WARDING_SMOKE">
+		<supports>Cleric, Druid, Paladin, Ranger</supports>
+		<description>
+			<p>You call upon the protective properties of wild rue to create a cloud of smoke that wards off evil influences. When you cast this spell, you burn the wild rue seeds, and the smoke fills a 20-foot-radius sphere centered on a campfire within 10 feet of you.</p>
+			<p class="indent">While the smoke persists, you and your allies within it gain advantage on saving throws against spells and magical effects. Additionally, any hostile creatures within the smoke have disadvantage on attack rolls and saving throws against your spells and abilities.</p>
+			<p class="indent">The smoke lasts for the duration of the spell, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Once the smoke dissipates, the protection ends.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the radius of the sphere increases by 10 feet for each level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Abjuration</set>
+			<set name="time">10 minutes</set>
+			<set name="duration">8 hours</set>
+			<set name="range">10 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a handful of wild rue seeds</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
 </elements>
