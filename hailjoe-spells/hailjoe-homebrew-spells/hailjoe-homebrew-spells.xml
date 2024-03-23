@@ -3,7 +3,7 @@
     <info>
         <name>HailJoe's Homebrew Spells</name>
         <description>Newmade Homebrew Spells from the HailJoe.</description>
-        <update version="0.0.13">
+        <update version="0.0.14">
             <file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
         </update>
     </info>
@@ -143,47 +143,47 @@
     </element>
 
 	<element name="Acid Spit" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ACID_SPIT">
-		<supports>Druid, Sorcerer, Wizard, Spell Attack</supports>
-		<description>
-			<p>You spit a small amount of highly corrosive saliva to a creature within range. Make a ranged spell attack against the target on a hit the target takes 1d12 acid damage. On a roll of 1 you take the damage of the spell as the globe of acid explodes in your mouth.</p>
-			<p class="indent"><b><i>At Higher Levels. </i></b>This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
-		</description>
-		<setters>
-			<set name="keywords">acid</set>
-			<set name="level">0</set>
-			<set name="school">Transmutation</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">15 feet</set>
-			<set name="hasVerbalComponent">false</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent"></set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+        <supports>Druid, Sorcerer, Wizard, Spell Attack</supports>
+        <description>
+            <p>You spit a small amount of highly corrosive saliva to a creature within range. Make a ranged spell attack against the target on a hit the target takes 1d12 acid damage. On a roll of 1 you take the damage of the spell as the globe of acid explodes in your mouth.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
+        </description>
+        <setters>
+            <set name="keywords">acid</set>
+            <set name="level">0</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">15 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 
 	<element name="Acidic Vortex" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ACIDIC_VORTEX">
-		<supports>Sorcerer, Wizard, Spell Saving Throw</supports>
-		<description>
-			<p>You create a sudden eruption of acidic energy at a point you can see within range. Each creature within a 10-foot radius of that point must make a Dexterity saving throw. On a failed save, a creature takes 4d4 acid damage, and their skin is temporarily weakened, causing them to take an additional 1d4 acid damage at the start of each of their turns for the duration of the spell, or until they take an action to wipe off the acid. On a successful save, a creature takes half as much damage and is not affected by the ongoing acid damage.</p>
+        <supports>Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You create a sudden eruption of acidic energy at a point you can see within range. Each creature within a 10-foot radius of that point must make a Dexterity saving throw. On a failed save, a creature takes 4d4 acid damage, and their skin is temporarily weakened, causing them to take an additional 1d4 acid damage at the start of each of their turns for the duration of the spell, or until they take an action to wipe off the acid. On a successful save, a creature takes half as much damage and is not affected by the ongoing acid damage.</p>
 			<p class="indent">While you maintain concentration on this spell, you can use a bonus action on each of your turns to move the point of origin up to 30 feet in any direction. Any creature that starts its turn within the area of effect must make the initial Dexterity saving throw, even if they have already taken damage from the spell.</p>
-			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by 1d4 for each slot level above 3rd. Additionally, the ongoing acid damage increases by 1d4 for each slot level above 3rd.</p>
-		</description>
-		<setters>
-			<set name="keywords">acid</set>
-			<set name="level">3</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a small vial of acid</set>
-			<set name="isConcentration">yes</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by 1d4 for each slot level above 3rd. Additionally, the ongoing acid damage increases by 1d4 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">acid</set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small vial of acid</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 </elements>
