@@ -3,39 +3,69 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
-  <element name="Chain Blades" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_CHAIN_BLADES">
-	<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
-	<description>
-	<p>Chain blades are exotic weapons that consist of a pair of connected blades attached to a chain, with a handle in the center. The wielder can wrap the chains around their arm to gain better control over the weapon's movements and attacks. The chain blades can be swung around in a wide arc, making them effective against multiple opponents.</p>
-	  </description>
-	    <setters>
-	    <set name="category">Weapons</set>
-	    <set name="cost" currency="gp">40</set>
-	    <set name="weight" lb="6">6 lb.</set>
-	    <set name="slot">onehand</set>
-      	    <set name="range">15</set>
-	    <set name="damage" type="slashing">1d6</set>
-      	    <set name="versatile">1d8</set>
-	    <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAIN_BLADES</set>
-	    </setters>
-  </element>
+  	<element name="Chain Blades" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_CHAIN_BLADES">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+		<description>
+			<p>Chain blades are exotic weapons that consist of a pair of connected blades attached to a chain, with a handle in the center. The wielder can wrap the chains around their arm to gain better control over the weapon's movements and attacks. The chain blades can be swung around in a wide arc, making them effective against multiple opponents.</p>
+	  	</description>
+	   	 <setters>
+	   	 	<set name="category">Weapons</set>
+	    		<set name="cost" currency="gp">40</set>
+	    		<set name="weight" lb="6">6 lb.</set>
+	    		<set name="slot">onehand</set>
+      	    		<set name="range">15</set>
+	    		<set name="damage" type="slashing">1d6</set>
+      	    		<set name="versatile">1d8</set>
+	    		<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAIN_BLADES</set>
+	    	</setters>
+  	</element>
 
-	<element name="Club" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_CLUB">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
+	<element name="Elven Short Glaive" type="Weapon" source="Player’s Handbook" id="ID_HAILJOE_ELVEN_SHORT_GLAIVE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
 		<description>
 			<p></p>
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
-			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="2">2 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="damage" type="bludgeoning">1d4</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</set>
+			<set name="cost" currency="gp">60</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_SHORT_GLAIVE</set>
+		</setters>
+	</element>
+
+	<element name="Elven Spear" type="Weapon" source="Player’s Handbook" id="ID_HAILJOE_ELVEN_SPEAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_SPEAR</set>
+		</setters>
+	</element>
+
+	<element name="Elven Greatsword" type="Weapon" source="Player’s Handbook" id="ID_HAILJOE_ELVEN_GREATSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">3d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_GREATSWORD</set>
 		</setters>
 	</element>
 </elements>
