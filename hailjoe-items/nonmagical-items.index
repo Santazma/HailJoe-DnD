@@ -4,7 +4,7 @@
 		<name>Nonmagical Items</name>
 		<description>Homebrew Nonmagical Items</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="wondrous.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/nonmagical-items.index" />
 		</update>
 	</info>
