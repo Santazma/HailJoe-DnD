@@ -1,31 +1,42 @@
 <elements>
-  <info>
-    <name>weapons</name>
-    <description/>
-    <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.6">
-      <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
-    </update>
-  </info>
-  	<element name="Chain Blades" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_CHAIN_BLADES">
+	<info>
+		<name>weapons</name>
+		<description/>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.7">
+			<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
+		</update>
+	</info>
+	
+	<!-- sacred option -->
+	<element name="Sacred Weapons" type="Option" source="HailJoe Items" id="ID_HAILJOE_OPTION_SACRED">
+		<description>
+			<p>Sacred weapons are often believed to be blessed by gods, goddesses, or other divine entities. They may represent important values or beliefs like symbols of faith, honor, or heritage. Some sacred weapons have a storied history or legendary provenance. Sacred weapons are typically wielded by champions, heroes, or religious leaders for specific purposes. In some traditions, sacred weapons are believed to offer protection against supernatural forces, evil spirits, or otherworldly threats.</p>
+		</description>
+		<setters>
+			<set name="short">You can introduce sacred weapons to your campaign.</set>
+		</setters>
+	</element>
+	
+	<element name="Chain Blades" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_WEAPON_CHAIN_BLADES">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
 			<p>Chain blades are exotic weapons that consist of a pair of connected blades attached to a chain, with a handle in the center. The wielder can wrap the chains around their arm to gain better control over the weapon's movements and attacks. The chain blades can be swung around in a wide arc, making them effective against multiple opponents.</p>
-	  	</description>
-	   	 <setters>
-	   	 	<set name="category">Weapons</set>
-	    		<set name="cost" currency="gp">40</set>
-	    		<set name="weight" lb="6">6 lb.</set>
-	    		<set name="slot">onehand</set>
-      	    		<set name="range">15</set>
-	    		<set name="damage" type="slashing">1d6</set>
-      	    		<set name="versatile">1d8</set>
-	    		<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAIN_BLADES</set>
-	    	</setters>
-  	</element>
-
-	<element name="Elven Short Glaive" type="Weapon" source="Player’s Handbook" id="ID_HAILJOE_ELVEN_SHORT_GLAIVE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">40</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">15</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="versatile">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAIN_BLADES</set>
+		</setters>
+	</element>
+	
+	<element name="Elven Short Glaive" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_WEAPON_ELVEN_SHORT_GLAIVE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
 		<description>
 			<p></p>
 		</description>
@@ -35,12 +46,12 @@
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">1d10</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_SHORT_GLAIVE</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SHORT_GLAIVE</set>
 		</setters>
 	</element>
-
-	<element name="Elven Spear" type="Weapon" source="Player’s Handbook" id="ID_HAILJOE_ELVEN_SPEAR">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+	
+	<element name="Elven Spear" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_WEAPON_ELVEN_SPEAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
 		<description>
 			<p></p>
 		</description>
@@ -50,12 +61,12 @@
 			<set name="weight" lb="3">3 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="piercing">1d8</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_SPEAR</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SPEAR</set>
 		</setters>
 	</element>
-
-	<element name="Elven Greatsword" type="Weapon" source="Player’s Handbook" id="ID_HAILJOE_ELVEN_GREATSWORD">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+	
+	<element name="Elven Greatsword" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_WEAPON_ELVEN_GREATSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SACRED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
 		<description>
 			<p></p>
 		</description>
@@ -65,7 +76,34 @@
 			<set name="weight" lb="6">6 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">3d4</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_GREATSWORD</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_GREATSWORD</set>
 		</setters>
+	</element>
+	
+	<element name="Weapon Proficiency (Sacred)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_PROFICIENCY_WEAPON_SACRED">
+		<requirements>ID_HAILJOE_OPTION_SACRED</requirements>
+		<sheet alt="Sacred" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SHORT_GLAIVE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SPEAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_GREATSWORD" />
+		</rules>
+	</element>
+	
+	<!-- todo: create sacred proficiencies -->
+	<element name="Weapon Proficiency (Elven Short Glaive)" type="Proficiency" source="HailJoe Items" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SHORT_GLAIVE">
+		<supports>Weapon, Martial, Melee, Sacred, ID_INTERNAL_WEAPON_CATEGORY_SACRED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+		<requirements>ID_HAILJOE_OPTION_SACRED</requirements>
+		<sheet alt="Elven Short Glaive" />
+	</element>
+	<element name="Weapon Proficiency (Elven Spear)" type="Proficiency" source="HailJoe Items" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SPEAR">
+		<supports>Weapon, Martial, Melee, Sacred, ID_INTERNAL_WEAPON_CATEGORY_SACRED, ID_INTERNAL_WEAPON_CATEGORY_SACRED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+		<requirements>ID_HAILJOE_OPTION_SACRED</requirements>
+		<sheet alt="Elven Spear" />
+	</element>
+	<element name="Weapon Proficiency (Elven Greatsword)" type="Proficiency" source="HailJoe Items" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_GREATSWORD">
+		<supports>Weapon, Martial, Melee, Sacred, ID_INTERNAL_WEAPON_CATEGORY_SACRED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SACRED</supports>
+		<requirements>ID_HAILJOE_OPTION_SACRED</requirements>
+		<sheet alt="Elven Greatsword" />
 	</element>
 </elements>
