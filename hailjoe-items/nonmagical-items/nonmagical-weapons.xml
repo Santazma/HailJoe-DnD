@@ -3,8 +3,8 @@
 		<name>weapons</name>
 		<description/>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.7">
-			<file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
+		<update version="0.0.8">
+			<file name="nonmagical-weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/nonmagical-items/nonmagical-weapons.xml"/>
 		</update>
 	</info>
 	
