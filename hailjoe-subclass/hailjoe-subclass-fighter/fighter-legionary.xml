@@ -4,7 +4,7 @@
 		<name>Imperial Legionary</name>
 		<description>Imperial Legionary from HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="fighter-legionary.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-fighter/fighter-legionary" />
 		</update>
 	</info>
@@ -55,7 +55,7 @@
 			<p>At 10th level, you are an example of courage and discipline for your comrades. Your mere presence gives them an edge against the enemy. You can use your indomitable feature using your reaction for an ally within 60 feet of you that you can see. That creature can reroll the saving throw that they failed. If they do so, they must use the new roll.</p>
 			<p class="indent">Additionally, when you use your Indomitable feature on yourself or an ally, you will lose the usage of the Indomitable feature only if the new result is a success. If the new result is a failure too, you keep your usage of indomitable feature.</p>
 		</description>
-		<sheet action="Reaction>
+		<sheet action="Reaction">
 			<description>You can use your indomitable feature with 60 feet in your allies. Neither you nor allies fail attempt, doesn't cost your indomitable feature.</description>
 		</sheet>
 	</element>
