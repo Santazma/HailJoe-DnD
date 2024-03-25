@@ -4,7 +4,7 @@
 		<name>Cleric Subclasses</name>
 		<description>HailJoe's Homebrew Cleric Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="hailjoe-subclass-fighter.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-fighter.index" />
 		</update>
 	</info>
