@@ -1,1 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Path of the Whistle</name>
+		<description>Path of the Whistle from HailJoe</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="barbarian-whistle.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-barbarian/barbarian-whistle.xml" />
+		</update>
+	</info>
 
+	<element name="Path of the Whistle" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_BARBARIAN_PATH_OF_THE_WHISTLE">
+		<supports>Primal Path</supports>
+		<description>
+			<p>All barbarians carry a form of fury within them. However, hailing from a barbarian culture entails more than simply relying on courage and strength on the battlefield. On the contrary, barbarians often employ hit-and-run tactics, stealth maneuvers, ambushes, and lightning strikes when combating regular armies. Consequently, those who specialize in this flexible style of combat are often significantly more lethal.</p>
+			<p>The Whistle represents an ancient and secretive method of focus, akin to entering a battle trance. Barbarians who follow the path of the whistle utilize custom-made, elegant weapons rather than cumbersome ones. When they enter a rage, their mobility increases, and they provide support to nearby allies. Their most notable characteristic, setting them apart from other barbarians, is their superior agility and expertise in stealth.</p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_WOODLAND_WEAPONS" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GRACEFUL_FURY" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GUERILLA_WARFARE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_THE_WHISTLE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_CHARGE_OF_MENAS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_WOODLAND_WEAPONS" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GRACEFUL_FURY" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GUERILLA_WARFARE" level="6"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_THE_WHISTLE" level="10"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_CHARGE_OF_MENAS" level="14"/>
+		</rules>
+	</element>
+
+	<element name="Woodland Weapons" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_WOODLAND_WEAPONS">
+		<description>
+			<p>Starting when you choose this path at 3rd level, you gain proficiency with three sacred weapons: the Elven Short Glaive, Elven Spear, and Elven Greatsword.</p>
+			<p class="indent">Additionally, when you attack with one of these sacred weapons, you can add your Rage Damage bonus even if you use your Dexterity modifier to attack instead of your Strength modifier.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the Elven Short Glaive, Elven Spear, and Elven Greatsword.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SHORT_GLAIVE" requirements="!ID_HAILJOE_OPTION_SACRED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SPEAR" requirements="!ID_HAILJOE_OPTION_SACRED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_GREATSWORD" requirements="!ID_HAILJOE_OPTION_SACRED" />
+		</rules>
+	</element>
+
+	<element name="Graceful Fury" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GRACEFUL_FURY">
+		<description>
+			<p>Beginning at 3rd level, you master the necessary footwork to evade your opponent's strikes as you dart across the battlefield. When you attack an enemy using your Reckless Attack feature, your movement does not provoke opportunity attacks for the rest of the turn.</p>
+		</description>
+		<sheet>
+			<description>When you use Reckless Attack feature, you do not provoke oppertunity attack until end of your turn.</description>
+		</sheet>
+	</element>
+	
+	<element name="Guerilla Warfare" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GUERILLA_WARFARE">
+		<description>
+			<p>At 6th level, your proficiency in ambushes and stealth maneuvers becomes finely honed. You gain proficiency in the Stealth skill. If you are already proficient in Stealth, you gain expertise in that skill, doubling your proficiency bonus for any ability check you make with Stealth.</p>
+			<p class="indent">Additionally, your speed increases by 5 feet while you aren't wearing heavy armor, and you gain a swimming speed equal to your walking speed.</p>
+		</description>
+		<sheet display="false">
+			<description>You have become proficient with stealth. If you have proficiency, you become expertise. Also gain 5 speed and you swim speed becomes equal to your walking speed.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_STEALTH" />
+			<stat name="innate speed:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:1]" />
+			<stat name="innate speed:climb:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:burrow:1]" />
+			<stat name="speed:swim" value="speed" bonus="base" />
+		</rules>
+	</element>
+
+
+	<element name="The Whistle" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_THE_WHISTLE">
+		<description>
+			<p>Starting at 10th level, you master the sacred battle trance known as "The Whistle." While you are raging, you can unleash this powerful technique by whistling in a strange yet commanding tone. As you do, you emanate a 15-foot radius aura of focus around you.</p>
+			<p class="indent">Within this aura, friendly creatures gain the benefit of adding your Rage Damage bonus to every weapon attack they make. Conversely, hostile creatures within the aura have your Rage Damage bonus subtracted from every weapon attack they make. This effect lasts as long as your rage persists.</p>
+		</description>
+		<sheet>
+			<description>When you use Rage feature, you emanate a 15-foot radius aura of focus around you. Friendly creatures gain damage bonus equal to your rage damage in this aura. Hostile creatures have your Rage Damage bonus subtracted from their damage. </description>
+		</sheet>
+	</element>
+
+	<element name="Charge of Menas" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_CHARGE_OF_MENAS">
+		<description>
+			<p>At 14th level, your charging into battle becomes unstoppable. Fueled by your unwavering cause and fortified by your heritage, you gain magic resistance while you are in Rage. This grants you advantage on saving throws against spells and other magical effects.</p>
+			<p class="indent">Also difficult terrain doesn’t cost you any extra movement when you are in Rage.</p>
+		</description>
+		<sheet>
+			<description>You gain advantage in your saving throw against magic and magical manners in Rage. Also difficult terrain doesn't cost you extra movement in Rage.</description>
+		</sheet>
+	</element>
+
+</elements>
