@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="cleric-void.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-cleric/cleric-void.xml" />
+		<file name="barbarian-whistle.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-barbarian/barbarian-whistle.xml" />
 	</files>
 </index>
