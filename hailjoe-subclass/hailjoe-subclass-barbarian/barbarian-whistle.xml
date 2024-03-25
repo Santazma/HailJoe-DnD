@@ -1,125 +1,96 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Void Domain</name>
-		<description>The Void Domain from HailJoe</description>
+		<name>Path of the Whistle</name>
+		<description>Path of the Whistle from HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
 			<file name="cleric-void.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-cleric/cleric-void.xml" />
 		</update>
 	</info>
 
-	<element name="Void Domain" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_CLERIC_VOID_DOMAIN">
-		<supports>Divine Domain</supports>
+	<element name="Path of the Whistle" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_BARBARIAN_PATH_OF_THE_WHISTLE">
+		<supports>Primal Path</supports>
 		<description>
-			<p>All gods claim some aspects of creation as their domain and their devoted clerics work according to their gods’ definitive nature. But not all gods have interest in the created things. Some forces beyond the veil see all of the creation as weak and disgusting. There are gods that favor destruction of course, but destruction and chaos in itself is a “thing” at the end. But there are some beings that only crave the peace of the nothingness.</p>
-			<p>For the unsophisticated, these concepts may seem familiar by judging the results and methods of their followers. But the urge to kill is not the same as the craving of silence. These kinds of divine beings usually don’t get many followers among mortals, due to every creature’s essential desire to exist. However, there are cults consisting of nihilistic individuals. Some have hope for new beginnings after the total annihilation, some don’t even have that. They just believe existing causes pain and there is serenity in void.</p>
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_BONUS_CANTRIP" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_DOMAIN_SPELLS" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_GLORIOUS_DECAY" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_CD_SERENITY_OF_THE_VOID" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_CALL_OF_THE_VOID" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_POTENT_SPELLCASTING" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_DOOMSAYER" />
+			<p>All barbarians carry a form of fury within them. However, hailing from a barbarian culture entails more than simply relying on courage and strength on the battlefield. On the contrary, barbarians often employ hit-and-run tactics, stealth maneuvers, ambushes, and lightning strikes when combating regular armies. Consequently, those who specialize in this flexible style of combat are often significantly more lethal.</p>
+			<p>The Whistle represents an ancient and secretive method of focus, akin to entering a battle trance. Barbarians who follow the path of the whistle utilize custom-made, elegant weapons rather than cumbersome ones. When they enter a rage, their mobility increases, and they provide support to nearby allies. Their most notable characteristic, setting them apart from other barbarians, is their superior agility and expertise in stealth.</p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_WOODLAND_WEAPONS" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GRACEFUL_FURY" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GUERILLA_WARFARE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_THE_WHISTLE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_CHARGE_OF_MENAS" />
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_BONUS_CANTRIP" level="1"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_DOMAIN_SPELLS" level="1"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_GLORIOUS_DECAY" level="1"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_CD_SERENITY_OF_THE_VOID" level="2"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_CALL_OF_THE_VOID" level="6"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_POTENT_SPELLCASTING" level="8"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_DOOMSAYER" level="17"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_WOODLAND_WEAPONS" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GRACEFUL_FURY" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GUERILLA_WARFARE" level="6"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_THE_WHISTLE" level="10"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_CHARGE_OF_MENAS" level="14"/>
 		</rules>
 	</element>
 
-	<element name="Domain Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_DOMAIN_SPELLS">
+	<element name="Woodland Weapons" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_WOODLAND_WEAPONS">
 		<description>
-			<p>You gain domain spells at the cleric levels listed in the Void Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
-			<h5>Void Domain Spells</h5>
-			<table>
-				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
-				</thead>
-				<tr><td>1st</td><td><em>bane, command</em></td></tr>
-				<tr><td>3rd</td><td><em>blindness/deafness, invisibility</em></td></tr>
-				<tr><td>5th</td><td><em>dispel magic, fear</em></td></tr>
-				<tr><td>7th</td><td><em>banishment, blight</em></td></tr>
-				<tr><td>9th</td><td><em>dominate person, dream</em></td></tr>
-			</table>
+			<p>Starting when you choose this path at 3rd level, you gain proficiency with three sacred weapons: the Elven Short Glaive, Elven Spear, and Elven Greatsword.</p>
+			<p class="indent">Additionally, when you attack with one of these sacred weapons, you can add your Rage Damage bonus even if you use your Dexterity modifier to attack instead of your Strength modifier.</p>
 		</description>
-		<sheet display="false" />
+		<sheet display="false">
+			<description>You have proficiency with the Elven Short Glaive, Elven Spear, and Elven Greatsword.</description>
+		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BANE" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FEAR" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_DREAM" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SHORT_GLAIVE" requirements="!ID_HAILJOE_OPTION_SACRED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_SPEAR" requirements="!ID_HAILJOE_OPTION_SACRED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SACRED_ELVEN_GREATSWORD" requirements="!ID_HAILJOE_OPTION_SACRED" />
 		</rules>
 	</element>
 
-	<element name="Bonus Cantrip" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_BONUS_CANTRIP">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_VOID_DOMAIN_BONUS_CANTRIP</requirements>
+	<element name="Graceful Fury" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GRACEFUL_FURY">
 		<description>
-			<p>When you choose this domain at 1st level, you gain the <i>chill touch</i> cantrip if you don’t already know it. This cantrip doesn’t count against the number of cleric cantrips you know.</p>
+			<p>Beginning at 3rd level, you master the necessary footwork to evade your opponent's strikes as you dart across the battlefield. When you attack an enemy using your Reckless Attack feature, your movement does not provoke opportunity attacks for the rest of the turn.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CHILL_TOUCH" spellcasting="Cleric" />
-		</rules>
+		<sheet>
+			<description>When you use Reckless Attack feature, you do not provoke oppertunity attack until end of your turn.</description>
+		</sheet>
 	</element>
 	
-	<element name="Glorious Decay" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_GLORIOUS_DECAY">
+	<element name="Guerilla Warfare" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_GUERILLA_WARFARE">
 		<description>
-			<p>Starting at 1st level, Death is not what you seek, but it is better than life. Dead things fades away much easier than anybodies imagination. When you deal necrotic damage to any creature by any means, you regain hit points equal to your proficiency bonus. This feature only works once per turn, on the first time you deal necrotic damage.</p>
+			<p>At 6th level, your proficiency in ambushes and stealth maneuvers becomes finely honed. You gain proficiency in the Stealth skill. If you are already proficient in Stealth, you gain expertise in that skill, doubling your proficiency bonus for any ability check you make with Stealth.</p>
+			<p class="indent">Additionally, your speed increases by 5 feet while you aren't wearing heavy armor, and you gain a swimming speed equal to your walking speed.</p>
+		</description>
+		<sheet display="false">
+			<description>You have become proficient with stealth. If you have proficiency, you become expertise. Also gain 5 speed and you swim speed becomes equal to your walking speed.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_STEALTH" />
+			<stat name="innate speed:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:1]" />
+			<stat name="innate speed:climb:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="5" equipped="![armor:heavy]" requirements="[innate speed:burrow:1]" />
+			<stat name="speed:swim" value="speed" bonus="base" />
+		</rules>
+	</element>
+
+
+	<element name="The Whistle" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_THE_WHISTLE">
+		<description>
+			<p>Starting at 10th level, you master the sacred battle trance known as "The Whistle." While you are raging, you can unleash this powerful technique by whistling in a strange yet commanding tone. As you do, you emanate a 15-foot radius aura of focus around you.</p>
+			<p class="indent">Within this aura, friendly creatures gain the benefit of adding your Rage Damage bonus to every weapon attack they make. Conversely, hostile creatures within the aura have your Rage Damage bonus subtracted from every weapon attack they make. This effect lasts as long as your rage persists.</p>
 		</description>
 		<sheet>
-			<description>When you deal necrotic damage to any creature by any means, you regain hit points equal to your proficiency bonus. This feature only works once per turn, on the first time you deal necrotic damage.</description>
+			<description>When you use Rage feature, you emanate a 15-foot radius aura of focus around you. Friendly creatures gain damage bonus equal to your rage damage in this aura. Hostile creatures have your Rage Damage bonus subtracted from their damage. </description>
 		</sheet>
 	</element>
 
-
-	<element name="Channel Divinity: Serenity of the Void" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_CD_SERENITY_OF_THE_VOID">
+	<element name="Charge of Menas" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_PATH_OF_THE_WHISTLE_CHARGE_OF_MENAS">
 		<description>
-			<p>Starting at 2nd level, you can use your Channel Divinity to silence the most loud and changing voice of creation, magic. </p>
-			<p class="indent">As an action, you choose up to 4 creatures you can see within 30 feet of you. These chosen creatures are "blessed" with the serenity of the void and they can not cast any spells until the end of your next turn.</p>
-		</description>
-		<sheet alt="Serenity of the Void" action="Action" usage="Channel Divinity">
-			<description>Choose up to four creature you can see within 30ft, and "bless" them. The chosen creatures can not cast any spells until the end of your next turn.</description>
-		</sheet>
-	</element>
-
-	<element name="Call of the Void" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_CALL_OF_THE_VOID">
-		<description>
-			<p>Beginning at 6th level, when a creature within 30 feet of you regains hit points by any magical means, you can use your reaction to block that life energy. Target must succeed on a Constitution saving throw against your Spell Save DC or the target can not regain any hit points from that effect. Once you use this feature you can not use it again until you finish a short rest.</p>
-		</description>
-		<sheet action="Reaction" usage="1/Short Rest">
-			<description>When a creature you can see within 30ft of you regains hit points by any magical means, abnegate that heal and disintegrate all its magical effects into particles by dematerializing them.</description>
-		</sheet>
-	</element>
-
-	<element name="Potent Spellcasting" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_POTENT_SPELLCASTING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING</requirements>
-		<description>
-			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip or necromancy spells.</p>
+			<p>At 14th level, your charging into battle becomes unstoppable. Fueled by your unwavering cause and fortified by your heritage, you gain magic resistance while you are in Rage. This grants you advantage on saving throws against spells and other magical effects.</p>
+			<p class="indent">Also difficult terrain doesn’t cost you any extra movement when you are in Rage.</p>
 		</description>
 		<sheet>
-			<description>Add {{wisdom:modifier}} to damage dealt with a cleric cantrip or necromancy spells.</description>
-		</sheet>
-	</element>
-
-	<element name="Keeper of Souls" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VOID_DOMAIN_DOOMSAYER">
-		<description>
-			<p>At 17th level, your mere existence is unbearable for your enemies, reminding them of their insignificance. Whenever a creature hits you with a melee weapon or melee spell attack they are marked with the cold touch of the void. Their will to fight is broken. They have disadvantage on all saving throws until the end of their next turn.</p>
-		</description>
-		<sheet>
-			<description>Whenever a creature hits you with a melee weapon or melee spell attack, they will have disadvantage on all saving throws until the end of their next turn.</description>
+			<description>You gain advantage in your saving throw agains magic and magical manners in Rage. Also difficult terrain doesn't cost you extra movement in Rage.</description>
 		</sheet>
 	</element>
 
