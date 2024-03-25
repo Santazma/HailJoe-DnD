@@ -5,7 +5,7 @@
 		<description>Path of the Whistle from HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="cleric-void.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-cleric/cleric-void.xml" />
+			<file name="barbarian-whistle.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-barbarian/barbarian-whistle.xml" />
 		</update>
 	</info>
 
@@ -90,7 +90,7 @@
 			<p class="indent">Also difficult terrain doesn’t cost you any extra movement when you are in Rage.</p>
 		</description>
 		<sheet>
-			<description>You gain advantage in your saving throw agains magic and magical manners in Rage. Also difficult terrain doesn't cost you extra movement in Rage.</description>
+			<description>You gain advantage in your saving throw against magic and magical manners in Rage. Also difficult terrain doesn't cost you extra movement in Rage.</description>
 		</sheet>
 	</element>
 
