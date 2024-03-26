@@ -5,10 +5,10 @@
 		<description>HailJoe's Homebrew Cleric Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.2">
-			<file name="hailjoe-subclass-fighter.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-fighter.index" />
+			<file name="hailjoe-subclass-paladin.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin.index" />
 		</update>
 	</info>
 	<files>
-		<file name="fighter-legionary.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-fighter/fighter-legionary.xml" />
+		<file name="paladin-palanthir.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-palanthir.xml" />
 	</files>
 </index>
