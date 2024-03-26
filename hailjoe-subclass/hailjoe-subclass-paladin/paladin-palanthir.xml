@@ -4,13 +4,13 @@
 		<name>Oath of the Palanthir</name>
 		<description>Oath of the Palanthir from HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="paladin-palanthir.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-palanthir.xml" />
 		</update>
 	</info>
 
 	<element name="Oath of the Palanthir" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_PALADIN_OATH_OF_THE_PALANTHIR">
-		<supports>Martial Archetype</supports>
+		<supports>Sacred Oath</supports>
 		<description>
 			<p>The Oath of Palanthir is renowned for its dedication to safeguarding its comrades-in-arms. Originally known as the Knights of Palanthir, these holy warriors dispel the specter of defeat from the minds of their companions. Always bearing the sacred standard of their order, the Knights of Palanthir are celebrated for spreading tranquility and assurance wherever they tread.</p>
 			<h5 class="caption">TENETS OF PALANTHIR</h5>
