@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Scourgeborne</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-scourgeborne.xml" />
 		</update>
 	</info>
@@ -34,7 +34,6 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Scourgeborne)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
@@ -97,9 +96,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
-			<select type="Racial Trait" name="Ability Score Increase (Aranea)" supports="Scourgeborne" number="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Aranea)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Aranea)" number="1" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIDER_CLIMB" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WEB_SPIT" />
 		</rules>
