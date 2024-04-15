@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Scourgeborne</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-scourgeborne.xml" />
 		</update>
 	</info>
@@ -117,4 +117,38 @@
 			<description>You can a hurl sticky web at a creature within 60 feet of you. It must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be restrained by the webbing. Restrained target can make a Strength check with using Action against the DC, bursting the webbing and freeing itself on a success. Web can be attacked and destroyed (AC 10; HP equal to 3 times your proficiency bonus; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</description>
 		</sheet>
 	</element>
+
+	<element name="Belua" type="Sub Race" source="HailJoe's Races" id="ID_SUB_RACE_BELUA">
+	<supports>Scourgeborne</supports>
+		<description>
+			<p>Those that harbor seething anger within oft turn into the most feral of beasts. Belua - also known as halfwolves - are the most feral of all the Scourgeborne roaming the streets of Luyarnha. Many of them choose to hide their eyes, as their intense bloodlust turns their gaze crimson red, a terrifying sight for the uninitiated.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1 and one ability score of your choice increases by 1.</p>
+			<p class="indent"><strong><em>Keen Hearing and Smell.</em></strong> You have advantage on Perception checks that rely on hearing or smell.</p>
+			<p class="indent"><strong><em>Hungry Jaws.</em></strong> As a bonus action, you can attempt to feed off of a creature within 5 feet of you. Make an unarmed strike. On a hit, you regain hit points equal to the damage dealt. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Belua)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_HEARING_AND_SMELL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUNGRY_JAWS" />
+		</rules>
+	</element>
+	<element name="Keen Hearing and Smell" type="Racial Trait" source="HailJoe's Races" id="ID_RACIAL_TRAIT_KEEN_HEARING_AND_SMELL">
+        	<description>
+			<p>You have advantage on Perception checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+                	<description>You have advantage on Perception checks that rely on hearing or smell.</description>
+            	</sheet>
+        </element>
+        <element name="Hungry Jaws" type="Racial Trait" source="HailJoe's Races" id="ID_RACIAL_TRAIT_HUNGRY_JAWS">
+		<description>
+			<p>As a bonus action, you can attempt to feed off of a creature within 5 feet of you. Make an unarmed strike. On a hit, you regain hit points equal to the damage dealt. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+        	<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+        		<description>You can attempt to feed off of a creature within 5 feet of you. Make an unarmed strike. On a hit, you regain hit points equal to the damage dealt. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+        	</sheet>
+        </element>
+
 </elements>
