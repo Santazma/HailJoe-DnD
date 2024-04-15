@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Scourgeborne Race</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-scourgeborne.xml" />
 		</update>
 	</info>
@@ -85,7 +85,7 @@
 		</rules>
 	</element>
 
-	<element name="Aranea" type="Sub Race" source="HailJoe's Races" id="ID_SUB_RACE_ARANEAF">
+	<element name="Aranea" type="Sub Race" source="HailJoe's Races" id="ID_SUB_RACE_ARANEA">
 		<supports>Scourgeborne</supports>
 		<description>
 			<p>The person who schemes and creates a web of lies around themselves is, unsurprisingly, bound to turn into an aranea. Also known as half-spiders, these scourgeborne differ from others - though many turn, few retain their sanity. Amongst the scourgeborne, araneas are the least trusted, their appearance revealing their former - or current - manipulative personality. Although most people understand the need for violence, especially in Aiwelen, none tolerate deception and betrayal.</p>
