@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Scourgeborne</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-scourgeborne.xml" />
 		</update>
 	</info>
@@ -42,7 +42,8 @@
 			<select type="Language" name="Language (Scourgeborne)" supports="Standard||Exotic" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERAL_LIMBS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELDRITCH_CURSE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BORN_OF_MADNESS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BORN_OF_MADNESS" /> 
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCOURGEBORNE_SUBRACE" />
 		</rules>
 	</element>
 	<element name="Feral Limbs" type="Racial Trait" source="HailJoe's Races" id="ID_RACIAL_TRAIT_FERAL_LIMBS">
