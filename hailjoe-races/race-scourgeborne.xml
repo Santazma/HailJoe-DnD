@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Scourgeborne</name>
+		<name>Scourgeborne Race</name>
 		<update version="0.0.1">
-			<file name="race-elf.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/races/race-elf.xml" />
+			<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-scourgeborne.xml" />
 		</update>
 	</info>
 
-	<element name="Elf" type="Race" source="Player’s Handbook" id="ID_RACE_ELF">
+	<element name="Scourgeborne" type="Race" source="Player’s Handbook" id="ID_RACE_ELF">
 		<description>
 			<p class="flavor">Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>
 			<h4>SLENDER AND GRACEFUL</h4>
