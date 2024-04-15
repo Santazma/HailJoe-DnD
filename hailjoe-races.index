@@ -4,7 +4,7 @@
 		<name>HailJoe Races</name>
 		<description>Hailjoe's homebrew races</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="hailjoe-races.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races.index" />
 		</update>
 	</info>
