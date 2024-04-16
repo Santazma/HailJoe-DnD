@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Scourgeborne</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-scourgeborne.xml" />
 		</update>
 	</info>
@@ -150,5 +150,81 @@
         		<description>You can attempt to feed off of a creature within 5 feet of you. Make an unarmed strike. On a hit, you regain hit points equal to the damage dealt. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
         	</sheet>
         </element>
+
+	<element name="Cervus" type="Sub Race" source="HailJoe's Races" id="ID_SUB_RACE_CERVUS">
+	<supports>Scourgeborne</supports>
+		<description>
+        		<p>The rarest amongst the scourgeborne. To become a cervus, also called half-deer or waldschrat, one must have committed the foulest of sins - devouring the flesh of their kin. Or so the rumor went. This urban legend has long since been disproved as many of the town’s most trusted figures have turned into such creatures. Interestingly, it seems that those that become cervus are the most apt at fighting creatures of the night, an achievement that earns them the respect of hunters across the city-state.</p>
+        		<p class="indent"><strong><em>Ability Score Increase.</em></strong> Either your Wisdom score or Strength score increases by 1 (your choice), and one ability score of your choice increases by 1.</p>
+        		<p class="indent"><strong><em>Goring Charge.</em></strong> If you move at least 20 feet straight toward a creature and then hit it with a melee attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make one melee attack against it as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        		<p class="indent"><strong><em>Nimble build.</em></strong> Your movement speed increases by 10 feet.</p>
+    		</description>
+    		<sheet display="false" />
+    		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Cervus" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_WISDOM" />
+        		<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Cervus)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GORING_CHARGE" />
+        		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_BUILD" />
+    		</rules>
+	</element>
+	<element name="Goring Charge" type="Racial Trait" source="HailJoe's Races" id="ID_RACIAL_TRAIT_GORING_CHARGE">
+    		<description>
+        		<p>If you move at least 20 feet straight toward a creature and then hit it with a melee attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make one melee attack against it as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+   		</description>
+    		<sheet action="Action" usage="{{proficiency}}/Long Rest">
+       			<description>If you move at least 20 feet straight toward a creature and then hit it with a melee attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make one melee attack against it as a bonus action.</description>
+    		</sheet>
+	</element>
+	<element name="Nimble Build" type="Racial Trait" source="HailJoe's Races" id="ID_RACIAL_TRAIT_NIMBLE_BUILD">
+    		<description>
+        		<p>Your movement speed increases by 10 feet.</p>
+    		</description>
+    		<sheet>
+        		<description>Your movement speed increases by 10 feet.</description>
+    		</sheet>
+		<rules>
+			<stat name="innate speed:misc" value="10" />
+			<stat name="innate speed:climb:misc" value="10" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="10" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="10" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="10" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+
+	<element name="Vespertilio" type="Sub Race" source="HailJoe's Races" id="ID_SUB_RACE_VESPERTILIO">
+    	<supports>Scourgeborne</supports>
+    		<description>
+        		<p>Those who hid in fear in the face of adversity are cursed to become these beasts of the night. Vespertilio - also known as half-bats - present some of the most accursed beings amongst the scourgeborne. Their unwillingness to see their problems has taken a literal form as most of their sight was stolen from them. Instead, they received half broken wings in a cruel farce of fate, as if to run away from their problems. Yet those who harness these new powers can become some of the fiercest hunters - an act of defiance against fate itself.</p>
+        		<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1 and one ability score of your choice increases by 1.</p>
+        		<p class="indent"><strong><em>Echolocative Sight.</em></strong> You have blindsight out to 30 feet and have disadvantage on any ability check or attack roll that requires sight beyond this radius.</p>
+        		<p class="indent"><strong><em>Tattered Wings.</em></strong> You can use a bonus action to gain a flying speed of 30 feet until the end of your turn. If nothing is holding you aloft at the end of your turn, you fall. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>
+    		</description>
+    		<sheet display="false" />
+    		<rules>
+        		<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+        		<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Vespertilio)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ECHOLOCATIVE_SIGHT" />
+        		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TATTERED_WINGS" />
+    		</rules>
+	</element>
+	<element name="Echolocative Sight" type="Racial Trait" source="HailJoe's Races" id="ID_RACIAL_TRAIT_ECHOLOCATIVE_SIGHT">
+    		<description>
+        		<p>You have blindsight out to 30 feet and have disadvantage on any ability check or attack roll that requires sight beyond this radius.</p>
+    		</description>
+    		<sheet>
+        		<description>You have blindsight out to 30 feet and have disadvantage on any ability check or attack roll that requires sight beyond this radius.</description>
+    		</sheet>
+		<rules>
+			<stat name="blindsight:range" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Tattered Wings" type="Racial Trait" source="HailJoe's Races" id="ID_RACIAL_TRAIT_TATTERED_WINGS">
+    		<description>
+        		<p>You can use a bonus action to gain a flying speed of 30 feet until the end of your turn. If nothing is holding you aloft at the end of your turn, you fall. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>
+    		</description>
+    		<sheet action="Bonus Action" usage="{{proficiency}}/Short Rest">
+        		<description>You can use a bonus action to gain a flying speed of 30 feet until the end of your turn. If nothing is holding you aloft at the end of your turn, you fall.</description>
+    		</sheet>
+	</element>
 
 </elements>
