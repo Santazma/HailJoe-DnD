@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's Homebrew Spells</name>
 		<description>Newmade Homebrew Spells from the HailJoe.</description>
-		<update version="0.0.14">
+		<update version="0.0.15">
 			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 		</update>
 	</info>
@@ -588,6 +588,199 @@
 			<set name="materialComponent">a handful of wild rue seeds</set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	
+	<element name="Blazing Step" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BLAZING_STEP">
+		<supports>Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>This spell allows the caster and up to 5 willing creatures to teleport across any distance on the same plane of existence by stepping into one fire and emerging from another. The fire used as the entry point must be large enough for a creature to step into, such as a sizable fireplace or campfire.</p>
+			<p class="indent">When cast on an appropriate fire, the flames take on a deep purple hue and cease to produce heat. The caster must then speak the name of a specific location known to them. The fire briefly flares, and any creature that steps into it emerges from the nearest suitable fire to the specified destination.</p>
+			<p class="indent">However, if the caster is uncertain whether there is a suitable fire at the destination, the teleportation can be risky, potentially resulting in a significant distance from the intended location. Additionally, upon arrival, the flames at the exit point turn purple and cool for 30 seconds, which may startle those unprepared for the transition.</p>
+			<p class="indent">It takes one full turn for a creature to step through the fire, preventing any actions on the other side for that round. Furthermore, the passage is one-way, meaning that nothing from the destination side can pass through to the entry side.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">5</set>
+			<set name="school">Transmutation</set>
+			<set name="time">10 minutes</set>
+			<set name="duration">30 seconds</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">An obsidian stone worth at least 50 gp</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Become Fire" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BECOME_FIRE">
+		<supports>Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You become a burst of elemental flames. Until the start of your next turn, you gain the following benefits:</p>
+			<ul>
+				<li>You become resistant to fire damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks.</li>
+				<li>You can move through the space of other creatures and ignore difficult terrain. The first time you enter the space of another creature on a turn, it takes 1d6 fire damage.</li>
+				<li>Once during your turn when you roll fire damage, you can maximize the value of one die of fire damage.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">2</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">1 round</set>
+			<set name="range">self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Eyes of Immolation" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_EYES_OF_IMMOLATION">
+		<supports>Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>Your eyes glow with fiery light before focusing on a creature you can see within range, causing a beam of fire to shoot from your eyes. The target creature must make a Dexterity saving throw. On a failed save, it takes 3d6 fire damage and is set ablaze, taking 1d6 damage at the end of each of its turns until it or another creature within 5 feet of it spends an action to douse the flames. On a successful save, the creature takes half as much damage and is not set ablaze.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d6 for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Unstable Explosion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_UNSTABLE_EXPLOSION">
+		<supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You cause an unstable explosion to erupt at a point of your choice within range, rolling 3d6. For each die that rolls a 6, roll an additional d6 and the radius of the spell expands by 5 feet.</p>
+			<p class="indent">Each creature within the final range of the spell must make a Dexterity saving throw. On a failed save, they take fire damage equal to the total value of the rolled dice. On a success the target takes half as much damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet (10 feet radius)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Fire Cyclone" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_FIRE_CYCLONE">
+		<supports>Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>Targeting a point on the ground you can see, you cause a cyclone made of whipping flames to fill a 10-foot-radius, 30-foot-high cylinder.</p>
+			<p class="indent">Creatures that are inside the spell when you cast it or enter it for the first time on a turn must make a Strength saving throw. On a failed saving throw, it takes 3d6 fire damage and is flung 15 feet upwards and lands 15 feet in a randomly determined horizontal direction. On a successful save, the creature takes half as much damage and is not flung.</p>
+			<p class="indent">When a creature is not entirely inside the cyclone's radius but within 30 feet of its center at the start of its turn, it still feels the intense draw of the raging cyclone, and must spend 2 feet (or 3 feet if it is flying) of movement for every 1 foot it moves away from the cyclone.</p>
+			<p class="indent">For the duration of the spell, you can spend an action to move the cyclone up to 30 feet in any direction along the ground.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">3</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to a 1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a pinch of ashes from a forest fire</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Pillar of Fire" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_PILLAR_OF_FIRE">
+		<supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>A pillar of fire in a 5-foot-radius, 30-foot-high cylinder centered on a point within range. Each creature in the cylinder in the must make a Dexterity saving throw. A creature takes 10d6 fire damage on a failed save, or half as much on a successful save.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Pyroclastic Lance" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_PYROCLASTIC_LANCE">
+		<supports>Sorcerer, Warlock, Wizard, Spell Attack, Spell Saving Throw</supports>
+		<description>
+			<p>You conjure a lance of blazing lava before hurling it at target within range. Make a ranged spell attack. On hit, the target takes 8d6 fire damage.</p>
+			<p class="indent">Hit or miss, the lance then explodes in a 10 foot radius sphere of heavily obscuring pyroclastic ash around the target until the start of your next turn.</p>
+			<p class="indent">Any creature that starts their turn within the ash cloud must make a Constitution saving throw or take 4d6 fire damage and be blinded until the start of their next turn.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the initial damage increases by 1d6 for each slot level above 5th.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">5</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Form of Fire" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_FORM_OF_FIRE">
+		<supports>Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>You become elemental fire, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Until the spell ends, you gain the following benefits:</p>
+			<ul>
+				<li>You become immune to fire damage for the duration.</li>
+				<li>You can move through the space of other creatures and ignore difficult terrain. The first time on your turn you enter the space of another creature, it takes 1d6 fire damage.</li>
+				<li>If a creature within 5 feet hits you with a melee attack, it takes 1d6 fire damage.</li>
+				<li>You can use your action to create a line of fire 30 feet long and 5 feet wide extending from you in a direction of your choice. Each creature in the line must make a Dexterity saving throw. A creature takes 4d6 fire damage on a failed save, or half as much damage on a successful one.</li>
+				<li>During your turn, if you roll fire damage, you can maximize one die of the fire damage dealt.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">6</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minutes</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an object engraved with a symbol from the Fire related Planes, worth at least 500 gp</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
 		</setters>
 	</element>
 </elements>
