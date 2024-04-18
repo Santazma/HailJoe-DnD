@@ -142,4 +142,108 @@
       <set name="rarity">Uncommon</set>
     </setters>
   </element>
+
+	<element name="Fungic Tea (White)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FUNGIC_TEA_WHITE">
+    <description>
+      <p>The aroma and appearance of this tea are undeniably repulsive, with seemingly still-living organisms squirming within it. However, for those who can stomach it, the tea offers impressive soothing properties.</p>
+      <p>Known for temporarily alleviating the effects of madness, the darker the tea, the more potent and challenging to brew. Once ingested, the afflicted individual is relieved of the affected madness for 1 hour or until the madness ends, whichever is shorter.</p>
+      <p>However, upon swallowing the tea, you must make a Constitution saving throw with a DC listed in the table below. On a failure, you can’t stomach the appalling taste, regurgitate the tea, and don’t gain the benefits.</p>
+			<p>The tea is made in kettles that can pour up to 2d4 cups.</p>
+			<table>
+				<thead>
+					<tr><td class="left">TEA TYPE</td><td>SAVING THROW DC</td><td>AFFECTED MADNESS</td><td>RARITY</td></tr>
+				</thead>
+				<tr><td class="left">White</td><td>12</td><td>One short-term</td><td>Uncommon</td></tr>
+				<tr><td class="left">Yellow</td><td>14</td><td>All short-term; one long-term</td><td>Rare</td></tr>
+				<tr><td class="left">Blue</td><td>16</td><td>All short-term and long-term</td><td>Very Rare</td></tr>
+				<tr><td class="left">Black</td><td>18</td><td>All short-term and long-term; one indefinite</td><td>Legendary</td></tr>
+			</table>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+
+	<element name="Fungic Tea (Yellow)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FUNGIC_TEA_YELLOW">
+    <description>
+      <p>The aroma and appearance of this tea are undeniably repulsive, with seemingly still-living organisms squirming within it. However, for those who can stomach it, the tea offers impressive soothing properties.</p>
+      <p>Known for temporarily alleviating the effects of madness, the darker the tea, the more potent and challenging to brew. Once ingested, the afflicted individual is relieved of the affected madness for 1 hour or until the madness ends, whichever is shorter.</p>
+      <p>However, upon swallowing the tea, you must make a Constitution saving throw with a DC listed in the table below. On a failure, you can’t stomach the appalling taste, regurgitate the tea, and don’t gain the benefits.</p>
+			<p>The tea is made in kettles that can pour up to 2d4 cups.</p>
+			<table>
+				<thead>
+					<tr><td class="left">TEA TYPE</td><td>SAVING THROW DC</td><td>AFFECTED MADNESS</td><td>RARITY</td></tr>
+				</thead>
+				<tr><td class="left">White</td><td>12</td><td>One short-term</td><td>Uncommon</td></tr>
+				<tr><td class="left">Yellow</td><td>14</td><td>All short-term; one long-term</td><td>Rare</td></tr>
+				<tr><td class="left">Blue</td><td>16</td><td>All short-term and long-term</td><td>Very Rare</td></tr>
+				<tr><td class="left">Black</td><td>18</td><td>All short-term and long-term; one indefinite</td><td>Legendary</td></tr>
+			</table>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+	<element name="Fungic Tea (Blue)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FUNGIC_TEA_BLUE">
+    <description>
+      <p>The aroma and appearance of this tea are undeniably repulsive, with seemingly still-living organisms squirming within it. However, for those who can stomach it, the tea offers impressive soothing properties.</p>
+      <p>Known for temporarily alleviating the effects of madness, the darker the tea, the more potent and challenging to brew. Once ingested, the afflicted individual is relieved of the affected madness for 1 hour or until the madness ends, whichever is shorter.</p>
+      <p>However, upon swallowing the tea, you must make a Constitution saving throw with a DC listed in the table below. On a failure, you can’t stomach the appalling taste, regurgitate the tea, and don’t gain the benefits.</p>
+			<p>The tea is made in kettles that can pour up to 2d4 cups.</p>
+			<table>
+				<thead>
+					<tr><td class="left">TEA TYPE</td><td>SAVING THROW DC</td><td>AFFECTED MADNESS</td><td>RARITY</td></tr>
+				</thead>
+				<tr><td class="left">White</td><td>12</td><td>One short-term</td><td>Uncommon</td></tr>
+				<tr><td class="left">Yellow</td><td>14</td><td>All short-term; one long-term</td><td>Rare</td></tr>
+				<tr><td class="left">Blue</td><td>16</td><td>All short-term and long-term</td><td>Very Rare</td></tr>
+				<tr><td class="left">Black</td><td>18</td><td>All short-term and long-term; one indefinite</td><td>Legendary</td></tr>
+			</table>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+
+	<element name="Fungic Tea (Black)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FUNGIC_TEA_BLACK">
+    <description>
+      <p>The aroma and appearance of this tea are undeniably repulsive, with seemingly still-living organisms squirming within it. However, for those who can stomach it, the tea offers impressive soothing properties.</p>
+      <p>Known for temporarily alleviating the effects of madness, the darker the tea, the more potent and challenging to brew. Once ingested, the afflicted individual is relieved of the affected madness for 1 hour or until the madness ends, whichever is shorter.</p>
+      <p>However, upon swallowing the tea, you must make a Constitution saving throw with a DC listed in the table below. On a failure, you can’t stomach the appalling taste, regurgitate the tea, and don’t gain the benefits.</p>
+			<p>The tea is made in kettles that can pour up to 2d4 cups.</p>
+			<table>
+				<thead>
+					<tr><td class="left">TEA TYPE</td><td>SAVING THROW DC</td><td>AFFECTED MADNESS</td><td>RARITY</td></tr>
+				</thead>
+				<tr><td class="left">White</td><td>12</td><td>One short-term</td><td>Uncommon</td></tr>
+				<tr><td class="left">Yellow</td><td>14</td><td>All short-term; one long-term</td><td>Rare</td></tr>
+				<tr><td class="left">Blue</td><td>16</td><td>All short-term and long-term</td><td>Very Rare</td></tr>
+				<tr><td class="left">Black</td><td>18</td><td>All short-term and long-term; one indefinite</td><td>Legendary</td></tr>
+			</table>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Legendary</set>
+    </setters>
+  </element>
 </elements>
