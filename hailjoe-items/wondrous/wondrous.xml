@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -143,7 +143,7 @@
     </setters>
   </element>
 
-	<element name="Fungic Tea (White)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FUNGIC_TEA_WHITE">
+		<element name="Fungic Tea (White)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FUNGIC_TEA_WHITE">
     <description>
       <p>The aroma and appearance of this tea are undeniably repulsive, with seemingly still-living organisms squirming within it. However, for those who can stomach it, the tea offers impressive soothing properties.</p>
       <p>Known for temporarily alleviating the effects of madness, the darker the tea, the more potent and challenging to brew. Once ingested, the afflicted individual is relieved of the affected madness for 1 hour or until the madness ends, whichever is shorter.</p>
