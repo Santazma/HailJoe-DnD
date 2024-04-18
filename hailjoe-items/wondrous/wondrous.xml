@@ -229,7 +229,7 @@
 			<p>The tea is made in kettles that can pour up to 2d4 cups.</p>
 			<table>
 				<thead>
-					<tr><td class="left">TEA TYPE</td><td>SAVING THROW DC</td><td>AFFECTED MADNESS</td><td>RARITY</td></tr>
+						<tr><td class="left">TEA TYPE</td><td>SAVING THROW DC</td><td>AFFECTED MADNESS</td><td>RARITY</td></tr>
 				</thead>
 				<tr><td class="left">White</td><td>12</td><td>One short-term</td><td>Uncommon</td></tr>
 				<tr><td class="left">Yellow</td><td>14</td><td>All short-term; one long-term</td><td>Rare</td></tr>
