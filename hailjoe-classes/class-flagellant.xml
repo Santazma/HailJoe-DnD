@@ -3,7 +3,7 @@
 	<info>
 		<name>Flagellant</name>
 		<description>The Flagellant class from HailJoe</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
 		</update>
 	</info>
@@ -324,7 +324,7 @@
 			<p class="indent"><i><b>Suffering Flail:</b></i> At 11th level, you deal additional damage equal to your suffering die to all your attacks with a whip or flail.</p>
 			<p class="indent"><i><b>Scared Flesh:</b></i> At 11th level, whenever you are reduced to 0 hit points, you can use your reaction to be reduced to 1 hit point instead. You can use this feature a number of times equal to your Constitution modifier, and regain your uses of this feature after a long rest.</p>
 		</description>
-		<sheet action="Reaction" usage="{{implements of pain:usage}}/Long Rest>
+		<sheet action="Reaction" usage="{{implements of pain:usage}}/Long Rest">
 			<description>You deal additional damage equal to your suffering die to all your attacks with a whip or flail. Also, whenever you are reduced to 0 hit points, you can use your reaction to be reduced to 1 hit point instead.</description>
 		</sheet>
 		<rules>
