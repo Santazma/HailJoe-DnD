@@ -4,7 +4,7 @@
 		<name>Flagellant</name>
 		<description>The Flagellant class from HailJoe</description>
 		<update version="0.0.1">
-			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-barbarian.xml" />
+			<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
 		</update>
 	</info>
 
@@ -61,19 +61,19 @@
 				<tr><td>3rd</td><td>+2</td><td>1d4</td><td class="left">Lash's Cure, Flagellant Path</td></tr>
 				<tr><td>4th</td><td>+2</td><td>1d4</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>5th</td><td>+3</td><td>1d6</td><td class="left">Lash's Anger, Implements of Faith</td></tr>
-				<tr><td>6th</td><td>+3</td><td>1d6</td><td class="left">Path feature, Trinkets of Suffering (2)</td></tr>
+				<tr><td>6th</td><td>+3</td><td>1d6</td><td class="left">Path feature</td></tr>
 				<tr><td>7th</td><td>+3</td><td>1d6</td><td class="left">Lash's Kiss, Lash's Solace</td></tr>
 				<tr><td>8th</td><td>+3</td><td>1d6</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>9th</td><td>+4</td><td>1d8</td><td class="left">Unyielding</td></tr>
-				<tr><td>10th</td><td>+4</td><td>1d8</td><td class="left">Path feature, Trinkets of Suffering (3)</td></tr>
+				<tr><td>10th</td><td>+4</td><td>1d8</td><td class="left">Path feature</td></tr>
 				<tr><td>11th</td><td>+4</td><td>1d8</td><td class="left">Implements of Pain</td></tr>
 				<tr><td>12th</td><td>+4</td><td>1d8</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>13th</td><td>+5</td><td>1d10</td><td class="left">Last Gasp</td></tr>
-				<tr><td>14th</td><td>+5</td><td>1d10</td><td class="left">Path feature, Trinkets of Suffering (4)</td></tr>
+				<tr><td>14th</td><td>+5</td><td>1d10</td><td class="left">Path feature</td></tr>
 				<tr><td>15th</td><td>+5</td><td>1d10</td><td class="left">Clutch Hitter</td></tr>
 				<tr><td>16th</td><td>+5</td><td>1d10</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>17th</td><td>+6</td><td>1d12</td><td class="left">Implements of Martyrdom</td></tr>
-				<tr><td>18th</td><td>+6</td><td>1d12</td><td class="left">Trinkets of Suffering (5)</td></tr>
+				<tr><td>18th</td><td>+6</td><td>1d12</td><td class="left">-</td></tr>
 				<tr><td>19th</td><td>+6</td><td>1d12</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>20th</td><td>+6</td><td>1d12</td><td class="left">Bloodied Saint</td></tr>
 			</table>
@@ -87,7 +87,6 @@
 			<div element="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_ABILITYSCOREIMPROVEMENT" />
 			<div element="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_ANGER" />
 			<div element="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_IMPLEMENTS_OF_FAITH" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_TRINKETS_OF_SUFFERING" />
 			<div element="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_KISS" />
 			<div element="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_SOLACE" />
 			<div element="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_UNYIELDING" />
@@ -121,7 +120,6 @@
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_ABILITYSCOREIMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_ANGER" level="5" />
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_IMPLEMENTS_OF_FAITH" level="5" />
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_TRINKETS_OF_SUFFERING" level="6" />
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_KISS" level="7" />
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_SOLACE" level="7" />
                         <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_UNYIELDING" level="9" />
@@ -222,135 +220,166 @@
 			<p class="indent">In addition, you score critical hits on a 19-20 on the d20. At 9th level, If you are using a whip or flail, you score critical hit on a roll of 18-20 on the d20.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.</description>
+			<description>Whenever you have half your maximum hit points or lower, you gain a bonus equal to your suffering die to your damage rolls. You only deal this additional damage once per turn. Also you score critical hits on a 19-20. At 9th level, it becomes 18-20.</description>
 		</sheet>
-		<rules>
-			<!--<stat name="advantage:Dexterity Saving Throws" condition="against effects that you can see, such as traps and spells. While not blinded, deafened, or incapacitated." />-->
-		</rules>
 	</element>
-	<element name="Primal Path" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_PATH</requirements>
+
+	<element name="Lash's Cure" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_CURE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LASHS_CURE</requirements>
 		<description>
-			<p>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
+			<p>Starting at 3rd level, you can purge the foulness from your sacred flesh. You can spend one hit die during a short or a long rest to remove a disease from your body.</p>
+		</description>
+		<sheet>
+			<description>You can spend one hit die during a short or a long rest to remove a disease from your body.</description>
+		</sheet>
+	</element>
+	
+	<element name="Flagellant Path" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_FLAGELLANT_PATH">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_FLAGELLANT_PATH</requirements>
+		<description>
+			<p>Starting at 3rd Level, you commit yourself to a Flagellant's Path. Your path grants you features at the 3rd, 6th, and 14th Level.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Archetype" name="Primal Path" supports="Primal Path" level="3" />
+			<select type="Archetype" name="Flagellant Path" supports="Flagellant Path" level="3" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_ABILITY_SCORE_IMPROVEMENT</requirements>
+	
+	<element name="Ability Score Improvement" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_ABILITYSCOREIMPROVEMENT">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_ABILITYSCOREIMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
 			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Barbarian 4)" supports="Improvement Option,Barbarian,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Barbarian 8)" supports="Improvement Option,Barbarian,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Barbarian 12)" supports="Improvement Option,Barbarian,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Barbarian 16)" supports="Improvement Option,Barbarian,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Barbarian 19)" supports="Improvement Option,Barbarian,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Flagellant 4)" supports="Improvement Option,Flagellant,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Flagellant 8)" supports="Improvement Option,Flagellant,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Flagellant 12)" supports="Improvement Option,Flagellant,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Flagellant 16)" supports="Improvement Option,Flagellant,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Flagellant 19)" supports="Improvement Option,Flagellant,19" level="19" />
 		</rules>
 	</element>
-	<element name="Extra Attack" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_EXTRA_ATTACK</requirements>
+
+	<element name="Lash's Anger" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_ANGER">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LASHS_ANGER</requirements>
 		<description>
-			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+			<p>Starting at 5th level, you can use your action to enter in your Rapturous state even without a negative condition affecting you, lasting for 1 minute.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can use your action to enter in your Rapturous state.</description>
+		</sheet>
+	</element>
+	
+	<element name="Implements of Faith" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_IMPLEMENTS_OF_FAITH">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_IMPLEMENTS_OF_FAITH</requirements>
+		<description>
+			<p>Starting at 5th level, your ability to deliver and endure pain grows further.</p>
+			<p class="indent"><i><b>Initiate's Flail:</b></i> You can attack twice, instead of once, whenever you take the Attack action with a whip or flail on your turn. In addition, your attacks with whips and flails count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+			<p class="indent"><i><b>Lacerated Flash:</b></i> While not wearing armor, you gain resistance to slashing damage.</p>
 		</description>
 		<sheet>
-			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn while using flail or whip. Also, your weapon attacks counts as magical. Lastly, while not wearing armor, you gain resistance to slashing damage.</description>
 		</sheet>
 		<rules>
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="resistance:slashing" condition="while not wearing armor" />
 		</rules>
 	</element>
-	<element name="Fast Movement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_FAST_MOVEMENT</requirements>
+
+	<element name="Lash's Kiss" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_KISS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LASHS_KISS</requirements>
 		<description>
-			<p>Starting at 5th level, your speed increases by 10 feet while you aren’t wearing heavy armor.</p>
+			<p>At 7th level, the pain of the lash on your body is tender as a kiss of a lover. As a bonus action, you can lash yourself and roll a hit die. You regain hit points equal to the number rolled and the poisoned condition ends on you.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can lash yourself and roll a hit die. You regain hit points equal to the number rolled and the poisoned condition ends on you.</description>
+		</sheet>
+	</element>
+
+	<element name="Lash's Solace" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LASHS_SOLACE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LASHS_SOLACE</requirements>
+		<description>
+			<p>At 7th level, you find comfort in pain. You can use your action and spend 1 hit die to remove one negative condition affecting you. If you are under the effect of Rapturous, that effect also ends.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can spend 1 hit die to remove one negative condition affecting you. If you are under the effect of Rapturous, that effect also ends.</description>
+		</sheet>
+	</element>
+	
+	<element name="Unyielding" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_UNYIELDING">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_UNYIELDING</requirements>
+		<description>
+			<p>Starting at 9th level, you can add your suffering die to the result of your Death saving throws. If doing so increases your result to 20 or higher, you gain the benefits of rolling 20 on the saving throw.</p>
 		</description>
 		<sheet>
-			<description>Your speed increases by 10 feet while you aren’t wearing heavy armor.</description>
+			<description>You can add your suffering die to the result of your Death saving throws. If result is 20 or higher, you gain the benefits of rolling 20 on the saving throw.</description>
+		</sheet>
+	</element>
+
+	<element name="Implements of Pain" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_IMPLEMENTS_OF_PAIN">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_IMPLEMENTS_OF_PAIN</requirements>
+		<description>
+			<p>Starting at 11th level, the suffering becomes a close friend. You gain the following benefits:</p>
+			<p class="indent"><i><b>Suffering Flail:</b></i> At 11th level, you deal additional damage equal to your suffering die to all your attacks with a whip or flail.</p>
+			<p class="indent"><i><b>Scared Flesh:</b></i> At 11th level, whenever you are reduced to 0 hit points, you can use your reaction to be reduced to 1 hit point instead. You can use this feature a number of times equal to your Constitution modifier, and regain your uses of this feature after a long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="{{implements of pain:usage}}/Long Rest>
+			<description>You deal additional damage equal to your suffering die to all your attacks with a whip or flail. Also, whenever you are reduced to 0 hit points, you can use your reaction to be reduced to 1 hit point instead.</description>
 		</sheet>
 		<rules>
-			<stat name="innate speed:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:1]" />
-			<stat name="innate speed:climb:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:climb:1]" />
-			<stat name="innate speed:fly:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:fly:1]" />
-			<stat name="innate speed:swim:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:swim:1]" />
-			<stat name="innate speed:burrow:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:burrow:1]" />
+			<stat name="implements of pain:usage" value="1" bonus="base" />
+			<stat name="implements of pain:usage" value="constitution:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Feral Instinct" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_FERAL_INSTINCT</requirements>
+	
+	<element name="Last Gasp" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_LAST_GASP">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LAST_GASP</requirements>
 		<description>
-			<p>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</p>
-			<p class="indent">Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</p>
+			<p>At 13th level, while you are under half your maximum hit points, you gain an extra action on each of your turns. This action can only be used to take the attack (one weapon attack only), dash, or disengage actions.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on initiative rolls. 
-			If you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</description>
+			<description>While you are under half your maximum hit points, you gain an Extra Action on each of your turns. This Action can only be used to take the attack (one weapon attack only), dash, or disengage actions.</description>
+		</sheet>
+	</element>
+	
+	<element name="Clutch Hitter" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_CLUTCH_HITTER">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_CLUTCH_HITTER</requirements>
+		<description>
+			<p>At 15th level, while you are below your hit point maximum, you deal additional damage equal to your suffering die on critical hits.</p>
+		</description>
+		<sheet>
+			<description>While you are below your hit point maximum, you deal additional damage equal to your suffering die on critical hits.</description>
+		</sheet>
+	</element>
+	
+	<element name="Implements of Martyrdom" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_IMPLEMENTS_OF_MARTYRDOM">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_IMPLEMENTS_OF_MARTYRDOM</requirements>
+		<description>
+			<p>At 17th level, you are closer to the path of purification. You gain the following benefits:</p>
+			<p class="indent"><i><b>Bloodthirsty Flail:</b></i> Once per turn when you hit a creature with a flail or whip, you deal additional necrotic damage equal to your suffering die.</p>
+			<p class="indent"><i><b>Scared Flesh:</b></i> You gain resistance to slashing, piercing and bludgeoning damage. In addition, you become immune to necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>Once per turn when you hit a creature with a flail or whip, you deal additional necrotic damage equal to your suffering die. Also you gain resistance to slashing, piercing and bludgeoning damage. In addition, you become immune to necrotic damage.</description> 
 		</sheet>
 		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
 		</rules>
 	</element>
-	<element name="Brutal Critical" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_BRUTAL_CRITICAL</requirements>
-		<description>
-			<p>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
-			<p class="indent">This increases to two additional dice at 13th level and three additional dice at 17th level.</p>
-		</description>
-		<sheet>
-			<description>One additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</description>
-			<description level="13">Two additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</description>
-			<description level="17">Three additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</description>
-		</sheet>
-	</element>
-	<element name="Relentless Rage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_RELENTLESS_RAGE</requirements>
-		<description>
-			<p>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p>
-			<p class="indent">Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</p>
-		</description>
-		<sheet>
-			<description>If you drop to 0 hp while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hp instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</description>
-		</sheet>
-	</element>
-	<element name="Persistant Rage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PERSISTANT_RAG</requirements>
-		<description>
-			<p>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</p>
-		</description>
-		<sheet>
-			<description>Your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</description>
-		</sheet>
-	</element>
-	<element name="Indomitable Might" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT">
+	
+	<element name="Bloodied Saint" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_BLOODIED_SAINT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_INDOMITABLE_MIGHT</requirements>
 		<description>
-			<p>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</p>
+			<p>When you reach the 20th level, the scars and lacerations on your flesh have taken all the sin of your soul. You gain the following benefits:</p>
+			<p class="indent"><i><b>The Burden:</b></i> You score critical hits on a roll of 17-20 with the flail or whip.</p>
+			<p class="indent"><i><b>Scared Flesh:</b></i> You gain resistance to all damage types, except psychic. You become immune to poison damage, the poisoned condition and disease.</p>
 		</description>
 		<sheet>
 			<description>If your total for a Strength check is less than {{strength:score}}, you can use {{strength:score}} place of the total.</description>
 		</sheet>
 	</element>
-	<element name="Primal Champion" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_CHAMPION</requirements>
-		<description>
-			<p>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>
-		</description>
-		<sheet display="false">
-			<description>You embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</description>
-		</sheet>
-		<rules>
-			<stat name="strength" value="4" />
-			<stat name="constitution" value="4" />
-			<stat name="strength:max" value="4" />
-			<stat name="constitution:max" value="4" />
-		</rules>
-	</element>
-
+	
 	<!--Feature Replacement Grants-->
 	<element name="Rapturous Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_RAPTUROUS" />
 	<element name="Blessings of Martyrdom Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_BLESSINGS_OF_MARTYRDOM" />
@@ -362,7 +391,6 @@
 	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_ABILITYSCOREIMPROVEMENT" />
 	<element name="Lash's Anger Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LASHS_ANGER" />
 	<element name="Implements of Faith Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_IMPLEMENTS_OF_FAITH" />
-	<element name="Trinkets of Suffering Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_TRINKETS_OF_SUFFERING" />
 	<element name="Lash's Kiss Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LASHS_KISS" />
         <element name="Lash's Solace Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_LASHS_SOLACE" />
         <element name="Unyielding Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_UNYIELDING" />
