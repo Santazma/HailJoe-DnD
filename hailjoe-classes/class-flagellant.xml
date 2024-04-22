@@ -371,13 +371,15 @@
 	<element name="Bloodied Saint" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_BLOODIED_SAINT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_INDOMITABLE_MIGHT</requirements>
 		<description>
-			<p>When you reach the 20th level, the scars and lacerations on your flesh have taken all the sin of your soul. You gain the following benefits:</p>
-			<p class="indent"><i><b>The Burden:</b></i> You score critical hits on a roll of 17-20 with the flail or whip.</p>
-			<p class="indent"><i><b>Scared Flesh:</b></i> You gain resistance to all damage types, except psychic. You become immune to poison damage, the poisoned condition and disease.</p>
+			<p>When you reach 20th level you are considered one of the chosen disciples and hallowed of your deity. Marked a champion, you may ask your deity for a Wish, once. You cannot use this boon to grant effects that oppose the deity or alignment of your choice. Your Constitution ability score increases by 2 to a maximum of 22.</p>
 		</description>
 		<sheet>
-			<description>If your total for a Strength check is less than {{strength:score}}, you can use {{strength:score}} place of the total.</description>
+			<description>You may ask your deity for a Wish, only for once. Also, your Constitution ability score increases by 2 to a maximum of 22.</description>
 		</sheet>
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="constitution:max" value="2" />
+		</rules>
 	</element>
 	
 	<!--Feature Replacement Grants-->
