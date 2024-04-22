@@ -4,7 +4,7 @@
 		<name>Jaeger</name>
 		<description>Jaeger class from Steinhardt's Guide to the Elritch Hunt</description>
 		<update version="0.0.1">
-			<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
+			<file name="class-jeager.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-jeager.xml" />
 		</update>
 	</info>
 	
