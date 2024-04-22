@@ -3,7 +3,7 @@
 	<info>
 		<name>Flagellant</name>
 		<description>The Flagellant class from HailJoe</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
 		</update>
 	</info>
