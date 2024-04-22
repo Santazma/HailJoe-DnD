@@ -4,11 +4,12 @@
 		<name>HailJoe Classes</name>
 		<description>Hailjoe's homebrew classes</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="hailjoe-classes.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats.index" />
 		</update>
 	</info>
 	<files>
-		<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
+		<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" /> 
+		<file name="class-jeager.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-jeager.xml" /> 
 	</files>
 </index>
