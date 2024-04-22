@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/sources.xml" />
 		</update>
 	</info>
 	<element name="HailJoe Classes" type="Source" source="Homebrew" id="ID_SOURCE_HAILJOE_CLASSES">
