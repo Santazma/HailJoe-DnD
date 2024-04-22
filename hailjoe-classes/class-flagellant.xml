@@ -3,7 +3,7 @@
 	<info>
 		<name>Flagellant</name>
 		<description>The Flagellant class from HailJoe</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
 		</update>
 	</info>
@@ -176,6 +176,9 @@
 			</ul>
 			<p class="indent">In addition if you die, all hostile creatures in a 30 foot radius must succeed on a Wisdom saving throw or be stunned for one round, and all your allied creatures regain hit points equal to your Flagellant level.</p>
 		</description>
+		<sheet>
+			<description>When you have 0 hit points; you have advantage on attack rolls, creatures have disadvantage on saving throws they make against your Flagellant class features and your movement speed increases in 10 feet. Also, if you die, all hostile creatures in a 30 foot radius must succeed on a Wisdom saving throw or be stunned for one round, and all your allied creatures regain hit points equal to your Flagellant level.</description>
+		</sheet>
 	</element>
 
         <element name="Instruments of Devotion" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_INSTRUMENTS_OF_DEVOTION">
@@ -186,7 +189,7 @@
 			<p class="indent"><i><b>Sinner's Flesh:</b></i> While you aren't wearing armor or wielding a shield, your Armor Class equals 10 + your Strength modifier + your Constitution modifier.</p>
 		</description>
                 <sheet>
-			<description>While you aren’t wearing armor or shield, your AC equals {{ac:unarmored defense barbarian}}. Also, you can roll your suffering die for damage rolls for whip and flail.</description>
+			<description>While you aren’t wearing armor or shield, your AC equals {{ac:unarmored defense flagellant}}. Also, you can roll your suffering die for damage rolls for whip and flail.</description>
 		</sheet>
                 <rules>
 			<stat name="ac:unarmored defense flagellant:base" value="10" />
@@ -381,6 +384,124 @@
 			<stat name="constitution:max" value="2" />
 		</rules>
 	</element>
+
+	<element name="Path of Punishment" type="Archetype" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FLAGELLANT_PATH_OF_PUNISHMENT">
+		<supports>Flagellant Path</supports>
+		<description>
+			<p><i>The Path of Punishment for the flagellant is a dark and self-destructive journey that emphasizes embracing suffering as a means of spiritual purification and power. Flagellants who follow this path willingly subject themselves to pain and torment, believing that through suffering they can draw closer to their deity or cause.</i></p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_RAIN_OF_SORROWS" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_ENDURE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_BALEFUL_VENGEANCE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_ENSANGUINATE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_RAIN_OF_SORROWS" level="3" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_ENDURE" level="6" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_BALEFUL_VENGEANCE" level="10" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_ENSANGUINATE" level="14" />
+		</rules>
+	</element>
+	
+	<element name="Rain of Sorrows" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_RAIN_OF_SORROWS">
+		<description>
+			<p>Starting at 3rd level, whenever you hit a creature with an attack from a whip or flail, you can choose to halve the damage and target one additional creature within 5 feet of the first target and within reach. If the original result would also hit that creature's AC, this attack also hits.</p>
+			<p>Both creatures must succeed on a Constitution saving throw or are targeted by the bleed effect from your Punish feature.</p>
+		</description>
+		<sheet>
+			<description>When you hit a creature with an attack from a whip or flail, you can choose to halve the damage and target one additional creature within 5 feet of the first target. If the original result is enough to beat second creatures AC, this attack also hits. Both creatures must succeed on a Constitution saving throw (Suffering Die DC) or start to bleed because of your Punish feature.</description>
+		</sheet>
+	</element>
+	
+	<element name="Endure" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_ENDURE">
+		<description>
+			<p>At 6th level, you can boost the resolve of your allies. As an action, choose one ally you can see that is afflicted by the frightened, stunned, paralyzed or charmed conditions. You cause that condition to afflict to you instead, for the same duration.</p>
+			<p>When you use this ability as an action, you can make an attack with a lash or whip as a bonus action on your turn before you begin to suffer from condition.</p>
+		</description>
+		<sheet action="Action">
+			<description>Choose one ally you can see that is afflicted by the frightened, stunned, paralyzed or charmed conditions. You cause that condition to afflict to you instead, for the same duration. When you use this ability, you can make an attack with a lash or whip as a bonus action on your turn before you begin to suffer from condition.</description>
+		</sheet>
+	</element>
+	
+	<element name="Baleful Vengeance" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_BALEFUL_VENGEANCE">
+		<description>
+			<p>At 10th level, once per short rest, when you are reduced to half your maximum hit points or below, you can unleash a wave of baleful energy as a reaction. Each hostile creature within 30 feet of you must make a Constitution saving throw or suffer necrotic damage equal to 2d10 + your suffering die. Once you use this feature, you can't use it again until you finish a short rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>When you are reduced to half your maximum hit points or below, you can use your reaction and deal damage to each hostile creature within 30 feet of you. Creatures make a Constitution saving throw or suffer necrotic damage equal to 2d10 + your suffering die.</description>
+		</sheet>
+	</element>
+	
+	<element name="Ensanguinate" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_PUNISHMENT_ENSANGUINATE">
+		<description>
+			<p>At 14th level, you can cause your wounds to close while draining the vitality of your target. Whenever you are under half your maximum hit points and cause a creature to bleed, as an action you can enter a blood-starved state. In this state, you regain hit points equal to the necrotic damage taken by creatures due to the bleeding effect. You must be within 30 feet of the bleeding creature to regain hit points. This state lasts for 1 minute. Once you use this feature, you can't use it again until you finish a long rest.</p>
+			<p>In addition, your movement speed is reduced in 10 feet while Ensanguinate is active</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>Whenever you are under half your hit points and cause a creature to bleed, you can enter a blood-starved. In this state, you regain hit points equal to the necrotic damage taken by creatures due to the bleeding effect. You must be within 30 feet of the bleeding creature to regain hit points. Your movement speed is reduced in 10 feet while Ensanguinate is active. This state lasts for 1 minute.</description>
+		</sheet>
+	</element>
+
+	<element name="Path of Sacrifice" type="Archetype" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FLAGELLANT_PATH_OF_SACRIFICE">
+		<supports>Flagellant Path</supports>
+		<description>
+			<p><i>In the shadowed annals of flagellant lore lies the Path of Punishment, a grim odyssey of self-flagellation and torment. Those who walk this desolate road willingly submit to agony, seeing it not as a curse, but as a crucible of purification and power. With each lash of their whip, they carve deeper into the flesh, offering their pain as tribute to their deity or cause.</i></p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_RECLAIM" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_SUFFER" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_SANCTIFY" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_REDEEM" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_RECLAIM" level="3" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_SUFFER" level="6" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_SANCTIFY" level="10" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_REDEEM" level="14" />
+		</rules>
+	</element>
+	
+	<element name="Reclaim" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_RECLAIM">
+		<description>
+			<p>Starting at 3rd level, as an action, you can cause yourself to bleed, as if you had been targeted by the Punish feature. For the duration, you can cause one creature of your choice other than yourself to regain hit points equal to the necrotic damage taken by you from the bleeding effect.</p>
+			<p>You can end this bleeding as a bonus action on your turn.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>You can choose cause yourself to bleed, as if you had been targeted by the Punish feature. For the duration, you can cause one creature of your choice other than yourself to regain hit points equal to the necrotic damage taken by you from the bleeding effect. You can end this bleeding as a bonus action on your turn.</description>
+		</sheet>
+	</element>
+	
+	<element name="Suffer" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_SUFFER">
+		<description>
+			<p>At 6th level, you can bring suffering upon yourself to relieve your allies. As an action, choose an allied creature you can see. You can choose one of the following effects:</p>
+			<ul>
+				<li>You end one spell affecting that creature, causing it to target you instead. If the spell requires a saving throw to avoid its effects, you trigger Rapturous for the duration of the spell.</li>
+				<li>You remove the poisoned condition from a creature, causing it to be transferred to you. Doing so activates Rapturous while you are poisoned.</li>
+			</ul>
+		</description>
+		<sheet action="Action">
+			<description>You either; end one spell affecting that creature, causing it to target you instead or you remove the poisoned condition from a creature, causing it to be transferred to you. Rapturous is activated for the duration of either way if the spell calls for a saving throw to evade its effects or to transfer poison to yourself.</description>
+		</sheet>
+	</element>
+	
+	<element name="Sanctify" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_SANCTIFY">
+		<description>
+			<p>Starting at 10th level, you seek redemption by pleading for your sins. As an action, you heal yourself in a single move, based on the bleeding you inflict during the battle. Healing is equal to, All bleed damage you take + "Suffering Dice" + Constitution multiplier. You can use this feature only during battle. Once you use this feature, you can't use it again until you finish a short rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>You can heal yourself equal to, all bleed damage you take + "Suffering Dice" + Constitution multiplier.</description>
+		</sheet>
+	</element>
+	
+	<element name="Redeem" type="Archetype Feature" source="HailJoe Classes" id="ID_HAILJOE_ARCHETYPE_FEATURE_FLAGELLANT_PATH_OF_SACRIFICE_REDEEM">
+		<description>
+			<p>At 14th level, whenever you are under half your maximum hit points, you can use an action to cause all creatures within 60 feet (including yourself) to regain hit points equal to your suffering die + your Flagellant level.</p>
+			<p>You can use this feature once, and regain your uses of this feature after a short or a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>Whenever you are under half your hit points, you can cause all creatures within 60 feet (including yourself) to regain hit points equal to your suffering die + your Flagellant level.</description>
+		</sheet>
+	</element>
+	
 	
 	<!--Feature Replacement Grants-->
 	<element name="Rapturous Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FLAGELLANT_RAPTUROUS" />
