@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Jaeger</name>
+		<description>Jaeger class from Steinhardt's Guide to the Elritch Hunt</description>
+		<update version="0.0.1">
+			<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
+		</update>
+	</info>
+	
 	<element name="Jaeger" type="Class" source="Steinhardt's Guide to the Elritch Hunt" id="ID_MDM_SGEH_CLASS_JAEGER">
 		<description>
 			<p>An unassuming human pounces in the night, his blade and revolver at the ready. A gunshot, followed by the sound of metal against flesh and the splattering of blood over cobblestone. He snickers before plunging his blade anew into his battered prey.</p>
