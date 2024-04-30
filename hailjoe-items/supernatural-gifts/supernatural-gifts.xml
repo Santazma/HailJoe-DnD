@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -23,6 +23,25 @@
             <stat name="constitution" value="2" />
             <stat name="constitution:max" value="22" bonus="base" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Wolf Father's Glacial Inner Dormancy" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MAGIC_ITEM_WOLF_FATHERS_GLACIAL_INNER_DORMANCY">
+        <description>
+            <p>This technique is bestowed upon the practitioners by the ancient spirits of the Wolf Father. By invoking this technique, the practitioner enters a state of deep inner dormancy akin to the tranquility of glacial stillness.</p>
+            <p class="indent"><i><b>Tranquility:</b></i> In this state, the mind becomes impervious to the chaotic influences of rage and fury, allowing for unparalleled focus and concentration amidst the storm of battle. You gain +2 to Insight checks.</p>
+            <p class="indent"><i><b>Essence Circuit Disruption:</b></i> You force your opponents weak will to shut its state. Upon usage, you can force a creature that is within a reach of you to roll a Wisdom Saving Throw. If they fail this throw, the creature becomes loosened and lost its concentration with ongoing state. For your next attack rolls against this creature becomes advantaged. You can use this feature number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+        		<description>You can use a bonus action to end the state of your opponent and lose its concentration. If nothing is holding you aloft at the end of your turn, you fall. Chosen creature that is within a reach of you rolls a Wisdom Saving Throw. On failed save, creature becomes loosened and lost its concentration with ongoing state. Also, your next attack rolls against this creature becomes advantaged.</description>
+    	</sheet>
+        <setters>
+            <set name="category">Supernatural Gifts</set>
+            <set name="type">Blessing</set>
+            <set name="slot">gift</set>
+        </setters>
+        <rules>
+            <stat name="insight:misc" value="2" />
         </rules>
     </element>
 </elements>
