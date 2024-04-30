@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -32,9 +32,6 @@
             <p class="indent"><i><b>Tranquility:</b></i> In this state, the mind becomes impervious to the chaotic influences of rage and fury, allowing for unparalleled focus and concentration amidst the storm of battle. You gain +2 to Insight checks.</p>
             <p class="indent"><i><b>Essence Circuit Disruption:</b></i> You force your opponents weak will to shut its state. Upon usage, you can force a creature that is within a reach of you to roll a Wisdom Saving Throw. If they fail this throw, the creature becomes loosened and lost its concentration with ongoing state. For your next attack rolls against this creature becomes advantaged. You can use this feature number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
         </description>
-        <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
-        		<description>You can use a bonus action to end the state of your opponent and lose its concentration. If nothing is holding you aloft at the end of your turn, you fall. Chosen creature that is within a reach of you rolls a Wisdom Saving Throw. On failed save, creature becomes loosened and lost its concentration with ongoing state. Also, your next attack rolls against this creature becomes advantaged.</description>
-    	</sheet>
         <setters>
             <set name="category">Supernatural Gifts</set>
             <set name="type">Blessing</set>
@@ -42,6 +39,16 @@
         </setters>
         <rules>
             <stat name="insight:misc" value="2" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_ESSENCE_CIRCUIT_DISRUPTION" />
         </rules>
+    </element>
+    <element name="Essence Circuit Disruption" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_ESSENCE_CIRCUIT_DISRUPTION">
+        <compendium display="false" />
+        <description>
+            <p>You force your opponents weak will to shut its state. Upon usage, you can force a creature that is within a reach of you to roll a Wisdom Saving Throw. If they fail this throw, the creature becomes loosened and lost its concentration with ongoing state. For your next attack rolls against this creature becomes advantaged. You can use this feature number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+        		<description>You can use a bonus action to end the state of your opponent and lose its concentration. If nothing is holding you aloft at the end of your turn, you fall. Chosen creature that is within a reach of you rolls a Wisdom Saving Throw. On failed save, creature becomes loosened and lost its concentration with ongoing state. Also, your next attack rolls against this creature becomes advantaged.</description>
+    	</sheet>
     </element>
 </elements>
