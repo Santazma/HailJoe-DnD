@@ -48,7 +48,7 @@
             <p>You force your opponents weak will to shut its state. Upon usage, you can force a creature that is within a reach of you to roll a Wisdom Saving Throw. If they fail this throw, the creature becomes loosened and lost its concentration with ongoing state. For your next attack rolls against this creature becomes advantaged. You can use this feature number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
         </description>
         <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
-        		<description>You can use a bonus action to end the state of your opponent and lose its concentration. If nothing is holding you aloft at the end of your turn, you fall. Chosen creature that is within a reach of you rolls a Wisdom Saving Throw. On failed save, creature becomes loosened and lost its concentration with ongoing state. Also, your next attack rolls against this creature becomes advantaged.</description>
+            <description>You can use a bonus action to end the state of your opponent and lose its concentration. If nothing is holding you aloft at the end of your turn, you fall. Chosen creature that is within a reach of you rolls a Wisdom Saving Throw. On failed save, creature becomes loosened and lost its concentration with ongoing state. Also, your next attack rolls against this creature becomes advantaged.</description>
     	</sheet>
     </element>
 </elements>
