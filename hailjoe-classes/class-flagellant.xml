@@ -3,7 +3,7 @@
 	<info>
 		<name>Flagellant</name>
 		<description>The Flagellant class from HailJoe</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" />
 		</update>
 	</info>
@@ -109,7 +109,7 @@
                         <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" requirements="!ID_HAILJOE_MULTICLASS_FLAGELLANT" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_HAILJOE_MULTICLASS_FLAGELLANT" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_HAILJOE_MULTICLASS_FLAGELLANT" />
-			<select type="Proficiency" name="Skill Proficiency (Flagellant)" number="2" supports="Skill,Flagellant" requirements="!ID_HAILJOE_MULTICLASS_FLAGELLANT" />
+			<select type="Proficiency" name="Skill Proficiency (Flagellant)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_HAILJOE_MULTICLASS_FLAGELLANT" />
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_RAPTUROUS" level="1" />
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_BLESSINGS_OF_MARTYRDOM" level="1" />
 			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_FLAGELLANT_INSTRUMENTS_OF_DEVOTION" level="1" />
@@ -131,7 +131,7 @@
 		</rules>
 		<multiclass id="ID_HAILJOE_MULTICLASS_FLAGELLANT">
 			<prerequisite>Constitution 13</prerequisite>
-			<requirements>[cons:13]</requirements>
+			<requirements>[con:13]</requirements>
 			<setters>
 				<set name="multiclass proficiencies">simple weapons, flail, shield</set>
 			</setters>
