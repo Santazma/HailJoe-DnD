@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -50,5 +50,36 @@
         <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
             <description>You can use a bonus action to end the state of your opponent and lose its concentration. If nothing is holding you aloft at the end of your turn, you fall. Chosen creature that is within a reach of you rolls a Wisdom Saving Throw. On failed save, creature becomes loosened and lost its concentration with ongoing state. Also, your next attack rolls against this creature becomes advantaged.</description>
     	</sheet>
+    </element>
+
+    <element name="Blessings of the Frost Maiden: Oathsworn " type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MAGIC_ITEM_BOTFM_OATHSWORN">
+        <description>
+            <p>The Frost Maiden has bestowed upon Vulcan the ability to harness the power of ice in addition to his mastery over fire. This blessing grants him new abilities and enhances his existing powers, allowing him to wield both elements with harmony.</p>
+            <p class="indent"><i><b>Frost Resilience:</b></i> You have resistane to cold damage.</p>
+            <p class="indent"><i><b>Frostfire Surge:</b></i> As an action, you can unleash a burst of frostfire in a 20-foot radius centered on himself. Each creature in the area must make a Dexterity saving throw (DC = 8 + proficiency bonus + Charisma modifier). On a failed save, a creature takes 4d8 fire damage and 4d8 cold damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage and is not pushed.</p>
+        </description>
+        <setters>
+            <set name="category">Supernatural Gifts</set>
+            <set name="type">Blessing</set>
+            <set name="slot">gift</set>
+        </setters>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_FROSTFIRE_SURGE" />
+        </rules>
+    </element>
+    <element name="Frostfire Surge" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_FROSTFIRE_SURGE">
+        <compendium display="false" />
+        <description>
+            <p>With a swift, forceful gesture, the caster releases a swirling torrent of icy flames that erupts in a spectacular display. The surge races forward, creating a path of frozen fire that burns with an intense cold. Anything caught in its wake is simultaneously scorched by the searing heat and frozen by the biting cold, making it particularly devastating to both flesh and metal. As an action, you can unleash a burst of frostfire in a 20-foot cone. Each creature in the area must make a Dexterity saving throw (DC = 8 + proficiency bonus + Charisma modifier). On a failed save, a creature takes 4d8 fire damage and 4d8 cold damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage and is not pushed.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>You can use an action to unleash a burst of frostfire. Each creature in 20-foot cone must make a Dexterity saving throw equals DC {{frostfire surge:dc}}. On a failed save, a creature takes 4d8 fire damage and 4d8 cold damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage and is not pushed.</description>
+    	</sheet>
+        <rules>
+			<stat name="frostfire surge:dc" value="8" />
+			<stat name="frostfire surge:dc" value="proficiency" />
+			<stat name="frostfire surge:dc" value="charisma:modifier" />
+		</rules>
     </element>
 </elements>
