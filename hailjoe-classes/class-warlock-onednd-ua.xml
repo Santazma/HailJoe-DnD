@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="Warlock" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_WARLOCK">
+	<element name="Warlock ONE D&D UA" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_WARLOCK_ONEDND_UA">
 		<description>
 			<p>With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.</p>
 			<p class="indent">As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic. Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.</p>
@@ -58,34 +58,35 @@
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td class="col-10">Spell Slots</td><td class="col-10">Slot Level</td><td class="col-10">Invocations Known</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Otherworldly Patron, Pact Magic</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Eldritch Invocations</td><td>2</td><td>3</td><td>2</td><td>1st</td><td>2</td></tr>
-				<tr><td> 3rd</td><td class="left">Pact Boon</td><td>2</td><td>4</td><td>2</td><td>2nd</td><td>2</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>5</td><td>2</td><td>2nd</td><td>2</td></tr>
-				<tr><td> 5th</td><td class="left">—</td><td>3</td><td>6</td><td>2</td><td>3rd</td><td>3</td></tr>
-				<tr><td> 6th</td><td class="left">Otherworldly Patron feature</td><td>3</td><td>7</td><td>2</td><td>3rd</td><td>3</td></tr>
-				<tr><td> 7th</td><td class="left">—</td><td>3</td><td>8</td><td>2</td><td>4th</td><td>4</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>9</td><td>2</td><td>4th</td><td>4</td></tr>
-				<tr><td> 9th</td><td class="left">—</td><td>3</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
-				<tr><td>10th</td><td class="left">Otherworldly Patron feature</td><td>4</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
-				<tr><td>11th</td><td class="left">Mystic Arcanum (6th level)</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>5</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>6</td></tr>
-				<tr><td>13th</td><td class="left">Mystic Arcanum (7th level)</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>6</td></tr>
-				<tr><td>14th</td><td class="left">Otherworldly Patron feature</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>6</td></tr>
-				<tr><td>15th</td><td class="left">Mystic Arcanum (8th level)</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
-				<tr><td>17th</td><td class="left">Mystic Arcanum (9th level)</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>7</td></tr>
-				<tr><td>18th</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>8</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
-				<tr><td>20th</td><td class="left">Eldritch Master</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
+				<tr><td> 1st</td><td class="left">Eldritch Invocations, Pact Magic</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>1</td></tr>
+				<tr><td> 2nd</td><td class="left">Magical Cunning</td><td>2</td><td>3</td><td>2</td><td>1st</td><td>3</td></tr>
+				<tr><td> 3rd</td><td class="left">Warlock Subclass</td><td>2</td><td>4</td><td>2</td><td>2nd</td><td>3</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>5</td><td>2</td><td>2nd</td><td>3</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td>3</td><td>6</td><td>2</td><td>3rd</td><td>5</td></tr>
+				<tr><td> 6th</td><td class="left">Subclass feature</td><td>3</td><td>7</td><td>2</td><td>3rd</td><td>5</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>3</td><td>8</td><td>2</td><td>4th</td><td>6</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>9</td><td>2</td><td>4th</td><td>6</td></tr>
+				<tr><td> 9th</td><td class="left">Contact Patron</td><td>3</td><td>10</td><td>2</td><td>5th</td><td>7</td></tr>
+				<tr><td>10th</td><td class="left">Subclass feature</td><td>4</td><td>10</td><td>2</td><td>5th</td><td>7</td></tr>
+				<tr><td>11th</td><td class="left">Mystic Arcanum (6th level)</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>7</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>8</td></tr>
+				<tr><td>13th</td><td class="left">Mystic Arcanum (7th level)</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>8</td></tr>
+				<tr><td>14th</td><td class="left">Subclass feature</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>8</td></tr>
+				<tr><td>15th</td><td class="left">Mystic Arcanum (8th level)</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>9</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>9</td></tr>
+				<tr><td>17th</td><td class="left">Mystic Arcanum (9th level)</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>9</td></tr>
+				<tr><td>18th</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>10</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>10</td></tr>
+				<tr><td>20th</td><td class="left">Eldritch Master</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>10</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SUBCLASS" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_CONTACT_PATRON" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" />
 		</description>
 		<sheet display="false">
 			<description>A wielder of magic that is derived from a bargain with an extraplanar entity.</description>
@@ -95,20 +96,21 @@
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" level="3" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" level="11" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
+			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock" number="2" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="1"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" level="1" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING" level="2" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SUBCLASS" level="3" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" level="4" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_CONTACT_PATRON" level="9" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" level="11" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" level="20" />
 		</rules>
-		<multiclass id="ID_WOTC_PHB_MULTICLASS_WARLOCK">
+		<multiclass id="ID_HAILJOE_MULTICLASS_WARLOCK">
 			<prerequisite>Charisma 13</prerequisite>
 			<requirements>[cha:13]</requirements>
 			<setters>
@@ -121,17 +123,25 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Otherworldly Patron" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_OTHERWORLDLY_PATRON</requirements>
+	<element name="Eldritch Invocations" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS</requirements>
 		<description>
-			<p>At 1st level, you have struck a bargain with an otherworldly being of your choice.</p>
+			<p>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</p>
+			<p class="indent">At 1nd level, you gain one eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</p>
 		</description>
-		<sheet display="false" />
 		<rules>
-			<select type="Archetype" name="Otherworldly Patron" supports="Otherworldly Patron" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 1)" supports="Eldritch Invocation" level="1" number="1" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 2)" supports="Eldritch Invocation" level="2" number="2" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 5)" supports="Eldritch Invocation" level="5" number="2" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 7)" supports="Eldritch Invocation" level="7" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 9)" supports="Eldritch Invocation" level="9" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 12)" supports="Eldritch Invocation" level="12" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 15)" supports="Eldritch Invocation" level="15" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 18)" supports="Eldritch Invocation" level="18" />
 		</rules>
 	</element>
-	<element name="Pact Magic" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+	<element name="Pact Magic" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SPELLCASTING_PACT_MAGIC</requirements>
 		<description>
 			<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells.</p>
@@ -205,45 +215,26 @@
 			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
 		</rules>
 	</element>
-	<element name="Eldritch Invocations" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS</requirements>
+	<element name="Magical Cunning" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MAGICAL_CUNNING</requirements>
 		<description>
-			<p>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</p>
-			<p class="indent">At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.</p>
-			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</p>
+			<p>If all your Pact Magic spell slots are expended, you can perform an esoteric rite for 1 minute, at the end of which you regain half of those spell slots (round up). Once you use this feature, you can’t do so again until you finish a Long Rest. Restores all Pact Magic spell slots at level 20.</p>
 		</description>
-		<rules>
-			<select type="Class Feature" name="Eldritch Invocation (Level 2)" supports="Eldritch Invocation" level="2" number="2" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 5)" supports="Eldritch Invocation" level="5" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 7)" supports="Eldritch Invocation" level="7" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 9)" supports="Eldritch Invocation" level="9" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 12)" supports="Eldritch Invocation" level="12" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 15)" supports="Eldritch Invocation" level="15" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 18)" supports="Eldritch Invocation" level="18" />
-		</rules>
+		<sheet usage="1/Long Rest">
+			<description>If all your Pact Magic spell slots are expended, you can perform an esoteric rite for 1 minute, at the end of which you regain half of those spell slots (round up).</description>
+		</sheet>
 	</element>
-	<element name="Pact Boon" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_PACT_BOON</requirements>
+	<element name="Warlock Subclass" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SUBCLASS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SUBCLASS</requirements>
 		<description>
-			<p>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</p>
-			<h5 class="caption">PACT OF THE CHAIN</h5>
-			<p>You learn the <em>find familiar</em> spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.</p>
-			<p class="indent">When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p>
-			<p class="indent">Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own.</p>
-			<h5 class="caption">PACT OF THE TOME</h5>
-			<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list. While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known.</p>
-			<p class="indent">If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>
-			<h5 class="caption">PACT OF THE BLADE</h5>			
-			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
-			<p class="indent">Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
-			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+			<p>At 3rd level, you have struck a bargain with an otherworldly being of your choice.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Pact Boon" supports="Pact Boon" level="3"/>
+			<select type="Archetype" name="Warlock Subclass" supports="Otherworldly Patron" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
+	<element name="Ability Score Improvement" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -258,7 +249,19 @@
 			<select type="Class Feature" name="Improvement Option (Warlock 19)" supports="Improvement Option,Warlock,19" level="19" />
 		</rules>
 	</element>
-	<element name="Mystic Arcanum" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
+	<element name="Contact Patron" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_CONTACT_PATRON">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CONTACT_PATRON</requirements>
+		<description>
+			<p>For communicating with your patron, you always have the <i>Contact Other Plane</i> spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell’s saving throw. Once you cast the spell with this feature, you can’t do so again until you finish a Long Rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast <i>Contact Other Plane</i> for communicating with your patron without expanding a spell slot and you don't need to roll for saving throw.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CONTACT_OTHER_PLANE" spellcasting="Warlock" prepared="true" />
+		</rules>
+	</element>
+	<element name="Mystic Arcanum" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM</requirements>
 		<description>
 			<p>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.</p>
@@ -275,69 +278,23 @@
 			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,9" level="17" spellcasting="Warlock" />
 		</rules>
 	</element>
-	<element name="Eldritch Master" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
+	<element name="Eldritch Master" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER</requirements>
 		<description>
-			<p>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</p>
+			<p>At 20th level, When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.</p>
 		</description>
 		<sheet usage="1/Long Rest">
 			<description>You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature.</description>
 		</sheet>
 	</element>
 
-	<element name="Pact of the Chain" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN">
-		<supports>Pact Boon</supports>
-		<description>
-			<p>You learn the <em>find familiar</em> spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.</p>
-			<p class="indent">When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p>
-			<p class="indent">Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.</p>
-			<div class="reference">
-				<div element="ID_PHB_SPELL_FIND_FAMILIAR" />
-			</div>
-		</description>
-		<sheet>
-			<description>You learn the find familiar spell and can cast it as a ritual.
-			Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.</description>
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Warlock" />
-			<select type="Companion" name="Familiar, Pact of the Chain" supports="Familiar||Variant Familiar" />
-		</rules>
-	</element>
-	<element name="Pact of the Tome" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME">
-		<supports>Pact Boon</supports>
-		<description>
-			<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list (the three needn’t be from the same list). While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known. If they don’t appear on the warlock spell list, they are nonetheless warlock spells for you.</p>
-			<p class="indent">If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>
-		</description>
-		<sheet>
-			<description>Your patron gives you a grimoire called a Book of Shadows. 
-			If you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip (Pact of the Tome)" supports="0" level="1" number="3" spellcasting="Warlock"/>
-		</rules>
-	</element>
-	<element name="Pact of the Blade" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE">
-		<supports>Pact Boon</supports>
-		<description>
-			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
-			<p class="indent">Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
-			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
-		</description>
-		<sheet usage="Action">
-			<description>Create a pact weapon in your empty hand. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
-			Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.
-			You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</description>
-		</sheet>
-	</element>
-
 	<!--Feature Replacement Grants-->
-	<element name="Otherworldly Patron Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_OTHERWORLDLY_PATRON" />
+	<element name="Warlock Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SUBCLASS" />
 	<element name="Pact Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SPELLCASTING_PACT_MAGIC" />
 	<element name="Eldritch Invocations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS" />
-	<element name="Pact Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_PACT_BOON" />
+	<element name="Magical Cunning Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MAGICAL_CUNNING" />
 	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Contact Patron Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CONTACT_PATRON" />
 	<element name="Mystic Arcanum Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM" />
 	<element name="Eldritch Master Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER" />
 </elements>
