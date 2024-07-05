@@ -97,7 +97,7 @@
 		</sheet>
 		<rules>
 			<stat name="innate speed" value="30" bonus="base" />
-			<div element="ID_PHB_SPELL_WATER_BREATHING" />
+			<grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" />
 		</rules>
 	</element>
 	<element name="Gift Of The Protectors ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_PROTECTORS_ONEDND_UA">
