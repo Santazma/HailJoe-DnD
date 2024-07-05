@@ -11,5 +11,6 @@
 	<files>
 		<file name="class-flagellant.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-flagellant.xml" /> 
 		<file name="class-jeager.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-jeager.xml" /> 
+		<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" /> 
 	</files>
 </index>
