@@ -4,7 +4,7 @@
 		<name>Warlock ONE D&D UA</name>
 		<description>The Warlock class from ONE D&D UA.</description>
 		<update version="0.0.1">
-			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-warlock.xml" />
+			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" />
 		</update>
 	</info>
 
