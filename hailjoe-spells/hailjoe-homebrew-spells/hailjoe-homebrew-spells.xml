@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's Homebrew Spells</name>
 		<description>Newmade Homebrew Spells from the HailJoe.</description>
-		<update version="0.0.15">
+		<update version="0.0.16">
 			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 		</update>
 	</info>
@@ -780,6 +780,30 @@
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent">an object engraved with a symbol from the Fire related Planes, worth at least 500 gp</set>
 			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Unending Sovereignty" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_UNENDING_SOVEREIGNITY">
+		<supports>Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You touch a dead creature that has been dead for no longer than 1000 years and imbue it with a dark spark of necromantic energy, resurrecting it under your absolute control. The creature rises as if affected by the True Resurrection spell, retaining all its abilities, hit points, and memories. However, the creature is entirely devoid of its free will and operates under your complete command.</p>
+			<p class="indent">The resurrected creature has the same level (if it was a player character) or the same Challenge Rating (CR) (if it was a monster) as it had in life. The creature obeys your verbal commands without requiring any action on your part, and you can communicate commands telepathically if the creature is within 1 mile of you. The creature's alignment shifts to neutral evil, and it has no will of its own, acting only on your orders.</p>
+			<p class="indent">This spell does not require concentration, and its effects are permanent unless the resurrected creature is destroyed or you choose to end the spell. Ending the spell does not cause the creature to revert to its original state; it simply collapses into a lifeless corpse once more.</p>
+			<p class="indent">Alternatively, you can summon your thralls by recasting this spell. You select from your shadows the persons you will call forth. There is no limit for this spell; neither how many thralls you can enslave, or how many of them you can summon.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">9</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 hour</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a mass of black onyx worth at least 25,000 gp, which the spell consumes</set>
+			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
