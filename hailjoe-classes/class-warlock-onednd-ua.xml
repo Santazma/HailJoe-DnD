@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Warlock ONE D&D UA</name>
-		<description>The Warlock class from ONE D&D UA.</description>
-		<update version="0.0.1">
+		<name>Warlock ONE DND UA</name>
+		<description>The Warlock class from ONE DND UA.</description>
+		<update version="0.0.2">
 			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" />
 		</update>
 	</info>
 
-	<element name="Warlock ONE D&D UA" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_WARLOCK_ONEDND_UA">
+	<element name="Warlock ONE DND UA" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_WARLOCK_ONEDND_UA">
 		<description>
 			<p>With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.</p>
 			<p class="indent">As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic. Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.</p>
