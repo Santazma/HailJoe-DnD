@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Eldritch Invocations ONE DND UA</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="eldritch-invocations-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/eldritch-invocations-onednd-ua.xml" />
 		</update>
 	</info>
