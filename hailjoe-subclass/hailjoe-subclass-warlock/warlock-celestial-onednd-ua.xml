@@ -4,7 +4,7 @@
 		<name>The Celestial One DND UA</name>
 		<description>The Celestial Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 		</update>
 	</info>
@@ -75,7 +75,7 @@
 		</sheet>
                 <rules>
 			<stat name="healing light:count" value="1" />
-			<stat name="healing light:count" value="warlock:level" />
+			<stat name="healing light:count" value="level:warlock" />
 		</rules>
 	</element>
 	
