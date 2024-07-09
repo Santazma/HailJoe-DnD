@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Warlock Subclasses</name>
+		<description>HailJoe's Homebrew Warlock Subclasses</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="hailjoe-subclass-warlock.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock.index" />
+		</update>
+	</info>
+	<files>
+		<file name="paladin-palanthir.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-palanthir.xml" />
+	</files>
+</index>
