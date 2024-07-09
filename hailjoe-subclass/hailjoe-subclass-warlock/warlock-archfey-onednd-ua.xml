@@ -5,7 +5,7 @@
 		<description>The Archfey Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="barbarian-whistle.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-barbarian/barbarian-whistle.xml" />
+			<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
 		</update>
 	</info>
 
