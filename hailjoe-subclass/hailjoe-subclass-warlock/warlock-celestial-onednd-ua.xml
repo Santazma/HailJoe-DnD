@@ -4,7 +4,7 @@
 		<name>The Celestial One DND UA</name>
 		<description>The Archfey Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 		</update>
 	</info>
@@ -29,11 +29,11 @@
 		</rules>
 	</element>
 
-	<element name="Patron Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_PATRON_SPELLS">
+	<element name="Patron Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_PATRON_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_PATRON_SPELLS</requirements>
 		<description>
 			<p>The magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Celestial Spells table, you thereafter always have the listed spells prepared.</p>
-			<h5 class="caption">ARCHFEY EXPANDED SPELLS</h5>
+			<h5 class="caption">CELESTIAL EXPANDED SPELLS</h5>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
