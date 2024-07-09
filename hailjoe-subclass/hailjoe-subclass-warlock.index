@@ -4,11 +4,12 @@
 		<name>Warlock Subclasses</name>
 		<description>HailJoe's Homebrew Warlock Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="hailjoe-subclass-warlock.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock.index" />
 		</update>
 	</info>
 	<files>
 		<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
+		<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 	</files>
 </index>
