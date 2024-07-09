@@ -2,9 +2,9 @@
 <elements>
 	<info>
 		<name>The Celestial One DND UA</name>
-		<description>The Archfey Patron adapted from One DND UA by HailJoe</description>
+		<description>The Celestial Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 		</update>
 	</info>
@@ -47,7 +47,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+			<description>The Celestial lets you choose from an expanded list of spells when you learn a warlock spell.</description>
 		</sheet>
 		<spellcasting name="Warlock" extend="true">
 			<extend>ID_PHB_SPELL_LIGHT</extend>
@@ -93,7 +93,7 @@
 	</element>
         
 	<element name="Celestial Resilience" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_CELESTIAL_RESILIENCE">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES</requirements>
+                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_BEGUILING_DEFENSES</requirements>
 		<description>
 			<p>You gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short Rest or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier.</p>
 		</description>
