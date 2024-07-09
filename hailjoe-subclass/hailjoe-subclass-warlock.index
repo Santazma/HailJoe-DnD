@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="paladin-palanthir.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-palanthir.xml" />
+		<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
 	</files>
 </index>
