@@ -1,170 +1,122 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>The Archfey One DND UA</name>
+		<name>The Celestial One DND UA</name>
 		<description>The Archfey Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
+			<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 		</update>
 	</info>
 
-	<element name="The Archfey One DND UA" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_OTHERWORLDLY_PATRON_THE_ARCHFEY_ONEDND_UA">
+	<element name="The Celestial One DND UA" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_OTHERWORLDLY_PATRON_THE_CELESTIAL_ONEDND_UA">
 		<supports>Otherworldly Patron</supports>
 		<description>
-			<p>Your pact draws on the power of the Feywild, the mysterious realm of the Fey. When you choose this subclass, you might make a deal with a single mighty archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; Oberon, the Green Lord; Hyrsam, the Prince of Fools; or an ancient hag. Or you might call on a wide spectrum of Fey, forging a complex web of favors and debts. Your patron’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges.</p>
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_PATRON_SPELLS" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_MISTY_ESCAPE" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC" />
+			<p>Your pact draws on the power of the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or some similar entity associated with those realms. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience the barest touch of the holy light that illuminates the multiverse.</p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_PATRON_SPELLS" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_HEALING_LIGHT" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_RADIANT_SOUL" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_CELESTIAL_RESILIENCE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_SEARING_VENGEANCE" />
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_PATRON_SPELLS" level="3"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY" level="3"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_MISTY_ESCAPE" level="6"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES" level="10"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC" level="14"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_PATRON_SPELLS" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_HEALING_LIGHT" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_RADIANT_SOUL" level="6"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_CELESTIAL_RESILIENCE" level="10"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_SEARING_VENGEANCE" level="14"/>
 		</rules>
 	</element>
 
 	<element name="Patron Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_PATRON_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_PATRON_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_PATRON_SPELLS</requirements>
 		<description>
-			<p>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+			<p>The magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Celestial Spells table, you thereafter always have the listed spells prepared.</p>
 			<h5 class="caption">ARCHFEY EXPANDED SPELLS</h5>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
 				</thead>
-				<tr><td>1st</td><td><em>faerie fire, sleep</em></td></tr>
-				<tr><td>2nd</td><td><em>calm emotions, phantasmal force, misty step</em></td></tr>
-				<tr><td>3rd</td><td><em>blink, plant growth</em></td></tr>
-				<tr><td>4th</td><td><em>dominate beast, greater invisibility</em></td></tr>
-				<tr><td>5th</td><td><em>dominate person, seeming</em></td></tr>
+				<tr><td>Cantrip</td><td><em>light, sacred flame</em></td></tr>
+				<tr><td>1st</td><td><em>cure wounds, guiding bolt</em></td></tr>
+				<tr><td>2nd</td><td><em>flaming sphere, lesser restoration</em></td></tr>
+				<tr><td>3rd</td><td><em>daylight, revivify</em></td></tr>
+				<tr><td>4th</td><td><em>guardian of faith, wall of fire</em></td></tr>
+				<tr><td>5th</td><td><em>flame strike, greater restoration</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false">
 			<description>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell.</description>
 		</sheet>
 		<spellcasting name="Warlock" extend="true">
-			<extend>ID_PHB_SPELL_FAERIE_FIRE</extend>
-			<extend>ID_PHB_SPELL_SLEEP</extend>
-			<extend>ID_PHB_SPELL_CALM_EMOTIONS</extend>
-			<extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
-                        <extend>ID_PHB_SPELL_MISTY_STEP</extend>
-			<extend>ID_PHB_SPELL_BLINK</extend>
-			<extend>ID_PHB_SPELL_PLANT_GROWTH</extend>
-			<extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
-			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
-			<extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
-			<extend>ID_PHB_SPELL_SEEMING</extend>
+			<extend>ID_PHB_SPELL_LIGHT</extend>
+			<extend>ID_PHB_SPELL_SACRED_FLAME</extend>
+			<extend>ID_PHB_SPELL_CURE_WOUNDS</extend>
+			<extend>ID_PHB_SPELL_GUIDING_BOLT</extend>
+			<extend>ID_PHB_SPELL_FLAMING_SPHERE</extend>
+			<extend>ID_PHB_SPELL_LESSER_RESTORATION</extend>
+			<extend>ID_PHB_SPELL_DAYLIGHT</extend>
+			<extend>ID_PHB_SPELL_REVIVIFY</extend>
+			<extend>ID_PHB_SPELL_GUARDIAN_OF_FAITH</extend>
+			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
+			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
+			<extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
 		</spellcasting>
 	</element>
 
-	<element name="Steps of the Fey" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY</requirements>
+	<element name="Healing Light" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_HEALING_LIGHT">
+                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_HEALING_LIGHT</requirements>
 		<description>
-			<p>Your patron bestows on you the ability to move between the boundaries of the planes. You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. In addition, whenever you cast that spell, you can choose one of the following additional effects:</p>
-                        <ul>
-				<li><b><i>Refreshing Step. </i></b>Immediately after you teleport, one creature you can see within 10 feet of you gains 1d10 Temporary Hit Points.</li>
-				<li><b><i>Taunting Step. </i></b>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</li>
-			</ul>
+			<p>You gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 plus your Warlock level. As a Bonus Action, you can heal one creature that you can see within 60 feet of yourself, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, and restore a number of Hit Points equal to the roll’s total. Your pool regains all expended dice when you finish a Long Rest.</p>
 		</description>
-		<sheet usage="{{steps of the fey:count}}/Long Rest" action="Bonus Action">
-			<description>You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</description>
+		<sheet usage="{{healing light:count}}/Long Rest" action="Bonus Action">
+			<description>You have a pool of d6s equals to 1 plus your Warlock level. As a Bonus Action, you can heal one creature that you can see within 60 feet of yourself, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, and restore a number of Hit Points equal to the roll’s total. Your pool regains all expended dice when you finish a Long Rest.</description>
 		</sheet>
                 <rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_REFRESHING_STEP" />
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_TAUNTING_STEP" />
-			<stat name="steps of the fey:count" value="charisma:modifier" />
+			<stat name="healing light:count" value="1" />
+			<stat name="healing light:count" value="warlock:level" />
 		</rules>
-	</element>
-
-        <element name="Refreshing Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_REFRESHING_STEP">
-		<description>
-			<p>Immediately after you teleport, one creature you can see and choosed within 10 feet of you, gains 1d10 Temporary Hit Points.</p>
-		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
-			<description>Immediately after you teleport, one creature you can see and choosed within 10 feet of you, gains 1d10 Temporary Hit Points.</description>
-		</sheet>
-	</element>
-
-        <element name="Taunting Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_TAUNTING_STEP">
-		<description>
-			<p>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</p>
-		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
-			<description>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</description>
-		</sheet>
 	</element>
 	
-	<element name="Misty Escape" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_MISTY_ESCAPE">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_MISTY_ESCAPE</requirements>
+	<element name="Radiant Soul" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_RADIANT_SOUL">
+                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_RADIANT_SOUL</requirements>
 		<description>
-			<p>You can vanish in a puff of mist in response to harm. You can cast Misty Step as a Reaction in response to taking damage. In addition, the following effects are now among your Steps of the Fey options:</p>
-                        <ul>
-				<li><b><i>Disappearing Step. </i></b>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</li>
-				<li><b><i>Dreadful Step. </i></b>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</li>
-			</ul>
-		</description>
-		<sheet action="Reaction">
-			<description>You can cast Misty Step as a Reaction in response to taking damage.</description>
-		</sheet>
-                <rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DISAPPEARING_STEP" />
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DREADFUL_STEP" />
-		</rules>
-	</element>
-
-        <element name="Disappearing Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DISAPPEARING_STEP">
-		<description>
-			<p>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</p>
-		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
-			<description>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</description>
-		</sheet>
-	</element>
-
-        <element name="Dreadful Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DREADFUL_STEP">
-		<description>
-			<p>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p>
-		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
-			<description>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 psychic damage.</description>
-		</sheet>
-	</element>
-        
-	<element name="Beguiling Defenses" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES</requirements>
-		<description>
-			<p>Starting at 10th level, your patron teaches you how to guard your mind and body. You are immune to the Charmed condition.</p>
-			<p class="indent">In addition, immediately after a creature you can see hits you with an attack roll, you can use your Reaction to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes Psychic damage equal to the damage you take. Once you use this Reaction, you can’t use it again until you finish a Long Rest unless you expend a spell slot when you use it again.</p>
-		</description>
-		<sheet action="Reaction" usage="1/Long Rest">
-			<description>You can use your Reaction to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes psychic damage equal to the damage you take. Once you use this Reaction, you can’t use it again until you finish a Long Rest unless you expend a spell slot when you use it again.</description>
-		</sheet>
-                <setters>
-			<set name="conditionImmunities">charmed</set>			
-		</setters>
-	</element>
-
-	<element name="Bewitching Magic" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC</requirements>
-		<description>
-			<p>At 14th level, your patron bestows on you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast Misty Step as part of the same action and without expending a spell slot.</p>
+			<p>Your link to your patron allows you to serve as a conduit for radiant energy. You have Resistance to Radiant damage, and when you cast a spell that deals Radiant or Fire damage, you can add your Charisma modifier to one Radiant or Fire damage roll of that spell against one of its targets.</p>
 		</description>
 		<sheet>
-			<description>Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast Misty Step as part of the same action and without expending a spell slot.</description>
+			<description>When you cast a spell that deals radiant or fire damage, you can add your charisma modifier to one radiant or fire damage roll of that spell against one of its targets.</description>
+		</sheet>
+                <rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+		</rules>
+	</element>
+        
+	<element name="Celestial Resilience" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_CELESTIAL_RESILIENCE">
+                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES</requirements>
+		<description>
+			<p>You gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short Rest or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier.</p>
+		</description>
+		<sheet usage="1/Short or Magical Cunning">
+			<description>You gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short Rest or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier.</description>
+		</sheet>
+	</element>
+
+	<element name="Searing Vengeance" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_SEARING_VENGEANCE">
+                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_SEARING_VENGEANCE</requirements>
+		<description>
+			<p>The radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring to your feet with a burst of radiant energy. You regain Hit Points equal to half your Hit Point Maximum and then stand if you so choose. Each creature of your choice that is within 30 feet of you takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the Blinded condition until the end of the current turn. Once you use this feature, you can’t use it again until you finish a Long Rest.</p>
+		</description>
+		<sheet usage="1/Long">
+			<description>When you make a death saving throw, you can use this feature and regain Hit Points equal to half your Hit Point Maximum and then stand if you so choose. Each creature of your choice that is within 30 feet of you takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the Blinded condition until the end of the current turn.</description>
 		</sheet>
 	</element>
 
         <!--Feature Replacement Grants-->
-	<element name="Patron Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_PATRON_SPELLS" />
-	<element name="Steps of the Fey Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY" />
-	<element name="Misty Escape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_MISTY_ESCAPE" />
-	<element name="Beguiling Defenses Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES" />
-	<element name="Bewitching Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC" />
+	<element name="Patron Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_PATRON_SPELLS" />
+	<element name="Healing Light Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_HEALING_LIGHT" />
+	<element name="Radiant Soul Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_RADIANT_SOUL" />
+	<element name="Celestial Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_CELESTIAL_RESILIENCE" />
+	<element name="Searing Vengeance Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_SEARING_VENGEANCE" />
 
 </elements>
