@@ -4,8 +4,8 @@
 		<name>HailJoe Classes</name>
 		<description>Hailjoe's homebrew classes</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.8">
-			<file name="hailjoe-classes.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats.index" />
+		<update version="0.0.9">
+			<file name="hailjoe-classes.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes.index" />
 		</update>
 	</info>
 	<files>
