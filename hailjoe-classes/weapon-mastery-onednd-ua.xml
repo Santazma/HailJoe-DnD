@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Eldritch Invocations ONE DND UA</name>
+		<update version="0.0.2">
+			<file name="eldritch-invocations-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/eldritch-invocations-onednd-ua.xml" />
+		</update>
+	</info>
+
+	<!-- Eldritch Invocations -->
+	<element name="Ascendant Step ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p><em>Prerequisite: 5th level</em></p>
+			<p>You can cast <em>levitate</em> on yourself at will, without expending a spell slot or material components.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_LEVITATE" />
+			</div>
+		</description>
+		<sheet>
+			<description>You can cast levitate on yourself at will, without expending a spell slot or material components.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" />
+		</rules>
+	</element>
+	<element name="Eldritch Smite ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SMITE_ONEDND_UA">
+		<supports>Eldritch Invocation, Pact Of The Blade ONE DND UA</supports>
+		<prerequisite>5th level, Pact Of The Blade ONE DND UA invocation</prerequisite>
+		<requirements>[level:5],ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE_ONEDND_UA</requirements>
+		<description>
+			<p><em>Prerequisite: 5th level, Pact Of The Blade feature</em></p>
+			<p>Once per turn when you hit a creature with your pact weapon, you can expend a Warlock spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</p>
+		</description>
+		<sheet>
+			<description>Once per turn when you hit a creature with your pact weapon, you can expend a Warlock spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</description>
+		</sheet>
+	</element>
+	<element name="Eldritch Spear ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>eldritch blast cantrip</prerequisite>
+		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
+		<description>
+			<p><em>Prerequisite: eldritch blast cantrip</em></p>
+			<p>When you cast <em>eldritch blast</em>, its range increases by a number of feet equal to 30 times your Warlock level.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+			</div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, its range increases by a number of feet equal to 30 times your Warlock level.</description>
+		</sheet>
+		<rules>
+			<!-- implement alter spell: <stat target="ID_PHB_SPELL_ELDRITCH_BLAST" field="range" value="300 feet" />-->
+		</rules>
+	</element>
+	<element name="Fiendish Vigor ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>You can cast <em>false life</em> on yourself at will as a 1st-level spell, without expending a spell slot or material components. When you cast the spell with this feature, you don’t roll the die for the Temporary Hit Points; you automatically get the highest number on the die.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_FALSE_LIFE" />
+			</div>
+		</description>
+		<sheet>
+			<description>You can cast false life on yourself at will, without expending a spell slot or material components you automatically get the highest number on the die.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" />
+		</rules>
+	</element>
+	<element name="Gaze of Two Minds ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p><em>Prerequisite: 5th level</em></p>
+			<p>You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don’t maintain it in this way. </p>
+			<p>While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space if the two of you are within 60 feet of each other.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Gift Of The Depths ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_DEPTHS_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p><em>Prerequisite: 5th level</em></p>
+			<p>You can breathe underwater, and you gain a Swim Speed equal to your Speed. You can also cast Water Breathing once without expending a spell slot. You regain the ability to do so when you finish a Long Rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can breathe underwater, and you gain a Swim Speed equal to your Speed. You can also cast Water Breathing once without expending a spell slot.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" />
+		</rules>
+	</element>
+	<element name="Gift Of The Protectors ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_PROTECTORS_ONEDND_UA">
+		<supports>Eldritch Invocation, Pact Of The Tome ONE DND UA</supports>
+		<prerequisite>9th level, Pact Of The Tome ONE DND UA feature</prerequisite>
+		<requirements>[level:9],ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_TOME_ONEDND_UA</requirements>
+		<description>
+			<p><em>Prerequisite: 9th level, Pact Of The Tome ONE DND UA feature</em></p>
+			<p>A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Proficiency Bonus. When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature otherworldly drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest. As a Magic action, you can erase a name on the page by touching it.</p>
+		</description>
+		<sheet>
+			<description>When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature otherworldly drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.</description>
+		</sheet>
+	</element>
+	<element name="Investment of the Chain Master ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_INVESTMENT_OF_THE_CHAIN_MASTER_ONEDND_UA">
+		<supports>Eldritch Invocation, Pact Of The Chain ONE DND UA</supports>
+		<prerequisite>5th level, Pact Of The Chain ONE DND UA feature</prerequisite>
+		<requirements>[level:5],ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_CHAIN_ONEDND_UA</requirements>
+		<description>
+			<p><em>Prerequisite: 5th level, Pact Of The Chain ONE DND UA feature</em></p>
+			<p>When you cast Find Familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:</p>
+			<ul>
+				<li><b>Aerial or Aquatic. </b>The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</li>
+				<li><b>Quick Attack. </b>As a Bonus Action, you can command the familiar to take the Attack action.</li>
+				<li><b>Necrotic or Radiant Damage. </b>Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.</li>
+				<li><b>Your Save DC. </b>If the familiar forces a creature to make a saving throw, it uses your spell save DC.</li>
+				<li><b>Resistance. </b>When the familiar takes damage, you can use your Reaction to grant it Resistance against that damage.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When you cast find familiar, you grant the creature the following benefits: &#13;
+			The familiar gains either a flying speed or a swimming speed of 40 feet. &#13;
+			As a bonus action, you can command the familiar to take the Attack action. &#13;
+			Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead. &#13;
+			If the familiar forces a creature to make a saving throw, it uses your spell save DC. &#13;
+			When the familiar takes damage, you can use your reaction to grant it resistance against that damage.</description>
+		</sheet>
+	</element>
+	<element name="Lessons Of The First Ones ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>2th level</prerequisite>
+		<requirements>[level:2]</requirements>
+		<description>
+			<p><em>Prerequisite: 2th level</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one feat of your choice, such as Skilled, that lacks prerequisites. Repeatable. You can gain this invocation more than once. Each time you do so, you must select a different eligible feat</p>
+		</description>
+		<sheet display="false">
+			<description>You can gain one feat of your choice, such as Skilled, that lacks prerequisites.</description>
+		</sheet>
+	</element>
+	<element name="Lifedrinker ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER_ONEDND_UA">
+		<supports>Eldritch Invocation, Pact Of The Blade ONE DND UA</supports>
+		<prerequisite>9th level, Pact Of The Blade ONE DND UA feature</prerequisite>
+		<requirements>[level:9],ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE_ONEDND_UA</requirements>
+		<description>
+			<p><em>Prerequisite: 9th level, Pact Of The Blade ONE DND UA feature</em></p>
+			<p>Whenever you hit a creature with your pact weapon, the creature takes 1d6 extra Necrotic, Psychic, or Radiant damage (your choice), and you can expend one of your Hit Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1).</p>
+		</description>
+		<sheet>
+			<description>When you hit a creature with your pact weapon, the creature takes 1d6 extra necrotic, psychic or radiant damage, and you can expend one of your Hit Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1).</description>
+		</sheet>
+	</element>
+	<element name="Master of Myriad Forms ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p><em>Prerequisite: 5th level</em></p>
+			<p>You can cast <em>alter self</em> at will, without expending a spell slot.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF" />
+			</div>
+		</description>
+		<sheet>
+			<description>You can cast alter self at will, without expending a spell slot.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" />
+		</rules>
+	</element>
+	<element name="Otherworldly Leap ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>2th level</prerequisite>
+		<requirements>[level:2]</requirements>
+		<description>
+			<p><em>Prerequisite: 2th level</em></p>
+			<p>You can cast <em>jump</em> on yourself at will, without expending a spell slot or material components.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_JUMP" />
+			</div>
+		</description>
+		<sheet>
+			<description>You can cast jump on yourself at will, without expending a spell slot or material components.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+		</rules>
+	</element>
+	<element name="Pact Of The Blade ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>As a Bonus Action, you can trace arcane sigils in the air to conjure a pact weapon in your hand—a Simple or Martial melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch. Until the bond ends, you have proficiency with the weapon, you can use its Mastery property, and you can use it as a spellcasting focus.</p>
+			<p class="indent">Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls, instead of using Strength or Dexterity, and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type. </p>
+			<p class="indent">Your bond with the weapon ends if you use this feature’s Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.</p>
+		</description>
+		<sheet usage="Bonus Action">
+			<description>Create a pact weapon in your empty hand. Until the bond ends, you have proficiency with the weapon, you can use its Mastery property, and you can use it as a spellcasting focus.
+			Whenever you finish a long rest, you can bond to one weapon or summon a pact weapon. When you attack with that weapon, you can use +{{pact of the blade:attack}} for the attack and +{{charisma:modifier}} necrotic, psychic, or radiant damage or its normal damage.
+			Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.
+			You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. </description>
+		</sheet>
+		<rules>
+			<stat name="pact of the blade:attack" value="charisma:modifier" bonus="ability" />
+			<stat name="pact of the blade:attack" value="proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Pact Of The Chain ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_CHAIN_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>2th level</prerequisite>
+		<requirements>[level:2]</requirements>
+		<description>
+			<p><em>Prerequisite: 2th level</em></p>
+			<p>You learn the Find Familiar spell and can cast it as an action without expending a spell slot.</p>
+			<p class="indent">When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, skeleton, slaad tadpole, or sprite.</p>
+			<p class="indent">Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_FIND_FAMILIAR" />
+			</div>
+		</description>
+		<sheet>
+			<description>You learn the find familiar spell and can cast it as a ritual.
+			Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Warlock" />
+			<select type="Companion" name="Familiar, Pact of the Chain" supports="Familiar||Variant Familiar" />
+		</rules>
+	</element>
+	<element name="Pact Of The Tome ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_TOME_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<description>
+			<p>Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short Rest or Long Rest. This Book of Shadows (you determine its appearance) contains eldritch magic that only you can access, granting you the following benefits:</p>
+			<ul>
+				<li><b>Cantrips and Rituals. </b>When the book appears, choose three cantrips and choose two level 1 spells that have the Ritual tag. The spells can be from any class’s spell list, and they must be spells you don’t already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.</li>
+				<li><b>Spell Slot. </b>You gain a level 1 spell slot. Once you expend it, you can’t gain another slot from this feature until you finish a Long Rest.</li>
+				<li><b>Spellcasting Focus. </b>You can use the book as a Spellcasting Focus. The book disappears if you conjure another book with this feature or if you die.</li>
+			</ul>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You learn three cantrips and two level 1 ritual spells of your choice.
+			Also you can gain level 1 spell slot, with using the Pact of the Tome feature.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Pact of the Tome)" supports="0" level="1" number="3" spellcasting="Warlock"/>
+			<select type="Spell" name="1st-level Spell (Pact of the Tome)" supports="Ritual,1" number="2" spellcasting="Warlock"/>
+		</rules>
+	</element>
+	<element name="Thirsting Blade ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE_ONEDND_UA">
+		<supports>Eldritch Invocation, Pact Of The Blade ONE DND UA</supports>
+		<prerequisite>5th level, Pact Of The Blade ONE DND UA feature</prerequisite>
+		<requirements>[level:5],ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_BLADE_ONEDND_UA</requirements>
+		<description>
+			<p><em>Prerequisite: 5th level, Pact Of The Blade ONE DND UA feature</em></p> 
+			<p>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</p>
+			<p>When you reach level 11 in this class, this Extra Attack feature grants you two extra attacks rather than one.</p>
+		</description>
+		<sheet>
+			<description>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+	</element>
+	<element name="Visions of Distant Realms ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level</prerequisite>
+		<requirements>[level:9]</requirements>
+		<description>
+			<p><em>Prerequisite: 9th level</em></p>
+			<p>You can cast <em>arcane eye</em> at will, without expending a spell slot.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ARCANE_EYE" />
+			</div>
+		</description>
+		<sheet>
+			<description>You can cast arcane eye at will, without expending a spell slot.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" />
+		</rules>
+	</element>
+	<element name="Whispers of the Grave ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>7th level</prerequisite>
+		<requirements>[level:7]</requirements>
+		<description>
+			<p><em>Prerequisite: 7th level</em></p>
+			<p>You can cast <em>speak with dead</em> at will, without expending a spell slot.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
+			</div>
+		</description>
+		<sheet>
+			<description>You can cast speak with dead at will, without expending a spell slot.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
+		</rules>
+	</element>
+	<element name="Witch Sight ONE DND UA" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT_ONEDND_UA">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>15th level</prerequisite>
+		<requirements>[level:15]</requirements>
+		<description>
+			<p><em>Prerequisite: 15th level</em></p>
+			<p>You have Truesight with a range of 30 feet.</p>
+		</description>
+		<sheet>
+			<description>You have Truesight with a range of 30 feet.</description>
+		</sheet>
+	</element>
+</elements>
