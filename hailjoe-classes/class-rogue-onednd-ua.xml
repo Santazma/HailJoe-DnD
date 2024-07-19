@@ -3,7 +3,7 @@
 	<info>
 		<name>Rogue ONE DND UA</name>
 		<description>The Rogue class from ONE DND UA.</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-rogue-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-rogue-onednd-ua.xml" />
 		</update>
 	</info>
@@ -272,7 +272,10 @@
 		<rules>
 			<stat name="cunning strike:dc" value="8" />
 			<stat name="cunning strike:dc" value="proficiency" />
-			<stat name="cunning strike:dc:ability" value="dexterity:modifier" bonus="ability"/>
+			<stat name="cunning strike:dc" value="dexterity:modifier" bonus="ability"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_POISON" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_TRIP" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_WITHDRAW" />
 		</rules>
 	</element>
 	<element name="Poison (Cost: 1d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_POISON">
@@ -348,6 +351,11 @@
 		<sheet>
 			<description>You have practiced new ways to use your Sneak Attack deviously. Now you have three more options.</description>
 		</sheet>
+		<rules>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_DAZE" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_KNOCK_OUT" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_OBSCURE" />
+		</rules>
 	</element>
 	<element name="Daze (Cost: 2d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_DAZE">
 		<description>
