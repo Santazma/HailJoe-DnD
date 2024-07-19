@@ -4,7 +4,7 @@
 		<name>The Archfey One DND UA</name>
 		<description>The Archfey Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
 		</update>
 	</info>
@@ -95,7 +95,7 @@
 		<description>
 			<p>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</p>
 		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
+		<sheet alt="Taunting Step" usage="Steps of the Fey">
 			<description>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</description>
 		</sheet>
 	</element>
@@ -122,7 +122,7 @@
 		<description>
 			<p>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</p>
 		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
+		<sheet alt="Disappearing Step" usage="Steps of the Fey">
 			<description>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</description>
 		</sheet>
 	</element>
@@ -131,7 +131,7 @@
 		<description>
 			<p>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p>
 		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
+		<sheet alt="Dreadful Step" usage="Steps of the Fey">
 			<description>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 psychic damage.</description>
 		</sheet>
 	</element>
