@@ -4,7 +4,7 @@
 		<name>HailJoe Subclasses</name>
 		<description>Hailjoe's homebrew subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.13">
+		<update version="0.0.14">
 			<file name="hailjoe-subclass.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass.index" />
 		</update>
 	</info>
@@ -14,5 +14,6 @@
 		<file name="hailjoe-subclass-fighter.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-fighter.index" />
 		<file name="hailjoe-subclass-paladin.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin.index" />
 		<file name="hailjoe-subclass-warlock.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock.index" />
+		<file name="hailjoe-subclass-rogue.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-rogue.index" />
 	</files>
 </index>
