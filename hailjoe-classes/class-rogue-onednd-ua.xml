@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Warlock ONE DND UA</name>
-		<description>The Warlock class from ONE DND UA.</description>
-		<update version="0.0.2">
-			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" />
+		<name>Rogue ONE DND UA</name>
+		<description>The Rogue class from ONE DND UA.</description>
+		<update version="0.0.1">
+			<file name="class-rogue-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-rogue-onednd-ua.xml" />
 		</update>
 	</info>
 
-	<element name="Warlock ONE DND UA" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_WARLOCK_ONEDND_UA">
+	<element name="Rogue ONE DND UA" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_ROGUE_ONEDND_UA">
 		<description>
-			<p>With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.</p>
-			<p class="indent">As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic. Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.</p>
-			<p class="indent">Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular. Drawing on the ancient knowledge of beings such as fey nobles, demons, devils, hags, and alien entities of the Far Realm, warlocks piece together arcane secrets to bolster their own power.</p>
-			<h4>SWORN AND BEHOLDEN</h4>
-			<p>A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entity—beings not typically served by clerics. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patron’s behalf.</p>
-			<p class="indent">The magic bestowed on a warlock ranges from minor but lasting alterations to the warlock's being (such as the ability to see in darkness or to read any language) to access to powerful spells. Unlike bookish wizards, warlocks supplement their magic with some facility at hand-to-hand combat. They are comfortable in light armor and know how to use simple weapons.</p>
-			<h4>DELVERS INTO SECRETS</h4>
-			<p>Warlocks are driven by an insatiable need for knowledge and power, which compels them into their pacts and shapes their lives. This thirst drives warlocks into their pacts and shapes their later careers as well.</p>
-			<p class="indent">Stories of warlocks binding themselves to fiends are widely known. But many warlocks serve patrons that are not fiendish. Sometimes a traveler in the wilds comes to a strangely beautiful tower, meets its fey lord or lady, and stumbles into a pact without being fully aware of it. And sometimes, while poring over tomes of forbidden lore, a brilliant but crazed student’s mind is opened to realities beyond the material world and to the alien beings that dwell in the outer void.</p>
-			<p class="indent">Once a pact is made, a warlock’s thirst for knowledge and power can’t be slaked with mere study and research. No one makes a pact with such a mighty patron if he or she doesn’t intend to use the power thus gained. Rather, the vast majority of warlocks spend their days in active pursuit of their goals, which typically means some kind of adventuring. Furthermore, the demands of their patrons drive warlocks toward adventure.</p>
-			<h4>CREATING A WARLOCK</h4>
-			<p>As you make your warlock character, spend some time thinking about your patron and the obligations that your pact imposes upon you. What led you to make the pact, and how did you make contact with your patron? Were you seduced into summoning a devil, or did you seek out the ritual that would allow you to make contact with an alien elder god? Did you search for your patron, or did your patron find and choose you? Do you chafe under the obligations of your pact or serve joyfully in anticipation of the rewards promised to you?</p>
-			<p class="indent">Work with your DM to determine how big a part your pact will play in your character’s adventuring career. Your patron’s demands might drive you into adventures, or they might consist entirely of small favors you can do between adventures.</p>
-			<p class="indent">What kind of relationship do you have with your patron? Is it friendly, antagonistic, uneasy, or romantic? How important does your patron consider you to be? What part do you play in your patron’s plans? Do you know other servants of your patron?</p>
-			<p class="indent">How does your patron communicate with you? If you have a familiar, it might occasionally speak with your patron’s voice. Some warlocks find messages from their patrons etched on trees, mingled among tea leaves, or adrift in the clouds—messages that only the warlock can see. Other warlocks converse with their patrons in dreams or waking visions, or deal only with intermediaries.</p>
+			<p>Signaling for her companions to wait, a halfling creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools and picks the lock in the blink of an eye. Then she disappears into the shadows as her fighter friend moves forward to kick the door open.</p>
+			<p class="indent">A human lurks in the shadows of an alley while his accomplice prepares for her part in the ambush. When their target—a notorious slaver—passes the alleyway, the accomplice cries out, the slaver comes to investigate, and the assassin’s blade cuts his throat before he can make a sound.</p>
+			<p class="indent">Suppressing a giggle, a gnome waggles her fingers and magically lifts the key ring from the guard’s belt. In a moment, the keys are in her hand, the cell door is open, and she and her companions are free to make their escape.</p>
+			<p class="indent">Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.</p>
+			<h4>SKILL AND PRECISION</h4>
+			<p>Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them a broad expertise that few other characters can match. Many rogues focus on stealth and deception, while others refine the skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.</p>
+			<p class="indent">When it comes to combat, rogues prioritize cunning over brute strength. A rogue would rather make one precise strike, placing it exactly where the attack will hurt the target most, than wear an opponent down with a barrage of attacks. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.</p>
+			<h4>A SHADY LIVING</h4>
+			<p>Every town and city has its share of rogues. Most of them live up to the worst stereotypes of the class, making a living as burglars, assassins, cutpurses, and con artists. Often, these scoundrels are organized into thieves’ guilds or crime families. Plenty of rogues operate independently, but even they sometimes recruit apprentices to help them in their scams and heists. A few rogues make an honest living as locksmiths, investigators, or exterminators, which can be a dangerous job in a world where dire rats—and wererats—haunt the sewers.</p>
+			<p class="indent">As adventurers, rogues fall on both sides of the law. Some are hardened criminals who decide to seek their fortune in treasure hoards, while others take up a life of adventure to escape from the law. Some have learned and perfected their skills with the explicit purpose of infiltrating ancient ruins and hidden crypts in search of treasure.</p>
+			<h4>CREATING A ROGUE</h4>
+			<p>As you create your rogue character, consider the character’s relationship to the law. Do you have a criminal past—or present? Are you on the run from the law or from an angry thieves’ guild master? Or did you leave your guild in search of bigger risks and bigger rewards? Is it greed that drives you in your adventures, or some other desire or ideal?</p>
+			<p>What was the trigger that led you away from your previous life? Did a great con or heist gone terribly wrong cause you to reevaluate your career? Maybe you were lucky and a successful robbery gave you the coin you needed to escape the squalor of your life. Did wanderlust finally call you away from your home? Perhaps you suddenly found yourself cut off from your family or your mentor, and you had to find a new means of support. Or maybe you made a new friend—another member of your adventuring party—who showed you new possibilities for earning a living and employing your particular talents.</p>
 			<h5>QUICK BUILD</h5>
-			<p>You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the charlatan background. Third, choose the eldritch blast and chill touch cantrips, along with the 1st-level spells charm person and witch bolt.</p>
+			<p>You can make a rogue quickly by following these suggestions. First, Dexterity should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the criminal background.</p>
 			<h3>CLASS FEATURES</h3>
-			<p>As a warlock, you gain the following class features.</p>
+			<p>As a rogue, you have the following class features.</p>
             <h5>HIT POINTS</h5>
             <ul class="unstyled">
                 <li><strong>Hit Dice:</strong> 1d8 per warlock level</li>
@@ -38,263 +36,662 @@
             <h5>PROFICIENCIES</h5>
             <ul class="unstyled mb">
                 <li><strong>Armor:</strong> Light armor</li>
-                <li><strong>Weapons:</strong> Simple weapons</li>
-                <li><strong>Tools:</strong> None</li>
+                <li><strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords</li>
+                <li><strong>Tools:</strong> Thieves’ tools</li>
             </ul>
             <ul class="unstyled">
-                <li><strong>Saving Throws:</strong> Wisdom, Charisma</li>
-                <li><strong>Skills:</strong> Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</li>
+                <li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
+                <li><strong>Skills:</strong> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth</li>
             </ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-				<li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li>
-				<li>(a) a component pouch or (b) an arcane focus</li>
-				<li>(a) a scholar’s pack or (b) a dungeoneer’s pack</li>
-				<li>Leather armor, any simple weapon, and two daggers</li>
+				<li>(a) a rapier or (b) a shortsword</li>
+				<li>(a) a shortbow and quiver of 20 arrows or (b) a shortsword</li>
+				<li>(a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack</li>
+				<li>Leather armor, two daggers, and thieves’ tools</li>
 			</ul>
-			<h5 class="caption">THE WARLOCK</h5>
+			<h5 class="caption">THE ROGUE</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td class="col-10">Spell Slots</td><td class="col-10">Slot Level</td><td class="col-10">Invocations Known</td></tr>
+					<tr><td class="col-5">Level</td><td class="col-10">Sneak Attack</td><td class="col-60 left">Features</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Eldritch Invocations, Pact Magic</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>1</td></tr>
-				<tr><td> 2nd</td><td class="left">Magical Cunning</td><td>2</td><td>3</td><td>2</td><td>1st</td><td>3</td></tr>
-				<tr><td> 3rd</td><td class="left">Warlock Subclass</td><td>2</td><td>4</td><td>2</td><td>2nd</td><td>3</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>5</td><td>2</td><td>2nd</td><td>3</td></tr>
-				<tr><td> 5th</td><td class="left">—</td><td>3</td><td>6</td><td>2</td><td>3rd</td><td>5</td></tr>
-				<tr><td> 6th</td><td class="left">Subclass feature</td><td>3</td><td>7</td><td>2</td><td>3rd</td><td>5</td></tr>
-				<tr><td> 7th</td><td class="left">—</td><td>3</td><td>8</td><td>2</td><td>4th</td><td>6</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>9</td><td>2</td><td>4th</td><td>6</td></tr>
-				<tr><td> 9th</td><td class="left">Contact Patron</td><td>3</td><td>10</td><td>2</td><td>5th</td><td>7</td></tr>
-				<tr><td>10th</td><td class="left">Subclass feature</td><td>4</td><td>10</td><td>2</td><td>5th</td><td>7</td></tr>
-				<tr><td>11th</td><td class="left">Mystic Arcanum (6th level)</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>7</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>8</td></tr>
-				<tr><td>13th</td><td class="left">Mystic Arcanum (7th level)</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>8</td></tr>
-				<tr><td>14th</td><td class="left">Subclass feature</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>8</td></tr>
-				<tr><td>15th</td><td class="left">Mystic Arcanum (8th level)</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>9</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>9</td></tr>
-				<tr><td>17th</td><td class="left">Mystic Arcanum (9th level)</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>9</td></tr>
-				<tr><td>18th</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>10</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>10</td></tr>
-				<tr><td>20th</td><td class="left">Eldritch Master</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>10</td></tr>
+				<tr><td> 1st</td><td>1d6</td><td class="left">Expertise, Sneak Attack, Thieves’ Cant, Weapon Mastery</td></tr>
+				<tr><td> 2nd</td><td>1d6</td><td class="left">Cunning Action</td></tr>
+				<tr><td> 3rd</td><td>2d6</td><td class="left">Rogue Subclass, Steady Aim</td></tr>
+				<tr><td> 4th</td><td>2d6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 5th</td><td>3d6</td><td class="left">Cunning Strike, Uncanny Dodge</td></tr>
+				<tr><td> 6th</td><td>3d6</td><td class="left">Expertise</td></tr>
+				<tr><td> 7th</td><td>4d6</td><td class="left">Evasion, Reliable Talent</td></tr>
+				<tr><td> 8th</td><td>4d6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 9th</td><td>Sd6</td><td class="left">Subclass feature</td></tr>
+				<tr><td>10th</td><td>Sd6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>11th</td><td>6d6</td><td class="left">Improved Cunning Strike</td></tr>
+				<tr><td>12th</td><td>6d6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td>7d6</td><td class="left">Subclass feature</td></tr>
+				<tr><td>14th</td><td>7d6</td><td class="left">Devious Strikes</td></tr>
+				<tr><td>15th</td><td>8d6</td><td class="left">Slippery Mind</td></tr>
+				<tr><td>16th</td><td>8d6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td>9d6</td><td class="left">Subclass feature</td></tr>
+				<tr><td>18th</td><td>9d6</td><td class="left">Elusive</td></tr>
+				<tr><td>19th</td><td>10d6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td>10d6</td><td class="left">Stroke of Luck</td></tr>
 			</table>
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SUBCLASS" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_CONTACT_PATRON" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" />
-			<div element="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" />
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_EXPERTISE"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_SNEAKATTACK"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_THIEVES_CANT"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_WEAPON_MASTERY"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_CUNNINGACTION"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_SUBCLASS"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_STEADY_AIM"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_CUNNING_STRIKE"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_UNCANNY_DODGE"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_EVASION"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_RELIABLETALENT"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_IMPROVED_CUNNING_STRIKE"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_SLIPPERYMIND"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_ELUSIVE"/>
+			<div element="ID_HAILJOE_CLASS_FEATURE_ROGUE_STROKEOFLUCK"/>
 		</description>
 		<sheet display="false">
-			<description>A wielder of magic that is derived from a bargain with an extraplanar entity.</description>
+			<description>A scoundrel who uses stealth and trickery to overcome obstacles and enemies.</description>
 		</sheet>
 		<setters>
-			<set name="short">A wielder of magic that is derived from a bargain with an extraplanar entity.</set>
+			<set name="short">A scoundrel who uses stealth and trickery to overcome obstacles and enemies.</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
-			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock" number="2" requirements="!ID_HAILJOE_MULTICLASS_WARLOCK"/>
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="1"/>
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" level="1" />
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING" level="2" />
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SUBCLASS" level="3" />
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" level="4" />
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_CONTACT_PATRON" level="9" />
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" level="11" />
-			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<select type="Proficiency" name="Skill Proficiency (Rogue)" supports="Skill,Rogue" number="4" requirements="!ID_HAILJOE_MULTICLASS_ROGUE" />
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_EXPERTISE" level="1"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_SNEAKATTACK" level="1"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_THIEVES_CANT" level="1"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_WEAPON_MASTERY" level="1"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_CUNNINGACTION" level="2"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_SUBCLASS" level="3"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_STEADY_AIM" level="3"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE" level="4"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_CUNNING_STRIKE" level="5"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_UNCANNY_DODGE" level="5"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_EVASION" level="7"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_RELIABLETALENT" level="7"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_IMPROVED_CUNNING_STRIKE" level="11"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES" level="14"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_SLIPPERYMIND" level="15"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_ELUSIVE" level="18"/>
+			<grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_STROKEOFLUCK" level="20"/>
 		</rules>
-		<multiclass id="ID_HAILJOE_MULTICLASS_WARLOCK">
-			<prerequisite>Charisma 13</prerequisite>
-			<requirements>[cha:13]</requirements>
+		<multiclass id="ID_HAILJOE_MULTICLASS_ROGUE">
+			<prerequisite>Dexterity 13</prerequisite>
+			<requirements>[dex:13]</requirements>
 			<setters>
-				<set name="multiclass proficiencies">Light armor, simple weapons</set>
+				<set name="multiclass proficiencies">Light armor, one skill from the class’s skill list, thieves’ tools</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
+				<select type="Proficiency" name="Skill Proficiency (Rogue)" supports="Skill,Rogue" number="1" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Eldritch Invocations" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS</requirements>
+	<element name="Expertise" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_EXPERTISE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EXPERTISE</requirements>
 		<description>
-			<p>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</p>
-			<p class="indent">At 1nd level, you gain one eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.</p>
-			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</p>
-		</description>
-		<rules>
-			<select type="Class Feature" name="Eldritch Invocation (Level 1)" supports="Eldritch Invocation" level="1" number="1" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 2)" supports="Eldritch Invocation" level="2" number="2" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 5)" supports="Eldritch Invocation" level="5" number="2" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 7)" supports="Eldritch Invocation" level="7" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 9)" supports="Eldritch Invocation" level="9" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 12)" supports="Eldritch Invocation" level="12" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 15)" supports="Eldritch Invocation" level="15" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 18)" supports="Eldritch Invocation" level="18" />
-		</rules>
-	</element>
-	<element name="Pact Magic" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SPELLCASTING_PACT_MAGIC</requirements>
-		<description>
-			<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells.</p>
-			<h5>CANTRIPS</h5>
-			<p>You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.</p>
-			<h5>SPELL SLOTS</h5>
-			<p>The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
-			<p class="indent">For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.</p>
-			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
-			<p>At 1st level, you know two 1st-level spells of your choice from the warlock spell list.</p>
-			<p class="indent">The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
-			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p>
-			<h5>SPELLCASTING ABILITY</h5>
-			<p>Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
-			<p class="indent">
-				<b>Spell save DC</b> = 8 + your proficiency bonus + your Charisma modifier</p>
-			<p class="indent">
-				<b>Spell attack modifier</b> = your proficiency bonus + your Charisma modifier</p>
-			<h5>SPELLCASTING FOCUS</h5>
-			<p>You can use an arcane focus as a spellcasting focus for your warlock spells.</p>
+			<p> At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves’ tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>
+			<p> At 6th level, you can choose two more of your proficiencies (in skills or with thieves’ tools) to gain this benefit. </p>
 		</description>
 		<sheet display="false">
-			<description>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. You have {{warlock:spellcasting:slots:count}} slots of level {{warlock:spellcasting:slot}}</description>
+			<description>Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</description>
 		</sheet>
-		<spellcasting name="Warlock" ability="Charisma" allowReplace="true">
-			<list>Warlock</list>
-		</spellcasting>
 		<rules>
-			<!-- add not full but single _not counting as multiclass spellcaster due to pact magic -->
-			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
-
-			<stat name="warlock:spellcasting:slots:count" value="1" level="1"/>
-			<stat name="warlock:spellcasting:slots:count" value="1" level="2"/>
-			<stat name="warlock:spellcasting:slots:count" value="1" level="11"/>
-			<stat name="warlock:spellcasting:slots:count" value="1" level="17"/>
-
-			<stat name="warlock:spellcasting:slot" value="1" level="1" />
-			<stat name="warlock:spellcasting:slot" value="1" level="3" />
-			<stat name="warlock:spellcasting:slot" value="1" level="5" />
-			<stat name="warlock:spellcasting:slot" value="1" level="7" />
-			<stat name="warlock:spellcasting:slot" value="1" level="9" />
-
-			<!-- negative count to remove slots -->
-			<stat name="warlock:spellcasting:slots:1" value="warlock:spellcasting:slots:count" level="1" />
-			<stat name="warlock:spellcasting:slots:1" value="-warlock:spellcasting:slots:count" level="3" />
-			<stat name="warlock:spellcasting:slots:2" value="warlock:spellcasting:slots:count" level="3" />
-			<stat name="warlock:spellcasting:slots:2" value="-warlock:spellcasting:slots:count" level="5" />
-			<stat name="warlock:spellcasting:slots:3" value="warlock:spellcasting:slots:count" level="5" />
-			<stat name="warlock:spellcasting:slots:3" value="-warlock:spellcasting:slots:count" level="7" />
-			<stat name="warlock:spellcasting:slots:4" value="warlock:spellcasting:slots:count" level="7" />
-			<stat name="warlock:spellcasting:slots:4" value="-warlock:spellcasting:slots:count" level="9" />
-			<stat name="warlock:spellcasting:slots:5" value="warlock:spellcasting:slots:count" level="9" />
-
-			<select type="Spell" name="Cantrip (Warlock)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Warlock" />
-			<select type="Spell" name="Cantrip (Warlock)" supports="$(spellcasting:list),0" level="4" spellcasting="Warlock" />
-			<select type="Spell" name="Cantrip (Warlock)" supports="$(spellcasting:list),0" level="10" spellcasting="Warlock" />
-
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Warlock"/>
-			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
+			<select type="Class Feature" name="Expertise (Rogue)" level="1" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+			<select type="Class Feature" name="Expertise (Rogue)" level="6" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
 		</rules>
 	</element>
-	<element name="Magical Cunning" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MAGICAL_CUNNING</requirements>
+	<element name="Sneak Attack" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_SNEAKATTACK">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SNEAK_ATTACK</requirements>
 		<description>
-			<p>If all your Pact Magic spell slots are expended, you can perform an esoteric rite for 1 minute, at the end of which you regain half of those spell slots (round up). Once you use this feature, you can’t do so again until you finish a Long Rest. Restores all Pact Magic spell slots at level 20.</p>
+			<p>Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</p>
+			<p class="indent">You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.</p>
+			<p class="indent">The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</p>
 		</description>
-		<sheet usage="1/Long Rest">
-			<description>If all your Pact Magic spell slots are expended, you can perform an esoteric rite for 1 minute, at the end of which you regain half of those spell slots (round up).</description>
+		<sheet>
+			<description>Once per turn, you can deal an extra {{sneak-attack:count}}d{{sneak-attack:die}} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+			You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.</description>
+		</sheet>
+		<rules>
+			<stat name="sneak-attack:count" value="1" level="1" />
+			<stat name="sneak-attack:count" value="1" level="3" />
+			<stat name="sneak-attack:count" value="1" level="5" />
+			<stat name="sneak-attack:count" value="1" level="7" />
+			<stat name="sneak-attack:count" value="1" level="9" />
+			<stat name="sneak-attack:count" value="1" level="11" />
+			<stat name="sneak-attack:count" value="1" level="13" />
+			<stat name="sneak-attack:count" value="1" level="15" />
+			<stat name="sneak-attack:count" value="1" level="17" />
+			<stat name="sneak-attack:count" value="1" level="19" />
+			<stat name="sneak-attack:die" value="6" bonus="die" />
+		</rules>
+	</element>
+	<element name="Thieves’ Cant" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_THIEVES_CANT">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_THIEVES_CANT</requirements>
+		<description>
+			<p>During your rogue training you learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves’ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</p>
+			<p>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</p>
+			<p>Also, you learn one another language of your choice</p>
+		</description>
+		<sheet>
+			<description>A secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves’ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+			In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT" />
+			<select type="Language" name="Language (Thieves’ Cant)" number="1" supports="Standard||Exotic" />
+		</rules>
+	</element>
+	<element name="Weapon Mastery" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_WEAPON_MASTERY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_WEAPON_MASTERY</requirements>
+		<description>
+			<p>Your training with weapons allows you to use the Mastery property of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.</p>
+			<p class="indent">Whenever you finish a Long Rest, you can change the kinds of weapons you chose.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Weapon Mastery" supports="Weapon Mastery" level="1" number="2" />
+		</rules>
+	</element>
+	<element name="Cunning Action" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_CUNNINGACTION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_ACTION</requirements>
+		<description>
+			<p>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</p>
+		</description>
+		<sheet>
+			<description>You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</description>
 		</sheet>
 	</element>
-	<element name="Warlock Subclass" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_SUBCLASS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SUBCLASS</requirements>
+	<element name="Rogue Subclass" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_SUBCLASS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SUBCLASS</requirements>
 		<description>
-			<p>At 3rd level, you have struck a bargain with an otherworldly being of your choice.</p>
+			<p>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities. Your choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Archetype" name="Warlock Subclass" supports="Otherworldly Patron" />
+			<select type="Archetype" name="Rogue Subclass" supports="Roguish Archetype" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT</requirements>
+	<element name="Steady Aim" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_STEADY_AIM">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STEADY_AIM</requirements>
+		<description>
+			<p>As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You give yourself Advantage on your next attack roll on the current turn, if you haven't moved during your turn. After you use this feature, your Speed becomes 0 until the end of your turn.</description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+			<p>When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Warlock 4)" supports="Improvement Option,Warlock,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Warlock 8)" supports="Improvement Option,Warlock,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Warlock 12)" supports="Improvement Option,Warlock,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Warlock 16)" supports="Improvement Option,Warlock,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Warlock 19)" supports="Improvement Option,Warlock,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Rogue 4)" supports="Improvement Option,Rogue,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Rogue 8)" supports="Improvement Option,Rogue,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Rogue 10)" supports="Improvement Option,Rogue,10" level="10" />
+			<select type="Class Feature" name="Improvement Option (Rogue 12)" supports="Improvement Option,Rogue,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Rogue 16)" supports="Improvement Option,Rogue,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Rogue 19)" supports="Improvement Option,Rogue,19" level="19" />
 		</rules>
 	</element>
-	<element name="Contact Patron" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_CONTACT_PATRON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CONTACT_PATRON</requirements>
+	<element name="Cunning Strike" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_CUNNING_STRIKE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE</requirements>
 		<description>
-			<p>For communicating with your patron, you always have the <i>Contact Other Plane</i> spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell’s saving throw. Once you cast the spell with this feature, you can’t do so again until you finish a Long Rest.</p>
+			<p>You have developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects.</p>
+			<p class="indent">Each effect has a die cost, which is the number of Sneak Attack damage dice you must forego to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack’s damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack’s damage before rolling.</p>
+			<p class="indent">If a Cunning Strike effect requires a saving throw, the DC equals 8 + your Proficiency Bonus + your Dexterity modifier.</p>
+			<ul>
+				<li><b><i>Poison (Cost: 1d6). </i></b>You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target can repeat the save, ending the effect on itself on a success. To use this effect, you must have a Poisoner’s Kit on your person.</li>
+				<li><b><i>Trip (Cost: 1d6). </i></b>If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</li>
+				<li><b><i>Withdraw (Cost: 1d6). </i></b>Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</li>
+			</ul>
 		</description>
-		<sheet usage="1/Long Rest">
-			<description>You can cast <i>Contact Other Plane</i> for communicating with your patron without expanding a spell slot and you don't need to roll for saving throw.</description>
+		<sheet>
+			<description>Whenever, you're able to deal Sneak Attack damage, you can add extra effects, exchange of substracting desired amount from your Sneak Attack damage die. Your DC is {{cunning strike:dc}}.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CONTACT_OTHER_PLANE" spellcasting="Warlock" prepared="true" />
+			<stat name="cunning strike:dc" value="8" />
+			<stat name="cunning strike:dc" value="proficiency" />
+			<stat name="cunning strike:dc:ability" value="dexterity:modifier" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Mystic Arcanum" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM</requirements>
+	<element name="Poison (Cost: 1d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_POISON">
 		<description>
-			<p>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.</p>
-			<p class="indent">You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</p>
-			<p class="indent">At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.</p>
+			<p>You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target can repeat the save, ending the effect on itself on a success. To use this effect, you must have a Poisoner’s Kit on your person.</p>
 		</description>
-		<sheet usage="1/Long Rest">
-			<description>You can cast your arcanum spells once without expending a spell slot.</description>
+		<sheet alt="Poison (Cost: 1d6)" usage="Cunning Strike">
+			<description>The target must succeed on a Constitution saving throw, or it becomes poisoned condition for 1 minute.</description>
+		</sheet>
+	</element>
+	<element name="Trip (Cost: 1d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_TRIP">
+		<description>
+			<p>If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</p>
+		</description>
+		<sheet alt="Trip (Cost: 1d6)" usage="Cunning Strike">
+			<description>If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</description>
+		</sheet>
+	</element>
+	<element name="Withdraw (Cost: 1d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_WITHDRAW">
+		<description>
+			<p>Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</p>
+		</description>
+		<sheet alt="Withdraw (Cost: 1d6)" usage="Cunning Strike">
+			<description>Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</description>
+		</sheet>
+	</element>
+	<element name="Uncanny Dodge" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_UNCANNY_DODGE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_UNCANNY_DODGE</requirements>
+		<description>
+			<p>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When an attacker that you can see hits you with an attack, you can halve the attack’s damage against you.</description>
+		</sheet>
+	</element>
+	<element name="Evasion" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_EVASION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EVASION</requirements>
+		<description>
+			<p>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+		</description>
+		<sheet>
+			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
+		</sheet>
+	</element>
+	<element name="Reliable Talent" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_RELIABLETALENT">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_RELIABLE_TALENT</requirements>
+		<description>
+			<p>By 7th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</description>
+		</sheet>
+	</element>
+	<element name="Improved Cunning Strike" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_IMPROVED_CUNNING_STRIKE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_IMPROVED_CUNNING_STRIKE</requirements>
+		<description>
+			<p>Starting at 11th level, you now can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.</p>
+		</description>
+		<sheet>
+			<description>You can choose to use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.</description>
+		</sheet>
+	</element>
+	<element name="Devious Strikes" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES</requirements>
+		<description>
+			<p>You have practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options:</p>
+			<ul>
+				<li><b><i>Daze (Cost: 2d6). </i></b>The target must succeed on a Constitution saving throw, or it has the Dazed condition until the end of its next turn.</li>
+				<li><b><i>Knock Out (Cost: 6d6). </i></b>The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</li>
+				<li><b><i>Obscure (Cost: 3d6). </i></b>You strike near the target’s eyes. The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You have practiced new ways to use your Sneak Attack deviously. Now you have three more options.</description>
+		</sheet>
+	</element>
+	<element name="Daze (Cost: 2d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_DAZE">
+		<description>
+			<p>The target must succeed on a Constitution saving throw, or it has the Dazed condition until the end of its next turn.</p>
+		</description>
+		<sheet alt="Daze (Cost: 2d6)" usage="Cunning Strike">
+			<description>The target must succeed on a Constitution saving throw, or it has the Dazed condition until the end of its next turn.</description>
+		</sheet>
+	</element>
+	<element name="Knock Out (Cost: 6d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_KNOCK_OUT">
+		<description>
+			<p>The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</p>
+		</description>
+		<sheet alt="Knock Out (Cost: 6d6)" usage="Cunning Strike">
+			<description>The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</description>
+		</sheet>
+	</element>
+	<element name="Obscure (Cost: 3d6)" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_CUNNING_STRIKE_OBSCURE">
+		<description>
+			<p>You strike near the target’s eyes. The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.</p>
+		</description>
+		<sheet alt="Obscure (Cost: 3d6)" usage="Cunning Strike">
+			<description>You strike near the target’s eyes. The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.</description>
+		</sheet>
+	</element>
+	<element name="Slippery Mind" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_SLIPPERYMIND">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SLIPPERY_MIND</requirements>
+		<description>
+			<p>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom and Charisma saving throws.</p>
+		</description>
+		<sheet display="false">
+			<description>You have acquired greater mental strength. You gain proficiency in Wisdom and Charisma saving throws.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,6" level="11" spellcasting="Warlock" />
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,7" level="13" spellcasting="Warlock" />
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,8" level="15" spellcasting="Warlock" />
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,9" level="17" spellcasting="Warlock" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 		</rules>
 	</element>
-	<element name="Eldritch Master" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER</requirements>
+	<element name="Elusive" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_ELUSIVE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ELUSIVE</requirements>
 		<description>
-			<p>At 20th level, When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.</p>
+			<p>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren’t incapacitated.</p>
 		</description>
-		<sheet usage="1/Long Rest">
-			<description>You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature.</description>
+		<sheet>
+			<description>No attack roll has advantage against you while you aren’t incapacitated.</description>
+		</sheet>
+	</element>
+	<element name="Stroke of Luck" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_ROGUE_STROKEOFLUCK">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STROKE_OF_LUCK</requirements>
+		<description>
+			<p>You have an uncanny knack for succeeding when you need to. If you fail a d20 Test, you can turn the roll into a 20.</p>
+			<p>Once you use this feature, you can’t use it again until you finish a Short Rest or a Long Rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>If you fail a d20 Test, you can turn the roll into a 20.</description>
 		</sheet>
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Warlock Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SUBCLASS" />
-	<element name="Pact Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SPELLCASTING_PACT_MAGIC" />
-	<element name="Eldritch Invocations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS" />
-	<element name="Magical Cunning Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MAGICAL_CUNNING" />
-	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT" />
-	<element name="Contact Patron Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CONTACT_PATRON" />
-	<element name="Mystic Arcanum Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM" />
-	<element name="Eldritch Master Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER" />
+	<element name="Expertise Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EXPERTISE" />
+	<element name="Sneak Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SNEAK_ATTACK" />
+	<element name="Thieves’ Cant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_THIEVES_CANT" />
+	<element name="Weapon Mastery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_WEAPON_MASTERY" />
+	<element name="Cunning Action Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_ACTION" />
+	<element name="Roguue Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SUBCLASS" />
+	<element name="Steady Aim Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STEADY_AIM" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Cunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE" />
+	<element name="Uncanny Dodge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_UNCANNY_DODGE" />
+	<element name="Evasion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EVASION" />
+	<element name="Reliable Talent Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_RELIABLE_TALENT" />
+	<element name="Improved Cunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_IMPROVED_CUNNING_STRIKE" />
+	<element name="Devious Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES" />
+	<element name="Slippery Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SLIPPERY_MIND" />
+	<element name="Elusive Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ELUSIVE" />
+	<element name="Stroke of Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STROKE_OF_LUCK" />
+
+	<!-- Expertise -->
+	<element name="Skill Expertise (Acrobatics)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_ACROBATICS">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ACROBATICS</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Acrobatics check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="acrobatics:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Animal Handling)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_ANIMALHANDLING">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ANIMALHANDLING</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Animal Handling check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="animal handling:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Arcana)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_ARCANA">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ARCANA</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Arcana check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ARCANA" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="arcana:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Athletics)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_ATHLETICS">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ATHLETICS</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Athletics check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="athletics:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Deception)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_DECEPTION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_DECEPTION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Deception check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_DECEPTION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="deception:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (History)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_HISTORY">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_HISTORY</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any History check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_HISTORY" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="history:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Insight)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_INSIGHT">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INSIGHT</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Insight check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INSIGHT" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="insight:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Intimidation)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_INTIMIDATION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INTIMIDATION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Intimidation check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intimidation:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Investigation)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_INVESTIGATION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INVESTIGATION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Investigation check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="investigation:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Medicine)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_MEDICINE">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_MEDICINE</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Medicine check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_MEDICINE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="medicine:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Nature)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_NATURE">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_NATURE</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Nature check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_NATURE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="nature:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Perception)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_PERCEPTION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_PERCEPTION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Perception check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="perception:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Performance)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_PERFORMANCE">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_PERFORMANCE</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Performance check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="performance:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Persuasion)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_PERSUASION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_PERSUASION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Persuasion check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_PERSUASION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="persuasion:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Religion)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_RELIGION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_RELIGION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Religion check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_RELIGION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="religion:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Sleight of Hand)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_SLEIGHTOFHAND">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_SLEIGHTOFHAND</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Sleight of Hand check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="sleight of hand:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Stealth)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_STEALTH">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_STEALTH</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Stealth check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_STEALTH" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="stealth:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Survival)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_SURVIVAL">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Survival check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="survival:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Tool Expertise (Thieves’ Tools)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_TOOL_THIEVES_TOOLS">
+		<supports>Expertise, Tool, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Thieves’ Tools check you make.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB_ITEM_TOOL_THIEVES_TOOLS" />
+			</div>
+		</description>
+		<sheet>
+        	<description>Your proficiency bonus is doubled for any Thieves’ Tools check you make.</description>
+		</sheet>
+		<rules>
+			<stat name="thieves tools:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
 </elements>
