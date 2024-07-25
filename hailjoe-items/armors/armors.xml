@@ -4,7 +4,7 @@
     <name>armors</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="armors.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors/armors.xml"/>
     </update>
   </info>
@@ -65,4 +65,32 @@
       <stat name="survival:misc" value="1" />
     </rules>
   </element>
+	
+  <element name="Aegis of the Eldritch Guardian" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_AEGIS_OF_THE_ELDRITCH_GUARDIAN">
+    <description>
+      <p>The Aegis of the Eldritch Guardian is a shield that is forged from the ironwood of Escar Forest, imbued with the essence of ancient protective magic. The shield's surface is etched with eldritch runes that glow faintly, providing an aura of otherworldly protection.</p>
+      <p>Effect: When a paladin dons this shield, they gain the following benefits:</p>
+      <ul>
+        <li><b><i>Armor Class (AC) Bonus. </i></b> +1 to AC while wielding this shield.</li>
+        <li><b><i>Eldritch Protection. </i></b> As a reaction, when you are hit by an attack from an eldritch horror or any creature with the Aberration type, you can activate the shield's magic to impose disadvantage on the attack roll, potentially causing it to miss. You can use this feature a number of times equal to your Charisma modifier (minimum of once) per long rest.</li>
+        <li><b><i>Guardian's Resolve. </i></b> Once per long rest, as an action, you can call upon the shield's guardian spirit. For the next minute, you gain resistance to psychic damage, and any creature that hits you with a melee attack takes psychic damage equal to your Charisma modifier.</li>
+	<li><b><i>Spell Effect. </i></b> You can cast the <i>shield of faith</i> spell once per day without using a spell slot. When cast this way, the spell has a duration of 1 hour instead of the usual 10 minutes.</li>
+	<li><b><i>Light of Protection. </i></b> As a bonus action, you can cause the shield to emit bright light in a 20-foot radius and dim light for an additional 20 feet. This light lasts for 1 hour or until you dismiss it as a bonus action. While the shield is emitting light, you and allies within the bright light have advantage on saving throws against being frightened.</li>
+      </ul>
+    </description>
+    <setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+      			<set name="attunement" addition="by a Paladin">true</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Very Rare</set>
+	    		<set name="enhancement">1</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+    </setters>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
+    </rules>
+  </element>
+	
 </elements>
