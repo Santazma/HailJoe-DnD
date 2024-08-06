@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's Homebrew Spells</name>
 		<description>Newmade Homebrew Spells from the HailJoe.</description>
-		<update version="0.0.17">
+		<update version="0.0.18">
 			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 		</update>
 	</info>
@@ -836,12 +836,12 @@
 			<p>You invoke an ancient and forbidden ritual, calling upon the primordial forces of darkness to shroud all realms in eternal night. As you complete the 48 hour-long incantation, the magical components disintegrate into a swirling vortex of shadows, and an impenetrable darkness spreads from your location, encompassing all planes of existence.</p>
 			<p class="indent">The darkness created by this spell is a magical darkness that overrides all natural and magical light sources, making it impossible for creatures to see through it using darkvision. Only those with true sight or a similar ability can perceive normally in this darkness. Once the spell is cast, the following effects take place:</p>
 			<ul>
-				<li><b><i>Darkness Coverage. </i>The darkness covers all areas, both indoors and outdoors, across all planes. This magical darkness is absolute and cannot be illuminated or dispelled by conventional means.</li>
-				<li><b><i>Duration. </i>The darkness persists indefinitely, remaining until it is dispelled by a god-like entity, divine intervention, or a similarly powerful means.</li>
-				<li><b><i>Impenetrable Darkness. </i>This magical darkness is absolute, rendering all creatures within it effectively blind unless they have true sight or a similar ability. Any light sources, whether magical or non-magical, are snuffed out and provide no illumination.</li>
-				<li><b><i>Undead Empowerment. </i>Undead creatures within this magical darkness, gains advantage on all attack rolls, saving throws, and ability checks. Additionally, they regenerate 10 hit points at the start of their turn if they have at least 1 hit point remaining.</li>
-				<li><b><i>Daylight Sensitivity. </i>Creatures with sunlight sensitivity or sunlight hypersensitivity (such as drow, duergar, and vampires) are also gains advantage on all attack rolls, saving throws, and ability checks. </li>
-				<li><b><i>Night Creatures. </i>Eldritch Moons are used by the evil to call forth aberrations known as Night Creatures. Furthermore, the Eldritch Moons' effects are now permanent and will always be regarded as night. From now on, there will always be an Eldritch Moon in the night, and when one night comes to an end and another begins, the Moon will change into a different Eldrith form.</li>
+				<li><b><i>Darkness Coverage. </i></b>The darkness covers all areas, both indoors and outdoors, across all planes. This magical darkness is absolute and cannot be illuminated or dispelled by conventional means.</li>
+				<li><b><i>Duration. </i></b>The darkness persists indefinitely, remaining until it is dispelled by a god-like entity, divine intervention, or a similarly powerful means.</li>
+				<li><b><i>Impenetrable Darkness. </i></b>This magical darkness is absolute, rendering all creatures within it effectively blind unless they have true sight or a similar ability. Any light sources, whether magical or non-magical, are snuffed out and provide no illumination.</li>
+				<li><b><i>Undead Empowerment. </i></b>Undead creatures within this magical darkness, gains advantage on all attack rolls, saving throws, and ability checks. Additionally, they regenerate 10 hit points at the start of their turn if they have at least 1 hit point remaining.</li>
+				<li><b><i>Daylight Sensitivity. </i></b>Creatures with sunlight sensitivity or sunlight hypersensitivity (such as drow, duergar, and vampires) are also gains advantage on all attack rolls, saving throws, and ability checks. </li>
+				<li><b><i>Night Creatures. </i></b>Eldritch Moons are used by the evil to call forth aberrations known as Night Creatures. Furthermore, the Eldritch Moons' effects are now permanent and will always be regarded as night. From now on, there will always be an Eldritch Moon in the night, and when one night comes to an end and another begins, the Moon will change into a different Eldrith form.</li>
 			</ul>
 		</description>
 		<setters>
