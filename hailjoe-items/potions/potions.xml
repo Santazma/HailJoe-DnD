@@ -1,1 +1,24 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Potions</name>
+		<description></description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe">HailJoe</author>
+		<update version="0.0.1">
+			<file name="items-potions.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/items/items-potions.xml" />
+		</update>
+	</info>
+	
+	<element name="Ankh of Anointment" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ANKH_OF_ANOINTMENT">		
+		<description>
+			<p>The oil within this ankh-shaped vial is rich with the smell of clove and myrrh. You can use an action to pour the entirety of the vial over a Medium or smaller creature or object. For the next hour, that target is under the effects of the protection from evil and good spell (no concentration required), and regains the maximum number of hit points possible from any healing. An undead that hits a target under the effects of this oil with a melee attack automatically takes 1d8 radiant damage.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>
