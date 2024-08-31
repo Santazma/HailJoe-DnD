@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<name>Potions</name>
-		<description></description>
+		<description>Homebrew Potions from HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe">HailJoe</author>
 		<update version="0.0.1">
-			<file name="items-potions.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/items/items-potions.xml" />
+			<file name="potions.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/potions/potions.xml" />
 		</update>
 	</info>
 	
