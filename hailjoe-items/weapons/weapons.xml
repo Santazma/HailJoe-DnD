@@ -283,4 +283,31 @@
       <set name="weapon">Shortbow</set>
     </setters> 
   </element>
+
+  <element name="Faux Lunaire (Scythe, Shortbow)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_FAUX_LUNARIE">
+    <description>
+      <p>The Faux Lunaire is a weapon of mystery and celestial majesty, echoing the moon in its transformations. The creators of this weapon are the lunar wardens, who have to fight creatures that are far beyond mere beasts.</p>
+      <p>When you attune to this weapon, you will learn light cantrip. If you cast the light cantrip targeting this weapon, the carved runes activate. For the duration of the spell, as long as you hold the weapon, your Wisdom score increases by 2, to a maximum of 20, and you can see normally in darkness, both magical and nonmagical, to a distance of 60 feet.</p>
+      <div class="reference">
+	<div element="ID_PHB_SPELL_LIGHT" />
+      </div>
+      <p class="indent"><i><b>Trick Weapon:</b></i> The Faux Lunaire is a wickedly curved scythe crafted from an arcane alloy and engraved with lunar imagery and celestial runes. With a swift, spinning motion, the limbs of the blade and shaft of the scythe fold in and rotate around the grip, locking into place to form an ornate shortbow. As a bonus action, you can switch between the transformed and untransformed states of this weapon. As part of the bonus action, you can also magically teleport up to 10 feet to an unoccupied space that you can see. In its untransformed state, this weapon is a scythe. In its transformed state, it’s a shortbow.</p>
+      <p class="indent"><i><b>Untransformed:</b></i> Once on each of your turns when you damage a creature with this weapon, you can force it to make a DC 17 Dexterity saving throw, becoming affected by the faerie fire spell on a failure. You do not need to concentrate on this spell, but it ends early if you put another creature under the effect of the spell, or if you fall unconscious.</p>
+      <p class="indent"><i><b>Transformed:</b></i> In its transformed state, the Faux Lunaire has 2 charges. When you attack a creature with this bow, you can expend 1 charge to cast one of the following spells (save DC 17) from it (no action required): moonbeam or darkness. The spell is centered on the creature’s space and lasts until the end of your next turn. You do not need to concentrate on it, and you can only have one of these spells active at a time. If your attack misses, you expend the charge but the effect fails. The Faux Lunaire regains 1 expended charge each time it is targeted by the light cantrip.</p>
+    </description>
+    <setters>
+      <set name="keywords">scythe</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="scythe">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="weapon">Scythe</set>
+    </setters> 
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
+      <stat name="wisdom" value="2" />
+    </rules> 
+  </element>
 </elements>
