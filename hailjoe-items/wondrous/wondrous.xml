@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.6">
+    <update version="0.0.7">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -67,7 +67,7 @@
       <set name="cost" currency="gp">0</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="type">Wondrous Item</set>
-      <set name="attunement">true</set>
+      <set name="attunement" addition="by a spellcaster">true</set>
       <set name="rarity">Rare</set>
       <set name="charges">5</set>
     </setters>
@@ -244,6 +244,21 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">false</set>
       <set name="rarity">Legendary</set>
+    </setters>
+  </element>
+  
+  <element name="Psychic Quiver" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_PSYCHIC_QUIVER">
+    <description>
+      <p>When you pull a nonmagical arrow from this quiver and immediately make an attack with it, the target takes an extra 1d6 psychic damage on a hit. If you roll a 6 on the die, you can choose to target that creature with the detect thoughts spell (no concentration required). When you do, you can choose to force the creature to make a DC 13 Intelligence saving throw. On a failed save, you probe deeper into its thoughts. Regardless, this effect lasts until the start of your next turn or until you force another creature to make the saving throw. Hit or miss the arrow becomes nonmagical again immediately after the attack.</p>
+      <p>Other types of ammunition containers of this kind exist, such as a psychic bolt case meant for crossbow bolts, though quivers are most common.</p>
+    </description>
+    <setters>
+      <set name="keywords">quiver</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement" addition="by a creature with an Intelligence score of 13 or higher">true</set>
+      <set name="rarity">Rare</set>
     </setters>
   </element>
 </elements>
