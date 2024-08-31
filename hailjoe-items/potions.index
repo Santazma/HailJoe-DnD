@@ -5,7 +5,7 @@
 		<description>Homebrew Potions</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="armors.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors.index" />
+			<file name="potions.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/potions.index" />
 		</update>
 	</info>
 	<files>
