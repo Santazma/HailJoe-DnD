@@ -4,7 +4,7 @@
 		<name>HailJoe Items</name>
 		<description>Hailjoe's homebrew items</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.15">
+		<update version="0.0.16">
 			<file name="hailjoe-items.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items.index" />
 		</update>
 	</info>
@@ -14,5 +14,6 @@
 		<file name="armors.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors.index" />
 		<file name="supernatural-gifts.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts.index" />
 		<file name="nonmagical-items.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/nonmagical-items.index" />
+		<file name="potions.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/potions.index" />
 	</files>
 </index>
