@@ -3,7 +3,7 @@
 		<name>weapons</name>
 		<description/>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="nonmagical-weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/nonmagical-items/nonmagical-weapons.xml"/>
 		</update>
 	</info>
@@ -15,6 +15,17 @@
 		</description>
 		<setters>
 			<set name="short">You can introduce sacred weapons to your campaign.</set>
+		</setters>
+	</element>
+
+	<!-- trick weapon option -->
+	<element name="Trick Weapons" type="Option" source="HailJoe Items" id="ID_HAILJOE_OPTION_TRICK">
+		<description>
+			<p>Trick weapons are weapons that can be transformed into alternate forms and have different abilities depending on said form. To be proficient with a trick weapon, a character must be proficient with both states of the weapon.</p>
+			<p>If a character isn’t proficient with one of the forms of the weapon, they don’t add their proficiency bonus to attack rolls made with that form of the weapon, as would be the case for not being proficient with a ‘regular’ weapon. If a character is proficient with at least one form of the weapon, they can use all properties of the weapon.</p>
+		</description>
+		<setters>
+			<set name="short">You can introduce trick weapons to your campaign.</set>
 		</setters>
 	</element>
 	
@@ -32,6 +43,39 @@
 			<set name="damage" type="slashing">1d6</set>
 			<set name="versatile">1d8</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAIN_BLADES</set>
+		</setters>
+	</element>
+
+	<element name="Scythe" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_WEAPON_SCYTHE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p>A sleek, curved blade designed for precision and lethality, the scythe excels in sweeping attacks that can cut down foes from afar, in a graceful motion.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">10</set>
+			<set name="damage" type="slashing">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+		</setters>
+	</element>
+
+	<element name="Cleaver" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_WEAPON_CLEAVER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+		<description>
+			<p>A brutal, heavy cleaver that delivers devastating, bone-crushing strikes, perfect for cleaving through armor and flesh alike with relentless force.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">35</set>
+			<set name="weight" lb="6">8 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">5</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d12</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLEAVER</set>
 		</setters>
 	</element>
 	
