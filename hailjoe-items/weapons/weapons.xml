@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.9">
+    <update version="0.0.10">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -246,6 +246,41 @@
       <set name="rarity">Rare</set>
       <set name="enhancement">1</set>
       <set name="weapon">Dagger</set>
+    </setters> 
+  </element>
+
+  <element name="Wyrmshide Bow" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WYRMSHIDE_BOW">
+    <description>
+      <p>This bow is crafted with delicate dragon scales and strung with a fiber from a dragon's heart. While holding the bow, you can use a bonus action to speak its command word and channel the energy of the dragon within for 1 minute. When you do, the bow forms a draconic cowl of elemental energy around you. For the duration of the cowl, you gain the following benefits:</p>
+      <ul>
+        <li>You gain 25 temporary hit points.</li>
+        <li>You have resistance to damage of the same type as the elemental energy of the cowl. The type of energy is determined by the kind of dragon that provided the bow's scales, as shown on the table below.</li>
+	<li>On a hit, the bow deals an extra 1d8 damage of the same type as the cowl's energy. If the target is a dragon, this extra damage ignores any resistance or immunity it has against that damage type.</li>
+      </ul>
+      <table>
+				<thead>
+				<tr><td>Dragon</td><td>Resistance</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Brass</td><td>Fire</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td></tr>
+				<tr><td>Copper</td><td>Acid</td></tr>
+				<tr><td>Gold</td><td>Fire</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>Silver</td><td>Cold</td></tr>
+	       	 		<tr><td>White</td><td>Cold</td></tr>
+    </table>
+    </description>
+    <setters>
+      <set name="keywords">shortbow</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="shortbow">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="weapon">Shortbow</set>
     </setters> 
   </element>
 </elements>
