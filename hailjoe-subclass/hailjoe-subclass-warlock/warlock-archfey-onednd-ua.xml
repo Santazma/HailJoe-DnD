@@ -4,7 +4,7 @@
 		<name>The Archfey One DND UA</name>
 		<description>The Archfey Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
 		</update>
 	</info>
@@ -32,7 +32,7 @@
 	<element name="Patron Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_PATRON_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_PATRON_SPELLS</requirements>
 		<description>
-			<p>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+			<p>Starting at 3th level, The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
 			<h5 class="caption">ARCHFEY EXPANDED SPELLS</h5>
 			<table>
 				<thead>
@@ -66,7 +66,7 @@
 	<element name="Steps of the Fey" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY">
                 <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY</requirements>
 		<description>
-			<p>Your patron bestows on you the ability to move between the boundaries of the planes. You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. In addition, whenever you cast that spell, you can choose one of the following additional effects:</p>
+			<p>Starting at 3th level, your patron bestows on you the ability to move between the boundaries of the planes. You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. In addition, whenever you cast that spell, you can choose one of the following additional effects:</p>
                         <ul>
 				<li><b><i>Refreshing Step. </i></b>Immediately after you teleport, one creature you can see within 10 feet of you gains 1d10 Temporary Hit Points.</li>
 				<li><b><i>Taunting Step. </i></b>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</li>
@@ -103,7 +103,7 @@
 	<element name="Misty Escape" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_MISTY_ESCAPE">
                 <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_MISTY_ESCAPE</requirements>
 		<description>
-			<p>You can vanish in a puff of mist in response to harm. You can cast Misty Step as a Reaction in response to taking damage. In addition, the following effects are now among your Steps of the Fey options:</p>
+			<p>Starting at 6th level, you can vanish in a puff of mist in response to harm. You can cast Misty Step as a Reaction in response to taking damage. In addition, the following effects are now among your Steps of the Fey options:</p>
                         <ul>
 				<li><b><i>Disappearing Step. </i></b>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</li>
 				<li><b><i>Dreadful Step. </i></b>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</li>
