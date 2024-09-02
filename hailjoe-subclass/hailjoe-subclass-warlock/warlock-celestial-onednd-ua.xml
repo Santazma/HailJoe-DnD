@@ -4,7 +4,7 @@
 		<name>The Celestial One DND UA</name>
 		<description>The Celestial Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 		</update>
 	</info>
@@ -32,7 +32,7 @@
 	<element name="Patron Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_PATRON_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_PATRON_SPELLS</requirements>
 		<description>
-			<p>The magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Celestial Spells table, you thereafter always have the listed spells prepared.</p>
+			<p>Starting at 3th level, the magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Celestial Spells table, you thereafter always have the listed spells prepared.</p>
 			<h5 class="caption">CELESTIAL EXPANDED SPELLS</h5>
 			<table>
 				<thead>
@@ -68,7 +68,7 @@
 	<element name="Healing Light" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_HEALING_LIGHT">
                 <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_HEALING_LIGHT</requirements>
 		<description>
-			<p>You gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 plus your Warlock level. As a Bonus Action, you can heal one creature that you can see within 60 feet of yourself, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, and restore a number of Hit Points equal to the roll’s total. Your pool regains all expended dice when you finish a Long Rest.</p>
+			<p>Starting at 3th level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 plus your Warlock level. As a Bonus Action, you can heal one creature that you can see within 60 feet of yourself, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, and restore a number of Hit Points equal to the roll’s total. Your pool regains all expended dice when you finish a Long Rest.</p>
 		</description>
 		<sheet action="Bonus Action">
 			<description>You have a pool of d6s equals to 1 plus your Warlock level. As a Bonus Action, you can heal one creature that you can see within 60 feet of yourself, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, and restore a number of Hit Points equal to the roll’s total. Your pool regains all expended dice when you finish a Long Rest.</description>
@@ -82,7 +82,7 @@
 	<element name="Radiant Soul" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_RADIANT_SOUL">
                 <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_RADIANT_SOUL</requirements>
 		<description>
-			<p>Your link to your patron allows you to serve as a conduit for radiant energy. You have Resistance to Radiant damage, and when you cast a spell that deals Radiant or Fire damage, you can add your Charisma modifier to one Radiant or Fire damage roll of that spell against one of its targets.</p>
+			<p>Starting at 6th level your link to your patron allows you to serve as a conduit for radiant energy. You have Resistance to Radiant damage, and when you cast a spell that deals Radiant or Fire damage, you can add your Charisma modifier to one Radiant or Fire damage roll of that spell against one of its targets.</p>
 		</description>
 		<sheet>
 			<description>When you cast a spell that deals radiant or fire damage, you can add your charisma modifier to one radiant or fire damage roll of that spell against one of its targets.</description>
@@ -95,7 +95,7 @@
 	<element name="Celestial Resilience" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_CELESTIAL_RESILIENCE">
                 <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_BEGUILING_DEFENSES</requirements>
 		<description>
-			<p>You gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short Rest or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier.</p>
+			<p>Starting at 10th level, you gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short Rest or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier.</p>
 		</description>
 		<sheet usage="1/Short or Magical Cunning">
 			<description>You gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short Rest or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier.</description>
@@ -105,7 +105,7 @@
 	<element name="Searing Vengeance" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_SEARING_VENGEANCE">
                 <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_CELESTIAL_ONEDND_UA_SEARING_VENGEANCE</requirements>
 		<description>
-			<p>The radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring to your feet with a burst of radiant energy. You regain Hit Points equal to half your Hit Point Maximum and then stand if you so choose. Each creature of your choice that is within 30 feet of you takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the Blinded condition until the end of the current turn. Once you use this feature, you can’t use it again until you finish a Long Rest.</p>
+			<p>Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring to your feet with a burst of radiant energy. You regain Hit Points equal to half your Hit Point Maximum and then stand if you so choose. Each creature of your choice that is within 30 feet of you takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the Blinded condition until the end of the current turn. Once you use this feature, you can’t use it again until you finish a Long Rest.</p>
 		</description>
 		<sheet usage="1/Long">
 			<description>When you make a death saving throw, you can use this feature and regain Hit Points equal to half your Hit Point Maximum and then stand if you so choose. Each creature of your choice that is within 30 feet of you takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the Blinded condition until the end of the current turn.</description>
