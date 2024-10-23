@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -259,6 +259,23 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement" addition="by a creature with an Intelligence score of 13 or higher">true</set>
       <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="Sun Eater's Soul" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SUN_EATERS_SOUL">
+    <description>
+      <p>This black metal ring is unnervingly matte, reflecting nothing even in the brightest of light. While wearing this ring, when a creature you can see within 30 feet of you is hit with an attack, you can use your reaction to halve the damage that creature takes from the attack. The ring can be used to halve damage three times and regains all uses daily at dusk.</p>
+      <p class="indent"><strong><em>Sun Eater's Grace.</em></strong>You choose a creature to create bond with the Sun Eater. When you restore hit points to a creature, you also restore that same number of hit points to a creature within 30 feet of you who is bonded to the Sun Eater. The ring can be used to restore hit points three times and regains all uses daily at dusk.</p>
+      <p class="indent"><strong><em>Curse.</em></strong>The ring resembles another ring as if not cursed, and cannot be detected as cursed item, other then Identify spell. At the end of every combat encounter, "for each reaction used" or "each time Sun Eater's Grace was activated", the wearer gains a random short-term madness from madness table. This Curse, cannot be undone by any regular spell, and spesifically needs to perform a ritual in one of the old sun temples. This ritual must be made in darkness spell for 24 hours, and a flesh sacrifice, must be served to Sun Eater. You need to sacrifice same level person or higher than you. You can also sacrifice an equivalent amount of CR or higher monster compare with your level. Sacrifice must be alive at the process. Completing this ritual, makes the Sun Eater stronger.</p>
+      <p class="indent"><strong><em>Removing the Ring.</em></strong>The wearer can remove the ring, but after the  removal, the wearer starts to lose 1d6 maximum hit points per day, which can only be stopped by casting Remove Curse or Greater Restoration. After the decaying is counter-measured, the lost hit points comes back at next dawn.</p>
+    </description>
+    <setters>
+      <set name="keywords">ring</set>
+      <set name="category">Rings</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Ring</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
     </setters>
   </element>
 </elements>
