@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.8">
+    <update version="0.0.9">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -278,4 +278,116 @@
       <set name="rarity">Very Rare</set>
     </setters>
   </element>
+
+  <element name="Curse of Moon-Blood (Tattooed)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_CURSE_OF_MOON_BLOOD_TATTOOED">
+    <description>
+      <p>During the early days of the scourge, not all the afflicted succumbed to beastly transformations. Many were driven mad, some were devoured by others, but the truly bloodthirsty—those who consumed the flesh of man and beast alike—became irreversibly twisted in both soul and body. These cannibals, driven by the need to survive, were cursed and became the first of the Crimson Beasts, also known as the Moon-Blooded. Their fate was sealed in monstrous deaths, each a grim reminder of their sins.</p>
+      <p>One fateful day, all those who bore this curse were mysteriously slaughtered, their mangled remains half-buried in the ground. None knew the hand behind the massacre. In the aftermath, scholars of eldritch carvings discerned a pattern amidst the corpses, Martyr Tulio foremost among them.</p>
+      <p>This eldritch rune, inscribed upon one’s flesh, grants control over the ancient curse. The bearer can shape their blood into deadly weapons and shields. However, spilling too much blood awakens the dormant curse, risking a transformation into the Crimson Beast of old.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong>As a bonus action, you can unleash the power of the carving, transforming into a Crimson Beast. When you do, you take necrotic damage equal to one roll of your hit die, which cannot be reduced by any means. You suffer this damage again for every minute you remain transformed. This transformation ends early if you fall unconscious or use a bonus action to end it. While transformed, the blood you lose manifests in one of the following ways:</p>
+      <p class="indent"><strong><em>Barbed Tail.</em></strong>A barbed tail of blood erupts from your lower spine. As part of transforming and on subsequent turns as a bonus action, you can make a melee weapon attack with it. The tail is considered a simple melee weapon with which you are proficient. It has the finesse and reach properties, and it deals 1d8 magical piercing damage on a hit.</p>
+      <p class="indent"><strong><em>Razor Claws.</em></strong>Your hands grow vicious claws. You gain a climbing speed equal to your walking speed, and your unarmed strikes deal an additional 1d6 magical slashing damage.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Tattooed).</em></strong>The power of the carving fortifies your body in dire moments. While attuned to this carving, your AC increases by 2 when your hit points are below half of your maximum.</p>
+    </description>
+    <setters>
+      <set name="keywords">carving, curse</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+
+  <element name="Mephitic Seal (Tattooed)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MEPHITIC_SEAL_TATTOOED">
+    <description>
+      <p>This eldritch carving bears a single, rotting word of power. Legends say its utterance brings plagues and corruption, scarring the land and sickening all living beings. A rogue faction of manikins has unearthed the original carving and begun using its power to further their enigmatic agenda, much to the horror of mortal beings. Yet such power, if wielded wisely, could be turned against them—or doom all who try.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong>You can use Miasma of Death feature.</p>
+      <p class="indent"><strong><em>Miasma of Death.</em></strong>As an action, you can summon a toxic miasma at a point you can see within 30 feet. The miasma forms a 15-foot-radius sphere that spreads around corners and lasts until the end of your next turn. Each creature fully within the miasma at the start of its turn must make a DC 18 Constitution saving throw. On a failed save, the creature takes poison damage equal to your proficiency bonus (in d6s) and is poisoned for the duration of the miasma. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. You can use this ability twice, regaining all expended uses after finishing a long rest. When you summon the miasma, you can choose one property from the following list to apply:</p>
+      <ul>
+        <li>Obfuscation: The area becomes heavily obscured.</li>
+        <li>Immunity: You are immune to the miasma's effects.</li>
+        <li>Duration: The miasma lasts for 1 minute or until dispersed by moderate wind (10 mph or greater). As a bonus action on your turn, you can move the miasma 10 feet. If this carving is scarified, you can move it up to 30 feet instead.</li>
+	<li>Radius: The radius of the miasma increases to 25 feet.</li>
+        <li>Virulent: The damage dice become d12s instead of d6s.</li>
+        <li>Lingering: On a successful save, a creature takes half damage and is not poisoned.</li>
+      </ul>    
+      <p class="indent"><strong><em>Eldritch Carving Effects (Tattooed).</em></strong>You can use the miasma a number of times equal to your proficiency bonus, regaining all expended uses after finishing a long rest. Additionally, when summoning the miasma, you may apply two properties from now on. You do also gain new properties:</p>
+      <ul>
+        <li>Corrosion: The miasma deals additional acid damage equal to your proficiency bonus (in d4s) on a failed save. Creatures that fail their save by 5 or more are blinded until the end of your next turn.</li>
+        <li>Destruction: The miasma exudes a corrosive substance, destroying 1 inch of nonmagical wood, metal, or stone each round. While this property is active, the miasma ignores resistance and immunity to poison damage and the poisoned condition. Constructs have disadvantage on their saving throw.</li>
+      </ul> 
+    </description>
+    <setters>
+      <set name="keywords">carving, curse</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="Third Carving (Tattooed)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_THIRD_CARVING_TATTOOED">
+    <description>
+      <p class="flavor">War broke out in heaven. From the throne came flashes of lightning, and rumblings and peals of thunder, and before the throne were burning seven torches of radient fire. Mirabelle and her fellow angels fought against the corruption, and the fallen ones and their followers back. But she was not strong enough, and they lost their place in heaven. The forseken plunderer was hurled down—that ancient knife eared called the devil, who leads the whole world astray. He was hurled to the earth, and his lunatic fanatics with him. — Malleus Maleficarum</p>
+      <p>The Third Carving is the embodiment of Mirabelle—the Left Hand of Kredite and the herald of punishment. It is said to bear the power of divine judgment, a shard of the conflict that once raged in heaven. Its power manifests as a fiery call to arms against those who defy the natural order, wielded only by those bold enough to endure its toll.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong>When you roll initiative, you can choose to let the carving consume you for 1 minute (no action required). While consumed, you gain the following benefits. Once you use this feature, you cannot do so again until you finish a long rest.</p>
+      <p class="indent"><strong><em>Wings of Judgment.</em></strong>Fiery wings sprout from your back, granting you a flying speed of 30 feet. You can only use this speed to move toward a hostile creature you can see.</p>
+      <p class="indent"><strong><em>Seraphic Blade.</em></strong>A blade of eldritch—or perhaps divine—energy appears in your hand. This blade is a magic weapon with the finesse property. It deals 1d6 elemental and 1d6 psychic damage on a hit. Elemental damage could be; acid, cold, fire, lightning, poison and thunder, depending what would you pick amongst them.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Tattooed).</em></strong>When you let the carving consume you, the benefits are enhanced:</p>
+      <p class="indent"><strong><em>Wings of Judgment Enhanced.</em></strong>Your flying speed increases to 60 feet, but you can still only use it to move toward a hostile creature you can see.</p>
+      <p class="indent"><strong><em>Righteous Punishment.</em></strong>When a creature damages you, you can use your reaction to release a psychic shockwave. The attacking creature must make an Intelligence saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, it takes psychic damage equal to your character level. On a success, it takes half as much damage. As part of the same reaction, you can stun the attacking creature until the end of your next turn. Once you stun a creature this way, you cannot do so again until you finish a long rest.</p>
+      <p class="indent"><strong><em>Seraphic Blade Enhanced.</em></strong>Your blade improves as follows:</p>
+      <ul>
+        <li>The blade has the finesse and thrown (range 60/120) properties.</li>
+        <li>The damage increases to 1d8 for both elemental and psychic.</li>
+        <li>When thrown, the blade returns to your hand after the attack.</li>
+	<li>Alternatively, you can fuse the blade with a nonmagical weapon you are holding. While fused, the weapon gains a +1 bonus to attack and damage rolls, and deals an extra 1d6 elemental and 1d6 psychic damage on a hit.</li>
+      </ul> 
+    </description>
+    <setters>
+      <set name="keywords">carving, curse</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+
+  <element name="Second Carving (Scarified)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SECOND_CARVING_SCARIFIED">
+    <description>
+      <p class="flavor">Its powers have fueled hubris, suffering, and tyranny across history. Most infamous was its possession by the Godless King, a mortal who dared declare himself divine. He ruled a world turned to ashes, for in his mind, desolation was preferable if it meant ruling as a god over the remnants.</p>
+      <p>The Second Carving, known as the Voice of Creation, channels the omnipotent words that shaped existence. It is whispered to come from the scriptures of an ancient, long-lost civilization. This carving embodies the terrifying potential of creation—an echo of what lies beyond mortal comprehension.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong>You gain the ability to comprehend and speak Celestial and Deep Speech. The carving imbues you with divine authority, allowing you to cast powerful decrees. Constitution or Wisdom (whichever is higher) is your spellcasting modifier for these abilities. Each decree can be used once per long rest, and they require only a verbal component.</p>
+      <p class="indent"><strong><em>King’s Decrees.</em></strong>Here's the list of decrees:</p>
+      <ul>
+        <li>Decree of Obedience: Command the heretic to kneel and worship. You cast the command spell, but you can use only the "grovel" command.</li>
+        <li>Decree of Power: Bless your allies with destructive might. You cast Bless Spell from 1st lvl. Creatures under its effect reroll any 1s rolled on the d4 and must use the new result. However, they take 1d4 necrotic damage (this damage cannot be reduced) at the start of each of their turns.</li>
+        <li>Decree of Blood: Bolster your soldiers to endure. You cast healing word on a willing creature. Until the end of that creature’s next turn, it gains a +1 bonus to attack and damage rolls, but each time it takes damage, it suffers an additional 1d4 damage of the same type.</li>
+      </ul> 
+      <p class="indent"><strong><em>Eldritch Carving Effects (Tattooed).</em></strong>You gain the ability to speak Celestial and Deep Speech fluently.</p>
+      <p class="indent"><strong><em>Aegis of the Almighty.</em></strong>You gain resistance to radiant damage. At dawn each day, you can choose one creature within sight. That creature gains resistance to radiant damage while it remains within 10 feet of you and you are conscious. You can now use each decree a number of times equal to your Constitution or Wisdom modifier (whichever is higher). You regain all expended uses after a long rest.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Scarified).</em></strong>You embody the full might of the carving:</p>
+      <p class="indent"><strong><em>Aegis of the Almighty Enhanced.</em></strong>You gain resistance to radiant damage. Friendly creatures of your choice within 15 feet of you also have resistance to radiant damage while you are conscious. Additionally, you can amplify your decrees by expending two uses instead of one. Amplified effects are as follows:</p>
+      <p class="indent"><strong><em>Improved Decree of Obedience.</em></strong>You can target a number of creatures equal to your Constitution or Wisdom modifier (whichever is higher) when you cast command.</p>
+      <p class="indent"><strong><em>Improved Decree of Power.</em></strong>Creatures under bless gain an additional action on each of their turns. This action can be used only to take the Attack (one weapon attack), Dash, Disengage, Hide, or Use an Object action. The damage taken at the start of their turn increases to 2d4.</p>
+      <p class="indent"><strong><em>Improved Decree of Blood.</em></strong>When you cast healing word, it is cast as if you're casting this at 7th level. The target gains a +3 bonus to attack and damage rolls until the end of its next turn. Each time it takes damage, it suffers an additional 2d4 damage of the same type.</p>
+    </description>
+    <setters>
+      <set name="keywords">carving, curse</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+    </setters>
+    <rules>
+              <grant type="Language" id="ID_LANGUAGE_DEEP_SPEECH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+	      <grant type="Language" id="ID_LANGUAGE_CELESTIAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+              <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+      </rules>
+  </element>
 </elements>
+
