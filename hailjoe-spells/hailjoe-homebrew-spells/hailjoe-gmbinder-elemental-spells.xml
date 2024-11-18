@@ -4,7 +4,7 @@
 		<name>HailJoe's Homebrew GMBinder Elemental Spells</name>
 		<description>Homebrew Spells taken from GMBinder by the HailJoe.</description>
 		<update version="0.0.1">
-			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/refs/heads/main/hailjoe-spells/hailjoe-homebrew-spells/Elemental%20Spells%20Expanded%20Package%20Deal.xml" />
+			<file name="hailjoe-gmbinder-elemental-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/refs/heads/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-gmbinder-elemental-spells.xml" />
 		</update>
 	</info>
 <element name="Elemental Expansions Lightning Spells" type="Source" source="HailJoe Elemental Expansions Lightning Spells" id="ID_GMB_SOURCE_EELS">
