@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-<element name="Elemental Expansions Lightning Spells" type="Source" source="Elemental Expansions Lightning Spells" id="ID_GMB_SOURCE_EELS">
+	<info>
+		<name>HailJoe's Homebrew GMBinder Elemental Spells</name>
+		<description>Homebrew Spells taken from GMBinder by the HailJoe.</description>
+		<update version="0.0.1">
+			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
+		</update>
+	</info>
+<element name="Elemental Expansions Lightning Spells" type="Source" source="HailJoe Elemental Expansions Lightning Spells" id="ID_GMB_SOURCE_EELS">
 		<description>
             <![CDATA[<p>Homebrew content posted on GM Binder.</p>]]>
 		</description>
@@ -12,7 +19,7 @@
 		</setters>
 	</element>
 
-	<element name="Grounding Bolt" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_GROUNDING_BOLT">
+	<element name="Grounding Bolt" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_GROUNDING_BOLT">
     <supports>Sorcerer, Wizard, Artificer, Druid, Warlock</supports>
 		<description>
 			<p>You send a jolt towards a creature you can see within range, which punishes those who dare fly through your skies. The target must succeed on a Dexterity saving throw or take 1d8 lightning damage. If the target is flying or floating in the air, it instead takes 1d12 lightning damage.</p>
@@ -34,7 +41,7 @@
 		</setters>
 	</element>
 
-	<element name="Conducting Shock" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_CONDUCTING_SHOCK">
+	<element name="Conducting Shock" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_CONDUCTING_SHOCK">
     <supports>Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>A creature you can see within range becomes the origin of a current which spreads to those nearby. The target and each creature adjacent to it must make a Constitution saving throw. A creature takes 2d8 lightning damage on a failed save, or half as much damage on a successful one.</p>
@@ -56,7 +63,7 @@
 		</setters>
 	</element>
 
-<element name="Lightning-Flash Strike" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_LIGHTNING-FLASH_STRIKE">
+<element name="Lightning-Flash Strike" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_LIGHTNING-FLASH_STRIKE">
     <supports>Artificer, Cleric, Ranger, Paladin, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You disappear and reappear at the end of a 5 foot wide straight line that ends at an unoccupied point you can see within range. Make a melee attack with the weapon used in the spell’s casting against one creature in the line, ignoring your weapon's range. Each creature of your choice in the line must then make a Dexterity saving throw, taking 2d6 lightning damage on a failed save or half as much on a successful one.</p>
@@ -79,7 +86,7 @@
 		</setters>
 	</element>
 
-<element name="Crackling Smite" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_CRACKLING_SMITE">
+<element name="Crackling Smite" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_CRACKLING_SMITE">
     <supports>Paladin</supports>
 		<description>
 			<p>The next time you hit a creature with a weapon attack before this spell ends, your weapon seethes with electric arcs, and the attack deals an extra 3d8 lightning damage.</p>
@@ -102,7 +109,7 @@
 		</setters>
 	</element>
 
-<element name="Spark Wraiths" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_SPARK_WRAITHS">
+<element name="Spark Wraiths" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_SPARK_WRAITHS">
     <supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You summon three short-lived lightning elementals at unoccupied space within range. Although they are really creatures, and class features that affect summoning can treat them as such, in combat they are treated as small levitating objects with AC 16 and 15 hit points. The wraiths also shed dim light out to a radius of 10 feet.</p>
@@ -127,7 +134,7 @@
 		</setters>
 	</element>
 
-<element name="Fulgurise" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_FULGURISE">
+<element name="Fulgurise" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_FULGURISE">
     <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You attempt to scorch a creature you can see within range with a powerful bolt. The target must make a Dexterity saving throw. It takes 8d10 lightning damage on a failed save, or half as much on a successful one. If the target survives this damage, the spell ends.</p>
@@ -151,7 +158,7 @@
 		</setters>
 	</element>
 
-<element name="Lightning Reflex" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_LIGHTNING_REFLEX">
+<element name="Lightning Reflex" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_LIGHTNING_REFLEX">
     <supports>Bard, Cleric, Druid</supports>
 		<description>
 			<p>You bestow your allies with supernatural reflexes, making them ready to react to the slightest hint of danger. Choose up to five willing creatures in range. If one of the creatures would make a Dexterity saving throw or an initiative roll, its reflexes kick in and grant it advantage on the roll. If this causes the creature to succeed on a Dexterity saving throw to take only half damage, they instead take no damage. Whenever the effects of the spell are triggered for a creature, the creature then has its speed doubled until the end of its next turn.</p>
@@ -173,7 +180,7 @@
 		</setters>
 	</element>
 
-<element name="Blightning" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_BLIGHTNING">
+<element name="Blightning" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_BLIGHTNING">
     <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You blast foes with vicious red lightning, charged with negative energy. Each creature in a 30-foot cone must make a Dexterity saving throw, taking 6d6 lightning damage and 6d6 necrotic damage on a failed save, or half as much on a successful one. A living creature that fails the save is suffused with necrotic energy. Whenever such a creature would regain hit points or gain temporary hit points, it instead gains half as many. A Remove Curse, Greater Restoration, or Wish spell can end this effect.</p>
@@ -195,7 +202,7 @@
 		</setters>
 	</element>
  
-<element name="Ionic Curse" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_IONIC_CURSE">
+<element name="Ionic Curse" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_IONIC_CURSE">
     <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You alter the composition of any number of creatures you can see in a 100-foot radius sphere, rendering them prone to catastrophic electric discharges. Each target must make a Constitution saving throw or be affected. The affected creatures are surrounded by a faint blue glow, their hair stands up and any loose clothing is blown about. Whenever an affected creature is hit by an attack or hits another creature with a melee attack, it takes 1d6 lightning damage.</p>
@@ -216,7 +223,7 @@
 		</setters>
 	</element>
  
-<element name="Ride the Lightning" type="Spell" source="Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_SPELL_RIDE_THE_LIGHTNING">
+<element name="Ride the Lightning" type="Spell" source="HailJoe Elemental Expansions Lightning Spells" id="ID_EELS_SPELL_SPELL_RIDE_THE_LIGHTNING">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You channel calamitous voltage through your body, allowing you to briefly become lightning itself. For the spell's duration, you are immune to lightning damage.</p>
@@ -239,7 +246,7 @@
 		</setters>
 	</element>
 
-<element name="Expanded Elemental Spells" type="Source" source="Expanded Elemental Spells" id="ID_GMB_SOURCE_EES">
+<element name="Expanded Elemental Spells" type="Source" source="HailJoe Elemental Expansions Spells" id="ID_GMB_SOURCE_EES">
 		<description>
             <![CDATA[<p>Homebrew content posted on GM Binder.</p>]]>
 		</description>
@@ -251,7 +258,7 @@
 		</setters>
 	</element>
 
-<element name="Acid bolt" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_ACID_BOLT">
+<element name="Acid bolt" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_ACID_BOLT">
     <supports>Artificer, Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>A small dart of emerald green acid fires from the tip of your outstretched finger. Make a ranged spell attack against a target within range. On a hit, the target takes 2d4 acid damage, or half as much damage on a miss.</p>
@@ -273,7 +280,7 @@
 		</setters>
 	</element>
 
-<element name="Acidic Orb" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_ACIDIC_ORB">
+<element name="Acidic Orb" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_ACIDIC_ORB">
     <supports>Artificer, Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>A 5-foot-diameter sphere of emerald green acid appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 3d4 acid damage on a failed save and an additional 1d4 acid damage at the end of its next turn, or half as much initial damage and no subsequent damage on a successful one. As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn. When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide.</p>
@@ -295,7 +302,7 @@
 		</setters>
 	</element>
 
-<element name="Adder's Fangs" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_ADDERS'S_FANGS">
+<element name="Adder's Fangs" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_ADDERS'S_FANGS">
     <supports>Druid, Ranger, Sorcerer, Warlock</supports>
 		<description>
 			<p>You create the visage of a massive green snake that appears for an instant before bearing down on your foe. Choose a creature within range. The target must make a Constitution saving throw, taking 4d10 poison damage on a failure, or half as much damage on a successful one. A creature that fails its saving throw is also poisoned, and its speed is halved while poisoned by this spell. At the end of each of its turns, a target may make a Constitution saving throw, ending the poison on a success. Otheriwse, the poison lasts for 1 minute.</p>
@@ -317,7 +324,7 @@
 		</setters>
 	</element>
 
-<element name="Arantov's Frozen Gale" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_ANTAROV'S_FROZEN_GALE">
+<element name="Arantov's Frozen Gale" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_ANTAROV'S_FROZEN_GALE">
     <supports>Druid, Sorcerer, Warlock</supports>
 		<description>
 			<p>You unleash a rush of gale wind and ice. Each creature in a 30-foot cone must make a Constitution saving throw, taking 6d6 cold damage on a failure, or half as much on a successful one. A creature that fails its saving throw has its speed reduced by half until the end of its next turn, as ice clings to its body.</p>
@@ -339,7 +346,7 @@
 		</setters>
 	</element>
 
-<element name="Ball Lightning" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_BALL_LIGHTNING">
+<element name="Ball Lightning" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_BALL_LIGHTNING">
     <supports>Artificer, Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>A 5-foot-diameter ball of lightning appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one. As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn. When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide.</p>
@@ -361,7 +368,7 @@
 		</setters>
 	</element>
 
-<element name="Booming Shot" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_BOOMING_SHOT">
+<element name="Booming Shot" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_BOOMING_SHOT">
     <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You imbue the weapon used in the spell’s casting with thunderous energy and make a ranged attack with it against one creature within its range. On a hit, the target suffers the weapon attack’s normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d4 thunder damage, and the spell ends.</p>
@@ -383,7 +390,7 @@
 		</setters>
 	</element>
 
-<element name="Corroding Ray" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_CORRODING_RAY">
+<element name="Corroding Ray" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_CORRODING_RAY">
     <supports>Artificer, Sorcerer, Wizard</supports>
 		<description>
 			<p>You point at a creature within range, and a beam of emerald green acid streaks towards them. Make a ranged spell attack. On a hit, the target takes 3d8 acid damage.</p>
@@ -405,7 +412,7 @@
 		</setters>
 	</element>
 
-<element name="Flaming shot" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_FLAMING_SHOT">
+<element name="Flaming shot" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_FLAMING_SHOT">
     <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You imbue the weapon used in the spell’s casting with flame and make a ranged attack with it against one creature within its range. On a hit, the target suffers the weapon attack’s normal effects and you can cause fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.</p>
@@ -427,7 +434,7 @@
 		</setters>
 	</element>
 
-<element name="Ice Fan" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_ICE_FAN">
+<element name="Ice Fan" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_ICE_FAN">
     <supports>Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>You launch your shards of ice at 3 points within range, where they explode. Each creature within a 10-foot radius of those points must make a Constitution saving throw, taking 3d6 cold damage on a failure, or half as much damage on a successful one. A creature in the radius of multiple shards is affected only once.</p>
@@ -449,7 +456,7 @@
 		</setters>
 	</element>
 
-<element name="Investiture of Acid" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_INVESTITURE_OF_ACID">
+<element name="Investiture of Acid" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_INVESTITURE_OF_ACID">
     <supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, acid perpetually drips from your body, and you gain the following benefits:</p>
@@ -473,7 +480,7 @@
 		</setters>
 	</element>
 
-<element name="Investiture of Lightning" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_INVESTITURE_OF_LIGHTNING">
+<element name="Investiture of Lightning" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_INVESTITURE_OF_LIGHTNING">
     <supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, lightning crackles and arcs off your body, and you gain the following benefits:</p>
@@ -498,7 +505,7 @@
 		</setters>
 	</element>
 
-<element name="Investiture of Poison" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_INVESTITURE_OF_POISON">
+<element name="Investiture of Poison" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_INVESTITURE_OF_POISON">
     <supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, poison gasses spill from your pores, and you gain the following benefits:</p>
@@ -522,7 +529,7 @@
 		</setters>
 	</element>
 
-<element name="Investiture of Cold" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_INVESTITURE_OF_COLD">
+<element name="Investiture of Cold" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_INVESTITURE_OF_COLD">
     <supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, you turn a pale blue while the air around you freezes and moisture turns to ice on your hair and clothing, and you gain the following benefits:</p>
@@ -547,7 +554,7 @@
 		</setters>
 	</element>
 
-<element name="Noxious Spray" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_NOXIOUS_SPRAY">
+<element name="Noxious Spray" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_NOXIOUS_SPRAY">
     <supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You unleash a spray of noxious gasses on a target within range. Make a ranged spell attack. On a hit, the target takes 4d6 poison damage and must succeed on a Constitution saving throw or spend all of its next turn retching and heaving, unable to move or take actions.</p>
@@ -569,7 +576,7 @@
 		</setters>
 	</element>
 
-<element name="Poison Burst" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_POISON_BURST">
+<element name="Poison Burst" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_POISON_BURST">
     <supports>Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>You cause a large bulb to grow at a point within range, before it bursts into a cloud of poisonous gas. Each creature within 5 feet of the plant must make a Constitution saving throw or take 1d8 poison damage.</p>
@@ -591,7 +598,7 @@
 		</setters>
 	</element>
 
-<element name="Poison Wave" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_POISON_WAVE">
+<element name="Poison Wave" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_POISON_WAVE">
     <supports>Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>A poisonous wave erupts from you, engulfing those close by. Each creature within the spell's radius must make a Constitution saving throw, taking 10d6 poison damage on a failure, or half as much damage on a successful one. A creature who fails their saving throw is also poisoned for 1 minute.</p>
@@ -613,7 +620,7 @@
 		</setters>
 	</element>
 
-<element name="Splitting Shock" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_SPLITTING_SHOCK">
+<element name="Splitting Shock" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_SPLITTING_SHOCK">
     <supports>Artificer, Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You create a small arc of lightning between your hands and release it at a target within range. The target must make a Dexterity saving throw or take 1d6 lightning damage, and the lightning arcs to another target within 15 feet, forcing a Dexterity saving throw from that creature as well.</p>
@@ -635,7 +642,7 @@
 		</setters>
 	</element>
 
-<element name="Superconductor" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_SUPERCONDUCTOR">
+<element name="Superconductor" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_SUPERCONDUCTOR">
     <supports>Sorcerer</supports>
 		<description>
 			<p>Lightning erupts out of your body, arcing towards your enemies. Creatures of your choice within the spell's radius must make a Dexterity saving throw, taking 12d6 lightning damage on a failure, or half as much damage on a successful one. A creature that fails its saving throw is also stunned until the end of its next turn.</p>
@@ -656,7 +663,7 @@
 		</setters>
 	</element>
 
-<element name="Thundering Pulse" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_THUNDERING_PULSE">
+<element name="Thundering Pulse" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_THUNDERING_PULSE">
     <supports>Artificer,Sorcerer, Wizard</supports>
 		<description>
 			<p>You create a painful sound and force targeted at a creature you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d8 thunder damage and has disadvantage on Wisdom (Perception) checks relying on hearing until the end of its next turn.</p>
@@ -678,7 +685,7 @@
 		</setters>
 	</element>
 
-<element name="Thunderous Blast" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_THUNDEROUS_BLAST">
+<element name="Thunderous Blast" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_THUNDEROUS_BLAST">
     <supports>Artificer, Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>A sudden thunderous boom, painfully intense, erupts from a point of your choice within range. Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 5d8 thunder damage on a failed save, or half as much damage on a successful one. A creature that fails its saving throw is also deafened for 1 minute, and can make a Constitution saving throw at the end of each of its turns to end this effect. Creatures made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw. The noise this spell emits is audible out to 300 feet.</p>
@@ -700,7 +707,7 @@
 		</setters>
 	</element>
 
-<element name="Venom Whip" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_VENOM_WHIP">
+<element name="Venom Whip" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_VENOM_WHIP">
     <supports>Artificer, Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You lash at a creature within range with a whip made of poison. Make a melee spell attack. On a hit, the target takes 1d8 poison damage.</p>
@@ -722,7 +729,7 @@
 		</setters>
 	</element>
 
-<element name="Voltaic Outburst" type="Spell" source="Expanded Elemental Spells" id="ID_EES_SPELL_VOLTAIC_OUTBURST">
+<element name="Voltaic Outburst" type="Spell" source="HailJoe Elemental Expansions Spells" id="ID_EES_SPELL_VOLTAIC_OUTBURST">
     <supports>Artificer, Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>Lightning bursts from your body in deadly arcs, blasting anything around you. Creatures in the spell's area must make a Dexterity saving throw, taking 4d6 lightning damage on a failure, or half as much damage on a success. On a critical fail, creaters are stunned for 1 round.</p>
@@ -744,7 +751,7 @@
 		</setters>
 	</element>
 
-<element name="Elemental Expansions Poison Spells" type="Source" source="Elemental Expansions Poison Spells" id="ID_GMB_SOURCE_EEPS">
+<element name="Elemental Expansions Poison Spells" type="Source" source="HailJoe Elemental Expansions Poison Spells" id="ID_GMB_SOURCE_EEPS">
 		<description>
             <![CDATA[<p>Homebrew content posted on GM Binder.</p>]]>
 		</description>
@@ -756,7 +763,7 @@
 		</setters>
 	</element>
 
-	<element name="Venomous Spines" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_VENOMOUS_SPINES">
+	<element name="Venomous Spines" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_VENOMOUS_SPINES">
     <supports>Artificer, Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You launch tiny spines tipped with venom at a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 1d4 piercing damage and 1d6 poison damage.</p>
@@ -778,7 +785,7 @@
 		</setters>
 	</element>
 
-<element name="Stinging Smite" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_STINGING_SMITE">
+<element name="Stinging Smite" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_STINGING_SMITE">
     <supports>Paladin</supports>
 		<description>
 			<p>The next time you hit a creature with a melee weapon attack during this spell’s duration, your weapon produces a potent venom, and the attack deals an extra 1d12 poison damage to the target and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn</p>
@@ -800,7 +807,7 @@
 		</setters>
 	</element>
 
-<element name="Choking Smog" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_CHOCKING_SMOG">
+<element name="Choking Smog" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_CHOCKING_SMOG">
     <supports>Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>An insidious smog creeps into the target's airways, forcing them to cough. Choose a creature you can see within range. The target must succeed on a Constitution saving throw. The creature takes 2d6 poison damage and becomes poisoned for the duration on a failed save. On a successful save, the creature takes half as much damage, is not poisoned and the spell ends for it. While poisoned in this way, the creature coughs and wheezes violently, and is unable to speak intelligibly or cast spells that include a verbal component. And the end of the poisoned creature's turn, it must repeat the initial saving throw with the same effects.</p>
@@ -822,7 +829,7 @@
 		</setters>
 	</element>
 
-<element name="Spore Burst" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_SPORE_BURST">
+<element name="Spore Burst" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_SPORE_BURST">
     <supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>A puff of noxious spores fills a 15-foot radius sphere within range. Until the end of your next turn, the spores stay in the air and the affected area is heavily obscured.</p>
@@ -846,7 +853,7 @@
 		</setters>
 	</element>
 
-<element name="Pernicious Swarm" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_PERNICIOUS_SWARM">
+<element name="Pernicious Swarm" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_PERNICIOUS_SWARM">
     <supports>Druid, Ranger, Warlock, Wizard</supports>
 		<description>
 			<p>You throw a swarming mass of tiny venomous animals of your choice, such as snakes, spiders, scorpions, centipedes or wasps. Each creature in a 20-foot cube within range must make a Dexterity saving throw or become covered by the swarm. An affected creature's speed is halved and it must use all of its speed at the beginning of each of its turns to move in a random direction in a straight line. Roll a d8 to determine the direction.</p>
@@ -869,7 +876,7 @@
 		</setters>
 	</element>
 
-<element name="Envenom" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_ENVENOM">
+<element name="Envenom" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_ENVENOM">
     <supports>Artificer, Bard, Cleric, Druid, Ranger</supports>
 		<description>
 			<p>You bless your the strikes of your allies, allowing them to inject venom into their targets. Any number of target creatures within range gain a total of 10 venom dice, which are d12s, divided among them however you like. When a target hits a creature with an attack that deals piercing or slashing damage, they can use roll up to 4 of their venom dice and cause the target of the attack to make a Constitution saving throw (vs. your spell save DC). The attacked creature takes damage equal to the total of the rolled venom dice on a failed save, or half as much on a successful one.</p>
@@ -892,7 +899,7 @@
 		</setters>
 	</element>
 
-<element name="Investiture of Fumes" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_INVESTITURE_OF_FUMES">
+<element name="Investiture of Fumes" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_INVESTITURE_OF_FUMES">
     <supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Your body begins to emit foul black smoke, which then enshrouds your body. Until the spell ends, you gain the following benefits:</p>
@@ -917,7 +924,7 @@
 		</setters>
 	</element>
 
-<element name="Irradiate" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_IRRADIATE">
+<element name="Irradiate" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_IRRADIATE">
     <supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You produce a burst of greenish energy that pierces through most objects and causes sickness. Each creature in a 90-foot cone must make a Constitution saving throw. On a failed save, a creature takes 11d6 poison damage and is poisoned for 1 round. On a successful save, a creature takes half as much damage and is not poisoned.</p>
@@ -940,7 +947,7 @@
 		</setters>
 	</element>
 
-<element name="Torpor Powder" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_TORPOR_POWDER">
+<element name="Torpor Powder" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_TORPOR_POWDER">
     <supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You blow a sparkling green powder out from your hands, which expands to engulf a sphere of up to 60 foot radius within range, although it may be a smaller radius if you wish. The powder spreads around corners and through small gaps.</p>
@@ -964,7 +971,7 @@
 		</setters>
 	</element>
 
-<element name="Mortal Tear" type="Spell" source="Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_MORTAL_TEAR">
+<element name="Mortal Tear" type="Spell" source="HailJoe Elemental Expansions Poison Spells" id="ID_EEPS_SPELL_MORTAL_TEAR">
     <supports>Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You create a poison of legendary potency that few can survive. The poison is initially held in an empty hand. You can deliver the poison as a melee spell attack when you cast the spell. If the spell attack is unsuccessful, you can try again on subsequent turns for 8 hours as long as you do not use the hand for anything else.</p>
@@ -991,7 +998,7 @@
 		</setters>
 	</element>
 
-<element name="Elemental Expansions Cold Spells" type="Source" source="Elemental Expansions Cold Spells" id="ID_GMB_SOURCE_EECS">
+<element name="Elemental Expansions Cold Spells" type="Source" source="HailJoe Elemental Expansions Cold Spells" id="ID_GMB_SOURCE_EECS">
 		<description>
             <![CDATA[<p>Homebrew content posted on GM Binder.</p>]]>
 		</description>
@@ -1003,7 +1010,7 @@
 		</setters>
 	</element>
 
-<element name="Freezing Lash" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FREEZING_LASH">
+<element name="Freezing Lash" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FREEZING_LASH">
     <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and is coated in frost until the end of its next turn. If the target ends its turn without moving at least 5 feet using its speed, the target takes 1d8 cold damage and the spell ends.</p>
@@ -1025,7 +1032,7 @@
 		</setters>
 	</element>
 
-<element name="Frosted Lens" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FROSTED_LENS">
+<element name="Frosted Lens" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FROSTED_LENS">
     <supports>Artificer, Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>You form a magical lens in a free hand, made from perfectly clear ice. As long as you hold the lens in your hand, you may look through it at any time. Doing so provides advantage on Wisdom (Perception) and Intelligence (Investigation) checks that involve looking at small details of an object or creature up to 100 feet away. Your field of view though the lens is narrow, so it does not provide advantage when the check involves looking around you to spot something (E.g: Finding a creature that you can hear but cannot see).</p>
@@ -1047,7 +1054,7 @@
 		</setters>
 	</element>
 
-<element name="Cold feet" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_COLD_FEET">
+<element name="Cold feet" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_COLD_FEET">
     <supports>Artificer, Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You enchant the soles of your feet to freeze the ground you walk on, leaving a trail of slippery ice. When you move, you leave behind an icy trail on each space within 5 feet of you. Any creature other than you that enters the area or starts its turn on it must succeed on a Dexterity saving throw or fall prone. The trail lasts until the beginning of your next turn, but you continue to create a new trail when you move for the spell's duration.</p>
@@ -1069,7 +1076,7 @@
 		</setters>
 	</element>
 
-<element name="Icicle Spear" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_ICICLE_SPEAR">
+<element name="Icicle Spear" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_ICICLE_SPEAR">
     <supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You launch a thin spike of ice at a creature of your choice. Make a ranged spell attack against the target. On a hit, the target takes 3d10 piercing damage and the icicle becomes lodged in the target. On a miss, it lodges in the ground in a random square of the target's space. Hit or miss, at the start of your next turn, the icicle detonates with freezing energy. Each creature within 10 feet of the point where the ice exploded must succeed on a Dexterity saving throw, taking 5d6 cold damage on a failed save or half as much on a successful one.</p>
@@ -1092,7 +1099,7 @@
 		</setters>
 	</element>
 
-<element name="Blessing of Rime" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_BLESSING_OF_RIME">
+<element name="Blessing of Rime" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_BLESSING_OF_RIME">
     <supports>Artificer, Bard, Cleric, Druid, Ranger</supports>
 		<description>
 			<p>Your summon a chill wind that snuffs out flame and numbs the pain of your allies. When you cast the spell, any non-magical flames of your choice within range are extinguished. Choose up to three creatures within range. Each gains 3d8 temporary hit points for the duration. While a creature has these hit points, if it would make a Constitution saving throw, it gains advantage on the roll. Then, after roll has taken effect, they lose any remaining temporary hit points from this spell.</p>
@@ -1114,7 +1121,7 @@
 		</setters>
 	</element>
 
-<element name="Winter Orb" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_WINTER_ORB">
+<element name="Winter Orb" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_WINTER_ORB">
     <supports>Artificer, Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>A globe of elemental ice appears at an unoccupied point of your choosing, chilling those near it to the bone. The orb has a diameter of 5 feet and hovers.</p>
@@ -1137,7 +1144,7 @@
 		</setters>
 	</element>
 
-<element name="Flash Freeze" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FLASH_FREEZE">
+<element name="Flash Freeze" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FLASH_FREEZE">
     <supports>Druid, Sorcerer, Warlock</supports>
 		<description>
 			<p>You attempt to encase a creature you can see within range in a prison of solid ice. The target must make a Dexterity saving throw. On a failed save, the target takes 12d6 cold damage and becomes encased in a block of ice that takes up its space. On a successful save, the target takes half as much damage and is not encased. While encased in this way, the creature is restrained and unable to breathe or speak. The target is also immune to damage from the outside while it remains frozen. The block of ice is an object with an AC of 12 and 30 hit points, is vulnerable to fire, and destroying it ends the effects for the creature.</p>
@@ -1161,7 +1168,7 @@
 		</setters>
 	</element>
 
-<element name="Flash Freeze" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FLASH_FREEZE">
+<element name="Flash Freeze" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FLASH_FREEZE">
     <supports>Druid, Sorcerer, Warlock</supports>
 		<description>
 			<p>You attempt to encase a creature you can see within range in a prison of solid ice. The target must make a Dexterity saving throw. On a failed save, the target takes 12d6 cold damage and becomes encased in a block of ice that takes up its space. On a successful save, the target takes half as much damage and is not encased. While encased in this way, the creature is restrained and unable to breathe or speak. The target is also immune to damage from the outside while it remains frozen. The block of ice is an object with an AC of 12 and 30 hit points, is vulnerable to fire, and destroying it ends the effects for the creature.</p>
@@ -1185,7 +1192,7 @@
 		</setters>
 	</element>
 
-<element name="Flash Freeze" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FLASH_FREEZE">
+<element name="Flash Freeze" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_FLASH_FREEZE">
     <supports>Druid, Sorcerer, Warlock</supports>
 		<description>
 			<p>You attempt to encase a creature you can see within range in a prison of solid ice. The target must make a Dexterity saving throw. On a failed save, the target takes 12d6 cold damage and becomes encased in a block of ice that takes up its space. On a successful save, the target takes half as much damage and is not encased. While encased in this way, the creature is restrained and unable to breathe or speak. The target is also immune to damage from the outside while it remains frozen. The block of ice is an object with an AC of 12 and 30 hit points, is vulnerable to fire, and destroying it ends the effects for the creature.</p>
@@ -1209,7 +1216,7 @@
 		</setters>
 	</element>
 
-<element name="Iceberg Palisade" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_ICEBERG_PALISADE">
+<element name="Iceberg Palisade" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_ICEBERG_PALISADE">
     <supports>Cleric, Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>A cluster of massive ice shards bursts out of the ground at an angle, skewering enemies and creating a temporary fortification. The palisade is shaped like a ramp, and is up to 80 feet long, 20 feet thick and 20 feet high on the outward side. One side has a slope with carved steps leading up, which creatures can walk up normally. The opposite side is practically a spiked wall 20 feet high. You can orient the slope in any direction as long as its base remains in contact with the ground and the entirety of it is in range of the spell.</p>
@@ -1233,7 +1240,7 @@
 		</setters>
 	</element>
 
-<element name="Stygian Ice Shards" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_STYGIAN_ICE_SHARDS">
+<element name="Stygian Ice Shards" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_STYGIAN_ICE_SHARDS">
     <supports>Warlock, Wizard</supports>
 		<description>
 			<p>You conjure five shards of black ice from Stygia, fifth layer of the Nine Hells, which launch themselves at your foes. You can hurl them at one target or several. Make a ranged spell attack for each shard. On a hit, the target takes 3d8 cold damage.</p>
@@ -1256,7 +1263,7 @@
 		</setters>
 	</element>
 
-<element name="Polar Midnight" type="Spell" source="Elemental Expansions Cold Spells" id="ID_EECS_SPELL_POLAR_MIDNIGHT">
+<element name="Polar Midnight" type="Spell" source="HailJoe Elemental Expansions Cold Spells" id="ID_EECS_SPELL_POLAR_MIDNIGHT">
     <supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You plunge a targeted area into a brutally cold night that is unrivaled by any on the material plane. Freezing magical darkness spreads from a point you choose within range to fill a 40-foot radius sphere for the duration. No light, magical or otherwise, can illuminate the area.</p>
@@ -1281,7 +1288,7 @@
 		</setters>
 	</element>
 
-<element name="Elemental Expansions Necrotic Spells" type="Source" source="Elemental Expansions Necrotic Spells" id="ID_GMB_SOURCE_EENS">
+<element name="Elemental Expansions Necrotic Spells" type="Source" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_GMB_SOURCE_EENS">
 		<description>
             <![CDATA[<p>Homebrew content posted on GM Binder.</p>]]>
 		</description>
@@ -1293,7 +1300,7 @@
 		</setters>
 	</element>
 
-<element name="Nemesis Strike" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_NEMESIS_STRIKE">
+<element name="Nemesis Strike" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_NEMESIS_STRIKE">
     <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and is suffused with antagonistic energy, challenging it to strike back. If the target ends its turn without hitting you with an attack, the target takes 1d8 necrotic damage and the spell ends.</p>
@@ -1315,7 +1322,7 @@
 		</setters>
 	</element>
 
-<element name="Vital Inversion" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_VITAL_INVERSION">
+<element name="Vital Inversion" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_VITAL_INVERSION">
     <supports>Bard, Cleric, Sorcerer, Warlock</supports>
 		<description>
 			<p>You attempt to corrupt the restorative energies affecting a creature, so that they cause harm instead. The target must make a Constitution saving throw. On a failed save, the target does not gain hit points or temporary hit points in the triggering instance, and instead takes 1d10 necrotic damage.</p>
@@ -1337,7 +1344,7 @@
 		</setters>
 	</element>
 
-<element name="Ray of Numbness" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_RAY_OF_NUMBNESS">
+<element name="Ray of Numbness" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_RAY_OF_NUMBNESS">
     <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>A grayish ray of numbing energy streaks towards a creature within range. Make a ranged spell attack against the target. On a hit, the creature takes 4d6 necrotic damage and and its body becomes numb until the spell ends. While a target is numb in this way, it has disadvantage on all Dexterity attacks, checks and saving throws, and its speed is halved.</p>
@@ -1360,7 +1367,7 @@
 		</setters>
 	</element>
 
-<element name="Soul Punch" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_SOUL_PUNCH">
+<element name="Soul Punch" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_SOUL_PUNCH">
     <supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You blast at the vital essence of a creature you can see within range, turning part of it into dangerous spiritual shrapnel. The target must make a Constitution saving throw. On a failed save take 4d12 necrotic damage, or half as much on a successful one.</p>
@@ -1384,7 +1391,7 @@
 		</setters>
 	</element>
 
-<element name="Heartsight" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_HEARTSIGHT">
+<element name="Heartsight" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_HEARTSIGHT">
     <supports>Artificer, Cleric, Druid, Ranger, Sorcerer, Warlock</supports>
 		<description>
 			<p>You bestow a creature you touch with a special sense, allowing it to detect the heartbeats of creatures within 30 feet. The target learns of their presence of such creatures as well as where they are located. This does not detect creatures without a heartbeat, which includes constructs and most undead. The target can also sense if such creatures are afraid, excited, calm or unconscious, but gains no other additional insight into their emotional state.</p>
@@ -1408,7 +1415,7 @@
 		</setters>
 	</element>
 
-<element name="Shadow Betrayal" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_SHADOW_BETRAYAL">
+<element name="Shadow Betrayal" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_SHADOW_BETRAYAL">
     <supports>Warlock, Wizard</supports>
 		<description>
 			<p>You sever a creature's shadow from itself and animate it with malevolent intent. The shadow congeals into a creature in an unoccupied space that you can see adjacent to a creature you can see within range. This corporeal form uses the Shadow Nemesis stat block, except that some of its statistics depend on the target in question. The Shadow Nemesis is a partial shadowy copy of the targeted creature. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -1431,7 +1438,7 @@
 		</setters>
 	</element>
 
-<element name="Investiture of Undead" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_INVESTITURE_OF_UNDEAD">
+<element name="Investiture of Undead" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_INVESTITURE_OF_UNDEAD">
     <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Until the spell ends, you take on a ghastly, corpse-like visage and give off an unnatural aura. For the duration, you gain the following benefits:</p>
@@ -1456,7 +1463,7 @@
 		</setters>
 	</element>
 
-<element name="Stories-Bones-Tell" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_STORIES-BONES-TELL">
+<element name="Stories-Bones-Tell" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_STORIES-BONES-TELL">
     <supports>Bard, Cleric, Warlock, Wizard</supports>
 		<description>
 			<p>You gain the ability to speak to the echoes present in bone, flesh and sinew, whether dead or undead.</p>
@@ -1480,7 +1487,7 @@
 		</setters>
 	</element>
 
-<element name="Flay" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_FLAY">
+<element name="Flay" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_FLAY">
     <supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You project entropic energies to scour at a creature that you can see within range, peeling away their defenses. The target must make a Constitution saving throw. On a failed save, a creature is affected by one of the following effect, and then takes 6d10 necrotic damage. On a successful save, a creature takes half as much damage, but is not otherwise affected. On each of your turns until the spell ends, you can use your action to target a creature again.</p>
@@ -1506,7 +1513,7 @@
 		</setters>
 	</element>
 
-<element name="Massacre" type="Spell" source="Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_MASSACRE">
+<element name="Massacre" type="Spell" source="HailJoe Elemental Expansions Necrotic Spells" id="ID_EENS_SPELL_MASSACRE">
     <supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>A wave of killing energy strikes at creatures in a 50-foot cube within range. When casting, you must also choose a side of the cube to be the direction the wave travels in. Each creature within the cube must make a Constitution saving throw. A creature takes 22d8 necrotic damage on a failed save, or half as much on a successful one.</p>
@@ -1529,7 +1536,7 @@
 		</setters>
 	</element>
 
-<element name="The Static Package" type="Source" source="The Static Package" id="ID_HBNC_SOURCE_TSP">
+<element name="The Static Package" type="Source" source="HailJoe The Static Package" id="ID_HBNC_SOURCE_TSP">
 		<description>
             <![CDATA[<p>Homebrew content posted on homebrewery.naturalcrit.com</p>]]>
 		</description>
@@ -1541,7 +1548,7 @@
 		</setters>
 	</element>
 
-<element name="Electric Blade" type="Spell" source="The Static Package" id="ID_TSP_SPELL_ELECTRIC_BLADE">
+<element name="Electric Blade" type="Spell" source="HailJoe The Static Package" id="ID_TSP_SPELL_ELECTRIC_BLADE">
     <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Make a melee attack with a weapon. On a hit, the target suffers the attack's normal effects and you gain a d6 discharge dice.</p>
@@ -1565,7 +1572,7 @@
 		</setters>
 	</element>
 
-<element name="Charging Bolt" type="Spell" source="The Static Package" id="ID_TSP_SPELL_CHARGING_BOLT">
+<element name="Charging Bolt" type="Spell" source="HailJoe The Static Package" id="ID_TSP_SPELL_CHARGING_BOLT">
     <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You charge up, releasing a bolt of lightning on target creature within range. Make a ranged spell attack against the target. On a hit, the target takes 3d6 lightning damage and you gain three d6 discharge dice. For the next minute, you spend a discharge dice at the start of each turn. The closest creature within 30 feet takes the spent discharge dice's damage unless it succeeds on a Dexterity saving throw.</p>
@@ -1587,7 +1594,7 @@
 		</setters>
 	</element>
 
-<element name="Static Discharge" type="Spell" source="The Static Package" id="ID_TSP_SPELL_STATIC_DISCHARGE">
+<element name="Static Discharge" type="Spell" source="HailJoe The Static Package" id="ID_TSP_SPELL_STATIC_DISCHARGE">
     <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Choose an allied creature within range. Whenever this creature moves a total of 30 feet or gets hit by an attack it gains a d6 discharge dice. When the spell ends, spend all discharge dice. All creatures in a 20 foot radius centered on the allied creature must make a Dexterity saving throw. A creature takes lightning damage equal to the discharge dice spent on a failed save, or half as much on a successful one.</p>
@@ -1610,7 +1617,7 @@
 		</setters>
 	</element>
 
-<element name="Gathering Storm" type="Spell" source="The Static Package" id="ID_TSP_SPELL_GATHERING_STORM">
+<element name="Gathering Storm" type="Spell" source="HailJoe The Static Package" id="ID_TSP_SPELL_GATHERING_STORM">
     <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, whenever you deal lightning damage, gain a d6 discharge dice.</p>
@@ -1635,7 +1642,7 @@
 		</setters>
 	</element>
 
-<element name="Static Sphere" type="Spell" source="The Static Package" id="ID_TSP_SPELL_STATIC_SPHERE">
+<element name="Static Sphere" type="Spell" source="HailJoe The Static Package" id="ID_TSP_SPELL_STATIC_SPHERE">
     <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You conjure up a 5 foot sphere of concentrated static energy at a point within range. At the end of each of your turns, the closest creature within 15 feet to the sphere must make a Dexterity saving throw. It takes 6d6 lightning damage on a fail, or half damage on a success. If two or more creatures are equally close to the sphere, the target is determined randomly.</p>
