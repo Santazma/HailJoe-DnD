@@ -5,10 +5,10 @@
 		<description>HailJoe's Homebrew Ranger Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="hailjoe-subclass-ranger.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/refs/heads/main/hailjoe-subclass/hailjoe-subclass-ranger.index" />
+			<file name="hailjoe-subclass-ranger.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-ranger.index" />
 		</update>
 	</info>
 	<files>
-		<file name="ranger-lunar-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/refs/heads/main/hailjoe-subclass/hailjoe-subclass-ranger/ranger-lunar-warden.xml" />
+		<file name="ranger-lunar-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-ranger/ranger-lunar-warden.xml" />
 	</files>
 </index>
