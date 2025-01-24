@@ -4,7 +4,7 @@
 		<name>HailJoe Subclasses</name>
 		<description>Hailjoe's homebrew subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.17">
+		<update version="0.0.18">
 			<file name="hailjoe-subclass.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass.index" />
 		</update>
 	</info>
