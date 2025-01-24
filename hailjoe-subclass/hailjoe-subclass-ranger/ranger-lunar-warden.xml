@@ -4,7 +4,7 @@
 		<name>Lunar Warden</name>
 		<description>Lunar Warden from Steinhardt's Guide to the Elritch Hunt</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="ranger-lunar-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-ranger/ranger-lunar-warden.xml" />
 		</update>
 	</info>
@@ -143,7 +143,7 @@
 			<p class="indent">In addition, each time you use a Moon Conduit, a shard of the lunar energy remains within your body for 1 minute or until you expend it or use another Moon Conduit. You can expend this energy to gain advantage on one ability check, attack roll, or saving throw (no action required).</p>
 		</description>
 		<sheet>
-			<description>You have resistance to {{lunar-guidance:damage type}}. Each time you use a Moon Conduit, a shard of the lunar energy remains within your body for 1 minute or until you expend it or use another Moon Conduit. You can expend this energy to gain advantage on one ability check, attack roll, or saving throw.</description>
+			<description>You have resistance to {{lunar-guidance:resistance type}}. Each time you use a Moon Conduit, a shard of the lunar energy remains within your body for 1 minute or until you expend it or use another Moon Conduit. You can expend this energy to gain advantage on one ability check, attack roll, or saving throw.</description>
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Lunar Guidance" supports="Lunar Guidance" />
@@ -170,6 +170,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat inline="true" name="lunar-guidance" value="Radiant"/>
+			<stat inline="true" name="lunar-guidance:resistance type" value="Radiant" />
 		</rules>
 	</element>
 
@@ -181,6 +182,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat inline="true" name="lunar-guidance" value="Cold"/>
+			<stat inline="true" name="lunar-guidance:resistance type" value="Cold" />
 		</rules>
 	</element>
 
@@ -192,6 +194,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat inline="true" name="lunar-guidance" value="Necrotic"/>
+			<stat inline="true" name="lunar-guidance:resistance type" value="Necrotic" />
 		</rules>
 	</element>
 
