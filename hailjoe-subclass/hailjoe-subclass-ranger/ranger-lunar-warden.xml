@@ -9,130 +9,273 @@
 		</update>
 	</info>
 
-	<element name="Oath of the Palanthir" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_PALADIN_OATH_OF_THE_PALANTHIR">
-		<supports>Sacred Oath</supports>
+	<element name="Lunar Warden" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_RANGER_LUNAR_WARDEN">
+		<supports>Ranger Archetype</supports>
 		<description>
-			<p>The Oath of Palanthir is renowned for its dedication to safeguarding its comrades-in-arms. Originally known as the Knights of Palanthir, these holy warriors dispel the specter of defeat from the minds of their companions. Always bearing the sacred standard of their order, the Knights of Palanthir are celebrated for spreading tranquility and assurance wherever they tread.</p>
-			<h5 class="caption">TENETS OF PALANTHIR</h5>
-			<p>Though the exact words and strictures of the Oath of Palanthir vary, paladins of this oath share these tenets.</p>
-			<p class="indent"><strong><em>Let not the Martyr rot.</em></strong> Preserve the honor of the martyr by ensuring that their body or remains never fall into the possession of our adversaries.</p>
-			<p class="indent"><strong><em>Die with the Standard.</em></strong> Never fear to act, though caution is wise.</p>
-			<p class="indent"><strong><em>First to charge, last to retreat.</em></strong> Lead by example on the battlefield, always at the forefront of the charge and the final to withdraw. Never leave the fight while any of your allies remain engaged in combat.</p>
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_OATH_SPELLS" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_PROTECTION_OF_THE_STANDARD" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_WATCHFUL_EYE" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_GRAND_PROTECTOR" />
+			<p>Lunar Wardens hold a deep fascination for the enigmatic powers of the moons, forming a profound bond with the ever-changing celestial bodies and drawing upon their forms to enhance their abilities. This ancient elven tradition has persisted through the ages, renewing its knowledge with each new moon that manifested itself.</p>
+			<h5 class="caption">LEGACY OF THE WARDENS</h5>
+			<p>These wardens of old learned to harness these new lunar powers, consolidating their wisdom and passing it down through generations. Today, this conclave of stout defenders has become exceedingly rare, with only a sparse few members residing within the city-state's walls. While some whisper that members of this conclave can cleanse the moons of their corruption, the turmoil within Aiwelen suggests otherwise.</p>
+			<h4 class="caption">TRANSFORMATION THROUGH LUNAR ENERGY</h4>
+			<p>By embracing the lunar energies, these rangers undergo a transformation that melds their very essence with that of the moons, adopting aspects of their celestial beauty and might. As their bond with the moons deepens, Lunar Wardens attune themselves to the celestial bodies' forms, allowing them to channel lunar energies in extraordinary ways—mending grievous wounds using the power of a blood moon or burning asunder their foes with the blazing intensity of a scorching moon.</p>
+			<h3 class="caption">HARMONY WITH THE MOONS</h3>
+			<p>When in perfect harmony with the eldritch body looming above, their abilities swell to incredible heights, transforming them into exceptional nocturnal hunters, whereas others would instead seek refuge from the dreadful moons.</p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ASTRAL_AFFINITY" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_MOON_CONDUIT" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ADDITIONAL_MOON_CONDUITS" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_CELESTIAL_TIDE" />
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_OATH_SPELLS" level="3"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY" level="3"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_PROTECTION_OF_THE_STANDARD" level="7"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_WATCHFUL_EYE" level="15"/>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_GRAND_PROTECTOR" level="20"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ASTRAL_AFFINITY" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_MOON_CONDUIT" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" level="7"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ADDITIONAL_MOON_CONDUITS" level="11"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_CELESTIAL_TIDE" level="15"/>
 		</rules>
 	</element>
 
-	<element name="Oath Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_OATH_SPELLS">
+	<element name="Astral Affinity" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ASTRAL_AFFINITY">
 		<description>
-			<p>You gain oath spells at the paladin levels listed.</p>
-			<h5>OATH OF PALANTHIR SPELLS</h5>
-			<table>
-				<thead>
-					<tr><td>Paladin Level</td><td>Spells</td></tr>
-				</thead>
-				<tr><td>3rd</td><td><em>divine favor, bless</em></td></tr>
-				<tr><td>5th</td><td><em>silence, hold person</em></td></tr>
-				<tr><td>9th</td><td><em>beacon of hope, mass healing word</em></td></tr>
-				<tr><td>13th</td><td><em>stoneskin, mordenkainen's faithful hound</em></td></tr>
-				<tr><td>17th</td><td><em>rary's telepathic bond, planar binding</em></td></tr>
-			</table>      
+			<p>When you choose this archetype at 3rd level, you gain the ability to harness the energy of the moon. You learn the <i>light</i> cantrip and have advantage on saving throws against direct effects caused by Eldritch Moons (e.g., you would have advantage on the saving throw caused by staring directly at the Vacuous Moon, but if a monster has enhanced abilities due to an Eldritch Moon, you wouldn’t gain advantage on saving throws you make against those abilities).</p>
+			<p class="indent">Additionally, you gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.</p>   
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DIVINE_FAVOR" level="3" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_BLESS" level="3" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="5" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" level="9" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND" level="13" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="17" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_PLANAR_BINDING" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" spellcasting="Ranger"/>
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+			<stat name="darkvision:range" value="30" bonus="base" />
+			<stat name="darkvision:range" value="30" bonus="astral affinity" />
 		</rules>
 	</element>
 
-	<element name="Channel Divinity" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY">
+	<element name="Moon Conduit" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_MOON_CONDUIT">
 		<description>
-			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
-			<p class="indent"><b><i>Banner’s Call.</i></b> As an action, you present your holy symbol and recite your second oath, using your Channel Divinity and throw your standard. You can throw the standard up to 120 feet. If your standard is within 120 ft. of you and can be seen by you, you can use Reaction and teleport next to your standard. Additionally, if there are enemies within 5ft. of your teleportation location, you can make a melee weapon attack against that targets as a continuation of this action. This attack deals an additional 2d8 radiant damage to the targets if your attack hits.</p>
-			<p class="indent"><b><i>Together We Stand.</i></b> As an action, you can utter the holy rites of Palanthir, allowing you to divide up to half of your lay on hands pool between the creatures you choose, either within 15ft. of you or your standard, as temporary hit points. These temporary hit points last for an hour.</p>
+			<p>Starting at 3rd level, you have learned to harness the energy from the ever shifting moons of the world to enhance your abilities. Once per turn, you can channel a Moon Conduit from one of the Eldritch Moons, detailed below.</p>
+			<p class="indent">You learn all the following Moon Conduits. You can use Conduits a number of times equal to your Wisdom modifier and regain all expended uses after you finish a long rest. Starting at 7th level, you regain all expended uses after you finish a short or long rest.</p>
+			<p class="indent"><i><b>Lunar Alignment.</b></i> If you use a Moon Conduit that belongs to the moon currently looming over the world, your abilities become more powerful, detailed in the Lunar Alignment section of each Conduit.</p>
+                        <ul>
+				<li><b><i>Blood Moon of Rebirth. </i></b>As an action, you beckon the powers of a black goat. You and a number of creatures of your choice up to your Wisdom modifier within 30 feet of you that you can see regain a number of hit points equal to your level in this class. <b>Lunar Alignment:</b> When you use this Conduit, you can affect yourself and any number of creatures of your choice within 60 feet of you that you can see. They regain a number of hit points equal to 1d4 × your level in this class. This healing also regrows any missing limbs, as per the <i>Regenerate</i> spell.</li>
+				<li><b><i>Howling Moon. </i></b>You harness the beast within you as a bonus action. For the next minute, you grow fur, fangs, and devastating claws. You are proficient with your unarmed strikes, which deal 1d6 + your Wisdom modifier magical slashing damage on a hit. You can use your Strength or Dexterity modifier for your attack and damage rolls with these claws. If your unarmed strikes already deal 1d4 or 1d6 damage before the transformation, the damage die becomes a d8. <b>Lunar Alignment:</b> You unleash your lunar bloodlust. You have advantage on an attack roll with your claws against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated. Additionally, the damage die becomes a d12.</li>
+				<li><b><i>Shattered Moon. </i></b>You beckon the shattered powers of the moon, attempting to break the magic in front of you. When you or a creature that you can see within 30 feet of you makes a saving throw against a spell or magical effect, you can use your reaction to dampen the magic, granting advantage on the saving throw. <b>Lunar Alignment:</b> When this Conduit gives a creature advantage on a saving throw, they can reroll one of the dice once. Alternatively, you can use this reaction to cast <i>Counterspell</i> at 5th level. However, it automatically fails against spells of 6th level or higher. Wisdom is your spellcasting modifier for this spell.</li>
+				<li><b><i>Scorching Moon. </i></b>You wreathe yourself in flames to scorch your foes. If you move at least 20 feet in a straight line toward a creature and hit it with a melee attack on the same turn, you can force the target to make a Strength saving throw against your spell save DC. On a failed save, they are knocked prone and take fire damage equal to a number of d4s equal to your Wisdom modifier. <b>Lunar Alignment:</b> Creatures automatically fail their saving throw against this Conduit. The fire damage increases to d6s instead of d4s and ignores resistance to fire damage.</li>
+				<li><b><i>Vacuous Moon. </i></b>You step through the void. After being damaged by a ranged attack, you can use your reaction to teleport to an empty space you can see within 10 feet of the attacker. If the attacker is further than 60 feet away, this reaction fails. <b>Lunar Alignment:</b> When you use this Conduit, you can teleport to an empty space you can see within 30 feet of the attacker and make a single weapon attack against them. If the attacker is further than 300 feet away, this reaction fails.</li>
+				<li><b><i>Glowering Moon. </i></b>You subjugate your foes to the crushing woe of hopelessness. You can cast the <i>Bane</i> spell at 2nd level without expending a spell slot. If the targets are in direct moonlight, they have disadvantage on the saving throw. <b>Lunar Alignment:</b> Creatures in direct moonlight automatically fail the saving throw. While affected by this Conduit, creatures take psychic damage equal to your level in this class at the start of each of their turns. If a creature remains under the effect of the spell for its entire duration, it falls unconscious. The condition ends if another creature uses an action to shake the target out of its stupor.</li>
+			</ul>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_BANNERS_CALL" />
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_TOGETHER_WE_STAND" />
+		<sheet usage="{{moon conduit:count}}/Long Rest">
+			<description>You can use your Moon Conduit options number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a Long Rest. After 7th lvl, you regain all expanded uses when you finish both Short and Long Rest.</description>
+		</sheet>
+                <rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_BLOOD_MOON_OF_REBIRTH" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_HOWLING_MOON" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SHATTERED_MOON" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SCORCHING_MOON" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_VACUOUS_MOON" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_GLOWERING_MOON" />
+			<stat name="moon conduit:count" value="wisdom:modifier" />
 		</rules>
 	</element>
 
-	<element name="Channel Divinity: Banner’s Call" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_BANNERS_CALL">
+	<element name="Blood Moon of Rebirth" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_BLOOD_MOON_OF_REBIRTH">
 		<description>
-			<p>As an action, you present your holy symbol and recite your second oath, using your Channel Divinity and throw your standard. You can throw the standard up to 120 feet. If your standard is within 120 ft. of you and can be seen by you, you can use Reaction and teleport next to your standard. Additionally, if there are enemies within 5ft. of your teleportation location, you can make a melee weapon attack against that targets as a continuation of this action. This attack deals an additional 2d8 radiant damage to the targets if your attack hits.</p>
+			<p>As an action, you beckon the powers of a black goat. You and a number of creatures of your choice up to your Wisdom modifier within 30 feet of you that you can see regain a number of hit points equal to your level in this class.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> When you use this Conduit, you can affect yourself and any number of creatures of your choice within 60 feet of you that you can see. They regain a number of hit points equal to 1d4 × your level in this class. This healing also regrows any missing limbs, as per the <i>Regenerate</i> spell.</p>
 		</description>
-		<sheet alt="Sacred Weapon" action="Action" usage="Channel Divinity">
-			<description>As an action, you can throw your standard up to 120 feet. After the thrown, you count as using your channel divinity.
-			As a reaction, you can telepert to your standard. Enemies that are near 5 feet of your teleportation point, gets an attack from you. On hit, you deal extra 2d8 radiant damage.</description>
+		<sheet alt="Blood Moon of Rebirth" usage="Moon Conduit" action="Action">
+			<description>You and a number of creatures of your choice up to your Wisdom modifier within 30 feet of you that you can see regain a number of hit points equal to your level in this class. As Lunar Alignment effect, you can affect yourself and any number of creatures of your choice within 60 feet of you that you can see. They regain a number of hit points equal to 1d4 × your level in this class. This healing also regrows any missing limbs, as per the "Regenerate" spell.</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Together We Stand" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_TOGETHER_WE_STAND">
+
+	<element name="Howling Moon" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_HOWLING_MOON">
 		<description>
-			<p>As an action, you can utter the holy rites of Palanthir, allowing you to divide up to half of your lay on hands pool between the creatures you choose, either within 15ft. of you or your standard, as temporary hit points. These temporary hit points last for an hour.</p>
+			<p>You harness the beast within you as a bonus action. For the next minute, you grow fur, fangs, and devastating claws. You are proficient with your unarmed strikes, which deal 1d6 + your Wisdom modifier magical slashing damage on a hit. You can use your Strength or Dexterity modifier for your attack and damage rolls with these claws. If your unarmed strikes already deal 1d4 or 1d6 damage before the transformation, the damage die becomes a d8.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> You unleash your lunar bloodlust. You have advantage on an attack roll with your claws against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated. Additionally, the damage die becomes a d12.</p>
 		</description>
-		<sheet alt="Together We Stand" action="Action" usage="Channel Divinity">
-			<description>As an action, you can give temporary hit points equal to half of your Lay on Hands pool between the creatures you choose, either within 15ft. of you or your standard.
-			As mentioned, you can extend this range and give temporary hit points on creatures that are within 15ft. of your standard.</description>
+		<sheet alt="Howling Moon" usage="Moon Conduit" action="Bonus Action">
+			<description>For 1 minute; you grow fur, fangs, and devastating claws. You are proficient with your unarmed strikes, which deal 1d6 + your Wisdom modifier magical slashing damage on a hit. You can use your STR or DEX modifier for your attack and damage rolls with these claws. If your unarmed strikes already deal 1d4 or 1d6 damage before the transformation, the damage die becomes a d8. As Lunar Alignment effect; You have advantage on an attack roll with your claws against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated. Additionally, the damage die becomes a d12.</description>
+		</sheet>
+	</element>
+
+	<element name="Shattered Moon" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SHATTERED_MOON">
+		<description>
+			<p>You beckon the shattered powers of the moon, attempting to break the magic in front of you. When you or a creature that you can see within 30 feet of you makes a saving throw against a spell or magical effect, you can use your reaction to dampen the magic, granting advantage on the saving throw.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> When this Conduit gives a creature advantage on a saving throw, they can reroll one of the dice once. Alternatively, you can use this reaction to cast <i>Counterspell</i> at 5th level. However, it automatically fails against spells of 6th level or higher. Wisdom is your spellcasting modifier for this spell.</p>
+		</description>
+		<sheet alt="Shattered Moon" usage="Moon Conduit" action="Reaction">
+			<description>When you or a creature that you can see within 30 feet of you makes a saving throw against a spell or magical effect, you can grant advantage on the saving throw. As Lunar Alignment effect; affected creature can reroll one of its saving throw. Alternatively, you can use this reaction to cast "Counterspell" at 5th level. It automatically fails against spells of 6th level or higher.</description>
+		</sheet>
+	</element>
+
+	<element name="Scorching Moon" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SCORCHING_MOON">
+		<description>
+			<p>You wreathe yourself in flames to scorch your foes. If you move at least 20 feet in a straight line toward a creature and hit it with a melee attack while using your Action on the same turn, you can force the target to make a Strength saving throw against your spell save DC. On a failed save, they are knocked prone and take fire damage equivalent of a number of d4s equal to your Wisdom modifier.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> Creatures automatically fail their saving throw against this Conduit. The fire damage increases to d6s instead of d4s and ignores resistance to fire damage.</p>
+		</description>
+		<sheet alt="Scorching Moon" usage="Moon Conduit" action="Action">
+			<description>If you move at least 20 feet in a straight line toward a creature and hit it with a melee attack, you can force creature to make a Strength saving throw against your spell save DC. On a failed save, creature knockes prone and takes fire damage equivalent of a number of d4s equal to your Wisdom modifier. As Lunar Alignment effect; Creatures automatically fail their saving throw against this Conduit. The fire damage increases to d6s instead of d4s and ignores resistance to fire damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Vacuous Moon" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_VACUOUS_MOON">
+		<description>
+			<p>You step through the void. After being damaged by a ranged attack, you can use your reaction to teleport to an empty space you can see within 10 feet of the attacker. If the attacker is further than 60 feet away, this reaction fails.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> When you use this Conduit, you can teleport to an empty space you can see within 30 feet of the attacker and make a single weapon attack against them. If the attacker is further than 300 feet away, this reaction fails.</p>
+		</description>
+		<sheet alt="Vacuous Moon" usage="Moon Conduit" action="Reaction">
+			<description>After damaged by a ranged attack, you can teleport to an empty space you can see within 10 feet of the attacker. If the attacker is further than 60 feet away, this reaction fails. As Lunar Alignment effect; you can teleport to an empty space you can see within 30 feet of the attacker and make a single weapon attack against them. If the attacker is further than 300 feet away, this reaction fails.</description>
+		</sheet>
+	</element>
+
+	<element name="Glowering Moon" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_GLOWERING_MOON">
+		<description>
+			<p>You subjugate your foes to the crushing woe of hopelessness. You can cast the <i>Bane</i> spell at 2nd level without expending a spell slot. If the targets are in direct moonlight, they have disadvantage on the saving throw.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> Creatures in direct moonlight automatically fail the saving throw. While affected by this Conduit, creatures take psychic damage equal to your level in this class at the start of each of their turns. If a creature remains under the effect of the spell for its entire duration, it falls unconscious. The condition ends if another creature uses an action to shake the target out of its stupor.</p>
+		</description>
+		<sheet alt="Glowering Moon" usage="Moon Conduit" action="Action">
+			<description>You can cast the "Bane" spell at 2nd level without expending a spell slot. If the targets are in direct moonlight, they have disadvantage on the saving throw. As Lunar Alignment effect; Creatures in direct moonlight automatically fail the saving throw. While affected, creatures take psychic damage equal to your level in this class at the start of each of their turns. If a creature remains under the effect of the spell for its entire duration, it falls unconscious. The condition ends if another creature uses an action to shake the target out of its stupor.</description>
 		</sheet>
 	</element>
 	
-	<element name="Protection of the Standard" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_PROTECTION_OF_THE_STANDARD">
+	<element name="Lunar Guidance" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE">
 		<description>
-			<p>By 7th level, your standard begins to mirror your Aura of Protection. As long as you are within 60 feet of your standard, whenever a friendly creature within 10 feet of your standard must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus. However, one cannot benefit from both your aura of protection and your standard’s.</p>
-			<p class="indent">Additionally, when you have your standard on your person, your aura of protection’s range increases by 5 feet.</p>
-			<p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+			<p>At 7th level, the moon strengthens your body in more ways than one. You gain resistance to either radiant, cold or necrotic damage.</p>
+			<p class="indent">In addition, each time you use a Moon Conduit, a shard of the lunar energy remains within your body for 1 minute or until you expend it or use another Moon Conduit. You can expend this energy to gain advantage on one ability check, attack roll, or saving throw (no action required).</p>
 		</description>
 		<sheet>
-			<description>You and friendly creatures within {{aura of devotion:range}} feet of you gains bonus against saving throws equal to your charisma modifier, while you are conscious.</description>
+			<description>You have resistance to {{lunar-guidance:damage type}}. Each time you use a Moon Conduit, a shard of the lunar energy remains within your body for 1 minute or until you expend it or use another Moon Conduit. You can expend this energy to gain advantage on one ability check, attack roll, or saving throw.</description>
 		</sheet>
 		<rules>
-			<stat name="aura of devotion:range" value="10" />
-			<stat name="aura of devotion:range" value="30" level="18" />
+			<select type="Archetype Feature" name="Lunar Guidance" supports="Lunar Guidance" />
 		</rules>
 	</element>
 
-	<element name="Watchful Eye" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_WATCHFUL_EYE">
+	<element name="Damage Resistance (Lunar Guidance)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_DAMAGE_RESISTANCE">
 		<description>
-			<p>Starting at 15th level, your standard and its location become a sanctuary for your friends. Whenever a friendly creature makes a death saving throw within 15 feet of your standard, they gain advantage on the saving throw.</p>
-			<p class="indent">Additionally, if a friendly creature within 15 feet of your standard falls unconscious, you can use your reaction to bring them back to consciousness at 1 hit point. You can use this feature a number of times equal to your Charisma modifier. All expended uses are restored at dawn.</p>
+			<p>You have resistance to the damage type you choose.</p>
 		</description>
-		<sheet>
-			<description>Whenever a friendly creature makes a death saving throw within 15 feet of your standard, they gain advantage on the saving throw.
-			As a Reaction, in the number of times equal to your Charisma modifier, you can bring your allies back to consciousness at 1 hit point, if they falls unconscious within 15ft. of your standard.</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_RADIANT" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_COLD" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_NECROTIC" />
+		</rules>
+	</element>
+
+	<element name="Lunar Guidance (Radiant)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_RADIANT">
+		<supports>Lunar Guidance</supports>
+		<description>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="lunar-guidance" value="Radiant"/>
+		</rules>
+	</element>
+
+	<element name="Lunar Guidance (Cold)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_COLD">
+		<supports>Lunar Guidance</supports>
+		<description>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="lunar-guidance" value="Cold"/>
+		</rules>
+	</element>
+
+	<element name="Lunar Guidance (Necrotic)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_NECROTIC">
+		<supports>Lunar Guidance</supports>
+		<description>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="lunar-guidance" value="Necrotic"/>
+		</rules>
+	</element>
+
+	<element name="Additional Moon Conduits" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ADDITIONAL_MOON_CONDUITS">
+		<description>
+			<p>Starting at 11th level, you learn to use new Moon Conduits that channel the powers of Eldritch Moons oft unseen.</p>
+                        <ul>
+				<li><b><i>Glacial Moon. </i></b>As an action, you cover your body in frozen armor. You gain temporary hit points equal to 1 + twice your Wisdom modifier. If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to 1 + twice your Wisdom modifier. <b>Lunar Alignment:</b> When you use this Conduit, you instead gain temporary hit points equal to 5 x your Wisdom modifier (minimum of 1). If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to 5 x your Wisdom modifier (minimum of 1). This damage ignores resistance to cold damage.</li>
+				<li><b><i>Slumbering Moon. </i></b>You can warp your body through eldritch means. You can cast <i>Misty Step</i> without expending a spell slot or using material components. <b>Lunar Alignment:</b> You can cast <i>Dimension Door</i> without expending a spell slot or using material components.</li>
+				<li><b><i>Krakenlight. </i></b>You create a bioluminescent lure before you. As an action, you can create a light above your head that emits dim light in a 10-foot radius centered on you. Hostile creatures within 30 feet of you that see the lure must make a Wisdom saving throw against your spell save DC or be charmed. While charmed, they are incapacitated and compelled to move towards the lure with their movement each turn, only ending their movement when in the light. The charm effect lasts for 1 minute or until the creature takes damage. <b>Lunar Alignment:</b> When you create this lure, the range is doubled, creatures have disadvantage on the saving throw, and the first time they take damage, the effect doesn’t end.</li>
+				<li><b><i>Creeping Tarlight. </i></b>You can weave the tar lurking in the shadows to slow your foes. As an action, choose up to three creatures within 30 feet of you that you can see. They must succeed on a Dexterity saving throw or be covered by tar for 1 minute. While covered in tar, their speed is halved, and they take a -2 penalty to AC and Dexterity saving throws. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Creatures standing in darkness have disadvantage on this saving throw. You must concentrate on this effect as you would concentrate on a spell. <b>Lunar Alignment:</b> You can harness more of the tar and can choose up to six creatures. While covered in tar, creatures are instead affected by the <i>Slow</i> spell. You do not need to concentrate on this effect.</li>
+				<li><b><i>Sanguine Eclipse. </i></b>You cause your foes to turn against each other. As an action, you can choose a creature within 30 feet of you that you can see, which must make an Intelligence saving throw. On a failed save, it regards another creature of your choice that you can see within 90 feet of you as its mortal enemy until the start of your next turn. It must use its actions to attempt to kill its mortal enemy, disregarding all other creatures. Creatures immune to the charmed condition are immune to this ability. <b>Lunar Alignment:</b> The duration of this Conduit extends to 1 minute. An affected creature can repeat the saving throw at the end of each of its turns to end the effect early. The effect also ends early if the target's quarry dies.</li>
+			</ul>
+		</description>
+		<sheet usage="{{moon conduit:count}}/Short Rest">
+			<description>You can use your Moon Conduit options number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a Long Rest. After 7th lvl, you regain all expanded uses when you finish both Short and Long Rest.</description>
+		</sheet>
+                <rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_GLACIAL_MOON" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SLUMBERING_MOON" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_KRAKENLIGHT" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_CREEPING_TARLIGHT" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SANGUINE_ECLIPSE" />
+		</rules>
+	</element>
+
+	<element name="Glacial Moon" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_GLACIAL_MOON">
+		<description>
+			<p>As an action, you cover your body in frozen armor. You gain temporary hit points equal to 1 + twice your Wisdom modifier. If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to 1 + twice your Wisdom modifier.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> When you use this Conduit, you instead gain temporary hit points equal to 5 x your Wisdom modifier (minimum of 1). If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to 5 x your Wisdom modifier (minimum of 1). This damage ignores resistance to cold damage.</p>
+		</description>
+		<sheet alt="Glacial Moon" usage="Moon Conduit" action="Action">
+			<description>You gain temporary hit points equal to 1 + twice your Wisdom modifier. If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to 1 + twice your Wisdom modifier. As Lunar Alignment effect, you instead gain temporary hit points equal to 5 x your Wisdom modifier (minimum of 1). If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to 5 x your Wisdom modifier (minimum of 1). This damage ignores resistance to cold damage.</description>
 		</sheet>
 	</element>
 
-	<element name="Grand Protector" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_GRAND_PROTECTOR">
+	<element name="Slumbering Moon" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SLUMBERING_MOON">
 		<description>
-			<p>At 20th level, once per day, you can imbue yourself with the divine magic of the tablets of Palanthir. Using an action, you undergo a transformation. For 1 minute, you gain the following benefits:</p>
-			<ul>
-				<li>Your Charisma score increases by 2 to a maximum of 22.</li>
-				<li>If a creature is benefiting from your Protection of The Standard feature, and it makes a melee attack against a target, as a reaction, you can choose to use your Divine Smite feature through their attack as if you were the one hitting the target.</li>
-				<li>Additionally, when you use your Watchful Eye feature while under the effects of the Grand Protector, healing of Watchful Eye increases by 1d8 + Your Charisma modifier.</li>
-			</ul>
+			<p>You can warp your body through eldritch means. You can cast <i>Misty Step</i> without expending a spell slot or using material components.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> You can cast <i>Dimension Door</i> without expending a spell slot or using material components.</p>
+		</description>
+		<sheet alt="Slumbering Moon" usage="Moon Conduit">
+			<description>You can cast "Misty Step" without expending a spell slot or using material components. As Lunar Alignment effect; You can cast "Dimension Door" instead, without expending a spell slot or using material components.</description>
+		</sheet>
+	</element>
+
+	<element name="Krakenlight" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_KRAKENLIGHT">
+		<description>
+			<p>You create a bioluminescent lure before you. As an action, you can create a light above your head that emits dim light in a 10-foot radius centered on you. Hostile creatures within 30 feet of you that see the lure must make a Wisdom saving throw against your spell save DC or be charmed. While charmed, they are incapacitated and compelled to move towards the lure with their movement each turn, only ending their movement when in the light. The charm effect lasts for 1 minute or until the creature takes damage.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> When you create this lure, the range is doubled, creatures have disadvantage on the saving throw, and the first time they take damage, the effect doesn’t end.</p>
+		</description>
+		<sheet alt="Krakenlight" usage="Moon Conduit" action="Action">
+			<description>You create a light above your head that emits dim light in a 10-foot radius centered on you. Hostile creatures within 30 feet of you that see the lure must make a Wisdom saving throw against your spell save DC or be charmed. While charmed, they are incapacitated and compelled to move towards the lure with their movement each turn, only ending their movement when in the light. The charm effect lasts for 1 minute or until the creature takes damage. As Lunar Alignment effect, Lure's the range is doubled, creatures have disadvantage on the saving throw, and the first time they take damage, the effect doesn’t end.</description>
+		</sheet>
+	</element>
+
+	<element name="Creeping Tarlight" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_CREEPING_TARLIGHT">
+		<description>
+			<p>You can weave the tar lurking in the shadows to slow your foes. As an action, choose up to three creatures within 30 feet of you that you can see. They must succeed on a Dexterity saving throw or be covered by tar for 1 minute. While covered in tar, their speed is halved, and they take a -2 penalty to AC and Dexterity saving throws. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Creatures standing in darkness have disadvantage on this saving throw. You must concentrate on this effect as you would concentrate on a spell.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> You can harness more of the tar and can choose up to six creatures. While covered in tar, creatures are instead affected by the <i>Slow</i> spell. You do not need to concentrate on this effect.</p>
+		</description>
+		<sheet alt="Creeping Tarlight" usage="Moon Conduit" action="Action">
+			<description>You can choose up to three creatures within 30 feet of you. They must succeed on a Dexterity saving throw or be covered by tar for 1 minute. While covered in tar, their speed is halved, and they take a -2 penalty to AC and Dexterity saving throws. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Creatures standing in darkness have disadvantage on this saving throw. You must concentrate on this effect as you would concentrate on a spell. As Lunar Alignment effect, you can choose up to six creatures. While covered in tar, creatures are instead affected by the "Slow" spell. You do not need to concentrate on this effect.</description>
+		</sheet>
+	</element>
+
+	<element name="Sanguine Eclipse" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_MOON_CONDUIT_SANGUINE_ECLIPSE">
+		<description>
+			<p>You cause your foes to turn against each other. As an action, you can choose a creature within 30 feet of you that you can see, which must make an Intelligence saving throw. On a failed save, it regards another creature of your choice that you can see within 90 feet of you as its mortal enemy until the start of your next turn. It must use its actions to attempt to kill its mortal enemy, disregarding all other creatures. Creatures immune to the charmed condition are immune to this ability.</p>
+			<p class="indent"><i><b>Lunar Alignment:</b></i> The duration of this Conduit extends to 1 minute. An affected creature can repeat the saving throw at the end of each of its turns to end the effect early. The effect also ends early if the target's quarry dies.</p>
+		</description>
+		<sheet alt="Sanguine Eclipse" usage="Moon Conduit" action="Action">
+			<description>You choose a creature within 30 feet of you which must make an Intelligence saving throw. On a failed save, it regards another creature of your choice that you can see within 90 feet of you as its mortal enemy until the start of your next turn. It must use its actions to attempt to kill its mortal enemy, disregarding all other creatures. Creatures immune to the charmed condition are immune to this ability. As Lunar Alignment effect, this Conduit extends to 1 minute. An affected creature can repeat the saving throw at the end of each of its turns to end the effect early. The effect also ends early if the target's quarry dies.</description>
+		</sheet>
+	</element>
+
+	<element name="Celestial Tide" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_CELESTIAL_TIDE">
+		<description>
+			<p>At 15th level, you can beckon the moon closer to you, using its enormous mass to shift the tides of battle. As an action, you can cast the <i>Reverse Gravity</i> spell without expending a spell slot or using material components, and the area of the spell is illuminated by direct moonlight.</p>
+			<p class="indent">When the spell ends, the lunar energy disperses and flows towards you, refreshing your lunar powers. You regain all expended uses of your Moon Conduit feature.</p>
+			<p class="indent">Once you use this feature, you can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>As an action, you can undergo a divien transtformation. For 1 minute, your charisma increases by +2 max of 22. In transform, as a Reaction, you can bolster your allies that are using your Protection of The Standard feature and you can use your Divine Smite feature through their attack as if you were the one hitting the target. In addition, healing of Watchful Eye increases by 1d8 + Your Charisma modifier in this form.</description>
+			<description>As an action, you can cast "Reverse Gravity" spell without expending a spell slot or using material components, and the area of the spell is illuminated by direct moonlight. When the spell ends, you regain all expended uses of your Moon Conduit feature.</description>
 		</sheet>
 	</element>
 
