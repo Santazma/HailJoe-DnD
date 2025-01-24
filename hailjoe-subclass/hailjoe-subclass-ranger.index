@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Ranger Subclasses</name>
+		<description>HailJoe's Homebrew Ranger Subclasses</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="hailjoe-subclass-warlock.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock.index" />
+		</update>
+	</info>
+	<files>
+		<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
+	</files>
+</index>
