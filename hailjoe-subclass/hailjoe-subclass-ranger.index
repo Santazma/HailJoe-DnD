@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="warlock-archfey-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-archfey-onednd-ua.xml" />
+		<file name="hailjoe-subclass-ranger/ranger-lunar-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/refs/heads/main/hailjoe-subclass/hailjoe-subclass-ranger/ranger-lunar-warden.xml" />
 	</files>
 </index>
