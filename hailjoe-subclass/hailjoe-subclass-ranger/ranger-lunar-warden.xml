@@ -1,1 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Lunar Warden</name>
+		<description>Lunar Warden from Steinhardt's Guide to the Elritch Hunt</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="paladin-palanthir.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-palanthir.xml" />
+		</update>
+	</info>
 
+	<element name="Oath of the Palanthir" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_PALADIN_OATH_OF_THE_PALANTHIR">
+		<supports>Sacred Oath</supports>
+		<description>
+			<p>The Oath of Palanthir is renowned for its dedication to safeguarding its comrades-in-arms. Originally known as the Knights of Palanthir, these holy warriors dispel the specter of defeat from the minds of their companions. Always bearing the sacred standard of their order, the Knights of Palanthir are celebrated for spreading tranquility and assurance wherever they tread.</p>
+			<h5 class="caption">TENETS OF PALANTHIR</h5>
+			<p>Though the exact words and strictures of the Oath of Palanthir vary, paladins of this oath share these tenets.</p>
+			<p class="indent"><strong><em>Let not the Martyr rot.</em></strong> Preserve the honor of the martyr by ensuring that their body or remains never fall into the possession of our adversaries.</p>
+			<p class="indent"><strong><em>Die with the Standard.</em></strong> Never fear to act, though caution is wise.</p>
+			<p class="indent"><strong><em>First to charge, last to retreat.</em></strong> Lead by example on the battlefield, always at the forefront of the charge and the final to withdraw. Never leave the fight while any of your allies remain engaged in combat.</p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_OATH_SPELLS" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_PROTECTION_OF_THE_STANDARD" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_WATCHFUL_EYE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_GRAND_PROTECTOR" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_OATH_SPELLS" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY" level="3"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_PROTECTION_OF_THE_STANDARD" level="7"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_WATCHFUL_EYE" level="15"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_GRAND_PROTECTOR" level="20"/>
+		</rules>
+	</element>
+
+	<element name="Oath Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_OATH_SPELLS">
+		<description>
+			<p>You gain oath spells at the paladin levels listed.</p>
+			<h5>OATH OF PALANTHIR SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Paladin Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>divine favor, bless</em></td></tr>
+				<tr><td>5th</td><td><em>silence, hold person</em></td></tr>
+				<tr><td>9th</td><td><em>beacon of hope, mass healing word</em></td></tr>
+				<tr><td>13th</td><td><em>stoneskin, mordenkainen's faithful hound</em></td></tr>
+				<tr><td>17th</td><td><em>rary's telepathic bond, planar binding</em></td></tr>
+			</table>      
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DIVINE_FAVOR" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLESS" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_PLANAR_BINDING" level="17" spellcasting="Paladin" prepared="true" />
+		</rules>
+	</element>
+
+	<element name="Channel Divinity" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY">
+		<description>
+			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+			<p class="indent"><b><i>Banner’s Call.</i></b> As an action, you present your holy symbol and recite your second oath, using your Channel Divinity and throw your standard. You can throw the standard up to 120 feet. If your standard is within 120 ft. of you and can be seen by you, you can use Reaction and teleport next to your standard. Additionally, if there are enemies within 5ft. of your teleportation location, you can make a melee weapon attack against that targets as a continuation of this action. This attack deals an additional 2d8 radiant damage to the targets if your attack hits.</p>
+			<p class="indent"><b><i>Together We Stand.</i></b> As an action, you can utter the holy rites of Palanthir, allowing you to divide up to half of your lay on hands pool between the creatures you choose, either within 15ft. of you or your standard, as temporary hit points. These temporary hit points last for an hour.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_BANNERS_CALL" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_TOGETHER_WE_STAND" />
+		</rules>
+	</element>
+
+	<element name="Channel Divinity: Banner’s Call" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_BANNERS_CALL">
+		<description>
+			<p>As an action, you present your holy symbol and recite your second oath, using your Channel Divinity and throw your standard. You can throw the standard up to 120 feet. If your standard is within 120 ft. of you and can be seen by you, you can use Reaction and teleport next to your standard. Additionally, if there are enemies within 5ft. of your teleportation location, you can make a melee weapon attack against that targets as a continuation of this action. This attack deals an additional 2d8 radiant damage to the targets if your attack hits.</p>
+		</description>
+		<sheet alt="Sacred Weapon" action="Action" usage="Channel Divinity">
+			<description>As an action, you can throw your standard up to 120 feet. After the thrown, you count as using your channel divinity.
+			As a reaction, you can telepert to your standard. Enemies that are near 5 feet of your teleportation point, gets an attack from you. On hit, you deal extra 2d8 radiant damage.</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Together We Stand" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_CHANNEL_DIVINITY_TOGETHER_WE_STAND">
+		<description>
+			<p>As an action, you can utter the holy rites of Palanthir, allowing you to divide up to half of your lay on hands pool between the creatures you choose, either within 15ft. of you or your standard, as temporary hit points. These temporary hit points last for an hour.</p>
+		</description>
+		<sheet alt="Together We Stand" action="Action" usage="Channel Divinity">
+			<description>As an action, you can give temporary hit points equal to half of your Lay on Hands pool between the creatures you choose, either within 15ft. of you or your standard.
+			As mentioned, you can extend this range and give temporary hit points on creatures that are within 15ft. of your standard.</description>
+		</sheet>
+	</element>
+	
+	<element name="Protection of the Standard" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_PROTECTION_OF_THE_STANDARD">
+		<description>
+			<p>By 7th level, your standard begins to mirror your Aura of Protection. As long as you are within 60 feet of your standard, whenever a friendly creature within 10 feet of your standard must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus. However, one cannot benefit from both your aura of protection and your standard’s.</p>
+			<p class="indent">Additionally, when you have your standard on your person, your aura of protection’s range increases by 5 feet.</p>
+			<p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+		</description>
+		<sheet>
+			<description>You and friendly creatures within {{aura of devotion:range}} feet of you gains bonus against saving throws equal to your charisma modifier, while you are conscious.</description>
+		</sheet>
+		<rules>
+			<stat name="aura of devotion:range" value="10" />
+			<stat name="aura of devotion:range" value="30" level="18" />
+		</rules>
+	</element>
+
+	<element name="Watchful Eye" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_WATCHFUL_EYE">
+		<description>
+			<p>Starting at 15th level, your standard and its location become a sanctuary for your friends. Whenever a friendly creature makes a death saving throw within 15 feet of your standard, they gain advantage on the saving throw.</p>
+			<p class="indent">Additionally, if a friendly creature within 15 feet of your standard falls unconscious, you can use your reaction to bring them back to consciousness at 1 hit point. You can use this feature a number of times equal to your Charisma modifier. All expended uses are restored at dawn.</p>
+		</description>
+		<sheet>
+			<description>Whenever a friendly creature makes a death saving throw within 15 feet of your standard, they gain advantage on the saving throw.
+			As a Reaction, in the number of times equal to your Charisma modifier, you can bring your allies back to consciousness at 1 hit point, if they falls unconscious within 15ft. of your standard.</description>
+		</sheet>
+	</element>
+
+	<element name="Grand Protector" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_OATH_OF_THE_PALANTHIR_GRAND_PROTECTOR">
+		<description>
+			<p>At 20th level, once per day, you can imbue yourself with the divine magic of the tablets of Palanthir. Using an action, you undergo a transformation. For 1 minute, you gain the following benefits:</p>
+			<ul>
+				<li>Your Charisma score increases by 2 to a maximum of 22.</li>
+				<li>If a creature is benefiting from your Protection of The Standard feature, and it makes a melee attack against a target, as a reaction, you can choose to use your Divine Smite feature through their attack as if you were the one hitting the target.</li>
+				<li>Additionally, when you use your Watchful Eye feature while under the effects of the Grand Protector, healing of Watchful Eye increases by 1d8 + Your Charisma modifier.</li>
+			</ul>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>As an action, you can undergo a divien transtformation. For 1 minute, your charisma increases by +2 max of 22. In transform, as a Reaction, you can bolster your allies that are using your Protection of The Standard feature and you can use your Divine Smite feature through their attack as if you were the one hitting the target. In addition, healing of Watchful Eye increases by 1d8 + Your Charisma modifier in this form.</description>
+		</sheet>
+	</element>
+
+</elements>
