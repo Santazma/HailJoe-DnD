@@ -4,7 +4,7 @@
 		<name>Lunar Warden</name>
 		<description>Lunar Warden from Steinhardt's Guide to the Elritch Hunt</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="ranger-lunar-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-ranger/ranger-lunar-warden.xml" />
 		</update>
 	</info>
