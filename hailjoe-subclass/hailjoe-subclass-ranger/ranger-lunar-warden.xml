@@ -151,6 +151,7 @@
 	</element>
 
 	<element name="Damage Resistance (Lunar Guidance)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_DAMAGE_RESISTANCE">
+		<supports>Lunar Guidance</supports>
 		<description>
 			<p>You have resistance to the damage type you choose.</p>
 		</description>
