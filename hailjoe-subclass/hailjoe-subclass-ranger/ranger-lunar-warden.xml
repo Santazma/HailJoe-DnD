@@ -4,7 +4,7 @@
 		<name>Lunar Warden</name>
 		<description>Lunar Warden from Steinhardt's Guide to the Elritch Hunt</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="ranger-lunar-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-ranger/ranger-lunar-warden.xml" />
 		</update>
 	</info>
@@ -22,7 +22,6 @@
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ASTRAL_AFFINITY" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_MOON_CONDUIT" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" />
-			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_DAMAGE_RESISTANCE" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ADDITIONAL_MOON_CONDUITS" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_CELESTIAL_TIDE" />
 		</description>
@@ -157,11 +156,6 @@
 			<p>You have resistance to the damage type of your choose.</p>
 		</description>
 		<sheet display="false" />
-		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_RADIANT" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_COLD" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_NECROTIC" />
-		</rules>
 	</element>
 
 	<element name="Lunar Guidance (Radiant)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_RADIANT">
@@ -173,6 +167,7 @@
 		<rules>
 			<stat inline="true" name="lunar-guidance" value="Radiant"/>
 			<stat inline="true" name="lunar-guidance:resistance type" value="Radiant" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_RADIANT" />
 		</rules>
 	</element>
 
@@ -185,6 +180,7 @@
 		<rules>
 			<stat inline="true" name="lunar-guidance" value="Cold"/>
 			<stat inline="true" name="lunar-guidance:resistance type" value="Cold" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_COLD" />
 		</rules>
 	</element>
 
@@ -197,6 +193,7 @@
 		<rules>
 			<stat inline="true" name="lunar-guidance" value="Necrotic"/>
 			<stat inline="true" name="lunar-guidance:resistance type" value="Necrotic" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" requirements="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_NECROTIC" />
 		</rules>
 	</element>
 
