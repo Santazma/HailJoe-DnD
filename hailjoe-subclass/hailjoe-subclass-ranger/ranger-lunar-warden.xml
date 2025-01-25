@@ -4,7 +4,7 @@
 		<name>Lunar Warden</name>
 		<description>Lunar Warden from Steinhardt's Guide to the Elritch Hunt</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="ranger-lunar-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-ranger/ranger-lunar-warden.xml" />
 		</update>
 	</info>
@@ -22,6 +22,7 @@
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ASTRAL_AFFINITY" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_MOON_CONDUIT" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" />
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_DAMAGE_RESISTANCE" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ADDITIONAL_MOON_CONDUITS" />
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_CELESTIAL_TIDE" />
 		</description>
@@ -30,6 +31,7 @@
 			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ASTRAL_AFFINITY" level="3"/>
 			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_MOON_CONDUIT" level="3"/>
 			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE" level="7"/>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_DAMAGE_RESISTANCE" level="7"/>
 			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_ADDITIONAL_MOON_CONDUITS" level="11"/>
 			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_CELESTIAL_TIDE" level="15"/>
 		</rules>
@@ -152,7 +154,7 @@
 
 	<element name="Damage Resistance (Lunar Guidance)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_LUNAR_WARDEN_LUNAR_GUIDANCE_DAMAGE_RESISTANCE">
 		<description>
-			<p>You have resistance to the damage type you choose.</p>
+			<p>You have resistance to the damage type of your choose.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
