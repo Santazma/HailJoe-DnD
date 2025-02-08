@@ -4,7 +4,7 @@
 		<name>Sorcerer DND 2024</name>
 		<description>The Sorcerer class from DND 2024.</description>
 		<update version="0.0.1">
-			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
+			<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 		</update>
 	</info>
 
