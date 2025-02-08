@@ -4,7 +4,7 @@
 		<name>HailJoe Classes</name>
 		<description>Hailjoe's homebrew classes</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.10">
+		<update version="0.0.11">
 			<file name="hailjoe-classes.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes.index" />
 		</update>
 	</info>
@@ -14,5 +14,6 @@
 		<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" /> 
 		<file name="class-rogue-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-rogue-onednd-ua.xml" /> 
 		<file name="weapon-mastery-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/weapon-mastery-onednd-ua.xml" />
+		<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 	</files>
 </index>
