@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Sorcerer D&D 2024</name>
-		<description>The Sorcerer class from D&D 2024.</description>
+		<name>Sorcerer DND 2024</name>
+		<description>The Sorcerer class from DND 2024.</description>
 		<update version="0.0.1">
 			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" />
 		</update>
