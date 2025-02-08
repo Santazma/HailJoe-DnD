@@ -3,7 +3,7 @@
 	<info>
 		<name>Sorcerer DND 2024</name>
 		<description>The Sorcerer class from DND 2024.</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 		</update>
 	</info>
@@ -227,7 +227,7 @@
 			<description>You have {{sorcery-points}} Sorcery Points. You can transform unexpended sorcery points into one spell slot (2 > 1st, 3 > 2nd, 5 > 3rd, 6 > 4th, 7 > 5th) on your turn or you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.</description>
 		</sheet>
                 <rules>
-			<stat name="sorcery-points" value="level:sorcerer" />
+			<stat name="sorcery-points" value="level:sorcerer(2024)" />
 		</rules>
 	</element>
         <element name="Metamagic" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_SORCERER_METAMAGIC">
