@@ -3,7 +3,7 @@
 	<info>
 		<name>Sorcerer DND 2024</name>
 		<description>The Sorcerer class from DND 2024.</description>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 		</update>
 	</info>
@@ -139,7 +139,7 @@
 		<sheet>
 			<description>Drawing from your innate magic, you can cast spells. You can prepare {{sorcerer:spellcasting:prepare}} spells from your spell list. You can use a arcane focus as your spellcasting focus.</description>
 		</sheet>
-		<spellcasting name="Sorcerer" ability="Charisma" allowReplace="true">
+		<spellcasting name="Sorcerer" ability="Charisma" prepare="true">
 			<list known="true">Sorcerer</list>
 		</spellcasting>
 		<rules>
