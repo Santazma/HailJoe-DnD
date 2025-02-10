@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's DND 2024 Spells</name>
 		<description>DND 2024 Spells from the HailJoe.</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
 		</update>
 	</info>
@@ -163,7 +163,7 @@
 		</description>
 	</element>
 
-        <element name="Fly" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_FLY">
+        <element name="Fly DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_FLY">
 		<supports>Sorcerer, Warlock, Wizard, Artificer</supports>
 		<description>
 			<p>You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.</p>
