@@ -3,7 +3,7 @@
 	<info>
 		<name>Sorcerer DND 2024</name>
 		<description>The Sorcerer class from DND 2024.</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 		</update>
 	</info>
@@ -166,27 +166,27 @@
 			<stat name="sorcerer:spellcasting:slots:8" value="1" level="15" />
 			<stat name="sorcerer:spellcasting:slots:9" value="1" level="17" />
 
+			<stat name="sorcerer:spellcasting:prepare" value="2" level="1"/>
+			<stat name="sorcerer:spellcasting:prepare" value="2" level="2"/>
+			<stat name="sorcerer:spellcasting:prepare" value="2" level="3"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="4"/>
+			<stat name="sorcerer:spellcasting:prepare" value="2" level="5"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="6"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="7"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="8"/>
+			<stat name="sorcerer:spellcasting:prepare" value="2" level="9"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="10"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="11"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="13"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="15"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="17"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="18"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="19"/>
+			<stat name="sorcerer:spellcasting:prepare" value="1" level="20"/>
+
 			<select type="Spell" name="Cantrip (Sorcerer)" supports="$(spellcasting:list), 0" level="1" number="4" spellcasting="Sorcerer" />
 			<select type="Spell" name="Cantrip (Sorcerer)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Sorcerer" />
 			<select type="Spell" name="Cantrip (Sorcerer)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Sorcerer" />
-
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), 1" level="1" number="2" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="1" spellcasting="Sorcerer" />
-			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="1" spellcasting="Sorcerer" />
 		</rules>
 	</element>
 	<element name="Innate Sorcery" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_SORCERER_INNATE_SORCERY">
