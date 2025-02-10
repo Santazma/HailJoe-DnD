@@ -3,7 +3,7 @@
 	<info>
 		<name>Sorcerer DND 2024</name>
 		<description>The Sorcerer class from DND 2024.</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 		</update>
 	</info>
@@ -139,7 +139,7 @@
 		<sheet display="false">
 			<description>You have the ability to cast spells.</description>
 		</sheet>
-		<spellcasting name="Sorcerer" ability="Charisma" allowReplace="true">
+		<spellcasting name="Sorcerer(2024)" ability="Charisma" allowReplace="true">
 			<list known="true">Sorcerer</list>
 		</spellcasting>
 		<rules>
