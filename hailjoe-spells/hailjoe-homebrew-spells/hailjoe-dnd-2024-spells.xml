@@ -1,1 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>HailJoe's DND 2024 Spells</name>
+		<description>DND 2024 Spells from the HailJoe.</description>
+		<update version="0.0.1">
+			<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
+		</update>
+	</info>
+	
+	<element name="Alter Self DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ALTER_SELF">
+		<supports>Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<p>You alter your physical form. Choose one of the following options. Its effects last for the duration, during which you can take a Magic action to replace the option you chose with a different one.</p>
+			<p class="indent"><strong><em>Aquatic Adaptation.</em></strong> You sprout gills and grow webs between your fingers. You can breathe underwater and gain a Swim Speed equal to your Speed.</p>
+			<p class="indent"><strong><em>Change Appearance.</em></strong> You alter your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and other distinguishing characteristics. You can make yourself appear as a member of another species, though none of your statistics change. You can’t appear as a creature of a different size, and your basic shape stays the same; if you’re bipedal, you can’t use this spell to become quadrupedal, for instance. For the duration, you can take a Magic action to change your appearance in this way again.</p>
+			<p class="indent"><strong><em>Natural Weapons.</em></strong> You grow claws (Slashing), fangs (Piercing), horns (Piercing), or hooves (Bludgeoning). When you use your Unarmed Strike to deal damage with that new growth, it deals 1d6 damage of the type in parentheses instead of dealing the normal damage for your Unarmed Strike, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.</p>
+		</description>
+		<setters>
+			<set name="keywords">shapechanging,appearance,aquatic,natural,weapons</set>
+			<set name="level">2</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 
+        <element name="Chromatic Orb DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CHROMATIC_ORB">
+		<supports>Sorcerer, Wizard, Ranged, Spell Attack</supports>
+		<description>
+			<p>You hurl an orb of energy at a target within range. Choose Acid, Cold, Fire, Lightning, Poison, or Thunder for the type of orb you create, and then make a ranged spell attack against the target. On a hit, the target takes 3d8 damage of the chosen type.</p>
+                        <p class="indent">If you roll the same number on two or more of the d8s, the orb leaps to a different target of your choice within 30 feet of the target. Make an attack roll against the new target, and make a new damage roll. The orb can’t leap again unless you cast the spell with a level 2+ spell slot.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.</p>
+		</description>
+		<setters>
+			<set name="keywords">acid,cold,fire,lightning,poison,thunder</set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a diamond worth at least 50 gp</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+        <element name="Command DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_COMMAND">
+		<supports>Bard, Cleric, Paladin, Spell Saving Throw</supports>
+		<description>
+			<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:</p>  
+			<p class="indent"><b><i>Approach.</i></b> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p>
+			<p class="indent"><b><i>Drop.</i></b> The target drops whatever it is holding and then ends its turn.</p>
+			<p class="indent"><b><i>Flee.</i></b> The target spends its turn moving away from you by the fastest available means.</p>
+			<p class="indent"><b><i>Grovel.</i></b> The target has the Prone condition and then ends its turn.</p>
+			<p class="indent"><b><i>Halt.</i></b> On its turn, the target doesn’t move and takes no action or Bonus Action.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You can affect one additional creature for each spell slot level above 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">drop,prone</set>
+			<set name="level">1</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 round</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+        <element name="Legend Lore DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_LEGEND_LORE">
+		<supports>Bard, Cleric, Wizard</supports>
+		<description>
+			<p>Name or describe a famous person, place, or object. The spell brings to your mind a brief summary of the significant lore about that famous thing, as described by the DM.</p>
+			<p class="indent">The lore might consist of important details, amusing revelations, or even secret lore that has never been widely known. The more information you already know about the thing, the more precise and detailed the information you receive is. That information is accurate but might be couched in figurative language or poetry, as determined by the DM.</p>
+                        <p class="indent">If the famous thing you chose isn’t actually famous, you hear sad musical notes played on a trombone, and the spell fails.</p>
+		</description>
+		<setters>
+			<set name="keywords">knowledge,story,utility</set>
+			<set name="level">5</set>
+			<set name="school">Divination</set>
+			<set name="time">10 minutes</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+        <element name="Summon Dragon DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SUMMON_DRAGON">
+		<supports>Druid, Sorcerer, Wizard</supports>
+		<description>
+			<p>You call forth a Dragon spirit. It manifests in an unoccupied space that you can see within range and uses the Draconic Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p>
+			<p class="indent">The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> Use the spell slot’s level for the spell’s level in the stat block. </p>
+			<div class="reference">
+				<div element="ID_HAILJOE_SPELL_INFORMATION_SUMMON_DRAGON_STATBLOCK" />
+			</div>
+		</description>
+		<setters>
+			<set name="level">5</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an object with the image of a dragon engraved on it, worth at least 500gp</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+
+	<!-- Summon Dragon Statblock -->
+	<element name="Draconic Spirit" type="Information" source="HailJoe Spells" id="ID_HAILJOE_SPELL_INFORMATION_SUMMON_DRAGON_STATBLOCK">
+		<description>
+			<p style="margin-bottom:-5px"><em>Large Dragon, Neutral</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 + the spell’s level</li>
+				<li><strong>Hit Points</strong> 50 + 10 for each spell level above 5</li>
+				<li><strong>Speed</strong> 30 ft., fly 60 ft., swim 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>19 (+4)</td><td>14 (+2)</td><td>17 (+3)</td><td>10 (+0)</td><td>14 (+2)</td><td>14 (+2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Resistances</strong> acid, cold, fire, lightning, poison</li>
+				<li><strong>Condition Immunities</strong> charmed, frightened, poisoned</li>
+				<li><strong>Senses</strong> blindsight 30ft., darkvision 60 ft., passive Perception 12</li>
+				<li><strong>Languages</strong> Draconic, understands the languages you speak</li>
+				<li><strong>Challenge</strong> None (XP 0) <strong>Proficiency Bonus</strong> equals your Proficiency Bonus.</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Shared Resistances.</em></strong> When you summon the spirit, choose one of its Resistances. You have Resistance to the chosen damage type until the spell ends.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack.</em></strong> The spirit makes a number of Rend attacks equal to half the spell’s level (round down), and it uses Breath Weapon.</li>
+				<li><em><strong>Rend.</strong> Melee Weapon Attack:</em> Bonus equals your spell attack modifier, reach 10 feet. <em>Hit:</em> 1d6 + 4 + the spell’s level piercing damage.</li>
+				<li><strong><em>Breath Weapon.</em></strong> Dexterity Saving Throw: DC equals your spell save DC, each creature in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). Success: Half damage.</li>
+			</ul>
+		</description>
+	</element>
+
+        <element name="Fly" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_FLY">
+		<supports>Sorcerer, Warlock, Wizard, Artificer</supports>
+		<description>
+			<p>You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional creature for each spell slot level above 3.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a feather</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+        
+</elements>
