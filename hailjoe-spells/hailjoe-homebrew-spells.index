@@ -4,12 +4,13 @@
 		<name>Homebrew Spells</name>
 		<description>HailJoe's Homebrew Spells</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.19">
+		<update version="0.0.20">
 			<file name="hailjoe-homebrew-spells.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells.index" />
 		</update>
 	</info>
 	<files>
 		<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
-		<file name="hailjoe-gmbinder-elemental-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/refs/heads/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-gmbinder-elemental-spells.xml" />
+		<file name="hailjoe-gmbinder-elemental-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-gmbinder-elemental-spells.xml" />
+		<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
 	</files>
 </index>
