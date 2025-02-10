@@ -3,7 +3,7 @@
 	<info>
 		<name>Sorcerer DND 2024</name>
 		<description>The Sorcerer class from DND 2024.</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 		</update>
 	</info>
@@ -140,7 +140,7 @@
 			<description>You have the ability to cast spells.</description>
 		</sheet>
 		<spellcasting name="Sorcerer" ability="Charisma" allowReplace="true">
-			<list>Sorcerer</list>
+			<list known="true">Sorcerer</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
