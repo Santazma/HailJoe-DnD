@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Draconic Sorcery DND 2024" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_SORCEROUS_ORIGIN_DRACONIC_SORCERY">
-		<supports>Otherworldly Patron</supports>
+		<supports>Sorcerous Origin</supports>
 		<description>
 			<p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_DRACONIC_SPELLS" />
@@ -29,143 +29,169 @@
 		</rules>
 	</element>
 
-        <!-- Burada Kaldım Buradan Devam -->
 	<element name="Draconic Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_DRACONIC_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRACONIC_SPELLS</requirements>
+		<supports>Draconic Sorcery DND 2024</supports>
 		<description>
 			<p>When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.</p>
-			<h5 class="caption">ARCHFEY EXPANDED SPELLS</h5>
+			<h5 class="caption">DRACONIC SORCERY EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr><td>Sorcerer Level</td><td>Spells</td></tr>
 				</thead>
-				<tr><td>1st</td><td><em>faerie fire, sleep</em></td></tr>
-				<tr><td>2nd</td><td><em>calm emotions, phantasmal force, misty step</em></td></tr>
-				<tr><td>3rd</td><td><em>blink, plant growth</em></td></tr>
-				<tr><td>4th</td><td><em>dominate beast, greater invisibility</em></td></tr>
-				<tr><td>5th</td><td><em>dominate person, seeming</em></td></tr>
+				<tr><td>3rd</td><td><em>Alter Self, Chromatic Orb, Command, Dragon’s Breath</em></td></tr>
+				<tr><td>5th</td><td><em>Fear, Fly</em></td></tr>
+				<tr><td>7th</td><td><em>Arcane Eye, Charm Monster</em></td></tr>
+				<tr><td>9th</td><td><em>Legend Lore, Summon Dragon</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+			<description>Draconic Sorcery lets you prepare spells from an expanded list, when you learn a sorcerer spell.</description>
 		</sheet>
-		<spellcasting name="Warlock" extend="true">
-			<extend>ID_PHB_SPELL_FAERIE_FIRE</extend>
-			<extend>ID_PHB_SPELL_SLEEP</extend>
-			<extend>ID_PHB_SPELL_CALM_EMOTIONS</extend>
-			<extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
-                        <extend>ID_PHB_SPELL_MISTY_STEP</extend>
-			<extend>ID_PHB_SPELL_BLINK</extend>
-			<extend>ID_PHB_SPELL_PLANT_GROWTH</extend>
-			<extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
-			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
-			<extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
-			<extend>ID_PHB_SPELL_SEEMING</extend>
-		</spellcasting>
-	</element>
-
-	<element name="Steps of the Fey" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY</requirements>
-		<description>
-			<p>Starting at 3th level, your patron bestows on you the ability to move between the boundaries of the planes. You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. In addition, whenever you cast that spell, you can choose one of the following additional effects:</p>
-                        <ul>
-				<li><b><i>Refreshing Step. </i></b>Immediately after you teleport, one creature you can see within 10 feet of you gains 1d10 Temporary Hit Points.</li>
-				<li><b><i>Taunting Step. </i></b>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</li>
-			</ul>
-		</description>
-		<sheet usage="{{steps of the fey:count}}/Long Rest" action="Bonus Action">
-			<description>You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</description>
-		</sheet>
-                <rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_REFRESHING_STEP" />
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_TAUNTING_STEP" />
-			<stat name="steps of the fey:count" value="charisma:modifier" />
+		<rules>
+			<grant type="Spell" id="ID_HAILJOE_SPELL_ALTER_SELF" level="3" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_CHROMATIC_ORB" level="3" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_COMMAND" level="3" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_DRAGONS_BREATH" level="3" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FEAR" level="5" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_FLY" level="5" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" level="7" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CHARM_MONSTER" level="7" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_LEGEND_LORE" level="9" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_SUMMON_DRAGON" level="9" spellcasting="Sorcerer" prepared="true" />
 		</rules>
 	</element>
 
-        <element name="Refreshing Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_REFRESHING_STEP">
+	<element name="Draconic Resilience" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_DRACONIC_RESILIENCE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRACONIC_RESILIENCE</requirements>
+		<supports>Draconic Sorcery DND 2024</supports>
 		<description>
-			<p>Immediately after you teleport, one creature you can see and choosed within 10 feet of you, gains 1d10 Temporary Hit Points.</p>
+			<p>The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.</p>
+			<p class="indent">Parts of you are also covered by dragon-like scales. While you aren’t wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.</p>
 		</description>
-		<sheet alt="Refreshing Step" usage="Steps of the Fey">
-			<description>Immediately after you teleport, one creature you can see and choosed within 10 feet of you, gains 1d10 Temporary Hit Points.</description>
+		<sheet alt="Draconic Resilience">
+			<description>When you aren’t wearing armor, your AC equals {{ac:draconic resilience}}.</description>
 		</sheet>
+		<rules>
+			<stat name="hp" value="level:sorcerer" />
+			<stat name="ac:draconic resilience" value="10" />
+			<stat name="ac:draconic resilience" value="dexterity:modifier" />
+			<stat name="ac:draconic resilience" value="charisma:modifier" />
+			<stat name="ac:calculation" value="ac:draconic resilience" bonus="calculation" equipped="[armor:none]" alt="Draconic Resilience (Sorcerer)" />
+		</rules>
 	</element>
 
-        <element name="Taunting Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_TAUNTING_STEP">
+        <element name="Elemental Affinity" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_ELEMENTAL_AFFINITY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY</requirements>
+		<supports>Draconic Sorcery DND 2024</supports>
 		<description>
-			<p>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</p>
+			<p>Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.</p>
+			<p class="indent">You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell.</p>
 		</description>
-		<sheet alt="Taunting Step" usage="Steps of the Fey">
-			<description>Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</description>
+		<rules>
+			<select type="Archetype Feature" name="Elemental Affinity (Draconic Sorcery)" supports="Elemental Affinity" />
+		</rules>
+		<sheet alt="Elemental Affinity">
+			<description>You have resistance to {{elemental affinity damage type}} damage. Also, when you cast a spell that deals {{elemental affinity damage type}} damage, add {{charisma:modifier}} to one damage roll of that spell.</description>
 		</sheet>
 	</element>
 	
-	<element name="Misty Escape" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_MISTY_ESCAPE">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_MISTY_ESCAPE</requirements>
+	<element name="Dragon Wings" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_DRAGON_WINGS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRAGON_WINGS</requirements>
+		<supports>Draconic Sorcery DND 2024</supports>
 		<description>
-			<p>Starting at 6th level, you can vanish in a puff of mist in response to harm. You can cast Misty Step as a Reaction in response to taking damage. In addition, the following effects are now among your Steps of the Fey options:</p>
-                        <ul>
-				<li><b><i>Disappearing Step. </i></b>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</li>
-				<li><b><i>Dreadful Step. </i></b>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</li>
-			</ul>
+			<p>As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.</p>
 		</description>
-		<sheet action="Reaction">
-			<description>You can cast Misty Step as a Reaction in response to taking damage.</description>
-		</sheet>
-                <rules>
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DISAPPEARING_STEP" />
-			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DREADFUL_STEP" />
-		</rules>
-	</element>
-
-        <element name="Disappearing Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DISAPPEARING_STEP">
-		<description>
-			<p>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</p>
-		</description>
-		<sheet alt="Disappearing Step" usage="Steps of the Fey">
-			<description>You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.</description>
-		</sheet>
-	</element>
-
-        <element name="Dreadful Step" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_STEPS_OF_THE_FEY_DREADFUL_STEP">
-		<description>
-			<p>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p>
-		</description>
-		<sheet alt="Dreadful Step" usage="Steps of the Fey">
-			<description>Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 psychic damage.</description>
+		<sheet alt="Dragon Wings" action="Bonus Action">
+			<description>You can cause draconic wings to appear on your back, granting you a Fly Speed of 60 feet. The wings last for 1 hour or until you dismiss them (no action required).</description>
 		</sheet>
 	</element>
         
-	<element name="Beguiling Defenses" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES</requirements>
+	<element name="Dragon Companion" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_DRAGON_COMPANION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRAGON_COMPANION</requirements>
+		<supports>Draconic Sorcery DND 2024</supports>
 		<description>
-			<p>Starting at 10th level, your patron teaches you how to guard your mind and body. You are immune to the Charmed condition.</p>
-			<p class="indent">In addition, immediately after a creature you can see hits you with an attack roll, you can use your Reaction to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes Psychic damage equal to the damage you take. Once you use this Reaction, you can’t use it again until you finish a Long Rest unless you expend a spell slot when you use it again.</p>
+			<p>You can cast <i>Summon Dragon</i> without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p>
+			<p class="indent">Whenever you start casting the spell, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting.</p>
 		</description>
-		<sheet action="Reaction" usage="1/Long Rest">
-			<description>You can use your Reaction to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes psychic damage equal to the damage you take. Once you use this Reaction, you can’t use it again until you finish a Long Rest unless you expend a spell slot when you use it again.</description>
+		<sheet alt="Dragon Companion" usage="1/Long Rest">
+			<description>You can cast Summon Dragon without a Material component and without a spell slot. You can choose to modify the spell so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting.</description>
 		</sheet>
-                <setters>
-			<set name="conditionImmunities">charmed</set>			
-		</setters>
 	</element>
 
-	<element name="Bewitching Magic" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC">
-                <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC</requirements>
+	<!--Elemental Affinities-->
+	<element name="Acid" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_ACID">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_ACID</requirements>
+		<supports>Elemental Affinity</supports>
 		<description>
-			<p>At 14th level, your patron bestows on you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast Misty Step as part of the same action and without expending a spell slot.</p>
+			<p>Your draconic elemental affinity is Acid.</p>
 		</description>
-		<sheet>
-			<description>Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast Misty Step as part of the same action and without expending a spell slot.</description>
-		</sheet>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="elemental affinity damage type" value="Acid" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+	<element name="Cold" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_COLD">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_COLD</requirements>
+		<supports>Elemental Affinity</supports>
+		<description>
+			<p>Your draconic elemental affinity is Cold.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="elemental affinity damage type" value="Cold" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+	<element name="Fire" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_FIRE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_FIRE</requirements>
+		<supports>Elemental Affinity</supports>
+		<description>
+			<p>Your draconic elemental affinity is Fire.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="elemental affinity damage type" value="Fire" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+	<element name="Lightning" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_LIGHTNING">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_LIGHTNING</requirements>
+		<supports>Elemental Affinity</supports>
+		<description>
+			<p>Your draconic elemental affinity is Lightning.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="elemental affinity damage type" value="Lightning" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+	</element>
+	<element name="Poison" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_POISON">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_POISON</requirements>
+		<supports>Elemental Affinity</supports>
+		<description>
+			<p>Your draconic elemental affinity is Poison.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat inline="true" name="elemental affinity damage type" value="Poison" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
 	</element>
 
         <!--Feature Replacement Grants-->
-	<element name="Patron Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_PATRON_SPELLS" />
-	<element name="Steps of the Fey Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_STEPS_OF_THE_FEY" />
-	<element name="Misty Escape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_MISTY_ESCAPE" />
-	<element name="Beguiling Defenses Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEGUILING_DEFENSES" />
-	<element name="Bewitching Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ONEDND_UA_BEWITCHING_MAGIC" />
+	<element name="Draconic Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRACONIC_SPELLS" />
+	<element name="Draconic Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRACONIC_RESILIENCE" />
+	<element name="Elemental Affinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY" />
+	<element name="Elemental Affinity: Acid Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_ACID" />
+	<element name="Elemental Affinity: Cold Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_COLD" />
+	<element name="Elemental Affinity: Fire Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_FIRE" />
+	<element name="Elemental Affinity: Lightning Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_LIGHTNING" />
+	<element name="Elemental Affinity: Poison Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_ELEMENTAL_AFFINITY_POISON" />
+	<element name="Dragon Wings Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRAGON_WINGS" />
+	<element name="Dragon Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCEROUS_ORIGIN_DRACONIC_SORCERY_DRAGON_COMPANION" />
 
 </elements>
