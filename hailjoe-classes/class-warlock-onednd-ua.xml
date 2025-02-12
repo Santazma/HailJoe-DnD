@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Warlock DND 2024</name>
+		<name>Warlock(2024)</name>
 		<description>The Warlock class from DND 2024.</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" />
 		</update>
 	</info>
 
-	<element name="Warlock ONE DND UA" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_WARLOCK_ONEDND_UA">
+	<element name="Warlock(2024)" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_WARLOCK_ONEDND_UA">
 		<description>
 			<p>Warlocks quest for knowledge that lies hidden in the fabric of the multiverse. They often begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking places of power where the influence of these beings can be felt.</p>
 			<p class="indent">In no time, each Warlock is drawn into a binding pact with a powerful patron.</p>
@@ -175,12 +175,13 @@
 		<sheet display="false">
 			<description>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. You have {{warlock:spellcasting:slots:count}} slots of level {{warlock:spellcasting:slot}}</description>
 		</sheet>
-		<spellcasting name="Warlock" ability="Charisma" allowReplace="true">
-			<list>Warlock</list>
+		<spellcasting name="Warlock" ability="Charisma" prepare="true">
+			<list known="true">Warlock</list>
 		</spellcasting>
 		<rules>
 			<!-- add not full but single _not counting as multiclass spellcaster due to pact magic -->
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
 
 			<stat name="warlock:spellcasting:slots:count" value="1" level="1"/>
 			<stat name="warlock:spellcasting:slots:count" value="1" level="2"/>
