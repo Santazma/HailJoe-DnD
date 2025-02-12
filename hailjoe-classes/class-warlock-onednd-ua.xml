@@ -3,7 +3,7 @@
 	<info>
 		<name>Warlock(2024)</name>
 		<description>The Warlock class from DND 2024.</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-warlock-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-warlock-onednd-ua.xml" />
 		</update>
 	</info>
@@ -130,7 +130,6 @@
 			<p>When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.</p>
 			<p class="indent">You can’t pick the same invocation more than once unless its description says otherwise.</p>
 		</description>
-		<spellcasting name="Warlock Invocations" ability="Charisma" allowReplace="false" />
 		<rules>
 			<stat name="eldritch invocation:count" value="1" level="1" />
 			<stat name="eldritch invocation:count" value="2" level="2" />
