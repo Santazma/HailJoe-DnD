@@ -3,7 +3,7 @@
 	<info>
 		<name>Sorcerer DND 2024</name>
 		<description>The Sorcerer class from DND 2024.</description>
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="class-sorcerer-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-sorcerer-onednd-ua.xml" />
 		</update>
 	</info>
@@ -50,25 +50,25 @@
 					<tr><td class="col-5">Level</td><td class="col-10">Sorcery Points</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
 				</thead>
 				<tr><td> 1st</td><td>—</td><td class="left">Spellcasting, Innate Sorcery</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td>2</td><td class="left">Font of Magic, Metamagic</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td>3</td><td class="left">Sorcerer Subclass</td><td>4</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td>4</td><td class="left">Ability Score Improvement</td><td>5</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td>5</td><td class="left">Sorcerous Restoration</td><td>5</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td>6</td><td class="left">Subclass feature</td><td>5</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td>7</td><td class="left">Sorcery Incarnate</td><td>5</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td>8</td><td class="left">Ability Score Improvement</td><td>5</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td>9</td><td class="left">—</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td>10</td><td class="left">Metamagic</td><td>6</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td>11</td><td class="left">—</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td>12</td><td class="left">Ability Score Improvement</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td>13</td><td class="left">—</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>14th</td><td>14</td><td class="left">Subclass feature</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>15th</td><td>15</td><td class="left">—</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>16th</td><td>16</td><td class="left">Ability Score Improvement</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>17th</td><td>17</td><td class="left">Metamagic</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>18th</td><td>18</td><td class="left">Subclass feature</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>19th</td><td>19</td><td class="left">Epic Boon</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>20th</td><td>20</td><td class="left">Arcane Apotheosis</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr><td> 2nd</td><td>2</td><td class="left">Font of Magic, Metamagic</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>3</td><td class="left">Sorcerer Subclass</td><td>4</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>4</td><td class="left">Ability Score Improvement</td><td>5</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>5</td><td class="left">Sorcerous Restoration</td><td>5</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>6</td><td class="left">Subclass feature</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>7</td><td class="left">Sorcery Incarnate</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>8</td><td class="left">Ability Score Improvement</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>9</td><td class="left">—</td><td>5</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>10</td><td class="left">Metamagic</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>11</td><td class="left">—</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>12</td><td class="left">Ability Score Improvement</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>13</td><td class="left">—</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td>14</td><td class="left">Subclass feature</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td>15</td><td class="left">—</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td>16</td><td class="left">Ability Score Improvement</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td>17</td><td class="left">Metamagic</td><td>6</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td>18</td><td class="left">Subclass feature</td><td>6</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td>19</td><td class="left">Epic Boon</td><td>6</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td>20</td><td class="left">Arcane Apotheosis</td><td>6</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
 			<div element="ID_HAILJOE_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
                         <div element="ID_HAILJOE_CLASS_FEATURE_SORCERER_INNATE_SORCERY" />
@@ -267,11 +267,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Sorcerer 4)" supports="Improvement Option,Warlock,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 8)" supports="Improvement Option,Warlock,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 12)" supports="Improvement Option,Warlock,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 16)" supports="Improvement Option,Warlock,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 19)" supports="Improvement Option,Warlock,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 4)" supports="Improvement Option,Sorcerer,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 8)" supports="Improvement Option,Sorcerer,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 12)" supports="Improvement Option,Sorcerer,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 16)" supports="Improvement Option,Sorcerer,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 19)" supports="Improvement Option,Sorcerer,19" level="19" />
 		</rules>
 	</element>
 	<element name="Sorcerous Restoration" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION">
