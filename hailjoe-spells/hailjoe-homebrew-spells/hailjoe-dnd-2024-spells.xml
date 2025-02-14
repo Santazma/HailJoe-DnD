@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's DND 2024 Spells</name>
 		<description>DND 2024 Spells from the HailJoe.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
 		</update>
 	</info>
@@ -181,6 +181,99 @@
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent">a feather</set>
 			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Cure Wounds DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CURE_WOUNDS">
+		<supports>Bard, Cleric, Druid, Paladin, Ranger, Artificer</supports>
+		<description>
+			<p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> The healing increases by 2d8 for each spell slot level above 1.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Aid DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_AID">
+		<supports>Bard, Cleric, Druid, Ranger, Paladin, Artificer</supports>
+		<description>
+			<p>Choose up to three creatures within range. Each target’s Hit Point maximum and current Hit Points increase by 5 for the duration.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> Each target’s Hit Points increase by 5 for each spell slot level above 2.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">8 hours</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a tiny strip of white cloth</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Lesser Restoration DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_LESSER_RESTORATION">
+		<supports>Bard, Cleric, Druid, Paladin, Ranger, Artificer</supports>
+		<description>
+			<p>You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 Bonus action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Greater Restoration DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GREATER_RESTORATION">
+		<supports>Bard, Cleric, Druid, Paladin, Ranger, Artificer</supports>
+		<description>
+			<p>You touch a creature and magically remove one of the following effects from it:</p>
+			<ul>
+				<li>1 Exhaustion level</li>
+				<li>The Charmed or Petrified condition</li>
+				<li>A curse, including the target’s Attunement to a cursed magic item</li>
+				<li>Any reduction to one of the target’s ability scores</li>
+				<li>Any reduction to the target’s Hit Point maximum</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">5</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">diamond dust worth 100+ GP, which the spell consumes</set>
+			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
