@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>The Celestial One DND UA</name>
+		<name>The Celestial DND 2024</name>
 		<description>The Celestial Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 		</update>
 	</info>
 
-	<element name="The Celestial One DND UA" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_OTHERWORLDLY_PATRON_THE_CELESTIAL_ONEDND_UA">
+	<element name="The Celestial(2024)" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_OTHERWORLDLY_PATRON_THE_CELESTIAL_ONEDND_UA">
 		<supports>Otherworldly Patron</supports>
 		<description>
 			<p>Your pact draws on the power of the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or some similar entity associated with those realms. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience the barest touch of the holy light that illuminates the multiverse.</p>
