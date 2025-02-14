@@ -4,11 +4,12 @@
 		<name>Sorcerer Subclasses</name>
 		<description>HailJoe's Homebrew Sorcerer Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="hailjoe-subclass-sorcerer.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer.index" />
 		</update>
 	</info>
 	<files>
 		<file name="sorcerer-draconic-sorcery-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer/sorcerer-draconic-sorcery-onednd-ua.xml" />
+		<file name="sorcerer-divine-soul-onednd-ua-adaptation.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer/sorcerer-divine-soul-onednd-ua-adaptation.xml" />
 	</files>
 </index>
