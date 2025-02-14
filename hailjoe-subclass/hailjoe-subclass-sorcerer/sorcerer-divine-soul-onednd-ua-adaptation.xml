@@ -5,7 +5,7 @@
 		<description>The Divine Soul Sorcerous Origin from Xanathar’s Guide to Everything adapted to DND 2024 Sorcerer</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="sorcerer-divinesoul.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/xanathars-guide-to-everything/archetypes/sorcerer-divinesoul.xml" />
+			<file name="sorcerer-divine-soul-onednd-ua-adaptation.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer/sorcerer-divine-soul-onednd-ua-adaptation.xml" />
 		</update>
 	</info>
 
