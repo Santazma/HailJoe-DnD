@@ -4,7 +4,7 @@
 		<name>The Celestial One DND UA</name>
 		<description>The Celestial Patron adapted from One DND UA by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="warlock-celestial-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-celestial-onednd-ua.xml" />
 		</update>
 	</info>
@@ -36,33 +36,31 @@
 			<h5 class="caption">CELESTIAL EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr><td>Warlock Level</td><td>Spells</td></tr>
 				</thead>
-				<tr><td>Cantrip</td><td><em>light, sacred flame</em></td></tr>
-				<tr><td>1st</td><td><em>cure wounds, guiding bolt</em></td></tr>
-				<tr><td>2nd</td><td><em>flaming sphere, lesser restoration</em></td></tr>
-				<tr><td>3rd</td><td><em>daylight, revivify</em></td></tr>
-				<tr><td>4th</td><td><em>guardian of faith, wall of fire</em></td></tr>
-				<tr><td>5th</td><td><em>flame strike, greater restoration</em></td></tr>
+				<tr><td>3rd</td><td><em>Aid, Cure Wounds, Guiding Bolt, Lesser Restoration, Light, Sacred Flame</em></td></tr>
+				<tr><td>5th</td><td><em>Daylight, Revivify</em></td></tr>
+				<tr><td>7th</td><td><em>Guardian of Faith, Wall of Fire</em></td></tr>
+				<tr><td>9th</td><td><em>Greater Restoration, Summon Celestial</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false">
 			<description>The Celestial lets you choose from an expanded list of spells when you learn a warlock spell.</description>
 		</sheet>
-		<spellcasting name="Warlock" extend="true">
-			<extend>ID_PHB_SPELL_LIGHT</extend>
-			<extend>ID_PHB_SPELL_SACRED_FLAME</extend>
-			<extend>ID_PHB_SPELL_CURE_WOUNDS</extend>
-			<extend>ID_PHB_SPELL_GUIDING_BOLT</extend>
-			<extend>ID_PHB_SPELL_FLAMING_SPHERE</extend>
-			<extend>ID_PHB_SPELL_LESSER_RESTORATION</extend>
-			<extend>ID_PHB_SPELL_DAYLIGHT</extend>
-			<extend>ID_PHB_SPELL_REVIVIFY</extend>
-			<extend>ID_PHB_SPELL_GUARDIAN_OF_FAITH</extend>
-			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
-			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
-			<extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
-		</spellcasting>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" level="3" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SACRED_FLAME" level="3" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_CURE_WOUNDS" level="3" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_AID" level="3" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_LESSER_RESTORATION" level="3" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" level="5" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="5" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_HAILJOE_SPELL_GREATER_RESTORATION" level="9" spellcasting="Warlock" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL" level="9" spellcasting="Warlock" prepared="true" />
+		</rules>
 	</element>
 
 	<element name="Healing Light" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_CELESTIAL_ONEDND_UA_HEALING_LIGHT">
