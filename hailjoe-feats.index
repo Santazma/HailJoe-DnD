@@ -4,12 +4,13 @@
 		<name>HailJoe Feats</name>
 		<description>Hailjoe's homebrew and revised feats</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="hailjoe-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats.index" />
 		</update>
 	</info>
 	<files>
 		<file name="revised-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/revised-feats.index" />
 		<file name="homebrew-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats.index" />
+		<file name="origin-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/origin-feats.index" />
 	</files>
 </index>
