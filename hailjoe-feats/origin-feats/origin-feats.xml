@@ -4,7 +4,7 @@
 		<name>Origin Feats</name>
 		<description>Origin Feats from the Player’s Handbook 2024.</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="origin-feats.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/origin-feats/origin-feats.xml" />
 		</update>
 	</info>
@@ -34,7 +34,7 @@
 			<description>You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table. Also, whenever you buy a nonmagical item, you receive a 20 percent discount on it. Lastly, when you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</description>
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="Tool Proficiency (Origin Feats: Alert(2024))" supports="Tool" number="3" />
+			<select type="Proficiency" name="Tool Proficiency (Origin Feats: Crafter(2024))" supports="Tool" number="3" />
 		</rules>
 	</element>
 
@@ -60,71 +60,6 @@
 			<description>You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest. When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll. Also, when a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</description>
 		</sheet>
 	</element>
-
-        <element name="Origin Feats: Magic Initiate(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_MAGIC_INITIATE">
-		<description>
-			<p>You gain the following benefits:</p>
-			<p class="indent"><i><b>Two Cantrips:</b></i> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
-                        <p class="indent"><i><b>Level 1 Spell:</b></i> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
-                        <p class="indent"><i><b>Spell Change:</b></i> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
-		</description>
-		<sheet>
-			<description>You learn two cantrips and 1st level spell of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</description>
-		</sheet>
-		<rules>
-			<select type="Feat Feature" name="Origin Feats: Magic Initiate(2024)" supports="Origin Feats: Magic Initiate(2024)" />
-		</rules>
-	</element>
-
-        <element name="Cleric" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_MAGIC_INITIATE_CLERIC">
-		<supports>Origin Feats: Magic Initiate(2024)</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the cleric’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Wisdom.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip Origin Feats: Magic Initiate(2024)" supports="0,Cleric" number="2" />
-			<select type="Spell" name="1st-level Spell Origin Feats: Magic Initiate(2024)" supports="1,Cleric" />
-		</rules>
-	</element>
-
-        <element name="Druid" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_MAGIC_INITIATE_DRUID">
-		<supports>Origin Feats: Magic Initiate(2024)</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the druid’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Wisdom.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip Origin Feats: Magic Initiate(2024)" supports="0,Druid" number="2" />
-			<select type="Spell" name="1st-level Spell Origin Feats: Magic Initiate(2024)" supports="1,Druid" />
-		</rules>
-	</element>
-
-        <element name="Wizard" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_MAGIC_INITIATE_WIZARD">
-		<supports>Origin Feats: Magic Initiate(2024)</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the wizard’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Intelligence.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip Origin Feats: Magic Initiate(2024)" supports="0,Wizard" number="2" />
-			<select type="Spell" name="1st-level Spell Origin Feats: Magic Initiate(2024)" supports="1,Wizard" />
-		</rules>
-	</element>
-        
-        <!-- /magic initiate -->
 
         <element name="Origin Feats: Musician(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_MUSICIAN">
 		<description>
