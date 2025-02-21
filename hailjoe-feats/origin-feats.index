@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Origin Feats</name>
+		<description>Origin feats from 2024</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="revised-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/revised-feats.index" />
+		</update>
+	</info>
+	<files>
+		<file name="origin-feats.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/origin-feats/origin-feats.xml" />
+	</files>
+</index>
