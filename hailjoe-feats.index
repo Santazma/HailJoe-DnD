@@ -4,7 +4,7 @@
 		<name>HailJoe Feats</name>
 		<description>Hailjoe's homebrew and revised feats</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="hailjoe-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats.index" />
 		</update>
 	</info>
