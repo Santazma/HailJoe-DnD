@@ -1,1 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Origin Feats</name>
+		<description>Origin Feats from the Player’s Handbook 2024.</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/feats.xml" />
+		</update>
+	</info>
 
+	<element name="Origin Feats: Alert(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_ALERT">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Initiative Proficiency:</b></i> When you roll Initiative, you can add your Proficiency Bonus to the roll.</p>
+                        <p class="indent"><i><b>Initiative Swap:</b></i> Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</p>
+		</description>
+		<sheet>
+			<description>When you roll Initiative, you can add your Proficiency Bonus to the roll. Additionally, immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</description>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="proficiency" />
+		</rules>
+	</element>
+
+        <element name="Origin Feats: Crafter(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_CRAFTER">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Tool Proficiency:</b></i> You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.</p>
+                        <p class="indent"><i><b>Discount:</b></i> Whenever you buy a nonmagical item, you receive a 20 percent discount on it.</p>
+                        <p class="indent"><i><b>Fast Crafting:</b></i> When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table. Also, whenever you buy a nonmagical item, you receive a 20 percent discount on it. Lastly, when you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency (Origin Feats: Alert(2024))" supports="Tool" number="3" />
+		</rules>
+	</element>
+
+        <element name="Origin Feats: Healer(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_HEALER">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Battle Medic:</b></i> If you have a Healer's Kit, you can expend one use of it and tend to a creature within 5 feet of yourself as a Utilize action. That creature can expend one of its Hit Point Dice, and you then roll that die. The creature regains a number of Hit Points equal to the roll plus your Proficiency Bonus.</p>
+                        <p class="indent"><i><b>Healing Rerolls:</b></i> Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll. Also, whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
+		</description>
+		<sheet>
+			<description>If you have a Healer's Kit, you can expend one use of it and tend to a creature within 5 feet of yourself as a Utilize action. That creature can expend one of its Hit Point Dice, and you then roll that die. The creature regains a number of Hit Points equal to the roll plus your Proficiency Bonus.</description>
+		</sheet>
+	</element>
+
+        <element name="Origin Feats: Lucky(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_LUCKY">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Luck Points:</b></i> You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest.</p>
+                        <p class="indent"><i><b>Advantage:</b></i> When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.</p>
+                        <p class="indent"><i><b>Disadvantage:</b></i> When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</p>
+		</description>
+		<sheet>
+			<description>You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest. When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll. Also, when a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</description>
+		</sheet>
+	</element>
+
+        <element name="Origin Feats: Magic Initiate(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_MAGIC_INITIATE">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Two Cantrips:</b></i> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
+                        <p class="indent"><i><b>Level 1 Spell:</b></i> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
+                        <p class="indent"><i><b>Spell Change:</b></i> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
+		</description>
+		<sheet>
+			<description>You learn two cantrips and 1st level spell of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</description>
+		</sheet>
+		<rules>
+			<select type="Feat Feature" name="Origin Feats: Magic Initiate(2024)" supports="Origin Feats: Magic Initiate(2024)" />
+		</rules>
+	</element>
+
+        <element name="Cleric" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_MAGIC_INITIATE_CLERIC">
+		<supports>Origin Feats: Magic Initiate(2024)</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the cleric’s spell list.</p>
+			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Wisdom.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip Origin Feats: Magic Initiate(2024)" supports="0,Cleric" number="2" />
+			<select type="Spell" name="1st-level Spell Origin Feats: Magic Initiate(2024)" supports="1,Cleric" />
+		</rules>
+	</element>
+
+        <element name="Druid" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_MAGIC_INITIATE_DRUID">
+		<supports>Origin Feats: Magic Initiate(2024)</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the druid’s spell list.</p>
+			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Wisdom.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip Origin Feats: Magic Initiate(2024)" supports="0,Druid" number="2" />
+			<select type="Spell" name="1st-level Spell Origin Feats: Magic Initiate(2024)" supports="1,Druid" />
+		</rules>
+	</element>
+
+        <element name="Wizard" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_MAGIC_INITIATE_WIZARD">
+		<supports>Origin Feats: Magic Initiate(2024)</supports>
+		<description>
+			<p>You learn two cantrips of your choice from the wizard’s spell list.</p>
+			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Intelligence.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip Origin Feats: Magic Initiate(2024)" supports="0,Wizard" number="2" />
+			<select type="Spell" name="1st-level Spell Origin Feats: Magic Initiate(2024)" supports="1,Wizard" />
+		</rules>
+	</element>
+        
+        <!-- /magic initiate -->
+
+        <element name="Origin Feats: Musician(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_MUSICIAN">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Instrument Training:</b></i> You gain proficiency with three Musical Instruments of your choice.</p>
+                        <p class="indent"><i><b>Encouraging Song:</b></i> As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency with three Musical Instruments of your choice. Also, as you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Musical Instrument (Origin Feats: Musician(2024))" supports="Musical Instrument" number="3" />
+		</rules>
+	</element>
+
+        <element name="Origin Feats: Savage Attacker(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_SAVAGE_ATTACKER">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Tool Proficiency:</b></i> You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.</p>
+		</description>
+		<sheet>
+			<description>Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.</description>
+		</sheet>
+	</element>
+
+        <element name="Origin Feats: Skilled(2024)" type="Feat" source="Player’s Handbook" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_SKILLED">
+		<description>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Origin Feats: Skilled(2024))" supports="Skill||Tool" number="3" />
+		</rules>
+	</element>
+
+        <element name="Origin Feats: Tavern Brawler(2024)" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_TAVERN_BRAWLER">
+		<description>
+			<p>You gain the following benefits:</p>
+			<p class="indent"><i><b>Enhanced Unarmed Strike:</b></i> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p>
+                        <p class="indent"><i><b>Damage Rerolls:</b></i> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
+                        <p class="indent"><i><b>Improvised Weaponry:</b></i> You have proficiency with improvised weapons.</p>
+                        <p class="indent"><i><b>Push:</b></i> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</p>
+		</description>
+		<sheet>
+			<description>When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage. Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll. Also, when you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</description>
+		</sheet>
+	</element>
+
+        <element name="Origin Feats: Tough(2024)" type="Feat" source="Player’s Handbook" id="ID_HAILJOE_FEAT_ORIGIN_FEAT_TOUGH">
+		<description>
+			<p>Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points.</p>
+		</description>
+		<sheet>
+			<description>Your hit points maximum increases by {{tough:hp}}.</description>
+		</sheet>
+		<rules>
+			<stat name="tough:hp" value="level" />
+			<stat name="tough:hp" value="level" />
+			<stat name="hp" value="tough:hp" />
+		</rules>
+	</element>
+        
+</elements>
