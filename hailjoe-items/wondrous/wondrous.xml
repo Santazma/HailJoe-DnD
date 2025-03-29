@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.9">
+    <update version="0.0.10">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -388,6 +388,24 @@
 	      <grant type="Language" id="ID_LANGUAGE_CELESTIAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
               <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
       </rules>
+  </element>
+
+  <element name="Tempest's Gale Essence" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_TEMPESTS_GALE_ESSENCE">
+    <description>
+      <p class="flavor">Bound by the fury of the storm and the whispers of the wind, this shard crackles with the echoes of a forgotten tempest—awaiting the one who will command the sky’s wrath once more.</p>
+      <p>Forged in the heart of a raging tempest, Tempest's Gale Essence is a crystalline shard imbued with the raw, untamed fury of the storm. Its surface shimmers with an ever-shifting glow, flickering with arcs of lightning that dance across its edges like caged thunder. When held, a faint vibration hums beneath the fingertips, as if the winds themselves whisper secrets of an ancient squall.</p>
+      <p>Legends speak of a forgotten warrior who once wielded this essence—one who walked with the storm and commanded the sky’s wrath. Who knows, maybe this power lies dormant, waiting for the touch of one who can rekindle its slumbering might.</p>
+      <p class="indent"><strong><em>Tempest Strike.</em></strong>Once per turn, when making a weapon or spell attack, the wielder may channel the storm’s wrath, dealing an additional 1d6 Lightning Damage on a successful hit.</p>
+      <p class="indent"><strong><em>Windswept Ascent.</em></strong>Once per day, as a bonus action, the wielder can gain a flying speed of 30 feet (hover) for 1 minute. During this time, the wielder can also double their movement speed for only one turn with no action required. When wielder uses this feature, arcs of lightning crackle around their form, and the air trembles with the whisper of a distant thunderstorm.</p>
+    </description>
+    <setters>
+      <set name="keywords">tempest, lightning, thunder</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
   </element>
 </elements>
 
