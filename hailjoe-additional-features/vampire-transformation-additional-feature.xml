@@ -4,7 +4,7 @@
 		<name>Vampire Transformation</name>
 		<description>Vampiric Transformation rules from the Monster Manual redesigned by HailJoe.</description>
 		 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="vampire-transformation-additional-feature.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/vampire-transformation-additional-feature.xml" />
 		</update>
 	</info>
@@ -104,6 +104,7 @@
                                 <li><i><b>Running Water.</b></i> The vampire takes 20 Acid damage if it ends its turn in running water.</li>
                                 <li><i><b>Stake to the Heart.</b></i> If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.</li>
                                 <li><i><b>Sunlight.</b></i> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</li>
+			</ul>
 		</description>
 		<sheet>
 			<description><i><b>Forbiddance.</b></i> The vampire can't enter a residence without an invitation from an occupant.
