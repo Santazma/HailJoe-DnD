@@ -5,7 +5,7 @@
 		<description>Hailjoe's homebrew additional features</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="hailjoe-classes.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes.index" />
+			<file name="hailjoe-additional-features.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/refs/heads/main/hailjoe-additional-features.index" />
 		</update>
 	</info>
 	<files>
