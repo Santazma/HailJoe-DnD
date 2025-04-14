@@ -5,7 +5,7 @@
 		<description>Vampiric Transformation rules from the Monster Manual redesigned by HailJoe.</description>
 		 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="vampire-transformation-additional-feature.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual/lycanthropy-additional-feature.xml" />
+			<file name="vampire-transformation-additional-feature.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/vampire-transformation-additional-feature.xml" />
 		</update>
 	</info>
 
