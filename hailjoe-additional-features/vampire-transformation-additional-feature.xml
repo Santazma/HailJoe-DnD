@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Vampire Transformation</name>
+		<description>Vampiric Transformation rules from the Monster Manual redesigned by HailJoe.</description>
+		 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="vampire-transformation-additional-feature.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual/lycanthropy-additional-feature.xml" />
+		</update>
+	</info>
+
+	<element name="Vampire Transformation" type="Item" source="HailJoe Additional Features" id="ID_HAILJOE_VAMPIRE_TRANSFORMATION">
+		<description>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>Vampires are terrifying hunters and manipulators. They use their powers to shape-shift and bend other creatures' wills as they terrorize and feed on populations over generations. Vampires disguise their accursed, immortal natures, passing as mortals to feed on the blood of the living. While the youngest vampires might be little more than bloodthirsty servants of their creators, the eldest possess incredible cunning and control over supernatural forces of the night. Undead vampires lie dormant during the day, retreating to resting places hidden from foes and the sun's searing rays. Roll on or choose a result from the Vampire Resting Places table to inspire a vampire's grim sanctuary. </p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<select type="Racial Trait" name="Vampire Transformation" supports="Vampire Transformation" optional="true" />
+		</rules>
+	</element>
+
+        <!-- Vampire -->
+
+	<element name="Vampire" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE">
+		<supports>Vampire Transformation</supports>
+		<description>
+			<p>Vampires are powerful undead with the ability to suppress their monstrous thirst and resist their darker urges. In humanoid form, they appear graceful and alluring, with a cold elegance that hints at the predator within. A vampire is often a solitary figure, haunted by the fear of what might become of those around them should their bloodlust take hold. </p>
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_RESISTANCE" />
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_VISION" />
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_MISTY_ESCAPE" />
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_SPIDER_CLIMB" />
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_WEAKNESS" />
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_BITE" />
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_SHAPESHIFT" />
+			<div element="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_CHARM" />
+		</description>
+		<sheet display ="false">
+			<description />
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_VISION" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_MISTY_ESCAPE" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_SPIDER_CLIMB" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_WEAKNESS" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_BITE" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_SHAPESHIFT" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_CHARM" />
+		</rules>
+	</element>
+
+        <element name="Vampire Resistance" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_RESISTANCE">
+		<description>
+			<p>After you become a Vampire, you gain resistance to Necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>After you become a Vampire, you gain resistance to Necrotic damage.</description>
+		</sheet>
+                <rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+
+        <element name="Vampire Vision" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_VISION">
+		<description>
+			<p>After you become a Vampire, your gain darkvision that has a radius of 120 feet.</p>
+		</description>
+		<sheet>
+			<description>After you become a Vampire, your gain darkvision that has a radius of 120 feet.</description>
+		</sheet>
+                <rules>
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+		</rules>
+	</element>
+
+        <element name="Misty Escape" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_MISTY_ESCAPE">
+		<description>
+			<p>If you drop to 0 Hit Points outside of your resting place, you gain advantage on your saving throws. After you successfully stabilize, you can also use your Shapeshift feature to become mist (no action required). While in mist form, you cannot return to your vampire form until you reach your resting place within 2 hours — otherwise, you die. Once there, you revert to your vampire form and become Paralyzed until you regain any Hit Points. You recover 1 Hit Point after spending 1 hour in your resting place.</p>
+		</description>
+		<sheet>
+			<description>If you drop to 0 Hit Points outside of your resting place, you gain advantage on your saving throws. After you successfully stabilize, you can also use your Shapeshift feature to become mist (no action required). While in mist form, you cannot return to your vampire form until you reach your resting place within 2 hours — otherwise, you die. Once there, you revert to your vampire form and become Paralyzed until you regain any Hit Points. You recover 1 Hit Point after spending 1 hour in your resting place.</description>
+		</sheet>
+	</element>
+
+        <element name="Spider Climb" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_SPIDER_CLIMB">
+		<description>
+			<p>The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>
+		</description>
+		<sheet>
+			<description>The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.</description>
+		</sheet>
+	</element>
+
+        <element name="Vampire Weakness" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_WEAKNESS">
+		<description>
+			<p>The vampire has these weaknesses:</p>
+                        <ul>
+                                <li><i><b>Forbiddance.</i></b> The vampire can't enter a residence without an invitation from an occupant.</li>
+                                <li><i><b>Running Water.</i></b> The vampire takes 20 Acid damage if it ends its turn in running water.</li>
+                                <li><i><b>Stake to the Heart.</i></b> If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.</li>
+                                <li><i><b>Sunlight.</i></b> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</li>
+		</description>
+		<sheet>
+			<description><i><b>Forbiddance.</i></b> The vampire can't enter a residence without an invitation from an occupant.
+                        <i><b>Running Water.</i></b> The vampire takes 20 Acid damage if it ends its turn in running water.
+                        <i><b>Stake to the Heart.</i></b> If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.
+                        <i><b>Sunlight.</i></b> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</description>
+		</sheet>
+	</element>
+
+        <element name="Vampire Bite" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_BITE">
+		<description>
+			<p>You can bite a creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. The creature must succeed on a DC (8 + Proficiency + Constitution Modifier) Constitution saving throw or takes 1d4 + your constitution modifier piercing damage plus 1d6 necrotic damage. The target's Hit Point maximum decreases by an amount equal to the total damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control.</p>
+		</description>
+		<sheet>
+			<description>You can bite a creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. The creature must succeed on a DC {{vampire bite:dc}} Constitution saving throw or takes 1d4 + {{constitution:modifier}} piercing damage plus 1d6 necrotic damage. The target's Hit Point maximum decreases by an amount equal to the total damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control.</description>
+		</sheet>
+                <rules>
+                        <stat name="vampire bite:dc" value="constitution:modifier" />
+                        <stat name="vampire bite:dc" value="8" />
+                        <stat name="vampire bite:dc" value="proficiency" />
+                </rules>
+	</element>
+
+        <element name="Vampire Shapeshift" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_SHAPESHIFT">
+		<description>
+			<p>If you aren’t in sunlight or running water, you can shapeshift into a Tiny bat (Speed 5 ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or return to your vampire form. Anything you're wearing transforms with you. While in bat form, you can't speak. Your game statistics, other than your size and Speed, remain unchanged. While in mist form, you can't take actions, speak, or manipulate objects. You are weightless and can enter another creature's space and stop there. If air can pass through a space, you can move through it as mist, but you can’t pass through liquid. You have resistance to all damage except damage taken from sunlight.</p>
+		</description>
+		<sheet>
+			<description>If you aren’t in sunlight or running water, you can shapeshift into a Tiny bat (Speed 5 ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or return to your vampire form. Anything you're wearing transforms with you. While in bat form, you can't speak. Your game statistics, other than your size and Speed, remain unchanged. While in mist form, you can't take actions, speak, or manipulate objects. You are weightless and can enter another creature's space and stop there. If air can pass through a space, you can move through it as mist, but you can’t pass through liquid. You have resistance to all damage except damage taken from sunlight.</description>
+		</sheet>
+	</element>
+
+        <element name="Vampire Charm" type="Racial Trait" source="HailJoe Additional Features" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRE_CHARM">
+		<description>
+			<p>You can cast Charm Person without requiring any spell components. Your spell save DC is (8 + Proficiency + Constitution Modifier). The spell lasts for 24 hours. While Charmed, the target willingly accepts your Bite, and the damage from the Bite does not end the effect. When the spell ends, the target remains unaware that they were ever Charmed by you.</p>
+		</description>
+		<sheet>
+			<description>You can cast Charm Person without requiring any spell components. Your spell save DC is {{vampire save:dc}}. The spell lasts for 24 hours. While Charmed, the target willingly accepts your Bite, and the damage from the Bite does not end the effect. When the spell ends, the target remains unaware that they were ever Charmed by you.</description>
+		</sheet>
+                <rules>
+                        <stat name="vampire save:dc" value="constitution:modifier" />
+                        <stat name="vampire save:dc" value="8" />
+                        <stat name="vampire save:dc" value="proficiency" />
+                </rules>
+	</element>
+        
+</elements>
