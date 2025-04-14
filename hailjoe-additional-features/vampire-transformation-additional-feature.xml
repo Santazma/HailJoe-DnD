@@ -100,16 +100,16 @@
 		<description>
 			<p>The vampire has these weaknesses:</p>
                         <ul>
-                                <li><i><b>Forbiddance.</i></b> The vampire can't enter a residence without an invitation from an occupant.</li>
-                                <li><i><b>Running Water.</i></b> The vampire takes 20 Acid damage if it ends its turn in running water.</li>
-                                <li><i><b>Stake to the Heart.</i></b> If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.</li>
-                                <li><i><b>Sunlight.</i></b> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</li>
+                                <li><i><b>Forbiddance.</b></i> The vampire can't enter a residence without an invitation from an occupant.</li>
+                                <li><i><b>Running Water.</b></i> The vampire takes 20 Acid damage if it ends its turn in running water.</li>
+                                <li><i><b>Stake to the Heart.</b></i> If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.</li>
+                                <li><i><b>Sunlight.</b></i> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</li>
 		</description>
 		<sheet>
-			<description><i><b>Forbiddance.</i></b> The vampire can't enter a residence without an invitation from an occupant.
-                        <i><b>Running Water.</i></b> The vampire takes 20 Acid damage if it ends its turn in running water.
-                        <i><b>Stake to the Heart.</i></b> If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.
-                        <i><b>Sunlight.</i></b> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</description>
+			<description><i><b>Forbiddance.</b></i> The vampire can't enter a residence without an invitation from an occupant.
+                        <i><b>Running Water.</b></i> The vampire takes 20 Acid damage if it ends its turn in running water.
+                        <i><b>Stake to the Heart.</b></i> If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.
+                        <i><b>Sunlight.</b></i> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</description>
 		</sheet>
 	</element>
 
