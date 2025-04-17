@@ -4,7 +4,7 @@
 		<name>Divine Soul DND 2024 Adaptation</name>
 		<description>The Divine Soul Sorcerous Origin from Xanathar’s Guide to Everything adapted to DND 2024 Sorcerer</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="sorcerer-divine-soul-onednd-ua-adaptation.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer/sorcerer-divine-soul-onednd-ua-adaptation.xml" />
 		</update>
 	</info>
@@ -46,7 +46,7 @@
 				<tr><td>Neutrality</td><td><i>protection from evil and good</i></td></tr>
 			</table>
 		</description>
-		<spellcasting name="Sorcerer DND 2024" ability="Charisma" extend="true" prepare="true">
+		<spellcasting name="Sorcerer(2024)" ability="Charisma" extend="true" prepare="true">
 			<list known="true">Cleric, Sorcerer</list>
 		</spellcasting>
 		<sheet display="false"/>
