@@ -46,7 +46,7 @@
 				<tr><td>Neutrality</td><td><i>protection from evil and good</i></td></tr>
 			</table>
 		</description>
-		<spellcasting name="Sorcerer(2024)" ability="Charisma" extend="true" prepare="true">
+		<spellcasting name="Sorcerer" ability="Charisma" extend="true" prepare="true">
 			<list known="true">Cleric, Sorcerer</list>
 		</spellcasting>
 		<sheet display="false"/>
