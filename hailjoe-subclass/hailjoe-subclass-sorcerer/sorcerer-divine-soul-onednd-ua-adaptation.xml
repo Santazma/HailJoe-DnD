@@ -4,7 +4,7 @@
 		<name>Divine Soul DND 2024 Adaptation</name>
 		<description>The Divine Soul Sorcerous Origin from Xanathar’s Guide to Everything adapted to DND 2024 Sorcerer</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.12">
+		<update version="0.0.13">
 			<file name="sorcerer-divine-soul-onednd-ua-adaptation.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer/sorcerer-divine-soul-onednd-ua-adaptation.xml" />
 		</update>
 	</info>
@@ -22,6 +22,10 @@
 			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY" />
 		</description>
 		<sheet display="false" />
+		<spellcasting name="Sorcerer" ability="Charisma" extend="true" prepare="true">
+			<list known="true">Cleric, Sorcerer</list>
+			<extend>Cleric</extend>
+		</spellcasting>
 		<rules>
 			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC" level="3" />
 			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS" level="3" />
