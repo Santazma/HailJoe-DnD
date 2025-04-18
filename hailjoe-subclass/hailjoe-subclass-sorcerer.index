@@ -4,7 +4,7 @@
 		<name>Sorcerer Subclasses</name>
 		<description>HailJoe's Homebrew Sorcerer Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.12">
+		<update version="0.0.13">
 			<file name="hailjoe-subclass-sorcerer.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer.index" />
 		</update>
 	</info>
