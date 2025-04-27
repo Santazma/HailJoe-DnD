@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.10">
+    <update version="0.0.11">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -405,6 +405,25 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">true</set>
       <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="Inevitable Force Necklace" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_INEVITABLE_FORCE_NECKLACE">
+    <description>
+      <p class="flavor">Forged deep within the heart of the frozen North, the Inevitable Force Necklace was a labor of both devotion and necessity. Orv Bezmadan, master smith and cleric of the Forge, saw in the raw, bitter magic of the North a force that could be channeled, but not tamed. Alongside his unlikely apprentice, Neryssa Snow—a scion of ancient draconic blood—they crafted the necklace as a conduit to weave inner strength into the biting cold of magic. While Orv hammered the silvered threads under sacred flames, Neryssa infused them with whispers of her lineage, the ancient breath of frost dragons pulsing within the metal. The result was an artifact that merged heart and ice: a boon to those who embraced their strength, but a beacon for forces drawn to overwhelming power.</p>
+      <p>This intricate necklace is fashioned from braided silver threads, with a centerpiece resembling a frozen, swirling vortex. Upon attunement, a faint chill clings to the wearer’s presence.</p>
+      <p>While attuned to this necklace, when you cast a spell that deals cold damage, you add your Charisma modifier to the damage dealt by the spell.</p>
+      <p class="indent"><strong><em>Flaws:</em></strong></p>
+      <p class="indent"><strong><em>Tempest Strike.</em></strong>Once per turn, when making a weapon or spell attack, the wielder may channel the storm’s wrath, dealing an additional 1d6 Lightning Damage on a successful hit.</p>
+      <p class="indent"><strong><em>Windswept Ascent.</em></strong>Once per day, as a bonus action, the wielder can gain a flying speed of 30 feet (hover) for 1 minute. During this time, the wielder can also double their movement speed for only one turn with no action required. When wielder uses this feature, arcs of lightning crackle around their form, and the air trembles with the whisper of a distant thunderstorm.</p>
+    </description>
+    <setters>
+      <set name="keywords">elemental, necklace, cold</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Uncommon</set>
     </setters>
   </element>
 </elements>
