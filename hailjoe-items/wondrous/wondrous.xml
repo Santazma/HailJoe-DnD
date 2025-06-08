@@ -426,5 +426,28 @@
       <set name="rarity">Uncommon</set>
     </setters>
   </element>
+
+  <element name="Amberblood Heart" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_AMBERBLOOD_HEART">
+    <description>
+      <p class="flavor">It endured. So, too, shall you.</p>
+      <p>This stone sculpture of a heart flows with slow-moving liquid amber. At its center is a crystalline amber core. As part of attuning to the heart, you must hold it against your chest for the duration. Once you attune to it, it magically vanishes into your chest to reinforce your heart and body; faint amber cracks then line your skin.</p>
+      <p>While attuned to this item, you'll have the following abilities:</p>
+      <ul>
+        <li>You have resistance to acid and poison damage.</li>
+        <li>You can't become diseased, petrified, or poisoned</li>
+	<li>For every 10 years that pass, your body ages only 1 year.</li>
+        <li>Your weight doubles.</li>
+      </ul> 
+      <p class="indent"><strong><em>Unbounded Flames of Scions:</em></strong>Once per day, as a bonus action, the wielder can let flames burns the boundaries of mortality. When wielder uses this feature, all the negative effects cleanses for 1 minute. Additionally in this time period, the wielder gains +1 to his attack rolls, and can add his attacking attribute modifier (this could be spellcasting modifier or martial attack attribute modifier such as Dexterity or Strength) to fire and radiant damaging attacks.</p>
+    </description>
+    <setters>
+      <set name="keywords">poison, acid, heart, fire</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
 </elements>
 
