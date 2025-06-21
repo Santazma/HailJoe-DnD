@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.12">
+    <update version="0.0.13">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -438,10 +438,64 @@
 	<li>For every 10 years that pass, your body ages only 1 year.</li>
         <li>Your weight doubles.</li>
       </ul> 
-      <p class="indent"><strong><em>Unbounded Flames of Scions:</em></strong>Once per day, as a bonus action, the wielder can let flames burns the boundaries of mortality. When wielder uses this feature, all the negative effects cleanses for 1 minute. Additionally in this time period, the wielder gains +1 to his attack rolls, and can add his attacking attribute modifier (this could be spellcasting modifier or martial attack attribute modifier such as Dexterity or Strength) to fire and radiant damaging attacks.</p>
+      <p class="indent"><strong><em>Amberblood Surge:</em></strong> As a bonus action, you can activate the heart's latent energy to encase yourself in hardening amber for 1 minute. During this duration, when you take damage in this state, you can use your reaction to reduce that damage by 2d4 (minimum 2). You can use this reaction only once per turn and only transformed in this state. Additionally, while in this duration, your movement leaves behind temporary amber footholds, allowing you to move across liquids and vertical surfaces as if they were solid ground. This feature can be used once per day.</p>
     </description>
     <setters>
       <set name="keywords">poison, acid, heart, fire</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+
+  <element name="Gauntlets of the Frosted Magma Chain" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_GOTFMC">
+    <description>
+      <p class="flavor">The chains that once bound the wind now anchor your foes in burning defiance.</p>
+      <p>Forged from the crushed obsidian plates of Koralith’s armor, these gauntlets are etched with chain motifs glowing faintly like cold embers.</p>
+      <p>While you're in some sort of trance or form (like Rage, Innate Sorcery, Superior Defense etc.), you gain +1 bonus to AC.</p>
+      <p class="indent"><i><b>Magmatic Oppertunist:</b></i> When you miss an attack towards one creature, you can use your reaction to strike again to same creature at the beginning of the creatures turn. You can use this feature once in Short Rest.</p>
+      <p class="indent"><i><b>Momentum Breaker:</b></i> Once per long rest, when you reduce a creature to 0 hit points with an attack, you may immediately use your reaction to either take the Hide action or Instantly move up to half your movement and gain resistance to bludgeoning, piercing, and slashing damage until the start of your next turn.</p>
+    </description>
+    <setters>
+      <set name="keywords">gauntlet, trance</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="Argentflame Diadem" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ARGENTFLAME_DIADEM">
+    <description>
+      <p class="flavor">Even in death, the titan’s core roars — a gift to those who bend flame and fury alike.</p>
+      <p>This magestic crown, jagged crystal pulses with inner flame. It was carved from the smoldering core of Koralith’s fused elemental soul.</p>
+      <p>While attuned, when you cast a spell that deals fire, cold, lightning, or thunder damage, you may deal additional 1d4 damage as per instance. You can use this feature a number of times equal to your Spellcasting modifier, and you regain all expended uses when you finish a Long Rest.</p>
+      <p class="indent"><i><b>Blinding Shockwave:</b></i> Once per long rest, as a reaction to being hit by a melee attack, you can release a shockwave of heat. The attacker takes 2d8 fire damage and must succeed against your Spell Save DC Constitution saving throw or be blinded until the start of their next turn.</p>
+      <p class="indent"><i><b>Ember Refutation:</b></i> When casting a spell that deals fire damage, you can choose to make that spell ignore resistance to fire damage once per short rest.</p>
+    </description>
+    <setters>
+      <set name="keywords">crown, fire, cold, lightning, thunder, shockwave</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement" addition="by by a Sorcerer or Wizard">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="Sundering Cinder Ring" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SUNDERING_CINDER_RING">
+    <description>
+      <p class="flavor">Those who wait to be freed do not deserve freedom.</p>
+      <p>This dark metallic ring has small veins of lava pulsing in a broken rhythm, forged from the ancient echo of destruction that still beats within ancestors heart.</p>
+      <p>While attuned to this item, you can use its Unbounded Flames feature once per long rest.</p>
+      <p class="indent"><i><b>Unbounded Flames:</b></i> When you activete this feature, the unbounded eternal core flames coming from the Hearth-Forge starts to cleanse you and envelops your whole body. For 1 minute, you cleansed from all negative effects that effects you and you become immune to all negative effects. This effects could includes; curses, diseases, corruptions, madness etc. Also in this state, you become immune to fire damage and gain +1 to all of you physical attacks, magical attacks and Save DC's.</p>
+      <p>Your negative effects does not vanishes and after 1 minute, you turn back to your previous state.</p>
+    </description>
+    <setters>
+      <set name="keywords">ring, cleanse, dispel, fire, immune</set>
       <set name="category">Wondrous Items</set>
       <set name="cost" currency="gp">0</set>
       <set name="type">Wondrous Item</set>
