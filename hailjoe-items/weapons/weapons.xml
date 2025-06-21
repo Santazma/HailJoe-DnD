@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.10">
+    <update version="0.0.11">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -308,6 +308,31 @@
     <rules>
       <grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
       <stat name="wisdom" value="2" />
+    </rules> 
+  </element>
+
+  <element name="Valkørr’s Oath" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_VALKORRS_OATH">
+    <description>
+      <p class="flavor">This weapon bears the final echo of a tyrant’s restraint — wield it wisely, lest the land break under your hand.</p>
+      <p>This massive hammer crackles with residual heat and pressure. Forged from obsidian and rune-bound steel, its head glows faintly with dormant volcanic rune sigils.</p>
+      <p>When you attuned to this weapon, you considered as proficient on Mauls. Additionally your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher without them.</p>
+      <p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. This bonus does not consist on magical attacks. Also you can use this weapon as an arcane focus.</p>
+      <p class="indent"><i><b>Sigil Warrior:</b></i> Whenever you hit a creature with this weapon, you can choose to erupt a rune. This maul has 5 rune sigils. When you erupt a rune, choose a target. The target must succeed on a DC 14 Constitution saving throw or take an additional 1d6 fire damage and be pushed 5 feet away from you.</p>
+      <p class="indent"><i><b>Valkørr’s Fury:</b></i> Once per long rest, as an action, you can slam the hammer into the ground, causing a volcanic tremor. All creatures within 40 ft long 20 ft wide line must make a DC 15 Dexterity saving throw or take 3d6 fire and 3d6 bludgeoning damage.</p>
+    </description>
+    <setters>
+      <set name="keywords">maul</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="scythe">Weapon</set>
+      <set name="attunement" addition="by by a Cleric, Warlock or Paladin">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="weapon">Maul</set>
+    </setters> 
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+      <stat name="strength:score:set" value="19" bonus="base" />
     </rules> 
   </element>
 </elements>
