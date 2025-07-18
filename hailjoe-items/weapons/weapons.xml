@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.13">
+    <update version="0.0.14">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -365,7 +365,7 @@
       <set name="name-format">Enspelled {{parent}}</set>
     </setters> 
     <rules>
-      <select type="Spell" name="Spell, Enspelled Weapon" supports="Cantrip,1,2,3,4,5,6,7,8,(Conjuration||Divination||Evocation||Necromancy||Transmutation)" />
+      <select type="Spell" name="Spell, Enspelled Weapon" supports="Conjuration||Divination||Evocation||Necromancy||Transmutation" />
     </rules> 
   </element>
   
