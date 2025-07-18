@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.11">
+    <update version="0.0.12">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -335,4 +335,38 @@
       <stat name="strength:score:set" value="19" bonus="base" />
     </rules> 
   </element>
+
+  <element name="Enspelled Weapon" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ENSPELLED_WEAPON">
+    <description>
+      <p>Bound into this weapon is a spell whose level ranges from Cantrip to 8th level. The spell is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains 1d6 expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.</p>
+      <table>
+				<thead>
+				<tr><td>Spell Level</td><td>Spell Attack Bonus</td><td>Spell Save DC</td></tr>
+				</thead>
+				<tr><td>Cantrip</td><td>+5</td><td>DC 13</td></tr>
+				<tr><td>1st Level</td><td>+5</td><td>DC 13</td></tr>
+				<tr><td>2nd Level</td><td>+5</td><td>DC 13</td></tr>
+				<tr><td>3rd Level</td><td>+7</td><td>DC 15</td></tr>
+				<tr><td>4th Level</td><td>+7</td><td>DC 15</td></tr>
+				<tr><td>5th Level</td><td>+9</td><td>DC 17</td></tr>
+				<tr><td>6th Level</td><td>+9</td><td>DC 17</td></tr>
+				<tr><td>7th Level</td><td>+10</td><td>DC 18</td></tr>
+				<tr><td>8th Level</td><td>+10</td><td>DC 18</td></tr>
+    </table>    
+    </description>
+    <setters>
+      <set name="keywords">spell, magic</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+      <set name="name-format">Enspelled {{parent}}</set>
+    </setters> 
+    <rules>
+      <select type="Spell" name="Spell, Enspelled Weapon" supports="8,(Conjuration||Divination||Evocation||Necromancy||Transmutation)" />
+    </rules> 
+  </element>
+  
 </elements>
