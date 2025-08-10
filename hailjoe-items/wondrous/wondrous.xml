@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.14">
+    <update version="0.0.15">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -501,6 +501,64 @@
       <set name="type">Ring</set>
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+
+  <element name="Mark of the Silent Rebirth (Drawn)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MARK_OF_THE_SILENT_REBIRTH_DRAWN">
+    <description>
+      <p>Legends whisper of the last High Priest of Vidar, whose flesh was carved in the shape of the god’s own True Name at the moment Vidar fell silent. The rite did not restore the god, but it anchored the priest’s soul in the twilight between life and death — neither wholly living, nor truly gone. To bear this carving is to let the final breath of Vidar bind your body, defy decay, and channel the black flame of unmaking.</p>
+      <p>To wear the Mark is to hear the echo of a god’s last breath. Vidar’s silence lingers in the carving’s cold touch—a reminder that even deities may fade, but their will lingers like a knife between the ribs. The black flame it wields is not yours to command; you are merely the hand that holds it, the voice that whispers its name. And when the fire flickers, you’ll wonder: does it answer your prayers… or is it the other way around?</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong>While attuned to this carving in any form, you gain advantage on death saving throws and also you gain advantage against undead creatures.</p>
+    </description>
+    <setters>
+      <set name="keywords">carving, curse</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="Mark of the Silent Rebirth (Tattooed)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MARK_OF_THE_SILENT_REBIRTH_TATTOOED">
+    <description>
+      <p>Legends whisper of the last High Priest of Vidar, whose flesh was carved in the shape of the god’s own True Name at the moment Vidar fell silent. The rite did not restore the god, but it anchored the priest’s soul in the twilight between life and death — neither wholly living, nor truly gone. To bear this carving is to let the final breath of Vidar bind your body, defy decay, and channel the black flame of unmaking.</p>
+      <p>To wear the Mark is to hear the echo of a god’s last breath. Vidar’s silence lingers in the carving’s cold touch—a reminder that even deities may fade, but their will lingers like a knife between the ribs. The black flame it wields is not yours to command; you are merely the hand that holds it, the voice that whispers its name. And when the fire flickers, you’ll wonder: does it answer your prayers… or is it the other way around?</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong>While attuned to this carving in any form, you gain advantage on death saving throws and also you gain advantage against undead creatures.</p>
+	  <p class="indent"><strong><em>Eldritch Carving Effects (Tattooed).</em></strong>Vidar’s sigil shields your form at the brink of death. While you are below half your hit point maximum, you gain resistance to necrotic damage and your weapon attacks deal an additional 1d6 radiant or necrotic damage (your choice each attack). Additionally, whenever you restore hit points to a creature that is at 0 HP, they also gain temporary hit points equal to your Wisdom modifier + your Cleric level.</p>
+    </description>
+    <setters>
+      <set name="keywords">carving, curse</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+
+  <element name="Mark of the Silent Rebirth (Scarified)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MARK_OF_THE_SILENT_REBIRTH_SCARIFIED">
+    <description>
+      <p>Legends whisper of the last High Priest of Vidar, whose flesh was carved in the shape of the god’s own True Name at the moment Vidar fell silent. The rite did not restore the god, but it anchored the priest’s soul in the twilight between life and death — neither wholly living, nor truly gone. To bear this carving is to let the final breath of Vidar bind your body, defy decay, and channel the black flame of unmaking.</p>
+      <p>To wear the Mark is to hear the echo of a god’s last breath. Vidar’s silence lingers in the carving’s cold touch—a reminder that even deities may fade, but their will lingers like a knife between the ribs. The black flame it wields is not yours to command; you are merely the hand that holds it, the voice that whispers its name. And when the fire flickers, you’ll wonder: does it answer your prayers… or is it the other way around?</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong>While attuned to this carving in any form, you gain advantage on death saving throws and also you gain advantage against undead creatures.</p>
+	  <p class="indent"><strong><em>Eldritch Carving Effects (Tattooed).</em></strong>Vidar’s sigil shields your form at the brink of death. While you are below half your hit point maximum, you gain resistance to necrotic damage and your weapon attacks deal an additional 1d6 radiant or necrotic damage (your choice each attack). Additionally, whenever you restore hit points to a creature that is at 0 HP, they also gain temporary hit points equal to your Wisdom modifier + your Cleric level.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Scarified).</em></strong>When inscribed via the scarification ritual, the Mark of the Silent Rebirth awakens Vidar’s blessing and curse fully and enables you to use Death's Rebirth feature.</p>
+	  <p class="indent"><strong><em>Death's Rebirth.</em></strong>When you are reduced to 0 hit points but not killed outright, the carving flares with black fire. You immediately regain hit points equal to half your maximum HP and gain temporary hit points equal to your Wisdom score. For 1 minute:</p>
+		<ul>
+            <li>You are under the effect of Death Ward spell.</li>
+            <li>You gain resistance to all damage except force damage.</li>
+            <li>Your melee weapon attacks deal an additional 2d6 necrotic or radiant damage (your choice when you activate this feature).</li>
+            <li>When the minute ends, you drop to 0 hit points and start making death saving throws as normal with advantage. You cannot benefit from this feature again until you finish a long rest.</li>
+        </ul>
+    </description>
+    <setters>
+      <set name="keywords">carving, curse</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
     </setters>
   </element>
 </elements>
