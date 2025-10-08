@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Rods Staffs and Wands</name>
+                <description/>
+                <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="rods-staffs-wands.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/rods-staffs-wands/rods-staffs-wands.xml"" />
+		</update>
+	</info>
+	
+	<element name="Wand of Whispers" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WAND_OF_WHISPERS">
+		<description>
+			<p>These kind of wands are sometimes found in the hands of Whisper Mages in White Citadel, posing as simple townsfolk. Its magic wax and iron design resembles a candle and candlestick. The wand produces a harmless, magical flame that is indistinguishable from normal candlelight, although the wax never melts or changes shape. The flame is harmless and casts bright light in a 5-foot radius and dim light for another 5 feet. While holding the wand, you can extinguish or relight the flame as a bonus action.</p>
+                        <p>This wand has 7 charges. While holding the wand, you can use an action to expend some of its charges to cast either the message (no charges) or sending spell (3 charges) from it. Alternatively, when you cast a spell of 5th level or lower while holding the wand, you can expend 1 of the wand's charges per spell slot level to ignore the spell's verbal components. Any spell that requires a target to hear its verbal component gains no benefit from this property.</p>
+                        <p>The wand regains 1d6 + 1 expended charges daily at dusk. If you expend the wand's last charge, roll a d20. On a 1, the magical flame burns out and the wand becomes a mundane candle and candlestick.</p>
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">7</set>
+		</setters>
+	</element>
