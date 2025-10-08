@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.15">
+    <update version="0.0.16">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -559,6 +559,28 @@
       <set name="type">Carving</set>
       <set name="attunement">true</set>
       <set name="rarity">Legendary</set>
+    </setters>
+  </element>
+
+  <element name="Spirit Board" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SPIRIT_BOARD">
+    <description>
+      <p>This ornate wooden board has the letters of the Common alphabet printed on one side, alongside the words "Yes" and "No" and symbols representing "Weal" and "Woe." The board comes with a heart-shaped, wooden planchette. This planchette must be resting on the lettered side of the board for the board's magic to function.</p>
+      <p>This board has 3 charges and regains 1 expended charge daily at dawn. While touching the planchette, you can take 1 minute to cast one of the spells on the table below. The table indicates how many charges you must expend to cast the spell. As you cast the spell, you call on the spirits of the dead to help guide the planchette across the board's surface, answering your questions by pointing to the letters or words on the board.</p>
+				<table>
+					<thead>
+					<tr><td class="left">SPELL</td><td>CHARGE COST</td></tr>
+					</thead>
+					<tr><td class="left">Augury</td><td>1</td></tr>
+					<tr><td class="left">Commune</td><td>3</td></tr>
+				</table>
+    </description>
+    <setters>
+      <set name="keywords">Augury, Commune, Spirit</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Rare</set>
     </setters>
   </element>
 </elements>
