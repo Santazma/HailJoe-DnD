@@ -4,8 +4,8 @@
 		<name>Rods Staffs and Wands</name>
                 <description/>
                 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
-			<file name="rods-staffs-wands.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/rods-staffs-wands/rods-staffs-wands.xml"" />
+		<update version="0.0.2">
+			<file name="rods-staffs-wands.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/rods-staffs-wands/rods-staffs-wands.xml" />
 		</update>
 	</info>
 	
