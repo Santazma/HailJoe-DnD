@@ -4,7 +4,7 @@
         <name>Rods staffs and Wands</name>
         <description>Homebrew Rods staffs and Wands</description>
         <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="rods-staffs-wands.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/rods-staffs-wands.index" />
         </update>
     </info>
