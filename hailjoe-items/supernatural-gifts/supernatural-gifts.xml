@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -83,7 +83,7 @@
 		</rules>
     </element>
 
-	<element name="Hive Mind Perfection Abruption" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_HIVE_MIND_PERFECTION_ABRUPTION">
+	<element name="Hive Mind Perfection Abruption" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_HIVE_MIND_PERFECTION_ABRUPTION">
         <description>
             <p>The result of a chaotic event within the hive mind caused your individual will to splinter and flee, aborting the process of perfection. Though the Ceremorphosis was not completed, certain manifestations of this interrupted perfection are now observable in you.</p>
             <p class="indent"><i><b>Flawless Physiology:</b></i> The process of perfection eliminated all blemishes from your appearance, defined your musculature, and eradicated physiological weak points. Any curses, diseases, and similar afflictions currently affecting you immediately end. Furthermore, you gain immunity to the diseased condition.</p>
@@ -94,5 +94,21 @@
             <set name="type">Blessing</set>
             <set name="slot">gift</set>
         </setters>
+		<rules>
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_FLAWLESS PHYSIOLOGY" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_ABRUPT_OPTIMIZATION" />
+        </rules>
+    </element>
+	<element name="Flawless Physiology" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_FLAWLESS PHYSIOLOGY">
+        <compendium display="false" />
+        <description>
+            <p>The process of perfection eliminated all blemishes from your appearance, defined your musculature, and eradicated physiological weak points. Any curses, diseases, and similar afflictions currently affecting you immediately end. Furthermore, you gain immunity to the diseased condition.</p>
+        </description>
+    </element>
+		<element name="Abrupt Optimization" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_ABRUPT_OPTIMIZATION">
+        <compendium display="false" />
+        <description>
+            <p>Your body has been permanently altered and optimized. From this moment onward, none of your Ability Scores can be lower than 10. If an effect would reduce one of your Ability Scores below 10, that Ability Score instead becomes 10 for the duration of the effect.</p>
+        </description>
     </element>
 </elements>
