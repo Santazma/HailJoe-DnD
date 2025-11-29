@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.14">
+    <update version="0.0.15">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -366,6 +366,26 @@
     </setters> 
     <rules>
       <select type="Spell" name="Spell, Enspelled Weapon" supports="Conjuration||Divination||Evocation||Necromancy||Transmutation" />
+    </rules> 
+  </element>
+
+  <element name="Spellrender" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SPELLRENDER">
+    <description>
+      <p class="flavor">These forty dark siblings, known only by the cold moniker of Spellrender, are the grim testament to the White Citadel's ceaseless campaign against the arcane arts. Forged in bitter seclusion by the shackled artisans of Wano—each blow of the hammer a coerced prayer for freedom—the steel catches the light with an unnatural, bleached luminescence. It is a sword of dread uniformity, possessing a duality that speaks volumes of its purpose: one edge is truth, honed for the swift dispatch of the corporeal, while the opposing serration is a coil of subtle, magical malice. Upon striking with this wicked reverse, the blade does not seek mere flesh; it inflicts a wound that is intrinsically resonant with the Weave, compelling the rawest essence of any subsequent spell to violently recoil upon its caster. Thus, the Spellrender ensures that the very act of defiance, the casting of a forbidden word, becomes the engine of the arcanist's own undoing.</p>
+      <p>This magic weapon has the finesse property. When you equipped this weapon, you considered as proficient on Longswords. Also when you hit a creature with this weapon, you can choose to hit it with the inverted, serrated side of the blade: the damage from the attack is halved, and the target suffers a magical gash until the start of your next turn. The first time a creature begins to cast a spell while affected by the gash, the wound flares and deals 2d8 force damage to the target. Once you apply a gash, this property of the weapon can't be used again until the start of your next turn or until the target casts a spell.</p>
+    </description>
+    <setters>
+      <set name="keywords">longsword</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Uncommon</set>
+      <set name="enhancement">0</set>
+      <set name="weapon">Longsword</set>
+    </setters> 
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
     </rules> 
   </element>
   
