@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.15">
+    <update version="0.0.16">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -387,6 +387,46 @@
     <rules>
       <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
     </rules> 
+  </element>
+
+  <element name="Whip of the Copper Eel" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WHIP_OF_THE_COPPER_EEL">
+    <description>
+      <p class="flavor">It is said that this whip was first forged in the heart of a sunken storm, where the breath of the sea met the crackle of the sky. The metal itself seems to weep with the memory of deep-water currents from the The Cobalt Abyss, always cool to the touch and unnervingly slick, yet possessing a startling kinetic grace. Tales speak of its first wielder, a Mage-Captain whose name is Royston the Parson, sought to make the very ocean his domain, and who could lash out with a coil of lightning that neither wave nor tide could smother. To hold it is to feel a restless, surging power, a silent promise that in the darkest depths, you shall still command the light.</p>
+      <p>This magic whip hums with electricity. It has 4 charges and regains all expended charges daily at dawn. When you hit a creature with this whip, you can expend 1 or more of its charges to deal an extra 1d6 lightning damage to that creature for each charge you spend. You don't suffer the negative effects of underwater fighting when you make an attack with this weapon.</p>
+	  <p>When you hit an underwater creature with this whip, it automatically takes an extra 1d6 lightning damage from the attack—as if you had expended a charge from it. When this happens, you can still spend charges from the whip to deal additional lightning damage to the creature. If you do, each other creature of your choice within 10 feet of the target must succeed on a DC 13 Constitution saving throw or take lightning damage equal to half the amount dealt to the target.</p>
+    </description>
+    <setters>
+      <set name="keywords">whip</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Uncommon</set>
+      <set name="enhancement">0</set>
+      <set name="weapon">Whip</set>
+    </setters> 
+  </element>
+
+  <element name="Timepiercer" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_TIMEPIERCER">
+    <description>
+      <p class="flavor">The origin of the Timepiercer is shrouded in the swirling dust storms of the Great Glass Waste, a place where the sun is said to shatter the hours into sand. It is rumored to be the final work of the reclusive chronomancers and dunamancers of the forgotten city of Aeterna, who sought not to conquer time, but to borrow brief, focused moments of it. The exquisite quartz hilt, forever holding its paradoxical hourglass, pulses with the faint echo of countless lost seconds. When its Command Word is uttered, the very essence of the dunes seems to answer, coalescing into a shimmering blade of perfectly arrested time. To wield it is to touch the hem of destiny, granting the holder the terrifying ability to either accelerate the world into a breathless blur or drag it into a grinding, heavy crawl—a power that must be treated with the solemn reverence reserved for the movements of the cosmos.</p>
+      <p>This item appears to be a sword hilt that has a small hole on either end of it. The hilt is made of clear quartz and contains an hourglass with sand inside it. Despite the holes on the hilt, the sand never seems to flow out of the hourglass. You can speak the hilt's command word as a bonus action to cause it to form a thin blade made of sand at its end. The hourglass spills sand from the bottom of the hilt that circulates up and around to form the guard and blade of the rapier before it returns to the hourglass again through the hole at the top of the hilt. You can speak the hilt's command word again to cause all the sand to return to the hourglass. While the blade is formed, you gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+	  <p>While holding the hilt, you can use it to cast the haste or slow spell (save DC 16). You have advantage on Constitution saving throws you make in order to maintain concentration on a spell cast in this way. Once a spell has been cast using the hilt, it can't be used to cast that spell again until the following dawn. The sands in the hourglass move quickly while you concentrate on a haste spell cast in this way, or more slowly when you concentrate on a slow spell.</p>
+    </description>
+    <setters>
+      <set name="keywords">rapier</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="weapon">Rapier</set>
+    </setters>
+	<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_HASTE" />
+	  <grant type="Spell" id="ID_PHB_SPELL_SLOW" />
+    </rules>
   </element>
   
 </elements>
