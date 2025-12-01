@@ -4,7 +4,7 @@
     <name>armors</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="armors.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors/armors.xml"/>
     </update>
   </info>
@@ -112,7 +112,7 @@
     </setters>
   </element>
 
-  <element name="Bardic Leathers" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_BARDIC_LEATHERS">
+  <element name="Protector's Ward" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_PROTECTORS_WARD">
     <description>
       <p class="flavor">The Protector's Ward is more than steel and iron; it is the crystallized promise of the de Courtenay lineage — a lesser noble family under Elgatus Family's patronage —, forged not in a smithy, but in the crucible of countless generations of sacrifice. Its surface, bearing the mirrored crest of two knights, tells the silent history of a house whose duty has always been to stand between danger and the vulnerable. It was first raised against the devastating wrath of the Godswars, deflected the shadow-wrought blades during the chaos of the Second Extinguishing, stood fast in the brutal press of the Drow Tunnel Incursions, and shone as a beacon of resistance during the desperate charge of the Rainbow Rebellion. To inherit this shield is to inherit a binding oath. When the time for succession arrives, the eldest receives the Ward, not as a symbol of power, but as a commitment to be the unmoving anchor in the storm. In battle, when a loved one is threatened, the shield responds, not with a simple block, but with an instantaneous, desperate transposition—placing the wielder exactly where the blow will land, a tradition of instantaneous, absolute self-sacrifice that is the true, enduring magic of the de Courtenay name.</p>
       <p>This shield depicts a pair of knights reflected across its center. While holding this shield, you can use your reaction when a friendly creature that you can see within 15 feet of you is hit by an attack from a hostile creature. You then teleport to the friendly creature's space, pushing it 5 feet away from you to an unoccupied space of your choice when you do. You take the damage from the attack, even if the total of the attack roll doesn't meet or exceed your AC. Once this property of the shield has been used, it can't be used again until the next dawn.</p>
