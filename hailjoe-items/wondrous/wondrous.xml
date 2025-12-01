@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.16">
+    <update version="0.0.17">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -581,6 +581,40 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">false</set>
       <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="Moonwick Candle" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MOONWICK_CANDLE">
+    <description>
+      <p class="flavor">In the secret, shadowed cloisters of Zahlera's Weavers, the subtle arts of creation are always laced with a touch of divine mischief. Though their allegiance lies with the radiant deity of arcana, it is whispered that these artisans, in a gesture of familial respect—or perhaps quiet jest—crafted the Moonwick Candles for the devotees of Alluna, the silent sister of the sky. The candle is not poured, but grown, the gritty, cool wax drawn from moon-dusted earth found only in the secluded, lightless valley of White Linn’s Basin. When the flame ignites, it is not fire that consumes the wick, but a sliver of borrowed starlight: a gentle, unsettlingly cool azure that seems to drink the shadows around it. For the faithful of Alluna, this light is a physical manifestation of her distant gaze, allowing them to see through the night as if it were a thin veil. It is the perfect, temporary gift from one divine house to another, a brief, bright truce in the everlasting cosmic theatre.</p>
+      <p>This candle is made from a gritty wax that, when burnt, creates a cool blue flame. Its hollow silver base is shaped in a crescent with star-shaped holes punched in its sides. While the candle burns, the holes in its base softly glow, and small twinkles of starlight burst from the flickering flame.</p>
+      <p>The candle's magic is activated when the candle is lit, which requires an action. While lit, the candle sheds dim light in a 15-foot radius. Each creature within the candle's light gains darkvision out to a range of 60 feet.</p>
+      <p>After burning for 1 hour, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle's total burn time.</p>
+    </description>
+    <setters>
+      <set name="keywords">candle, nightvision</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+  </element>
+
+  <element name="Second Fiddle" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SECOND_FIDDLE">
+    <description>
+      <p class="flavor">Within the austere, ivory walls of the White Citadel, under the watchful, unblinking gaze of the Inquisition, stands the hallowed Lasolfa College—a place where music is less an art and more a sacred, disciplined weapon. The Second Fiddle is not merely an instrument; it is the physical manifestation of a tradition known across the continent as the Sonata of the Eight Voices. Once every solstice, eight students, the most promising aspirants of their class, meet in the College's sunken amphitheater to engage in a grueling, dawn-to-dusk duel of melody and rhetoric. The prize for this melodic trial, a testament to technical mastery and sheer will, is this humble, worn fiddle. Its wood is not exotic, but it hums with the layered echoes of generations of talent, each scratch a victory, each imperfection a forgotten performance. When the victor of this Sonata finally holds it, the instrument seems to sigh, ready to lend its accumulated magic—a quickened note, a sudden surge of perfect pitch—to bolster their allies, a solemn reminder that even the most gifted soloist often requires the perfect 'second' voice to achieve true glory.</p>
+      <p>A hand-me-down fiddle that's been enchanted over time by the sheer number of bards to have played it. You have a +3 bonus to Charisma (Performance) checks made with this fiddle. In addition, if you're a bard and are holding the fiddle when a creature other than you who can see and hear you rolls a Bardic Inspiration die, you can use your reaction to play a magical note on the fiddle. When you do, the creature can roll the Bardic Inspiration die again and choose either result. You can use this reaction before or after the creature rolls the Bardic Inspiration die, but before the GM says whether the roll succeeds or fails. Once this property has been used, it can't be used again until the next dawn.</p>
+    </description>
+    <setters>
+      <set name="keywords">viol, violin, instrument</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Uncommon</set>
     </setters>
   </element>
 </elements>
