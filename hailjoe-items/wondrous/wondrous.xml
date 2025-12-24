@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.20">
+    <update version="0.0.21">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -637,7 +637,7 @@
 	  <set name="slot">neck</set>
     </setters>
 	<rules>
-      <stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+      <stat name="ac:misc" value="1" />
     </rules>
   </element>
 
