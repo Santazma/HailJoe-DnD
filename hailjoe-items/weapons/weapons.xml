@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.16">
+    <update version="0.0.17">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -426,6 +426,30 @@
 	<rules>
       <grant type="Spell" id="ID_PHB_SPELL_HASTE" />
 	  <grant type="Spell" id="ID_PHB_SPELL_SLOW" />
+    </rules>
+  </element>
+
+  <element name="Greataxe of the Rift Weaver" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_GREATAXE_OF_THE_RIFT_WEAVER">
+    <description>
+      <p class="flavor">Born from the silent, freezing expanses of the Abyssal Slip, the Greataxe of the Rift Weaver was once the sacred tool of Valerius the Unspoken, a legendary Rift Hunter who did not stand alone against the tides of the void. During the War of the Shattered Constellations, Valerius marched alongside the master-choristers of the Harmonium Guild of Melodia, their celestial anthems briefly pushing back the hollow will of The Dark One. Yet, within the Void-Scarred Nebula, the music died; the Guild was silenced in a cacophony of shadow, and Valerius was struck down as the last note of Melodia’s bravery faded into the dark. Claimed as a trophy of that grand defeat, the weapon—a masterpiece of gravity-defying chitin—was dragged into the depths by Mortarossa, who embedded the blade within her own thorax to stifle its cosmic resonance with her profane rot. For centuries, the axe hummed a mournful, rhythmic vibration against her ribs, a funeral dirge for the Guild brothers it could no longer protect. Now, freed from its fleshy prison, the axe retains its unnerving, weightless grace and a vengeful hunger; it strikes not merely at the body, but at the fabric of existence, seeking to unweave the reality of its foes with the same cold, harmonic precision that once echoed through the halls of Melodia.</p>
+      <p>This weapon is forged from a single piece of incredibly dense, blackened otherworldly chitin, harvested from the fungal queen's remains. Though it retains the Greataxe shape (a heavy, two-handed, wickedly sharp blade), its weight and balance are unnaturally light, designed for precise, devastating strikes. The edge shimmers with faint, chaotic energy. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+	  <p class="indent"><strong><em>Finesse Adaptation.</em></strong>When you attuned to this weapon, you immediately considered proficient with Greataxes. Also you can wield this weapon with the Finesse property but not with full efficiency. When you attack with it, you can use your Dexterity modifier, instead of your Strength modifier, for the attack and damage rolls. When you wield this weapon as a finesse weapon, its damage reduces to 1d8 instead of 1d12.</p>
+	  <p class="indent"><strong><em>Rift Stalker's Corrupted Strike.</em></strong>When you hit a creature with this weapon, you can choose to deal an extra 1d8 Force damage. If you reduce a creature to 0 hit points with this damage, the creature is instantly disintegrated into a pile of pale spores and eldritch dust.</p>
+	  <p class="indent"><strong><em>Grappler's Cosmis Bane.</em></strong>When you successfully hit a creature that is Grappled or Restrained by any effect, the extra damage increases to 2d8 Force damage. Dealing damage in this manner, also ignores resistance and immunity to Force damage.</p>
+	  <p class="indent"><strong><em>Rift Hunter's Precision.</em></strong>When you roll a 1 or 2 on a damage die for this weapon, you can choose to reroll one die once per turn. You must use the new roll, even if the new roll is a 1 or 2.</p>
+    </description>
+    <setters>
+      <set name="keywords">greataxe</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="weapon">Greataxe</set>
+    </setters>
+	<rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
     </rules>
   </element>
   
