@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.17">
+    <update version="0.0.18">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -481,7 +481,7 @@
       <set name="category">Wondrous Items</set>
       <set name="cost" currency="gp">0</set>
       <set name="type">Wondrous Item</set>
-      <set name="attunement" addition="by by a Sorcerer or Wizard">true</set>
+      <set name="attunement" addition="by a Sorcerer or Wizard">true</set>
       <set name="rarity">Rare</set>
     </setters>
   </element>
@@ -616,6 +616,104 @@
       <set name="attunement">false</set>
       <set name="rarity">Uncommon</set>
     </setters>
+  </element>
+
+  <element name="Amulet of the Fungal Heartstone" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_AMULET_OF_THE_FUNGAL_HEARTSTONE">
+    <description>
+      <p class="flavor">When Mortarossa, the Flesh-Shed Queen, finally succumbed to the stillness of death, her final shedding was not one of renewal, but of collapse. As her grand, fungal-choked form dissolved into a miasma of weeping spores, this amulet remained amidst the discarded husks—a singular, calcified fragment of her eldritch heart. The jade gem at its center still shivers with a sickening, rhythmic heat, as if the Queen’s consciousness continues to writhe within the stone, forever seeking a new vessel to graft itself upon. To wear the Heartstone is to feel the phantom weight of her decaying majesty; your skin hardens like the chitin of the abyss, and your breath carries the faint, sickly-sweet scent of the Marrow-Rot Gardens. It is a heavy crown for any victor, for while it guards the body against the ravages of poison and decay, it whispers of a hunger that even the grave could not silence—a promise that from the ruins of the old flesh, something far more terrible shall always bloom.</p>
+      <p>This amulet is carved from the solidified exoskeleton of an Eldritch entity, containing a pulsating, jade-green gem at its center. The gem subtly shifts, appearing damp and alive.</p>
+	  <p class="indent"><strong><em>Eldritch Resilience.</em></strong>You gain +1 to your AC and have advantage on saving throws against the Poisoned and Necrotic damage dealing spells and conditions.</p>
+	  <p class="indent"><strong><em>Spore Sight (3/Long Rest).</em></strong>You can hurl concentrated poisonous spores at a point you can see within 120 ft. A 20 ft. radius sphere of spores erupts at chosen point. Each creature in the area must make a DC 16 Dexterity Saving Throw. On a failed save, they take 3d8 Poison Damage + 3d8 Necrotic Damage and are Poisoned. On a successful save, they take half damage and are not Poisoned.</p>
+    </description>
+    <setters>
+      <set name="keywords">amulet, fungal, fungi</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+	<rules>
+      <stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+    </rules>
+  </element>
+
+  <element name="Shard of Shifting Chroma" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SHARD_OF_SHIFTING_CHROMA">
+    <description>
+      <p class="flavor">Long ago, during the Cataclysm of the Prismatic Veil, it was whispered that the sky itself cracked like a fallen mirror, spilling the raw, unrefined hues of the cosmos into the world below. While many such splinters vanished into the annals of myth, the Flesh-Shed Queen, Mortarossa, was the one who plucked this jagged fragment from the smoldering crater where it fell, dragging it into the suffocating gloom of her Marrow-Rot Gardens. For eons, she hoarded the Shard as her most prized arcane theft, attempting to stifle its celestial brilliance with her own creeping corruption. Yet, the stone remained a cold and hungry void that drinks the very light it inhabits. To gaze into its depths now is to witness a trapped, defiant tempest; a violent, swirling vortex where the sapphire thunder of the High Peaks and the sun-gold fires of Aeterna clash eternally against the emerald stains of the Queen’s touch. To grasp the Shard is to reclaim a fragment of a storm that forgot how to end—a stolen relic that vibrates with a frantic, chaotic rhythm, waiting to unleash its spectrum of destruction upon the world it was once forbidden to see.</p>
+      <p>This jagged, multifaceted crystal shard is unnaturally cold to the touch and seems to absorb the surrounding light. Its interior is a swirling vortex of intense, flickering shades of yellow, blue, and green, and their myriad derivatives. The colors shift and blur rapidly, hinting at uncontrollable energies trapped within.</p>
+	  <p class="indent"><strong><em>Arcane Resonance.</em></strong>You can use this shard as an arcane focus. While holding it, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells.</p>
+	  <p class="indent"><strong><em>Chaotic Surge (1/Short Rest).</em></strong>When you successfully hit a creature with a spell attack, or when a creature fails a saving throw against one of your spells, you can use a bonus action to expend the shard's charge. When you expand a charge, you roll a d4 in order to determine certain damage type. You gain advantage on your next spell attack roll or impose disadvantage on the next saving throw against one of your spells, determined by a d4 roll:</p>
+	    <ul>
+          <li><b><i>Yellow (Radiant/Fire).</i></b>Advantage or Disadvantage applies to a spell that deals Radiant or Fire damage.</li>
+		  <li><b><i>Blue (Cold/Lightning).</i></b>Advantage or Disadvantage applies to a spell that deals Cold or Lightning damage.</li>
+          <li><b><i>Green (Poison/Necrotic).</i></b>Advantage or Disadvantage applies to a spell that deals Poison or Necrotic damage.</li>
+          <li><b><i>White (Any Spell).</i></b>Advantage or Disadvantage applies to a spell that deals any type of damage.</li>
+        </ul>
+    </description>
+    <setters>
+      <set name="keywords">shard, arcana, focus, color</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement" addition="by a Spellcaster">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+	<rules>
+      <stat name="spellcasting:attack" value="2" />
+    </rules>
+  </element>
+
+  <element name="Myceliaweave Circlet" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SHARD_OF_SHIFTING_CHROMA">
+    <description>
+      <p class="flavor">Woven from the fibrous, yearning nerves of the Marrow-Rot Gardens, the Myceliaweave Circlet is no mere prize of war, but the true, undying essence of the Flesh-Shed Queen herself, seeking not a master, but a new vessel to inhabit. It is a silent architect of rot that once claimed a nameless mortal and sculpted her, through centuries of agonizing molts and grotesque transformations, into the entity the world feared as Mortarossa. To place it upon one's brow is to invite the white, searching threads of the mycelium to bridge the gap between wood and bone, stitching their cold, thrumming consciousness into the wearer's very thoughts until the distinction between the self and the soil’s hunger begins to dissolve. In its presence, the deadly nectar of the abyss becomes a restorative wine, fortifying the blood with a vigor that defies mortal frailty, yet this vitality is but a hollow lure—a creeping corruption that slowly replaces the wearer’s humanity with the silent, vegetative chorus of the deep. With a mere command, the circlet calls forth the dormant spores within the fallen, weaving rot into a blooming sentinel of moss and vine that mirrors the wearer's own inevitable decay. This crown is a jealous god; it does not merely sit upon the head but consumes it, digging its roots into the spirit to ensure that the new vessel shall walk the same path of shedding and sorrow, until they too are nothing more than a hollowed, fungal throne for the Queen's eternal reign.</p>
+      <p>This fungus-covered wooden circlet is riddled with a tangled web of mycelia. While wearing it, you are always under the effects of the <em>Speak With Plants</em> spell. This version of the spell only allows you to understand and speak to fungi, instead of all plants. In addition, your Constitution score increases by 2, to a maximum of 22, and you are both immune to poison damage and condition. Whenever you would take poison damage, you can instead spend one Hit Die to magically regain hit points (no action required). When you do, roll the Hit Die, add your Constitution modifier, and regain a number of hit points equal to the total.</p>
+	  <p>The circlet can also be used to cause new fungal growth to spring forth under your command. While wearing it, you can cause a patch of mushrooms and other fungi to grow from a 5-foot square of soil that you touch over the course of 1 minute. Alternatively, you can use this property to grow this fungus on a Large or smaller corpse. When you do, you can choose to reanimate that creature. This creature uses the statistics for a shambling mound, regardless of its previous form or abilities, with the exception that it has immunity to poison damage and regains hit points when subjected to poison damage, instead of lightning damage. It remains for 8 hours or until it's reduced to 0 hit points, at which point it collapses and can't be used as a target for this property again.</p>
+	  <p>The reanimated creature is considered a fungus for the purposes of being able to communicate with it and is friendly to you and your companions. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the creature, it defends itself from hostile creatures but otherwise takes no actions. In combat, it shares your initiative count, but takes its turn immediately after yours. Once the circlet has been used to reanimate a creature in this way, it can't do so again until the next dawn.</p>
+    </description>
+    <setters>
+      <set name="keywords">crown, fungi, mycelid</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+    </setters>
+	<rules>
+      <stat name="constitution" value="2" />
+	  <stat name="constitution:max" value="2" />
+	  <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+    </rules>
+  </element>
+
+  <element name="Kitsune Mask of the Silver Ghost" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_KITSUNE_MASK_OF_THE_SILVER_GHOST">
+    <description>
+      <p class="flavor">Deep within the Forest of the Whispering Silk, where the boundary between Wano and the Spirit Realm thins to a translucent veil, the air carries the scent of chilled ozone and ancient cedar. It was here, during the Rite of the Pale Mist—a night when the restless shadows of the woods threatened to swallow the very stars—that the great Yokai Shirogane-no-Yurei saw the tremor in young Sayuri’s hands. He did not offer words of hollow comfort, for his voice was the rustle of winter wind, but instead, he reached into the swirling silver mists and wove the spirit-energy into form. As he placed the Mask of the Silver Guardian into her trembling palms, the oppressive silence of the forest broke; the porcelain was warm, thrumming with the heartbeat of a protector who had been both mother and father to a child of two worlds. 'Wear this when the dark grows teeth, little spark,' the Yokai’s presence seemed to hum against her mind. Now, whenever Sayuri dons the mask, the terrifying vastness of Wano shrinks, replaced by the phantom warmth of a silver-white tail wrapped around her shoulders, and her fear ignites into a defiant, spectral fire that burns brighter than any mortal flame.</p>
+      <p>This porcelain mask, painted with silver tears, does not hide the wearer; it reveals the world as it truly is.</p>
+	  <p class="indent"><strong><em>Comfort of the White Silver.</em></strong>While wearing this mask, you have advantage on saving throws against being Frightened.</p>
+	  <p class="indent"><strong><em>Foxfire Whispers.</em></strong>You can cast the Dancing Lights cantrip at will. The lights appear as small, floating blue-silver foxes.</p>
+	  <p class="indent"><strong><em>Spirit-Veil Vision.</em></strong>While wearing the mask, your eyes perceive the "Breath of the Unseen." You can see invisible creatures and objects within 60 feet of you. To your eyes, they appear as flickering, translucent silver outlines. Furthermore, you can see the "Spirit Tether" of any creature—a faint glowing cord that reveals if a creature is possessed, charmed, or under effect in any type of an illusion.</p>
+	  <p class="indent"><strong><em>Spirit Caller’s Resonance.</em></strong>If you are using your Innate Sorcery feature while wearing this mask, your magic starts to ignite with the Shirogane Foxfire:</p>
+	    <ul>
+          <li><b><i>Foxfire Lash.</i></b>Once per turn, when you hit a creature with a spell attack or a creature fails a saving throw against one of your spells, you deal an extra 1d6 Fire damage. This spiritual flame ignores fire resistance.</li>
+		  <li><b><i>Soothing Embers.</i></b>When you deal this extra fire damage by this manner, you gain Temporary Hit Points equal to the fire damage dealt with this feature. But unlike normal temporary hit points, these can be added together (stacking) and last until your Innate Sorcery feature ends.</li>
+        </ul>
+    </description>
+    <setters>
+      <set name="keywords">fox, foxfire, kitsune</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Rare</set>
+    </setters>
+	<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+    </rules>
   </element>
 </elements>
 
