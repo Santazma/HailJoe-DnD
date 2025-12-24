@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.19">
+    <update version="0.0.20">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -655,7 +655,7 @@
         </ul>
     </description>
     <setters>
-      <set name="keywords">shard, arcana, focus, color</set>
+      <set name="keywords">focus, color</set>
       <set name="category">Wondrous Items</set>
       <set name="cost" currency="gp">0</set>
       <set name="weight" lb="1">1 lb.</set>
@@ -666,10 +666,11 @@
     </setters>
 	<rules>
       <stat name="spellcasting:attack" value="2" />
+	  <stat name="spellcasting:dc" value="2" />
     </rules>
   </element>
 
-  <element name="Myceliaweave Circlet" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SHARD_OF_SHIFTING_CHROMA">
+  <element name="Myceliaweave Circlet" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MYCELIWEAVE_CIRCLET">
     <description>
       <p class="flavor">Woven from the fibrous, yearning nerves of the Marrow-Rot Gardens, the Myceliaweave Circlet is no mere prize of war, but the true, undying essence of the Flesh-Shed Queen herself, seeking not a master, but a new vessel to inhabit. It is a silent architect of rot that once claimed a nameless mortal and sculpted her, through centuries of agonizing molts and grotesque transformations, into the entity the world feared as Mortarossa. To place it upon one's brow is to invite the white, searching threads of the mycelium to bridge the gap between wood and bone, stitching their cold, thrumming consciousness into the wearer's very thoughts until the distinction between the self and the soil’s hunger begins to dissolve. In its presence, the deadly nectar of the abyss becomes a restorative wine, fortifying the blood with a vigor that defies mortal frailty, yet this vitality is but a hollow lure—a creeping corruption that slowly replaces the wearer’s humanity with the silent, vegetative chorus of the deep. With a mere command, the circlet calls forth the dormant spores within the fallen, weaving rot into a blooming sentinel of moss and vine that mirrors the wearer's own inevitable decay. This crown is a jealous god; it does not merely sit upon the head but consumes it, digging its roots into the spirit to ensure that the new vessel shall walk the same path of shedding and sorrow, until they too are nothing more than a hollowed, fungal throne for the Queen's eternal reign.</p>
       <p>This fungus-covered wooden circlet is riddled with a tangled web of mycelia. While wearing it, you are always under the effects of the <em>Speak With Plants</em> spell. This version of the spell only allows you to understand and speak to fungi, instead of all plants. In addition, your Constitution score increases by 2, to a maximum of 22, and you are both immune to poison damage and condition. Whenever you would take poison damage, you can instead spend one Hit Die to magically regain hit points (no action required). When you do, roll the Hit Die, add your Constitution modifier, and regain a number of hit points equal to the total.</p>
