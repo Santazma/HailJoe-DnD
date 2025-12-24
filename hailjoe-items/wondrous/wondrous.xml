@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.18">
+    <update version="0.0.19">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -599,6 +599,7 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">false</set>
       <set name="rarity">Uncommon</set>
+	  <set name="slot">onehand</set>
     </setters>
   </element>
 
@@ -633,6 +634,7 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
+	  <set name="slot">neck</set>
     </setters>
 	<rules>
       <stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
@@ -660,6 +662,7 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement" addition="by a Spellcaster">true</set>
       <set name="rarity">Very Rare</set>
+	  <set name="slot">onehand</set>
     </setters>
 	<rules>
       <stat name="spellcasting:attack" value="2" />
@@ -681,6 +684,7 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">true</set>
       <set name="rarity">Legendary</set>
+	  <set name="slot">head</set>
     </setters>
 	<rules>
       <stat name="constitution" value="2" />
@@ -710,6 +714,7 @@
       <set name="type">Wondrous Item</set>
       <set name="attunement">false</set>
       <set name="rarity">Rare</set>
+	  <set name="slot">head</set>
     </setters>
 	<rules>
       <grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
