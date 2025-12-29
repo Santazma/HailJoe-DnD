@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.6">
+        <update version="0.0.7">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -104,11 +104,64 @@
         <description>
             <p>The process of perfection eliminated all blemishes from your appearance, defined your musculature, and eradicated physiological weak points. Any curses, diseases, and similar afflictions currently affecting you immediately end. Furthermore, you gain immunity to the diseased condition.</p>
         </description>
+		<sheet>
+            <description>The process of perfection eliminated all blemishes from your appearance, defined your musculature, and eradicated physiological weak points. Any curses, diseases, and similar afflictions currently affecting you immediately end. Furthermore, you gain immunity to the diseased condition.</description>
+    	</sheet>
     </element>
-		<element name="Abrupt Optimization" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_ABRUPT_OPTIMIZATION">
+	<element name="Abrupt Optimization" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_ABRUPT_OPTIMIZATION">
         <compendium display="false" />
         <description>
             <p>Your body has been permanently altered and optimized. From this moment onward, none of your Ability Scores can be lower than 10. If an effect would reduce one of your Ability Scores below 10, that Ability Score instead becomes 10 for the duration of the effect.</p>
         </description>
+		<sheet>
+            <description>Your body has been permanently altered and optimized. From this moment onward, none of your Ability Scores can be lower than 10. If an effect would reduce one of your Ability Scores below 10, that Ability Score instead becomes 10 for the duration of the effect.</description>
+    	</sheet>
     </element>
+
+	<element name="Mark of the Sanguine Heart" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_MARK_OF_THE_SANGUINE_HEART">
+        <description>
+			<p class="flavor">Through the dark arts of a high-born vampire, your life was tethered back to the material plane. In place of your natural heartbeat, a jagged, obsidian-like mark pulses with a predatory rhythm. This brand is not just a scar; it is a conduit for the ancient blood magic of the forbidden Vampiric Dark Arts.</p>
+            <p class="indent"><i><b>Vampiric Conduit:</b></i> You learn one spell of your choice from the <em>Vampire Blood Magic</em> spell list. You can cast this spell once at its 4th-level version without expending a spell slot or requiring material components. You regain the ability to cast the spell in this way when you finish a short or long rest. Your spellcasting ability for this spell is varies by chosen spell.</p>
+			<p class="indent"><i><b>Blood Bound Beacon:</b></i> Your soul is no longer private. The vampire who granted you this gift knows your exact location at all times, regardless of distance or across different planes of existence. You cannot be hidden from the Creator by any magical or non-magical means. Additionally, as a bonus action, the Creator can speak through your mark, allowing their voice to whisper directly into your mind.</p>
+            <p class="indent"><i><b>Sanguine Weakness:</b></i> Your body has been sharing some of the vampire weaknesses. Your resistances and immunities can bypassed if the attack is made with a Silvered weapons or any other silvered manners. Additionally, you can't regain any hit points after getting hit with silvered attacks until start of your next turn.</p>
+        </description>
+        <setters>
+            <set name="category">Supernatural Gifts</set>
+            <set name="type">Blessing</set>
+            <set name="slot">gift</set>
+        </setters>
+		<rules>
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRIC_CONDUIT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_BLOOD_BOUND_BEACON" />
+			<grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_SANGUINE_WEAKNESS" />
+        </rules>
+    </element>
+	<element name="Vampiric Conduit" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRIC_CONDUIT">
+        <compendium display="false" />
+        <description>
+            <p>You learn one spell of your choice from the <em>Vampire Blood Magic</em> spell list. You can cast this spell once at its 4th-level version without expending a spell slot or requiring material components. You regain the ability to cast the spell in this way when you finish a short rest. Your spellcasting ability for this spell is varies by chosen spell.</p>
+        </description>
+		<sheet usage="1/Short Rest">
+            <description>You can cast the chosen <em>Vampire Blood Magic</em> spell once at its 4th-level version without expending a spell slot or requiring material components. You regain the ability to cast the spell in this way when you finish a short rest. Your spellcasting ability for this spell is varies by chosen spell.</description>
+    	</sheet>
+    </element>
+	<element name="Blood Bound Beacon" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_BLOOD_BOUND_BEACON">
+        <compendium display="false" />
+        <description>
+            <p>Your soul is no longer private. The vampire who granted you this gift knows your exact location at all times, regardless of distance or across different planes of existence. You cannot be hidden from the Creator by any magical or non-magical means. Additionally, as a bonus action, the Creator can speak through your mark, allowing their voice to whisper directly into your mind.</p>
+        </description>
+		<sheet>
+            <description>Your soul is no longer private. The vampire who granted you this gift knows your exact location at all times, regardless of distance or across different planes of existence. You cannot be hidden from the Creator by any magical or non-magical means.</description>
+    	</sheet>
+    </element>
+	<element name="Sanguine Weakness" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_SANGUINE_WEAKNESS">
+        <compendium display="false" />
+        <description>
+            <p>Your body has been sharing some of the vampire weaknesses. Your resistances and immunities can bypassed if the attack is made with a Silvered weapons or any other silvered manners. Additionally, you can't regain any hit points after getting hit with silvered attacks until start of your next turn.</p>
+        </description>
+		<sheet>
+            <description>Your body has been sharing some of the vampire weaknesses. Your resistances and immunities can bypassed if the attack is made with a Silvered weapons or any other silvered manners. Additionally, you can't regain any hit points after getting hit with silvered attacks until start of your next turn.</description>
+    	</sheet>
+    </element>
+	
 </elements>
