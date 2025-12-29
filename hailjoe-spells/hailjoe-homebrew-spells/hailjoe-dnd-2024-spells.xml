@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's DND 2024 Spells</name>
 		<description>DND 2024 Spells from the HailJoe.</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
 		</update>
 	</info>
@@ -279,7 +279,7 @@
 	</element>
 
 	<element name="True Strike DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TRUE_STRIKE">
-		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
+		<supports>Artificer, Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p>
 		</description>
