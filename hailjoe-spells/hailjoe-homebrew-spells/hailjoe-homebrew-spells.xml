@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's Homebrew Spells</name>
 		<description>Newmade Homebrew Spells from the HailJoe.</description>
-		<update version="0.0.19">
+		<update version="0.0.20">
 			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 		</update>
 	</info>
@@ -882,4 +882,210 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+
+	<element name="Shadowbolt" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOWBOLT">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You launch a projectile infused with shadow and blood at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d6 necrotic damage and becomes affected by <em>Leech</em> condition.</p>
+			<p class="indent">The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, bolt, leech</set>
+			<set name="level">0</set>
+			<set name="school" addition="Vampire Blood Magic">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a drop of blood</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Blood Rite" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BLOOD_RITE">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>Your body swirls with a barrier of crimson darkness until the beginning of your next turn. The next successful attack against you deals half damage and causes you to emanate a violent pulse of shadow.</p>
+			<p class="indent">Creatures of your choice in a 5-foot radius around you become affected by <em>Leech</em> condition, take 1d6 necrotic damage, and must succeed on a Strength saving throw or be pushed back 10 feet.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each spell slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, counter, leech</set>
+			<set name="level">1</set>
+			<set name="school" addition="Vampire Blood Magic">Abjuration</set>
+			<set name="time">1 Reaction, which you take when you are targeted by an attack</set>
+			<set name="duration">1 Round</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Carrion Swarm" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CARRION_SWARM">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You summon a bloody swarm of bats that fly forth in a 15-foot cone. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 5d4 necrotic damage on a failed save, or half as much damage on a successful one. Each creature of your choice within the cone becomes affected by <em>Leech</em> condition whether they succeed the saving throw or not.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each spell slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, bat, swarm, leech</set>
+			<set name="level">1</set>
+			<set name="school" addition="Vampire Blood Magic">Conjuration</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bat skull</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Blood Rage" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BLOOD_RAGE">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You unleash a primal, bloodthirsty battle cry that bolsters your allies and drains your enemies.</p>
+			<p class="indent">Choose any number of willing creatures within 15 feet of you that can hear you to regain 2d4 hit points. Unconscious creatures do not benefit from this healing. Creatures not chosen to receive healing become affected by <em>Leech</em> condition.</p>
+			<p class="indent">Additionally, until the end of your next turn you can take an special action to with this manner take the Attack (one weapon attack only), Dash, or Disengage action.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d4 for each spell slot level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, rage, heal, leech</set>
+			<set name="level">2</set>
+			<set name="school" addition="Vampire Blood Magic">Transmutation</set>
+			<set name="time">1 Bonus Action</set>
+			<set name="duration">1 Round</set>
+			<set name="range">15 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Sanguine Coil" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SANGUINE_COIL">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You hurl three bloody orbs. You can hurl them at one target within range or at several seperate targets. Make a ranged spell attack for each orb thrown to hostile creatures. You are considered to automatically hit allied creatures if they are willing. On a hit, you choose if the target regains 1d6 hit points, or becomes affected by <em>Leech</em> condition and take 1d6 necrotic damage.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, both the healing and damage increases by 1d6 for each spell slot level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, orb, heal, leech</set>
+			<set name="level">2</set>
+			<set name="school" addition="Vampire Blood Magic">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">A small ruby-colored glass bead</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Blood Fountain" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BLOOD_FOUNTAIN">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>A pillar of blood erupts from a point you can see within range on a 10-foot radius, 20-foot high cylinder. Willing creatures of your choice in the area regain hit points equal to 1d6 plus your spellcasting ability modifier. If you are not a spellcaster, instead you can use your Constitution modifier.</p>
+			<p class="indent">Creatures in the area not chosen to receive healing become affected by <em>Leech</em> condition and must make a Dexterity saving throw, taking 2d6 necrotic damage on a failed save, or half as much on a successful one.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, both the healing and damage increases by 1d6 for each spell slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, pillar, heal, leech</set>
+			<set name="level">3</set>
+			<set name="school" addition="Vampire Blood Magic">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">A small glass vial filled with rose-scented vinegar</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Veil of Blood" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_VEIL_OF_BLOOD">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>A violent rush of blood spurs you onward, causing you to double your speed until the end of your next turn.</p>
+			<p class="indent">Your next successful attack within the duration against a living creature triggers a nova of blood to erupt, dealing 3d6 necrotic damage and affecting target creature with <em>Leech</em> condition. You then regain half the amount of necrotic damage dealt.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each spell slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, rush, heal, leech</set>
+			<set name="level">3</set>
+			<set name="school" addition="Vampire Blood Magic">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Crimson Beam" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CRIMSON_BEAM">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You channel a swirling beam of shadow and blood which passes through all creatures in a 30-foot line. You can use a bonus action to change the direction of the beam 15 feet to the left or right.</p>
+			<p class="indent">Willing creatures of your choice caught in the beam regain 2d8 hit points. Creatures not chosen to receive healing become affected by <em>Leech</em> condition and must make a Dexterity saving throw, taking 4d8 necrotic damage on a failed save or half as much on a successful one.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, both the healing and damage increases by 1d8 for each spell slot level above 4th.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, laser, beam, heal, leech</set>
+			<set name="level">4</set>
+			<set name="school" addition="Vampire Blood Magic">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self (30-foot line)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Heart Strike" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_HEART_STRIKE">
+		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You dash forward in line up to 30 feet with savage ferocity, affecting creatures with <em>Leech</em> condition. Make a melee spell attack on each creature in the line. If you're not a spellcaster, you can use your Strength or Dexterity for attacking instead. Each successful attack deals 2d8 necrotic damage to a creature and heals you for 1d8 hit points.</p>
+			<p class="indent">The first creature successfully hit erupts in a nova of blood at the beginning of their next turn and must make a Constitution saving throw, taking 2d8 necrotic damage on a failed save or half as much on a successful one. That creature and all creatures within a 15-foot radius of them become affected by <em>Leech</em> condition.</p>
+			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, both the healing and damage increases by 1d8 for each spell slot level above 4th.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, sanguine, dash, heal, leech</set>
+			<set name="level">4</set>
+			<set name="school" addition="Vampire Blood Magic">Necromancy</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
 </elements>
