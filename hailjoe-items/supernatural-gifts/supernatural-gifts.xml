@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -144,6 +144,9 @@
 		<sheet usage="1/Short Rest">
             <description>You can cast the chosen <em>Vampire Blood Magic</em> spell once at its 4th-level version without expending a spell slot or requiring material components. You regain the ability to cast the spell in this way when you finish a short rest. Your spellcasting ability for this spell is varies by chosen spell.</description>
     	</sheet>
+		<rules>
+			<select type="Spell" name="Spell, Vampiric Conduit" supports="1,2,3,4" />
+		</rules>
     </element>
 	<element name="Blood Bound Beacon" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_BLOOD_BOUND_BEACON">
         <compendium display="false" />
