@@ -3,12 +3,12 @@
 	<info>
 		<name>Paladin(2024)</name>
 		<description>The Paladin class from DND 2024.</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-paladin-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-paladin-onednd-ua.xml" />
 		</update>
 	</info>
 
-	<element name="Paladin(2024)" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_ROGUE_ONEDND_UA">
+	<element name="Paladin(2024)" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_PALADIN_ONEDND_UA">
 		<description>
 			<p>Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god’s altar, in a sacred glade before nature spirits, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin’s oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.</p>
 			<p class="indent">Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield: power to heal the injured, smite their foes, and protect the helpless and those who fight at their side.</p>
