@@ -3,7 +3,7 @@
 	<info>
 		<name>Paladin(2024)</name>
 		<description>The Paladin class from DND 2024.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="class-paladin-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-paladin-onednd-ua.xml" />
 		</update>
 	</info>
@@ -156,11 +156,11 @@
 			This feature has no effect on undead and constructs.</description>
 		</sheet>
 		<rules>
-			<stat name="lay on hands:hp pool" value="level:paladin" />
-			<stat name="lay on hands:hp pool" value="level:paladin" />
-			<stat name="lay on hands:hp pool" value="level:paladin" />
-			<stat name="lay on hands:hp pool" value="level:paladin" />
-			<stat name="lay on hands:hp pool" value="level:paladin" />
+			<stat name="lay on hands:hp pool" value="level:paladin(2024)" />
+			<stat name="lay on hands:hp pool" value="level:paladin(2024)" />
+			<stat name="lay on hands:hp pool" value="level:paladin(2024)" />
+			<stat name="lay on hands:hp pool" value="level:paladin(2024)" />
+			<stat name="lay on hands:hp pool" value="level:paladin(2024)" />
 		</rules>
 	</element>
     
@@ -281,7 +281,7 @@
         <description>
             <p>As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.</p>
         </description>
-        <sheet alt="Divine Sense" action="Action" usage="Channel Divinity">
+        <sheet alt="Divine Sense" action="Bonus Action" usage="Channel Divinity">
             <description>Detect Celestials, Fiends, and Undead, or consecrated/desecrated places within 60ft for 10 minutes.</description>
         </sheet>
     </element>
