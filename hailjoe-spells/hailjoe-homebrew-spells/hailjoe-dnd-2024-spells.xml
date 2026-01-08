@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's DND 2024 Spells</name>
 		<description>DND 2024 Spells from the HailJoe.</description>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
 		</update>
 	</info>
@@ -295,6 +295,28 @@
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent">a weapon with which you have proficiency and that is worth 1+ CP</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Divine Smite DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DIVINE_SMITE">
+		<supports>Paladin</supports>
+		<description>
+			<p>The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d8 for each spell slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Bonus Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
