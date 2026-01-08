@@ -1,1 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Oath of Vengeance (2024)</name>
+        <description>The Oath of Vengeance paladin subclass from DnD 2024.</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+        <update version="0.0.1">
+            <file name="paladin-vengeance-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-vengeance-onednd-ua.xml" />
+        </update>
+    </info>
 
+    <element name="Oath of Vengeance(2024)" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_PALADIN_OATH_OF_VENGEANCE_2024">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p>
+            <h5 class="caption">TENETS OF VENGEANCE</h5>
+            <p>The tenets of the Oath of Vengeance vary by paladin, but all revolve around punishing transgressors by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice.</p>
+            <p class="indent"><strong><em>Show the wicked no mercy.</em></strong> My purity is not as important as the elimination of evil.</p>
+            <p class="indent"><strong><em>Fight injustice and its causes.</em></strong> Where there is a choice between fighting my sworn foes and combating lesser evils, I choose the greater evil.</p>
+            <p class="indent"><strong><em>Aid those harmed by injustice.</em></strong> No matter the cost, I will protect the innocent and the weak from those who would harm them.</p>
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_OATH_SPELLS" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_VOW_OF_ENMITY" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_AVENGER" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_SOUL_OF_VENGEANCE" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_AVENGING_ANGEL" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_OATH_SPELLS" level="3"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_VOW_OF_ENMITY" level="3"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_AVENGER" level="7"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_SOUL_OF_VENGEANCE" level="15"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_AVENGING_ANGEL" level="20"/>
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>OATH OF VENGEANCE SPELLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td><em>bane, hunter's mark</em></td></tr>
+                <tr><td>5th</td><td><em>hold person, misty step</em></td></tr>
+                <tr><td>9th</td><td><em>haste, protection from energy</em></td></tr>
+                <tr><td>13th</td><td><em>banishment, dimension door</em></td></tr>
+                <tr><td>17th</td><td><em>hold monster, scrying</em></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="3" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" level="3" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="5" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HASTE" level="9" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="13" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Paladin" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="17" spellcasting="Paladin" prepared="true" />
+        </rules>
+    </element>
+
+    <element name="Channel Divinity: Vow of Enmity" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_VOW_OF_ENMITY">
+        <description>
+            <p>When you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You gain Advantage on attack rolls against the creature for 1 minute or until you use this feature again.</p>
+            <p class="indent">If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).</p>
+        </description>
+        <sheet usage="Channel Divinity">
+            <description>When you take the Attack action, target a creature within 30ft. You have Advantage on attack rolls against it for 1 minute. If it drops to 0 HP, you can transfer this vow to another creature within 30ft (no action required).</description>
+        </sheet>
+    </element>
+
+    <element name="Relentless Avenger" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_AVENGER">
+        <description>
+            <p>Your supernatural focus helps you close off a foe’s retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature’s Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When you hit with an Opportunity Attack, the target's Speed becomes 0. You can then move up to half your Speed without provoking Opportunity Attacks.</description>
+        </sheet>
+    </element>
+
+    <element name="Soul of Vengeance" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_SOUL_OF_VENGEANCE">
+        <description>
+            <p>Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it’s within range.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When your Vow of Enmity target hits or misses with an attack, you can make a melee attack against it if it is within range.</description>
+        </sheet>
+    </element>
+
+    <element name="Avenging Angel" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VENGEANCE_AVENGING_ANGEL">
+        <description>
+            <p>As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p>
+            <p class="indent"><strong>Flight.</strong> You sprout spectral wings on your back, have a Fly Speed of 60 feet, and can hover.</p>
+            <p class="indent"><strong>Frightful Aura.</strong> Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Long Rest">
+            <description>For 10 minutes, you have 60ft Fly Speed (hover). Enemies starting their turn in your Aura must pass a Wisdom Save (DC {{paladin:spellcasting:dc}}) or be Frightened (Advantage on attacks against them). You can expend a 5th-level spell slot to reuse this feature.</description>
+        </sheet>
+    </element>
+
+</elements>
