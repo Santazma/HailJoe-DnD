@@ -4,11 +4,12 @@
 		<name>Paladin Subclasses</name>
 		<description>HailJoe's Homebrew Cleric Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="hailjoe-subclass-paladin.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin.index" />
 		</update>
 	</info>
 	<files>
 		<file name="paladin-palanthir.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-palanthir.xml" />
+		<file name="paladin-vengeance-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-paladin/paladin-vengeance-onednd-ua.xml" />
 	</files>
 </index>
