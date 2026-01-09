@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.21">
+    <update version="0.0.22">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -721,5 +721,69 @@
       <grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
     </rules>
   </element>
+
+  <element name="The Wrath God's Mark (Drawn)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_WRATH_GODS_MARK_DRAWN">
+    <description>
+	  <p class="flavor">This strip of branded flesh, the sole remnant of the first vessel of Wrath, still pulses with the embers of an unquenchable fire. Legend tells that this mark was born from the hollow grief of a father who watched his children trampled during an Eldritch Hunt. In that moment, when pure sorrow curdled into unrestrained hatred, the man was forged into an instrument of ruin, blessed—or quizás cursed—with the strength to lay the world to waste. To halt the fury that was devouring his mind, the Radiant Church World’s Temple flayed the skin from his living frame and entombed him within their deepest vaults. To bear this mark is to feel more than your own blood coursing through your veins; it is to feel the low, ancient growl of vengeance. With every heartbeat, the carving grows warmer, promising the power to shatter all before you—yet demanding that you fling wide the gates of your mind to an eternal storm. Is this rage but a tool, or a master that consumes you piece by piece? Once this mark is etched into your form, you no longer merely fight; you become the scream of a god’s unfinished retribution.</p>
+      <p>This strip of flesh, carved with jagged, thorn-like patterns, is said to be the remains of the first bearer of the powers of Wrath. Even now, the faint warmth of rage lingers in his flesh, as if he still thirsts for blood.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Drawn).</em></strong> When you roll Initiative, you can let the mark consume you for 1 minute (no action required). You gain the following benefits:</p>
+        <ul>
+          <li><strong>Hand of Destruction.</strong> When you take the Attack action on your turn, you can make an additional attack as part of the same action.</li>
+          <li><strong>Wrathful Resistance.</strong> Choose one damage type from among Bludgeoning, Piercing, or Slashing. You gain Resistance to that damage type.</li>
+        </ul>
+      <p>After the duration, you must succeed on a DC 15 Wisdom saving throw or gain a long-term madness. Once you use this carving, you can't do so again until you finish a Long Rest.</p>
+    </description>
+    <setters>
+      <set name="keywords">carving, wrath, destruction</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Rare</set>
+    </setters>
+  </element>
+
+  <element name="The Wrath God's Mark (Tattooed)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_WRATH_GODS_MARK_TATTOOED">
+    <description>
+	  <p class="flavor">This strip of branded flesh, the sole remnant of the first vessel of Wrath, still pulses with the embers of an unquenchable fire. Legend tells that this mark was born from the hollow grief of a father who watched his children trampled during an Eldritch Hunt. In that moment, when pure sorrow curdled into unrestrained hatred, the man was forged into an instrument of ruin, blessed—or quizás cursed—with the strength to lay the world to waste. To halt the fury that was devouring his mind, the Radiant Church World’s Temple flayed the skin from his living frame and entombed him within their deepest vaults. To bear this mark is to feel more than your own blood coursing through your veins; it is to feel the low, ancient growl of vengeance. With every heartbeat, the carving grows warmer, promising the power to shatter all before you—yet demanding that you fling wide the gates of your mind to an eternal storm. Is this rage but a tool, or a master that consumes you piece by piece? Once this mark is etched into your form, you no longer merely fight; you become the scream of a god’s unfinished retribution.</p>
+      <p>The mark is tattooed onto your form, its jagged lines pulsing with a dull red glow when your temper rises. It no longer just sits upon your skin; it begins to weave into your very spirit.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Tattooed).</em></strong> When you let the mark consume you (no action required when rolling Initiative), you gain the following improved benefits for 1 minute:</p>
+        <ul>
+          <li><strong>Chosen Nemesis.</strong> At the start of your turn, choose a Hostile creature you can see within 120 feet of you to serve as your nemesis. You have Advantage on attack rolls made against the chosen creature and on all saving throws against spells and other magical effects from the chosen creature. Once you choose a creature in this way, you can't choose a new creature until the previously chosen one has either died or 24 hours have passed.</li>
+          <li><strong>Hand of Destruction.</strong> When you take the Attack action on your turn, you can make an additional attack as part of the same action.</li>
+          <li><strong>Wrathful Resistance.</strong> You have Resistance to all Bludgeoning, Piercing, and Slashing damage.</li>
+        </ul>
+      <p>After the duration, you must succeed on a DC 18 Wisdom saving throw or gain a long-term madness. Once you use this carving, you can't do so again until you finish a Long Rest.</p>
+    </description>
+    <setters>
+      <set name="keywords">carving, wrath, tattoo</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+
+  <element name="The Wrath God's Mark (Scarified)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_WRATH_GODS_MARK_SCARIFIED">
+    <description>
+	  <p class="flavor">This strip of branded flesh, the sole remnant of the first vessel of Wrath, still pulses with the embers of an unquenchable fire. Legend tells that this mark was born from the hollow grief of a father who watched his children trampled during an Eldritch Hunt. In that moment, when pure sorrow curdled into unrestrained hatred, the man was forged into an instrument of ruin, blessed—or quizás cursed—with the strength to lay the world to waste. To halt the fury that was devouring his mind, the Radiant Church World’s Temple flayed the skin from his living frame and entombed him within their deepest vaults. To bear this mark is to feel more than your own blood coursing through your veins; it is to feel the low, ancient growl of vengeance. With every heartbeat, the carving grows warmer, promising the power to shatter all before you—yet demanding that you fling wide the gates of your mind to an eternal storm. Is this rage but a tool, or a master that consumes you piece by piece? Once this mark is etched into your form, you no longer merely fight; you become the scream of a god’s unfinished retribution.</p>
+      <p>The mark is permanently carved into your flesh through a ritual of pain, making you a true vessel of destruction. The rage is no longer a temporary state; it is who you are.</p>
+      <p class="indent"><strong><em>Eldritch Carving Effects (Scarified).</em></strong> The mark imbues you, permanently granting you the benefits of the tattooed carving. Additionally, you gain the following benefit:</p>
+        <ul>
+		  <li><strong>Chosen Nemesis.</strong> At the start of your turn, choose a Hostile creature you can see within 120 feet of you to serve as your nemesis. You have Advantage on attack rolls made against the chosen creature and on all saving throws against spells and other magical effects from the chosen creature. Once you choose a creature in this way, you can't choose a new creature until the previously chosen one has either died or 24 hours have passed.</li>
+          <li><strong>Hand of Destruction.</strong> When you take the Attack action on your turn, you can make an additional attack as part of the same action.</li>
+          <li><strong>Wrathful Resistance.</strong> You have Resistance to all Bludgeoning, Piercing, and Slashing damage.</li>
+          <li><strong>Ultimate Nemesis.</strong> When you choose a nemesis with your Chosen Nemesis benefit, attack rolls against you by creatures other than the nemesis have Disadvantage.</li>
+        </ul>
+      <p>At dawn each day, you must succeed on a DC 20 Wisdom saving throw or gain a long-term madness.</p>
+    </description>
+    <setters>
+      <set name="keywords">carving, wrath, scarified, legendary</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Carving</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Legendary</set>
+    </setters>
+  </element>
+	
 </elements>
 
