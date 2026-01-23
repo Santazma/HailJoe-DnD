@@ -167,14 +167,6 @@
     	</sheet>
     </element>
 
-	<?xml version="1.0" encoding="utf-8" ?>
-<elements>
-    <info>
-        <name>Scion of the Shifting Dunes</name>
-        <description>Supernatural Gift for those who have survived the Trial of the Everwasting Sands.</description>
-        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    </info>
-
     <element name="Scion of the Shifting Dunes" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_GIFT_SCION_OF_THE_SHIFTING_DUNES">
         <description>
             <p class="flavor">To undergo the Trial of the Everwasting Sands is to barter one's mortality with the sun itself. Deep within the Sand Horizon Aurora Borealis's, where the horizon bleeds into a permanent, shimmering haze, lies the domain of Makber, the Shroud of Dunes. It is said that Makber does not judge by heart or deed, but by the resonance of one's soul against the unrelenting grit of the sirocco. For forty days and forty nights, the supplicant must wander without shade or water, their spirit flayed open by the heat until only the coreglass remains—the indomitable essence of the resolute. In the ancient texts of the Harmonium Archive, it is whispered that Makber was once a boon companion to the legendary polymath Al-Jazari, and it was through their shared mastery of metal and mirage that the first sands were taught to remember the shape of men. To emerge as a Scion is to be recognized as 'worthy' by the desert’s silent king; the sand no longer abrades your skin but flows around it like a lover’s touch. You become a ghost of the dunes, a warrior who can vanish into a swirl of dust only to reappear where the wind dictates, carrying within your veins the scorching, metallic legacy of Al-Jazari’s forge and the eternal, shifting protection of Makber’s shroud.</p>
@@ -194,7 +186,6 @@
             <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_WINDS_OF_THE_SIROCCO" />
         </rules>
     </element>
-
     <element name="Sand Veil Escape" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_SAND_VEIL_ESCAPE">
         <compendium display="false" />
         <description>
@@ -204,7 +195,6 @@
             <description>When you take damage, halve the damage and teleport up to 30 feet to an unoccupied space you can see.</description>
         </sheet>
     </element>
-
     <element name="Mirage Sight" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_MIRAGE_SIGHT">
         <compendium display="false" />
         <description>
@@ -214,7 +204,6 @@
             <description>Advantage on Perception and Investigation to see through illusions or find paths and oases in deserts. Immune to extreme heat.</description>
         </sheet>
     </element>
-
     <element name="Winds of the Sirocco" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_WINDS_OF_THE_SIROCCO">
         <compendium display="false" />
         <description>
