@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.13">
+        <update version="0.0.14">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -166,5 +166,69 @@
             <description>Your body has been sharing some of the vampire weaknesses. Your resistances and immunities can bypassed if the attack is made with a Silvered weapons or any other silvered manners. Additionally, you can't regain any hit points after getting hit with silvered attacks until start of your next turn.</description>
     	</sheet>
     </element>
+
+	<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Scion of the Shifting Dunes</name>
+        <description>Supernatural Gift for those who have survived the Trial of the Everwasting Sands.</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+    </info>
+
+    <element name="Scion of the Shifting Dunes" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_GIFT_SCION_OF_THE_SHIFTING_DUNES">
+        <description>
+            <p class="flavor">To undergo the Trial of the Everwasting Sands is to barter one's mortality with the sun itself. Deep within the Sand Horizon Aurora Borealis's, where the horizon bleeds into a permanent, shimmering haze, lies the domain of Makber, the Shroud of Dunes. It is said that Makber does not judge by heart or deed, but by the resonance of one's soul against the unrelenting grit of the sirocco. For forty days and forty nights, the supplicant must wander without shade or water, their spirit flayed open by the heat until only the coreglass remains—the indomitable essence of the resolute. In the ancient texts of the Harmonium Archive, it is whispered that Makber was once a boon companion to the legendary polymath Al-Jazari, and it was through their shared mastery of metal and mirage that the first sands were taught to remember the shape of men. To emerge as a Scion is to be recognized as 'worthy' by the desert’s silent king; the sand no longer abrades your skin but flows around it like a lover’s touch. You become a ghost of the dunes, a warrior who can vanish into a swirl of dust only to reappear where the wind dictates, carrying within your veins the scorching, metallic legacy of Al-Jazari’s forge and the eternal, shifting protection of Makber’s shroud.</p>
+            <p>You have survived the Trial of the Everwasting Sands, a rite of passage where the desert either consumes the weak or blesses the resolute. Your lungs have tasted the searing wind of sands, and your blood has harmonized with the ancient rhythm of the dunes. The desert no longer sees you as a trespasser, but as part of its ever-shifting expanse.</p>
+            <p class="indent"><i><b>Sand Veil Escape:</b></i> When you take damage, you can use your Reaction to partially dissolve into a swirl of sand and sink into the ground. You halve the damage taken, and you immediately teleport up to 30 feet to an unoccupied space you can see. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>
+            <p class="indent"><i><b>Mirage Sight:</b></i> You have Advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to see through illusions or to find hidden paths or find oases in desert environments. Additionally, you are immune to the effects of extreme heat.</p>
+            <p class="indent"><i><b>Winds of the Sirocco:</b></i> You know the Al-Jazari’s Metalsmith cantrip and can cast it without any material components. If you have an Extra Attack or Multiattack or similar feature, once per turn you can cast this cantrip in place of one of those attacks. Additionally, when you reach 5th level, you can cast the Blur spell once without expending a spell slot, appearing as a shimmering heat haze. You regain the ability to cast it this way when you finish a Long Rest. You can decide which Attribute will be your spellcasting ability for these spells (choose when you gain this gift).</p>
+        </description>
+        <setters>
+            <set name="category">Supernatural Gifts</set>
+            <set name="type">Blessing</set>
+            <set name="slot">gift</set>
+        </setters>
+        <rules>
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_SAND_VEIL_ESCAPE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_MIRAGE_SIGHT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_WINDS_OF_THE_SIROCCO" />
+        </rules>
+    </element>
+
+    <element name="Sand Veil Escape" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_SAND_VEIL_ESCAPE">
+        <compendium display="false" />
+        <description>
+            <p>When you take damage, you can use your Reaction to partially dissolve into a swirl of sand and sink into the ground. You halve the damage taken, and you immediately teleport up to 30 feet to an unoccupied space you can see. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>
+        </description>
+        <sheet action="Reaction" usage="{{proficiency}}/Long Rest">
+            <description>When you take damage, halve the damage and teleport up to 30 feet to an unoccupied space you can see.</description>
+        </sheet>
+    </element>
+
+    <element name="Mirage Sight" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_MIRAGE_SIGHT">
+        <compendium display="false" />
+        <description>
+            <p>You have Advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to see through illusions or to find hidden paths or find oases in desert environments. Additionally, you are immune to the effects of extreme heat.</p>
+        </description>
+        <sheet>
+            <description>Advantage on Perception and Investigation to see through illusions or find paths and oases in deserts. Immune to extreme heat.</description>
+        </sheet>
+    </element>
+
+    <element name="Winds of the Sirocco" type="Racial Trait" source="HailJoe Items" id="ID_HAILJOE_RACIAL_TRAIT_WINDS_OF_THE_SIROCCO">
+        <compendium display="false" />
+        <description>
+            <p>You know the Al-Jazari’s Metalsmith cantrip and can cast it without any material components. If you have an Extra Attack or Multiattack or similar feature, once per turn you can cast this cantrip in place of one of those attacks. Additionally, when you reach 5th level, you can cast the Blur spell once without expending a spell slot. You regain the ability to cast it this way when you finish a Long Rest. You can decide which Attribute will be your spellcasting ability for these spells.</p>
+        </description>
+        <sheet usage="1/Long Rest (Blur)">
+            <description>You know <em>Al-Jazari’s Metalsmith</em>. You can replace one attack of an Extra Attack with this cantrip. Also, you can cast <em>Blur</em> once per Long Rest without a slot.</description>
+        </sheet>
+        <rules>
+            <select type="Spellcasting Ability" name="Spellcasting Ability, Scion" supports="ID_INTERNAL_SPELLCASTING_ABILITY_STRENGTH|ID_INTERNAL_SPELLCASTING_ABILITY_DEXTERITY|ID_INTERNAL_SPELLCASTING_ABILITY_CONSTITUTION|ID_INTERNAL_SPELLCASTING_ABILITY_INTELLIGENCE|ID_INTERNAL_SPELLCASTING_ABILITY_WISDOM|ID_INTERNAL_SPELLCASTING_ABILITY_CHARISMA" />
+            <grant type="Spell" id="ID_HAILJOE_SPELL_AL_JAZARIS_METALSMITH" />
+            <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="5" />
+        </rules>
+    </element>
+</elements>
 	
 </elements>
