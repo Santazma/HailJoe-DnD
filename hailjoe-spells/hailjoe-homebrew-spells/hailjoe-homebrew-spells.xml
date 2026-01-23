@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's Homebrew Spells</name>
 		<description>Newmade Homebrew Spells from the HailJoe.</description>
-		<update version="0.0.20">
+		<update version="0.0.21">
 			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 		</update>
 	</info>
@@ -1087,5 +1087,29 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+
+	<element name="Al-Jazari’s Metalsmith" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_AL_JAZARIS_METALSMITH">
+        <supports>Artificer, Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a tiny object made from metal to assign one of the features below to it. The features last until you dismiss them (no action required), after 1 hour, or when the feature says so.</p>
+            <p class="indent"><strong>Flame Tender.</strong> The object can start or snuff out fires on candles, torches, campfires and similar objects, as an action. Additionally you can make one melee weapon attack with using your spellcasting ability. If the attack deals damage, you can convert weapons damage into fire damage. At 5th level, the melee attack deals an extra 1d4 fire damage to the target on a hit. The damage increases to 2d4 at 11th level and 3d4 at 17th level.</p>
+            <p class="indent"><strong>Acid Mouth.</strong> The object produces 0.1 ounces of acid. This acid can be used to melt and pierce through locks, handles and similar things and disappears after 3 uses. Additionally you can make one melee weapon attack with using your spellcasting ability. If the attack deals damage, you can convert weapons damage into acid damage. At 5th level, the melee attack deals an extra 1d4 acid damage to the target on a hit. The damage increases to 2d4 at 11th level and 3d4 at 17th level.</p>
+            <p class="indent"><strong>Arcanasteel Shield.</strong> The object must be a circular or similar shape. It becomes a disk big enough for your hand. Additionally, when a creature attacks you, you can use your reaction to activate it. It magically appears on your arm, does not occupy your hand, and grants you a +1 bonus to your Armor Class until the end of your next turn. At 5th level, this bonus increases to +2, at 11th level, this bonus increases to +3 and at 17th level this bonus increases to +4.</p>
+        </description>
+        <setters>
+            <set name="keywords">ac, armor, flame, fire, acid, shield, forge, blacksmith</set>
+            <set name="level">0</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Special</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small hammer</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 	
 </elements>
