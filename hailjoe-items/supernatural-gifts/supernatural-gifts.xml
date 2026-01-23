@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Supernatural Gifts</name>
-        <update version="0.0.14">
+        <update version="0.0.15">
             <file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts/supernatural-gifts.xml" />
         </update>
     </info>
@@ -218,6 +218,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="5" />
         </rules>
     </element>
-</elements>
 	
 </elements>
+	
+
