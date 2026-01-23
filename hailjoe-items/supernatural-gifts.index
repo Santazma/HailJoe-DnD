@@ -4,7 +4,7 @@
         <name>Supernatural Gifts</name>
         <description>Homebrew Blessings and Gifts</description>
         <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-        <update version="0.0.14">
+        <update version="0.0.15">
             <file name="supernatural-gifts.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/supernatural-gifts.index" />
         </update>
     </info>
