@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Veil Warden</name>
+        <description>The Veil Warden Rogue subclass for those who guard forbidden secrets.</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+        <update version="0.0.1">
+            <file name="rogue-veil-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-rogue/rogue-veil-warden.xml" />
+        </update>
+    </info>
+
+    <element name="Veil Warden" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_ROGUE_VEIL_WARDEN">
+        <supports>Roguish Archetype</supports>
+        <description>
+            <p class="flavor">“He that keepeth his mouth and his tongue, keepeth his soul from distress.” — Proverbs 21:23</p>
+            <p>In the oppressive shadows of the city’s underbelly, silence is the true currency of power. Veil Wardens are the custodians of secrets that were never meant to be spoken. Whether acting as silent sentinels against eldritch revelations or as manipulators who weaponize forbidden knowledge, they walk a razor’s edge between preservation and corruption. Their greatest strength is not what they know—but what they choose never to reveal.</p>
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_POWER_OF_MYSTERY" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_ELDRITCH_RETRIBUTION" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_OF_THE_MIND" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_OCCULT_ARCANA" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_POWER_OF_MYSTERY" level="3"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_ELDRITCH_RETRIBUTION" level="9"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_OF_THE_MIND" level="13"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_OCCULT_ARCANA" level="17"/>
+        </rules>
+    </element>
+
+    <element name="Power of Mystery" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_POWER_OF_MYSTERY">
+        <description>
+            <p>Imprisoned within your psyche lies a secret—wondrous, terrible, and alive. Whispered into your mind by ancient voices, this hidden truth strains against its mental cage. Through discipline and restraint, you have learned to channel its weight, wielding it as both weapon and shield at a moment’s notice. You have learned to channel its weight, wielding it through Secret dice.</p>
+            <p class="indent"><strong>Secret Dice.</strong> You have a pool of Secret dice. To determine the number of dice, take your Dexterity modifier (minimum of 1) and add your Intelligence modifier (minimum of 1). You regain all expended Secret dice when you finish a Long Rest.</p>
+            <p class="indent"><strong>Regain Secret Die.</strong> As a bonus action, you can regain one expended Secret die. Once you do so, you cannot use this bonus action again until you finish a short or long rest.</p>
+            <p class="indent">The die size increases as you gain rogue levels: d8 at level 5, d10 at level 11, and d12 at level 17.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{secret-dice:count}}/Long Rest">
+            <description>You have {{secret-dice:count}} Secret dice (1d{{secret-dice:size}}). You can use a bonus action to regain 1 expended die once per Short Rest. You regain all expended Secret dice when you finish a Long Rest.</description>
+        </sheet>
+        <rules>
+            <stat name="secret-dice:count" value="dexterity:modifier" min="1" />
+            <stat name="secret-dice:count" value="intelligence:modifier" min="1" />
+            
+            <stat name="secret-dice:size" value="6" bonus="base" />
+            <stat name="secret-dice:size" value="8" level="5" bonus="base" />
+            <stat name="secret-dice:size" value="10" level="11" bonus="base" />
+            <stat name="secret-dice:size" value="12" level="17" bonus="base" />
+            
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_POWER" />
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_REMEMBERED" />
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_FROM_THE_DEPTHS" />
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_SHARED" />
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_UNLEASHED" />
+        </rules>
+    </element>
+
+    <element name="Secrets’ Power" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_POWER">
+        <description>
+            <p>With a chilling murmur, you unveil a fragment of the dread truth you harbor. When you make an attack roll without advantage, you can expend one Secret die and add the result to the attack roll. If you would not normally qualify for Sneak Attack on that attack, you may apply Sneak Attack damage nonetheless.</p>
+        </description>
+        <sheet alt="Secrets’ Power" usage="{{secret-dice:count}} Secret Dice">
+            <description>Add 1d{{secret-dice:size}} to an attack roll without advantage. You can apply Sneak Attack damage regardless of requirements.</description>
+        </sheet>
+    </element>
+
+    <element name="Secrets Remembered" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_REMEMBERED">
+        <description>
+            <p>Through iron resolve, you shield both your mind and those of your allies from malevolent influence. As a bonus action, you can expend one Secret die and choose a number of creatures equal to your Intelligence modifier (must including yourself). Roll the expended Secret die. Until the end of the next minute, each chosen creature can add the rolled number to one attack roll or one saving throw.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{secret-dice:count}} Secret Dice">
+            <description>Add 1d{{secret-dice:size}} to the next attack or save for up to {{intelligence:modifier}} allies within 1 minute.</description>
+        </sheet>
+    </element>
+
+    <element name="Secrets from the Depths" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_FROM_THE_DEPTHS">
+        <description>
+            <p>Uttering a cryptic word laden with personal significance, you pierce the surface of another mind. As a bonus action, you expend one Secret die and target a creature within 15 feet of you that has an Intelligence score of 5 or higher. The creature must make a saving throw (as determined by the GM). On a failed save, you can read its surface thoughts for a number of rounds equal to the number rolled on your Secret die. When the effect ends, you may choose to deal psychic damage to the creature as a reaction, equal to the Secret die roll. If the creature is immune to psychic damage, this feature has no effect. If it has resistance to psychic damage, it makes the saving throw with advantage.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{secret-dice:count}} Secret Dice">
+            <description>Read surface thoughts of a creature within 15ft. Reaction: Deal psychic damage equal to the die roll when it ends.</description>
+        </sheet>
+    </element>
+
+    <element name="Secrets Shared" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_SHARED">
+        <description>
+            <p>With deliberate caution, you impart fragments of forbidden knowledge to those you trust. You can expend one Secret die and choose a number of creatures equal to your Intelligence modifier (must including yourself) within 30 feet of you. Each chosen creature gains temporary hit points equal to the number rolled on the die and gains resistance to one damage type of your choice—psychic, force, or necrotic—until the end of the next minute.</p>
+        </description>
+        <sheet usage="{{secret-dice:count}} Secret Dice">
+            <description>Grant {{intelligence:modifier}} allies temp HP amount of Secret Dice roll result and resistance to Psychic, Force, or Necrotic for 1 min.</description>
+        </sheet>
+    </element>
+
+    <element name="Secrets Unleashed" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_SECRETS_UNLEASHED">
+        <description>
+            <p>With a single whispered word, you awaken the deepest terror buried within a creature’s soul. When you hit a creature with an attack, you can expend one Secret die to force the target to make a Wisdom saving throw. On a failed save, you use your bonus action to whisper a single word—such as sword, ground, wall, or even your own name. The creature becomes frightened of that word for a number of rounds equal to the Secret die roll. On a successful saving throw, the creature instead takes psychic damage equal to half the number rolled on the Secret die.</p>
+        </description>
+        <sheet usage="{{secret-dice:count}} Secret Dice">
+            <description>When you hit a creature with an attack, force Wisdom save. If Target fails, it becomes Frightened of a whispered word for 1d{{secret-dice:size}} rounds.</description>
+        </sheet>
+    </element>
+
+    <element name="Eldritch Retribution" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_ELDRITCH_RETRIBUTION">
+        <description>
+            <p>The truth bound within your essence does more than shield your thoughts it lashes outward as a weapon against your enemies. You gain resistance to psychic damage, and your thoughts cannot be read magically. You can cast Bane, Detect Thoughts, and Fear once per Long Rest each.</p>
+            <p class="indent">Additionally, you gain the following Cunning Strike options:</p>
+            <ul>
+                <li><strong>Whispered Truth (Cost: 2d6).</strong> Target must succeed an Intelligence save or suffers disadvantage on its next attack and loses its Reaction until the end of its next turn.</li>
+                <li><strong>Psychic Fracture (Cost: 2d6).</strong> Target must succeed on a Wisdom saving throw or rolls immediately concentration saving throw. The DC difficulty required to pass the concentration saving throw increases by 5. If creatures concentration is broken with this manner, it cannot concentrate on spells until the start of its next turn.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You gain resistance to psychic damage, and your thoughts cannot be read magically. Additionally, you can cast Bane, Detect Thoughts, Fear once per long rest. Also you gain two additional Cunning Strikes features which are Whispered Truth and Psychic Fracture.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_CUNNING_STRIKE_WHISPERED_TRUTH" />
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_CUNNING_STRIKE_PSYCHIC_FRACTURE" />
+            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="9" spellcasting="Intelligence" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="9" spellcasting="Intelligence" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FEAR" level="9" spellcasting="Intelligence" prepared="true" />
+        </rules>
+    </element>
+
+    <element name="Whispered Truth (Cost: 2d6)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_CUNNING_STRIKE_WHISPERED_TRUTH">
+        <description>
+            <p>Target must succeed an Intelligence save or suffers disadvantage on its next attack and loses its Reaction until the end of its next turn.</p>
+        </description>
+        <sheet alt="Whispered Truth (Cost: 2d6)" usage="Cunning Strike">
+            <description>Target must succeed an Intelligence save or suffers disadvantage on its next attack and loses its Reaction until the end of its next turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Psychic Fracture (Cost: 2d6)" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_CUNNING_STRIKE_PSYCHIC_FRACTURE">
+        <description>
+            <p>Target must succeed on a Wisdom saving throw or rolls immediately concentration saving throw. The DC difficulty required to pass the concentration saving throw increases by 5. If creatures concentration is broken with this manner, it cannot concentrate on spells until the start of its next turn.</p>
+        </description>
+        <sheet alt="Psychic Fracture (Cost: 2d6)" usage="Cunning Strike">
+            <description>Target must succeed on a Wisdom saving throw or rolls immediately concentration saving throw. The DC difficulty required to pass the concentration saving throw increases by 5. If creatures concentration is broken with this manner, it cannot concentrate on spells until the start of its next turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Gateway of the Mind" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_OF_THE_MIND">
+        <description>
+            <p>By invoking forbidden utterances, you breach the sanctum of another’s consciousness. You gain the following features:</p>
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_INFILTRATE" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_CRUSH" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_INFILTRATE" />
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_CRUSH" />
+        </rules>
+    </element>
+
+    <element name="Infiltrate the Mind" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_INFILTRATE">
+        <description>
+            <p>As part of an action in which you hit a creature, you can expend three Secret dice to force the creature to make a Wisdom saving throw. On a failed save, you enter its mind for a number of rounds equal to the total rolled on your Secret dice.</p>
+            <p>While inside, you can probe its emotional state, goals, dreams, and deepest secrets. The creature is aware that its mind is being invaded. On each of its turns, it may use its action to contest you with an Intelligence check. On a success, the effect immediately ends.</p>
+        </description>
+        <sheet usage="3 Secret Dice">
+            <description>On hit, expend 3 Secret dice: Wis save or enter target's mind for a number of rounds equal to the total rolled on your Secret dice. You can probe its emotions and secrets. Target can contest with an Intelligence check as an action.</description>
+        </sheet>
+    </element>
+
+    <element name="Crush the Mind" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_GATEWAY_CRUSH">
+        <description>
+            <p>When you hit a creature and roll Sneak Attack damage, you can expend three Secret die to convert all Sneak Attack damage from that attack into psychic damage, adding the Secret die roll to the total damage.</p>
+            <p>When you do so, you can also force the creature to make a Wisdom saving throw. On a failed save, you issue a single-sentence command that the creature must obey until the end of its next turn. The command cannot be directly harmful to the creature or its allies (such as walking into a chasm). The GM has final authority over whether a command is valid.</p>
+        </description>
+        <sheet usage="3 Secret Die">
+            <description>On Sneak Attack, expend 3 Secret die: Convert damage to Psychic + 1d{{secret-dice:size}} damage. Target makes a Wis save or must obey a one-sentence command until the end of its next turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Occult Arcana" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_VEIL_WARDEN_OCCULT_ARCANA">
+        <description>
+            <p>Your psyche has become an impregnable fortress. You are permanently under the effects of the Mind Blank spell.</p>
+        </description>
+        <sheet>
+            <description>You are permanently under the effects of the Mind Blank spell.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_MIND_BLANK" level="17" spellcasting="Intelligence" prepared="true" />
+        </rules>
+    </element>
+
+</elements>
