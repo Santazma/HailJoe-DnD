@@ -4,7 +4,7 @@
         <name>Veil Warden</name>
         <description>The Veil Warden Rogue subclass for those who guard forbidden secrets.</description>
         <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="rogue-veil-warden.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-rogue/rogue-veil-warden.xml" />
         </update>
     </info>
@@ -59,7 +59,7 @@
         <description>
             <p>With a chilling murmur, you unveil a fragment of the dread truth you harbor. When you make an attack roll without advantage, you can expend one Secret die and add the result to the attack roll. If you would not normally qualify for Sneak Attack on that attack, you may apply Sneak Attack damage nonetheless.</p>
         </description>
-        <sheet alt="Secrets’ Power" usage="{{secret-dice:count}} Secret Dice">
+        <sheet alt="Secrets’ Power" usage="1 Secret Dice">
             <description>Add 1d{{secret-dice:size}} to an attack roll without advantage. You can apply Sneak Attack damage regardless of requirements.</description>
         </sheet>
     </element>
@@ -68,7 +68,7 @@
         <description>
             <p>Through iron resolve, you shield both your mind and those of your allies from malevolent influence. As a bonus action, you can expend one Secret die and choose a number of creatures equal to your Intelligence modifier (must including yourself). Roll the expended Secret die. Until the end of the next minute, each chosen creature can add the rolled number to one attack roll or one saving throw.</p>
         </description>
-        <sheet action="Bonus Action" usage="{{secret-dice:count}} Secret Dice">
+        <sheet action="Bonus Action" usage="1 Secret Dice">
             <description>Add 1d{{secret-dice:size}} to the next attack or save for up to {{intelligence:modifier}} allies within 1 minute.</description>
         </sheet>
     </element>
@@ -77,7 +77,7 @@
         <description>
             <p>Uttering a cryptic word laden with personal significance, you pierce the surface of another mind. As a bonus action, you expend one Secret die and target a creature within 15 feet of you that has an Intelligence score of 5 or higher. The creature must make a saving throw (as determined by the GM). On a failed save, you can read its surface thoughts for a number of rounds equal to the number rolled on your Secret die. When the effect ends, you may choose to deal psychic damage to the creature as a reaction, equal to the Secret die roll. If the creature is immune to psychic damage, this feature has no effect. If it has resistance to psychic damage, it makes the saving throw with advantage.</p>
         </description>
-        <sheet action="Bonus Action" usage="{{secret-dice:count}} Secret Dice">
+        <sheet action="Bonus Action" usage="1 Secret Dice">
             <description>Read surface thoughts of a creature within 15ft. Reaction: Deal psychic damage equal to the die roll when it ends.</description>
         </sheet>
     </element>
@@ -86,7 +86,7 @@
         <description>
             <p>With deliberate caution, you impart fragments of forbidden knowledge to those you trust. You can expend one Secret die and choose a number of creatures equal to your Intelligence modifier (must including yourself) within 30 feet of you. Each chosen creature gains temporary hit points equal to the number rolled on the die and gains resistance to one damage type of your choice—psychic, force, or necrotic—until the end of the next minute.</p>
         </description>
-        <sheet usage="{{secret-dice:count}} Secret Dice">
+        <sheet usage="1 Secret Dice">
             <description>Grant {{intelligence:modifier}} allies temp HP amount of Secret Dice roll result and resistance to Psychic, Force, or Necrotic for 1 min.</description>
         </sheet>
     </element>
@@ -95,7 +95,7 @@
         <description>
             <p>With a single whispered word, you awaken the deepest terror buried within a creature’s soul. When you hit a creature with an attack, you can expend one Secret die to force the target to make a Wisdom saving throw. On a failed save, you use your bonus action to whisper a single word—such as sword, ground, wall, or even your own name. The creature becomes frightened of that word for a number of rounds equal to the Secret die roll. On a successful saving throw, the creature instead takes psychic damage equal to half the number rolled on the Secret die.</p>
         </description>
-        <sheet usage="{{secret-dice:count}} Secret Dice">
+        <sheet usage="1 Secret Dice">
             <description>When you hit a creature with an attack, force Wisdom save. If Target fails, it becomes Frightened of a whispered word for 1d{{secret-dice:size}} rounds.</description>
         </sheet>
     </element>
