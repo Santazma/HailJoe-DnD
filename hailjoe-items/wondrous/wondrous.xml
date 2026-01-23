@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.22">
+    <update version="0.0.23">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -784,6 +784,75 @@
       <set name="rarity">Legendary</set>
     </setters>
   </element>
+
+	<element name="Singularity Anchor" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_SINGULARITY_ANCHOR">
+  		<description>
+    		<p class="flavor">Singularity Anchor does not carry any light nor flame, but a hunger. It is a tether to the Great Nothingness, a weight that pulls not just upon the body, but upon the very light of the world. To hold the chain is to feel the persistent, shivering dread of the abyss, as the tiny void within the lantern patiently waits to devour the reality that dares to surround it.</p>
+      		<p>This pitch-black iron lantern hangs from a heavy, cold-to-the-touch chain. Instead of a flame, a tiny, swirling singularity—a miniature black hole—hovers within its glassless frame, distorting the very light around it.</p>
+      		<p class="indent"><strong><em>Devour Light.</em></strong> The lantern does not shed light. Instead, it consumes it. While the lantern is held open, it creates an aura of Magical Darkness in a 10-foot radius. Non-magical light sources within this radius are instantly extinguished.</p>
+      		<p class="indent"><strong><em>Gravitational Pull.</em></strong> As an action, you can point the lantern at a creature within 30 feet. The target must succeed on a DC 15 Strength Saving Throw or be pulled 15 feet toward the lantern and knocked Prone.</p>
+      		<p class="indent"><strong><em>Void Consumption.</em></strong> You can touch the lantern to a non-magical object that isn't being worn or carried and is no larger than a 1-foot cube. The singularity consumes the object, erasing it from existence.</p>
+    	</description>
+    	<setters>
+			<set name="keywords">lantern, void, darkness, gravity</set>
+    		<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+      		<set name="weight" lb="2">2 lb.</set>
+      		<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+      		<set name="rarity">Rare</set>
+	  		<set name="slot">hand</set>
+    	</setters>
+  	</element>
+
+	<element name="Abyssal Cipher Key" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_ABYSSAL_CIPHER_KEY">
+  		<description>
+    		<p class="flavor">This jagged fragment of the logic that governs the Outer Dark, where locks are but suggestions and distance is a lie. The runes upon its obsidian surface do not merely glow; they writhe with the secrets of the first architects of the Void. It is a tool for those who realize that every door—and every breath of air—is merely a thin veil waiting to be unzipped by the cold, silent truth of the deep.</p>
+      		<p>An obsidian key that feels unnaturally light. Pulsing purple Abyssal runes crawl across its surface like living insects. When held near a lock, the runes glow brightly, whispering secrets of the Void.</p>
+      		<p class="indent"><strong><em>The Unlocking Void.</em></strong> You can use an action to insert this key into any mechanical or magical gates and doors. You can even unlock the doors and gates even if they have not any lock nor seal. The key casts the Knock spell without making any sound. Once used this way, it cannot be used again until the next dusk.</p>
+        	<p class="indent"><strong><em>Abyssal Translator.</em></strong> While holding the key, you can read and understand Abyssal.</p>
+        	<p class="indent"><strong><em>Void Passage.</em></strong> Once per day, you can use the key to "unlock" the air itself. You cast Rope Trick, but the entrance leads to a small, silent pocket of the Void instead of an extradimensional space. The space is pitch black and freezing cold, but safe from outside detection.</p>
+    	</description>
+    	<setters>
+    		<set name="keywords">key, knock, open, abyssal, void</set>
+    		<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+      		<set name="weight" lb="1">1 lb.</set>
+      		<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+      		<set name="rarity">Rare</set>
+	  		<set name="slot">hand</set>
+    	</setters>
+        <rules>
+            <grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+            <grant type="Spell" id="ID_PHB_SPELL_KNOCK" />
+            <grant type="Spell" id="ID_PHB_SPELL_ROPE_TRICK" />
+        </rules>
+    </element>
+
+	<element name="Signet of the Amethyst Gale" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_SIGNET_OF_THE_AMETHYST_GALE">
+        <description>
+            <p class="flavor">The ring itself is a remnant of the Great Void-Tempest, a celestial upheaval that tore through the amethyst skies of a forgotten realm. This ring does not grant power so much as it allows the wearer to become a conduit for the gale’s restless energy, turning every strike into a crackling echo of the void and every moment of pain into a sudden, sparking leap through the fabric of space.</p>
+            <p>A jagged ring carved from a single piece of "Void-Obsidian." Violent arcs of purple lightning dance across its surface, occasionally leaping to the wearer’s skin, leaving behind faint, painless scars that hum with power.</p>
+            <p class="indent"><strong><em>Storm-Born Resistance.</em></strong> You have resistance to Lightning and Necrotic damage.</p>
+            <p class="indent"><strong><em>Hollow Strike.</em></strong> Once per turn, when you hit with a melee or ranged weapon attack, you can deal an extra 1d8 Lightning damage or 1d8 Necrotic damage of your choice.</p>
+            <p class="indent"><strong><em>Amethyst Blink.</em></strong> When you take damage, you can use your reaction to dissolve into a burst of purple sparks. You teleport up to 30 feet to an unoccupied space you can see. Any creature within 5 feet of the space you left must make a DC 17 Dexterity Saving Throw, taking 3d10 Lightning or Necrotic damage of your choice on a failed save. You can use this feature once per short rest.</p>
+        </description>
+        <setters>
+			<set name="keywords">thunder, lightning, necrotic, violet, void</set>
+            <set name="category">Rings</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+            <set name="slot">ring</set>
+        </setters>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
 	
 </elements>
 
