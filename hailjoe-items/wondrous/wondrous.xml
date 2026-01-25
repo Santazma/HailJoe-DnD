@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.23">
+    <update version="0.0.24">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -852,6 +852,26 @@
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
         </rules>
+    </element>
+
+	<element name="Tempest's Gale Essence (Awakened)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_TEMPESTS_GALE_ESSENCE_AWAKENED">
+        <description>
+            <p class="flavor">What was once a mere splinter of a forgotten storm has become a thrumming, violet heart, awakened by the bittersweet resonance of a parting gift. As Oris pressed the crystalline shard into Zephyr’s palm for the final time, the faint whispers of the wind surged into a triumphant, ancestral choir, finally hailing the Herald they had long awaited. The essence no longer merely crackles; it breathes with the rhythmic fury of a hurricane, its silver radiance a testament to a bond that transcends physical distance. To hold it is to feel the sky’s own blood coursing through one's veins—a promise that wherever the wind blows, the power of the Storm Vessel remains shared, turning every strike into a jagged lash of divine wrath and every ascent into a soaring defiance of the earth. It is more than a weapon; it is the lingering echo of a friend’s faith, transformed into a celestial gale that shall never fall silent.</p>
+            <p>This awakened essence hangs from a silver chain, the central shard thrumming with the power of a contained storm.</p>
+            <p class="indent"><strong><em>Tempest Wrath.</em></strong> Once per turn, when you hit with a weapon or spell attack, you deal an extra 2d8 Lightning damage. If the target is wearing metal armor or is made of water/metal, this damage increases to 3d8.</p>
+            <p class="indent"><strong><em>Aero Kinetic Ascent.</em></strong> As a bonus action, you gain a flying speed of 60 feet (hover) for 1 minute. While flying, you are immune to being knocked Prone by wind-based effects. Additionally, once during this duration, you can move like a lightning bolt, moving up to your full speed as a free action; any creature you pass through must make a DC 16 Dexterity Saving Throw or take 4d6 Lightning damage and half as much on a successful one.</p>
+            <p class="indent"><strong><em>Storm Vessel Synergy.</em></strong> Once per long rest, you can use your action to unleash the energy stored within the shard to protect your allies. Choose up to 3 creatures within 30 feet. For 1 minute, their weapons deal an additional 1d6 Lightning damage, and they gain Resistance to Lightning damage.</p>
+        </description>
+        <setters>
+			<set name="keywords">thunder, lightning, storm, fly, hover</set>
+            <set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+			<set name="attunement">false</set>
+            <set name="slot">neck</set>
+        </setters>
     </element>
 	
 </elements>
