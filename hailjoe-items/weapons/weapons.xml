@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.18">
+    <update version="0.0.19">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -602,6 +602,34 @@
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
       <grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_CHARMED" />
       <grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" />
+    </rules>
+  </element>
+
+  <element name="Insectum Dominus" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_INSECTUM_DOMINUS">
+    <description>
+      <p class="flavor">Forged from the iridescent, unbreakable chitin of the Prime Monarch and First Broodmother, Khepri-Zul, this blade is less a sword and more a sovereign decree whispered in the language of clicking mandibles and humming wings. From the moonlit glades of the Feywild’s Amber-Thicket to the lightless, fungal cathedrals of the Underdark’s Deep-Hive, every creeping, crawling thing recognizes the Insectum Dominus as the true scepter of the swarm. Its edge, a jagged obsidian horn harvested from a forgotten Monarch, does not merely strike; it vibrates with the heartbeat of a billion drones, granting its wielder the absolute focus of a singular, hive-mind consciousness. To hold it is to cease being a solitary creature and to become the apex of an ancient, multi-limbed dynasty. When the butterfly wings upon its hilt twitch with their phantom life, the world itself begins to tremble, for the wielder no longer walks alone—they move with the weight of the endless legion, commanding the very earth to reveal its secrets through the microscopic song of the soil. He who bears this blade is no longer a mortal; they are the High Monarch, the one who stands at the center of the web, turning the crushing indifference of the insect world into a lethal, coordinated storm of chitin and sting.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, it deals an extra 3d4 poison damage on a hit.</p>
+      <p class="indent"><strong><em>Carapaced Fortitude.</em></strong> While holding the sword, you gain a +2 bonus to AC and all saving throws. Additionally, you gain immunity to poison damage and the poisoned condition.</p>
+      <p class="indent"><strong><em>Vibration Sense.</em></strong> While holding the sword, you gain Tremorsense out to 60 feet. The blade picks up the microscopic vibrations of the ground, allowing you to sense the location of anything touching the floor within range.</p>
+      <p class="indent"><strong><em>Noxious Piercing.</em></strong> While attuned to this weapon, any poison damage you deal (from the sword, spells etc.) ignores poison resistance. Additionally, creatures with poison immunity are treated as having resistance instead, and taking half damage.</p>
+      <p class="indent"><strong><em>Sovereign of the Swarm (1/Long Rest).</em></strong> You can use an action to cast the Giant Insect spell at 7th level without expending a spell slot. This version does not require your concentration.</p>
+      <p class="indent"><strong><em>Monarch's Elytra (1/Short Rest).</em></strong> Your wings are made of shifting shadows and chitinous scales. You can use your bonus action to gain 60ft flying speed. Also on each of your turns, you can use your bonus action to take the Hide action, even if you are in plain sight, as the wings distort the light around you. Additionally while you're in this form, once per turn when you dive, fly or run at least 20 feet toward a creature and hit them with a melee attack, the attack deals an extra 4d6 weapon damage and the target must succeed on a DC 18 Strength save or be knocked Prone.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, insect, poison, swarm, chitin, tremorsense, wings</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <stat name="ac:misc" value="2" />
+      <stat name="saving throw:all" value="2" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_POISONED" />
+      <grant type="Spell" id="ID_HAILJOE_SPELL_GIANT_INSECT_2024" />
     </rules>
   </element>
   
