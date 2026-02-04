@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.17">
+    <update version="0.0.18">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -450,6 +450,158 @@
     </setters>
 	<rules>
       <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+    </rules>
+  </element>
+
+  <element name="Opulence" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_OPULENCE">
+    <description>
+      <p class="flavor">Forged not in the distant mists of myth, but under the iron-clad decree of the High Inquisition following the silent end of the Great War Among Gods, Opulence stands as a masterpiece of modern divine craftsmanship. It was fashioned to be a living cathedral of steel—a radiant testament to the unwavering glory of the Radiant One, designed to remind the world that heaven’s light is both a sanctuary and a blinding judgment. The four candles upon its golden hilt do not merely flicker; they breathe with the choir-song of a thousand zealous priests, casting a defiant, amber glow that refuses to yield to the encroaching shadows of the new age. To bear this blade is to act as the mortal herald of an eternal hearth, wielding a weapon that mirrors the sheer, overwhelming extravagance of the divine. It is a sword of gold and gravity, promising that under the watchful gaze of the High Inquisition, the darkness will not just be pushed back—it will be utterly outshone by the blinding weight of righteous prosperity.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, attacks made with this weapon deals an extra 1d8 radiant damage on a hit.</p>
+      <p class="indent"><strong><em>Flickering Defiance.</em></strong> While the sword is drawn, you gain a +1 bonus to AC for each burning candle on the hilt (maximum +4). As you expend charges and the candles go out, this AC bonus decreases accordingly.</p>
+      <p class="indent"><strong><em>The Eternal Quatrain.</em></strong> The hilt of the sword features four golden candleholders, each bearing a tall, magical candle. These candles represent the weapon's charges (maximum 4). They shed bright light in a 20-foot radius and dim light for an additional 20 feet. The candles regain all expended charges daily at dawn. You can expend charges to activate the following effects:</p>
+      <ul>
+        <li><strong>Sear the Soul (1 Charge):</strong> When you hit a creature, you can cause a candle’s flame to flare. The target takes an extra 1d8 radiant damage and must succeed on a DC 18 Constitution saving throw or be Blinded until the end of your next turn.</li>
+        <li><strong>Waxed Bastion (1 Charge):</strong> As a reaction when you take damage, one candle briefly liquefies into a golden shield. You gain Resistance to all types of damage until the end of your next turn.</li>
+      </ul>
+      <p class="indent"><strong><em>Gilded Rebirth.</em></strong> If you drop to 0 hit points but not killed outright while holding this sword, the sword's remaining sacred power explodes in a burst of divine gold. You immediately regain 40 hit points, and all hostile creatures within 15 feet must make a DC 18 Dexterity saving throw or take 8d6 radiant damage. Once this property is used, it cannot be used again until the next dawn.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, radiant, gold, light, candle, wax, revive</set>
+      <set name="category">Magic Weapons</set>
+	  <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <stat name="ac:misc" value="4" />
+    </rules>
+  </element>
+
+  <element name="Ruinous Ink" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_RUINOUS_INK">
+    <description>
+      <p class="flavor">To the sailors of Pillivar, the sea is not merely water, but a vast, weeping grave that holds the memories of the Sunless Era. Ruinous Ink is the most terrifying of those memories—a jagged blade of 'breathing' metal that predates the first sunrise, serving as a cold, calcified proof of the Ancient Gods who once churned the deep. Aspiring captains and power-hungry privateers whisper its name in the shadowed taverns of the docks, dreaming of the day they might dredge this relic from the abyss to command the tides. Yet, the sword is no mere tool; its hilt is a writhing mass of animated chitin and ink-stained tentacles that seem to recognize a master only to slowly consume them. It does not cut with the clean edge of a smith’s labor, but with a rhythmic, alien hunger that liquefies reality itself, turning the flesh of the living into the caustic sludge of the dead. To carry the Ink is to hear the telepathic heartbeat of a Great Old One pulsing against your palm, an indifferent and crushing presence that demands a constant tribute of salt and blood. It is the ultimate prize of Pillivar, but it is a crown made of anchors; for he who wields the depths is destined to be dragged down by them, forever bound to a silent, drowning god whose name the world has mercifully forgotten.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, attacks made with this weapon deals an extra 1d10 acid damage on a hit.</p>
+      <p class="indent"><strong><em>Sentience (Subtle).</em></strong> The sword carries the presence of a "Great Old One". It telepathically communicates feelings of cold hunger and ancient, alien indifference to its wielder.</p>
+      <p class="indent"><strong><em>Grip of the Ancients.</em></strong> When you hit a creature, you can use a bonus action to command the tentacles to lash out. The target must succeed on a DC 18 Strength saving throw or be Grappled and Restrained by the blade. While a creature is grappled this way, you cannot attack another target with this sword, but you can deal 2d10 acid damage as a bonus action on your turns.</p>
+      <p class="indent"><strong><em>Caustic Corrosion.</em></strong> Your attack rolls with this weapon score a critical hit on a roll of 19 or 20. If you already have a feature that increases your critical hit range, this weapon reduces the required roll by 1 again. On a critical hit, the target takes an additional 2d6 acid damage (not multiplied). Furthermore, until the end of its next turn, the creature's AC is reduced by 3 and it has disadvantage on Strength and Dexterity checks and saving throws.</p>
+      <p class="indent"><strong><em>Whispers of the Sunless Sea.</em></strong> While holding the sword, you gain a swimming speed equal to your walking speed and you can breathe underwater. Additionally, you gain Darkvision out to 120 feet.</p>
+      <p class="indent"><strong><em>The Void’s Ink (3/Long Rest).</em></strong> As an action, you spray a cloud of magical black-green ink in a 20-foot radius. The area is Heavily Obscured for everyone except you. Creatures starting their turn in the ink must make a DC 18 Constitution save or take 4d6 poison damage. This ink cloud lasts for 1 minute.</p>
+      <p class="indent"><strong><em>Curse of the Depth’s Call.</em></strong> This sword is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, for every 24 hours without the sword being submerged in salt water, you take one level of Exhaustion. This Exhaustion cannot be removed until the sword is soaked for at least 1 hour per level. You can't remove this curse by any manners. Even if the attunement ends, the curse still remains.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, acid, water, deep, ink, octopus, abyss</set>
+      <set name="category">Magic Weapons</set>
+	  <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+      <stat name="darkvision:range" value="120" />
+      <stat name="innate speed:swimming" value="speed" bonus="base" />
+    </rules>
+  </element>
+
+  <element name="Glimmering Sting" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_GLIMMERING_STING">
+    <description>
+      <p class="flavor">The Glimmering Sting is a masterpiece of Archfey whimsy, Forged not from the crude ores of the mortal realm, but from the crystallized laughter of dryads and the frozen tears of a summer moon. It is a blade of living quartz that does not merely occupy space; it dances within it, its edge so impossibly thin that it is said to sever a man's resolve before it ever touches his skin. To the Warlocks who pledge their souls to the shimmering courts of the Feywild, this sword is the ultimate testament of their Patron’s favor—a sliver of the Seelie Throne itself, bound in silk and starlight. In the high epics of the Minas Federation, the Elven court and the whispered songs of the pixie-circles, the Sting is described as a beautiful contradiction: a weapon that smells of crushed violets and fresh rain, yet carries a psychic venom capable of trapping the mind in an eternal, blissful delusion. To wield it is to command a swirling orbit of spectral petals that defy the laws of iron and wood, allowing the bearer to step through the fabric of reality as easily as a shadow slips through the trees. It is the capricious soul of the Wilds made manifest—a gift that is as lethal as a winter frost and as breathtaking as a dream you can never quite remember.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, attacks made with this weapon deals an extra 1d8 psychic damage on a hit.</p>
+      <p class="indent"><strong><em>Fey Construction.</em></strong> This weapon has the Finesse and Light properties, regardless of its base sword type. You can use this sword as a spellcasting focus for your spells.</p>
+      <p class="indent"><strong><em>Whimsical Petal Orbit.</em></strong> While holding the sword, you can use a reaction to cause spectral petals to whirl violently. Until the end of your next turn, you gain Three-quarters cover (+5 to AC and Dex saves) against ranged attacks.</p>
+      <p class="indent"><strong><em>The Stinger’s Charm.</em></strong> When you hit a creature, you can force them to make a DC 18 Charisma saving throw. On a failure, the target is Charmed by you and becomes Incapacitated for 1 minute. While charmed in this way, the creature is incapacitated as it falls into a blissful, waking dream, staring at the shifting colors within the glass blade. The effect ends early if the creature takes damage. You can't use this feature on the same person again until next dawn.</p>
+      <p class="indent"><strong><em>Fey-Step Sorcery.</em></strong> The sword holds 7 charges (regains 1d4 + 3 at dawn). While holding the sword, you can use charges to cast the following spells (DC 18): Faerie Fire (1 charge), Suggestion (2 charges), Misty Step (2 charges), Hypnotic Pattern (3 charges), Greater Invisibility (4 charges), Confusion (4 charges), Mislead (5 charges).</p>
+    </description>
+    <setters>
+      <set name="keywords">fey, feywild, psychic, sword, quartz, petals</set>
+      <set name="category">Magic Weapons</set>
+	  <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" />
+      <grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" />
+      <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
+      <grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" />
+      <grant type="Spell" id="ID_PHB_SPELL_MISLEAD" />
+    </rules>
+  </element>
+
+  <element name="Verglas" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_VERGLAS">
+    <description>
+      <p class="flavor">High upon the northern-east jagged lands of the Frost-Spire Peaks, where the air is thin enough to shatter, the Goliath tribes once labored over a blade meant to embody the stoic strength of the mountains. Forged using the deep-earth secrets of the Dwarven masters and the titanic embers of the Giants, Verglas began its life as a holy relic of the North—a protector against the prophesied wrath of the Storm Dragon. However, when the Eldritch Moon bled its violet sickness across the sky, the blade did not merely freeze; it changed. The primal ice within its steel warped under the moon’s aberrant gravity, turning from a defensive shield into a weapon of crushing, celestial weight. To the northern clans, the bearer of Verglas is a living omen, a guardian tasked with wielding the very stillness of the grave to halt the coming cataclysm. Yet, the price of such power is a brittle soul; the sword grants the wielder the heavy majesty of a dying glacier and the shimmering, haunting light of the Aurora, but it leaves their body as fragile as thin ice under a winter sun. It is a crown of absolute zero, a jagged tooth pulled from the maw of a primeval winter that waits for the world to finally fall silent.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, it deals an extra 2d6 cold damage on a hit.</p>
+      <p class="indent"><strong><em>Frostbite Contact.</em></strong> A creature other than its wielder can't equip this sword. Whenever a creature other than its wielder touches the sword while not attuned for equipping to it must succeed on a DC 18 Constitution saving throw or take 3d10 cold damage and have disadvantage on attack rolls and ability checks and saving throws until it loses the sword.</p>
+      <p class="indent"><strong><em>Glacial Resistance.</em></strong> You gain Resistance to Cold and Fire damage.</p>
+      <p class="indent"><strong><em>Splinter Volley.</em></strong> As a bonus action, you can launch an orbiting shard at a creature within 30 feet. Make a ranged weapon attack. On a hit, the target takes 2d6 piercing damage and 2d6 cold damage. The shard regrows at the start of your next turn.</p>
+      <p class="indent"><strong><em>Shatterpoint Gravity.</em></strong> Whenever you hit a creature with this sword, targeted creature must succeed on a DC 18 Constitution saving throw or the weapon's strange frozen gravity pulls at the target's movements. The target’s speed is reduced by 15 feet, and it cannot take Reactions until the start of your next turn.</p>
+      <p class="indent"><strong><em>Aurora Singularity (Proficiency Bonus/Long Rest).</em></strong> When you hit a creature, you can mark the creature with an Aurora brand. At the start of your next turn, the brand detonates. The creature and those within 10 feet must make a DC 18 Constitution saving throw, taking cold damage equal to half (failure) or quarter (success) the damage dealt by the original attack. You can use this a number of times equal to your Proficiency Bonus per Long Rest.</p>
+      <p class="indent"><strong><em>Borealis Pulse (1/Long Rest).</em></strong> As an action, you plunge the blade into the ground, causing a cataclysmic eruption of prime black ice. Every creature of your choice within a 60-foot radius must make a DC 18 Constitution saving throw. On a failure, chosen creatures takes 12d6 cold damage. On a success, it takes half as much damage. This damage ignores cold resistance. Following the eruption, a massive ice storm swirls outward to a 120-foot radius centered on the point of impact. For the next 1 minute, this entire area becomes difficult terrain for all creatures except you. While within this 120-foot radius storm, you are under the effects of the <em>Freedom of Movement</em> spell for 1 minute, allowing you to glide effortlessly through the ice and snow. You can use this feature once per Long Rest.</p>
+      <p class="indent"><strong><em>Curse of Gravitational Glacial Slumber.</em></strong> This sword is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, your body becomes as fragile as ice but also the gravitational pull of the black ice makes you heavy. Your weight triples, you have Disadvantage on Stealth and Acrobatics checks, and you automatically fail any check made to swim. Additionally, while you attuned to this sword, you become Vulnerable to Thunder damage. Also, if you take more than 30 damage from a single source, you must succeed on a DC 15 Constitution save or be Stunned until the end of your next turn as your form shatters like ice.</p>
+	  <p class="indent">This curse is woven into the very soul of the wielder and cannot be ended by Remove Curse or Wish spells. Even if the attunement ends, the curse still remains. To remove this curse, the wielder must seek out a master blacksmith like Efreeti Smith or a Goliath Runecarver to forge a specialized <em>Anchor of Souls</em> from iron taken from a fallen star. This anchor must be fused to the wielder’s heart. Once the anchor is cooled in the blood of a Solar, the gravitational instability is grounded, neutralizing the curse's weight and fragility.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, cold, ice, gravity, giant, aurora</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_THUNDER" />
+    </rules>
+  </element>
+
+  <element name="Osculum Mortis et Cruor" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_OSCULUM_MORTIS_ET_CRUOR">
+    <description>
+      <p class="flavor">Within the Crimson Citadel, where the sky of the Blood Plane hangs like a fresh wound and the only light is the rhythmic pulse of an eternal vein, the first of these blades was pulled from the calcified heart of Morvath Sangrave. Osculum Mortis et Cruor is not merely a weapon; it is a parasitic key to Morvath’s own divinity—a sliver of the progenitor’s hunger granted to those who find beauty in the Inverted Sacrament. Throughout the eons, these swords have been worn by loyal generals as badges of high heresy or stolen by ambitious thieves who mistook the swords whisper for their own strength. Yet, the outcome is always a singular, red tragedy. The chains that bind the hilt to the wrist are but the first links of a spiritual tether; as the blade drinks, it slowly draws the wielder toward the Shadow of the Crimson King. No matter how many martyred souls are harvested or how much liquid currency is paid, the debt remains unpaid. Every bearer of the Kiss eventually finds themselves standing before the throne of Morvath, only to realize that the power they wielded was never theirs—it was merely lent, a fattening of the calf before the inevitable, eternal harvest.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, it deals an extra 2d6 necrotic damage on a hit.</p>
+      <p class="indent"><strong><em>Plasma Veil.</em></strong> You have Resistance to Necrotic and Poison damage, and you are immune to the Charmed condition.</p>
+      <p class="indent"><strong><em>Vampiric Tithe.</em></strong> When you hit a creature, you regain hit points equal to the necrotic damage dealt. Excess healing becomes Temporary Hit Points (maximum 30).</p>
+      <p class="indent"><strong><em>The Inverted Sacrament.</em></strong> As a bonus action, you present the inverted crimson cross hanging from the chains as a icon of heresy to a chosen creature within 30 feet. The target must succeed on a DC 18 Wisdom saving throw or be Frightened for 1 minute. While frightened, it takes 2d6 necrotic damage at the start of each of its turns. It can repeat the save at the end of its turns. You can't use this on the same person again until next dawn.</p>
+      <p class="indent"><strong><em>Blood Harvest.</em></strong> Whenever a Medium or larger creature with blood that you damaged dies within 1 minute, the sword gains 1 Blood Charge (Max 20). You can expend charges (DC 18) for:</p>
+      <ul>
+        <li><strong>Bloodthirsty Sight (2 Charges):</strong> As a bonus action, you can attune your senses to the flow of blood around you for 1 minute. During this time, you gain Blindsight out to 60 feet and you know the exact current hit points of any creature within that range that has blood.</li>
+        <li><strong>Blood-Stained Speed (4 Charges):</strong> As a bonus action, you gain the effects of the Haste spell until the end of your next turn.</li>
+        <li><strong>Exsanguinating Strike (6 Charges):</strong> As a bonus action, your next successful hit with the sword causes the target to bleed uncontrollably. The target takes 3d4 necrotic damage at the start of each of its turns for 1 minute. It can repeat the save at the end of its turns to end the effect.</li>
+        <li><strong>Mortium Siphon (8 Charges):</strong> As an action, you choose up to 3 creatures you can see within 30 feet. They must make a Constitution saving throw or take 4d8 necrotic damage, and you heal yourself half of the damage dealt.</li>
+        <li><strong>Wall of Coagulation (10 Charges):</strong> As an action, you create a 20-foot tall, 40-foot long wall of solidified, magical blood. The wall is opaque, has 100 HP and 10 AC, and any creature that touches it or starts its turn within 5 feet of it must make a Strength save or be Grappled by tendrils of blood.</li>
+        <li><strong>Rain of Gore (12 Charges):</strong> As an action, you thrust the sword into the air, and the stored essence erupts into the sky before falling as a localized rain of boiling blood in a 40-foot radius centered on you. Every creature of your choice in the area must make a DC 18 Dexterity saving throw. A creature takes 8d8 necrotic damage on a failed save, or half as much on a successful one.</li>
+        <li><strong>Avatar of the Blood God (20 Charges):</strong> As an action, you release all stored essence. For 1 minute, you grow large bat-like wings (60ft fly speed), your reach increases by 5 feet, and you deal an additional 3d6 necrotic damage on every hit. During this time, you regain 10 HP at the start of each of your turns.</li>
+      </ul>
+      <p class="indent"><strong><em>Crimson Mist Form (1/Day).</em></strong> Once per day, you can use an action to dissolve into the red plasma that surrounds the blade. You gain the effects of the <em>Gaseous Form</em> spell for 1 hour. While in this form, you appear as a swirling red mist, have a flying speed of 20 feet, and can pass through small holes and narrow openings.</p>
+      <p class="indent"><strong><em>Curse of the Crimson King.</em></strong> This sword is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, the blade requires fresh blood to maintain its form. If the sword does not deal damage to a living creature (excluding constructs or undead) for 24 hours, the plasma turns into a choking smoke. You take 1d12 necrotic damage every day that cannot be reduced in any way until the sword tastes blood. Your maximum hit points also reduces as necrotic damage dealt by this manner. Additionally, your reflection disappears from mirrors, and you cannot enter a residence without an invitation from one of the occupants.</p>
+	  <p class="indent">This curse is woven into the very soul of the wielder and cannot be ended by Remove Curse or Wish spells. Even if the attunement ends, the curse still remains. To remove this curse, the wielder must brew a potion using the nectar of a Black Rose grown in the Abyss and the breath of a Lich. But in order to this ritual work, the wielder must find a person who is willing to truly and selflessly love them despite their monstrous nature. The wielder and the lover must then perform a ritual together where both parties bleed into a silver chalice. After that, the wielder and the lover must mix this brewed potion with their blood in silver chalice, then they need to drink this concoction together. Drinking this while holding the sword forces both the wielder and the lover into a death-like trance for 72 hours. If they survive the psychic assault of the sword's sanguine trial, they wake up with the bond broken.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, necrotic, blood, vampire, bat, wings, curse</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_CHARMED" />
+      <grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" />
     </rules>
   </element>
   
