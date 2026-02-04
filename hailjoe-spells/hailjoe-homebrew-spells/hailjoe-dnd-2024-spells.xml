@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's DND 2024 Spells</name>
 		<description>DND 2024 Spells from the HailJoe.</description>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
 		</update>
 	</info>
@@ -321,5 +321,54 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+
+	<element name="Giant Insect DND 2024" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GIANT_INSECT_2024">
+        <supports>Druid</supports>
+        <description>
+            <p>You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the Giant Insect stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p>
+            <p class="indent">The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> Use the spell slot’s level for the spell’s level in the stat block.</p>
+            <div class="reference">
+                <div element="ID_HAILJOE_INFORMATION_GIANT_INSECT_STATBLOCK" />
+            </div>
+        </description>
+        <setters>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 Action</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="isConcentration">true</set>
+        </setters>
+    </element>
+    <element name="Giant Insect" type="Information" source="HailJoe Spells" id="ID_HAILJOE_INFORMATION_GIANT_INSECT_STATBLOCK">
+        <description>
+            <p><em>Large Beast, Unaligned</em></p>
+            <ul class="unstyled mb">
+                <li><strong>Armor Class</strong> 11 + the spell’s level</li>
+                <li><strong>Hit Points</strong> 30 + 10 for each spell level above 4th</li>
+                <li><strong>Speed</strong> 40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)</li>
+            </ul>
+            <table style="text-align:center">
+                <thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+                <tr><td>17 (+3)</td><td>13 (+1)</td><td>15 (+2)</td><td>4 (−3)</td><td>14 (+2)</td><td>3 (−4)</td></tr>
+            </table>
+            <ul class="unstyled mb">
+                <li><strong>Senses</strong> Darkvision 60 ft., passive Perception 12</li>
+                <li><strong>Languages</strong> Understands the languages you know</li>
+                <li><strong>Challenge</strong> — <strong>Proficiency Bonus</strong> equals your bonus.</li>
+            </ul>
+            <p><strong><em>Spider Climb.</em></strong> The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>
+            <h5 class="caption">ACTIONS</h5>
+            <p><strong><em>Multiattack.</em></strong> The insect makes a number of attacks equal to half this spell’s level (round down).</p>
+            <p><strong><em>Poison Jab.</em></strong> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3 + the spell’s level piercing damage plus 1d4 poison damage.</p>
+            <p><strong><em>Web Bolt (Spider Only).</em></strong> <em>Ranged Attack Roll:</em> Bonus equals your spell attack modifier, range 60 ft. <em>Hit:</em> 1d10 + 3 + the spell’s level bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.</p>
+            <h5 class="caption">BONUS ACTIONS</h5>
+            <p><strong><em>Venomous Spew (Centipede Only).</em></strong> <em>Constitution Saving Throw:</em> Your spell save DC, one creature the insect can see within 10 feet. <em>Failure:</em> The target has the Poisoned condition until the start of the insect’s next turn.</p>
+        </description>
+    </element>
         
 </elements>
