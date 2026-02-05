@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.19">
+    <update version="0.0.20">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -630,6 +630,64 @@
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
       <grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_POISONED" />
       <grant type="Spell" id="ID_HAILJOE_SPELL_GIANT_INSECT_2024" />
+    </rules>
+  </element>
+
+  <element name="Qadeed Al-Khalara" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_QADEED_AL_KHALARA">
+    <description>
+      <p class="flavor">Before the first monument was raised in the Glass-Heart Barrens, there was the Khalara Empire, a civilization so vast it claimed to have shackled Time itself within vaults of gold. Qadeed Al-Khalara is the final, haunting echo of that drowned age—a masterwork of palladium and sun-forged gold, crafted not as a blade, but as a divine chalice designed to catch the very grains of destiny. The weapon’s hilt is a celestial hourglass, draped in flowing purple silks and intricate golden adornments that dance in a phantom wind, while the 'blade' is a living torrent of liquid fire and crystalline sand that spills from the chalice’s lip. It is a weapon of fluid grace; with a single thought, the sands lash out like the strike of a desert viper, extending through the air as if the desert itself were reaching out to reclaim its lost territory. To wield this sword is to carry the weight of an empire that vanished in a single, silent night, commanding a shimmering mirage of heat and history that distorts the world around the bearer. As the chalice drinks the kinetic essence of battle, it fills with the stolen moments of the fallen, allowing the wielder to pour out the 'time' of their enemies as a restorative balm for their allies. It is the scepter of a forgotten sultanate, a blade of shifting reach and eternal memory, reminding all who look upon it that even the mightiest stone eventually bows to the patient, unrelenting hunger of the dunes.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, it deals an extra 1d10 force damage on a hit.</p>
+      <p class="indent"><strong><em>Granular Reach.</em></strong> This weapon has the Reach property. Unlike normal Reach, this sword provides an extra 10 feet of Reach, allowing you to make melee attacks from a 15-foot range.</p>
+      <p class="indent"><strong><em>Chalice of the Shifting Hour.</em></strong> As a bonus action, you can change the sword's form. It can become any type of sword you want, retaining its reach and magical bonuses regardless of its form.</p>
+      <p class="indent"><strong><em>Sands of the Mirage.</em></strong> While holding the sword, ranged weapon and ranged spell attacks against you have Disadvantage, and you have advantage on Dexterity saving throws.</p>
+      <p class="indent"><strong><em>Sandstorm Strikes (1/Short Rest).</em></strong> As an action, you can swing the blade in a wide arc, sending a wave of razor-sharp sand in a 30-foot cone. Each creature in the area you choose must make a DC 18 Dexterity saving throw, taking 6d8 slashing damage on a failed save, or half as much on a success. Creatures that fail are also blinded until the end of your next turn as sand scours their eyes. You can use this feature once per short rest.</p>
+      <p class="indent"><strong><em>Mizan Al-Dama'a (2/Long Rest).</em></strong> The chalice hilt acts as a mystical reservoir for the kinetic energy of battle, capturing the "time" of lives being diminished. Whenever you or an allied creature within 30 feet of you deals damage to a hostile creature, the sword automatically gains Sand Charges equal to the damage dealt. The sword can hold a maximum of 60 Sand Charges. These charges are gathered automatically and do not require an action. Once the sword reaches its maximum of 60 charges, you can use a Bonus Action to release the swirling sands from the chalice. You can choose up to 6 creatures (which can include yourself) within 30 feet. The 60 charges are divided equally among the chosen creatures, and they gain that amount as Temporary Hit Points. You can use this feature twice per Long Rest. Any unexpended charges are lost at dawn.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, sand, time, reach, force, desert</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+  </element>
+
+  <element name="Witness" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WITNESS">
+    <description>
+      <p class="flavor">The Witness does not exist in the annals of any mortal forge, for it was never hammered into shape; it was birthed in the weeping, interstitial voids where the Great Beholders dream of absolute dominance. To grip its hilt is to feel a warm, rhythmic thrumming of a heart that beats in a chaotic, alien tempo, the obsidian flesh of the blade yielding slightly to your touch like wet, fibrous muscle. It is an 'S'-shaped nightmare of twitching nerves and calcified bone, adorned with a dozen amber eyes that do not merely watch—they scrutinize the very fabric of the soul. The blade is a living conduit to the Far Realm, a psychic parasite that translates the maddening screams of the void into lethal, enervating beams of light. To the sailors of the astral seas and the delvers of the deep dark, the Witness is the ultimate taboo—a weapon that demands the visual essence of the world to sate its eternal, unblinking hunger. It does not merely strike the enemy; it unravels them, its neural tendrils weaving into their mind to harvest their deepest fears and weaknesses. Yet, the price of its gaze is absolute; those who dare to look through the eyes of the Witness eventually realize that the blade is looking back, waiting for the moment the wielder’s own sight fails so that it may claim its final, ocular tithe.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, it deals an extra 2d8 psychic damage on a hit.</p>
+      <p class="indent"><strong><em>Otherworldly Mind Barrier.</em></strong> You gain Resistance to Psychic and Force damage. Additionally, you are immune to the Frightened condition.</p>
+      <p class="indent"><strong><em>The Unblinking Gaze.</em></strong> While holding the sword, you have Truesight out to 60 feet. Additionally, you cannot be surprised, and unseen attackers do not have advantage on attack rolls against you.</p>
+      <p class="indent"><strong><em>Neural Bind.</em></strong> When you hit a creature, you can choose to learn one of the target's resistances, vulnerabilities, its highest/lowest stats, or saving throws with no action required.</p>
+      <p class="indent"><strong><em>Synaptic Lash.</em></strong> As a bonus action, you can command this crooked blade to coil around a creature within 10 feet. The target must succeed on a DC 18 Dexterity saving throw or be Grappled. While grappled, the target has Disadvantage on Wisdom and Intelligence saving throws as the blade whispers maddening secrets directly into its mind.</p>
+      <p class="indent"><strong><em>Eye Ray Resonance.</em></strong> Drawing from the latent power of its beholder-like nature, you can use one of your attacks to cause one of the eyes on the blade to fire a beam from 60 feet range. Roll a d6 to determine the ray:</p>
+      <ul>
+        <li><strong>1. Paralysis Ray:</strong> The targeted creature must succeed on a DC 18 Constitution saving throw or becomes paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+        <li><strong>2. Fear Ray:</strong> The targeted creature must succeed on a DC 18 Wisdom saving throw or takes 4d8 psychic damage and becomes frightened for 1 minute. On a success, the target takes half damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+        <li><strong>3. Slowing Ray:</strong> The targeted creature must succeed on a DC 18 Dexterity saving throw or takes 4d8 necrotic damage. On a success, the target takes half damage. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+        <li><strong>4. Enervation Ray:</strong> The targeted creature must succeed on a DC 18 Dexterity saving throw or takes 4d8 poison damage. On a success, the target takes half damage. On a failed save, tha target becomes poisoned. While poisoned in this manner, the targeted creature can't regain Hit Points until the end of your next turn.</li>
+        <li><strong>5. Telekinetic Ray:</strong> If the target is a creature, it must succeed on a DC 18 Strength saving throw or you can move up to 30 feet in any direction. The target is restrained by the ray's telekinetic grip until the start of your next turn or until you become incapacitated. If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. You can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.</li>
+        <li><strong>6. Disintegration Ray:</strong> If the target is a creature, it must succeed on a DC 18 Dexterity saving throw or take 10d8 force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller non magical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it.</li>
+      </ul>
+      <p class="indent"><strong><em>Curse of the Ocular Tithe.</em></strong> This sword is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, the sword demands things from you. Every 24 hours, "Witness" must consume the fresh eyes of at least one Medium or larger creature. If the blade is not fed, the wielder’s current and maximum hit points are reduced by 1d12 at the next dawn. This reduction to maximum hit points cannot be restored by any means until the blade is fed. When the blade finally consumes an eye, only the maximum hit points lost from the most recent day of starvation are restored. (e.g., if you haven't fed it for 3 days, feeding it restores only the 3rd day's loss, leaving the first two days' reduction waiting to be lifted in same manner until the curse is lifted). Every day the blade goes unfed, the wielder gains one Gestalt Stack (Maximum 10). If the wielder dies while under this curse, their body bursts open, and an Aberration sheds the flesh and is born from the remains. The Challenge Rating (CR) of this creature is equal to the Wielder’s Level + the number of Gestalt Stacks.</p>
+	  <p class="indent">This curse is woven into the very soul of the wielder and cannot be ended by remove curse or wish spells. Even if the attunement ends, the curse still remains. To remove this curse, the wielder must offer the blade the eye of a nearly immortal being (such as an ancient beholder, an empyrean, or a kraken) as well as their own eyes. Consuming souls of such magnitude—both creature and wielder—sates the blade's hunger enough to lift the curse from the wielder. Once the curse is lifted, the wielder's attunement to the item is immediately broken, and the sword rejects its former master forever. The individual can never attune to this item again. Additionally, there is no means by which the sacrificed eyes can be restored. Even a wish spell cannot reverse this sacrifice or restore the wielder's sight.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, beholder, eye, psychic, aberration, far realm</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_IMMUNITY_FRIGHTENED" />
+      <stat name="truesight:range" value="60" bonus="base" />
     </rules>
   </element>
   
