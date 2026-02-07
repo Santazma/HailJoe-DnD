@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.22">
+    <update version="0.0.23">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -771,6 +771,34 @@
       <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
     </setters>
     <rules />
+  </element>
+
+  <element name="Tempest Calamity" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_TEMPEST_CALAMITY">
+    <description>
+      <p class="flavor">Long before the records of men, in the soaring Storm Giant Citadels that drift above the highest peaks, the High Runesmiths struck a deal with the sky itself. They did not use steel or iron, but harvested a condensed cyclone from the heart of a primordial hurricane, binding it into the shape of a blade with runes of pure willpower. Tempest Calamity is the physical manifestation of that ancient pact—a weapon that thunders with the weight of a thousand storms and smells of ozone and impending judgment. It is a sword destined for the 'Herald of the High Heavens,' and its history is irrevocably bound to the Prophecy of the Eternal Dawn. According to the seers, as light rains upon the City of the Dead and the 'Two Thirteen' years draw to a close, this blade will be the only force capable of meeting the Storm Dragon’s ascent. When drawn, the clouds above boil in ancestral recognition, for the blade does not merely serve its master—it prepares the world for the clash of titans foretold in the stars. To wield it is to hold the eye of the hurricane in your palm, becoming the lightning that strikes before the final thunder of the dragon’s return.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, it deals an extra 1d6 lightning damage and 1d6 thunder damage on a hit.</p>
+      <p class="indent"><strong><em>Master of Winds.</em></strong> While attuned to this weapon, you are immune to the Deafened condition and have Resistance to Lightning and Thunder damage. You have a flying speed equal to your walking speed and can hover while flying.</p>
+      <p class="indent"><strong><em>Giant Craftsmanship.</em></strong> While attuned to this weapon, you can speak, read, and write Giant. Furthermore, you become proficient with Smith's Tools.</p>
+      <p class="indent"><strong><em>Chain Lightning Strike (3/Long Rest).</em></strong> When you hit a creature with this weapon, you can cause a bolt of lightning to arc from the target to up to three other creatures of your choice within 30 feet of it. Each secondary target must make a DC 18 Dexterity saving throw, taking 6d8 lightning damage on a failure, or half as much on a success. You can use this feature thrice per long rest.</p>
+      <p class="indent"><strong><em>Static Discharge (1/Short Rest).</em></strong> As a bonus action, you overcharge your body with electrical energy for 1 minute. Any creature that hits you within 120 feet of you during this time takes 2d8 lightning, thunder or force damage of your choice, and it must make a DC 18 Constitution saving throw. On a failure, creature cannot take reactions until the start of its next turn.</p>
+      <p class="indent"><strong><em>Eye of the Tempest (1/Long Rest).</em></strong> You can use an action to release the storm within the blade. For 1 minute, a 30-foot-radius aura of heavy rain and howling winds surrounds you. All ranged weapon attacks entering or leaving the aura have Disadvantage, the area becomes Difficult Terrain for hostile creatures and at the start of each of your turns, any hostile creature in the aura takes 2d10 thunder damage. You can use this feature once per long rest.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, lightning, thunder, storm, giant, fly, cyclone</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+      <stat name="speed:fly" value="speed" bonus="base" />
+      <grant type="Language" id="ID_LANGUAGE_GIANT" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+    </rules>
   </element>
   
 </elements>
