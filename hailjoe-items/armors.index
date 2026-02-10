@@ -4,7 +4,7 @@
 		<name>Armors</name>
 		<description>Homebrew Armors</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="armors.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors.index" />
 		</update>
 	</info>
