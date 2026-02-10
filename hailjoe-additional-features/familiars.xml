@@ -5,7 +5,7 @@
 		<description>Familiars and Companions either designed by HailJoe or taken from 3rd party sources.</description>
 		 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="vampire-transformation-additional-feature.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/vampire-transformation-additional-feature.xml" />
+			<file name="familiars.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/familiars.xml" />
 		</update>
 	</info>
 
