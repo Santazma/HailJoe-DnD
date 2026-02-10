@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.24">
+    <update version="0.0.25">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -871,6 +871,25 @@
             <set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
             <set name="slot">neck</set>
+        </setters>
+    </element>
+
+	<element name="Gofu Hat" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_GOFU_HAT">
+        <description>
+            <p class="flavor">This has is crafter from an ink made with the blood of a Celestial. Paper from trees grown in hallowed ground. Precise calligraphy honed with extensive practice. It’s not easy to make a genuine paper charm, but it’s certainly worth the trouble. There’s a reason why superstitious folk continue to scrawl their own imitations, hoping to achieve just a fraction of their power.</p>
+            <p>When first found or crafted, this hat has 1d4 + 2 paper charms hanging from it, which provide good fortune and ward off evil. It regains 2 expended charges daily at dawn.</p>
+            <p class="indent"><strong><em>Protective Talismans.</em></strong> While wearing the hat, you can use a bonus action to detach a charm and stick it on a willing creature within 5 feet of you, upon which the ink on it begins to glow softly. The creature gains the effects of the <em>Bless</em> spell and gains 1d6 temporary hit points until the start of your next turn, at which point the charm disintegrates. New charms reappears at dawn on hat.</p>
+        </description>
+        <setters>
+            <set name="keywords">hat, wondrous, charm, talisman, celestial, bless, fortune</set>
+            <set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+			<set name="attunement">false</set>
+			<set name="slot">Head</set>
+            <set name="charges">6</set>
         </setters>
     </element>
 	
