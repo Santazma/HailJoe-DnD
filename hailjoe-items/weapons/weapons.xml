@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.23">
+    <update version="0.0.24">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -798,6 +798,27 @@
       <stat name="speed:fly" value="speed" bonus="base" />
       <grant type="Language" id="ID_LANGUAGE_GIANT" />
       <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+    </rules>
+  </element>
+
+  <element name="Onikiri, Demon Cutter" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_ONIKIRI_DEMON_CUTTER">
+    <description>
+      <p class="flavor">“Luckily, this time, the samurai were prepared. While the lesser samurai cut through the demonic underlings, radiant arcs of energy blossoming out from their onikiri to strike down the hordes of stinking dretches, their sensei locked eyes with the huge, bulbous demon. A circle cleared as both samurai and demonlings subconsciously made space for the impending duel. If the sensei could hold the demon’s attention for long enough, the day would be theirs.” — Saga of the Battle for Black Rock</p>
+      <p>This weapon has 6 charges and regains 1d6 expended charges daily at dawn. While holding it, you can cast the light cantrip on the blade at will.</p>
+      <p class="indent"><strong><em>Divine Wrath.</em></strong> As a bonus action while holding the sword, you can expend 1 charge to imbue it with crackling radiant energy until the end of your next turn. While imbued, this sword deals an extra 1d6 radiant or lightning damage of your choice to each target it hits. In addition, the first time you hit with an attack using the imbued sword on each of your turns, each Fiend within 10 feet of the target must succeed on a DC 15 Dexterity saving throw or take 2d6 radiant or lightning damage of your choice as crackling energy arcs out towards it.</p>
+      <p class="indent"><strong><em>Demon Lure.</em></strong> As a bonus action while holding the sword, you can expend 2 charges to draw the attention of one creature you can see within 30 feet of you, forcing it to make a DC 15 Wisdom saving throw. Fiends make this saving throw with disadvantage. On a failure, the creature becomes fixated on you for 1 minute. While fixated, the creature is incapacitated and its speed is reduced to 0 feet. This effect ends if you attack any other creature, if you cast a spell, if you’re more than 30 feet away from the fixated creature at any point, or if it takes any damage from you or a creature friendly to you.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, fiend, radiant, lightning, demon, samurai</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+      <set name="charges">6</set>
+    </setters>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
     </rules>
   </element>
   
