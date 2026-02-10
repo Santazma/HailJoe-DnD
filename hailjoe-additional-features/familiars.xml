@@ -1,1 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Familiars</name>
+		<description>Familiars and Companions either designed by HailJoe or taken from 3rd party sources.</description>
+		 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="vampire-transformation-additional-feature.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/vampire-transformation-additional-feature.xml" />
+		</update>
+	</info>
 
+    <!--  Oventurer  -->
+    
+    <element name="Oventurer" type="Companion" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_OVENTURER">
+        <description>
+            <p class="flavor">If you can look past the unsightly smoke, overpowering burnt smell, constant metallic creaking, ashes everywhere, conspicuous light, and suffocating heat, it makes for a great companion! — Heliana, Eternal Optimist</p>
+            <p>Devoid of taste buds and unable to eat, oventurers are peculiar constructs with a keen interest in culinary arts. They enjoy a rising popularity as hired help in taverns and restaurants, or as companions in adventuring parties tired of subsisting on the same dry old rations. Be careful when offering feedback on their meals, however—oventurers are far from defenceless, and might turn their scorching fire and combat expertise against overly harsh critics. No one likes a snob, least of all an oventurer!</p>
+        </description>
+        <setters>
+            <set name="strength">14</set>
+            <set name="dexterity">8</set>
+            <set name="constitution">13</set>
+            <set name="intelligence">10</set>
+            <set name="wisdom">10</set>
+            <set name="charisma">6</set>
+            <set name="ac">14</set>
+            <set name="hp">3 (1d4+1)</set>
+            <set name="speed">30 ft.</set>
+            <set name="languages">—</set>
+            <set name="type">Construct</set>
+            <set name="size">Tiny</set>
+            <set name="alignment">Neutral</set>
+            <set name="challenge">1/8</set>
+            <set name="traits">ID_HAILJOE_COMPANION_TRAIT_OVENTURER_CONTACT_BURN,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_EASY_BAKE,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SMOKESCREEN_I,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SUPERHEAT_I,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_COAL_TOSS,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_GROWTH,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_MULTIATTACK,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SMOKESCREEN_II,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SUPERHEAT_II,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_CONVECTION,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_HOT_PLATE,ID_HAILJOE_COMPANION_TRAIT_OVENTURER_EASY_BANQUET</set>
+            <set name="actions">ID_HAILJOE_COMPANION_ACTION_OVENTURER_TONGS,ID_HAILJOE_COMPANION_ACTION_OVENTURER_IGNITION</set>
+        </setters>
+        <rules>
+            <stat name="companion:ac" value="14" />
+            <stat name="companion:hp:max" value="3" bonus="base" />
+            <stat name="companion:speed" value="30" bonus="base" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+        </rules>
+    </element>
+
+    <element name="Contact Burn" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_CONTACT_BURN">
+        <description>
+            <p>While the oventurer’s fire is lit, a creature that starts its turn grappling the oventurer takes 3 (1d6) fire damage.</p>
+        </description>
+        <sheet>
+            <description>While fire is lit, a creature starting its turn grappling you takes 1d6 fire damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Tongs" type="Companion Action" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_ACTION_OVENTURER_TONGS">
+        <description>
+            <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</p>
+        </description>
+        <sheet>
+            <description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Ignition" type="Companion Action" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_ACTION_OVENTURER_IGNITION">
+        <description>
+            <p>The oventurer lights a fire within itself, or puts it out. While the fire is lit, the oventurer sheds bright light in a 15-foot radius and dim light for an additional 15 feet. In addition, other creatures have advantage on Wisdom (Perception) checks made to see or smell it.</p>
+        </description>
+        <sheet>
+            <description>The oventurer lights a fire within itself, or puts it out. While the fire is lit, the oventurer sheds bright light in a 15-foot radius and dim light for an additional 15 feet. In addition, other creatures have advantage on Wisdom (Perception) checks made to see or smell it.</description>
+        </sheet>
+    </element>
+
+    <element name="Easy-Bake" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_EASY_BAKE">
+        <description>
+            <p>The oventurer can be used as a set of cook’s utensils, and its tamer has advantage on any ability checks using it in this way. In addition, over the course of a short or long rest, the oventurer can cook a delicious snack for up to four creatures, which takes 1 minute to consume. A creature that eats a snack gains temporary hit points equal to the tamer’s proficiency bonus. If the snack isn’t consumed immediately after the rest, it cools down and doesn’t grant any benefits.</p>
+        </description>
+        <sheet>
+            <description>Used as cook’s utensils (Advantage). During rest, cook snacks for 4 creatures; grants Temp HP equal to PB.</description>
+        </sheet>
+    </element>
+
+    <element name="Smokescreen I" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SMOKESCREEN_I">
+        <description>
+            <p>Prerequisite: 3rd-level tamer. Type: Active (action). While the oventurer’s fire is lit, it can cast the fog cloud spell, centred on itself and requiring no components. When the spell is cast in this way, it produces dark smoke instead of fog. Once the oventurer casts this spell, it can’t do so again until its tamer finishes a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>Prerequisite: 3rd-level tamer. While fire is lit, cast fog cloud (dark smoke) centered on self.</description>
+        </sheet>
+    </element>
+
+    <element name="Superheat I" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SUPERHEAT_I">
+        <description>
+            <p>Prerequisite: 3rd-level tamer. Type: Passive (companion). While the oventurer’s fire is lit, its attacks deal an extra 2 (1d4) fire damage on a hit.</p>
+        </description>
+        <sheet>
+            <description>Prerequisite: 3rd-level tamer. While fire is lit, attacks deal extra 1d4 fire damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Coal Toss" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_COAL_TOSS">
+        <description>
+            <p>Prerequisite: 5th-level tamer. Type: Active (action). The oventurer gains a ranged weapon attack: Coal Toss. The damage die of the Coal Toss attack increases with the die size specified in the oventurer’s Growth improvement. Coal Toss. Ranged Weapon Attack: Str modifier + PB to hit, range 20/60 ft., one target. Hit: 1d4 + Str modifier bludgeoning damage.</p>
+        </description>
+        <sheet action="Action">
+            <description>Prerequisite: 5th-level tamer. Ranged Weapon Attack: Strength Modifier plus PB to hit, range 20/60 ft. Hit: 1d4 + Strength Modifier bludgeoning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Growth" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_GROWTH">
+        <description>
+            <p>Prerequisite: 5th-level tamer. Type: Passive (companion). The oventurer’s size increases to Small, its Hit Die size increases to a d6 (its hit point maximum consequently increases by 1 for each of its Hit Dice), and the damage die of its attacks increases to a d6.</p>
+        </description>
+        <sheet>
+            <description>Prerequisite: 5th-level tamer. Companions size becomes Small, Hit Die becomes d6, attack damage becomes d6.</description>
+        </sheet>
+    </element>
+
+    <element name="Multiattack" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_MULTIATTACK">
+        <description>
+            <p>Prerequisite: 5th-level tamer. Type: Active (action). As an action, the oventurer makes two attacks.</p>
+        </description>
+        <sheet action="Action">
+            <description>Prerequisite: 5th-level tamer. The oventurer makes two attacks.</description>
+        </sheet>
+    </element>
+
+    <element name="Smokescreen II" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SMOKESCREEN_II">
+        <description>
+            <p>Prerequisite: 9th-level tamer, Smokescreen I. Type: Active (action). When a creature enters the area of a fog cloud created by the oventurer for the first time on a turn or starts its turn there, it must make a Constitution saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. In addition, the oventurer regains the ability to cast the spell when its tamer finishes a short or long rest.</p>
+        </description>
+        <sheet>
+            <description>Prerequisite: 9th-level tamer, Smokescreen I. Creatures in fog cloud take 2d6 fire damage (CON save half). Recharge: Short or Long Rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Superheat II" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_SUPERHEAT_II">
+        <description>
+            <p>Prerequisite: 9th-level tamer, Superheat I. Type: Passive (companion), Active (bonus action). The extra fire damage dealt by the oventurer’s attacks while its fire is lit increases to 3 (1d6). In addition, while the oventurer’s fire is lit, it can use a bonus action to cast the heat metal spell, with a range of touch and requiring no components. Once the oventurer casts this spell, it can’t do so again until its tamer finishes a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Long Rest">
+            <description>Prerequisite: 9th-level tamer, Superheat I. Extra fire damage is 1d6. Bonus Action: Cast heat metal (touch).</description>
+        </sheet>
+    </element>
+
+    <element name="Convection" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_CONVECTION">
+        <description>
+            <p>Prerequisite: 13th-level tamer. Type: Active (action). While the oventurer’s fire is lit, it can blow a gale of heated air from within itself, casting the gust of wind spell, which requires no components. A creature that makes a saving throw against this spell also takes 10 (3d6) fire damage on a failed save, or half as much damage on a successful one. Once the oventurer casts this spell, it can’t do so again until its tamer finishes a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>Prerequisite: 13th-level tamer. While fire is lit, cast gust of wind. Targets take 3d6 fire damage on failed save (half on success).</description>
+        </sheet>
+    </element>
+
+    <element name="Hot Plate" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_HOT_PLATE">
+        <description>
+            <p>Prerequisite: 13th-level tamer. Type: Passive (companion). The oventurer gains a +2 bonus to AC as long as it’s not wearing armour. In addition, while the oventurer’s fire is lit, a creature that hits it with a melee attack takes 3 (1d6) fire damage.</p>
+        </description>
+        <sheet>
+            <description>Prerequisite: 13th-level tamer. +2 AC if unarmored. While lit, melee attackers take 1d6 fire damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Easy-Banquet" type="Companion Trait" source="HailJoe’s Familiars" id="ID_HAILJOE_COMPANION_TRAIT_OVENTURER_EASY_BANQUET">
+        <description>
+            <p>Prerequisite: 17th-level tamer, Easy-Bake. Type: Passive (companion). When the oventurer cooks a snack over the course of a long rest, roll a d4. On a 4, the oventurer instead cooks an entire meal for up to four creatures, which takes 1 hour to consume and grants the benefits of the heroes’ feast spell. A creature can choose to consume only a small portion, which nonetheless depletes its portion of the meal, takes 1 minute, and grants the benefits of a snack from the Easy-Bake improvement.</p>
+        </description>
+        <sheet>
+            <description>Prerequisite: 17th-level tamer, Easy-Bake. During Long Rest: Roll d4. On a 4, cook Heroes' Feast for 4 creatures.</description>
+        </sheet>
+    </element>
+
+    
+</elements>
