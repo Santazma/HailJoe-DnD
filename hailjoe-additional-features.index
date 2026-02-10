@@ -4,11 +4,12 @@
 		<name>HailJoe Additional Features</name>
 		<description>Hailjoe's homebrew additional features</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="hailjoe-additional-features.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features.index" />
 		</update>
 	</info>
 	<files>
 		<file name="vampire-transformation-additional-feature.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/vampire-transformation-additional-feature.xml" /> 
+		<file name="familiars.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/familiars.xml" />
 	</files>
 </index>
