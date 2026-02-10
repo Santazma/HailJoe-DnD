@@ -4,7 +4,7 @@
     <name>armors</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.8">
+    <update version="0.0.9">
       <file name="armors.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/armors/armors.xml"/>
     </update>
   </info>
@@ -128,6 +128,29 @@
 			<set name="armor">Shield</set>
 			<set name="enhancement">0</set>
     </setters>
+  </element>
+
+  <element name="Armour of the Oni King" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_ARMOUR_OF_THE_ONI_KING">
+    <description>
+      <p class="flavor">There’s something undeniably intoxicating about the feeling of power one gets by terrorising others. This sensation has led many righteous paragons who don this armour to gradually becoming cruel, vicious tyrants. Inevitably, a freshfaced hero rises to defeat these despots, swearing to use the armour exclusively in the service of good… and the cycle begins anew.</p>
+      <p>You have a +2 bonus to AC while wearing this armour.</p>
+      <p class="indent"><strong><em>Oni’s Aura.</em></strong> As an action while wearing this armour, you can release a wave of menacing lethal intent powerful enough to make other creatures tremble with fear. Each creature of your choice within 20 feet of you must make a DC 16 Wisdom saving throw or be frightened of you for 1 minute. If a creature fails the saving throw by 5 or more times and isn’t immune to being frightened, it sees the ghostly image of an enormous oni materialising behind you and is also paralysed until the end of its next turn. A creature frightened in this way must repeat the saving throw at the end of each of its turns, taking 2d6 psychic damage on a failure, or ending the effect on itself on a success. Once this property of the item has been used on someone, it can’t be used again in same creature until the next dawn.</p>
+    </description>
+    <setters>
+      <set name="keywords">armour, oni, oniborne, king, aura, fear, psychic</set>
+      <set name="category">Magic Armor</set>
+	  <set name="cost" currency="gp">0</set>
+	  <set name="slot">body</set>
+	  <set name="attunement">true</set>
+      <set name="type" addition="medium or heavy">Armor</set>
+      <set name="rarity">Very Rare</set>
+	  <set name="enhancement">2</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+	  <set name="name-format">{{parent}} Armour of the Oni King</set>
+    </setters>
+	<rules>
+	  <stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+	</rules>
   </element>
 	
 </elements>
