@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.25">
+    <update version="0.0.26">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -891,6 +891,84 @@
 			<set name="slot">Head</set>
             <set name="charges">6</set>
         </setters>
+    </element>
+
+	<element name="The Wrath God’s Mark (Drawn)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WRATH_GODS_MARK_DRAWN">
+        <description>
+            <div class="sidebar">
+				<p class="flavor">This strip of flesh, carved with jagged, thorn-like patterns, is said to be the remains of the first bearer of the powers of Wrath. The mark was branded upon a grieving father who lost his two children to the hooves of a Scourge beast after they foolishly ventured into the streets during a Hunt. Overcome by grief and rage, the mark transformed him into a vessel of destruction, granting him the strength to tear apart anything that stood before him. Yet such power demanded a price. The mark fed endlessly upon his sorrow, hollowing his mind and twisting his purpose into blind annihilation. Before he could unleash his fury upon the world, agents of the Radiant Church subdued him and flayed the cursed flesh from his body. But rather than destroy the mark, the Church recognized its terrible potential. Within their deepest sanctums, they began studying the carving, discovering that its wrath resonated violently with the essence of the Scourge. Through forbidden rites and relentless experimentation, they shaped the mark into a weapon—a controlled conduit of fury meant to turn the Scourge’s own nature against it. Even now, the flesh radiates a faint, simmering heat. Those who bear it feel echoes of the original father’s grief and rage, a reminder that the power forged to fight monsters is never free from becoming one.</p>
+				<p> —Archive Records of Murut Order</p>
+			</div>
+            <p><strong><em>Drawn Effect.</em></strong> When you roll Initiative, you can let the mark consume you for 1 minute (no action required). You gain the following benefits:</p>
+            <ul>
+                <li><strong>Hand of Destruction.</strong> When you take the Attack action on your turn, you can make an additional attack as part of the same action.</li>
+                <li><strong>Wrathful Resistance.</strong> Choose one damage type from among Bludgeoning, Piercing, or Slashing. You gain Resistance to that damage type.</li>
+            </ul>
+            <p>After the duration, you must succeed on a DC 15 Wisdom saving throw or gain a long-term madness.</p>
+            <p>Once you use this carving, you can't do so again until you finish a Long Rest.</p>
+        </description>
+        <setters>
+            <set name="keywords">eldritch, carving, tattoo</set>
+            <set name="category">Eldritch Carvings</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+            <set name="name-format">The Wrath God’s Mark</set>
+        </setters>
+    </element>
+
+    <element name="The Wrath God’s Mark (Tattooed)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WRATH_GODS_MARK_TATTOOED">
+        <description>
+            <div class="sidebar">
+				<p class="flavor">This strip of flesh, carved with jagged, thorn-like patterns, is said to be the remains of the first bearer of the powers of Wrath. The mark was branded upon a grieving father who lost his two children to the hooves of a Scourge beast after they foolishly ventured into the streets during a Hunt. Overcome by grief and rage, the mark transformed him into a vessel of destruction, granting him the strength to tear apart anything that stood before him. Yet such power demanded a price. The mark fed endlessly upon his sorrow, hollowing his mind and twisting his purpose into blind annihilation. Before he could unleash his fury upon the world, agents of the Radiant Church subdued him and flayed the cursed flesh from his body. But rather than destroy the mark, the Church recognized its terrible potential. Within their deepest sanctums, they began studying the carving, discovering that its wrath resonated violently with the essence of the Scourge. Through forbidden rites and relentless experimentation, they shaped the mark into a weapon—a controlled conduit of fury meant to turn the Scourge’s own nature against it. Even now, the flesh radiates a faint, simmering heat. Those who bear it feel echoes of the original father’s grief and rage, a reminder that the power forged to fight monsters is never free from becoming one.</p>
+				<p> —Archive Records of Murut Order</p>
+			</div>
+            <p><strong><em>Tattooed Effect.</em></strong> When you let the mark consume you, you instead gain the following improved benefits for the duration (1 minute):</p>
+            <ul>
+                <li><strong>Chosen Nemesis.</strong> At the start of your turn, choose a Hostile creature you can see within 120 feet of you to serve as your nemesis. You have Advantage on attack rolls made against the chosen creature and on all saving throws against spells and other magical effects from the chosen creature. Once you choose a creature in this way, you can't choose a new creature until the previously chosen one has either died or 24 hours have passed.</li>
+                <li><strong>Hand of Destruction.</strong> When you take the Attack action on your turn, you can make two additional attacks as part of the same action.</li>
+                <li><strong>Wrathful Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</li>
+            </ul>
+            <p>After the duration, you must succeed on a DC 18 Wisdom saving throw or gain a long-term madness.</p>
+            <p>Once you use this carving, you can't do so again until you finish a Long Rest.</p>
+        </description>
+        <setters>
+            <set name="keywords">eldritch, carving, tattoo</set>
+            <set name="category">Eldritch Carvings</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+            <set name="name-format">The Wrath God’s Mark</set>
+        </setters>
+    </element>
+
+    <element name="The Wrath God’s Mark (Scarified)" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_WRATH_GODS_MARK_SCARIFIED">
+        <description>
+            <div class="sidebar">
+				<p class="flavor">This strip of flesh, carved with jagged, thorn-like patterns, is said to be the remains of the first bearer of the powers of Wrath. The mark was branded upon a grieving father who lost his two children to the hooves of a Scourge beast after they foolishly ventured into the streets during a Hunt. Overcome by grief and rage, the mark transformed him into a vessel of destruction, granting him the strength to tear apart anything that stood before him. Yet such power demanded a price. The mark fed endlessly upon his sorrow, hollowing his mind and twisting his purpose into blind annihilation. Before he could unleash his fury upon the world, agents of the Radiant Church subdued him and flayed the cursed flesh from his body. But rather than destroy the mark, the Church recognized its terrible potential. Within their deepest sanctums, they began studying the carving, discovering that its wrath resonated violently with the essence of the Scourge. Through forbidden rites and relentless experimentation, they shaped the mark into a weapon—a controlled conduit of fury meant to turn the Scourge’s own nature against it. Even now, the flesh radiates a faint, simmering heat. Those who bear it feel echoes of the original father’s grief and rage, a reminder that the power forged to fight monsters is never free from becoming one.</p>
+				<p> —Archive Records of Murut Order</p>
+			</div>
+            <p><strong><em>Scarified Effect.</em></strong> The mark imbues you, permanently granting you the benefits of the tattooed carving. Additionally, when you choose a nemesis with your Chosen Nemesis benefit, attack rolls against you by creatures other than the nemesis have Disadvantage.</p>
+			<ul>
+                <li><strong>Chosen Nemesis.</strong> At the start of your turn, choose a Hostile creature you can see within 120 feet of you to serve as your nemesis. You have Advantage on attack rolls made against the chosen creature and on all saving throws against spells and other magical effects from the chosen creature. Once you choose a creature in this way, you can't choose a new creature until the previously chosen one has either died or 24 hours have passed.</li>
+                <li><strong>Hand of Destruction.</strong> When you take the Attack action on your turn, you can make two additional attacks as part of the same action.</li>
+                <li><strong>Wrathful Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</li>
+            </ul>
+            <p>At dawn each day, you must succeed on a DC 20 Wisdom saving throw or gain a long-term madness.</p>
+        </description>
+        <setters>
+            <set name="keywords">eldritch, carving, tattoo</set>
+            <set name="category">Eldritch Carvings</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+            <set name="name-format">The Wrath God’s Mark</set>
+        </setters>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING" />
+        </rules>
     </element>
 	
 </elements>
