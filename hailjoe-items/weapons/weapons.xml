@@ -3,7 +3,7 @@
     <name>weapons</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.24">
+    <update version="0.0.25">
       <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
     </update>
   </info>
@@ -819,6 +819,32 @@
     </setters>
     <rules>
       <grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
+    </rules>
+  </element>
+
+  <element name="Judgment’s Ember" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_JUDGMENTS_EMBER">
+    <description>
+      <p class="flavor">To hold Judgment’s Ember is to carry a shard of a dying star that has been taught the meaning of justice. Forged by the elite smiths of the Jaeger Corps, these blades were never intended to be singular relics, but a burning standard carried by those brave enough to look the Scourge in its many eyes. Among all who bore the flame, none were more legendary than Gideon Harrow, a bastion of the Jaeger whose sword was the first light seen in the darkest pits of the rot. Yet, the tragedy of the Scourge Hunt spares no one; Gideon fell not to the tooth or claw of the beast, but to the slow, insidious corruption that turned his righteous fire into an aberrant, everflaming nightmare. As a Fallen Hunter, Gideon became a scorched ghost of his former self—an eldritch horror of eternal ash that turned this holy implement against his own kin, hunting the hunters with a twisted, sacrificial zeal. For years, the ember burned with a corrupted, fratricidal heat until the path of the Fallen Hunter crossed with five destined souls: Orv Bezmedan, Zephyr, Luwanna, Stephen, and Rin. In a battle that shook the foundations of the Burning North Forest, the heroes did what the Jaeger could not—they quenched the blade’s madness in Gideon’s own tortured blood, granting the old warrior a final, cooling peace and reclaiming the ember to once again serve as the ultimate, searing answer to the darkness.</p>
+      <p>You have a +3 bonus to attack and damage rolls made with this magic weapon. Additionally, it deals an extra 2d6 fire damage on a hit.</p>
+      <p class="indent"><strong><em>Searing Bane.</em></strong> This weapon deals an additional 1d10 fire or radiant damage to Aberrations and Fiends.</p>
+      <p class="indent"><strong><em>Jaeger’s Intuition.</em></strong> While attuned to this blade, you have Advantage on Wisdom (Survival) checks to track Aberrations and Intelligence (Nature) checks to identify their weaknesses. You can also sense the presence of Aberrations within 1 mile, though you do not know their exact location.</p>
+      <p class="indent"><strong><em>Mantle of the Purifying Flame.</em></strong> The intense heat of the blade protects its wielder. While attuned to this sword, you have Resistance to Fire and Radiant damage. Additionally, you are Immune to the effects of extreme heat and are not affected by high-temperature environments.</p>
+      <p class="indent"><strong><em>Scourge-Fire Mastery.</em></strong> The fire produced by this blade is forged from pure righteous will, making it nearly impossible to resist. While attuned to this weapon, your attacks, spells and features ignores Fire Resistance. Furthermore, you treat Fire Immunity as Fire Resistance when dealing damage with this sword. Creatures that Immune to fire damage are treated as having resistance instead.</p>
+      <p class="indent"><strong><em>Ashen Leap (1/Long Rest).</em></strong> As an action, you transform into a swirling pillar of ash and flame, soaring into the air and crashing down at a point you can see within 60 feet. Upon impact, each creature of your choice within 20 feet of that point must make a DC 18 Dexterity saving throw. On a failure, a creature takes 6d8 fire damage and is knocked Prone. On a success, a creature takes half as much damage and isn't knocked prone. You can use this feature once per long rest.</p>
+      <p class="indent"><strong><em>The Burning Decree (Proficiency Bonus/Long Rest).</em></strong> As a bonus action, you can stoke the blade's flames to judge your foes. Until the start of your next turn, the weapon deals an extra 1d8 fire or radiant damage of your choice. Any creature hit by an attack while this feature is active has its speed reduced by 10 feet until the end of its next turn. You can use this feature a number of times equal to your Proficiency Bonus per Long Rest.</p>
+    </description>
+    <setters>
+      <set name="keywords">sword, fire, radiant, jaeger, aberration, fiend, hunter</set>
+      <set name="category">Magic Weapons</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
     </rules>
   </element>
   
