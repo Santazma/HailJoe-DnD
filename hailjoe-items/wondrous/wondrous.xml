@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.26">
+    <update version="0.0.27">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -968,6 +968,30 @@
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING" />
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING" />
+        </rules>
+    </element>
+
+	<element name="Helm of the Fanatic Martyr" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_HELM_OF_THE_FANATIC_MARTYR">
+        <description>
+			<div class="sidebar">
+				<p class="flavor">Before the searing corruption of the Scourge turned him into a wandering pyre of madness, Gideon Harrow was the 'Unblinking Sentinel'—the first and last line of defense for the Jaeger Corps. This helm was not merely forged for protection, but as a sensory crucible; its iron was tempered in the same righteous fires that Gideon used to cauterize the world’s hidden rot. The visor does not just filter light; it focuses the wearer’s soul into a singular, lethal point of tactical clarity, stripping away the illusions of the aberrant to reveal the festering truth beneath. Even after his death, the metal remains unnervingly warm, vibrating with the ghost-echoes of a zealot’s conviction. To don the Helm of the Fanatic Martyr is to see the world as the Jaeger did—not as a land of beauty, but as a dying patient in need of a final, fiery surgery. It grants the wearer the cold, mechanical precision of a master hunter and the iron-willed resolve to face the madness of the Eldritch Moon, demanding that one must first become a witness to the darkness before they can ever hope to burn it away.</p>
+			</div>
+            <p class="indent"><strong><em>The Martyr’s Unblinking Gaze (2/Long Rest).</em></strong> As an action, you can force the helm’s visor to flare with a blinding, holy radiance. For 1 minute, you gain Truesight out to a range of 60 feet. As you can command followes, the flames emerges from the helm to shed Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. You can extinguish this light as a bonus action. You can use this feature twice per long rest.</p>
+            <p class="indent"><strong><em>Jaeger’s Tactical Precision (Proficiency Bonus/Long Rest).</em></strong> The helm’s internal mechanisms analyze the movements of your prey with cold, mechanical efficiency. You gain a +2 bonus to initiative rolls. Additionally, as a bonus action, you can study a creature you can see within 60 feet of you. Make an Intelligence (Investigation) check with advantage to discern the target's vital weaknesses. If you already have advantage on Intelligence (Investigation) checks from another source, you instead gain a +5 bonus to this check. The DC for this check is calculated as DC = 10 + the creature's Proficiency Bonus. If the creature’s nature or species is unknown to you, the DC increases by 5. On a successful check, you immediately learn if the creature has any damage vulnerabilities, resistances or immunities. You can use this feature a number of times equal to your Proficiency Bonus per Long Rest.</p>
+            <p class="indent"><strong><em>Fanatic’s Resolve.</em></strong> While wearing this helm, you have Advantage on saving throws against being Frightened. Additionally, the iron will of the Jaegers remains etched into the metal, shielding your mind from the supernatural terror of the Hunt. You also have Advantage on saving throws against Madness saving throws.</p>
+        </description>
+        <setters>
+            <set name="keywords">helm, head, jaeger, hunter, vision, madness</set>
+            <set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+      		<set name="weight" lb="3">3 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="slot">Head</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">false</set>
+        </setters>
+        <rules>
+            <stat name="initiative" value="2" />
         </rules>
     </element>
 	
