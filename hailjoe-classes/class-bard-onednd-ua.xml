@@ -3,7 +3,7 @@
     <info>
         <name>Bard DND 2024</name>
         <description>The Bard class from DND 2024.</description>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="class-bard-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-bard-onednd-ua.xml" />
         </update>
     </info>
@@ -315,8 +315,10 @@
 			<description>You have plundered magical knowledge from a wide spectrum of disciplines.</description>
 		</sheet>
         <rules>
-            <spellcasting-extension name="Bard" supports="Cleric|Druid|Wizard" />
-        </rules>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="10" spellcasting="Bard"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="14" spellcasting="Bard"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="18" spellcasting="Bard"/>
+		</rules>
     </element>
 
     <element name="Superior Inspiration" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION">
