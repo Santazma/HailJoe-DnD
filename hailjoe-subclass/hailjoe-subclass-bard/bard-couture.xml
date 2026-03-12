@@ -1,1 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>College of Couture</name>
+        <description>The College of Couture bardic college for DND 2024 by HailJoe.</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+        <update version="0.0.1">
+            <file name="bard-couture.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-bard/bard-couture.xml" />
+        </update>
+    </info>
 
+    <element name="College of Couture" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_BARD_COLLEGE_OF_COUTURE">
+        <supports>Bard College</supports>
+        <description>
+            <p>When grim days was at its height in Aiwelen, the alchimagi discovered how to weave magic essence into fabric in White Citadel, making for the most glamorous clothing one could find. The bards of the College of Couture were the artisans of these elegant focuses, making robes that could command obedience, veils that absorbed projectiles and shimmering, enchanting dresses.</p>
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ARCANE_COUTURIER" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_SPELLWEAVE_VESTMENTS" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ENCHANTING_ALTERATIONS" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_SPELLWOVEN_AEGIS" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ARCANE_COUTURIER" level="3"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_SPELLWEAVE_VESTMENTS" level="3"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ENCHANTING_ALTERATIONS" level="6"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_SPELLWOVEN_AEGIS" level="14"/>
+        </rules>
+    </element>
+
+    <element name="Arcane Couturier" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ARCANE_COUTURIER">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_ARCANE_COUTURIER</requirements>
+        <description>
+            <p>You learn the Mending cantrip, if you don’t already know it, and it doesn’t count against your number of Bard cantrips known. You also gain proficiency with Weaver’s Tools. If you already have this tool proficiency, you gain proficiency with one other type of Artisan’s Tools of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_MENDING" spellcasting="Bard" />
+            <select type="Proficiency" name="Tool Proficiency (Arcane Couturier)" supports="Tool" default="ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS" />
+        </rules>
+    </element>
+
+    <element name="Spellweave Vestments" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_SPELLWEAVE_VESTMENTS">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_SPELLWEAVE_VESTMENTS</requirements>
+        <description>
+            <p>As an action while you have Weaver’s Tools in hand, you can turn a suit of light armor or normal clothes you are wearing into Spellwoven Vestments. The armor or clothing remains Spellwoven Vestments until you don another suit of armor or clothing or you die. You gain the following benefits:</p>
+            <ul>
+                <li><strong>Arcane Threadcasting.</strong> You can use the Spellwoven Vestments as a Spellcasting Focus for your Bard spells.</li>
+                <li><strong>Glamourous Couture.</strong> Whenever you fail a Charisma check, you can take a Reaction to expend one use of your Bardic Inspiration and gain a bonus to that check equal to one roll of your Bardic Inspiration die.</li>
+                <li><strong>Wardweave.</strong> Whenever you cast a spell of Level 1 or higher through the Spellwoven Vestments, you gain a bonus to your AC equal to the level of the spell being cast. This AC bonus lasts until the start of your next turn.</li>
+            </ul>
+        </description>
+        <sheet action="Action">
+            <description>You can use the Spellwoven Vestments as a Spellcasting Focus. Additionally, if you fail a Charisma check, you can use your Reaction and spend 1 Bardic Inspiration to add the die roll to the check. Also, whenever you cast a spell of Level 1 or higher through the Spellwoven Vestments, you gain a bonus to your AC equal to the level of the spell being cast. This AC bonus lasts until the start of your next turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Enchanting Alterations" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ENCHANTING_ALTERATIONS">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_ENCHANTING_ALTERATIONS</requirements>
+        <description>
+            <p>When you finish a Short or Long Rest, choose one of the following benefits, which lasts until your next Short or Long Rest.</p>
+            <p class="indent"><strong>Billowing Sleeves.</strong> Whenever you cast a spell that requires only Somatic and Material components, that spell can’t be countered.</p>
+            <p class="indent"><strong>Dazzling Headwear.</strong> Whenever you cast a spell which requires a saving throw and targets only one creature, you can expend one use of your Bardic Inspiration as part of the casting. If you do, that target makes the saving throw with Disadvantage.</p>
+            <p class="indent"><strong>Catwalk Conduit.</strong> As a Bonus Action, you can expend one use of your Bardic Inspiration to increase your Speed by an amount equal to 5 times your Charisma modifier (minimum of 1).</p>
+            <p class="indent"><strong>Invisibility Cloak.</strong> As a Bonus Action, you can expend one use of your Bardic Inspiration to have the Invisible condition until the end of your next turn (ends if you attack, deal damage, or cast a spell).</p>
+        </description>
+        <sheet>
+            <description>After a Short/Long rest, choose one of the following features: Billowing Sleeves, Dazzling Headwear, Catwalk Conduit, or Invisibility Cloak.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Enchanting Alteration" supports="Couture Alteration" />
+        </rules>
+    </element>
+
+    <element name="Billowing Sleeves" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ALTERATION_BILLOWING_SLEEVES">
+        <supports>Couture Alteration</supports>
+        <description><p>Your sleeves flow with an arcane rhythm that masks your movements. Whenever you cast a spell that requires only Somatic and Material components, that spell cannot be countered by counterspell or similar magical effects.</p></description>
+        <sheet>
+            <description>Spells you cast that require only Somatic and Material components cannot be countered.</description>
+        </sheet>
+    </element>
+
+    <element name="Dazzling Headwear" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ALTERATION_DAZZLING_HEADWEAR">
+        <supports>Couture Alteration</supports>
+        <description><p>Your headwear emits a distracting, shimmering radiance. Whenever you cast a spell which requires a saving throw and targets only one creature, you can expend one use of your Bardic Inspiration as part of the casting. If you do, that target has Disadvantage on the saving throw against the spell.</p></description>
+        <sheet usage="1 Bardic Inspiration">
+            <description>When casting a single-target save spell, the target makes the save with Disadvantage.</description>
+        </sheet>
+    </element>
+
+    <element name="Catwalk Conduit" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ALTERATION_CATWALK_CONDUIT">
+        <supports>Couture Alteration</supports>
+        <description><p>You move with the supernatural grace and confidence of a star on the runway. As a Bonus Action, you can expend one use of your Bardic Inspiration to increase your Speed by an amount equal to 5 times your Charisma modifier (minimum of 5 feet) until the end of your current turn.</p></description>
+        <sheet action="Bonus Action" usage="1 Bardic Inspiration">
+            <description>Your Speed increases by +{{catwalk:speed}} feet until the end of your turn.</description>
+        </sheet>
+        <rules>
+            <stat name="catwalk:speed" value="charisma:modifier" multiplier="5" bonus="base" />
+            <stat name="catwalk:speed" value="5" bonus="min" />
+        </rules>
+    </element>
+
+    <element name="Invisibility Cloak" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_ALTERATION_INVISIBILITY_CLOAK">
+        <supports>Couture Alteration</supports>
+        <description><p>Your garment's threads weave into the background, making you fade from view. As a Bonus Action, you can expend one use of your Bardic Inspiration to gain the Invisible condition until the end of your next turn. This invisibility ends early immediately after you make an attack roll, deal damage, or cast a spell.</p></description>
+        <sheet action="Bonus Action" usage="1 Bardic Inspiration">
+            <description>You become Invisible until the end of your next turn (ends if you attack, deal damage, or cast a spell).</description>
+        </sheet>
+    </element>
+
+    <element name="Spellwoven Aegis" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_COUTURE_SPELLWOVEN_AEGIS">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_SPELLWOVEN_AEGIS</requirements>
+        <description>
+            <p>You have Advantage on all saving throws against spells and magical effects.</p>
+            <p>Additionally, whenever you succeed on a saving throw against a spell or magical effect, you gain Temporary Hit Points equal to your Charisma modifier (minimum of 1) and regain one use of your Bardic Inspiration.</p>
+        </description>
+        <sheet>
+            <description>Advantage on saves vs spells and magical effects. On success, gain {{charisma:modifier}} Temp HP and regain 1 Bardic Inspiration.</description>
+        </sheet>
+    </element>
+
+    <element name="Arcane Couturier Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_ARCANE_COUTURIER" />
+    <element name="Spellweave Vestments Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_SPELLWEAVE_VESTMENTS" />
+    <element name="Enchanting Alterations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_ENCHANTING_ALTERATIONS" />
+    <element name="Spellwoven Aegis Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COLLEGE_OF_COUTURE_SPELLWOVEN_AEGIS" />
+</elements>
