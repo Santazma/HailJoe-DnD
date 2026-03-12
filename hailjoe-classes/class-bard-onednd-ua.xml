@@ -3,7 +3,7 @@
     <info>
         <name>Bard DND 2024</name>
         <description>The Bard class from DND 2024.</description>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="class-bard-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-bard-onednd-ua.xml" />
         </update>
     </info>
@@ -125,7 +125,7 @@
             <p><strong>Number of Uses.</strong> You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
             <p><strong>At Higher Levels.</strong> Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.</p>
         </description>
-        <sheet action="Bonus Action" usage="{{bardic-inspiration:uses}}/Long Rest">
+        <sheet action="Bonus Action" usage="{{bardic-inspiration:count}}/Long Rest">
             <description>Inspire a creature within 60 feet. It gains one Bardic Inspiration die, gain a d{{bardic-inspiration:dice}}. Once within the next hour, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes.</description>
         </sheet>
         <rules>
@@ -259,7 +259,7 @@
         </rules>
     </element>
 
-	<element name="Expertise" type="Class Feature" source="Player’s Handbook" id="ID_HAILJOE_CLASS_FEATURE_BARD_EXPERTISE">
+	<element name="Expertise" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_EXPERTISE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_EXPERTISE</requirements>
 		<description>
 			<p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>
@@ -315,10 +315,8 @@
 			<description>You have plundered magical knowledge from a wide spectrum of disciplines.</description>
 		</sheet>
         <rules>
-			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="10" spellcasting="Bard"/>
-			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="14" spellcasting="Bard"/>
-			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="18" spellcasting="Bard"/>
-		</rules>
+            <spellcasting-extension name="Bard" supports="Cleric|Druid|Wizard" />
+        </rules>
     </element>
 
     <element name="Superior Inspiration" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION">
