@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Bard Subclasses</name>
+		<description>HailJoe's Homebrew Bard Subclasses</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="hailjoe-subclass-barbarian.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-barbarian.index" />
+		</update>
+	</info>
+	<files>
+		<file name="barbarian-whistle.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-barbarian/barbarian-whistle.xml" />
+	</files>
+</index>
