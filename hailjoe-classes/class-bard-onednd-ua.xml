@@ -4,7 +4,7 @@
         <name>Bard DND 2024</name>
         <description>The Bard class from DND 2024.</description>
         <update version="0.0.1">
-            <file name="class-bard-2024.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-bard-onednd-ua.xml" />
+            <file name="class-bard-onednd-ua.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-bard-onednd-ua.xml" />
         </update>
     </info>
 
