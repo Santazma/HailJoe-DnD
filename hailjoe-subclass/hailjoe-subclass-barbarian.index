@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Cleric Subclasses</name>
-		<description>HailJoe's Homebrew Cleric Subclasses</description>
+		<name>Barbarian Subclasses</name>
+		<description>HailJoe's Homebrew Barbarian Subclasses</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="hailjoe-subclass-barbarian.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-barbarian.index" />
 		</update>
 	</info>
