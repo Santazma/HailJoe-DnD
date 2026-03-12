@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Bard DND 2024</name>
+        <description>The Bard class from DND 2024.</description>
+        <update version="0.0.1">
+            <file name="class-bard-2024.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-bard-2024.xml" />
+        </update>
+    </info>
+
+    <element name="Bard(2024)" type="Class" source="HailJoe Classes" id="ID_HAILJOE_CLASS_BARD_2024">
+        <description>
+            <p>Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions. Bards believe the multiverse was spoken into existence and that remnants of its Words of Creation still resound and glimmer on every plane of existence. Bardic magic attempts to harness those words, which transcend any language.</p>
+            <p class="indent">Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They become masters of many things, including performing music, working magic, and making jests.</p>
+            <p class="indent">A Bard’s life is spent traveling, gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards’ depth of knowledge and mastery of magic sets them apart.</p>
+            <h4>CREATING A BARD</h4>
+            <p>The most important question to consider when creating your bard is the source of your inspiration. Is it a family tradition, a divine gift, or a sheer force of will? How did you discover your bardic talents? Did you attend a college, or did you learn on the road from a mentor?</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the entertainer background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a bard, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per bard level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per bard level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor</li>
+                <li><strong>Weapons:</strong> Simple weapons</li>
+                <li><strong>Tools:</strong> Choose 3 Musical Instruments</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Dexterity, Charisma</li>
+                <li><strong>Skills:</strong> Choose any 3 skills</li>
+            </ul>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background: Choose A or B: (A) Leather Armor, 2 Daggers, Musical Instrument of your choice, Entertainer’s Pack, and 19 GP; or (B) 90 GP</p>
+            <h5 class="caption">THE BARD</h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td class="col-10">Bardic Die</td><td class="left">Features</td><td class="col-10">Cantrips</td><td class="col-10">Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+                </thead>
+                <tr><td> 1st</td><td>d6</td><td class="left">Bardic Inspiration, Spellcasting</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 2nd</td><td>d6</td><td class="left">Expertise, Jack of All Trades</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 3rd</td><td>d6</td><td class="left">Bard Subclass</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 4th</td><td>d6</td><td class="left">Ability Score Improvement</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 5th</td><td>d8</td><td class="left">Font of Inspiration</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 6th</td><td>d8</td><td class="left">Subclass feature</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 7th</td><td>d8</td><td class="left">Countercharm</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 8th</td><td>d8</td><td class="left">Ability Score Improvement</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 9th</td><td>d8</td><td class="left">Expertise</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>10th</td><td>d10</td><td class="left">Magical Secrets</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>11th</td><td>d10</td><td class="left">—</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>12th</td><td>d10</td><td class="left">Ability Score Improvement</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>13th</td><td>d10</td><td class="left">—</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>14th</td><td>d10</td><td class="left">Subclass feature</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>15th</td><td>d12</td><td class="left">—</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>16th</td><td>d12</td><td class="left">Ability Score Improvement</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>17th</td><td>d12</td><td class="left">—</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>18th</td><td>d12</td><td class="left">Superior Inspiration</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>19th</td><td>d12</td><td class="left">Epic Boon</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>20th</td><td>d12</td><td class="left">Words of Creation</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+            </table>
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_SPELLCASTING_BARD" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_EXPERTISE" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_BARD_SUBCLASS" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_ABILITY_SCORE_IMPROVEMENT_BARD" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_COUNTERCHARM" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_MAGICAL_SECRETS" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" />
+            <div element="ID_HAILJOE_CLASS_FEATURE_BARD_WORDS_OF_CREATION" />
+        </description>
+        <sheet display="false">
+            <description>An inspiring magician who uses music, words, and magic to empower others and manipulate the world.</description>
+        </sheet>
+        <setters>
+            <set name="short">An inspiring magician who uses music, words, and magic to empower others and manipulate the world.</set>
+            <set name="hd">d8</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_HAILJOE_MULTICLASS_BARD"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HAILJOE_MULTICLASS_BARD"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_HAILJOE_MULTICLASS_BARD"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_HAILJOE_MULTICLASS_BARD"/>
+            <select type="Proficiency" name="Musical Instrument Proficiency (Bard)" supports="Musical Instrument" number="3" requirements="!ID_HAILJOE_MULTICLASS_BARD"/>
+            <select type="Proficiency" name="Skill Proficiency (Bard)" supports="Skill" number="3" requirements="!ID_HAILJOE_MULTICLASS_BARD"/>
+            
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" level="1"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_SPELLCASTING_BARD" level="1"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_EXPERTISE" level="2"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" level="2"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_BARD_SUBCLASS" level="3"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_ABILITY_SCORE_IMPROVEMENT_BARD" level="4"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" level="5"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_COUNTERCHARM" level="7"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_MAGICAL_SECRETS" level="10"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" level="18"/>
+            <grant type="Class Feature" id="ID_HAILJOE_CLASS_FEATURE_BARD_WORDS_OF_CREATION" level="20"/>
+        </rules>
+        <multiclass id="ID_HAILJOE_MULTICLASS_BARD">
+            <prerequisite>Charisma 13</prerequisite>
+            <requirements>[cha:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Light armor, one skill of your choice, one musical instrument of your choice</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <select type="Proficiency" name="Skill Proficiency (Multiclass Bard)" supports="Skill" number="1" />
+                <select type="Proficiency" name="Musical Instrument Proficiency (Multiclass Bard)" supports="Musical Instrument" number="1" />
+            </rules>
+        </multiclass>
+    </element>
+
+    <element name="Bardic Inspiration" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_BARDIC_INSPIRATION">
+        <description>
+            <p>You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.</p>
+            <p><strong>Using Bardic Inspiration.</strong> As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.</p>
+            <p>Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it’s rolled.</p>
+            <p><strong>Number of Uses.</strong> You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+            <p><strong>At Higher Levels.</strong> Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{bardic-inspiration:uses}}/Long Rest">
+            <description>Inspire a creature within 60 feet. They gain a d{{bardic-inspiration:die}} to add to a failed D20 Test within 1 hour.</description>
+        </sheet>
+        <rules>
+            <stat name="bardic-inspiration:uses" value="1" bonus="base" />
+            <stat name="bardic-inspiration:uses" value="charisma:modifier" bonus="base" />
+            <stat name="bardic-inspiration:die" value="6" level="1" />
+            <stat name="bardic-inspiration:die" value="8" level="5" />
+            <stat name="bardic-inspiration:die" value="10" level="10" />
+            <stat name="bardic-inspiration:die" value="12" level="15" />
+        </rules>
+    </element>
+
+    <element name="Spellcasting" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_SPELLCASTING_BARD">
+        <description>
+            <p>You have learned to cast spells through your bardic arts.</p>
+            <h5>CANTRIPS</h5>
+            <p>You know two cantrips of your choice from the Bard spell list. Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list. When you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list.</p>
+            <h5>SPELL SLOTS</h5>
+            <p>The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
+            <h5>PREPARED SPELLS OF LEVEL 1+</h5>
+            <p>You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list.</p>
+            <p class="indent">The number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. The chosen spells must be of a level for which you have spell slots.</p>
+            <h5>CHANGING YOUR PREPARED SPELLS</h5>
+            <p>Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.</p>
+            <h5>SPELLCASTING ABILITY</h5>
+            <p>Charisma is your spellcasting ability for your Bard spells.</p>
+            <h5>SPELLCASTING FOCUS</h5>
+            <p>You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.</p>
+        </description>
+        <sheet>
+            <description>You can prepare {{bard:spellcasting:prepare}} spells from the Bard list. You use a musical instrument as a focus.</description>
+        </sheet>
+        <spellcasting name="Bard" ability="Charisma" prepare="true">
+            <list known="true">Bard</list>
+        </spellcasting>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+            <stat name="bard:spellcasting:slots:1" value="2" level="1" />
+            <stat name="bard:spellcasting:slots:1" value="1" level="2" />
+            <stat name="bard:spellcasting:slots:1" value="1" level="3" />
+            <stat name="bard:spellcasting:slots:2" value="2" level="3" />
+            <stat name="bard:spellcasting:slots:2" value="1" level="4" />
+            <stat name="bard:spellcasting:slots:3" value="2" level="5" />
+            <stat name="bard:spellcasting:slots:3" value="1" level="6" />
+            <stat name="bard:spellcasting:slots:4" value="1" level="7" />
+            <stat name="bard:spellcasting:slots:4" value="1" level="8" />
+            <stat name="bard:spellcasting:slots:4" value="1" level="9" />
+            <stat name="bard:spellcasting:slots:5" value="1" level="9" />
+            <stat name="bard:spellcasting:slots:5" value="1" level="10" />
+            <stat name="bard:spellcasting:slots:5" value="1" level="18" />
+            <stat name="bard:spellcasting:slots:6" value="1" level="11" />
+            <stat name="bard:spellcasting:slots:6" value="1" level="19" />
+            <stat name="bard:spellcasting:slots:7" value="1" level="13" />
+            <stat name="bard:spellcasting:slots:7" value="1" level="20" />
+            <stat name="bard:spellcasting:slots:8" value="1" level="15" />
+            <stat name="bard:spellcasting:slots:9" value="1" level="17" />
+
+            <stat name="bard:spellcasting:prepare" value="4" level="1"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="2"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="3"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="4"/>
+            <stat name="bard:spellcasting:prepare" value="2" level="5"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="6"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="7"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="8"/>
+            <stat name="bard:spellcasting:prepare" value="2" level="9"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="10"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="11"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="13"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="15"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="17"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="18"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="19"/>
+            <stat name="bard:spellcasting:prepare" value="1" level="20"/>
+
+            <select type="Spell" name="Cantrip (Bard)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Bard" />
+            <select type="Spell" name="Cantrip (Bard)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Bard" />
+            <select type="Spell" name="Cantrip (Bard)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Bard" />
+        </rules>
+    </element>
+
+    <element name="Expertise" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_EXPERTISE">
+        <description>
+            <p>You gain Expertise in two of your skill proficiencies of your choice. At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Expertise" name="Expertise (Level 2)" supports="Skill" number="2" level="2" />
+            <select type="Expertise" name="Expertise (Level 9)" supports="Skill" number="2" level="9" />
+        </rules>
+    </element>
+
+    <element name="Jack of All Trades" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES">
+        <description>
+            <p>You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn’t otherwise use your Proficiency Bonus.</p>
+        </description>
+        <sheet>
+            <description>Add half your Proficiency Bonus to any skill check you are not proficient in.</description>
+        </sheet>
+    </element>
+
+    <element name="Bard Subclass" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_BARD_SUBCLASS">
+        <description>
+            <p>You gain a Bard subclass of your choice. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass’s features that are of your Bard level or lower.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Bard Subclass" supports="Bard College" />
+        </rules>
+    </element>
+
+    <element name="Ability Score Improvement" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_ABILITY_SCORE_IMPROVEMENT_BARD">
+        <compendium display="false" />
+        <description>
+            <p>When you reach 4th level, and again at 8th, 12th and 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.</p>
+            <p class="indent">In addition, when you reach 19th level, you gain an Epic Boon or another feat of your choice for which you qualify.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Improvement Option (Bard 4)" supports="Improvement Option,Bard,4" level="4" />
+            <select type="Class Feature" name="Improvement Option (Bard 8)" supports="Improvement Option,Bard,8" level="8" />
+            <select type="Class Feature" name="Improvement Option (Bard 12)" supports="Improvement Option,Bard,12" level="12" />
+            <select type="Class Feature" name="Improvement Option (Bard 16)" supports="Improvement Option,Bard,16" level="16" />
+            <select type="Class Feature" name="Improvement Option (Bard 19)" supports="Improvement Option,Bard,19" level="19" />
+        </rules>
+    </element>
+
+    <element name="Font of Inspiration" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION">
+        <description>
+            <p>You now regain all your expended uses of Bardic Inspiration when you finish a Short or Long Rest.</p>
+            <p>In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration.</p>
+        </description>
+        <sheet>
+            <description>Regain Bardic Inspiration on a Short Rest. You can also expend a spell slot to regain 1 use.</description>
+        </sheet>
+    </element>
+
+    <element name="Countercharm" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_COUNTERCHARM">
+        <description>
+            <p>If you or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition, you can take a Reaction to cause the save to be rerolled, and the new roll has Advantage.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>Force a reroll with Advantage for a creature within 30ft failing a save vs Charmed or Frightened.</description>
+        </sheet>
+    </element>
+
+    <element name="Magical Secrets" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_MAGICAL_SECRETS">
+        <description>
+            <p>Whenever you reach a Bard level (including this level) and the Prepared Spells number increases, you can choose any of your new prepared spells from the Bard, Cleric, Druid, and Wizard spell lists. These count as Bard spells for you.</p>
+        </description>
+        <sheet display="false">
+			<description>You have plundered magical knowledge from a wide spectrum of disciplines.</description>
+		</sheet>
+        <rules>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="10" spellcasting="Bard"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="14" spellcasting="Bard"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="18" spellcasting="Bard"/>
+		</rules>
+    </element>
+
+    <element name="Superior Inspiration" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION">
+        <description>
+            <p>When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that.</p>
+        </description>
+        <sheet>
+            <description>Regain up to 2 uses of Bardic Inspiration when you roll Initiative.</description>
+        </sheet>
+    </element>
+
+    <element name="Words of Creation" type="Class Feature" source="HailJoe Classes" id="ID_HAILJOE_CLASS_FEATURE_BARD_WORDS_OF_CREATION">
+        <description>
+            <p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the Power Word Heal and Power Word Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p>
+        </description>
+        <sheet>
+            <description>Power Word Heal and Power Word Kill are always prepared and can target a second creature within 10ft.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_HEAL" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_KILL" prepared="true" />
+        </rules>
+    </element>
+</elements>
