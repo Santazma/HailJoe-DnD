@@ -4,7 +4,7 @@
 		<name>Familiars</name>
 		<description>Familiars and Companions either designed by HailJoe or taken from 3rd party sources.</description>
 		 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="familiars.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/familiars.xml" />
 		</update>
 	</info>
@@ -41,8 +41,6 @@
             <stat name="companion:ac" value="14" />
             <stat name="companion:hp:max" value="3" bonus="base" />
             <stat name="companion:speed" value="30" bonus="base" />
-            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" />
-            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
         </rules>
     </element>
 
