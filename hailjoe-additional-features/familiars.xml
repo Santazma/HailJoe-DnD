@@ -4,7 +4,7 @@
 		<name>Familiars</name>
 		<description>Familiars and Companions either designed by HailJoe or taken from 3rd party sources.</description>
 		 <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="familiars.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-additional-features/familiars.xml" />
 		</update>
 	</info>
@@ -26,7 +26,10 @@
             <set name="ac">14</set>
             <set name="hp">3 (1d4+1)</set>
             <set name="speed">30 ft.</set>
+			<set name="senses">passive Perception 10</set>
             <set name="languages">—</set>
+			<set name="immunities">fire, poison</set>
+			<set name="conditionImmunities">paralysed, petrified, poisoned</set> 
             <set name="type">Construct</set>
             <set name="size">Tiny</set>
             <set name="alignment">Neutral</set>
