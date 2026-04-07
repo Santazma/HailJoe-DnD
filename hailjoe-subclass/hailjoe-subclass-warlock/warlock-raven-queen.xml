@@ -4,7 +4,7 @@
         <name>The Raven Queen</name>
         <description>The Raven Queen warlock patron from HailJoe.</description>
         <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="warlock-raven-queen.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-raven-queen.xml" />
         </update>
     </info>
@@ -123,9 +123,9 @@
         </rules>
     </element>
 
-    <element name="Raven Queen’s Blessing" type="Invocation" source="HailJoe Subclasses" id="ID_HAILJOE_INVOCATION_RAVEN_QUEENS_BLESSING">
-        <supports>Eldritch Invocation, Pact Of The Chaim</supports>
-        <requirements>([level:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_CHAIN),!ID_HAILJOE_INVOCATION_RAVEN_QUEENS_BLESSING</requirements>
+    <element name="Raven Queen’s Blessing" type="Class Feature" source="HailJoe Subclasses" id="ID_HAILJOE_INVOCATION_RAVEN_QUEENS_BLESSING">
+        <supports>Eldritch Invocation, Pact Of The Chain</supports>
+        <requirements>[level:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_CHAIN</requirements>
         <prerequisite>Level 2+ Warlock, Pact of the Chain Invocation</prerequisite>
         <description>
             <p>Whenever your summoned familiar deals damage to a creature of CR 1/2 or higher, the Raven Queen claims a fragment of the target's soul. You regain Hit Points equal to 1d8 + your Charisma modifier.</p>
@@ -135,9 +135,9 @@
         </sheet>
     </element>
 
-    <element name="Chronicle of the Raven Queen" type="Invocation" source="HailJoe Subclasses" id="ID_HAILJOE_INVOCATION_CHRONICLE_OF_THE_RAVEN_QUEEN">
+    <element name="Chronicle of the Raven Queen" type="Class Feature" source="HailJoe Subclasses" id="ID_HAILJOE_INVOCATION_CHRONICLE_OF_THE_RAVEN_QUEEN">
         <supports>Eldritch Invocation, Pact Of The Tome</supports>
-        <requirements>([level:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_TOME),!ID_HAILJOE_INVOCATION_CHRONICLE_OF_THE_RAVEN_QUEEN</requirements>
+        <requirements>[level:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_TOME</requirements>
         <prerequisite>Level 2+ Warlock, Pact of the Tome Invocation</prerequisite>
         <description>
             <p>You can place a corpse's hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. This ability fails if the target was already subjected to this ability, or to the Speak With Dead spell, or the target has been dead for more than 24 hours. The answer is provided by the dead creature's spirit truthfully, to the best of its knowledge, and is translated into a language of your choice.</p>
