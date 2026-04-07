@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>The Raven Queen</name>
+        <description>The Raven Queen warlock patron from HailJoe.</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+        <update version="0.0.1">
+            <file name="warlock-raven-queen.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-warlock/warlock-raven-queen.xml" />
+        </update>
+    </info>
+
+    <element name="The Raven Queen" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_OTHERWORLDLY_PATRON_THE_RAVEN_QUEEN">
+        <supports>Otherworldly Patron</supports>
+        <description>
+            <p>Your patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm.</p>
+            <p class="indent">The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will.</p>
+            <p class="indent">Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers. The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.</p>
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_EXPANDED_SPELL_LIST" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_SENTINEL_RAVEN" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_SOUL_OF_THE_RAVEN" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_RAVEN_SHIELD" />
+            <div element="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_QUEENS_RIGHT_HAND" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_EXPANDED_SPELL_LIST" level="3"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_SENTINEL_RAVEN" level="3"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_SOUL_OF_THE_RAVEN" level="6"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_RAVEN_SHIELD" level="10"/>
+            <grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_QUEENS_RIGHT_HAND" level="14"/>
+        </rules>
+    </element>
+
+    <element name="Expanded Spell List" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_EXPANDED_SPELL_LIST">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_EXPANDED_SPELL_LIST</requirements>
+        <description>
+            <p>The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Raven Queen Spells table, you thereafter always have the listed spells prepared.</p>
+            <h5 class="caption">RAVEN QUEEN SPELLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Warlock Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><em>False Life, Sanctuary</em></td></tr>
+                <tr><td>3rd</td><td><em>Silence, Spiritual Weapon</em></td></tr>
+                <tr><td>5th</td><td><em>Feign Death, Speak with Dead</em></td></tr>
+                <tr><td>7th</td><td><em>Ice Storm, Locate Creature</em></td></tr>
+                <tr><td>9th</td><td><em>Commune, Cone of Cold</em></td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>The Raven Queen grants you an expanded list of spells that you always have prepared.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_FALSE_LIFE" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_SANCTUARY" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_SILENCE" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPIRITUAL_WEAPON" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_FEIGN_DEATH" level="5" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_DEAD" level="5" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_ICE_STORM" level="7" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_LOCATE_CREATURE" level="7" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMUNE" level="9" spellcasting="Warlock" prepared="true" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONE_OF_COLD" level="9" spellcasting="Warlock" prepared="true" />
+        </rules>
+    </element>
+
+    <element name="Sentinel Raven" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_SENTINEL_RAVEN">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_SENTINEL_RAVEN</requirements>
+        <description>
+            <p>You gain the service of a spirit sent by the Raven Queen to watch over you. You learn the Find Familiar spell and can cast it as an Action, without requiring spell slots or Material Components. You can only cast the spell in this way if the familiar you summon is a Raven.</p>
+            <p class="indent"><strong>Combat.</strong> Your raven can roll its Initiative as normal or can move before you (choose each time it rolls for Initiative, but before seeing the result of the roll). If it is slain by a creature, you gain Advantage on all attack rolls against the killer for the next 24 hours or until you resummon your raven.</p>
+            <p class="indent"><strong>Perched.</strong> If it is within 5 feet of you, the raven can take its Action to perch itself on your shoulder. While Perched you gain Darkvision to a range of 60 feet and a bonus to Intelligence (History) and Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is Incapacitated. To unperch itself, the raven needs to expend 5 feet of movement on its turn.</p>
+        </description>
+        <sheet action="Action">
+            <description>You can cast Find Familiar (Raven only) as an Action without spell slots or material components. While the raven is Perched, you have Darkvision 60ft and a +{{charisma:modifier}} bonus to History and Perception checks. If the raven is slain, you gain Advantage on attack rolls against the killer for 24 hours.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" spellcasting="Warlock" />
+        </rules>
+    </element>
+
+    <element name="Soul of the Raven" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_SOUL_OF_THE_RAVEN">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_SOUL_OF_THE_RAVEN</requirements>
+        <description>
+            <p>You connection with the raven deepens. You gain the following benefits:</p>
+            <p class="indent"><strong>Familiar Swap.</strong> If your familiar is within 100 feet of you, as a Bonus Action, you can swap places with it. If you can't fit into the space where your familiar is, the ability fails and you take 1d10 Force damage. You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p>
+            <p class="indent"><strong>One with the Raven.</strong> As a Bonus Action when your raven is Perched, your body merges with your it. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched. As an action, you and the raven return to normal.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{raven:swap:uses}}/Long Rest">
+            <description>Familiar Swap: Swap places with familiar within 100ft. Fail deal 1d10 Force damage.
+            One with the Raven: Merge with perched raven. Become Tiny, use raven speed, actions limited to Dash, Disengage, Dodge, Help, Hide, Search. Action to return to normal.</description>
+        </sheet>
+        <rules>
+            <stat name="raven:swap:uses" value="1" bonus="min" />
+            <stat name="raven:swap:uses" value="charisma:modifier" />
+        </rules>
+    </element>
+
+    <element name="Raven Shield" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_RAVEN_SHIELD">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_RAVEN_SHIELD</requirements>
+        <description>
+            <p>The Raven Queen grants you a protective blessing. You gain Advantage on Death Saving Throws, Immunity to the Frightened condition, and Resistance to Necrotic damage.</p>
+            <p class="indent">In addition, while your raven is within 5 feet of an enemy, it can take an Action to give the target Disadvantage on the next saving throw it makes against one of your spells. This benefit expires at the end of your next turn.</p>
+        </description>
+        <sheet>
+            <description>You have Advantage on Death Saving Throws. While raven is within 5ft of an enemy, it can use an Action to give the target Disadvantage on its next save vs your spells (expires end of next turn).</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Queen’s Right Hand" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_RAVEN_QUEEN_QUEENS_RIGHT_HAND">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_QUEENS_RIGHT_HAND</requirements>
+        <description>
+            <p>You can channel the Raven Queen's power to slay a creature. You can cast Finger of Death. After you cast the spell with this feature, you can't do so again until you finish a Long Rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>You can cast Finger of Death without expending a spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FINGER_OF_DEATH" spellcasting="Warlock" />
+        </rules>
+    </element>
+
+    <element name="Raven Queen’s Blessing" type="Invocation" source="HailJoe Subclasses" id="ID_HAILJOE_INVOCATION_RAVEN_QUEENS_BLESSING">
+        <supports>PHB24 Eldritch Invocation</supports>
+        <requirements>([level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_CHAIN),!ID_HAILJOE_INVOCATION_RAVEN_QUEENS_BLESSING</requirements>
+        <prerequisite>Level 2+ Warlock, Pact of the Chain Invocation</prerequisite>
+        <description>
+            <p>Whenever your summoned familiar deals damage to a creature of CR 1/2 or higher, the Raven Queen claims a fragment of the target's soul. You regain Hit Points equal to 1d8 + your Charisma modifier.</p>
+        </description>
+        <sheet>
+            <description>Regain 1d8 + {{charisma:modifier}} HP when your familiar damages a CR 1/2+ creature.</description>
+        </sheet>
+    </element>
+
+    <element name="Chronicle of the Raven Queen" type="Invocation" source="HailJoe Subclasses" id="ID_HAILJOE_INVOCATION_CHRONICLE_OF_THE_RAVEN_QUEEN">
+        <supports>PHB24 Eldritch Invocation</supports>
+        <requirements>([level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_PACT_OF_THE_TOME),!ID_HAILJOE_INVOCATION_CHRONICLE_OF_THE_RAVEN_QUEEN</requirements>
+        <prerequisite>Level 2+ Warlock, Pact of the Tome Invocation</prerequisite>
+        <description>
+            <p>You can place a corpse's hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. This ability fails if the target was already subjected to this ability, or to the Speak With Dead spell, or the target has been dead for more than 24 hours. The answer is provided by the dead creature's spirit truthfully, to the best of its knowledge, and is translated into a language of your choice.</p>
+        </description>
+        <sheet>
+            <description>Ask a corpse one question via Book of Shadows. Answer appears in 1 min. Fails if dead 24h+ or Speak with Dead cast on it.</description>
+        </sheet>
+    </element>
+
+    <element name="Expanded Spell List Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_EXPANDED_SPELL_LIST" />
+    <element name="Sentinel Raven Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_SENTINEL_RAVEN" />
+    <element name="Soul of the Raven Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_SOUL_OF_THE_RAVEN" />
+    <element name="Raven Shield Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_RAVEN_SHIELD" />
+    <element name="Queen’s Right Hand Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_RAVEN_QUEEN_QUEENS_RIGHT_HAND" />
+
+</elements>
