@@ -1,0 +1,138 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<elements>
+    <info>
+        <name>Disciple of Soul Bending, Bender class from Ryoko's Guide to the Yokai Realms homebrewed bu HailJoe</name>
+        <update version = "0.0.1">
+            <file name = "bender-soulbending.xml" url = ""/>
+        </update>
+    </info>
+
+    <!-- Disciple of Soul Bending -->
+    <element name = "Disciple of Soul Bending" type = "Archetype" source = "HailJoe Subclasses" id = "ID_HAILJOE_ARCHETYPE_DISCIPLE_OF_SOUL_BENDING">
+        <supports>Bender Discipline</supports>
+        <description>
+            <p>The elements do not only manifest in wind, stone, flame, and tide. Within every living creature burns a primordial spark — a vital force that courses through flesh and bone as surely as fire courses through kindling. A Disciple of Soul Bending has learned to reach beyond the physical world and grasp that inner flame directly: to draw it out, to redirect it, to extinguish it, or to claim it entirely as their own.</p>
+            <p class = "indent">Where other benders shape the world around them, a Soul Bender shapes the world within. They pry open the gap between a creature's will and its body, flooding that space with their own intent. Scholars of elemental tradition debate whether Soul Bending is truly a bending art at all, or something altogether more dangerous. The disciples themselves rarely see fit to settle the argument.</p>
+            <div element = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SPELLS"/>
+            <div element = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SOUL_TAP"/>
+            <div element = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SIPHON_STRIKE"/>
+            <div element = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_UNRAVELLED_SPIRIT"/>
+            <div element = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_STOLEN_VITALITY"/>
+            <div element = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_CONSUMING_EMANATION"/>
+        </description>
+        <sheet display = "false">
+            <description>A Disciple of Soul Bending reaches beyond the physical world to grasp the primordial spark within every living creature, draining it, redirecting it, or claiming it entirely as their own.</description>
+        </sheet>
+        <rules>
+            <grant type = "Archetype Feature" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SPELLS" level = "3"/>
+            <grant type = "Archetype Feature" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SOUL_TAP" level = "3"/>
+            <grant type = "Archetype Feature" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SIPHON_STRIKE" level = "3"/>
+            <grant type = "Archetype Feature" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_UNRAVELLED_SPIRIT" level = "7"/>
+            <grant type = "Archetype Feature" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_STOLEN_VITALITY" level = "15"/>
+            <grant type = "Archetype Feature" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_CONSUMING_EMANATION" level = "20"/>
+        </rules>
+    </element>
+
+    <!-- Soul Bending Spells -->
+    <element name = "Soul Bending Spells" type = "Archetype Feature" source = "HailJoe Subclasses" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SPELLS">
+        <description>
+            <p><em>3rd-level Disciple of Soul Bending feature</em></p>
+            <p>Your discipline draws from a reservoir of soul-wrenching magic that transcends ordinary elemental affinity. You always have the following spells prepared, and they don't count against the number of spells you can prepare each day. If a spell is not already on your bender spell list, it is added to it.</p>
+            <table class = "soul-bending-spells">
+                <thead>
+                    <tr><td class = "col-5">Bender Level</td><td class = "col-10 left">Spell</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>bane</td></tr>
+                <tr><td>5th</td><td>hold person</td></tr>
+                <tr><td>9th</td><td>vampiric touch</td></tr>
+                <tr><td>13th</td><td>compulsion</td></tr>
+                <tr><td>17th</td><td>enervation</td></tr>
+            </table>
+        </description>
+        <sheet display = "false"/>
+        <rules>
+            <grant type = "Spell" id = "ID_PHB_SPELL_BANE" spellcasting = "Bender" level = "3" prepared = "true"/>
+            <grant type = "Spell" id = "ID_PHB_SPELL_HOLD_PERSON" spellcasting = "Bender" level = "5" prepared = "true"/>
+            <grant type = "Spell" id = "ID_PHB_SPELL_VAMPIRIC_TOUCH" spellcasting = "Bender" level = "9" prepared = "true"/>
+            <grant type = "Spell" id = "ID_PHB_SPELL_COMPULSION" spellcasting = "Bender" level = "13" prepared = "true"/>
+            <grant type = "Spell" id = "ID_XGTE_SPELL_ENERVATION" spellcasting = "Bender" level = "17" prepared = "true"/>
+        </rules>
+    </element>
+
+    <!-- Soul Tap -->
+    <element name = "Soul Tap" type = "Archetype Feature" source = "HailJoe Subclasses" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SOUL_TAP">
+        <description>
+            <p><em>3rd-level Disciple of Soul Bending feature</em></p>
+            <p>You have learned to leave an imprint of primordial energy upon the creatures you strike, and to channel the void between life and death into your blows.</p>
+            <p class = "indent">When you hit a creature with an Elemental Strike, you can choose to deal <strong>necrotic damage</strong> instead of a damage type associated with your Elemental Affinity. If you do so, you can also place a <strong>Soul Mark</strong> on that creature (no additional action required). Alternatively, you can deal your normal affinity damage and still place a Soul Mark, but you cannot do both in the same strike unless the damage type chosen is necrotic.</p>
+            <p class = "indent">A creature can have a number of Soul Marks on it equal to your bender spellcasting ability modifier (minimum of 1). Soul Marks last until the end of your next turn, until you use your Siphon Strike feature, or until the creature dies. A creature is unaware of the Soul Mark placed upon it.</p>
+        </description>
+        <sheet display = "true">
+            <description>When you hit a creature with an Elemental Strike, you can choose to deal necrotic damage instead of a damage type associated with your Elemental Affinity. If you do so, you can also place a Soul Mark on that creature (no additional action required). Alternatively, you can deal your normal affinity damage and still place a Soul Mark, but you cannot do both in the same strike unless the damage type chosen is necrotic. A creature can have a maximum of {{bender:spellcasting:modifier}} Soul Marks (minimum 1). Soul Marks last until the end of your next turn, until you use Siphon Strike, or until the creature dies. A creature is unaware of the Soul Mark placed upon it.</description>
+        </sheet>
+    </element>
+
+    <!-- Siphon Strike -->
+    <element name = "Siphon Strike" type = "Archetype Feature" source = "HailJoe Subclasses" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_SIPHON_STRIKE">
+        <description>
+            <p><em>3rd-level Disciple of Soul Bending feature</em></p>
+            <p>You have learned to harvest the primordial energy you have seeded within your foes. When you hit a creature bearing one or more Soul Marks with an Elemental Strike, you can consume all Soul Marks on that creature. When you do so, you or a creature of your choice within 30 feet of you regain hit points equal to <strong>1d6 per Soul Mark consumed.</strong></p>
+            <p class = "indent">This damage die increases to a <strong>d8</strong> when you reach 11th level in this class.</p>
+            <p class = "indent">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet display = "true" usage = "{{proficiency}}/Long Rest">
+            <description level = "3">When you hit a creature bearing one or more Soul Marks with an Elemental Strike, you can consume all Soul Marks on that creature. When you do so, you or a creature of your choice within 30 feet of you regain hit points equal to 1d6 per Soul Mark consumed.</description>
+            <description level = "11">When you hit a creature bearing one or more Soul Marks with an Elemental Strike, you can consume all Soul Marks on that creature. When you do so, you or a creature of your choice within 30 feet of you regain hit points equal to 1d8 per Soul Mark consumed.</description>
+        </sheet>
+    </element>
+
+    <!-- Unravelled Spirit -->
+    <element name = "Unravelled Spirit" type = "Archetype Feature" source = "HailJoe Subclasses" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_UNRAVELLED_SPIRIT">
+        <description>
+            <p><em>7th-level Disciple of Soul Bending feature</em></p>
+            <p>Your attunement to the soul has grown deep enough to unravel the spiritual defences of your foes entirely.</p>
+            <p class = "indent"><strong>Soul Erosion.</strong> Your attacks and spells that deal necrotic damage ignore necrotic resistance. Creatures that are immune to necrotic damage instead treat that immunity as resistance when affected by your attacks or spells.</p>
+            <p class = "indent"><strong>Soul Shackle.</strong> As a bonus action, you can attempt to bind the soul of a creature bearing at least one Soul Mark that you can see within 60 feet of you. The creature must succeed on a Constitution saving throw against your bender spell save DC or become <strong>incapacitated</strong> until the end of its next turn, as your will suppresses its own.</p>
+            <p class = "indent"><strong>Soul Drag.</strong> As a bonus action, you can violently pull at the soul of a creature bearing at least one Soul Mark that you can see within 60 feet of you. The creature must succeed on a Strength saving throw against your bender spell save DC or be moved up to 15 feet in a direction of your choice. This movement does not provoke opportunity attacks.</p>
+            <p class = "indent">You can use Soul Shackle or Soul Drag a combined number of times equal to your bender spellcasting ability modifier (minimum of once), and you regain all expended uses when you finish a short or long rest.</p>
+        </description>
+        <sheet display = "true" usage = "{{unravelled spirit:count}}/Short Rest">
+            <description>Soul Erosion: Your attacks and spells that deal necrotic damage ignore necrotic resistance. Creatures immune to necrotic damage instead treat that immunity as resistance against your attacks and spells. Soul Shackle: As a bonus action, choose a creature bearing at least one Soul Mark within 60 feet. It must succeed on a Constitution saving throw (DC {{bender:spellcasting:dc}}) or become incapacitated until the end of its next turn. Soul Drag: As a bonus action, choose a creature bearing at least one Soul Mark within 60 feet. It must succeed on a Strength saving throw (DC {{bender:spellcasting:dc}}) or be moved up to 15 feet in a direction of your choice. This movement doesn't provoke opportunity attacks.</description>
+        </sheet>
+        <rules>
+            <stat name = "unravelled spirit:count" value = "1" bonus = "base"/>
+            <stat name = "unravelled spirit:count" value = "bender:spellcasting:modifier" bonus = "base"/>
+        </rules>
+    </element>
+
+    <!-- Stolen Vitality -->
+    <element name = "Stolen Vitality" type = "Archetype Feature" source = "HailJoe Subclasses" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_STOLEN_VITALITY">
+        <description>
+            <p><em>15th-level Disciple of Soul Bending feature</em></p>
+            <p>Your mastery over the life force of others has reached its apex. You gain the following two abilities.</p>
+            <p class = "indent"><strong>Hollow Touch.</strong> When you hit a creature with an Elemental Strike that deals necrotic damage, you can force the creature to make a Wisdom saving throw against your bender spell save DC. On a failed save, the creature is <strong>frightened</strong> of you until the end of your next turn, and it cannot regain hit points until the start of your next turn. While you are in your <strong>Primordial Form</strong>, this feature is empowered: a creature that fails the saving throw is <strong>stunned</strong> until the end of your next turn instead of only frightened, and the suppression of its healing is extended until the start of the creature's next turn. You can use Hollow Touch a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+            <p class = "indent"><strong>Soul Injection.</strong> When a creature you can see within 60 feet of you takes damage, you can use your <strong>reaction</strong> to consume all Soul Marks currently on any number of creatures within 60 feet of you. The damaged creature regains hit points equal to <strong>1d8 per Soul Mark consumed</strong> in this way. You can use this feature a number of times equal to your bender spellcasting ability modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet display = "true">
+            <description>Hollow Touch: When you hit a creature with an Elemental Strike that deals necrotic damage, you can force it to make a Wisdom saving throw (DC {{bender:spellcasting:dc}}). On a failed save, the creature is frightened of you until the end of your next turn and cannot regain hit points until the start of your next turn. While in Primordial Form, the creature is stunned instead of frightened, and the healing suppression lasts until the start of the creature's next turn. Usable {{proficiency}} times per long rest. Soul Injection: When a creature you can see within 60 feet of you takes damage, you can use your reaction to consume all Soul Marks on any number of creatures within 60 feet of you. The damaged creature regains 1d8 hit points per Soul Mark consumed. Usable {{stolen vitality:soul injection:count}} times per long rest.</description>
+        </sheet>
+        <rules>
+            <stat name = "stolen vitality:soul injection:count" value = "1" bonus = "base"/>
+            <stat name = "stolen vitality:soul injection:count" value = "bender:spellcasting:modifier" bonus = "base"/>
+        </rules>
+    </element>
+
+    <!-- Consuming Emanation -->
+    <element name = "Consuming Emanation" type = "Archetype Feature" source = "HailJoe Subclasses" id = "ID_HAILJOE_ARCHETYPE_FEATURE_SOUL_BENDING_CONSUMING_EMANATION">
+        <description>
+            <p><em>20th-level Disciple of Soul Bending feature</em></p>
+            <p>You have achieved the capacity to radiate a field of soul-devouring energy, draining the vital essence from all those around you and turning their suffering into your sustenance.</p>
+            <p class = "indent">As an action, you project a <strong>20-foot-radius emanation</strong> of entropic soul energy centred on yourself. This emanation lasts for 1 minute. At the start of each creature's turn while it is within the emanation, each creature you have not designated as an ally must make a <strong>Charisma saving throw</strong> against your bender spell save DC. On a failed save, the creature takes <strong>3d6 necrotic damage.</strong> On a successful save, the creature takes half as much damage. Whenever a creature takes necrotic damage from this emanation, you immediately regain hit points equal to <strong>half the necrotic damage dealt</strong> to that creature by that instance of damage.</p>
+            <p class = "indent">Against creatures that have a soul — any creature that is not a construct or undead — this emanation <strong>ignores necrotic immunity.</strong> Such creatures treat necrotic immunity as resistance instead, and on a failed saving throw they take the full 3d6 necrotic damage regardless.</p>
+            <p class = "indent">Once you activate this feature, you can't do so again until you finish a long rest.</p>
+        </description>
+        <sheet display = "true" usage = "1/Long Rest">
+            <description>As an action, you project a 20-foot-radius emanation of entropic soul energy centred on yourself for 1 minute. At the start of each creature's turn in the emanation, each creature you have not designated as an ally must make a Charisma saving throw (DC {{bender:spellcasting:dc}}). On a failed save, the creature takes 3d6 necrotic damage; on a success, half as much. Whenever a creature takes necrotic damage from this emanation, you immediately regain hit points equal to half the necrotic damage dealt to that creature by that instance of damage. Against creatures with a soul (not constructs or undead), this emanation ignores necrotic immunity; such creatures treat immunity as resistance instead and take full damage on a failed save.</description>
+        </sheet>
+    </element>
+</elements>
