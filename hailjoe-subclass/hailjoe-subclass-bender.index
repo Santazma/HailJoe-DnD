@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="bard-couture.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-bard/bard-couture.xml" />
+		<file name="bender-soulbending.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-bender/bender-soulbending.xml"/>
 	</files>
 </index>
