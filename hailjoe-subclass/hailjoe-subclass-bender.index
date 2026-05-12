@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Bard Subclasses</name>
+		<description>HailJoe's Homebrew Bender Subclasses</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="hailjoe-subclass-bender.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-bender.index" />
+		</update>
+	</info>
+	<files>
+		<file name="bard-couture.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-bard/bard-couture.xml" />
+	</files>
+</index>
