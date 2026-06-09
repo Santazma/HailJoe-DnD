@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.27">
+    <update version="0.0.28">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -994,6 +994,30 @@
             <stat name="initiative" value="2" />
         </rules>
     </element>
+
+	<element name="Veil of Vesperis" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_VEIL_OF_VESPERIS">
+    	<description>
+      		<p class="flavor">When the last mourner of Vesperis wept herself into nothing, her grief did not vanish — it clung. To the cold air, to the stones of her tomb, to the very dark that swallowed the candlelight. What remained was not a ghost, but a hunger: strands of her sorrow given form, drifting endlessly, reaching for warmth they will never find again. To graft the Veil is not to wear her grief. It is to become its vessel.</p>
+      		<p>Long, shadowy tendrils cascade from the host's arm, woven from something between darkness and memory. They drift and coil with a ghostly, weightless sway — not like cloth or hair, but like smoke that has learned to mourn. Cold, flickering lights pulse through each strand at irregular intervals, as though the faint echoes of extinguished souls still wander within them. The arm itself seems to lose its edges, the boundary between flesh and shadow growing indistinct; to look directly at it is to feel the quiet, creeping certainty that something on the other side is looking back.</p>
+      		<p class="indent"><strong><em>Eldritch Affinity — Necrotic.</em></strong> The Veil drinks deeply of the dark. Death's own entropy seeps into the host's body through the graft, threading into the marrow and weaving itself around every vital organ like a second skin of shadow. Decay slows; corruption falters; the necrotic forces that unmake lesser creatures find no purchase here, turned aside not by strength, but by kinship. You gain resistance to necrotic damage.</p>
+      		<p class="indent"><strong><em>Lament of the Fallen.</em></strong> As an action, you release a wave of mournful whispers in a 30-foot radius. Each creature within range must succeed on a DC 16 Constitution saving throw or take 3d6 psychic damage. Once used, you can't use this property again until you finish a long rest.</p>
+      		<p class="indent"><strong><em>Shroud of Grief.</em></strong> As a reaction when you are targeted by an attack, you wrap the spectral tendrils around your body. You gain a +1 bonus to AC against the triggering attack, and the attacker must succeed on a DC 15 Wisdom saving throw or become frightened of you until the end of their next turn. Once used, you can't use this property again until you finish a long rest.</p>
+     		<p class="indent"><strong><em>Tendrils of Despair.</em></strong> As an action, you animate the ghostly tendrils to lash out at up to three creatures within 10 feet of you. Each target must succeed on a DC 16 Dexterity saving throw or take 2d6 psychic damage and become restrained by the spectral strands. While restrained, a creature can use its action to make a DC 16 Strength or Dexterity check (its choice), escaping on a success. Once used, you can't use this property again until you finish a long rest.</p>
+      		<p class="indent"><strong><em>Developmental Growth.</em></strong> At 5th level, the range of Tendrils of Despair increases to 20 feet. At 10th level, the AC bonus of Shroud of Grief increases to +2. At 15th level, the damage of Lament of the Fallen increases to 4d6.</p>
+    	</description>
+    	<rules>
+      		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+    	</rules>
+   	 	<setters>
+      		<set name="keywords">graft, arm, necrotic, psychic, tendrils, shadow</set>
+      		<set name="category">Wondrous Items</set>
+      		<set name="cost" currency="gp">0</set>
+      		<set name="type">Wondrous Item</set>
+      		<set name="attunement">true</set>
+      		<set name="rarity">Very Rare</set>
+      		<set name="slot">hand</set>
+    	</setters>
+	</element>
 	
 </elements>
 
