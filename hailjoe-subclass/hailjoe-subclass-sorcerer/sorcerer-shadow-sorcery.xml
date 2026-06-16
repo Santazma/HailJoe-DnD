@@ -5,7 +5,7 @@
 		<description>The Shadow Sorcery subclass from Ravenloft: The Horrors Within (D&amp;D 2024).</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="sorcerer-shadow.xml" url="" />
+			<file name="sorcerer-shadow-sorcery.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-subclass/hailjoe-subclass-sorcerer/sorcerer-shadow-sorcery.xml" />
 		</update>
 	</info>
 
