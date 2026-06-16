@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Shadow Sorcery</name>
+		<description>The Shadow Sorcery subclass from Ravenloft: The Horrors Within (D&amp;D 2024).</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="sorcerer-shadow.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Shadow Sorcery" type="Archetype" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_SORCERER_SHADOW_SORCERY">
+		<supports>Sorcerer Subclass</supports>
+		<description>
+			<p class="flavor">Bend Doom and Darkness to Your Will</p>
+			<p>Your innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe.</p>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_SHADOW_SPELLS"/>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_POWER_OF_SHADOW"/>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_BEASTS_OF_ILL_OMEN"/>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_SHADOW_WALK"/>
+			<div element="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_UMBRAL_FORM"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_SHADOW_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_POWER_OF_SHADOW" level="3" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_BEASTS_OF_ILL_OMEN" level="6" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_SHADOW_WALK" level="14" />
+			<grant type="Archetype Feature" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_UMBRAL_FORM" level="18" />
+		</rules>
+	</element>
+
+	<!-- Level 3: Shadow Spells -->
+	<element name="Level 3: Shadow Spells" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_SHADOW_SPELLS">
+		<requirements>!ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_SHADOW_SPELLS</requirements>
+		<description>
+			<p>When you reach a Sorcerer level specified in the Shadow Spells table, you thereafter always have the listed spells prepared.</p>
+			<h5>Shadow Spells</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-30">Sorcerer Level</td><td class="left">Spells</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Bane, Darkness, Inflict Wounds, Pass Without Trace</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Hunger of Hadar, Nondetection</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Greater Invisibility, Phantasmal Killer</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Contagion, Creation</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BANE" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_INFLICT_WOUNDS" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNGER_OF_HADAR" level="5" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_NONDETECTION" level="5" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PHANTASMAL_KILLER" level="7" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONTAGION" level="9" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CREATION" level="9" spellcasting="Sorcerer" prepared="true" />
+		</rules>
+	</element>
+
+	<!-- Level 3: Power of Shadow -->
+	<element name="Level 3: Power of Shadow" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_POWER_OF_SHADOW">
+		<requirements>!ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_POWER_OF_SHADOW</requirements>
+		<description>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><strong><em>Eyes of the Dark.</em></strong> You have Darkvision with a range of 120 feet and Blindsight with a range of 10 feet. In addition, if a spell you cast creates an area of Darkness, you can see normally through that spell's Darkness.</p>
+			<p class="indent"><strong><em>Strength of the Grave.</em></strong> If you would drop to 0 Hit Points and not die outright, you can make a Charisma saving throw (DC 5 plus the damage taken). On a successful save, your Hit Points instead change to a number equal to your Charisma modifier plus your Sorcerer level. After you succeed on this save, you can't use this benefit again until you finish a Long Rest.</p>
+		</description>
+		<sheet alt="Power of Shadow">
+			<description>
+				Eyes of the Dark: You have Darkvision 120 ft. and Blindsight 10 ft. You can see normally through Darkness created by your spells. &#13;
+				Strength of the Grave (1/Long Rest): When you would drop to 0 HP and not die outright, make a Charisma saving throw (DC = 5 + damage taken). On a success, your HP instead becomes {{charisma:modifier}} + {{level:sorcerer}}.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="10" bonus="base" />
+		</rules>
+	</element>
+
+	<!-- Level 6: Beasts of Ill Omen -->
+	<element name="Level 6: Beasts of Ill Omen" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_BEASTS_OF_ILL_OMEN">
+		<requirements>!ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_BEASTS_OF_ILL_OMEN</requirements>
+		<description>
+			<p>You can call forth a howling creature of shadow to hound your foes. You can spend 3 Sorcery Points to cast <i>Summon Beast</i> as a Bonus Action without expending a spell slot, without preparing the spell, and without Material components. The summoned creature appears as a beast made of shadow, and enemies within 5 feet of the summoned creature have Disadvantage on saving throws against spells you cast.</p>
+			<p class="indent">Whenever you cast the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting, and the spell ends early if you cast the spell again.</p>
+		</description>
+		<sheet alt="Beasts of Ill Omen" action="Bonus Action">
+			<description>You can spend 3 Sorcery Points to cast Summon Beast without a spell slot, without preparation, and without Material components. The summoned shadow-beast causes enemies within 5 feet of it to have Disadvantage on saving throws against your spells. &#13;
+			You can modify the spell to not require Concentration; if you do, its duration becomes 1 minute and it ends early if you cast it again.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_BEAST" spellcasting="Sorcerer" prepared="true" />
+		</rules>
+	</element>
+
+	<!-- Level 14: Shadow Walk -->
+	<element name="Level 14: Shadow Walk" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_SHADOW_WALK">
+		<requirements>!ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_SHADOW_WALK</requirements>
+		<description>
+			<p>While you are in Dim Light or Darkness, you can take a Bonus Action to teleport up to 120 feet to an unoccupied space you can see that is also in Dim Light or Darkness.</p>
+		</description>
+		<sheet alt="Shadow Walk" action="Bonus Action">
+			<description>While in Dim Light or Darkness, you can teleport up to 120 feet to an unoccupied space you can see that is also in Dim Light or Darkness.</description>
+		</sheet>
+	</element>
+
+	<!-- Level 18: Umbral Form -->
+	<element name="Level 18: Umbral Form" type="Archetype Feature" source="HailJoe Subclasses" id="ID_HAILJOE_ARCHETYPE_FEATURE_SORCERER_SHADOW_SORCERY_UMBRAL_FORM">
+		<requirements>!ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_UMBRAL_FORM</requirements>
+		<description>
+			<p>When you use Innate Sorcery, you can adopt a shadowy form, gaining the benefits below while your Innate Sorcery is active or until you end the form (no action required). Once you use this feature, you can't use it again until you finish a Long Rest unless you spend 6 Sorcery Points (no action required) to restore your use of it.</p>
+			<p class="indent"><strong><em>Incorporeal Movement.</em></strong> You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.</p>
+			<p class="indent"><strong><em>Shadow Resilience.</em></strong> You have Resistance to all damage except Force and Radiant damage.</p>
+		</description>
+		<sheet alt="Umbral Form" usage="1/Long Rest">
+			<description>When you use Innate Sorcery, you can adopt a shadowy form for its duration or until dismissed (no action required). &#13;
+			Incorporeal Movement: You can move through creatures and objects as Difficult Terrain. If you end your turn inside one, you take 1d10 Force damage. &#13;
+			Shadow Resilience: You have Resistance to all damage except Force and Radiant. &#13;
+			You can spend 6 Sorcery Points to restore a use of this feature.</description>
+		</sheet>
+	</element>
+
+	<!-- Feature Replacement Grants -->
+	<element name="Shadow Spells Feature Replacement" type="Grants" source="Internal" id="ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_SHADOW_SPELLS" />
+	<element name="Power of Shadow Feature Replacement" type="Grants" source="Internal" id="ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_POWER_OF_SHADOW" />
+	<element name="Beasts of Ill Omen Feature Replacement" type="Grants" source="Internal" id="ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_BEASTS_OF_ILL_OMEN" />
+	<element name="Shadow Walk Feature Replacement" type="Grants" source="Internal" id="ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_SHADOW_WALK" />
+	<element name="Umbral Form Feature Replacement" type="Grants" source="Internal" id="ID_HAILJOE_FEATURE_REPLACEMENT_SORCERER_SHADOW_SORCERY_UMBRAL_FORM" />
+
+</elements>
