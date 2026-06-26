@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.28">
+    <update version="0.0.29">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -1018,6 +1018,26 @@
       		<set name="slot">hand</set>
     	</setters>
 	</element>
+
+	<element name="Visor of Hidden Presences" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_VISOR_OF_HIDDEN_PRESENCES">
+        <description>
+			<p class="flavor">Glass does not lie — it only shows what hunts you. And what hunts you has always been there, long before the rose crept in.</p>
+            <p>These octagonal silver-framed spectacles are set with deep violet lenses that shift subtly in hue when unseen forces draw near.</p>
+            <p>While wearing these spectacles, you become passively aware of invisible or ethereal creatures within 15 feet of you. The left lens remains a calm blue when no such presence is detected; it shifts to a deep rose when at least one invisible or ethereal creature is within range.</p>
+            <p>The spectacles do not reveal the nature, number, or exact location of such creatures — only that something is there. This detection requires no action or concentration and functions continuously while the spectacles are worn.</p>
+            <p>The effect does not penetrate total darkness unless you have a means of seeing within it, and it does not function while you are blinded.</p>
+        </description>
+        <setters>
+			<set name="keywords">glasses, invisible</set>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+            <set name="rarity">Uncommon</set>
+            <set name="slot">eyes</set>
+        </setters>
+    </element>
 	
 </elements>
 
