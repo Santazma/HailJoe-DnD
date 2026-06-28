@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>HailJoe's Erevan Spells</name>
+        <description>Spells from Erevan's Guide to Death and Beyond, compiled for HailJoe's homebrew collection.</description>
+        <update version="0.0.1">
+            <file name="hailjoe-erevan-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-erevan-spells.xml" />
+        </update>
+    </info>
+
+    <element name="Abyssal Leap" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ABYSSAL_LEAP">
+        <supports>Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You step into a swirling portal of abyssal shadow and vanish, reappearing in an unoccupied space you can see within 60 feet of yourself. As you depart and arrive, a pulse of abyssal energy surges from both locations.</p>
+            <p class="indent">Each creature within 10 feet of the space you left and the space you appeared in must make a Wisdom saving throw. On a failed save, a creature takes 4d6 psychic damage and is frightened until the end of its next turn. On a successful save, the creature takes half as much damage and isn't frightened.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic, frightened, teleport</set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Aetheric Pulse" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_AETHERIC_PULSE">
+        <supports>Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You release a concussive wave of arcane force. Each creature of your choice within 10 feet of you must succeed on a Constitution saving throw or take 2d4 force damage and be pushed 5 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p>
+            <p class="indent">A creature that takes damage from this spell has disadvantage on any Constitution saving throw it makes to maintain concentration before the start of your next turn.</p>
+            <p class="indent">In addition, if a creature fails its saving throw, any spell effect of 3rd level or lower affecting it is suppressed until the start of your next turn, after which the spell's effect resumes.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">force</set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (10-foot radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of quartz that shatters when the spell is cast</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Arcane Anchoring" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ARCANE_ANCHORING">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You inscribe a small, glowing sigil on a surface, which then emits a soft, pulsing light that resonates with magical energy. This sigil serves as your arcane anchor, allowing you to return to its location from any distance while within the same plane.</p>
+            <p class="indent">As an action, you can teleport to the anchored location, instantly appearing in the nearest unoccupied space to the sigil. The anchor remains active for 8 hours or until used, after which it fades away. You can only place the anchor on a stable, stationary surface, and it remains fixed in place. If the surface is moved or destroyed, the anchor is dispelled.</p>
+            <p class="indent">While within 100 feet of your arcane anchor, you have advantage on Constitution saving throws made to maintain concentration on spells. You can only use an anchor you placed, and only one arcane anchor can be active at a time.</p>
+            <p class="indent">If the anchor is dispelled by dispel magic or a similar effect cast at 4th level or higher, the spell's effects end.</p>
+            <p class="indent">You can't use the teleportation effect to cross planes; it is limited to the same plane where you placed the anchor. If you move to another plane, the anchor remains but can't be accessed until you return to the same plane.</p>
+        </description>
+        <setters>
+            <set name="keywords">teleport</set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">10 minutes</set>
+            <set name="duration">8 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small, engraved stone</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Aurora Ward" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_AURORA_WARD">
+        <supports>Bard, Cleric, Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>A shifting sphere of multicolored light surrounds you in a 20-foot radius and moves with you. When you cast this spell, choose one of the following damage types: acid, cold, fire, lightning, or radiant. The chosen type cannot be changed after the spell is cast. Up to six creatures of your choice within the area gain resistance to the chosen damage type for the duration while they remain inside the sphere. Additionally, they have advantage on saving throws against effects that deal that type of damage.</p>
+            <p class="indent">While the sphere is active, each creature within its area that attempts to teleport or travel to another plane of existence must make a Charisma saving throw. On a failed save, the attempt fails and the spell or effect is wasted. On a success, the effect proceeds normally.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the radius of the sphere increases by 5 feet for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">resistance</set>
+            <set name="level">5</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self (20-foot radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a prism or shard of crystal</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Bell Toll" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BELL_TOLL">
+        <supports>Bard, Cleric, Warlock, Spell Saving Throw</supports>
+        <description>
+            <p>You toll a bell, unleashing a wave of necrotic energy and dissonant sound in a 30-foot radius centered on you. Each creature of your choice in the area must make a Constitution saving throw. On a failed save, a creature takes 3d8 necrotic damage, is incapacitated until the start of its next turn, and has disadvantage on its next attack roll before the end of its next turn. On a successful save, the creature takes half as much damage and suffers no additional effects.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, incapacitated</set>
+            <set name="level">4</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (30-foot radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bone bell</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Black Orb" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BLACK_ORB">
+        <supports>Cleric, Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure a swirling 1-foot-diameter black orb of Void energy that hovers at a point within range. As a bonus action on each of your turns, you can command the orb to hurl shards of energy at up to two creatures you can see within 60 feet of it. Each creature must make a Dexterity saving throw. On a failed save, a creature takes 2d6 force damage and its speed is reduced by 10 feet until the end of its next turn. On a successful save, it takes half as much damage and its speed isn't reduced.</p>
+            <p class="indent">The orb has AC 16, 30 hit points, resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks, and immunity to force and necrotic damage. If the orb is destroyed, the spell ends immediately.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">force, void</set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a polished obsidian skull</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Bleak Flame" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BLEAK_FLAME">
+        <supports>Cleric, Druid, Sorcerer, Warlock, Wizard, Spell Attack</supports>
+        <description>
+            <p>You conjure a crackling flame of necrotic energy and hurl it at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes necrotic damage equal to 2d8 + your spellcasting ability modifier. If the target is a willing Undead creature, the attack automatically hits, but it instead regains a number of hit points equal to 1d8 + your spellcasting ability modifier.</p>
+            <p class="indent">Constructs are immune to this spell.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage or healing increases by 1d8 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Bolt of Decay" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BOLT_OF_DECAY">
+        <supports>Cleric, Druid, Sorcerer, Warlock, Wizard, Spell Attack</supports>
+        <description>
+            <p>You hurl a bolt of necrotic energy at a creature within range, causing its flesh to wither and rot. Make a ranged spell attack against the target. On a hit, the target takes 1d8 necrotic damage, and at the start of each of the target's turns, it takes 1d4 necrotic damage. While the target is affected by this spell, it has disadvantage on Strength checks. At the end of each of its turns, the target can make a Constitution saving throw, ending the effect on itself on a success.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d8 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a fragment of rotting wood</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Boneless" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BONELESS">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a willing creature, transforming its body into an amorphous mass of twisted flesh and sinew. For the duration, the target gains the following benefits:</p>
+            <ul>
+                <li>The target has resistance to nonmagical piercing and slashing damage.</li>
+                <li>The target can move through spaces as narrow as 1 inch without squeezing. If the spell ends while the target is in a space too small for its normal form, it is pushed to the nearest unoccupied space and takes 1d10 force damage for every 5 feet it is moved.</li>
+                <li>The target's reach with melee weapon attacks increases by 5 feet.</li>
+            </ul>
+            <p class="indent">The spell ends early if the target drops to 0 hit points.</p>
+        </description>
+        <setters>
+            <set name="keywords">transmutation, resistance</set>
+            <set name="level">4</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of rotting flesh or decayed slime</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Celestial Harmony" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CELESTIAL_HARMONY">
+        <supports>Cleric, Spell Saving Throw</supports>
+        <description>
+            <p>You create a 60-foot-radius, 100-foot-high cylinder of sunlight filled with the sounds of a celestial chorus centered on a point within range. Each creature of your choice within the area regains 4d6 hit points at the start of each of its turns and can't be charmed or frightened while in the area.</p>
+            <p class="indent">A hostile creature that enters the area for the first time on a turn or starts its turn there must make a Wisdom saving throw. On a failed save, a creature takes 6d6 radiant damage and is incapacitated until the start of its next turn. On a successful save, a creature takes half as much damage and suffers no additional effects. If a creature fails the saving throw by 5 or more, it is restrained until the start of its next turn instead of being incapacitated.</p>
+            <p class="indent">While concentrating on this spell, you can't move. If you are moved by any means, the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant, healing</set>
+            <set name="level">9</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a golden tuning fork worth 1,000 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Chorus of Winds" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CHORUS_OF_WINDS">
+        <supports>Bard, Druid, Sorcerer, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure a swirling 20-foot-radius sphere of powerful winds at a point you can see within range. The area within the sphere becomes difficult terrain, and creatures inside are buffeted by powerful gusts.</p>
+            <p class="indent">A creature that enters the area for the first time on a turn or starts its turn there must succeed on a Strength saving throw or be pushed 10 feet in a direction of your choice. Additionally, any creature within the sphere is deafened and can't cast spells with verbal components.</p>
+            <p class="indent">Ranged weapon attacks that pass through or originate from within the sphere are made with disadvantage. Nonmagical gases and vapors, as well as magical gases or vapors created by spells of 3rd level or lower, in the area are dispersed immediately.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the radius of the sphere increases by 5 feet for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">wind, deafened</set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a feather</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Cloak of Eternal Night" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CLOAK_OF_ETERNAL_NIGHT">
+        <supports>Bard, Cleric, Paladin, Ranger, Sorcerer, Wizard</supports>
+        <description>
+            <p>You envelop yourself in a swirling cloak of dark mist and shadows that devour light. For the duration, you are surrounded by a 15-foot-radius sphere of magical darkness that moves with you. You can see normally within the darkness created by this spell but can't see outside it. This darkness blocks line of sight into and through the area for all other creatures. In addition, you have advantage on Dexterity saving throws while you are in the darkness.</p>
+            <p class="indent">While any part of this spell's area overlaps an area of magical light created by a spell of equal or lower level, the overlapping light is suppressed. This does not affect light from magic items or natural sources.</p>
+            <p class="indent">As a bonus action on your turn, you can teleport to an unoccupied space you can see within the area of the darkness. You can also dismiss this spell early as a bonus action.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the radius of the darkness increases by 5 feet for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">darkness, teleport</set>
+            <set name="level">5</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of black velvet</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Crypt Command" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CRYPT_COMMAND">
+        <supports>Bard, Cleric, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure an ethereal crown of dark energy above your head, granting you temporary dominion over Undead. Each Undead creature of your choice within 30 feet of you must make a Wisdom saving throw. On a failed save, the creature falls under your control for the duration. While under your control, the creature obeys your verbal commands (no action required). On a successful save, the creature becomes immune to this effect for 24 hours. Undead with a CR higher than 1 automatically succeed on this save.</p>
+            <p class="indent">You can control a number of Undead creatures equal to your spellcasting ability modifier (minimum of 1). If more creatures fail this save than the number you can control, you choose which are under your control; the remaining creatures become immune to this effect for 24 hours. If you lose concentration or the spell ends, the controlled Undead become hostile to you.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the CR of the creatures you can control increases by 1 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">undead, control</set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bone whistle</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Dancing Weapon" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DANCING_WEAPON">
+        <supports>Bard, Sorcerer, Wizard, Spell Attack</supports>
+        <description>
+            <p>You enchant a nonmagical melee weapon within range, imbuing it with magical properties and the ability to fight autonomously.</p>
+            <p class="indent">As a bonus action, you can verbally command the weapon to fly up to 30 feet and make a melee weapon attack against a creature within its reach. The weapon uses your spell attack modifier for its attack rolls, and it retains its original damage type. While enchanted, the weapon is considered magical and gains a +1 bonus to attack and damage rolls. If not given a command, the weapon hovers in place and makes an opportunity attack against a hostile creature that leaves its reach. If it does so, it can't do so again until the end of your next turn.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the weapon's bonus to attack and damage rolls increases to +2.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a nonmagical melee weapon worth at least 5 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Death Spring" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DEATH_SPRING">
+        <supports>Cleric, Druid, Ranger, Sorcerer, Warlock, Spell Saving Throw</supports>
+        <description>
+            <p>Decaying, oozing vines burst from the ground in a 15-foot radius centered on you, spreading toxic ichor.</p>
+            <p class="indent">A hostile creature that enters the area for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw or take 2d6 piercing damage and become restrained by the vines for the duration. A creature restrained by the vines automatically fails this Dexterity saving throw and must succeed on a Constitution saving throw or take 1d6 poison damage. A creature can use its action to make a Strength (Athletics) check against your spell save DC, freeing itself or another creature within its reach on a success.</p>
+            <p class="indent">While you remain in the affected area, whenever a creature restrained by the vines takes poison damage, you or a creature of your choice in the affected area regains hit points equal to half of the poison damage dealt.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the poison damage increases by 1d6 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">poison, restrained, piercing</set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self (15-foot radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a vial of venom worth at least 100 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Death Touch" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DEATH_TOUCH">
+        <supports>Cleric, Sorcerer, Warlock, Wizard, Spell Attack</supports>
+        <description>
+            <p>You channel necrotic energy into your hand with the power of death itself. Make a melee spell attack against a creature within 5 feet of you. On a hit, the target takes 4d8 necrotic damage and is cursed until the end of its next turn. While cursed, if the target takes damage from a single attack equal to or greater than half its remaining hit points (ignoring temporary hit points), it must succeed on a Constitution saving throw or be reduced to 0 hit points.</p>
+            <p class="indent">A creature immune to necrotic damage is unaffected by the curse.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, cursed</set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a fingerbone</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Death's Anchor" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DEATHS_ANCHOR">
+        <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You inscribe a glowing necromantic sigil onto a solid surface within range, anchoring death energy to that location. The anchor radiates a 60-foot aura of spectral influence that warps the boundary between life and death for the duration. The surface must remain stationary — if it is moved, the spell immediately ends. For the duration:</p>
+            <ul>
+                <li>Allied creatures within the aura have resistance to necrotic damage and have advantage on death saving throws.</li>
+                <li>Hostile Undead within the aura have disadvantage on attack rolls and saving throws.</li>
+                <li>At the end of each of your turns, a wraith rises from the anchor under your control in a space of your choice in the aura. If a wraith is already created by this spell, it disappears. The wraith acts on your initiative and vanishes when the spell ends or if it is reduced to 0 hit points.</li>
+            </ul>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a 9th-level spell slot, up to two wraiths can be created and under your control by this spell at a time.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, undead, wraith</set>
+            <set name="level">8</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an onyx worth at least 500 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Dirge of the Dead" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DIRGE_OF_THE_DEAD">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>Choose up to three Undead creatures within range that you can see. Each target must succeed on a Wisdom saving throw or begin an uncontrollable dance, swaying and twisting in place for the duration. Creatures immune to being charmed have advantage on this saving throw.</p>
+            <p class="indent">While dancing, a creature's speed is halved, it has disadvantage on Dexterity saving throws and attack rolls, and attack rolls against it are made with advantage. It also can't take actions, bonus actions, or reactions. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.</p>
+            <p class="indent">As an action on your turn, you can direct each dancing Undead to move up to half its speed in a direction of your choice. This movement doesn't provoke opportunity attacks.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, you can target one additional Undead creature for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">undead, charmed</set>
+            <set name="level">6</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bone baton</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Eclipse of the Damned" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ECLIPSE_OF_THE_DAMNED">
+        <supports>Cleric, Druid, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>A black sun rises above you, casting dim light in a 30-foot radius centered on you, which moves with you for the duration. Spectral hands claw from the ground within the area, grasping at the living.</p>
+            <p class="indent">When a creature enters the area for the first time on a turn or starts its turn there, it must succeed on a Wisdom saving throw or take 3d8 necrotic damage and be frightened until the end of its next turn. While frightened in this way, the creature's speed is halved. On a successful save, the creature takes half as much damage and isn't frightened.</p>
+            <p class="indent">Undead and Constructs automatically succeed on this saving throw.</p>
+            <p class="indent">You and creatures of your choice within the area gain resistance to necrotic damage and have advantage on saving throws against being frightened or charmed.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, frightened</set>
+            <set name="level">5</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self (30-foot radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a flawless black pearl worth at least 250 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Elemental Maelstrom" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ELEMENTAL_MAELSTROM">
+        <supports>Bard, Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You invoke a swirling maelstrom of elemental energy within a 30-foot radius centered on yourself. The maelstrom moves with you and manifests as roaring winds, flickering flames, and crackling lightning. The air churns with volatile power.</p>
+            <p class="indent">When you cast this spell and again at the start of each of your turns, you can choose up to two of the following effects:</p>
+            <ul>
+                <li><b>Winds.</b> You create strong gusts of wind within the maelstrom's area that can move unattended objects weighing up to 200 pounds, extinguish nonmagical open flames, or push creatures and vehicles. Airborne creatures within the area must succeed on a Strength saving throw or fall to the ground. Vehicles and creatures that are not airborne and are within the area must also make a Strength saving throw or be pushed 10 feet in a direction of your choice.</li>
+                <li><b>Flames.</b> You conjure roaring flames that envelop the area, dealing 2d6 fire damage to creatures other than you within the maelstrom. Flammable objects not being worn or carried ignite. Additionally, you can direct additional flames at one creature of your choice you can see within the area. The creature must succeed on a Constitution saving throw or take an additional 3d6 fire damage and be set ablaze. While ablaze, the creature takes 1d6 fire damage at the start of each of its turns until it spends an action to extinguish the flames.</li>
+                <li><b>Lightning.</b> You charge a nonmagical metallic object within the maelstrom's area with static electricity. This object can include weapons, armor, or other metal items no larger than 5 cubic feet. For the duration, the first time a creature touches or is struck by one of these charged objects, the creature must succeed on a Constitution saving throw or take 2d6 lightning damage.</li>
+            </ul>
+            <p class="indent">If this spell is cast underwater, each effect is altered. Winds are replaced by chilling currents, reducing the weight limit of objects that can be moved to 100 pounds. Flames don't ignite flammable objects and instead heat the water to a near-boiling level; creatures in the area take half as much fire damage from this effect and have disadvantage on Constitution saving throws. Lightning is enhanced and deals an extra 2d6 lightning damage on a failed save.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the radius of the maelstrom increases by 5 feet for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire, lightning, wind</set>
+            <set name="level">8</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a feather, a chunk of coal, and a copper wire</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Erevan's Nightfire" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_EREVANS_NIGHTFIRE">
+        <supports>Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure black flames with a violet core that devour light and life. Choose a point within range; the flames erupt in a 15-foot-radius sphere centered on that point. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 3d8 necrotic damage and 3d8 fire damage, and it can't regain hit points until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no additional effects.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the necrotic and fire damage each increase by 1d8 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, fire</set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of embalming oil</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Erevan's Time Cage" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_EREVANS_TIME_CAGE">
+        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You create a spectral hourglass above a creature you can see within range, and ghostly sands flow around it, forming a cage of temporal energy. The target must make a Wisdom saving throw. A creature can choose to fail this saving throw, and unconscious creatures automatically fail.</p>
+            <p class="indent">On a failed save, the target is placed in temporal stasis. While in stasis, the target is incapacitated, can't move or take actions, can't be moved or interacted with, and is immune to all damage and effects. Any ongoing effects on the target are suspended while it is in stasis and resume when the spell ends.</p>
+            <p class="indent">At the end of each of its turns, the target can repeat the saving throw, ending the effect on itself on a success.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, you can target one additional creature for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">incapacitated, stasis</set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small hourglass filled with diamond dust worth 500 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Forced Burial" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_FORCED_BURIAL">
+        <supports>Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You cause the ground beneath a creature within range that is standing on soft, earthen soil to shift and open. The target must succeed on a Dexterity saving throw or be pulled down and entombed in the earth, becoming restrained. The spell has no effect on creatures that are immune to being restrained.</p>
+            <p class="indent">While restrained in this way, the target takes 1d6 bludgeoning damage at the start of each of its turns as the crushing earth presses in around it. Additionally, while entombed in the earth, the creature has total cover against attacks and other effects originating from outside the mound.</p>
+            <p class="indent">To break out, the restrained target can use its action to make a Strength check against your spell save DC, freeing itself on a success and reappearing prone in the space it occupied before the effect. If the original space is occupied, it reappears prone in the nearest unoccupied space.</p>
+            <p class="indent">The spell fails if the target is standing on liquid, metal, or other unnatural terrain.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">restrained, bludgeoning</set>
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a handful of grave dirt</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Ghost Wall" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GHOST_WALL">
+        <supports>Cleric, Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You create a wall of swirling spectral energy on a solid surface within range for the duration. The wall can be up to 30 feet long, 20 feet high, and 10 feet thick. The wall is composed of mist-like ghostly forms whose faces twist and flicker within the area.</p>
+            <p class="indent">The wall provides three-quarters cover from ranged attacks and lightly obscures vision through it. Creatures of your choice can see through the wall normally. If a creature attempts to teleport into, through, or to a location within 30 feet of the wall, it must succeed on a Charisma saving throw or take 4d6 psychic damage and have the teleportation fail.</p>
+            <p class="indent">A creature that enters the wall's area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, the creature is frightened until the end of its next turn. Undead creatures make this saving throw with advantage.</p>
+            <p class="indent">The ground beneath the wall is considered desecrated. While within this area: the area is difficult terrain for non-Undead creatures; Undead creatures of your choice that enter the wall's area for the first time on a turn or start their turn there regain 1d6 hit points.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the wall's maximum size increases by 5 feet in each dimension (length, height, and thickness) for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic, frightened, undead</set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of broken gravestone</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Ghostbind Ward" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GHOSTBIND_WARD">
+        <supports>Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You touch a willing creature and surround it with a shimmering, translucent barrier of spectral energy. For the duration, when a creature within 10 feet of the warded target deals damage to them, ghostly chains erupt from the barrier and lash at the attacker. The attacker must succeed on a Wisdom saving throw or become bound by a visible spectral chain for the duration.</p>
+            <p class="indent">For each chain attached to a creature, its speed is reduced by 5 feet. If a creature accumulates three chains, it becomes restrained until the start of its next turn when all chains on it dissipate into mist. A creature's speed can't be reduced below 0 by this spell.</p>
+        </description>
+        <setters>
+            <set name="keywords">restrained</set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a silver chain link</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Ghostlight Beacon" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GHOSTLIGHT_BEACON">
+        <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You summon a radiant, ghostly beacon that floats above your hand, pulsing with a soft, silvery light. The beacon illuminates a 30-foot radius around it, revealing hidden echoes of the past for the duration. These echoes appear as translucent, ghostly forms of creatures, people, or objects that were present in the area within the last 24 hours. The echoes are purely visual and display brief, fragmented moments of their last actions and locations, lasting only a few seconds before fading away. These echoes do not carry sound, and their features are indistinct, showing only general forms and movements.</p>
+            <p class="indent">Illusions within the beacon's light visibly flicker and shimmer, revealing fragments of their true nature to observers. This effect does not dispel the illusion or reveal hidden creatures or objects, but clearly identifies such effects as magical. Invisible creatures or objects within the area momentarily distort the light, hinting at their presence without exposing their precise location.</p>
+            <p class="indent">The beacon also highlights any deliberate changes made to the environment within its radius, such as moved objects, altered terrain, or disturbed surfaces, outlining them with a faint glow. The spell reveals the most recent change made within the last 24 hours, or a sequence of changes if multiple alterations were made.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, you can extend the time period the spell reveals by 24 hours.</p>
+        </description>
+        <setters>
+            <set name="keywords">divination, light</set>
+            <set name="level">3</set>
+            <set name="school">Divination</set>
+            <set name="time">1 minute</set>
+            <set name="duration">1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of moonstone</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Ghostlight Lantern" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GHOSTLIGHT_LANTERN">
+        <supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure a ghostly lantern at a point you can see within range. The lantern sheds bright light in a 10-foot radius and dim light for an additional 10 feet. Each creature of your choice that enters the lantern's bright light for the first time on a turn or starts its turn there must succeed on a Wisdom saving throw or be charmed until the end of its next turn. While charmed in this way, a creature is incapacitated and compelled to use its movement to approach the lantern by the safest available route. A flying creature that is charmed in this way must descend to no more than 5 feet above the ground.</p>
+            <p class="indent">If a charmed creature ends its movement within 5 feet of the lantern, it becomes restrained by a ghostly chain that lashes out from the lantern. A restrained creature or another creature within 5 feet can use an action to make a DC 15 Strength (Athletics) check, breaking the chain on a success. The lantern and any chains each have the following statistics: AC 12, 20 hit points, and immunity to force, poison, and psychic damage. A creature that takes any damage or is shaken by another creature (as an action) has the charmed and restrained conditions immediately end.</p>
+            <p class="indent">If the lantern is destroyed or the spell ends, all conditions caused by the lantern end immediately. A creature that succeeds on its saving throw or that has the charmed or restrained conditions from this spell end is immune to the effects of that lantern for the rest of its duration.</p>
+        </description>
+        <setters>
+            <set name="keywords">charmed, restrained, light</set>
+            <set name="level">3</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of glass</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Grasp of the Grave" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GRASP_OF_THE_GRAVE">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>Skeletal hands claw up from the ground within a 20-foot square starting from a point within range, turning the area into difficult terrain. When a creature enters the area for the first time on a turn or starts its turn there and isn't already restrained by the hands, it must succeed on a Dexterity saving throw or take 1d6 necrotic damage and be restrained by the hands. A creature restrained by the hands can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself. When the spell ends, the conjured hands crumble to dust.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the size of the square affected by the difficult terrain increases by 5 feet for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, restrained</set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a handful of graveyard dirt</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Grave Bond" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GRAVE_BOND">
+        <supports>Cleric, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a willing Undead creature and form a necromantic link with it. For the duration, while the target is within 30 feet of you, it gains a +2 bonus to Armor Class.</p>
+            <p class="indent">If the target would be reduced to 0 hit points by non-radiant damage while it is within 30 feet of you, you can use your reaction to end this spell, and the target instead drops to 1 hit point.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional Undead creature for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">undead</set>
+            <set name="level">2</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Grave Strength" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_GRAVE_STRENGTH">
+        <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Your skin takes on a decaying, corpse-like appearance as you draw upon the power of the dead. You gain 1d4 + 4 temporary hit points for the duration.</p>
+            <p class="indent">Additionally, if you are reduced to 0 hit points and aren't killed instantly, you can immediately make a death saving throw with advantage. On a success, you regain 1 hit point and the spell ends. You don't gain this benefit if the damage that reduced you to 0 hit points was radiant damage.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, temporary hit points</set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a pinch of grave soil</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Holy Anathema" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_HOLY_ANATHEMA">
+        <supports>Cleric, Paladin, Spell Saving Throw</supports>
+        <description>
+            <p>Golden chains of radiant light burst from your hands, wrapping around a creature that you can see within range. The target must succeed on a Dexterity saving throw or be restrained for the duration. A creature that is Huge or larger makes the saving throw with advantage. While restrained, the target takes 3d10 radiant damage at the start of each of its turns. If the target is an Undead or Fiend, it takes an extra 1d10 radiant damage at the start of each of its turns while restrained by this spell. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant, restrained</set>
+            <set name="level">4</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a length of consecrated silver chain</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Imago Mortis" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_IMAGO_MORTIS">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You create an illusion that simulates the target's death. In reality, the target drops to 1 hit point and becomes invisible for the duration.</p>
+            <p class="indent">While invisible, the target has advantage on Dexterity (Stealth) checks, its movement doesn't provoke opportunity attacks, and it has advantage on saving throws against effects that deal damage in an area. The invisibility ends if the target attacks, casts a spell, or takes an action that affects another creature.</p>
+        </description>
+        <setters>
+            <set name="keywords">invisible, illusion</set>
+            <set name="level">4</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 reaction, which you take when a creature you can see within 60 feet of you is reduced to 0 hit points</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of smoked glass</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Lament of the Hollow" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_LAMENT_OF_THE_HOLLOW">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>Haunting spectral images of lost souls and twisted faces flicker around you as you emit a wail filled with sorrow and despair. Each creature in a 15-foot cone must make a Wisdom saving throw. On a failed save, a creature takes 2d6 psychic damage and can't take reactions until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no additional effects.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">2</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (15-foot cone)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Light of the Abyss" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_LIGHT_OF_THE_ABYSS">
+        <supports>Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure a sphere of pure radiant light surrounded by twisting shadows that erupts in a blinding flash at a point within range. The light and darkness expand outward in a 30-foot-radius sphere, creating a swirling vortex of radiant and necrotic energy that engulfs the area. Each creature in the area must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage and 4d8 necrotic damage as the energy sears their body and soul. On a successful save, a creature takes half as much damage. Undead of CR 10 or lower that fail this save don't benefit from resistance to radiant or necrotic damage against this spell.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant, necrotic</set>
+            <set name="level">6</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">150 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a fragment of a celestial relic and a piece of voidstone</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Malcorith's Grim Gaze" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_MALCORITHS_GRIM_GAZE">
+        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You momentarily lock eyes with a creature within range, glimpsing into their surface thoughts or emotional state (your choice). The target must succeed on a Wisdom saving throw or the chosen insight becomes known to you. Additionally, on a failed save, you have advantage on the next ability check or attack roll you make against the target in the next minute.</p>
+        </description>
+        <setters>
+            <set name="keywords">divination</set>
+            <set name="level">0</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Pathfinder's Wisp" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_PATHFINDERS_WISP">
+        <supports>Bard, Cleric, Druid, Ranger, Warlock, Wizard</supports>
+        <description>
+            <p>You summon a small, glowing wisp of light that hovers within 30 feet of you. On subsequent turns, you can move the wisp up to 30 feet to a space you can see within range (no action required). The wisp emits bright light in a 10-foot radius and dim light for an additional 10 feet.</p>
+            <p class="indent">Choose any number of creatures within range when you cast this spell; the wisp aids them in navigating dangerous areas. While a target is within the bright light of the wisp, it has advantage on Wisdom (Perception) checks made to detect traps and hazards, such as hidden pits or dangerous terrain. If a target is forced to make a saving throw to avoid or resist a trap or environmental hazard, it has advantage on the saving throw if the trap or hazard is within the bright light of the wisp.</p>
+            <p class="indent">The wisp is incorporeal and can't interact with objects or be harmed. If it is ever more than 60 feet from you, it vanishes and the spell ends.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the radius of the wisp's bright light and dim light each increase by 5 feet for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">light, divination</set>
+            <set name="level">2</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Phantasmal Charger" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_PHANTASMAL_CHARGER">
+        <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You summon a spectral charger from the spirit realm, appearing as a large, translucent, horse-like creature with glowing eyes and an ethereal mane. The charger lasts until it drops to 0 hit points or is dismissed, and it uses the statistics of a warhorse skeleton with the following modifications:</p>
+            <ul>
+                <li>The charger is immune to poison and necrotic damage and has resistance to damage from nonmagical weapons.</li>
+                <li><b>Necrotic Hooves.</b> The charger's Hooves attack deals an extra 1d6 necrotic damage on a hit.</li>
+                <li><b>Trampling Charge.</b> If the charger moves at least 20 feet straight toward a creature smaller than itself and then hits it with a Hooves attack on the same turn, the target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the charger can make another Hooves attack against it as a bonus action.</li>
+            </ul>
+            <p class="indent">The charger serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. If the charger appears in an unoccupied space adjacent to you, you can immediately mount it as part of casting this spell. While mounted on the charger, you can make any spell you cast that targets only you also target the charger.</p>
+            <p class="indent">When the charger drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss the charger at any time as a bonus action, causing it to disappear. In either case, casting this spell again summons the same charger, restored to its hit point maximum. When the charger is reduced to 0 hit points, it leaves behind a cloud of spectral mist that heavily obscures a 20-foot radius around the space where it vanished for 1 minute.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, undead, mount</set>
+            <set name="level">4</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of bone from a horse</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Phoenix Flames" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_PHOENIX_FLAMES">
+        <supports>Bard, Cleric, Paladin, Spell Saving Throw</supports>
+        <description>
+            <p>You call forth revitalizing flames infused with radiant and shadowed energy. Choose up to three creatures you can see within range. Each target is enveloped in a burst of phoenix fire and gains the following benefits:</p>
+            <ul>
+                <li>The target is cured of one curse, disease, or poison affecting it. For the purposes of curse removal, this spell functions as the remove curse spell.</li>
+                <li>The target regains hit points equal to 4d8 + your spellcasting ability modifier.</li>
+            </ul>
+            <p class="indent">In addition, each creature of your choice within 5 feet of the healed targets must make a Constitution saving throw. On a failed save, the creature takes an amount of necrotic damage equal to the number of hit points the target regained. On a successful save, the creature takes half as much damage.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">healing, necrotic, fire</set>
+            <set name="level">5</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a feather from a phoenix or a similar creature</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Rift Scout" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RIFT_SCOUT">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You tear open a subtle rift in the fabric of reality at a point you can see within range. The rift is imperceptible to others and hovers in place. While it persists, you can see and hear through it as though you were at its location, and you gain the following benefits:</p>
+            <ul>
+                <li><b>Dimensional Distortion.</b> As a bonus action, you can cause the rift to pulse with void energy. Until the end of your next turn, all invisible creatures and magical effects (such as glyphs, sigils, illusions, and alarm wards) within 10 feet of the rift are revealed and outlined in faint, ethereal light. This light is visible to all creatures and does not shed illumination.</li>
+                <li><b>Void-Sense.</b> You can perceive creatures or objects located within the Ethereal Plane if they are within 30 feet of the rift.</li>
+                <li><b>Echoing Whispers.</b> Once on each of your turns, you can speak a short message (up to 10 words) through the rift. Creatures within 10 feet of the rift can hear the message in a distorted, otherworldly voice.</li>
+            </ul>
+            <p class="indent">On each of your turns, you can move the rift up to 30 feet to a point you can see within range (no action required). It can pass through openings as small as 1 inch wide but cannot pass through solid barriers or magical wards. The rift vanishes if it moves more than 120 feet from you, if you lose concentration, or if you dismiss it (no action required).</p>
+        </description>
+        <setters>
+            <set name="keywords">divination, void</set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of polished black glass</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Sanguine Shield" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SANGUINE_SHIELD">
+        <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You sacrifice a portion of your life force, taking 1d6 necrotic damage, which can't be reduced or prevented in any way, to form a shimmering shield of your own blood. The shield glows with a blood-red hue and pulses with a protective aura around you or a creature you can see within 30 feet of you.</p>
+            <p class="indent">For the duration, the target has resistance to bludgeoning, piercing, and slashing damage. Additionally, once per turn, when the target is hit by an attack, the shield flares up and deals 2d6 necrotic damage to the attacker.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the reflected damage increases by 1d6 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, resistance</set>
+            <set name="level">5</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of the caster's blood</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shadow Flash" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOW_FLASH">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You vanish in a swirl of shadows, teleporting to an unoccupied space you can see within range. Necrotic energy lashes out in a 5-foot radius both from where you left and where you appear. Each creature other than you in those areas must make a Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the necrotic damage increases by 1d6 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, teleport</set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 reaction, which you take when you take damage from a creature within 5 feet of you</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shadow Lash" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOW_LASH">
+        <supports>Sorcerer, Warlock, Wizard, Spell Attack</supports>
+        <description>
+            <p>You summon a shadowy tendril from the Plane of Shadow that lashes out at a creature you can see within range. Make a melee spell attack against the target. If the attack hits, the target takes 1d6 necrotic damage, and if the target is Large or smaller, you can choose one of the following effects:</p>
+            <ul>
+                <li>The target is pulled 5 feet closer to you.</li>
+                <li>The target's speed is reduced by 10 feet until the end of its next turn.</li>
+            </ul>
+            <p class="indent">If the target is Undead, it has disadvantage on saving throws against being turned until the end of your next turn.</p>
+            <p class="indent">This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">0</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shadow Shroud" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOW_SHROUD">
+        <supports>Bard, Druid, Ranger, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You conjure a veil of swirling shadows in one of the following areas. The shadows move with you and spread around corners.</p>
+            <ul>
+                <li>A 10-foot-radius sphere that is centered on you</li>
+                <li>A 10-foot cone originating from you</li>
+                <li>A 10-foot line that is 5 feet wide and extends from you in a direction you choose</li>
+            </ul>
+            <p class="indent">The area is heavily obscured. You and creatures of your choice can see normally within the area. As a bonus action you can reshape the shroud into one of the other areas.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere, the length of the cone, and the length of the line each increase by 5 feet for each slot level above 4th.</p>
+        </description>
+        <setters>
+            <set name="keywords">darkness, obscured</set>
+            <set name="level">4</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self (15-foot-radius sphere)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a strip of black cloth</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shiver" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHIVER">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You release a wave of freezing energy in a 15-foot cone. Each creature in the area must make a Constitution saving throw. On a failed save, the creature takes 1d6 cold damage, and its speed is reduced by 5 feet until the start of your next turn. On a successful save, the creature takes half as much damage and its speed isn't reduced.</p>
+            <p class="indent">This speed reduction doesn't stack with other effects that reduce speed.</p>
+            <p class="indent">The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6). The spell's speed reduction increases by 5 feet when you reach 11th level (10 feet) and 17th level (15 feet).</p>
+        </description>
+        <setters>
+            <set name="keywords">cold</set>
+            <set name="level">0</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (15-foot cone)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Soul Dirge" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SOUL_DIRGE">
+        <supports>Bard, Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You chant a mournful dirge that distorts the soul of a creature you can see within range. The target must make a Wisdom saving throw. Undead and Constructs have advantage on this saving throw. On a failed save, the target takes 4d6 necrotic damage, and a spectral wisp manifests and hovers above it for the duration. On a successful save, the target takes half as much damage and no wisp appears.</p>
+            <p class="indent">While the wisp persists, the target can't regain hit points and has disadvantage on the first saving throw it makes against a spell from the necromancy school. At the end of each of its turns, the target must make another Wisdom saving throw. On a failed save, it takes 1d6 necrotic damage. On a successful save, the wisp vanishes and the spell ends.</p>
+            <p class="indent">In addition, while the wisp is present, any creature other than you that starts its turn within 10 feet of the target or moves into that area for the first time on a turn must succeed on a Wisdom saving throw or be frightened until the end of its next turn. A creature affected in this way can't be frightened again by the same wisp until the start of its next turn.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by 1d6 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, frightened</set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of bone</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Soul Scythe" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SOUL_SCYTHE">
+        <supports>Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure a spectral scythe of dark energy and strike at the soul of one creature within range. The target must succeed on a Charisma saving throw or take 1d8 necrotic damage. On a failed save, the target's speed is reduced by 10 feet until the start of your next turn. On a successful save, the target takes no damage and its speed is not reduced.</p>
+            <p class="indent">The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">0</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Soul Vortex" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SOUL_VORTEX">
+        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You open a rift in the sky, summoning a towering 100-foot-high cylinder of wailing spirits centered on a point within range. The cylinder has a radius of up to 20 feet (your choice), and ghostly tendrils spiral violently within, reaching toward the heavens and the ground below. Each creature within the column must make a Constitution saving throw, taking 5d10 necrotic damage and 5d10 psychic damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent">A creature reduced to 0 hit points by this spell is disintegrated, and its soul is consumed by the rift. The creature can be restored to life only by means of a wish spell. For each creature reduced to 0 hit points by this spell, you regain hit points equal to half the necrotic damage dealt by the spell.</p>
+            <p class="indent">You can choose to store one of these souls in a suitable vessel that is on your person, such as a prepared phylactery or the gem used in the casting of this spell. This stored soul can be used in a true resurrection spell to resurrect the creature.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, psychic</set>
+            <set name="level">9</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a gem worth 1,000 gp</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Soul Ward" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SOUL_WARD">
+        <supports>Cleric, Druid, Paladin, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a creature, cloaking it in a faint, ghostly aura. For the duration, the target has advantage on death saving throws and on saving throws against being charmed, frightened, or possessed.</p>
+            <p class="indent">If the target fails a saving throw against being charmed, frightened, or possessed, the spell ends.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">charmed, frightened</set>
+            <set name="level">2</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Starlight Pathway" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_STARLIGHT_PATHWAY">
+        <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>You create a 10-foot-wide pathway of starlight that is up to 120-feet long, connecting two points you choose within range. The pathway floats above any surface or space and can cross over gaps, water, difficult terrain, or other hazards. The pathway is immune to damage but can't pass through solid objects or magical barriers. Spells and effects pass through it without effect.</p>
+            <p class="indent">The pathway emits bright light for 20 feet in all directions from it and dim light for an additional 20 feet. This light illuminates areas affected by magical darkness but doesn't dispel the darkness. Your allies on the pathway have advantage on Dexterity saving throws, and their speed is increased by 10 feet.</p>
+            <p class="indent">When the spell ends or if you are ever more than 120 feet away from the nearest endpoint, the pathway dissipates immediately.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the pathway's length increases by 30 feet for each slot level above 4th.</p>
+        </description>
+        <setters>
+            <set name="keywords">light</set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 minute</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a wishbone</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+
+    <element name="Summon Legion" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SUMMON_LEGION">
+        <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You call upon the remains of the dead to rise and serve you. Choose up to six Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes Undead. For each target, you raise a zombie or skeleton (your choice), which falls under your mental control for the spell's duration. These creatures appear in unoccupied spaces within 10 feet of the target locations and act immediately after your turn. You must remain within 120 feet of the raised Undead to issue mental commands (no action required).</p>
+            <p class="indent">The raised Undead gain the following benefits:</p>
+            <ul>
+                <li>They have a bonus to attack rolls equal to your spell attack modifier.</li>
+                <li>They gain a bonus to their weapon damage rolls equal to 1d4 + your spellcasting ability modifier (minimum of 1).</li>
+                <li>They gain temporary hit points equal to your spellcasting ability modifier (minimum of 1).</li>
+            </ul>
+            <p class="indent">When one of the raised Undead is destroyed, it erupts in an uncontrollable necrotic explosion. Each creature within 10 feet of it must make a Constitution saving throw, taking 2d8 necrotic damage on a failed save, or half as much damage on a successful one. As a bonus action, you can cause one of your raised Undead to explode immediately.</p>
+            <p class="indent">When the spell ends, the raised Undead crumble to dust.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, you can raise one additional Undead for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, undead, summon</set>
+            <set name="level">6</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of blood from a creature that has died within the last 24 hours</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Temporal Echo" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TEMPORAL_ECHO">
+        <supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You momentarily manipulate the flow of time, creating a duplicate echo of yourself that occupies your space. You turn invisible and then teleport to an unoccupied space of your choice within 10 feet of you. You remain invisible until the start of your next turn. Until the spell ends, the echo remains in the same space but mimics your actions.</p>
+            <p class="indent">The echo shares your Armor Class. If it is dealt any damage, the echo shatters with a burst of arcane force, and each creature within 5 feet of it must make a Dexterity saving throw. On a failed save, a creature takes 3d6 force damage and is blinded until the start of its next turn. On a successful save, a creature takes half as much damage and isn't blinded.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">force, invisible, blinded, teleport</set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 reaction, which you take when you are hit by an attack</set>
+            <set name="duration">Until the start of your next turn</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a silver pocket watch</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Twilight Tower" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TWILIGHT_TOWER">
+        <supports>Cleric, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You summon a towering column of shifting light and shadow at a point you can see within range. The column rises 60 feet high and has a 20-foot radius. Bright light within the column becomes dim light, and dim light within the column becomes magical darkness. This spell alters light or darkness within its area from other spells or effects, except those created by spells of 7th level or higher.</p>
+            <p class="indent">A hostile creature that starts its turn in the area must make a Constitution saving throw. Creatures in the areas of magical darkness make this saving throw with disadvantage. On a failed save, a creature takes 4d6 radiant or necrotic damage (your choice) and has disadvantage on its next attack roll before this spell ends. On a successful save, the creature takes half as much damage and suffers no additional effects.</p>
+            <p class="indent">Allied creatures within the dim light can use their reaction to reroll a failed saving throw. They must use the new roll. An ally can't benefit from this reroll more than once per turn.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant, necrotic, darkness</set>
+            <set name="level">7</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">the powder of a crushed black pearl worth at least 500 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Umbral Armor" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_UMBRAL_ARMOR">
+        <supports>Cleric, Paladin, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>Protective shadows envelop you, granting you resistance to necrotic damage for the duration. The first time you are hit by a melee attack on a turn, the attacker must succeed on a Dexterity saving throw or take 2d8 necrotic damage. The necrotic backlash can occur only once per round.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, resistance</set>
+            <set name="level">2</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Umbral Veil" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_UMBRAL_VEIL">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You release a burst of shadow in a 10-foot radius around you, imposing disadvantage on the attacking creature's attack roll. The area becomes heavily obscured until the start of your next turn. You and any creatures you choose can see normally within the area.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the radius increases by 5 feet for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">darkness, obscured</set>
+            <set name="level">2</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 reaction, which you take when you are targeted by an attack</set>
+            <set name="duration">1 round</set>
+            <set name="range">Self (10-foot radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Undying Armor" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_UNDYING_ARMOR">
+        <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You touch a willing creature, surrounding it in spectral armor that bolsters physical resilience and protects against death. The target's AC becomes 16 + its Dexterity modifier, and it gains temporary hit points equal to 20 + your proficiency bonus + your spellcasting ability modifier. While these temporary hit points remain, the target has resistance to all damage except radiant damage.</p>
+            <p class="indent">If the target would be reduced to 0 hit points while this armor is active, it is instead reduced to 1 hit point, and the spell ends immediately.</p>
+        </description>
+        <setters>
+            <set name="keywords">temporary hit points, resistance</set>
+            <set name="level">9</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">8 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a black pearl or diamond worth at least 1,000 gp, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Verdant Sanctuary" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_VERDANT_SANCTUARY">
+        <supports>Cleric, Druid, Ranger, Spell Saving Throw</supports>
+        <description>
+            <p>You scatter seeds in a 40-foot-radius centered on a point within range, causing them to grow into a grove of glowing, bioluminescent plants. The grove sheds bright light in its area and dim light 40 feet beyond the radius.</p>
+            <p class="indent">When a friendly creature starts its turn in the grove, it regains 2d6 hit points. A creature can benefit from this healing only a number of times equal to your spellcasting ability modifier (minimum of once) during the spell's duration. A hostile creature in the grove must make a Constitution saving throw at the start of each of its turns. On a failed save, the creature takes 2d6 radiant damage, and its speed is reduced by 10 feet until the start of its next turn. On a successful save, the creature takes half as much damage and suffers no speed reduction. This speed reduction does not stack with other effects that reduce speed.</p>
+            <p class="indent">When you cast this spell, two awakened trees sprout from the center of the grove. They obey your verbal commands (no action required) but can't leave the grove. If they aren't commanded, the trees defend the grove from hostile creatures. The trees last for the spell's duration or until they drop to 0 hit points.</p>
+            <p class="indent">A creature reduced to 0 hit points within the grove is automatically stabilized. This effect can only occur once per creature during the spell's duration.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d6 for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">healing, radiant</set>
+            <set name="level">6</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 minute</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a handful of rare seeds worth 500 gp, which the spell consumes</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Void Surge" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_VOID_SURGE">
+        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>A surge of crackling void energy erupts from you, swirling with shadow and violet lightning. Each creature of your choice that you can see within 20 feet of you must make a Dexterity saving throw. On a failed save, a creature takes 4d8 necrotic damage and has disadvantage on the next attack roll it makes before the end of its next turn. On a successful save, a creature takes half as much damage and suffers no additional effect.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, void</set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (20-foot radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of obsidian</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Voidstorm" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_VOIDSTORM">
+        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You create a swirling vortex of void energy in a 20-foot-radius sphere centered on a point within range for the duration. The area is heavily obscured for creatures that are within the sphere, and all light, including magical light from spells of 5th level or lower, is extinguished within the sphere. Creatures outside of the sphere can see inside it as if it were lit by dim light.</p>
+            <p class="indent">When the vortex forms, each creature in the area must make an Intelligence saving throw. On a failed save, a creature takes 6d10 psychic damage and is knocked prone from the mental pressure of the Void. On a successful save, a creature takes half as much damage and isn't knocked prone.</p>
+            <p class="indent">A creature that enters the area for the first time on a turn or starts its turn there must succeed on a DC 10 Charisma saving throw or gain a level of Void Taint.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the psychic damage increases by 1d10 for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic, void, darkness</set>
+            <set name="level">7</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of obsidian and a fragment of voidstone</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Warping Touch" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WARPING_TOUCH">
+        <supports>Warlock, Spell Attack</supports>
+        <description>
+            <p>You reach through the fabric of reality and release a pulse of void-warped energy into a creature you attempt to touch. Make a melee spell attack against a creature within your reach. On a hit, the target takes 2d6 force damage. If the target is Large or smaller, choose one of the following effects:</p>
+            <ul>
+                <li><b>Displace.</b> The target is teleported up to 10 feet in a direction of your choice to an unoccupied space it can fit in.</li>
+                <li><b>Shatter.</b> The next attack roll made against the target before the end of its next turn has advantage.</li>
+                <li><b>Phase.</b> The target can't teleport or take reactions until the start of your next turn.</li>
+            </ul>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">force, teleport, void</set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Wraithwind Prison" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_WRAITHWIND_PRISON">
+        <supports>Bard, Cleric, Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure a vortex of swirling wind, ghostly light, and wailing spirits around a creature you can see within range. The target must make a Strength saving throw. On a failed save, the creature is lifted 20 feet into the air and restrained by the vortex. While restrained, the creature takes 4d8 necrotic damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+            <p class="indent">If the spell ends while the creature is still airborne, the creature falls unless it can hover or is otherwise held aloft.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, restrained</set>
+            <set name="level">6</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a wisp of ghostly essence</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+</elements>
