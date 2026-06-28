@@ -4,7 +4,7 @@
 		<name>Homebrew Spells</name>
 		<description>HailJoe's Homebrew Spells</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.29">
+		<update version="0.0.30">
 			<file name="hailjoe-homebrew-spells.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells.index" />
 		</update>
 	</info>
@@ -12,5 +12,6 @@
 		<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 		<file name="hailjoe-gmbinder-elemental-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-gmbinder-elemental-spells.xml" />
 		<file name="hailjoe-dnd-2024-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-dnd-2024-spells.xml" />
+		<file name="hailjoe-erevan-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-erevan-spells.xml" />
 	</files>
 </index>
