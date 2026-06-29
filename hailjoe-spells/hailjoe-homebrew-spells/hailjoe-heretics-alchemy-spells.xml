@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>HailJoe's Heretic's Alchemy Spells</name>
+        <description>Spells from Heretic's Alchemy, compiled for HailJoe's homebrew collection.</description>
+        <update version="0.0.1">
+            <file name="hailjoe-heretics-alchemy-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-heretics-alchemy-spells.xml" />
+        </update>
+    </info>
+
+    <element name="Shared Roots" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHARED_ROOTS">
+        <supports>Druid</supports>
+        <description>
+            <p>You connect yourself to a creature through common roots until the spell ends. While the target is within 30 feet of you, and both of you are on the ground, you both have Advantage on checks and saving throws against being pushed, pulled or knocked prone.</p>
+        </description>
+        <setters>
+            <set name="keywords">prone, push, pull, advantage</set>
+            <set name="level">0</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Ashdash" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ASHDASH">
+        <supports>Ranger, Paladin, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You take the Dash action. If you dealt Fire damage since the start of your last turn, you are engulfed in a cloud of burning ash until the end of your turn. While in the cloud, creatures that damage you with Opportunity Attacks take 2d6 Fire damage and the damage you take is reduced by that amount.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire, dash, opportunity attack</set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a pile of ash</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Nightmare Harvest" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_NIGHTMARE_HARVEST">
+        <supports>Bard, Warlock, Spell Saving Throw</supports>
+        <description>
+            <p>You implant a deathly nightmare into a creature within range. It must succeed on a Wisdom saving throw or take 3d6 Psychic damage and be affected by the following effects for the duration.</p>
+            <p class="indent"><b>Sow.</b> You plant a seed of fright in the target. The next time it is targeted by a spell from the Illusion or Enchantment school, it has the Frightened condition until the end of its turn, at which point the spell ends.</p>
+            <p class="indent"><b>Reap.</b> You harvest the seed of fear. If the target has the Frightened condition, you can choose to end it. If you do, the target takes 2d6 Psychic damage.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The initial damage increases by 1d6 for each spell slot level above 1.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic, frightened, curse</set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Power Word: Bolster" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_POWER_WORD_BOLSTER">
+        <supports>Bard, Cleric, Paladin</supports>
+        <description>
+            <p>You release a wave of bolstering magic toward a creature you can see within range. It regains 1d12 Hit Points and whenever it takes Bludgeoning, Piercing or Slashing damage until the start of your next turn, it can reduce the damage taken by an amount equal to your Spellcasting modifier.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional creature for each spell slot level above 1.</p>
+        </description>
+        <setters>
+            <set name="keywords">healing, damage reduction</set>
+            <set name="level">1</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shadow Shard" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHADOW_SHARD">
+        <supports>Cleric, Paladin, Warlock, Spell Attack</supports>
+        <description>
+            <p>You release a shadowy streak toward a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Necrotic damage and has its Speed halved until the end of its next turn. Until the end of your turn, your Speed is increased by an amount equal to the Speed lost by the target.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The initial damage increases by 1d8 for each spell slot level above 1.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, speed, ranged attack</set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Behold" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BEHOLD">
+        <supports>Cleric, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You direct revelatory light towards a creature you can see within range. The target must succeed on a Charisma saving throw or be revealed for the duration. For the duration, the creature sheds Bright Light in a 10-foot radius and Dim Light for another 10 feet, can't benefit from the Invisible condition, can't have resistance to radiant damage.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional creature for each spell slot level above 2.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant, light, invisible, reveal, location</set>
+            <set name="level">2</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a magnifying glass</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Binding Strikes" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_BINDING_STRIKES">
+        <supports>Cleric, Druid, Paladin, Ranger</supports>
+        <description>
+            <p>Until the spell ends, your attacks with melee weapons or Unarmed Strikes reduce the target's Speed by 10 feet until the start of your next turn on a hit. This reduction is cumulative.</p>
+        </description>
+        <setters>
+            <set name="keywords">speed, slow, melee</set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Corrosive Retort" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CORROSIVE_RETORT">
+        <supports>Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You unleash caustic energy towards your enemy. The triggering attack roll is reduced by 2d4. If you've dealt Acid damage since the start of your last turn, the acid explodes. The attacker must succeed on a Dexterity saving throw or take 4d4 Acid damage.</p>
+        </description>
+        <setters>
+            <set name="keywords">acid, reaction, melee counter</set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 reaction, which you take when you are hit by a melee attack roll</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a deep fried hot pepper</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Harmony" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_HARMONY">
+        <supports>Bard, Cleric</supports>
+        <description>
+            <p>You awaken the harmonious energy inside a creature you can see within range. For the duration, it regains 2d6 Hit Points at the end of each of its turns.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The healing increases by 1d6 for each spell slot level above 2.</p>
+        </description>
+        <setters>
+            <set name="keywords">healing, regeneration</set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a golden orb worth 30 GP</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Laughing Storm" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_LAUGHING_STORM">
+        <supports>Bard, Paladin, Spell Saving Throw</supports>
+        <description>
+            <p>Each creature in a 15-foot Emanation originating from you must succeed on a Constitution saving throw or take 3d4 Thunder damage and have the Charmed condition until the end of your next turn.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The damage increases by 2d4 for each spell slot level above 2.</p>
+        </description>
+        <setters>
+            <set name="keywords">thunder, charmed, AoE</set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (15-foot Emanation)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small copper rod</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Maker's Mark" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_MAKERS_MARK">
+        <supports>Artificer, Wizard</supports>
+        <description>
+            <p>You place a mark on a creature you have summoned or created via a spell or class feature within the past hour. It gains the following benefits:</p>
+            <ul>
+                <li><b>Acclimatization.</b> Choose one damage type except Bludgeoning, Piercing or Slashing. The creature gains Resistance to that damage type.</li>
+                <li><b>Designated Purpose.</b> Choose one skill. The creature becomes proficient in that skill, and when it makes an ability check using that skill, its Proficiency Bonus is doubled.</li>
+                <li><b>Enhanced Durability.</b> The creature gains Temporary Hit Points equal to half of its Hit Point Maximum.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords">summon buff, resistance, temp hp, expertise</set>
+            <set name="level">2</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">1 Minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a platinum necklace dipped in red wax worth 10+ GP and a creature summoned or created by you</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Quenching Cold" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_QUENCHING_COLD">
+        <supports>Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You gather cooling energy around a creature you can see within range. The target makes a Strength saving throw. On a failed save, it takes 3d6 Cold damage and has the Restrained condition until the end of your next turn. On a successful save, it takes half as much damage. If you have dealt Fire damage since the start of your last turn, a cloud of steam appears in a 5-foot radius Sphere originating from the target for the duration. The area of the Sphere is Heavily Obscured.</p>
+        </description>
+        <setters>
+            <set name="keywords">cold, restrained, steam, obscured</set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Paralyzing Distillate" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_PARALYZING_DISTILLATE">
+        <supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You exhale a volatile alchemical mist infused with paralyzing toxins. Each creature in a 10-foot Cone in front of you must make a Constitution saving throw, taking 2d8 Poison damage and gaining the Poisoned condition until the end of its next turn on a failed save or half as much damage on a successful one. When the Poisoned condition ends on the creature, it must make a Constitution saving throw. On a failed save, it becomes Paralyzed until the end of its next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">poison, paralyzed, cone</set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">Self (10-foot cone)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a stonefish's toxic gland</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Shacklebolt" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SHACKLEBOLT">
+        <supports>Sorcerer, Warlock, Wizard, Spell Attack</supports>
+        <description>
+            <p>You unleash a bolt of kinetic energy. Make a ranged spell attack against a creature within range. On a hit, the target takes 2d8 Force damage plus an extra 1d8 for every 10 feet of Speed it has beyond 30. Its Speed then becomes 15 until the end of your next turn.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The initial damage increases by 1d8 for each spell slot level above 2.</p>
+        </description>
+        <setters>
+            <set name="keywords">force, speed, slow, ranged attack</set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a pair of miniature chains</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Speedsong" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SPEEDSONG">
+        <supports>Bard, Paladin</supports>
+        <description>
+            <p>You release a swift and inspiring note. Choose up to three creatures that can hear you within range. Each target's Speed increases by 15 feet for the duration.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional creature for each spell slot level above 1.</p>
+        </description>
+        <setters>
+            <set name="keywords">speed, buff, movement</set>
+            <set name="level">2</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Approaching Storm" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_APPROACHING_STORM">
+        <supports>Druid, Ranger, Sorcerer, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You release a thunderous storm. Each creature in a 10-foot Emanation originating from you must succeed on a Constitution saving throw or take 6d8 Thunder damage. If you have dealt Lightning damage since the start of your last turn, you can teleport up to 30 feet to an unoccupied space you can see as part of casting the spell, right before releasing the storm.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The damage increases by 1d8 for each spell slot level above 3.</p>
+        </description>
+        <setters>
+            <set name="keywords">thunder, lightning, teleport, AoE</set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small copper rod</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Pulse Step" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_PULSE_STEP">
+        <supports>Bard, Ranger</supports>
+        <description>
+            <p>You inspire quickness in all those around you. Up to six creatures of your choice that you can see within range gain a 30 feet bonus to their Speed and have advantage on the next Dexterity saving throw they make until the start of your next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">speed, dexterity, advantage, buff</set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Foreseen Forbiddance" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_FORESEEN_FORBIDDANCE">
+        <supports>Cleric, Paladin</supports>
+        <description>
+            <p>You touch a creature and foresee the harm upon it, allowing it avoid it. Choose a number between 1 and the creature's Hit Point Maximum. The first time damage would bring the creature's Hit Points below the chosen number, that instance of damage is instead nullified, and the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords">damage prevention, divination, protection</set>
+            <set name="level">3</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">8 Hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a miniature shield made out of silver worth 30+ GP</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Regal Rose" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_REGAL_ROSE">
+        <supports>Cleric, Druid, Paladin, Spell Saving Throw</supports>
+        <description>
+            <p>You plant a magical flower within the ground at your feet. The plant remains at the location, but is translucent and nearly imperceptible, requiring a successful Wisdom (Perception) check against your spell save DC + the level of the spell slot expended to cast this spell to notice.</p>
+            <p class="indent">When a creature steps within 10 feet of the plant, it triggers. As long as you are on the same plane of existence, you receive a momentary vision of the rose's location, seeing everything within 10 feet of it as though you were there. Then, you can select one of the following effects:</p>
+            <ul>
+                <li><b>Blossom.</b> The rose blooms with enchanting magic. The triggering creature must succeed on a Wisdom saving throw or have the Charmed condition for 1 hour. A Charmed creature repeats the saving throw at the end of each of its turns, ending the effect on a success.</li>
+                <li><b>Thorns.</b> The rose thorns strike out. The triggering creature must succeed on a Strength saving throw or take 3d6 Piercing damage and have the Restrained condition for 1 minute. A Restrained creature repeats the saving throw at the end of each of its turns, ending the effect on a success.</li>
+            </ul>
+            <p class="indent">After either effects ends, the spell ends as the rose withers.</p>
+        </description>
+        <setters>
+            <set name="keywords">trap, charmed, restrained, piercing, scry</set>
+            <set name="level">3</set>
+            <set name="school">Divination</set>
+            <set name="time">1 minute</set>
+            <set name="duration">Until dispelled</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a golden rose worth 150+ GP, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Devouring Serpent" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_DEVOURING_SERPENT">
+        <supports>Sorcerer, Warlock, Spell Saving Throw</supports>
+        <description>
+            <p>You summon a serpent forged from blood-devouring alchemical reagents at a point you can see within 60 feet. The serpent manifests as a 10-foot-radius sphere of crimson scales that persists for the duration. When the sphere appears, each creature within it must make a Constitution saving throw. On a failed save, a creature takes 3d6 necrotic damage as the serpent extracts their blood, or half as much damage on a successful save. The total necrotic damage dealt to all creatures is stored in the spell's Blood Pool.</p>
+            <p class="indent">While the sphere persists, any creature that takes any type of damage while inside the sphere adds that damage to the Blood Pool.</p>
+            <p class="indent">At the start of your next turn, you may choose one creature within 30 feet of the sphere to regain hit points equal to half the total in the Blood Pool, as the serpent redistills the harvested life force. After this healing occurs, the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, healing, blood pool, life drain</set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of coagulated Ouroboros' blood</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Ocularion's Eye" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_OCULARIONS_EYE">
+        <supports>Cleric, Sorcerer, Wizard</supports>
+        <description>
+            <p>You bind a creature's eyes to mend its mind. The target regains 5d10 Hit Points and can remove one Short-Term Madness or one Charmed or Frightened condition affecting it. It has the Blinded condition until the end of its next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">healing, madness, charmed, frightened, blinded</set>
+            <set name="level">3</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a marked bandage</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Soothing Song" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SOOTHING_SONG">
+        <supports>Bard</supports>
+        <description>
+            <p>An aura of song radiates from you in a 30-foot Emanation for the duration. When you create the aura and at the start of each of your turns while it persists, you can end one short-term madness from one creature in it.</p>
+        </description>
+        <setters>
+            <set name="keywords">madness, aura, support</set>
+            <set name="level">3</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 Minutes</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Savage Roar" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SAVAGE_ROAR">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>You release a shout of bestial rage, fueling your allies. Up to six creatures of your choice that you can see within range can add a bonus equal to your Spellcasting modifier to all weapon attacks they make until the start of your next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack bonus, buff, weapon</set>
+            <set name="level">4</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Round</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Angelic Accord" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ANGELIC_ACCORD">
+        <supports>Cleric</supports>
+        <description>
+            <p>You conjure forth the spectral outline of a guardian angel to ward a creature you can see within range. When you cast this spell and at the start of each of your turns for the duration, the target gains Temporary Hit Points equal to 2d12 plus your spellcasting ability modifier. While you are concentrating on the spell, if the target has these Temporary Hit Points, they gain a bonus to AC equal to your spellcasting ability modifier.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional creature for each spell slot level above 2.</p>
+        </description>
+        <setters>
+            <set name="keywords">temp hp, AC bonus, guardian</set>
+            <set name="level">4</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Terminal Velocity" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_TERMINAL_VELOCITY">
+        <supports>Ranger, Wizard</supports>
+        <description>
+            <p>You imbue a creature with destructive mobility. For the duration, it has the following benefits:</p>
+            <ul>
+                <li><b>Accelerate.</b> Your Speed is increased by 10 feet and once on each of its turns you can jump up to 30 feet by spending 10 feet of movement.</li>
+                <li><b>Fall Guy.</b> You are Immune to damage taken as a result of falling.</li>
+                <li><b>Gravitational Smash.</b> Whenever you hit a creature with a melee attack, you deal an extra 1d8 Force damage for every 10 feet you have fallen since the start of your turn.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords">force, speed, jump, fall damage, immunity</set>
+            <set name="level">4</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">1 Minute, Concentration</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">ashes from burnt trousers</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Cursed Feast" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_CURSED_FEAST">
+        <supports>Bard, Warlock, Spell Saving Throw</supports>
+        <description>
+            <p>You conjure a grim feast that appears on a surface in an unoccupied 10-foot Cube next to you. Creatures seeing you cast this spell, or using magical means to analyse it believe you are casting the Heroes' Feast spell. The cursed feast takes 1 hour to consume and disappears at the end of that time, and the detrimental effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.</p>
+            <p class="indent">Each creature of your choice that has partaken in the spell gain the following effects, which last for 24 hours. The creature loses all Resistances and can't gain any from features or abilities. The creature has Disadvantage on all saving throws against spells you cast. In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn. If it takes Necrotic or Poison damage from any source, the creature's Hit Point maximum is reduced by an amount equal to the Necrotic or Poison damage taken.</p>
+        </description>
+        <setters>
+            <set name="keywords">curse, debuff, disguised spell, HP max reduction</set>
+            <set name="level">6</set>
+            <set name="school">Necromancy</set>
+            <set name="time">10 minutes</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a gem-encrusted bowl worth 500+ GP and a lich's finger worth 500+ GP, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Orb of Restoration" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_ORB_OF_RESTORATION">
+        <supports>Bard, Cleric</supports>
+        <description>
+            <p>You launch a leaping healing orb toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 15 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p>
+            <p class="indent">Each creature targeted regains Hit Points equal to 8d8 plus your spellcasting ability modifier, each object has any break, tear or damage restored.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> One additional orb leaps from the first target to another target for each spell slot level above 6.</p>
+        </description>
+        <setters>
+            <set name="keywords">healing, chain, object repair</set>
+            <set name="level">6</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">three golden pins</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Power Word: Tranquility" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_POWER_WORD_TRANQUILITY">
+        <supports>Bard, Cleric</supports>
+        <description>
+            <p>A wave of healing, peaceful energy washes over one creature you can see within range. It gains the following benefits:</p>
+            <ul>
+                <li><b>Lifelink.</b> Whenever the target hits a creature, it regains Hit Points equal to half the damage dealt. It cannot regain Hit Points over half of its Hit Points Maximum in this way.</li>
+                <li><b>Prowess.</b> Once during the duration of the spell, when the target casts a spell that deals damage, it can add a number of d6s of Force damage equal to the level of the spell cast to that spell's damage against one of the spell's targets.</li>
+                <li><b>Vigilance.</b> The creature gains an additional Reaction it can use each Round.</li>
+            </ul>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You can target one additional creature for each spell slot level above 6.</p>
+        </description>
+        <setters>
+            <set name="keywords">lifesteal, force, extra reaction, buff</set>
+            <set name="level">6</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 Minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bag of green tea</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Rune of Subtle Arcane" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RUNE_OF_SUBTLE_ARCANE">
+        <supports>Sorcerer, Warlock</supports>
+        <description>
+            <p>You engrave a transmutation circle along your throat, temporarily alchemizing your arcane conduits. For the duration, when you cast a spell, you can do so without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> Your Concentration can last longer with a spell slot of level 7 (up to 1 hour), 8 (up to 8 hours), or 9 (24 hours).</p>
+        </description>
+        <setters>
+            <set name="keywords">subtle spell, no components, metamagic</set>
+            <set name="level">6</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 Minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of quicksilver infused with an Outer's essence</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+    <element name="Sinsight" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_SINSIGHT">
+        <supports>Cleric, Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You launch a necrotic curse towards a creature or a sensor (such as the one created by the Scrying spell). The target must succeed on a Constitution saving throw or become cursed for its sinful gaze. A sensor automatically fails this saving throw, transferring it to the creature for which it is sensing. For the duration, whenever the target casts a spell from the Divination school, it takes Necrotic damage equal to 2d10 times the level of the spell and the spell automatically fails.</p>
+            <p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> If you cast this spell using a level 8 spell slot, the duration increases to 10 days. If you use a level 9 spell slot, the spell lasts until dispelled.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, curse, divination counter, scry</set>
+            <set name="level">7</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">24 Hours</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bloodshot eye</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+</elements>
