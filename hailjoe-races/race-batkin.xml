@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Batkin</name>
+        <description>The Barkin species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-batkin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-batkin.xml" />
+        </update>
+    </info>
+
+    <element name="Batkin" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_BATKIN">
+        <description>
+            <p class="flavor">To those who view evolution as a linear path toward refinement, the batkin are a rebuttal. They are not the result of gradual advancement, but of a curse turned inward—a fragment of Morvath Sangrave's blood, scattered and diluted, taking root in flesh that was never meant to carry it. That they became people rather than monsters is a statistical miracle, not a moral guarantee.</p>
+            <p>Deep within the unmapped reaches of the Escar Forests, an ancient curse unraveled something in the blood of those who dwelled there. Scholars and elder batkin alike trace the affliction back to a ritual gone wrong—one tied, however distantly, to Morvath Sangrave, the First Elder Vampire. No one claims he intended this. The curse was never his design; it was an accident of his ancient blood spreading beyond his control, settling into the veins of ordinary bats and the people who lived alongside them, twisting both species together into something new. Over generations, this corruption gave rise to a new Humanoid species, distinct from any ordinary bat and far removed from true vampiric purity. These beings, the batkin, evolved to possess sentient intelligence, combining a faint, diluted echo of vampiric hunger with the natural agility and nocturnal prowess of bats.</p>
+            <p class="indent">Their connection to Morvath's bloodline is real but thin—a whisper passed down rather than a roar. Most batkin who learn of it treat it the way one treats a half-remembered ancestor: a curiosity, not a calling.</p>
+            <h4>ETERNAL NOCTURNE</h4>
+            <p>Batkin possess exceptional night vision and acute echolocation, enabling them to navigate the darkest environments. Their societies, hidden in ancient ruins and deep caverns, are complex matriarchies led by the oldest and wisest among them. Batkin reach maturity at about 20 years and can live up to 200 years. Their culture is rich in familial and clan traditions, valuing artistry in moonlit dances, storytelling, and lunar festivals. They speak their own language—a series of clicks and high-pitched tones—and many learn Common to interact with other races.</p>
+            <h4>A FOLK OF WHISPERS AND OLD WARNINGS</h4>
+            <p>To the avâm of Aiwelen, batkin are not a people but a legend—the kind of thing grandmothers warn children about on cold nights, the shapes blamed for missing livestock or strange noises echoing up from old mine shafts. They are spoken of more like beasts than like elves or dwarves: a monster from folklore rather than a neighboring race. Few surface-dwellers have ever seen one and lived to describe it accurately, and fewer still believe the descriptions that do circulate. Among the Inquisition and most of the religious orders of the realm, batkin are not debated; they are simply named taboo, dismissed alongside other Stitched and cursed things as abominations unworthy of mercy or theological nuance.</p>
+            <p class="indent">It is in the Underdark that batkin are an acknowledged, if unwelcome, fact of life. The denizens of the deep places know to avoid certain caverns, certain ruins, certain silences that are too complete. There, batkin are real, present, and occasionally deadly—not myth, but neighbor.</p>
+            <h4>TWILIGHT EXISTENCE</h4>
+            <p>Batkin retain the wings of their bat ancestors, granting them the power of flight. While they do not inherently need to feed on blood, doing so enhances their abilities but risks a descent into a feral state. Batkin are typically neutral, with a tendency towards chaotic alignments due to their dual nature. They often struggle between their primal instincts and the intellect they possess, a reflection of their vampiric and animalistic heritage.</p>
+            <h4>DOMAINS OF THE BATKIN</h4>
+            <p>Batkin make their homes across three kinds of territory, often moving between them as clans rise, fracture, or are driven out. The Escar Forests remain their oldest and most storied homeland, the place where the original curse took hold and the matriarchal clans first formed. Beneath the surface entirely, batkin colonies have claimed pockets of the Underdark, carving warrens into stone where the sun never reaches and echolocation reigns supreme over sight. And within the Vampire Domains scattered across Aiwelen, batkin clans live and serve at the pleasure—or under the boot—of powerful vampires who recognize the diluted echo of Morvath's blood in them, whether with curiosity, contempt, or use.</p>
+            <p class="indent">Beyond these three core territories, batkin are opportunistic settlers. Abandoned ruins, forgotten crypts, and antique ancient ruins across Aiwelen have all, at one point or another, been claimed and repurposed by batkin clans seeking shelter far from prying eyes.</p>
+            <h4>THE SHADOW OF MORVATH</h4>
+            <p>Knowledge of the bloodline's true origin is not universal among the batkin. It survives chiefly among certain clan Elders—matriarchs and patriarchs old enough to have inherited the oral histories of their forebears, and disciplined enough to have preserved them. Among these traditionalist clans, Morvath Sangrave is spoken of with a complicated reverence: not worshipped as a god, but acknowledged as the distant, unwilling source of what they are, his name invoked in old rites and naming ceremonies passed down through matrilineal lines.</p>
+            <p class="indent">Other clans have let the old stories fade entirely, either through deliberate rejection of a heritage they find more curse than honor, or through the simple erosion of memory across two centuries of lives lived far from any written record. This divide—between clans who hold to the old ways and those who have moved past them—is a genuine source of friction within batkin society, occasionally hardening into outright factional rivalry when clans of differing conviction are forced to share territory or resources.</p>
+            <h4>SERVANTS, NOT ALLIES</h4>
+            <p>Many batkin clans, particularly those rooted in the Vampire Domains or the deeper Underdark, exist in the service of powerful vampires. This arrangement is rarely a partnership freely chosen. More often it begins as conquest: a vampire of sufficient power subdues a clan, binds it through fear, domination, or outright thrall, and folds its members into a retinue of scouts, soldiers, or blood-thralls. Over time, some subjugated batkin come to genuinely respect the strength of their master, even taking a measure of pride in serving something so ancient and powerful. A rare few, vanishingly small in number, view such servitude as an honor from the very beginning, drawn to vampiric power the way moths are drawn to flame. But these are the exceptions. For the overwhelming majority of batkin bound to a vampire's service, the relationship begins, and often remains, one of coercion rather than choice.</p>
+            <h4>LEGACY OF THE DUSKBORN</h4>
+            <p>Batkins' connection to lunar cycles profoundly influences their powers and emotions. They are adept at lunar magic, often becoming scholars, mystics, or guardians of ancient lore. Misunderstood by other races and seen as monsters, batkin value deep trust within their societies. They often take roles as scouts, spies, or scholars in the broader world. Their legacy is one of balance as a people that navigate the fine line between the civilized world and creatures that roam the night.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Batkin stand apart as a distinct species, blending elements of their dual heritage. They exhibit Humanoid forms that retain many bat-like features, such as pointed ears and expansive, leathery wings. Their skin is typically pale or tinged with an ashen hue, reminiscent of their vampire ancestry, while their eyes, varying in shades of red or gold, reflect their adaptability to the dark.</p>
+            <p class="indent">Most prominent are their bat-like wings, which may be large and robust or sleek and agile, enabling swift and silent flight through the night sky. These wings are an extension of their arms, with a thin, almost translucent membrane stretched between elongated fingers. The size and shape of the wings can vary greatly, often influenced by the batkin's lineage and the environments their clans call home. For example, those who reside in the Escar Forests lean towards slender and agile forms for darting among the trees, while batkin residing in cliffside caves or Underdark warrens are larger and better able to glide through open expanses.</p>
+            <p class="indent">In place of traditional hair, some batkin have a fine layer of fur along their heads and necks, while others may be completely bald, adding to their enigmatic allure. Their teeth include elongated canines, a subtle reminder of their vampiric heritage, though not as pronounced as those of true vampires.</p>
+            <p class="indent">When envisioning your batkin character, consider the following aspects that highlight your unique nature: Build and Stature (the balance between Humanoid agility and bat-like strength, shaping your physical abilities and presence), Skin and Features (the texture and color of your skin, the shape of your facial features, and the size and positioning of your ears), Wings (the size, shape, and agility of your wings, which are crucial for your flight and expression of identity), and Eyes and Teeth (the color and glow of your eyes, and the subtlety of your canines, reflecting your vampiric heritage).</p>
+            <h4>TRIBAL MARKINGS</h4>
+            <p>In batkin society, physical markings and adornments provide a broad spectrum of cultural expression. Tattoos are prevalent, with natural dyes used to ink the skin in patterns that symbolize lineage and clan affiliation. These range from subtle markings to extensive designs, indicating an individual's status and role within their tribe.</p>
+            <p class="indent">Jewelry, crafted from natural materials like bone and stone, serves not just as decoration but as a signifier of one's expertise or rank within the community. It's common for a batkin's jewelry to reflect their occupation, be it hunter, scholar, community leader, or craftsman.</p>
+            <p class="indent">Scarification and branding, though rarer, are used to commemorate major life events or achievements. These are not just mere marks but are carefully created as meaningful symbols of personal and communal history. This body art is more than adornment; it's a connection to the batkin's roots, with each individual proudly displaying their identity and lineage.</p>
+            <table>
+                <tr><th>d10</th><th>Quirk</th></tr>
+                <tr><td>1</td><td>Your wings have a rugged texture with subtle, natural color variations, like those found in giant vampire bats.</td></tr>
+                <tr><td>2</td><td>The tips of your ears are delicately tufted, mirroring a characteristic feature of certain bat species.</td></tr>
+                <tr><td>3</td><td>Your neck is more flexible than usual, allowing you to rotate your head almost 180 degrees.</td></tr>
+                <tr><td>4</td><td>Your legs and arms are slightly elongated in proportion to the rest of your body.</td></tr>
+                <tr><td>5</td><td>Small patches of fur-like hair grow along your shoulders and back, providing insulation and warmth.</td></tr>
+                <tr><td>6</td><td>Your body temperature is slightly lower than a human's, and your skin is always cold to the touch.</td></tr>
+                <tr><td>7</td><td>Your teeth, including canines, are slightly more pronounced than typical, a subtle nod to your vampiric lineage.</td></tr>
+                <tr><td>8</td><td>The nails on your hands and feet are naturally tougher and slightly curved, suitable for climbing and grasping.</td></tr>
+                <tr><td>9</td><td>Your wing membranes have a fine network of veins that pulse crimson after you have fed on blood.</td></tr>
+                <tr><td>10</td><td>Your nose exhibits a more pronounced and rigid structure.</td></tr>
+            </table>
+            <h4>BATKIN NAMES</h4>
+            <p>Batkin naming conventions reflect their vampiric and chiropteran heritage, closely tied to their clan affiliations. These clans, often named for common characteristics or their territory of origin within the Escar Forests, the Underdark, or a Vampire Domain, play a crucial role in individual identity. Personal names often mimic the soft whispers and sharp cries of bats, indicative of their nocturnal nature and facilitating communication in darkness.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Dravos, Erebus, Kyril, Morvus, Nareth, Sylar, Thrayn, Valtor, Voryn, Zorael</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Aradia, Elyra, Ilythia, Lysara, Morwenna, Nyssia, Sariel, Sorina, Valyra, Verena</p>
+            <p class="indent"><strong><em>Clan Names:</em></strong> Bloodveil, Crimsonflight, Darkwing, Duskweaver, Moonwhisper, Nightshiver, Starfang, Velvetshadow</p>
+            <h4>BATKIN TRAITS</h4>
+            <p>As a batkin, you have the following racial traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Batkin reach adulthood in their early twenties and can live up to 200 years, aging gracefully due to their diluted vampiric heritage.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+            <p class="indent"><strong><em>Echolocation.</em></strong> As a bonus action, you emit a focused sonar pulse. Until the start of your next turn, you gain blindsight out to 30 feet. You must be able to hear to use this trait, and the effect instantly ends if you are deafened while it is active. You can use this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Flight.</em></strong> You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</p>
+            <p class="indent"><strong><em>Vampiric Heritage.</em></strong> You carry a diluted thirst of Morvath Sangrave's bloodline in your veins. You can make a bite attack as an unarmed strike using Strength or Dexterity for the attack roll. On a hit, the target takes 1d4 piercing damage. If the target is a Humanoid that has blood, you can choose to drink from the wound as part of the same action to gain a surge of vitality. For the next hour, you gain a +1 bonus to ability checks and saving throws. Once you gain a surge of vitality in this way, you can't do so again until you finish a short or long rest.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Batkin and Common.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> There are two main subraces of batkin: nightwing and duskborn. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_BATKIN_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_BATKIN_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Batkin)" supports="ID_HAILJOE_RACE_VARIANT_BATKIN_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_BATKIN_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_HAILJOE_LANGUAGE_BATKIN" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <stat name="speed:fly" value="30" bonus="base" equipped="!armor:medium,!armor:heavy" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_BATKIN_ECHOLOCATION" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_BATKIN_FLIGHT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRIC_HERITAGE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_BATKIN_SUBRACE" />
+        </rules>
+    </element>
+
+    <element name="Batkin Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_BATKIN_SIZE_MEDIUM">
+        <supports>Batkin</supports>
+        <description>
+            <p>You are Medium.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Batkin Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_BATKIN_SIZE_SMALL">
+        <supports>Batkin</supports>
+        <description>
+            <p>You are Small.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_BATKIN_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Batkin Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_BATKIN_SIZE_SMALL" />
+
+    <element name="Echolocation" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_BATKIN_ECHOLOCATION">
+        <description>
+            <p>As a bonus action, you emit a focused sonar pulse. Until the start of your next turn, you gain blindsight out to 30 feet. You must be able to hear to use this trait, and the effect instantly ends if you are deafened while it is active. You can use this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+            <description>You emit a focused sonar pulse. Until the start of your next turn, you gain blindsight out to 30 feet. The effect ends if you are deafened while it is active.</description>
+        </sheet>
+    </element>
+
+    <element name="Flight" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_BATKIN_FLIGHT">
+        <description>
+            <p>You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</p>
+        </description>
+        <sheet>
+            <description>You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</description>
+        </sheet>
+    </element>
+
+    <element name="Vampiric Heritage" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VAMPIRIC_HERITAGE">
+        <description>
+            <p>You carry a diluted thirst of Morvath Sangrave's bloodline in your veins. You can make a bite attack as an unarmed strike using Strength or Dexterity for the attack roll. On a hit, the target takes 1d4 piercing damage. If the target is a Humanoid that has blood, you can choose to drink from the wound as part of the same action to gain a surge of vitality. For the next hour, you gain a +1 bonus to ability checks and saving throws. Once you gain a surge of vitality in this way, you can't do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You can make a bite attack as an unarmed strike. On a hit, you deal 1d4 piercing damage. If the target is a Humanoid that has blood, you can drink from the wound as part of the same action to gain a surge of vitality, granting a +1 bonus to ability checks and saving throws for 1 hour.</description>
+        </sheet>
+    </element>
+
+    <element name="Batkin Subrace" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_BATKIN_SUBRACE">
+        <description>
+            <p>There are two main subraces of batkin: nightwing and duskborn. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Batkin Subrace" supports="Batkin" />
+        </rules>
+    </element>
+
+    <element name="Nightwing" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_NIGHTWING">
+        <supports>Batkin</supports>
+        <description>
+            <p>Nightwings are known for their unparalleled aerial abilities among the batkin. Their wings are stronger and more durable, enabling swift and agile flight. This subrace of batkin excels in tasks that require quick reflexes and a strong sense of balance.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Aerial Agility.</em></strong> You are proficient in the Acrobatics skill.</p>
+            <p class="indent"><strong><em>Barrel Roll.</em></strong> When you are flying and a creature misses you with a melee attack, you can use your reaction to move up to 10 feet without provoking opportunity attacks. You must end this movement in the air. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_AERIAL_AGILITY" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_BARREL_ROLL" />
+        </rules>
+    </element>
+
+    <element name="Aerial Agility" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_AERIAL_AGILITY">
+        <description>
+            <p>You are proficient in the Acrobatics skill.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Barrel Roll" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_BARREL_ROLL">
+        <description>
+            <p>When you are flying and a creature misses you with a melee attack, you can use your reaction to move up to 10 feet without provoking opportunity attacks. You must end this movement in the air. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="{{proficiency}}/Long Rest">
+            <description>When you are flying and a creature misses you with a melee attack, you can move up to 10 feet without provoking opportunity attacks. You must end this movement in the air.</description>
+        </sheet>
+    </element>
+
+    <element name="Duskborn" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_DUSKBORN">
+        <supports>Batkin</supports>
+        <description>
+            <p>Duskborn batkin have a deeper connection to the nocturnal aspects of their heritage. They are more attuned to the rhythms of the night and have heightened senses that help them navigate and understand their surroundings.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Echolocation Precision.</em></strong> The range of the blindsight you gain from your Echolocation increases by 10 feet. Additionally, when you use your Echolocation, you can expend an additional use to focus the pitch to an ear-shattering level at one creature within 30 feet of you. The creature must succeed on a DC 13 Constitution saving throw or be deafened until the start of your next turn.</p>
+            <p class="indent"><strong><em>Lunar Sight.</em></strong> You are proficient in the Perception skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_ECHOLOCATION_PRECISION" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_LUNAR_SIGHT" />
+        </rules>
+    </element>
+
+    <element name="Echolocation Precision" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_ECHOLOCATION_PRECISION">
+        <description>
+            <p>The range of the blindsight you gain from your Echolocation increases by 10 feet. Additionally, when you use your Echolocation, you can expend an additional use to focus the pitch to an ear-shattering level at one creature within 30 feet of you. The creature must succeed on a DC 13 Constitution saving throw or be deafened until the start of your next turn.</p>
+        </description>
+        <sheet>
+            <description>Your Echolocation's blindsight range increases by 10 feet. You can expend an additional use of Echolocation to force one creature within 30 feet to make a DC 13 Constitution saving throw or be deafened until the start of your next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="blindsight:range" value="10" />
+        </rules>
+    </element>
+
+    <element name="Lunar Sight" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_LUNAR_SIGHT">
+        <description>
+            <p>You are proficient in the Perception skill.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Batkin" type="Language" source="HailJoe's Races" id="ID_HAILJOE_LANGUAGE_BATKIN">
+        <supports>Exotic, Rare</supports>
+        <description>
+            <p>Batkin is a language of sharp clicks, rolling tones, and high-pitched whispers, evolved to carry through the dark caverns and dense canopies the batkin call home. It is rarely written, relying instead on an oral tradition of clan histories, lunar chants, and warnings passed down through matriarchal lines.</p>
+        </description>
+        <setters>
+            <set name="speakers">Batkin</set>
+            <set name="script">—</set>
+            <set name="exotic">true</set>
+        </setters>
+    </element>
+
+</elements>
