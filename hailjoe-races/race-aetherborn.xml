@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Aetherborn</name>
+        <description>The Aetherborn species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-aetherborn.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-aetherborn.xml" />
+        </update>
+    </info>
+
+    <element name="Aetherborn" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_AETHERBORN">
+        <description>
+            <p class="flavor">I find their reverence for Alluna curious. Not worship in the traditional sense, but alignment—ritual, symbolism, sacrifice. Unlike many mortals, they understand that light does not purify; it reveals. They make offerings not to cleanse themselves but to be seen.</p>
+            <p>The aetherborn trace their beginnings to the Veil, a confluence where the vivifying energies of the Ethereal Plane clash with the desolate essence of the Nether, the Plane of Shadow. This realm of pure, contrasting energies is the domain of the moon, Alluna, and is not merely a borderland but a crucible from which the aetherborn emerged—entities not fully alive by conventional standards yet far from the embrace of death.</p>
+            <p class="indent">Their origins remain enshrouded in enigma, with no recollection of any existence prior to the First Awakening within the Veil. Born fully formed from the intertwining of ethereal mist and shadow, the first aetherborn possessed no lineage or legacy but that which they carved for themselves in the shadow and moonlight. This unique blend of life and void gives the aetherborn their defining traits: an existence bathed in perpetual twilight, where the spectral meets the corporeal. The Veil's influence allows them glimpses into realms beyond mortal ken. It is this very aspect that often casts the aetherborn as esoteric figures, their insights perceived as madness by those grounded in material reality.</p>
+            <p class="indent">In Aiwelen, the common folk know nothing of the aetherborn—no whispered tales, no warding charms, no place in the lore of ordinary people. They do not exist in the minds of the avam. But within the upper echelons of the Inquisition, among the Yüksek Engizisyon and its most senior members, the aetherborn are known, and quietly distrusted. They are not formally declared heretics, nor do they appear on any list of condemned sapkınlık, but the bias runs deep and unspoken—a wariness passed down through closed-door briefings and sealed archives, never committed to public record.</p>
+            <h4>EXODUS AND RESETTLEMENT</h4>
+            <p>Displaced by a cosmic event that tore through the Veil, the aetherborn were forced to flee into the Material Plane. This cataclysm severed their access to the plane, leaving many to speculate about its cause—from ancient entities' awakenings to astral misalignments. Gathering their scattered people, the aetherborn established the Lunaris, enclaves resonating with lunar energy and constructed from moonstone and etherglass. These sanctuaries, blending elements of both the Ethereal Plane and the Nether, underscore their determination to thrive despite being cut off from their home.</p>
+            <p class="indent">Unlike the great walled capitals of the Material Plane, no single Lunaris exists as one grand city. Instead, the aetherborn scatter themselves across dozens of small, fractured enclaves, deliberately divided so that the discovery of one threatens nothing else. These hidden settlements can be found within Imperial lands, woven into the high places of Alve Dorei territory, and scattered through the cold reaches of the North—wherever the terrain rises high and the sky opens wide enough to touch Alluna's light. Aetherborn favor secluded, defensible heights: mountain shelves, cliffside hollows, and peaks where moonlight falls unobstructed and outsiders rarely climb. Each Lunaris keeps to itself, its location known to few beyond its own people, surviving through concealment rather than strength of numbers.</p>
+            <h4>GOVERNANCE BY THE MOONSHADES</h4>
+            <p>Aetherborn society in the Lunaris is governed by the Moonshades, a group of sages and seers who discern Alluna's will. They lead their kin through a government that ebbs and flows with the lunar phases, each phase heralding a shift in roles and responsibilities. It's a society where power is transient, shared, and deeply intertwined with the spiritual health of the community. The aetherborn value collective wisdom over individual ambition, and their shamans ensure that every blood offering to Alluna is a reaffirmation of their bonds to one another and to the life force of the moon.</p>
+            <h4>CULTURE OF TRANSITION</h4>
+            <p>Lunaris are places of transition, where the aetherborn learn to harness their innate abilities and take their roles within the community leadership structure. They are a people of both spirit and flesh, capable of acts that defy the laws of the Material Plane, yet, they are not immortal. They live lives marked by phases, celebrating new moons as times of birth and beginnings, and full moons as times of culmination and sacrifice. The offering of blood is sacred, not barbaric, a tribute that acknowledges their origins in the Veil and honors the constant cycle of life, death, and rebirth under Alluna's watchful eye.</p>
+            <h4>ROLES OF THE AETHERBORN</h4>
+            <p>In the Lunaris enclaves, the aetherborn adhere to a celestial-inspired hierarchy, reflecting their deep connection to lunar cycles. Leadership transitions through three distinct stages: Luminites, who are novices embracing lunar magic; Illuminarchs, who rule with heightened powers during the full moon; and Duskguides, who offer wisdom as their influence wanes. This cycle ensures leadership remains vibrant and connected to the cosmic rhythms.</p>
+            <p class="indent">Beyond these roles, the aetherborn society is rich with diverse responsibilities. Pathfinders embark on quests beyond the enclave's borders, seeking knowledge and ensuring the community's safety. Crafters specialize in creating items that resonate with shadows and moonlight, essential for the enclave's daily life and spiritual practices. Guardians, tasked with the enclave's defense, use lunar magic to form protective barriers against intruders.</p>
+            <p class="indent">Each aetherborn is expected to contribute, with roles shifting as the lunar phases change, ensuring everyone takes part in the community's governance and defense. This fluid structure reinforces their adaptability and resilience, vital for thriving in the Material Plane after their exodus from the Veil.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Aetherborn manifest with skin that captures the ethereal essence of their origins, displaying a range of hues from deep midnight blues to the soft grays of pre-dawn light. Their physical forms blend the tangible with the intangible, subtly phasing between solidity and a mist-like state.</p>
+            <p class="indent">Aetherborn eyes are their most captivating feature, glowing steadily with colors that change with their emotions or the phase of the moon, from soft silvers to vibrant purples. This luminosity provides a stark contrast to their otherwise human-like features, setting them apart as beings of both shadow and light.</p>
+            <p class="indent">Their hair, when present, mimics the qualities of their skin—sometimes appearing as fine, flowing strands that resemble the soft glow of moonlight, at other times dark and nebulous as a starless sky. Markings or tattoos that resemble lunar landscapes or celestial patterns often adorn their skin, glowing faintly in darkness. These are personal and unique, signifying individual experiences, vows, or connections to the cosmos.</p>
+            <p class="indent">When envisioning your aetherborn character, consider these aspects to highlight their unique essence: Skin Tone and Texture (how does ethereal energy influence the color and appearance of your skin?), Eye Color (what color best represents your character's soul and emotional depth?), Hair Style and Color (in what ways does your hair reflect the luminous qualities of your ethereal or shadow heritage?), and Tattoos and Markings (what patterns or symbols mark your people's journey from the Veil to the Material Plane?).</p>
+            <h4>MOONTOUCHED MADNESS</h4>
+            <p>Aetherborn perceive reality through a lens altered by their unique origins, granting them an inherent ability to peer into the Ethereal Plane and interact with its denizens. This capacity, while a marvel, often casts them as outsiders among other races, their behaviors and insights deemed eccentric or mad. These "Moontouched" navigate their existence straddling the veil between worlds, their minds dancing with visions unseen by others. Some may converse with invisible entities, while others might predict events yet to unfold, guided by the whispers of the Veil.</p>
+            <p class="indent">Roll a d10 or choose one from the table below to determine a distinct quirk of your aetherborn character:</p>
+            <table>
+                <tr><th>d10</th><th>Quirk</th></tr>
+                <tr><td>1</td><td>You find humor in the inexplicable and the cosmic, often laughing at seemingly random moments.</td></tr>
+                <tr><td>2</td><td>Your laughter echoes like the soft chimes of celestial bodies colliding, both disarming and haunting.</td></tr>
+                <tr><td>3</td><td>Your hair moves as if caressed by an unseen breeze from the Ethereal Plane.</td></tr>
+                <tr><td>4</td><td>Your dreams are filled with journeys through planes of existence, and you sometimes wake with knowledge or insights from these travels.</td></tr>
+                <tr><td>5</td><td>Your limbs occasionally phase through objects unintentionally when lost in thought.</td></tr>
+                <tr><td>6</td><td>A spirit animal from the Ethereal Plane, visible only to you, accompanies you on your travels.</td></tr>
+                <tr><td>7</td><td>You sometimes predict minor events—such as changes in weather or an apple falling from a tree—moments before they occur.</td></tr>
+                <tr><td>8</td><td>When you move swiftly, you leave behind faint, ghostly afterimages.</td></tr>
+                <tr><td>9</td><td>Your eyes momentarily flash with cosmic light when you're deeply contemplative or emotional.</td></tr>
+                <tr><td>10</td><td>You converse with unseen spirits, occasionally voicing their words aloud, who offer a running commentary on you and your companions' actions and words.</td></tr>
+            </table>
+            <h4>AETHERBORN NAMES</h4>
+            <p>After arriving in the Material Plane, the aetherborn embraced the concept of individual naming as a means to anchor their existence in their new home. These names reflect the profound shifts and insights gained during their journey and honor the ties to their lunar heritage. Each aetherborn chooses a name that symbolizes their personal epiphany or connection to the cosmic forces that guide them.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Aelum, Baelor, Barion, Caelis, Daemir, Eilun, Eronin, Faeryn, Gaelan, Gavrel, Haelos, Ielar, Jaeron, Maelor, Meridan, Orion, Raelum, Rivan</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Alarae, Belenia, Berinthia, Celune, Delara, Elaith, Elora, Fenali, Ghaele, Gwynara, Haliara, Iridia, Jelara, Mirelle, Olesia, Orielle, Raelia</p>
+            <p class="indent">Each aetherborn belongs to an enclave that carries a title reflecting their collective destiny or a significant astral phenomenon. These titles serve both as a surname and a bond, uniting members under a shared cosmic heritage.</p>
+            <p class="indent"><strong><em>Lunaris Titles:</em></strong> Celestwander, Eclipseborn, Etherbreath, Lunargrace, Nebulakin, Nightrend, Orbweave, Solarwind, Starwhisper, Voidseeker</p>
+            <h4>AETHERBORN TRAITS</h4>
+            <p>Your aetherborn character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Aetherborn vary widely in height and build, from barely 5 feet to well over 6 feet tall. You are Medium.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Aetherborn reach physical maturity at about the same age as humans. An aetherborn typically claims adulthood around the age of 150 and can live to be 1,000 years old.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+            <p class="indent"><strong><em>Ethereal Hearing.</em></strong> You can hear into the Ethereal Plane within 30 feet around you.</p>
+            <p class="indent"><strong><em>Incorporeal.</em></strong> As an action, you can become incorporeal until the end of your turn. You can move through other creatures and objects as if they were difficult terrain. If you end your turn inside an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. While incorporeal, you can be affected by spells and effects that target or affect creatures on the Ethereal Plane. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Negative Energy Affinity.</em></strong> You have advantage on saving throws against effects that would age you.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+            <p class="indent"><strong><em>Aetherborn Subrace.</em></strong> Two main subraces of aetherborn exist: the Eclipsed and the Luminous.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <stat name="darkvision:range" value="120" bonus="base" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_ETHEREAL_HEARING" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_INCORPOREAL" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NEGATIVE_ENERGY_AFFINITY" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_AETHERBORN_SUBRACE" />
+        </rules>
+    </element>
+
+    <element name="Ethereal Hearing" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_ETHEREAL_HEARING">
+        <description>
+            <p>You can hear into the Ethereal Plane within 30 feet around you.</p>
+        </description>
+        <sheet>
+            <description>You can hear into the Ethereal Plane within 30 feet around you.</description>
+        </sheet>
+    </element>
+
+    <element name="Incorporeal" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_INCORPOREAL">
+        <description>
+            <p>As an action, you can become incorporeal until the end of your turn. You can move through other creatures and objects as if they were difficult terrain. If you end your turn inside an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. While incorporeal, you can be affected by spells and effects that target or affect creatures on the Ethereal Plane. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>You can become incorporeal until the end of your turn, moving through creatures and objects as if they were difficult terrain. If you end your turn inside an object, you are shunted to the nearest unoccupied space and take force damage equal to twice the number of feet you are moved.</description>
+        </sheet>
+    </element>
+
+    <element name="Negative Energy Affinity" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NEGATIVE_ENERGY_AFFINITY">
+        <description>
+            <p>You have advantage on saving throws against effects that would age you.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against effects that would age you.</description>
+        </sheet>
+    </element>
+
+    <element name="Aetherborn Subrace" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_AETHERBORN_SUBRACE">
+        <description>
+            <p>Two main subraces of aetherborn exist: the Eclipsed and the Luminous. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Aetherborn Subrace" supports="Aetherborn" />
+        </rules>
+    </element>
+
+    <element name="Eclipsed Aetherborn" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_ECLIPSED_AETHERBORN">
+        <supports>Aetherborn</supports>
+        <description>
+            <p>As an eclipsed aetherborn, your essence is woven from the shadows and the obscure forces of the Nether, making you a conduit for darkness and decay. You move with a grace born from the absence of light, and your presence is a silent whisper in the dark, unseen yet profoundly felt. Your affinity for the dark grants you mastery over the powers of shadow, allowing you to manipulate them to your will.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Shadow Walker.</em></strong> You have proficiency in the Stealth skill. Additionally, when you are in dim light or darkness, you can attempt to hide as a bonus action, showcasing your innate ability to meld with the surrounding shadows.</p>
+            <p class="indent"><strong><em>Umbral Touch.</em></strong> Starting at 3rd level, you can cast the darkness spell with this trait. Charisma is your spellcasting ability for it when you cast this spell with this trait, and you can see through this magical darkness as if it were bright light. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_SHADOW_WALKER" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_UMBRAL_TOUCH" />
+        </rules>
+    </element>
+
+    <element name="Shadow Walker" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADOW_WALKER">
+        <description>
+            <p>You have proficiency in the Stealth skill. Additionally, when you are in dim light or darkness, you can attempt to hide as a bonus action, showcasing your innate ability to meld with the surrounding shadows.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>When you are in dim light or darkness, you can attempt to hide as a bonus action.</description>
+        </sheet>
+    </element>
+
+    <element name="Umbral Touch" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_UMBRAL_TOUCH">
+        <description>
+            <p>Starting at 3rd level, you can cast the darkness spell with this trait. Charisma is your spellcasting ability for it when you cast this spell with this trait, and you can see through this magical darkness as if it were bright light. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>Starting at 3rd level, you can cast the darkness spell with this trait (1/long rest), seeing through it as if it were bright light. Charisma is your spellcasting ability for it.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="3"/>
+        </rules>
+    </element>
+
+    <element name="Luminous Aetherborn" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_LUMINOUS_AETHERBORN">
+        <supports>Aetherborn</supports>
+        <description>
+            <p>As a luminous aetherborn, your skin softly glows, echoing the gentle luminescence of the moon's phases. You are deeply attuned to the arcane energies that flow through the Ethereal Plane, feeling a kinship with the moon that influences tides and lights up the night. Your ability to tap into this celestial power not only illuminates your path but also grants you a mastery over moon-related magic, setting you apart from others with your unique blend of wisdom and mystical prowess.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Moonlit Resilience.</em></strong> You have proficiency in the Arcana skill, and you have advantage on saving throws against being charmed.</p>
+            <p class="indent"><strong><em>Lunar Radiance.</em></strong> Starting at 3rd level, you can cast the moonbeam spell with this trait. Charisma is your spellcasting ability for it when you cast this spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_MOONLIT_RESILIENCE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_LUNAR_RADIANCE" />
+        </rules>
+    </element>
+
+    <element name="Moonlit Resilience" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_MOONLIT_RESILIENCE">
+        <description>
+            <p>You have proficiency in the Arcana skill, and you have advantage on saving throws against being charmed.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being charmed.</description>
+        </sheet>
+    </element>
+
+    <element name="Lunar Radiance" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_LUNAR_RADIANCE">
+        <description>
+            <p>Starting at 3rd level, you can cast the moonbeam spell with this trait. Charisma is your spellcasting ability for it when you cast this spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>Starting at 3rd level, you can cast the moonbeam spell with this trait (1/long rest). Charisma is your spellcasting ability for it.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_MOONBEAM" level="3"/>
+        </rules>
+    </element>
+
+</elements>
