@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Dracolichborn</name>
+        <description>The Dracolichborn species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-dracolichborn.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-dracolichborn.xml" />
+        </update>
+    </info>
+
+    <element name="Dracolichborn" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_DRACOLICHBORN">
+        <description>
+            <p class="flavor">Some argue that the dracolichborn are a mistake. They are wrong. A mistake is careless. This was intent refined into consequence. Forged from legacy and loss, they carry the weight of power stolen from the grave and wear it not as a curse, but as a calling.</p>
+            <p>The true origins of the dracolichborn are inseparable from the death of Vidar, the god of death who once sat at the center of Aiwelen's spiritual order. When Vidar perished, his most devoted necromancers refused to accept the absence of their god. They did not mourn quietly. Blaming the great dragons—creatures of divine stature, ancient and proud, who had walked beside the gods themselves—for the silence where Vidar's voice had been, these necromancers turned their grief into ritual. They sought to bind the power of dragonkind to the realm of death itself, to forge something that carried both the authority of a god and the permanence of the undying. Their experiments produced the dracolichborn: eggs cursed in complex necromantic rites, hatching into beings that bore the draconic form of their ancestors but threaded through with necrotic darkness. The dracolichborn were never meant to be a people. They became one anyway.</p>
+            <p class="indent">To this day, dracolichborn clans carry the Vidar-worshippers' hatred of dragonkind in their bones alongside the dragon's own power. They revere the dead god and refuse to recognize Daynore, who now occupies Vidar's seat, as anything but a usurper and an insult to their god's memory. This makes them unique among Aiwelen's peoples—a race defined by what they despise, sustained by a faith directed at a god who can no longer answer.</p>
+            <h4>ECHOES OF THE DRACONIC PAST</h4>
+            <p>While dracolichborn share the dragonborn's stature and strength, their appearance is a somber reflection of their cursed lineage. The necrotic energies that have woven into their being manifest in a range of macabre features—ashen scales, bony protrusions, and other Undead-esque traits—that set them distinctly apart from both chromatic and metallic dragonborn. This corruption has imbued them with an affinity for the shadows and the quiet, granting them a somber authority that resonates with the solemnity of the grave. This understanding forms the basis for their approach to both combat and diplomacy, where they are as likely to use their fearsome reputation to deter conflict as they are to engage in it.</p>
+            <h4>CLANS OF THE CRYPT</h4>
+            <p>For dracolichborn, the clan holds a profound significance, serving as a sanctuary for their kind in a world that often regards them with suspicion and fear. Within these clans, knowledge of necromancy, draconic lore, and the secrets of life and death are zealously guarded. Like dragonborn, they deeply respect their clan structure, with each member's actions reflecting upon the honor and legacy of their lineage.</p>
+            <p class="indent">Dracolichborn clans make their homes in the sacred crypts of the Underdark and amid the ancient, half-buried ruins of the Northern Mountains, far from the reach of the Inquisition's gaze. The Inquisition is aware that dracolichborn exist—their reputation precedes them, and their power is not easily dismissed—but their numbers are few enough, and their lairs remote enough, that no standing hunt has ever been organized against them. They are watched rather than chased, a threat filed away for future reckoning.</p>
+            <h4>PURSUIT OF THE FORBIDDEN</h4>
+            <p>Dracolichborn hold a deep-seated reverence for martial prowess, honed alongside a mastery of the arcane. These formidable warriors blend their intrinsic draconic strength with necromancy, creating martial orders of powerful death knights. Their relentless pursuit of martial excellence is intricately woven into their culture and spiritual beliefs, particularly in the areas that dance on the edges of life and death. This unique combination of physical might and dark magic makes them fearsome on the battlefield.</p>
+            <p class="indent">These orders offer strict training and distinctly unique combat styles that reflect a solemn understanding of their heritage. This path of a warrior-mage is not only a choice but a calling for many dracolichborn, as they continually seek to find meaning and purpose in their cursed nature. Their journey is a constant evolution, where the art of war meets the mysteries of the arcane, forging them into living embodiments of deathly might.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Dracolichborn stand tall and imposing, their posture commanding yet tinged with an air of solemnity. Their skin is cloaked in scales that seem to absorb light rather than reflect it, casting them in shades of ashen gray and deep, inky black. In some places, the scales give way to a mottled pattern, subtly hinting at the bones beneath their pallid exterior.</p>
+            <p class="indent">Their faces are marked by a blend of both harsh and ethereal features. Eyes deep-set and dark, like pools of shadow, hold an unspoken depth of knowledge and mystery. Physically, they are robust, their limbs ending in sharp talons that reveal a predatory grace as they dance across battlefields. Some exhibit ridges or spines across their heads and necks, each unique in its formation and seen as a mark of beauty among their orders. Their teeth, razor sharp and sometimes faintly translucent, add to their ferocious demeanor.</p>
+            <p class="indent">When envisioning your dracolichborn character, consider: Scale Hue and Texture (the unique coloration and texture of your scales, ranging from ghostly pale to a dark, deathly hue), Undead Features (the presence of skeletal and other Undead aspects in your physical appearance, indicating your blend of life and undeath), Eyes (the color and intensity of your gaze, embodying the depth of your necromantic heritage), and Physique (the balance of your dragonborn strength with the ethereal quality of your undead lineage).</p>
+            <h4>DRACOLICHBORN NAMES</h4>
+            <p>Dracolichborn names blend the ancient draconic language with a touch of the macabre, reflecting their unique heritage. Their names are often given at birth, carrying the weight and legacy of their clan's history. In dracolichborn society, the clan name is always placed first as a symbol of respect and pride.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Dravoss, Drazhir, Ghaurn, Mortix, Necrion, Skathar, Thyrak, Vhul, Vormul, Zathros</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Duskrin, Hecara, Krylora, Morthissa, Nyrith, Ossara, Shyndra, Thraele, Vrexia, Zephara</p>
+            <p class="indent"><strong><em>Childhood Names:</em></strong> Bonechill, Cryptdiver, Darkwhisper, Frostbreath, Ghostwalker, Gravebound, Shadowgaze, Silentscale</p>
+            <p class="indent"><strong><em>Clan Names:</em></strong> Deathscale, Ebonfang, Frostcrypt, Gloomrend, Gravewyrm, Nighthowl, Shadowscale, Tombdrake, Voidclaw</p>
+            <h4>DRACOLICHBORN TRAITS</h4>
+            <p>As a dracolichborn, you have the following racial traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Intelligence score increases by 1.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Dracolichborn mature by the age of 20 and can live up to 500 years, their lifespan extended by their necrotic energies before eventually crumbling apart.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Dracolichborn stand over 6 feet tall and average almost 250 pounds. You are Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
+            <p class="indent"><strong><em>Arcane Knowledge.</em></strong> You gain proficiency in the Arcana skill.</p>
+            <p class="indent"><strong><em>Breath Weapon.</em></strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. Your breath weapon manifests as an amalgamation of necrotic darkness intertwined with the elemental energy specific to your ancestry. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes 1d4 necrotic damage and 1d4 damage of the type determined by your draconic ancestry. On a successful save, the creature takes half as much damage. You gain temporary hit points equal to half the amount of necrotic damage dealt. Both damage types increase by 1d4 when you reach 5th level (2d4 each), 11th level (3d4 each), and 17th level (4d4 each). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+            <p class="indent"><strong><em>Gravetouched.</em></strong> You know the chill touch cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this race).</p>
+            <p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to necrotic damage and the damage type associated with your draconic ancestry.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Draconic.</p>
+            <table>
+                <tr><th>Dragon Ancestry</th><th>Damage Type</th><th>Breath Weapon</th><th>Saving Throw</th></tr>
+                <tr><td>Black</td><td>Acid</td><td>5 ft. by 30 ft. line</td><td>Dexterity</td></tr>
+                <tr><td>Blue</td><td>Lightning</td><td>5 ft. by 30 ft. line</td><td>Dexterity</td></tr>
+                <tr><td>Brass</td><td>Fire</td><td>5 ft. by 30 ft. line</td><td>Dexterity</td></tr>
+                <tr><td>Bronze</td><td>Lightning</td><td>5 ft. by 30 ft. line</td><td>Dexterity</td></tr>
+                <tr><td>Copper</td><td>Acid</td><td>5 ft. by 30 ft. line</td><td>Dexterity</td></tr>
+                <tr><td>Gold</td><td>Fire</td><td>15 ft. cone</td><td>Dexterity</td></tr>
+                <tr><td>Green</td><td>Poison</td><td>15 ft. cone</td><td>Constitution</td></tr>
+                <tr><td>Red</td><td>Fire</td><td>15 ft. cone</td><td>Dexterity</td></tr>
+                <tr><td>Silver</td><td>Cold</td><td>15 ft. cone</td><td>Constitution</td></tr>
+                <tr><td>White</td><td>Cold</td><td>15 ft. cone</td><td>Constitution</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" />
+            <stat name="intelligence" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_DRACONIC_ANCESTRY" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_BREATH_WEAPON" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_GRAVETOUCHED" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_DRACONIC_RESISTANCE" />
+        </rules>
+    </element>
+
+    <!-- Draconic Ancestry -->
+
+    <element name="Draconic Ancestry" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_DRACONIC_ANCESTRY">
+        <description>
+            <p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Draconic Ancestry (Dracolichborn)" supports="Draconic Ancestry, Dracolichborn" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Black)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_BLACK">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a black dragon. Your breath weapon deals Acid damage in a 5 ft. by 30 ft. line (Dexterity save).</p></description>
+        <sheet alt="Black Dragon"><description>Breath Weapon: 5 by 30 ft. line (Dex save). Damage: Acid + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Acid" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Blue)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_BLUE">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a blue dragon. Your breath weapon deals Lightning damage in a 5 ft. by 30 ft. line (Dexterity save).</p></description>
+        <sheet alt="Blue Dragon"><description>Breath Weapon: 5 by 30 ft. line (Dex save). Damage: Lightning + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Lightning" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Brass)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_BRASS">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a brass dragon. Your breath weapon deals Fire damage in a 5 ft. by 30 ft. line (Dexterity save).</p></description>
+        <sheet alt="Brass Dragon"><description>Breath Weapon: 5 by 30 ft. line (Dex save). Damage: Fire + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Fire" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_BRONZE">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a bronze dragon. Your breath weapon deals Lightning damage in a 5 ft. by 30 ft. line (Dexterity save).</p></description>
+        <sheet alt="Bronze Dragon"><description>Breath Weapon: 5 by 30 ft. line (Dex save). Damage: Lightning + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Lightning" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Copper)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_COPPER">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a copper dragon. Your breath weapon deals Acid damage in a 5 ft. by 30 ft. line (Dexterity save).</p></description>
+        <sheet alt="Copper Dragon"><description>Breath Weapon: 5 by 30 ft. line (Dex save). Damage: Acid + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Acid" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Gold)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_GOLD">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a gold dragon. Your breath weapon deals Fire damage in a 15 ft. cone (Dexterity save).</p></description>
+        <sheet alt="Gold Dragon"><description>Breath Weapon: 15 ft. cone (Dex save). Damage: Fire + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Fire" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Green)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_GREEN">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a green dragon. Your breath weapon deals Poison damage in a 15 ft. cone (Constitution save).</p></description>
+        <sheet alt="Green Dragon"><description>Breath Weapon: 15 ft. cone (Con save). Damage: Poison + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Poison" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Red)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_RED">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a red dragon. Your breath weapon deals Fire damage in a 15 ft. cone (Dexterity save).</p></description>
+        <sheet alt="Red Dragon"><description>Breath Weapon: 15 ft. cone (Dex save). Damage: Fire + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Fire" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (Silver)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_SILVER">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a silver dragon. Your breath weapon deals Cold damage in a 15 ft. cone (Constitution save).</p></description>
+        <sheet alt="Silver Dragon"><description>Breath Weapon: 15 ft. cone (Con save). Damage: Cold + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Cold" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <element name="Draconic Ancestry (White)" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_ANCESTRY_WHITE">
+        <supports>Draconic Ancestry, Dracolichborn</supports>
+        <description><p>Your draconic ancestor was a white dragon. Your breath weapon deals Cold damage in a 15 ft. cone (Constitution save).</p></description>
+        <sheet alt="White Dragon"><description>Breath Weapon: 15 ft. cone (Con save). Damage: Cold + Necrotic.</description></sheet>
+        <rules>
+            <stat name="dracolichborn:ancestry:damage type" value="Cold" inline="true" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+        </rules>
+    </element>
+
+    <!-- Core Traits -->
+
+    <element name="Breath Weapon" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_BREATH_WEAPON">
+        <description>
+            <p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. Your breath weapon manifests as an amalgamation of necrotic darkness intertwined with the elemental energy specific to your ancestry. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes 1d4 necrotic damage and 1d4 damage of the type determined by your draconic ancestry. On a successful save, the creature takes half as much damage. You gain temporary hit points equal to half the amount of necrotic damage dealt. Both damage types increase by 1d4 when you reach 5th level (2d4 each), 11th level (3d4 each), and 17th level (4d4 each). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Attack" usage="{{proficiency}}/Long Rest">
+            <description level="1">You can replace one attack with a breath weapon (DC {{dracolichborn:breath weapon:dc}}). On a failed save: 1d4 necrotic + 1d4 {{dracolichborn:ancestry:damage type}} damage; half on success. You gain temp HP equal to half necrotic damage dealt.</description>
+            <description level="5">You can replace one attack with a breath weapon (DC {{dracolichborn:breath weapon:dc}}). On a failed save: 2d4 necrotic + 2d4 {{dracolichborn:ancestry:damage type}} damage; half on success. You gain temp HP equal to half necrotic damage dealt.</description>
+            <description level="11">You can replace one attack with a breath weapon (DC {{dracolichborn:breath weapon:dc}}). On a failed save: 3d4 necrotic + 3d4 {{dracolichborn:ancestry:damage type}} damage; half on success. You gain temp HP equal to half necrotic damage dealt.</description>
+            <description level="17">You can replace one attack with a breath weapon (DC {{dracolichborn:breath weapon:dc}}). On a failed save: 4d4 necrotic + 4d4 {{dracolichborn:ancestry:damage type}} damage; half on success. You gain temp HP equal to half necrotic damage dealt.</description>
+        </sheet>
+        <rules>
+            <stat name="dracolichborn:breath weapon:dc" value="8" />
+            <stat name="dracolichborn:breath weapon:dc" value="constitution:modifier" />
+            <stat name="dracolichborn:breath weapon:dc" value="proficiency" />
+        </rules>
+    </element>
+
+    <element name="Gravetouched" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_GRAVETOUCHED">
+        <description>
+            <p>You know the chill touch cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this race).</p>
+        </description>
+        <sheet>
+            <description>You know the chill touch cantrip. Your spellcasting ability for it is your chosen ability (Intelligence, Wisdom, or Charisma).</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CHILL_TOUCH" />
+            <select type="Racial Trait" name="Spellcasting Ability (Gravetouched)" supports="Gravetouched Spellcasting Ability, Dracolichborn" />
+        </rules>
+    </element>
+
+    <element name="Gravetouched: Intelligence" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_GRAVETOUCHED_INT">
+        <supports>Gravetouched Spellcasting Ability, Dracolichborn</supports>
+        <description><p>Intelligence is your spellcasting ability for Chill Touch from this trait.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Gravetouched: Wisdom" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_GRAVETOUCHED_WIS">
+        <supports>Gravetouched Spellcasting Ability, Dracolichborn</supports>
+        <description><p>Wisdom is your spellcasting ability for Chill Touch from this trait.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Gravetouched: Charisma" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_GRAVETOUCHED_CHA">
+        <supports>Gravetouched Spellcasting Ability, Dracolichborn</supports>
+        <description><p>Charisma is your spellcasting ability for Chill Touch from this trait.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Draconic Resistance" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DRACOLICHBORN_DRACONIC_RESISTANCE">
+        <description>
+            <p>You have resistance to necrotic damage and the damage type associated with your draconic ancestry.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to necrotic damage and {{dracolichborn:ancestry:damage type}} damage.</description>
+        </sheet>
+    </element>
+
+</elements>
