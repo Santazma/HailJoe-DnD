@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Bogborn</name>
+        <description>The Aetherborn species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-bogborn.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-bogborn.xml" />
+        </update>
+    </info>
+
+    <element name="Bogborn" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_BOGBORN">
+        <description>
+            <p class="flavor">There is no glamour to them. No pretense. The bogborn do not seek beauty in the traditional sense, for they are beauty in its most unfiltered form—growth and rot layered into one. They speak for the swamp not with words but through resilience and stillness. The land remembers, and so do they. Wound the wild, break your word, or poison the balance, and they will rise from the marsh, silent and certain, to return the favor.</p>
+            <p>Bogborn emerged where the corruption of the Scorching Moon seeped down into the world's lowest, wettest places and lingered. The eldritch taint did not simply poison the swamps and bogs it touched—it settled into them, mingling with root and rot until the boundary between corruption and growth blurred past recognition. From this slow contamination, the bogborn arose: not creatures of pure nature, but of nature reshaped by something far older and stranger than the natural cycle of life and decay. Bogborn themselves rarely dwell on this origin. Whether crafted by primordial forces or twisted into being by the Moon's lingering wound, they see their existence as a mission: not merely to survive, but to defend the natural order from forces that seek to exploit or destroy it, including, in some bitter irony, the very corruption that birthed them.</p>
+            <h4>A TAINTED PEOPLE IN THE EYES OF THE FAITHFUL</h4>
+            <p>To the Inquisition and the faithful of Aiwelen's great religious orders, bogborn are no different from any other being touched by the Scorching Moon's corruption: a threat to be watched, contained, or destroyed outright. Their plant flesh and unnatural origin mark them as Stitched in spirit if not in ritual, and Inquisition doctrine draws little distinction between a creature born of eldritch taint and one made by forbidden necromancy. Bogborn who wander too near Imperial settlements learn quickly to keep their nature concealed, or to keep moving.</p>
+            <h4>WILD WANDERERS</h4>
+            <p>Bogborn don't gather in communities or build permanent homes. Instead, they wander far from their wetlands, forging their own paths through untamed wilderness and bustling civilizations alike. Each is driven by a deeply personal sense of purpose. Some seek to protect fragile ecosystems or build alliances, while others aim to root out corruption that threatens the balance of nature—a calling that, for many bogborn, carries the added weight of confronting the very taint that shaped their own existence. Many who encounter them describe bogborn as enigmatic and wise, driven by an unshakable connection to the cycles of life and death.</p>
+            <p class="indent">Bogborn approach interactions with others cautiously, placing greater value on deeds than words. Trust comes slowly, but those who share their goals or respect nature earn steadfast allies. Conversely, those who act out of greed or ignorance quickly discover the bogborn's fierce resolve.</p>
+            <p class="indent">Though naturally solitary, bogborn readily join adventuring parties when their paths align, recognizing strength in numbers. With their combination of nature-based magic, physical resilience, and a deep understanding of the land, bogborn are indispensable allies in any group.</p>
+            <h4>NATURE'S WRATH</h4>
+            <p>Not all bogborn turn to magic or nature-infused combat, but many find it deeply resonant with their heritage. While some take up steel and adopt traditional tools of battle or craft, others embrace the primal forces of their swampy origins, blending their connection to nature into their lives and fighting styles. This affinity isn't a limitation but a reflection of their understanding of balance—destruction and growth as parts of the same whole.</p>
+            <p class="indent">For those who channel nature's raw power, their magic mirrors the untamed beauty of the wetlands. They summon creeping vines to ensnare foes, draw forth toxic mists from stagnant pools, and call on bursts of primal energy to restore life or tear down corruption. They seek to use spells as versatile as the swamp itself, capable of nurturing allies or overwhelming enemies.</p>
+            <p class="indent">Even their tools carry the mark of the wilds. A bogborn's staff might grow moss or glimmer faintly with spores, while their armor could include living bark or interwoven vines that shift with their movements. Every weapon, every piece of gear, feels alive, a part of the world they seek to protect. This connection is not mere tradition but an embodiment of their belief in nature's endless cycle of growth and renewal.</p>
+            <h4>SWAMPS OF AIWELEN</h4>
+            <p>Bogborn have no single homeland. They emerge wherever the corruption of the Scorching Moon has found purchase in wetland soil, and such places exist scattered across the world rather than concentrated in any one realm. They are most numerous in the marshes and wetlands of Alve Dorei and the damp hollows of the Escar Forests, where the eldritch taint has had centuries to settle quietly into the land. Bogborn are also occasionally observed within Imperial territory and the lands of Wano, though their numbers there are far sparser, and those who linger near such settlements take great pains to remain unseen.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Bogborn resemble humanoid plant-beings, their forms shaped by the swamps and bogs that birthed them. Their bark-like skin, rough and ridged, resembles ancient tree roots, while layers of moss, lichen, and trailing vines adorn their bodies. Earthy browns, deep greens, and shadowy blacks are often accented by patches of vibrant fungal blooms or glowing bioluminescent spores.</p>
+            <p class="indent">Each bogborn carries features unique to their origins. Some have limbs twisted like gnarled branches, and others are adorned with flowing ivy or thorny protrusions. Most have eyes that glow faintly, like sunlight filtering through autumn leaves, moss glistening after rain, or the soft luminescence of moonlight on still water, each hue a quiet echo of the natural world.</p>
+            <p class="indent">When creating your bogborn character, consider how these physical traits reflect their connection to the wetlands: Bark and Vines (is your bark smooth and covered in soft moss, or rough with sharp ridges? Do your vines twist protectively around your limbs, or trail gracefully behind you?), Fungal Features (do you have bioluminescent mushrooms that glow in dim light, or spore patches that puff gently as you move?), Eyes (are your eyes warm and inviting, or sharp and piercing like light cutting through the swamp mist?), Limbs (do your arms and legs resemble gnarled roots, or do they carry the supple strength of creeping vines?), and Environmental Influence (how does your appearance reflect your travels? Do you carry marks of dense forests, shadowed glades, or misty marshlands?).</p>
+            <p class="indent">To determine a distinct feature that sets your bogborn apart, roll a d10 on the table below. If you've already chosen specific traits from the questions above, feel free to skip the table or use it to add further nuance to your character's appearance.</p>
+            <table>
+                <tr><th>d10</th><th>Feature</th></tr>
+                <tr><td>1</td><td>Thick moss covers your shoulders and back.</td></tr>
+                <tr><td>2</td><td>Bioluminescent fungi glows softly across your body.</td></tr>
+                <tr><td>3</td><td>Deep ridges and grooves etch your skin, resembling the bark of an ancient tree.</td></tr>
+                <tr><td>4</td><td>Thorny vines coil tightly around your limbs.</td></tr>
+                <tr><td>5</td><td>Large, colorful flowers bloom along your body.</td></tr>
+                <tr><td>6</td><td>Algae clings to you in long, trailing strands, leaving droplets of water in your wake.</td></tr>
+                <tr><td>7</td><td>Your glowing eyes flicker faintly like embers.</td></tr>
+                <tr><td>8</td><td>Your limbs resemble twisted branches that shift as you move.</td></tr>
+                <tr><td>9</td><td>A faint mist rises from you, carrying the scent of damp earth and fresh rain.</td></tr>
+                <tr><td>10</td><td>Puffy blowballs cover your body, releasing spores in small bursts with the wind.</td></tr>
+            </table>
+            <h4>BOGBORN NAMES</h4>
+            <p>Bogborn names reflect their connection to the natural world, often sounding earthy and primal. Many names draw inspiration from the wetlands themselves, incorporating soft consonants and flowing vowels to evoke the sounds of water and wind through the marshes.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Bromir, Crothar, Dorvak, Fenril, Larchis, Murvyn, Sylthas, Tharos, Vylnis, Wrathin</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Brynthis, Corvyn, Kaltha, Lythra, Myrna, Nyssra, Orvalla, Sylaine, Thalys, Velra</p>
+            <p class="indent"><strong><em>Nature-Inspired Names:</em></strong> Bloomreach, Briarhollow, Dreadfen, Fenstalker, Gloamwreath, Gladeflow, Mireclasp, Mossmantle, Rootveil, Thornshade</p>
+            <h4>BOGBORN TRAITS</h4>
+            <p>Your bogborn character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Plant. You are also considered a Humanoid for any prerequisite or effect that requires you to be a Humanoid.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Bogborn mature rapidly, reaching adulthood by age 10, and can live up to 150 years.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Nourish the Land.</em></strong> As an action, you can cause roots and grass to sprout and grow rapidly in a 10-foot radius centered on yourself. This enrichment clears the area of difficult terrain for 1 minute. Once you use this trait, you can't use it again until you finish a short or long rest. The radius of this trait increases to 15 feet when you reach 6th level.</p>
+            <p class="indent"><strong><em>Photosynthesis.</em></strong> Instead of consuming food, you can sustain yourself through photosynthesis. If you spend at least 1 hour in sunlight, you don't need to eat that day.</p>
+            <p class="indent"><strong><em>Rooted Defense.</em></strong> You can use a bonus action to root yourself into the ground until the end of your next turn. While rooted, your speed becomes 0, you gain a +1 bonus to your AC, and you have advantage on checks or saving throws against being pushed or pulled.</p>
+            <p class="indent"><strong><em>Swamp Nature.</em></strong> You gain proficiency in the Nature skill, and you have advantage on Wisdom (Survival) checks made to forage or track in swampy or wetland terrain. In addition, you can detect water sources within 30 feet of you.</p>
+            <p class="indent"><strong><em>Whispers of the Wild.</em></strong> You can communicate simple ideas with plants, allowing you to understand their condition and gather basic information about their surroundings. As an action, you can touch a plant and ask it up to three questions about events it has perceived within the last 24 hours. The plant provides answers in simple terms, such as describing creatures that passed by, changes to the environment, or other nearby plants' states. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your GM agree is appropriate for the character.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="strength" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Bogborn)" supports="Standard||Exotic" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NOURISH_THE_LAND" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_PHOTOSYNTHESIS" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_ROOTED_DEFENSE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_SWAMP_NATURE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_WHISPERS_OF_THE_WILD" />
+        </rules>
+    </element>
+
+    <element name="Nourish the Land" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NOURISH_THE_LAND">
+        <description>
+            <p>As an action, you can cause roots and grass to sprout and grow rapidly in a 10-foot radius centered on yourself. This enrichment clears the area of difficult terrain for 1 minute. Once you use this trait, you can't use it again until you finish a short or long rest. The radius of this trait increases to 15 feet when you reach 6th level.</p>
+        </description>
+        <sheet action="Action" usage="1/Short Rest">
+            <description level="1">Roots and grass sprout and grow rapidly in a 10-foot radius centered on yourself, clearing the area of difficult terrain for 1 minute.</description>
+            <description level="6">Roots and grass sprout and grow rapidly in a 15-foot radius centered on yourself, clearing the area of difficult terrain for 1 minute.</description>
+        </sheet>
+    </element>
+
+    <element name="Photosynthesis" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_PHOTOSYNTHESIS">
+        <description>
+            <p>Instead of consuming food, you can sustain yourself through photosynthesis. If you spend at least 1 hour in sunlight, you don't need to eat that day.</p>
+        </description>
+        <sheet>
+            <description>Instead of consuming food, you can sustain yourself through photosynthesis. If you spend at least 1 hour in sunlight, you don't need to eat that day.</description>
+        </sheet>
+    </element>
+
+    <element name="Rooted Defense" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_ROOTED_DEFENSE">
+        <description>
+            <p>You can use a bonus action to root yourself into the ground until the end of your next turn. While rooted, your speed becomes 0, you gain a +1 bonus to your AC, and you have advantage on checks or saving throws against being pushed or pulled.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You can root yourself into the ground until the end of your next turn. While rooted, your speed becomes 0, you gain a +1 bonus to your AC, and you have advantage on checks or saving throws against being pushed or pulled.</description>
+        </sheet>
+    </element>
+
+    <element name="Swamp Nature" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SWAMP_NATURE">
+        <description>
+            <p>You gain proficiency in the Nature skill, and you have advantage on Wisdom (Survival) checks made to forage or track in swampy or wetland terrain. In addition, you can detect water sources within 30 feet of you.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Wisdom (Survival) checks made to forage or track in swampy or wetland terrain. You can detect water sources within 30 feet of you.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+        </rules>
+    </element>
+
+    <element name="Whispers of the Wild" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_WHISPERS_OF_THE_WILD">
+        <description>
+            <p>You can communicate simple ideas with plants, allowing you to understand their condition and gather basic information about their surroundings. As an action, you can touch a plant and ask it up to three questions about events it has perceived within the last 24 hours. The plant provides answers in simple terms, such as describing creatures that passed by, changes to the environment, or other nearby plants' states. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>You can touch a plant and ask it up to three questions about events it has perceived within the last 24 hours, receiving simple answers.</description>
+        </sheet>
+    </element>
+
+</elements>
