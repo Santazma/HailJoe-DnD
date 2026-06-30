@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Eidolon</name>
+        <description>The Eidolon species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-eidolon.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-eidolon.xml" />
+        </update>
+    </info>
+
+    <element name="Eidolon" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_EIDOLON">
+        <description>
+            <p class="flavor">There is a difference between the dead who rise and the dead who return. The eidolon is the latter—a soul pulled back not by will or worship, but by an absence of closure, of justice, or of peace. They are purpose made manifest. Not restless, but resolute. I've spoken with many. None wish for longevity—only resolution. And when they find it, they vanish like mist before dawn.</p>
+            <p>Eidolons are souls drawn back from the Sea of Souls by a powerful, unfinished purpose. Shaped from dense, opaque ectoplasm, they appear as ghostly replicas of their mortal selves, preserved in haunting detail. Eidolons retain memories and emotions from their mortal lives, but their struggle to find a place in the world stems from their tether to the Material Plane and the time passed between their death and return. Neither fully alive nor truly dead, they are tangible echoes of their past, bound by forces even the gods can't fully explain.</p>
+            <p class="indent">Why some souls return from the Sea of Souls while others do not is a question no scholar in Aiwelen has answered, and few have dared to study openly. The phenomenon is vanishingly rare—a whisper rather than a pattern—and the returned themselves rarely know more than that they woke and found themselves here again, unfinished. Some attribute it to flaws or fractures in the Sea itself, old wounds from the God Wars or the death of Vidar that have never fully healed. Others say it is simply the nature of certain souls: too stubborn, too bound by what they left behind, to stay where the dead belong.</p>
+            <h4>THE INQUISITION'S JUDGMENT</h4>
+            <p>To the Inquisition and the faithful of Aiwelen's major religious orders, the distinction between an eidolon and a Stitched creature is a philosophical nicety they have no patience for. A soul returned to a body it has no right to occupy is, in their view, a violation of the natural order—the same offense they condemn in necromancers and their reanimated dead. Eidolons who are exposed face the same fate as any other being deemed unnatural: interrogation, containment, or destruction. The Inquisition does not care that the eidolon chose none of this. It did not choose to be born, either. That argument has never moved an inquisitor.</p>
+            <p class="indent">Because of this, eidolons who persist in Aiwelen learn quickly to pass as living. Many conceal their nature with clothing, illusion, and carefully practiced warmth. Those who cannot—whose ectoplasmic glow betrays them in the dark, whose cold touch gives them away—tend not to survive long in settled lands.</p>
+            <h4>ECHOES OF THE PAST</h4>
+            <p>Eidolons cling to relics and traditions from their mortal lives. A soldier's tarnished medal, a bard's cherished lute, or a merchant's worn ledger often anchors them to their humanity. These items provide comfort and a sense of identity in a world that may have moved on without them.</p>
+            <p class="indent">Some retreat to solitude to avoid judgment while pursuing their purpose, while others find fulfillment contributing to communities, taking roles as guides, healers, or protectors. However, their spectral forms often inspire as much fear and mistrust as they do reverence in those seeking answers from beyond the grave. Adapting to this new existence can prove to be as difficult for an eidolon as completing their purpose, and most are unable to achieve either.</p>
+            <h4>LIVING AS THE DEAD</h4>
+            <p>Eidolons don't require food or sleep, nor do they age, fueled solely by their soul and purpose. Many feel drawn to places where the boundary between realms is thin, using these sites as sanctuaries between their journeys.</p>
+            <p class="indent">Eidolons sometimes form loose groups called concords. These gatherings offer a sense of belonging and mutual support, often focused on shared purposes and wisdom that bind their members together. Eidolons often form bonds with other adventurers who recognize the importance of their purpose, forging connections that help them navigate their spectral existence.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Eidolons appear as spectral versions of their mortal selves, recreated from ectoplasm with lifelike clarity. Their eyes burn with a steady luminescence, and their bodies emit a faint, otherworldly glow that varies in color—commonly silvery blue, pale green, or violet—reflecting their soul's essence. Beneath their ectoplasmic forms, faint ripples move like water under moonlight.</p>
+            <p class="indent">When envisioning your eidolon character, consider: Ectoplasmic Glow (does your body shine with a constant, gentle light, or does it flare in moments of heightened emotion?), Soul Windows (what color is the light in your eyes? Do they flare with intensity during moments of resolve, or burn steadily?), Preserved Features (are you an immaculate representation of your former self, or does your ectoplasmic body bear marks of your death?), Ethereal Details (does your form ripple and shift subtly, or is your ectoplasm smooth and unchanging, like polished glass?), and Carried Heirlooms (do you wear remnants of clothing, armor, or tokens from your mortal life, grounding you in the world you left behind?).</p>
+            <h4>EIDOLON PURPOSE</h4>
+            <p>Eidolons are bound to the Material Plane by an unfulfilled purpose, which defines their existence. This purpose might be a vow to protect a loved one, a desire to uncover hidden truths, or a need to atone for past mistakes. However, this very tether brings a finality to fulfilling their purpose; once they do so, their souls are forever extinguished.</p>
+            <p>When you create an eidolon, choose a purpose or roll on the table below:</p>
+            <table>
+                <tr><th>d10</th><th>Purpose</th></tr>
+                <tr><td>1</td><td>Protecting a loved one who still lives.</td></tr>
+                <tr><td>2</td><td>Uncovering the truth behind your own death.</td></tr>
+                <tr><td>3</td><td>Destroying an ancient evil that claimed your life.</td></tr>
+                <tr><td>4</td><td>Restoring a shattered artifact tied to your past.</td></tr>
+                <tr><td>5</td><td>Seeking revenge against the one who betrayed you.</td></tr>
+                <tr><td>6</td><td>Guiding your descendants toward a greater destiny.</td></tr>
+                <tr><td>7</td><td>Reclaiming a legacy or title lost in death.</td></tr>
+                <tr><td>8</td><td>Guarding a sacred site or relic from desecration.</td></tr>
+                <tr><td>9</td><td>Atoning for a grave mistake you made in life.</td></tr>
+                <tr><td>10</td><td>Preventing a cataclysmic event you foresaw in death.</td></tr>
+            </table>
+            <h4>EIDOLON NAMES</h4>
+            <p>Many eidolons retain their mortal names, preserving a vital connection to their past. Others embrace their new existence by adopting names that reflect their purpose or rebirth. These new names might take the form of evocative titles or concepts tied to their spectral essence. Some eidolons choose names that speak of vengeance, duty, or sorrow—monikers that define their journey beyond death.</p>
+            <p class="indent"><strong><em>Title Examples:</em></strong> Ashen One, Doomspeaker, Fatebound, Flamebringer, Harrowed, Kinslayer, Oathbound, Soulforged, Veilwalker, Wraithborn</p>
+            <h4>EIDOLON TRAITS</h4>
+            <p>Your eidolon character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are an Undead. You are also considered a Humanoid for effects that require you to be a Humanoid.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Bound by Purpose.</em></strong> You gain proficiency in any one of the skill of your choice tied to your purpose, such as Investigation to uncover a hidden truth or History to reclaim a lost heritage, chosen in consultation with your GM.</p>
+            <p class="indent"><strong><em>Echo Step.</em></strong> As a bonus action, you can partially phase into the Ethereal Plane. Until the end of your turn, you can move through creatures and objects as if they were difficult terrain. If you end your turn inside an object, you are shunted to the nearest unoccupied space and take 1d10 force damage for each 5 feet you are moved. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Ectoplasmic Resilience.</em></strong> You have resistance to necrotic damage and advantage on saving throws against effects that would reduce your hit point maximum.</p>
+            <p class="indent"><strong><em>Ethereal Light.</em></strong> Your body emits dim light in a 5-foot radius. You can suppress or resume this glow as a bonus action.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your GM agree is appropriate for the character.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> There are two main subraces of eidolon: revenant and wraith. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_EIDOLON_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_EIDOLON_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Eidolon)" supports="ID_HAILJOE_RACE_VARIANT_EIDOLON_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_EIDOLON_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Eidolon)" supports="Standard||Exotic" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_BOUND_BY_PURPOSE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ECHO_STEP" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ECTOPLASMIC_RESILIENCE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ETHEREAL_LIGHT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_SUBRACE" />
+        </rules>
+    </element>
+
+    <element name="Eidolon Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_EIDOLON_SIZE_MEDIUM">
+        <supports>Eidolon</supports>
+        <description><p>You are Medium.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Eidolon Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_EIDOLON_SIZE_SMALL">
+        <supports>Eidolon</supports>
+        <description><p>You are Small.</p></description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_EIDOLON_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Eidolon Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_EIDOLON_SIZE_SMALL" />
+
+    <element name="Bound by Purpose" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_BOUND_BY_PURPOSE">
+        <description>
+            <p>You gain proficiency in any one of the skill of your choice tied to your purpose, such as Investigation to uncover a hidden truth or History to reclaim a lost heritage, chosen in consultation with your GM.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Skill Proficiency (Bound by Purpose)" supports="Skill" />
+        </rules>
+    </element>
+
+    <element name="Echo Step" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ECHO_STEP">
+        <description>
+            <p>As a bonus action, you can partially phase into the Ethereal Plane. Until the end of your turn, you can move through creatures and objects as if they were difficult terrain. If you end your turn inside an object, you are shunted to the nearest unoccupied space and take 1d10 force damage for each 5 feet you are moved. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Long Rest">
+            <description>You partially phase into the Ethereal Plane. Until the end of your turn, you can move through creatures and objects as if they were difficult terrain. If you end your turn inside an object, you are shunted to the nearest unoccupied space and take 1d10 force damage for each 5 feet moved.</description>
+        </sheet>
+    </element>
+
+    <element name="Ectoplasmic Resilience" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ECTOPLASMIC_RESILIENCE">
+        <description>
+            <p>You have resistance to necrotic damage and advantage on saving throws against effects that would reduce your hit point maximum.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to necrotic damage and advantage on saving throws against effects that would reduce your hit point maximum.</description>
+        </sheet>
+    </element>
+
+    <element name="Ethereal Light" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ETHEREAL_LIGHT">
+        <description>
+            <p>Your body emits dim light in a 5-foot radius. You can suppress or resume this glow as a bonus action.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>Your body emits dim light in a 5-foot radius. You can suppress or resume this glow as a bonus action.</description>
+        </sheet>
+    </element>
+
+    <element name="Eidolon Subrace" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_SUBRACE">
+        <description>
+            <p>There are two main subraces of eidolon: revenant and wraith. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Eidolon Subrace" supports="Eidolon" />
+        </rules>
+    </element>
+
+    <!-- Subraces -->
+
+    <element name="Revenant" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_EIDOLON_REVENANT">
+        <supports>Eidolon</supports>
+        <description>
+            <p>Revenants embody physical power and endurance, driving forward with unmatched resolve.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Undying Will.</em></strong> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Additionally, you gain temporary hit points equal to your Constitution modifier. You can't use this trait again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Weighted Strikes.</em></strong> When you hit a creature with a melee weapon attack, you can force it to make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, the creature's speed is reduced to 0 until the end of its next turn. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_UNDYING_WILL" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_WEIGHTED_STRIKES" />
+        </rules>
+    </element>
+
+    <element name="Undying Will" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_UNDYING_WILL">
+        <description>
+            <p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Additionally, you gain temporary hit points equal to your Constitution modifier. You can't use this trait again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead and gain {{constitution:modifier}} temporary hit points.</description>
+        </sheet>
+    </element>
+
+    <element name="Weighted Strikes" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_WEIGHTED_STRIKES">
+        <description>
+            <p>When you hit a creature with a melee weapon attack, you can force it to make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, the creature's speed is reduced to 0 until the end of its next turn. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>When you hit a creature with a melee weapon attack, you can force it to make a Strength saving throw (DC {{eidolon:weighted strikes:dc}}). On a failed save, the creature's speed is reduced to 0 until the end of its next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="eidolon:weighted strikes:dc" value="8" />
+            <stat name="eidolon:weighted strikes:dc" value="proficiency" />
+            <stat name="eidolon:weighted strikes:dc" value="strength:modifier" />
+        </rules>
+    </element>
+
+    <element name="Wraith" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_EIDOLON_WRAITH">
+        <supports>Eidolon</supports>
+        <description>
+            <p>Wraiths are agile and elusive, adept at striking unseen and fading into the shadows.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Ethereal Reflexes.</em></strong> As a reaction when you are targeted by an attack or spell with an attack roll, you can impose disadvantage on the roll as your form briefly fades into the Ethereal Plane. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Shadow Slip.</em></strong> While in dim light or darkness, you can use a bonus action to teleport to an unoccupied space you can see within 15 feet of you. If you appear within 5 feet of a creature, you can make an unarmed strike against it as part of the same bonus action. This unarmed strike deals necrotic damage equal to 1d4 + your Dexterity modifier. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ETHEREAL_REFLEXES" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_SHADOW_SLIP" />
+        </rules>
+    </element>
+
+    <element name="Ethereal Reflexes" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_ETHEREAL_REFLEXES">
+        <description>
+            <p>As a reaction when you are targeted by an attack or spell with an attack roll, you can impose disadvantage on the roll as your form briefly fades into the Ethereal Plane. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="1/Long Rest">
+            <description>When you are targeted by an attack or spell with an attack roll, you can impose disadvantage on the roll as your form briefly fades into the Ethereal Plane.</description>
+        </sheet>
+    </element>
+
+    <element name="Shadow Slip" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_EIDOLON_SHADOW_SLIP">
+        <description>
+            <p>While in dim light or darkness, you can use a bonus action to teleport to an unoccupied space you can see within 15 feet of you. If you appear within 5 feet of a creature, you can make an unarmed strike against it as part of the same bonus action. This unarmed strike deals necrotic damage equal to 1d4 + your Dexterity modifier. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Short Rest">
+            <description>While in dim light or darkness, you can teleport to an unoccupied space within 15 feet. If you appear within 5 feet of a creature, you can make an unarmed strike against it dealing 1d4 + {{dexterity:modifier}} necrotic damage.</description>
+        </sheet>
+    </element>
+
+</elements>
