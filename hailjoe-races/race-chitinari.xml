@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Chitinari</name>
+        <description>The Chitinari species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-chitinari.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-chitinari.xml" />
+        </update>
+    </info>
+
+    <element name="Chitinari" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_CHITINARI">
+        <description>
+            <p class="flavor">The chitinari speak little, but their shells carry histories deeper than most libraries. Each ridge and scar is a record that has been earned. They grieve without spectacle, love without flourish, and commit without hesitation. In their culture, memory is not kept; it is worn. Emotion becomes rhythm, action, and ritual. You will not earn their trust with charm, nor break it with time. They do not move quickly, but when they do, it is with purpose and permanence.</p>
+            <p>Chitinari are shaped by the tides, their amphibious nature entwined with the ocean's rhythms. Their shells are living histories, marked by grooves and patterns that shift like tidal currents under moonlight. These markings are more than decoration—they serve as channels for forces far older and stranger than any natural current, believed by many scholars to be faint, lingering tethers to the Great Old Ones that slumber beneath the deepest trenches of Aiwelen's seas, ancient and dreaming things spoken of in dockside legend under names like the Leviathan or the Kraken. Warriors consult the grooves before battles, interpreting them as omens. Scholars study them to uncover forgotten spells, histories, or messages etched by the sea itself. Even children tap these lines, creating harmonies said to echo across the waves.</p>
+            <p class="indent">Most chitinari treat this connection as an inheritance rather than a creed—an old, half-understood inevitability rather than a faith to be practiced. But not all. Within certain Tideholds, a closed circle of elders maintains rites and pacts kept carefully hidden from outsiders and from much of their own kin alike, half-believing, half-fearing that something far beneath the water listens back.</p>
+            <h4>MONSTERS OF THE DEEP, NOT A PEOPLE</h4>
+            <p>To the surface-dwelling folk of Aiwelen, the chitinari are not spoken of as a race at all. Sailors, dockworkers, and coastal villagers alike regard them as monsters—crustacean horrors that drag the unwary beneath the waves, blamed for capsized boats and missing crews the same way wolves are blamed for missing livestock. This reputation only thins the further one travels from the coast; in the deep interior of Aiwelen, where the sea is a rumor rather than a daily presence, knowledge of the chitinari fades into vague sailor's-tale territory, no more credible than stories of dragons or krakens.</p>
+            <h4>TIDEHOLD SOCIETIES</h4>
+            <p>Tideholds, nestled among coral reefs and hidden caverns, pulse with life. Bartering within these communities is not just transactional but a ritual that strengthens bonds, with pearls and carved seashells serving as both currency and art. Hunters return with nets brimming with shellfish and tales of undersea leviathans, while children, shadowed by their elders, navigate sunken ruins, learning to read the water's whispers. Leadership in a Tidehold is earned, not inherited; it is the voice that calms storms or the eyes that see safe harbors in chaos.</p>
+            <p class="indent">At night, chitinari gather beneath glowing algae fires, their chants resonating like the ebb and flow of tides. These rituals are both a communion with the forces they revere and a celebration of their identity as stewards of the sea.</p>
+            <h4>DEATH'S LEGACY</h4>
+            <p>For the chitinari, death is not an end but a transformation. The grooves on their shells pulse faintly during storms or moments of grief, a phenomenon they believe signifies ancestral spirits reaching out. When a chitinari passes, their shell is enshrined in underwater cemeteries lit by bioluminescent coral. These sites are sacred spaces where the living commune with the dead, their songs rising like distant whale calls.</p>
+            <h4>BEYOND THE WAVES</h4>
+            <p>Chitinari who leave their Tideholds carry the sea with them, both in their proud stance and the rhythmic sound of their movements. Merchants may eye them warily, but few can resist trading for their ocean-forged tools and luminescent pearls. Those who venture far often become sought-after navigators or bounty hunters, their ability to sense shifting tides and track currents proving invaluable.</p>
+            <p class="indent">However, their unyielding connection to the sea can be a source of tension. Land-dwellers often mistake their aloofness for arrogance, and their refusal to compromise their beliefs can make alliances fragile. Yet, chitinari remain steadfast, their actions speaking louder than words as they remind the world of the oceans' unforgiving yet nurturing embrace.</p>
+            <h4>WATERS OF AIWELEN</h4>
+            <p>The chitinari's true homeland lies in Pillivar, the sprawling Free Ports, where coral reefs and hidden sea caverns provide the dense, unbroken stretches of coastline their Tideholds need to thrive. Beyond Pillivar, chitinari can be found along the coastal reaches of Alve Dorei, scattered through the waters of Wano, and around port settlements such as Verdun in Imperial territory—though in these places they remain far rarer, and far less welcome.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>A chitinari's grooved, crustacean-like shell is typically dark blue, red, or brown. Long claws and spindly limbs provide surprising grace and dexterity. In dim light, their eyes glow green or blue. Mandibles frame their faces and click when they speak or move.</p>
+            <p class="indent">Consider these elements for your character's visual traits: Glow of the Eyes (what color glimmers in your eyes, and does it shift in intensity with your emotions?), Chitin Markings (is your shell rough and barnacle-covered, encrusted with the marks of the tide, or is it symmetrically grooved, shaped by time and the sea's relentless pull?), Adornments (do coral-like growths or patches of moss decorate your form, blending you into your surroundings?), and Movement and Presence (is your gait smooth and deliberate, or do your sharp limbs echo with clicking sounds?).</p>
+            <p class="indent">Each chitinari's shell reveals personal trials or ancestral links. Roll on the table below or pick a shell feature that fits your character's story.</p>
+            <table>
+                <tr><th>d10</th><th>Feature</th></tr>
+                <tr><td>1</td><td>Deep cracks glow in the moonlight.</td></tr>
+                <tr><td>2</td><td>Your carvings resemble ancient runes.</td></tr>
+                <tr><td>3</td><td>Barnacles cling to your shell, creating a rugged texture.</td></tr>
+                <tr><td>4</td><td>Soft whispers of the ocean drift from your shell when it's quiet.</td></tr>
+                <tr><td>5</td><td>Moss and algae spread across your carapace.</td></tr>
+                <tr><td>6</td><td>The pearlescent portions of your shell between the grooves shimmer in moonlight.</td></tr>
+                <tr><td>7</td><td>Jagged scars trace your shell, reminders of past battles.</td></tr>
+                <tr><td>8</td><td>Bioluminescent fungi sprout from tiny fissures.</td></tr>
+                <tr><td>9</td><td>Flecks of shimmering minerals glint in direct light.</td></tr>
+                <tr><td>10</td><td>Coral formations jut from your back and shoulders.</td></tr>
+            </table>
+            <h4>CHITINARI NAMES</h4>
+            <p>Chitinari names evoke the sounds of the sea and the rhythms of their coastal homes. Their native language incorporates sharp clicks and rolling syllables, mimicking the motion of waves and the clattering of claws. Names hold deep meaning for chitinari, often reflecting their role within the Tidehold, personal achievements, or traits admired by their kin. When interacting with other cultures, some chitinari adopt translated names or nicknames for simplicity, though they rarely stray far from their traditions.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Aklar, Bruthal, Drakkis, Kranth, Lokarn, Sharath, Thullis, Vrag</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Arvalla, Brynnith, Kalys, Kithra, Loryss, Shavalla, Tyrrith, Vysska</p>
+            <p class="indent">Chitinari names are divided into personal given names and Tidehold names, which act as family or community identifiers. Drifters who venture far from their homes sometimes earn titles or nicknames that symbolize their journeys or accomplishments.</p>
+            <p class="indent"><strong><em>Tidehold Names:</em></strong> Blackreef, Coralspire, Driftwake, Ironshoal, Stormcrest, Tangledepth, Wavecall, Wreckshore</p>
+            <h4>CHITINARI TRAITS</h4>
+            <p>Your chitinari character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed of 30 feet.</p>
+            <p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Deathclad Claws.</em></strong> You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike. Additionally, your unarmed strikes count as magical for the purpose of overcoming resistance.</p>
+            <p class="indent">Starting at 3rd level, when you hit a creature with an unarmed strike, you can deal an extra 1d4 cold or necrotic damage (your choice). You can deal this extra damage only once per turn, and you can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Rocky Resolve.</em></strong> You have advantage on saving throws against being pushed or knocked prone.</p>
+            <p class="indent"><strong><em>Natural Armor.</em></strong> Your shell provides you a base AC of 13 + your Constitution or Dexterity modifier (your choice when you choose this race). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Aquan and Common.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="strength" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="speed:swim" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_CHITINARI_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_CHITINARI_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Chitinari)" supports="ID_HAILJOE_RACE_VARIANT_CHITINARI_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_CHITINARI_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_AQUAN" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_AMPHIBIOUS" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_DEATHCLAD_CLAWS" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_ROCKY_RESOLVE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_CHITINARI_NATURAL_ARMOR" />
+        </rules>
+    </element>
+
+    <element name="Chitinari Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_CHITINARI_SIZE_MEDIUM">
+        <supports>Chitinari</supports>
+        <description>
+            <p>You are Medium.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Chitinari Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_CHITINARI_SIZE_SMALL">
+        <supports>Chitinari</supports>
+        <description>
+            <p>You are Small.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_CHITINARI_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Chitinari Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_CHITINARI_SIZE_SMALL" />
+
+    <element name="Amphibious" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_AMPHIBIOUS">
+        <description>
+            <p>You can breathe air and water.</p>
+        </description>
+        <sheet>
+            <description>You can breathe air and water.</description>
+        </sheet>
+    </element>
+
+    <element name="Deathclad Claws" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_DEATHCLAD_CLAWS">
+        <description>
+            <p>You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike. Additionally, your unarmed strikes count as magical for the purpose of overcoming resistance.</p>
+            <p class="indent">Starting at 3rd level, when you hit a creature with an unarmed strike, you can deal an extra 1d4 cold or necrotic damage (your choice). You can deal this extra damage only once per turn, and you can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="{{proficiency}}/Long Rest">
+            <description level="1">You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage instead of bludgeoning, and counts as magical for the purpose of overcoming resistance.</description>
+            <description level="3">When you hit a creature with an unarmed strike, you can deal an extra 1d4 cold or necrotic damage (your choice), once per turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Rocky Resolve" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_ROCKY_RESOLVE">
+        <description>
+            <p>You have advantage on saving throws against being pushed or knocked prone.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being pushed or knocked prone.</description>
+        </sheet>
+    </element>
+
+    <element name="Natural Armor" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_CHITINARI_NATURAL_ARMOR">
+        <description>
+            <p>Your shell provides you a base AC of 13 + your Constitution or Dexterity modifier (your choice when you choose this race). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
+        </description>
+        <sheet>
+            <description>Your shell provides you a base AC of 13 + your Constitution or Dexterity modifier. You can't wear light, medium, or heavy armor, but can still use a shield.</description>
+        </sheet>
+        <rules>
+            <stat name="ac" value="13" bonus="base" requirements="!armor:any" />
+            <select type="Race Variant" name="Natural Armor Modifier (Chitinari)" supports="ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_CON|ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_DEX" />
+        </rules>
+    </element>
+
+    <element name="Natural Armor (Constitution)" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_CON">
+        <supports>Chitinari</supports>
+        <description>
+            <p>Your shell's AC bonus uses your Constitution modifier.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="ac:constitution" value="1" bonus="base" requirements="!armor:any" />
+        </rules>
+    </element>
+
+    <element name="Natural Armor (Dexterity)" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_DEX">
+        <supports>Chitinari</supports>
+        <description>
+            <p>Your shell's AC bonus uses your Dexterity modifier.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="ac:dexterity" value="1" bonus="base" requirements="!armor:any" />
+        </rules>
+    </element>
+
+</elements>
