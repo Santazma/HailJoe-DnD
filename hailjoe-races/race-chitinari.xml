@@ -3,7 +3,7 @@
     <info>
         <name>Chitinari</name>
         <description>The Chitinari species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="race-chitinari.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-chitinari.xml" />
         </update>
     </info>
@@ -60,7 +60,7 @@
             <p class="indent">Starting at 3rd level, when you hit a creature with an unarmed strike, you can deal an extra 1d4 cold or necrotic damage (your choice). You can deal this extra damage only once per turn, and you can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
             <p class="indent"><strong><em>Rocky Resolve.</em></strong> You have advantage on saving throws against being pushed or knocked prone.</p>
             <p class="indent"><strong><em>Natural Armor.</em></strong> Your shell provides you a base AC of 13 + your Constitution or Dexterity modifier (your choice when you choose this race). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
-            <p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Aquan and Common.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Primordial (Aquan) and Common.</p>
         </description>
         <sheet display="false" />
         <rules>
@@ -72,7 +72,7 @@
             <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_CHITINARI_SIZE_SMALL" />
             <select type="Race Variant" name="Size (Chitinari)" supports="ID_HAILJOE_RACE_VARIANT_CHITINARI_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_CHITINARI_SIZE_SMALL" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
-            <grant type="Language" id="ID_LANGUAGE_AQUAN" />
+            <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
             <grant type="Vision" id="ID_VISION_DARKVISION" />
             <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_AMPHIBIOUS" />
             <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_DEATHCLAD_CLAWS" />
@@ -133,36 +133,15 @@
 
     <element name="Natural Armor" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_CHITINARI_NATURAL_ARMOR">
         <description>
-            <p>Your shell provides you a base AC of 13 + your Constitution or Dexterity modifier (your choice when you choose this race). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
+            <p>Your shell provides you a base AC of 13 + your Dexterity modifier. You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
         </description>
         <sheet>
-            <description>Your shell provides you a base AC of 13 + your Constitution or Dexterity modifier. You can't wear light, medium, or heavy armor, but can still use a shield.</description>
+            <description>Your shell provides you a base AC of 13 + your Dexterity modifier. You can't wear light, medium, or heavy armor, but can still use a shield.</description>
         </sheet>
         <rules>
-            <stat name="ac" value="13" bonus="base" requirements="!armor:any" />
-            <select type="Race Variant" name="Natural Armor Modifier (Chitinari)" supports="ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_CON|ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_DEX" />
-        </rules>
-    </element>
-
-    <element name="Natural Armor (Constitution)" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_CON">
-        <supports>Chitinari</supports>
-        <description>
-            <p>Your shell's AC bonus uses your Constitution modifier.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <stat name="ac:constitution" value="1" bonus="base" requirements="!armor:any" />
-        </rules>
-    </element>
-
-    <element name="Natural Armor (Dexterity)" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_CHITINARI_ARMOR_DEX">
-        <supports>Chitinari</supports>
-        <description>
-            <p>Your shell's AC bonus uses your Dexterity modifier.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <stat name="ac:dexterity" value="1" bonus="base" requirements="!armor:any" />
+            <stat name="ac:natural armor:chitinari" value="13" bonus="base" />
+            <stat name="ac:natural armor:chitinari" value="dexterity:modifier" bonus="ability" />
+            <stat name="ac:calculation" value="ac:natural armor:chitinari" bonus="calculation" alt="Natural Armor (Chitinari)" />
         </rules>
     </element>
 
