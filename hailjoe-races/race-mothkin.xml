@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Mothkin</name>
+        <description>The Mothkin species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-mothkin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-mothkin.xml" />
+        </update>
+    </info>
+
+    <element name="Mothkin" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_MOTHKIN">
+        <description>
+            <p class="flavor">They move like whispers in the dark—glowing faintly, yet unsettlingly precise. To call them fey is correct, but it understates their distance from courtly archfey or woodland tricksters. These are dream-born wayfarers, shaped not by seasons or oaths, but by memory and illusion and the slow erosion of identity that occurs when one lives too long between waking and sleep. In their wings, you see echoes of forgotten dreams. In their eyes, you see yourself, though slightly wrong.</p>
+            <p>Mothkin are delicate and haunting, blending insectoid grace with humanoid intelligence. They are born in cocoons—but not of silk or stone. In Aiwelen, mothkin emerge at the points where Fey energy seeping up from the Underdark breaches the surface, pooling in hidden hollows, fungal caverns, and the twilit spaces between deep roots where the veil between the dreaming and the waking world grows thin. From these places, cocoons form unbidden: woven from moonlight filtered through underground crystal, from the breath of sleeping things, from whatever the Fey current carries with it out of the dark. Whether this origin is fact or myth varies by who is telling the story, but among the mothkin themselves, the memory of emergence—of waking inside something silk-soft and strange, of tearing through into a world they somehow already know—is one of the most consistent threads of their identity.</p>
+            <p class="indent">Their connection to the dreamscape is undeniable. Mothkin perceive the world around them in ways unseen to most, and their sleep is never merely rest. When a mothkin closes their eyes and stills themselves at the end of a long day, they step—deliberately and knowingly—into a parallel realm of shifting landscape and cryptic truth. What they bring back from that place shapes them as much as anything that happens while they are awake.</p>
+            <h4>THE INQUISITION'S SILENCE</h4>
+            <p>Mothkin exist on the Inquisition's radar but not on its active hunt lists. The calculus is political rather than theological. The Inquisition is aware of these small, fey-touched, dream-walking creatures—their existence has been documented in sealed reports and passed between senior clergymen in letters that never reach the public record. But the mothkin's presence is concentrated in and around territory associated with Alve Dorei and the Menas Confederation, and the Inquisition has chosen, for now, to let the matter rest. Opening a campaign against beings regarded as mystical or sacred by elven communities would invite the kind of diplomatic friction the White City is not currently prepared to manage. The mothkin are noted. They are watched. They are not, for the moment, chased.</p>
+            <p class="indent">Individual mothkin moving through Imperial territories are not so protected. A mothkin encountered far from any elven lands, without the implicit shield of Alve Dorei proximity, takes their chances like anyone else whose existence unsettles the Inquisition's sense of natural order.</p>
+            <h4>WORLD WANDERERS</h4>
+            <p>Mothkin rarely settle in one place for long. They form nomadic enclaves called eclipses, traveling between dense forests, ancient ruins, and moonlit glades across all of Aiwelen. No region is their exclusive territory; they drift where the Fey energy leads them, where old places hold interesting silences, where the dreamscape seems closest to the surface. Their temporary homes are a blend of natural beauty and unsettling artistry, lit with bioluminescent insects and adorned with hanging natural silks that make their dwellings feel alive.</p>
+            <p class="indent">Mothkin wanderers who break from the eclipse are viewed not as outcasts but as essential extensions of the community—seekers who gather knowledge, skills, and strength to eventually bring back to their people. Upon their return, they share experiences through stories, songs, and practical lessons, enriching the eclipse with new wisdom.</p>
+            <h4>TWILIGHT DEFENDERS</h4>
+            <p>Mothkin possess an uncanny ability to turn their innate strengths into powerful tools for defense. Their sharp minds, natural stealth, and magical talents make them masters of ambush tactics, subterfuge, and adaptive combat. Intruders often find themselves disoriented by the mothkin's uncanny precision and the sleep-inducing dust that drifts from their wings, leaving them defenseless before they even realize the danger.</p>
+            <h4>DREAMSCAPE MYSTICS</h4>
+            <p>Mothkin see the dreamscape—a supernatural realm accessible only through sleep—as a parallel to the waking world, each reflecting and shaping the other. Unlike most, mothkin can consciously project themselves into this shifting, surreal plane through meditation, navigating its ever-changing landscapes in search of hidden truths.</p>
+            <p class="indent">This connection to the dreamscape fuels their magical pursuits, drawing them toward illusions, enchantments, and divination. Yet the dreamscape is as perilous as it is enlightening. Mothkin who wander too deeply often return altered, haunted by fragments of their journey or speaking in cryptic riddles. Despite these dangers, their exploration of the dreamscape remains central to their culture.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Mothkin are small and slender, standing between 3 and 4 feet tall, and have light, graceful frames covered in soft, downy fur. This fur varies in color, often taking on earthy tones like browns and grays for forest-dwelling mothkin or silvery hues for those from moonlit glades. Their wings are their most striking feature, broad and intricate, with patterns ranging from angular and sharp to soft and flowing—unique to each mothkin, resembling predator moths or lunar moths, shimmering faintly in the moonlight.</p>
+            <p class="indent">Their large, dark eyes reflect light in kaleidoscope patterns, while some mothkin have faintly faceted irises that glint like gemstones. Rising from their brows are their antennae, which are both delicate and luminous, glowing softly in hues of gold, silver, or pale blue. The glow of these antennae often changes subtly in response to their emotions or the vibrations of their surroundings.</p>
+            <p class="indent">When creating your mothkin character, consider: Wing Patterns (are they angular and sharp like a predator moth's, or soft and rounded like a lunar moth's?), Antennae (do they shine with a golden hue, flicker like pale moonlight, or pulse with an otherworldly blue?), Fur and Coloration (does it blend with earthy tones, shimmer with silvery light, or glow faintly with bioluminescent hues?), Eyes (do they reflect light in kaleidoscope patterns or gleam with crystalline facets?), and Environmental Influence (does your appearance reflect the deep places you emerged from, or the surface world you now wander?).</p>
+            <table>
+                <tr><th>d10</th><th>Feature</th></tr>
+                <tr><td>1</td><td>Faint glowing lines trace the veins of your wings, casting a soft light in dim conditions.</td></tr>
+                <tr><td>2</td><td>Your antennae curve delicately, resembling crescent moons, and emit a gentle silvery glow.</td></tr>
+                <tr><td>3</td><td>Your eyes glint like polished gemstones, reflecting light in dazzling patterns.</td></tr>
+                <tr><td>4</td><td>Tiny, shimmering specks dot your fur, giving you a starlit appearance in dim light.</td></tr>
+                <tr><td>5</td><td>The edges of your wings appear torn or frayed, as though weathered by countless journeys.</td></tr>
+                <tr><td>6</td><td>Dark, swirling patterns cover your wings, reminiscent of smoke curling into the air.</td></tr>
+                <tr><td>7</td><td>Your antennae are unusually long, twitching constantly as if attuned to unseen energies.</td></tr>
+                <tr><td>8</td><td>Large, eye-like patterns mark your wings, designed to ward off potential threats.</td></tr>
+                <tr><td>9</td><td>Strands of your fur glow faintly at the tips, creating a halo-like effect around you.</td></tr>
+                <tr><td>10</td><td>Your wings are translucent and gossamer-like, shimmering faintly with hints of color.</td></tr>
+            </table>
+            <h4>MOTHKIN NAMES</h4>
+            <p>Mothkin names are melodic, inspired by natural sounds like the rustling of leaves or the hum of distant wings. They often carry soft consonants and flowing vowels, giving them a rhythmic quality. Family names are less common, but those who take them choose names inspired by their surroundings or personal achievements.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Antheris, Cyral, Dovelan, Fethril, Myral, Nytheris, Sylvaris, Volarin, Zeryn</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Aerith, Kalyn, Lylithra, Nithia, Saralyn, Tynan, Valorea, Wynthara, Ylistra</p>
+            <p class="indent"><strong><em>Eclipse Names:</em></strong> Dewspindle, Moongleam, Petalshade, Twilightwing, Wispbloom</p>
+            <h4>MOTHKIN TRAITS</h4>
+            <p>Your mothkin character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Fey. You are also considered a Humanoid for any prerequisite or effect that requires you to be a Humanoid.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Small.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Mothkin reach adulthood at 12 years and typically live up to 70 years.</p>
+            <p class="indent"><strong><em>Flight.</em></strong> Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p>
+            <p class="indent"><strong><em>Dreamwalker.</em></strong> While asleep during a long rest, you can project your consciousness into the dreamscape to seek insight into a specific goal or challenge. You receive a brief, dreamlike vision that offers a cryptic hint or impression related to your inquiry, as determined by the GM. The information is truthful but vague, often symbolic rather than direct. This process is taxing; immediately after you finish the long rest, you gain a level of exhaustion. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Dream Dust.</em></strong> As an action, you can release a shimmering dust from your wings in a 5-foot radius. Each creature in the area must succeed on a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or fall asleep until the end of its next turn. A sleeping creature is unconscious and awakens if it takes damage or another creature uses an action to shake or slap the sleeper awake. Constructs, Undead, and creatures immune to being charmed aren't affected by this effect. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Fragile Resilience.</em></strong> Despite your delicate appearance, you possess a steely mental toughness. You have resistance to psychic damage.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your GM agree is appropriate for the character.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="2" />
+            <stat name="dexterity" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="speed:fly" value="30" bonus="base" equipped="!armor:medium,!armor:heavy" />
+            <grant type="Size" id="ID_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Mothkin)" supports="Standard||Exotic" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_FLIGHT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_DREAMWALKER" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_DREAM_DUST" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_FRAGILE_RESILIENCE" />
+        </rules>
+    </element>
+
+    <element name="Flight" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_FLIGHT">
+        <description>
+            <p>Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p>
+        </description>
+        <sheet>
+            <description>You have a flying speed of 30 feet. You can't use this flying speed if you're wearing medium or heavy armor.</description>
+        </sheet>
+    </element>
+
+    <element name="Dreamwalker" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_DREAMWALKER">
+        <description>
+            <p>While asleep during a long rest, you can project your consciousness into the dreamscape to seek insight into a specific goal or challenge. You receive a brief, dreamlike vision that offers a cryptic hint or impression related to your inquiry, as determined by the GM. The information is truthful but vague, often symbolic rather than direct. This process is taxing; immediately after you finish the long rest, you gain a level of exhaustion. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>While asleep during a long rest, you can project your consciousness into the dreamscape to seek a cryptic vision about a specific goal or challenge (GM determines the vision). After the long rest, you gain 1 level of exhaustion.</description>
+        </sheet>
+    </element>
+
+    <element name="Dream Dust" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_DREAM_DUST">
+        <description>
+            <p>As an action, you can release a shimmering dust from your wings in a 5-foot radius. Each creature in the area must succeed on a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or fall asleep until the end of its next turn. A sleeping creature is unconscious and awakens if it takes damage or another creature uses an action to shake or slap the sleeper awake. Constructs, Undead, and creatures immune to being charmed aren't affected by this effect. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>Release shimmering dust in a 5-foot radius. Each creature must succeed on a Constitution saving throw (DC {{mothkin:dream dust:dc}}) or fall asleep until the end of its next turn. Constructs, Undead, and creatures immune to charm are unaffected.</description>
+        </sheet>
+        <rules>
+            <stat name="mothkin:dream dust:dc" value="8" />
+            <stat name="mothkin:dream dust:dc" value="proficiency" />
+            <stat name="mothkin:dream dust:dc" value="constitution:modifier" />
+        </rules>
+    </element>
+
+    <element name="Fragile Resilience" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_MOTHKIN_FRAGILE_RESILIENCE">
+        <description>
+            <p>Despite your delicate appearance, you possess a steely mental toughness. You have resistance to psychic damage.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+</elements>
