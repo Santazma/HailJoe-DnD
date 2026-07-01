@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Necramechanica</name>
+        <description>The Necramechanica species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-necramechanica.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-necramechanica.xml" />
+        </update>
+    </info>
+
+    <element name="Necramechanica" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_NECRAMECHANICA">
+        <description>
+            <p class="flavor">I have watched them rise—not from graves but from rubble. The necramechanica were not given life; they were assembled into it. Their minds flicker with fragments; their limbs drag the weight of design without consent. Some seek their creators. Others flee the memory of them. I find their existence neither miracle nor monstrosity, but a quiet defiance. They are persistence given shape. They are unfinished thoughts in decaying frames, enduring because no one told them they were allowed to stop.</p>
+            <p>Necramechanica exist in a state of perpetual decay and reconstruction. They are not alive, yet they can die. Their bodies, stitched from necrotic flesh and humming machinery, fail almost as quickly as they are repaired. Necramechanica awaken in lightless ruins, tangled in corroded wires, or entombed beneath collapsed stone, and their first moments are filled with the hiss of leaking fluid, the grinding of rusted gears, and the echoes of commands in a language they no longer understand. They do not grow. They do not age. They persist until they can no longer hold themselves together.</p>
+            <h4>THE FALL OF THE ALCHEMICA MORTIS</h4>
+            <p>To understand the necramechanica is to understand the age that made them—and the catastrophe that unmade that age. In the second epoch of Aiwelen's history, in the centuries following the Desolation that closed the First Age, the world's surviving peoples were scattered across the Lands of Exile, rebuilding in the shadow of what they had lost. Among the human kingdoms that rose and fell in that turbulent era, certain rulers—tyrant-kings and god-kings who ruled through fear and spectacle as much as governance—sought an edge that law and warfare alone could not provide.</p>
+            <p class="indent">They found it in the Alchemica Mortis: a loose confederation of alchemists, biomancers, and war-wrights who sold their expertise to whoever could meet their price, bound to no single crown and loyal to no single cause. Their stated purpose was twofold. First, to develop weapons capable of standing against the Darkness That Is—the dark god whose assault on the world had caused the Desolation—should it ever move again. Second, and more privately, to pursue the dream their greatest minds had chased across decades of failed experiments: the conquest of death itself, the rebuilding of the mortal body into something that could outlast it. Their leader, Krael Kathar, reduced this philosophy to a single axiom: "To escape death, one must abandon flesh entirely."</p>
+            <p class="indent">Krael's early creations were twisted hybrids of man and machine whose vocal cords were removed to silence their inevitable screams. Their bodies functioned, but their minds shattered under the weight of the process. These were not failures to Krael and his colleagues; they were simply unfinished. The kingdoms that funded them grew uneasy. Then the wars came—other kingdoms, other factions, entire alliances of those who feared what the Alchemica Mortis was becoming—and cities burned, laboratories collapsed, and Krael Kathar vanished completely. Whether he died or succeeded in his own transformation, no surviving record says.</p>
+            <p class="indent">Yet their creations survived. Buried beneath the ruins of Second Age kingdoms in the North and throughout the old Imperial territories, entombed in stone and steel, unfinished, dreaming, and waiting—until the day the world would shift enough, or the rubble above them settle enough, for them to wake into a new age that had entirely forgotten them.</p>
+            <h4>AWAKENING AND PURPOSE</h4>
+            <p>A necramechanica does not grow or reproduce. They reactivate by accident, power surging through their broken frames as forgotten spells flicker to life, or they are found and repaired by scavengers or scholars seeking lost knowledge. The newly awakened rarely understand what they are. Many emerge with fragmented memories and skills of past lives that feel distant and unreal. Some search for the remains of the Alchemica Mortis, hoping to find records of their origins. Others reject their past, trying to create new identities among mortals who fear and distrust them.</p>
+            <h4>KNOWN ONLY IN THE DARK AND THE DEEP</h4>
+            <p>Among the surface peoples of Aiwelen's present day, necramechanica are not a known quantity. The Second Age is history studied in fragments, its records incomplete, its ruins largely unexplored. When a necramechanica surfaces—literally climbing out of the ground, or stumbling into a settlement from some ruin no one has visited in centuries—they are met with confusion rather than recognition. They are things, not people. Monstrosities from a time better forgotten.</p>
+            <p class="indent">It is in the Underdark that necramechanica occasionally encounter beings who have seen their kind before, or at least heard of them. The deep places of the world preserve old knowledge in ways the surface does not, and certain scholars, artificers, or delvers who spend their lives in ruins have developed both an academic fascination with necramechanica and a practical wariness of what a waking one might do if startled.</p>
+            <h4>FLESH AND MACHINE</h4>
+            <p>Every necramechanica is built for a purpose. A warrior may awaken with reinforced plating and integrated weaponry. A scout may find its limbs built for speed and its joints enhanced with silent movement. A scholar may reactivate with memory cores storing lost knowledge. These modifications define their function, but they also decay over time. Their bodies require constant upkeep by scavenging new components from ruins, other necramechanica, or unwilling donors. Some attempt to preserve what remains of their original forms. Others strip away their flesh entirely, replacing themselves piece by piece until nothing organic remains.</p>
+            <h4>OUTCASTS AND SCAVENGERS</h4>
+            <p>Necramechanica are not welcomed among most mortals, who do not see them as people. They are things—remnants of a lost civilization that should have stayed buried. They are hunted down, feared as abominations, or torn apart to study what keeps them moving. Those who try to live among the living are forced into the fringes, taking roles as mercenaries, assassins, or recluses who trade their skills for a modicum of safety. Even the Undead reject them. Liches see them as failures, trapped between life and death without true control over either. Only other necramechanica can be trusted, but even that trust is fragile, as many view their own kind as nothing more than potential spare parts.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Necramechanica are a haunting fusion of withered flesh and mechanical ingenuity. Their decayed, withered skin stretches tightly over skeletal frames, often reinforced or replaced by mechanical limbs and plates. The remnants of their organic bodies are pale and desiccated, barely clinging to life through the constant integration of machinery.</p>
+            <p class="indent">Their mechanical augmentations vary wildly. Some are masterworks of precision, with polished brass joints and smoothly turning gears that hum quietly with each movement. Others are crude, built from rusted metal, clunky pistons, and exposed wiring that sparks or hisses as they walk. Often, a necramechanica's eyes are replaced with glowing, alchemy-powered orbs, casting an eerie light from within their hollowed sockets.</p>
+            <p class="indent">When envisioning your necramechanica character, consider: Machine and Organic (what parts of your body are mechanical? How much of your original flesh remains?), Energy Source (what powers your mechanical body? Arcane energy, alchemical fluids, or perhaps something more mysterious?), and Unique Features (how have you customized your body?).</p>
+            <table>
+                <tr><th>d10</th><th>Aesthetic</th></tr>
+                <tr><td>1</td><td>Your limbs are made of sleek, polished chrome that reflects light like a mirror.</td></tr>
+                <tr><td>2</td><td>Arcane runes glow along the seams of your mechanical joints, pulsing with power.</td></tr>
+                <tr><td>3</td><td>Your torso is covered in intricate engravings, resembling the gears and cogs of a clock.</td></tr>
+                <tr><td>4</td><td>A dark, oily substance perpetually leaks from some of your mechanical parts, giving them an oily sheen.</td></tr>
+                <tr><td>5</td><td>Parts of your frame are adorned with small gemstones, catching light as you move.</td></tr>
+                <tr><td>6</td><td>Your limbs are large and bulky, built for strength, with exposed pistons and gears.</td></tr>
+                <tr><td>7</td><td>Your metal parts are partially transparent, revealing a tangled web of arcane circuits and mechanical veins beneath.</td></tr>
+                <tr><td>8</td><td>Your body is covered in metallic plates that have a burnished, bronze appearance.</td></tr>
+                <tr><td>9</td><td>Your mechanical parts emit a faint hum—the sound of unseen machinery constantly whirring.</td></tr>
+                <tr><td>10</td><td>Your metal frame is corroded and scarred, with deep gouges and pitted surfaces, as though it has survived centuries of battle.</td></tr>
+            </table>
+            <h4>NECRAMECHANICA NAMES</h4>
+            <p>Necramechanica place great value on individuality, seeing their names as an expression of their unique identities rather than a reflection of their mechanical origin. Many adopt names that symbolize rebirth, creativity, and the reclaiming of life from death. Necramechanica choose their own singular names, preferring to eschew the practice of taking family surnames.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Karlith, Oris, Serinex, Threnos, Valryn, Zarion</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Ereisya, Ithis, Lyrras, Nyxa, Thalissar, Zyria</p>
+            <p class="indent"><strong><em>Neutral Names:</em></strong> Astrais, Rethis, Solivor, Talenis, Vindara, Vossar</p>
+            <h4>NECRAMECHANICA TRAITS</h4>
+            <p>Your necramechanica character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered a Construct for any prerequisite or effect that requires you to be a Construct.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small (choose when you select this race).</p>
+            <p class="indent"><strong><em>Age.</em></strong> Necramechanica have a natural lifespan of up to 500 years due to the combination of organic and mechanical components. Regular maintenance of the mechanical body is necessary to ensure longevity, but the organic parts still age over time, making them susceptible to eventual decay.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Living Construct.</em></strong> You have advantage on saving throws against poison, and you have resistance to poison damage. You are immune to disease. You don't need to eat, drink, or breathe. Additionally, instead of sleeping, you must spend 4 hours in an inactive, motionless state, after which you finish a long rest. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.</p>
+            <p class="indent"><strong><em>Mechanical Enhancement.</em></strong> Choose one of the following when you select this race: Enhanced Durability (your hit point maximum increases by 1, and whenever you gain a level your hit point maximum increases by an additional 1 hit point), Augmented Strength (you have a +2 bonus to Strength checks and Strength saving throws), Improved Mobility (your walking speed increases by 5 feet, and you have a +1 bonus to Dexterity checks), or Sensory Expansion (you have darkvision out to a range of 60 feet and can see in magical darkness out to 10 feet as if it were dim light).</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> Two main subraces of necramechanica exist in the world: dreadnought and shadowsworn. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_NECRAMECHANICA_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_NECRAMECHANICA_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Necramechanica)" supports="ID_HAILJOE_RACE_VARIANT_NECRAMECHANICA_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_NECRAMECHANICA_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Necramechanica)" supports="Standard||Exotic" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_LIVING_CONSTRUCT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_MECHANICAL_ENHANCEMENT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_SUBRACE" />
+        </rules>
+    </element>
+
+    <!-- Size Variants -->
+
+    <element name="Necramechanica Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_NECRAMECHANICA_SIZE_MEDIUM">
+        <supports>Necramechanica</supports>
+        <description><p>You are Medium.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Necramechanica Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_NECRAMECHANICA_SIZE_SMALL">
+        <supports>Necramechanica</supports>
+        <description><p>You are Small.</p></description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_NECRAMECHANICA_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Necramechanica Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_NECRAMECHANICA_SIZE_SMALL" />
+
+    <!-- Core Traits -->
+
+    <element name="Living Construct" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_LIVING_CONSTRUCT">
+        <description>
+            <p>You have advantage on saving throws against poison, and you have resistance to poison damage. You are immune to disease. You don't need to eat, drink, or breathe. Additionally, instead of sleeping, you must spend 4 hours in an inactive, motionless state, after which you finish a long rest. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against poison and resistance to poison damage. You are immune to disease. You don't need to eat, drink, or breathe. Instead of sleeping, you spend 4 hours in an inactive state to finish a long rest; you appear inert but remain conscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Mechanical Enhancement" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_MECHANICAL_ENHANCEMENT">
+        <description>
+            <p>Choose one of the following when you select this race: Enhanced Durability (your hit point maximum increases by 1, and whenever you gain a level your hit point maximum increases by an additional 1), Augmented Strength (you have a +2 bonus to Strength checks and Strength saving throws), Improved Mobility (your walking speed increases by 5 feet and you have a +1 bonus to Dexterity checks), or Sensory Expansion (you have darkvision out to 60 feet and can see in magical darkness out to 10 feet as if it were dim light).</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Mechanical Enhancement" supports="Necramechanica Mechanical Enhancement" />
+        </rules>
+    </element>
+
+    <element name="Enhanced Durability" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_ENHANCED_DURABILITY">
+        <supports>Necramechanica Mechanical Enhancement</supports>
+        <description><p>Your hit point maximum increases by 1. Whenever you gain a level, your hit point maximum increases by an additional 1 hit point.</p></description>
+        <sheet><description>Your hit point maximum increases by 1 per level (total: {{level}} bonus HP).</description></sheet>
+        <rules>
+            <stat name="hp" value="level" />
+        </rules>
+    </element>
+
+    <element name="Augmented Strength" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_AUGMENTED_STRENGTH">
+        <supports>Necramechanica Mechanical Enhancement</supports>
+        <description><p>You have a +2 bonus to Strength checks and Strength saving throws.</p></description>
+        <sheet><description>You have a +2 bonus to Strength checks and Strength saving throws.</description></sheet>
+        <rules>
+            <stat name="strength:save:misc" value="2" />
+            <stat name="athletics:misc" value="2" />
+        </rules>
+    </element>
+
+    <element name="Improved Mobility" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_IMPROVED_MOBILITY">
+        <supports>Necramechanica Mechanical Enhancement</supports>
+        <description><p>Your walking speed increases by 5 feet, and you have a +1 bonus to Dexterity checks.</p></description>
+        <sheet><description>Your walking speed increases by 5 feet, and you have a +1 bonus to Dexterity checks.</description></sheet>
+        <rules>
+            <stat name="innate speed:misc" value="5" />
+            <stat name="acrobatics:misc" value="1" />
+            <stat name="sleight-of-hand:misc" value="1" />
+            <stat name="stealth:misc" value="1" />
+        </rules>
+    </element>
+
+    <element name="Sensory Expansion" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_SENSORY_EXPANSION">
+        <supports>Necramechanica Mechanical Enhancement</supports>
+        <description><p>You have darkvision out to a range of 60 feet and can see in magical darkness out to 10 feet as if it were dim light.</p></description>
+        <sheet><description>You have darkvision out to 60 feet and can see in magical darkness out to 10 feet as if it were dim light.</description></sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <stat name="darkvision:range" value="60" bonus="base" />
+        </rules>
+    </element>
+
+    <element name="Necramechanica Subrace" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_SUBRACE">
+        <description><p>Two main subraces of necramechanica exist: dreadnought and shadowsworn. Choose one.</p></description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Necramechanica Subrace" supports="Necramechanica" />
+        </rules>
+    </element>
+
+    <!-- Subraces -->
+
+    <element name="Dreadnought" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_NECRAMECHANICA_DREADNOUGHT">
+        <supports>Necramechanica</supports>
+        <description>
+            <p>Relics of war and destruction, dreadnoughts are built for endurance and combat. Their decayed flesh is reinforced with thick plating, and their bodies are designed to withstand tremendous punishment. They are not merely warriors—they are weapons with a singular destructive purpose.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Unyielding Frame.</em></strong> You have natural armor. When not wearing armor, your AC equals 13 + your Dexterity modifier (maximum 2).</p>
+            <p class="indent"><strong><em>Adaptive Repair.</em></strong> When you take damage, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus + your Constitution modifier. You can use this reaction a number of times equal to your Constitution modifier (minimum of once) and regain all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Relentless Form.</em></strong> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_UNYIELDING_FRAME" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_ADAPTIVE_REPAIR" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_RELENTLESS_FORM" />
+        </rules>
+    </element>
+
+    <element name="Unyielding Frame" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_UNYIELDING_FRAME">
+        <description>
+            <p>You have natural armor. When not wearing armor, your AC equals 13 + your Dexterity modifier (maximum 2).</p>
+        </description>
+        <sheet>
+            <description>When not wearing armor, your AC is {{ac:natural armor:dreadnought}}.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:natural armor:dreadnought" value="13" bonus="base" />
+            <stat name="ac:natural armor:dreadnought" value="dexterity:modifier:2" bonus="ability" />
+            <stat name="ac:calculation" value="ac:natural armor:dreadnought" bonus="calculation" alt="Natural Armor (Dreadnought)" />
+        </rules>
+    </element>
+
+    <element name="Adaptive Repair" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_ADAPTIVE_REPAIR">
+        <description>
+            <p>When you take damage, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus + your Constitution modifier. You can use this reaction a number of times equal to your Constitution modifier (minimum of once) and regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="{{constitution:modifier}}/Long Rest">
+            <description>When you take damage, you can reduce it by {{necramechanica:adaptive repair:reduction}}.</description>
+        </sheet>
+        <rules>
+            <stat name="necramechanica:adaptive repair:reduction" value="proficiency" />
+            <stat name="necramechanica:adaptive repair:reduction" value="constitution:modifier" />
+        </rules>
+    </element>
+
+    <element name="Relentless Form" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_RELENTLESS_FORM">
+        <description>
+            <p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>When reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead.</description>
+        </sheet>
+    </element>
+
+    <element name="Shadowsworn" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_NECRAMECHANICA_SHADOWSWORN">
+        <supports>Necramechanica</supports>
+        <description>
+            <p>The shadowsworn are whispering ghosts of steel and bone, designed for secrecy, precision, and manipulation. Their presence unsettles the living, and their bodies seem to vanish into the darkness, making them the ultimate infiltrators and assassins.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Ghost in the Machine.</em></strong> You gain proficiency in the Stealth skill.</p>
+            <p class="indent"><strong><em>Shadow Veil.</em></strong> When you are in dim light or darkness, you can use a bonus action to become invisible until you attack, cast a spell, or move into bright light. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Predator's Precision.</em></strong> Once on your turn, when you hit with an attack against a creature that is surprised or hasn't yet acted during the first round of combat, the target takes extra necrotic damage equal to your Dexterity modifier + your proficiency bonus, and it can't take reactions until the start of its next turn.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_GHOST_IN_THE_MACHINE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_SHADOW_VEIL" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_PREDATORS_PRECISION" />
+        </rules>
+    </element>
+
+    <element name="Ghost in the Machine" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_GHOST_IN_THE_MACHINE">
+        <description>
+            <p>You gain proficiency in the Stealth skill.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Shadow Veil" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_SHADOW_VEIL">
+        <description>
+            <p>When you are in dim light or darkness, you can use a bonus action to become invisible until you attack, cast a spell, or move into bright light. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Long Rest">
+            <description>While in dim light or darkness, you become invisible until you attack, cast a spell, or move into bright light.</description>
+        </sheet>
+    </element>
+
+    <element name="Predator's Precision" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_NECRAMECHANICA_PREDATORS_PRECISION">
+        <description>
+            <p>Once on your turn, when you hit with an attack against a creature that is surprised or hasn't yet acted during the first round of combat, the target takes extra necrotic damage equal to your Dexterity modifier + your proficiency bonus, and it can't take reactions until the start of its next turn.</p>
+        </description>
+        <sheet>
+            <description>Once per turn, when you hit a surprised creature or one that hasn't acted yet in the first round of combat, it takes an extra {{necramechanica:predators precision:damage}} necrotic damage and can't take reactions until the start of its next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="necramechanica:predators precision:damage" value="dexterity:modifier" />
+            <stat name="necramechanica:predators precision:damage" value="proficiency" />
+        </rules>
+    </element>
+
+</elements>
