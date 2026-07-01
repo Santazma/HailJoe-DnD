@@ -4,7 +4,7 @@
 		<name>HailJoe Races</name>
 		<description>Hailjoe's homebrew races</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.17">
+		<update version="0.0.18">
 			<file name="hailjoe-races.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races.index" />
 		</update>
 	</info>
@@ -18,5 +18,6 @@
 		<file name="race-chitinari.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-chitinari.xml" />
 		<file name="race-dracolichborn.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-dracolichborn.xml" />
 		<file name="race-eidolon.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-eidolon.xml" />
+		<file name="race-frostwight.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-frostwight.xml" />
 	</files>
 </index>
