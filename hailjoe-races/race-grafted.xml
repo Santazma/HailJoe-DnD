@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Grafted</name>
+        <description>The Grafted species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-grafted.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-grafted.xml" />
+        </update>
+    </info>
+
+    <element name="Grafted" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_GRAFTED">
+        <description>
+            <p class="flavor">I've seen them—stitched together from castoffs and half-memories, yet more whole than many naturally born. Grafted are not mere reflections of their creators but defiance made flesh. They are survivors of forced genesis, carrying in their soulbrands both purpose and pain. Some claw toward meaning with scholar's hands; others rend the world with monstrous limbs. But each bears the same question in their marrow: if I was made, not born, does that mean I must choose what I become?</p>
+            <p>Grafted are living Constructs, brought to life by the twisted ingenuity of those who call themselves Fleshweavers—individuals who blend alchemy, necromancy, and arcane theory into a craft that the world's institutions have universally condemned, though not all of those institutions have refrained from practicing it. In Aiwelen, the Grafted emerge from three distinct origins, each as dangerous and secretive as the last.</p>
+            <p class="indent">Beneath the surface, illegal artificers operating in the Underdark pursue the creation of Grafted as both personal obsession and commercial venture—weapons, servants, scouts, sold to those with coin enough to ask no questions. Above ground, funded researchers operating on behalf of shadowed factions and morally bankrupt patrons conduct experiments in hidden laboratories, pursuing the same goal with different aesthetics and more paperwork. And within the White City itself, within the sealed sub-levels of the White Citadel Asylum, the Inquisition has run its own Grafted programs—officially denied, practically ongoing—producing beings from Stitching rituals refined into a science, intended as instruments of control, war, or information-gathering.</p>
+            <p class="indent">The Inquisition's relationship with Grafted is, accordingly, one of the more breathtaking hypocrisies in Aiwelen. When the Grafted are made by others, the Inquisition declares both creator and creation sapkın and dispatches witch-hunt teams to eliminate them both. When the Inquisition makes them itself, it calls them assets—tools to be managed, observed, and ultimately expended. Their own Grafted are regarded with the same combination of contempt and utility one might extend to a well-sharpened blade: useful, necessary, and never to be anthropomorphized.</p>
+            <h4>CRAFTED COMMUNITIES</h4>
+            <p>Grafted who escape or are released from their creators' control—whether by fleeing an Inquisition facility, outlasting a dead Fleshweaver, or simply being discarded as a failed experiment—face the same world: one that sees their soulbrands, recognizes what they are, and reacts accordingly. Those who survive long enough find each other. In abandoned temples, sealed caves, and forgotten ruins, Grafted form small communes held together not by culture or bloodline but by the shared experience of having been made rather than born.</p>
+            <p class="indent">Within these free communities, individuality is celebrated. Members view their patchwork forms as symbols of resilience rather than shame, fostering a culture of acceptance and self-expression. Experienced elders guide the newly created in mastering the instincts tied to their stitched bodies and exploring their purpose. Discussions about the nature of the soul and what it means to live a created existence are common. Their fighting styles, philosophies, and daily practices are their own—built from scratch, freely chosen, belonging to no one who made them.</p>
+            <p class="indent">This stands in stark contrast to Grafted still under a creator's authority. Those who remain in Inquisition hands are shaped by Inquisition values whether they wish to be or not. Those created by Underdark artificers or surface-world faction scientists are similarly molded—their philosophies, their habits, their sense of self, all influenced by whoever holds their leash. The question of which Grafted a given individual has become—free thinker or shaped instrument—is one of the most significant things to establish when creating a Grafted character.</p>
+            <h4>ADAPTING TO CIVILIZATION</h4>
+            <p>Many Grafted live on the edges of society, wary of the fear and hostility their appearance often provokes. Some go to great lengths to conceal their nature, using makeup, clothing, or illusion magic to disguise their stitched forms. For others, hiding is an exhausting burden. While discovery often leads to rejection or worse, those who persist can sometimes find acceptance—acts of heroism or service sometimes win the trust of those who see beyond their appearance.</p>
+            <h4>PHILOSOPHERS AND PREDATORS</h4>
+            <p>Grafted walk the line between intellect and instinct. Some see their existence as an opportunity for self-discovery, devoting themselves to philosophy, magic, or exploring the mysteries of life and death. Others are unable or unwilling to rise above the instincts of their monstrous bodies, consumed by frustration and bitterness, channeling their rejection into violence and destruction.</p>
+            <h4>SOULBRANDS</h4>
+            <p>A soulbrand is a magical sigil etched into the flesh of each Grafted during their creation, binding fragmented pieces of multiple souls to their patchwork body. The style and appearance of a soulbrand reflects its creator—an Inquisition-made Grafted bears a precise, institutional mark, clean lines and angular geometry pressed into flesh with clinical efficiency. An Underdark artificer's mark tends toward the organic, asymmetrical, improvised. A surface-world faction scientist might produce something anywhere between these extremes depending on their training and temperament. Shared markings among Grafted of the same creator are recognized as a kind of kinship, though not all Grafted find comfort in that recognition.</p>
+            <table>
+                <tr><th>d8</th><th>Appearance</th><th>Description</th></tr>
+                <tr><td>1</td><td>Fractured Spiral</td><td>A jagged, spiraling design that appears broken or incomplete, with sparks of arcane energy weaving through the pathways.</td></tr>
+                <tr><td>2</td><td>Warded Knot</td><td>Interwoven sigils form a seamless knot, each line carved to create optical illusions of depth and complexity.</td></tr>
+                <tr><td>3</td><td>Ashen Crest</td><td>A burned sigil with charred edges that feels rough and radiates a faint heat.</td></tr>
+                <tr><td>4</td><td>Encircled Chains</td><td>Overlapping circles carved and linked as chains. Each link is engraved with small sigils.</td></tr>
+                <tr><td>5</td><td>Living Veins</td><td>A network of vein-like patterns, inked in dark hues. The lines seem to shift under close scrutiny.</td></tr>
+                <tr><td>6</td><td>Seared Glyph</td><td>A runic pattern that splits into uneven fragments and is seared as a brand into flesh.</td></tr>
+                <tr><td>7</td><td>Eclipsed Seal</td><td>A crescent or eclipse surrounding small, intricate arcane symbols.</td></tr>
+                <tr><td>8</td><td>Serpent Coil</td><td>A serpentine figure winding through glyphs, its head marking the center of the sigil.</td></tr>
+            </table>
+            <h4>GRAFTED NAMES</h4>
+            <p>Grafted names reflect individuality, strength, and the complex nature of their existence. Many names carry sharp consonants and fluid syllables, evoking their unique origins and ties to both arcane forces and their stitched forms. Personal names often draw from fragments of memory or the ideals the Grafted strives to embody. Once free of their creators, Grafted sometimes choose family names with those they escape with, forming small, loose-knit groups.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Akaris, Aroth, Brenvar, Drethar, Eltharic, Fyran, Halvek, Kelrik, Maldrin, Norveth, Tarthin, Valtor, Vyros, Zurvek</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Alythra, Eryva, Lathryn, Lyssar, Myrith, Nysrin, Olyntra, Oriva, Rethira, Syvalis, Thalora, Veshra, Veyna, Zalythra</p>
+            <p class="indent"><strong><em>Neutral Names:</em></strong> Alseryn, Calryth, Elvyn, Ivaris, Kyrrith, Lorvak, Orveth, Ralyx, Selvaris, Talyon, Tharyn, Valric, Zelrin, Zorath</p>
+            <p class="indent"><strong><em>Family Names:</em></strong> Ashvein, Blackstitch, Boneflare, Chainrender, Ironspindle, Rendshard, Soulbraid, Veinstone, Voidcarve, Woundspire</p>
+            <h4>GRAFTED TRAITS</h4>
+            <p>Your Grafted character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered a Construct for any effect that targets Constructs.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Age.</em></strong> The arcane power of your soulbrand enables you to live up to 200 years.</p>
+            <p class="indent"><strong><em>Masked Intent.</em></strong> You have proficiency with the disguise kit and one of the following skills of your choice: Deception, Insight, Intimidation, or Persuasion.</p>
+            <p class="indent"><strong><em>Adaptive Reconstruction.</em></strong> You can replace one of your limbs with that of another creature, allowing you to gain benefits from the new limb. You must have a severed limb from a creature with the same size as you. If the new limb has a natural weapon (such as claws), your unarmed strikes with that limb deal the same damage type and use a single damage die used by the original creature's attack. You don't gain the benefit of any special effects or magical damage of the original limb. You can't add additional limbs beyond your original form. When you replace a limb in this way, you are unable to move it until you finish a long rest. Your soulbrand automatically expands and etches itself onto a new limb to recreate its original appearance if it is broken by a lost limb. Once integrated, the limb operates and is controlled by you as a natural part of your body.</p>
+            <p class="indent"><strong><em>Fleshbound Resilience.</em></strong> Your soulbrand reinforces your patchwork body, granting it unnatural durability. You have resistance to poison damage and immunity to disease. Additionally, while you are not wearing armor, your AC equals 13 + your Constitution modifier. You can use a shield and still gain this benefit.</p>
+            <p class="indent"><strong><em>Mismatched Origins.</em></strong> When creating your Grafted character, roll on the table below or select one option to determine a unique enhancement. This enhancement reflects the monstrous or non-Humanoid origins of one of your body parts. You lose the effects of this body part if it is replaced using Adaptive Reconstruction.</p>
+            <p class="indent"><strong><em>Symbiotic Attunement.</em></strong> Your body is uniquely able to integrate magical grafts, and you can detach and end attunement with a magical graft without the need of additional resources or rituals. However, you still need to endure the initial grafting process to attune and attach a graft. When you remove a magical graft and end attunement to it, the number of items and grafts that you can attune to decreases by one for 30 days.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character.</p>
+            <table>
+                <tr><th>d10</th><th>Enhancement</th><th>Effect</th></tr>
+                <tr><td>1</td><td>Draconic Talons</td><td>Your hands or feet end in powerful, dragon-like talons. Your unarmed strikes (punches or kicks) deal an extra 1d4 slashing damage. Additionally, you can use your talons to climb as if you were using climbing gear.</td></tr>
+                <tr><td>2</td><td>Scorpion Tail</td><td>You have a long, segmented tail that can be used as a bonus action to make a melee weapon attack against a creature within 5 feet of you. It deals 1d4 piercing damage on a hit, and the target must succeed on a Constitution saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier) or take 1d4 poison damage. You can use this trait a number of times equal to your Strength modifier (minimum once), regaining all expended uses when you finish a long rest.</td></tr>
+                <tr><td>3</td><td>Manticore Spines</td><td>Your back is lined with sharp spines. As a bonus action, you can hurl a spine at a creature within 30 feet of you. Make a ranged weapon attack. The spine deals 1d4 piercing damage on a hit. You can use this trait a number of times equal to your Constitution modifier (minimum once), regaining all expended uses when you finish a long rest.</td></tr>
+                <tr><td>4</td><td>Chameleon Hide</td><td>Your skin takes on the shifting properties of a chameleon's camouflage. You can use your action to blend into your surroundings, granting advantage on Dexterity (Stealth) checks until you move. You can use this trait a number of times equal to your Dexterity modifier (minimum once), regaining all expended uses when you finish a long rest.</td></tr>
+                <tr><td>5</td><td>Basilisk Eyes</td><td>Your eyes gain a faint, petrifying quality. As an action, you can force one creature within 30 feet of you that can see you to make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Charisma modifier). On a failed save, the creature is restrained until the end of its next turn. You can use this trait a number of times equal to your Charisma modifier (minimum once), regaining all expended uses when you finish a long rest.</td></tr>
+                <tr><td>6</td><td>Behemoth Limb</td><td>One of your arms is disproportionately massive and powerfully muscled. An unarmed strike with this arm deals an extra 1d6 bludgeoning damage. Additionally, you count as one size larger when determining your carrying capacity.</td></tr>
+                <tr><td>7</td><td>Reptilian Frill</td><td>A ridge of spined scales runs along your head and neck, granting you an intimidating appearance. You have advantage on Charisma (Intimidation) checks, and as a bonus action you can flare your frill to scare one creature within 10 feet of you. The creature must succeed on a Wisdom saving throw (DC equals 8 + your proficiency bonus + your Charisma modifier) or be frightened until the end of its next turn. Once you use this trait, you can't use it again until you finish a long rest.</td></tr>
+                <tr><td>8</td><td>Leech Maw</td><td>Your mouth becomes a grotesque feeding organ. As an action, you can try to bite a creature within 5 feet of you. Make a melee weapon attack. The bite deals 1d4 piercing damage on a hit, and you regain hit points equal to half the damage dealt (minimum 1). When you regain hit points in this manner, you can't regain them again using this trait until you finish a short or long rest.</td></tr>
+                <tr><td>9</td><td>Ram Horns</td><td>Your skull has been enhanced with thick, curved ram horns. If you move at least 20 feet straight toward a creature and hit it with an unarmed strike using your horns on the same turn, the attack deals an extra 1d4 bludgeoning damage. The target must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</td></tr>
+                <tr><td>10</td><td>Hydra Tendrils</td><td>A pair of serpentine tendrils sprout from your shoulders. As a bonus action, you can use these tendrils to make two unarmed strikes. Each strike has a reach of 10 feet and deals 1d4 bludgeoning damage on a hit. These unarmed strikes can't benefit from class features that enhance unarmed strikes, such as a monk's Martial Arts die. You can use this trait a number of times equal to your Constitution modifier (minimum once), regaining all expended uses when you finish a long rest. You also have fine control with the tendrils and can use them to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. However, the tendrils can't wield weapons or shields, activate magic items, or carry more than 5 pounds each.</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="strength" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Grafted)" supports="Standard||Exotic" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_MASKED_INTENT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ADAPTIVE_RECONSTRUCTION" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_FLESHBOUND_RESILIENCE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_MISMATCHED_ORIGINS" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_SYMBIOTIC_ATTUNEMENT" />
+        </rules>
+    </element>
+
+    <element name="Masked Intent" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_MASKED_INTENT">
+        <description>
+            <p>You have proficiency with the disguise kit and one of the following skills of your choice: Deception, Insight, Intimidation, or Persuasion.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+            <select type="Proficiency" name="Skill Proficiency (Masked Intent)" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERSUASION" />
+        </rules>
+    </element>
+
+    <element name="Adaptive Reconstruction" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ADAPTIVE_RECONSTRUCTION">
+        <description>
+            <p>You can replace one of your limbs with that of another creature, allowing you to gain benefits from the new limb. You must have a severed limb from a creature with the same size as you. If the new limb has a natural weapon (such as claws), your unarmed strikes with that limb deal the same damage type and use a single damage die used by the original creature's attack. You don't gain the benefit of any special effects or magical damage of the original limb. You can't add additional limbs beyond your original form. When you replace a limb in this way, you are unable to move it until you finish a long rest. Your soulbrand automatically expands and etches itself onto a new limb to recreate its original appearance if it is broken by a lost limb. Once integrated, the limb operates and is controlled by you as a natural part of your body.</p>
+        </description>
+        <sheet>
+            <description>You can replace one of your limbs with that of another same-sized creature. If the new limb has a natural weapon, your unarmed strikes with it use the same damage type and a single damage die of the original creature's attack. You cannot add additional limbs beyond your original form. The replaced limb cannot move until you finish a long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Fleshbound Resilience" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_FLESHBOUND_RESILIENCE">
+        <description>
+            <p>Your soulbrand reinforces your patchwork body, granting it unnatural durability. You have resistance to poison damage and immunity to disease. Additionally, while you are not wearing armor, your AC equals 13 + your Constitution modifier. You can use a shield and still gain this benefit.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to poison damage and immunity to disease. While not wearing armor, your AC is {{ac:natural armor:grafted}}. You can use a shield and still gain this benefit.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            <stat name="ac:natural armor:grafted" value="13" bonus="base" />
+            <stat name="ac:natural armor:grafted" value="constitution:modifier" bonus="ability" />
+            <stat name="ac:calculation" value="ac:natural armor:grafted" bonus="calculation" alt="Natural Armor (Grafted)" />
+        </rules>
+    </element>
+
+    <element name="Mismatched Origins" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_MISMATCHED_ORIGINS">
+        <description>
+            <p>When creating your Grafted character, roll on the Mismatched Origins table or select one option to determine a unique enhancement reflecting the monstrous or non-Humanoid origins of one of your body parts. You lose the effects of this body part if it is replaced using Adaptive Reconstruction.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Mismatched Origins" supports="Grafted Mismatched Origins" />
+        </rules>
+    </element>
+
+    <!-- Mismatched Origins Options -->
+
+    <element name="Mismatched Origins: Draconic Talons" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_DRACONIC_TALONS">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>Your hands or feet end in powerful, dragon-like talons. Your unarmed strikes deal an extra 1d4 slashing damage. Additionally, you can use your talons to climb as if you were using climbing gear.</p></description>
+        <sheet><description>Your unarmed strikes deal an extra 1d4 slashing damage. You can climb as if using climbing gear.</description></sheet>
+    </element>
+
+    <element name="Mismatched Origins: Scorpion Tail" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_SCORPION_TAIL">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>You have a long, segmented tail. As a bonus action, make a melee weapon attack against a creature within 5 feet dealing 1d4 piercing damage. On a hit the target must make a Constitution saving throw (DC 8 + proficiency bonus + Constitution modifier) or take 1d4 poison damage. Uses equal to Strength modifier (min 1), regained on long rest.</p></description>
+        <sheet action="Bonus Action" usage="{{strength:modifier:min1}}/Long Rest"><description>Melee tail attack: 1d4 piercing. On hit, Constitution save (DC {{grafted:scorpion tail:dc}}) or 1d4 poison damage.</description></sheet>
+        <rules>
+            <stat name="grafted:scorpion tail:dc" value="8" />
+            <stat name="grafted:scorpion tail:dc" value="proficiency" />
+            <stat name="grafted:scorpion tail:dc" value="constitution:modifier" />
+        </rules>
+    </element>
+
+    <element name="Mismatched Origins: Manticore Spines" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_MANTICORE_SPINES">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>Your back is lined with sharp spines. As a bonus action, hurl a spine at a creature within 30 feet (ranged weapon attack, 1d4 piercing). Uses equal to Constitution modifier (min 1), regained on long rest.</p></description>
+        <sheet action="Bonus Action" usage="{{constitution:modifier:min1}}/Long Rest"><description>Ranged spine attack (30 ft): 1d4 piercing damage.</description></sheet>
+    </element>
+
+    <element name="Mismatched Origins: Chameleon Hide" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_CHAMELEON_HIDE">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>Your skin shifts like a chameleon's. As an action, blend into your surroundings, granting advantage on Dexterity (Stealth) checks until you move. Uses equal to Dexterity modifier (min 1), regained on long rest.</p></description>
+        <sheet action="Action" usage="{{dexterity:modifier:min1}}/Long Rest"><description>Gain advantage on Stealth checks until you move.</description></sheet>
+    </element>
+
+    <element name="Mismatched Origins: Basilisk Eyes" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_BASILISK_EYES">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>Your eyes have a faint petrifying quality. As an action, force one creature within 30 feet to make a Constitution saving throw (DC 8 + proficiency bonus + Charisma modifier) or be restrained until the end of its next turn. Uses equal to Charisma modifier (min 1), regained on long rest.</p></description>
+        <sheet action="Action" usage="{{charisma:modifier:min1}}/Long Rest"><description>One creature within 30 ft makes a Constitution save (DC {{grafted:basilisk eyes:dc}}) or is restrained until the end of its next turn.</description></sheet>
+        <rules>
+            <stat name="grafted:basilisk eyes:dc" value="8" />
+            <stat name="grafted:basilisk eyes:dc" value="proficiency" />
+            <stat name="grafted:basilisk eyes:dc" value="charisma:modifier" />
+        </rules>
+    </element>
+
+    <element name="Mismatched Origins: Behemoth Limb" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_BEHEMOTH_LIMB">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>One of your arms is disproportionately massive. Unarmed strikes with it deal an extra 1d6 bludgeoning damage. You count as one size larger for carrying capacity.</p></description>
+        <sheet><description>Unarmed strikes with your massive arm deal an extra 1d6 bludgeoning damage. You count as one size larger for carrying capacity.</description></sheet>
+    </element>
+
+    <element name="Mismatched Origins: Reptilian Frill" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_REPTILIAN_FRILL">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>A ridge of spined scales grants an intimidating appearance. You have advantage on Intimidation checks. As a bonus action, flare your frill: one creature within 10 feet makes a Wisdom saving throw (DC 8 + proficiency bonus + Charisma modifier) or is frightened until the end of its next turn. Once used, can't use again until long rest.</p></description>
+        <sheet action="Bonus Action" usage="1/Long Rest"><description>You have advantage on Intimidation checks. Flare: one creature within 10 ft makes a Wisdom save (DC {{grafted:reptilian frill:dc}}) or is frightened until the end of its next turn.</description></sheet>
+        <rules>
+            <stat name="grafted:reptilian frill:dc" value="8" />
+            <stat name="grafted:reptilian frill:dc" value="proficiency" />
+            <stat name="grafted:reptilian frill:dc" value="charisma:modifier" />
+        </rules>
+    </element>
+
+    <element name="Mismatched Origins: Leech Maw" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_LEECH_MAW">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>Your mouth is a grotesque feeding organ. As an action, bite a creature within 5 feet (melee weapon attack, 1d4 piercing). On a hit, regain HP equal to half the damage dealt (minimum 1). Can't regain HP this way again until short or long rest.</p></description>
+        <sheet action="Action" usage="1/Short Rest"><description>Bite attack within 5 ft: 1d4 piercing. On hit, regain HP equal to half the damage dealt (minimum 1).</description></sheet>
+    </element>
+
+    <element name="Mismatched Origins: Ram Horns" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_RAM_HORNS">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>Your skull has thick, curved ram horns. If you move at least 20 feet straight toward a creature and hit it with a horn unarmed strike on the same turn, deal an extra 1d4 bludgeoning damage. The target must succeed on a Strength saving throw (DC 8 + proficiency bonus + Strength modifier) or be knocked prone.</p></description>
+        <sheet><description>If you move at least 20 ft toward a creature and hit with a horn strike, deal an extra 1d4 bludgeoning damage. Strength save (DC {{grafted:ram horns:dc}}) or knocked prone.</description></sheet>
+        <rules>
+            <stat name="grafted:ram horns:dc" value="8" />
+            <stat name="grafted:ram horns:dc" value="proficiency" />
+            <stat name="grafted:ram horns:dc" value="strength:modifier" />
+        </rules>
+    </element>
+
+    <element name="Mismatched Origins: Hydra Tendrils" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_HYDRA_TENDRILS">
+        <supports>Grafted Mismatched Origins</supports>
+        <description><p>A pair of serpentine tendrils sprout from your shoulders. As a bonus action, make two unarmed strikes (10 ft reach, 1d4 bludgeoning each). These can't benefit from class features that enhance unarmed strikes. Uses equal to Constitution modifier (min 1), regained on long rest. You can also use the tendrils to manipulate objects, open unlocked containers, or pour vials, but can't wield weapons or carry more than 5 lbs each.</p></description>
+        <sheet action="Bonus Action" usage="{{constitution:modifier:min1}}/Long Rest"><description>Make two tendril unarmed strikes (10 ft reach, 1d4 bludgeoning each). These don't benefit from class features enhancing unarmed strikes. Tendrils can manipulate objects and interact with the environment.</description></sheet>
+    </element>
+
+    <element name="Symbiotic Attunement" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_SYMBIOTIC_ATTUNEMENT">
+        <description>
+            <p>Your body is uniquely able to integrate magical grafts, and you can detach and end attunement with a magical graft without the need of additional resources or rituals. However, you still need to endure the initial grafting process to attune and attach a graft. When you remove a magical graft and end attunement to it, the number of items and grafts that you can attune to decreases by one for 30 days.</p>
+        </description>
+        <sheet>
+            <description>You can detach and end attunement with a magical graft without additional resources or rituals. When you do, your attunement slots decrease by one for 30 days.</description>
+        </sheet>
+    </element>
+
+</elements>
