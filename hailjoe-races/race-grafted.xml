@@ -3,7 +3,7 @@
     <info>
         <name>Grafted</name>
         <description>The Grafted species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="race-grafted.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-grafted.xml" />
         </update>
     </info>
@@ -140,7 +140,7 @@
     <element name="Mismatched Origins: Scorpion Tail" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_SCORPION_TAIL">
         <supports>Grafted Mismatched Origins</supports>
         <description><p>You have a long, segmented tail. As a bonus action, make a melee weapon attack against a creature within 5 feet dealing 1d4 piercing damage. On a hit the target must make a Constitution saving throw (DC 8 + proficiency bonus + Constitution modifier) or take 1d4 poison damage. Uses equal to Strength modifier (min 1), regained on long rest.</p></description>
-        <sheet action="Bonus Action" usage="{{strength:modifier:min1}}/Long Rest"><description>Melee tail attack: 1d4 piercing. On hit, Constitution save (DC {{grafted:scorpion tail:dc}}) or 1d4 poison damage.</description></sheet>
+        <sheet action="Bonus Action" usage="{{strength:modifier}}/Long Rest"><description>Melee tail attack: 1d4 piercing. On hit, Constitution save (DC {{grafted:scorpion tail:dc}}) or 1d4 poison damage.</description></sheet>
         <rules>
             <stat name="grafted:scorpion tail:dc" value="8" />
             <stat name="grafted:scorpion tail:dc" value="proficiency" />
@@ -151,19 +151,19 @@
     <element name="Mismatched Origins: Manticore Spines" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_MANTICORE_SPINES">
         <supports>Grafted Mismatched Origins</supports>
         <description><p>Your back is lined with sharp spines. As a bonus action, hurl a spine at a creature within 30 feet (ranged weapon attack, 1d4 piercing). Uses equal to Constitution modifier (min 1), regained on long rest.</p></description>
-        <sheet action="Bonus Action" usage="{{constitution:modifier:min1}}/Long Rest"><description>Ranged spine attack (30 ft): 1d4 piercing damage.</description></sheet>
+        <sheet action="Bonus Action" usage="{{constitution:modifier}}/Long Rest"><description>Ranged spine attack (30 ft): 1d4 piercing damage.</description></sheet>
     </element>
 
     <element name="Mismatched Origins: Chameleon Hide" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_CHAMELEON_HIDE">
         <supports>Grafted Mismatched Origins</supports>
         <description><p>Your skin shifts like a chameleon's. As an action, blend into your surroundings, granting advantage on Dexterity (Stealth) checks until you move. Uses equal to Dexterity modifier (min 1), regained on long rest.</p></description>
-        <sheet action="Action" usage="{{dexterity:modifier:min1}}/Long Rest"><description>Gain advantage on Stealth checks until you move.</description></sheet>
+        <sheet action="Action" usage="{{dexterity:modifier}}/Long Rest"><description>Gain advantage on Stealth checks until you move.</description></sheet>
     </element>
 
     <element name="Mismatched Origins: Basilisk Eyes" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_BASILISK_EYES">
         <supports>Grafted Mismatched Origins</supports>
         <description><p>Your eyes have a faint petrifying quality. As an action, force one creature within 30 feet to make a Constitution saving throw (DC 8 + proficiency bonus + Charisma modifier) or be restrained until the end of its next turn. Uses equal to Charisma modifier (min 1), regained on long rest.</p></description>
-        <sheet action="Action" usage="{{charisma:modifier:min1}}/Long Rest"><description>One creature within 30 ft makes a Constitution save (DC {{grafted:basilisk eyes:dc}}) or is restrained until the end of its next turn.</description></sheet>
+        <sheet action="Action" usage="{{charisma:modifier}}/Long Rest"><description>One creature within 30 ft makes a Constitution save (DC {{grafted:basilisk eyes:dc}}) or is restrained until the end of its next turn.</description></sheet>
         <rules>
             <stat name="grafted:basilisk eyes:dc" value="8" />
             <stat name="grafted:basilisk eyes:dc" value="proficiency" />
@@ -208,7 +208,7 @@
     <element name="Mismatched Origins: Hydra Tendrils" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_ORIGINS_HYDRA_TENDRILS">
         <supports>Grafted Mismatched Origins</supports>
         <description><p>A pair of serpentine tendrils sprout from your shoulders. As a bonus action, make two unarmed strikes (10 ft reach, 1d4 bludgeoning each). These can't benefit from class features that enhance unarmed strikes. Uses equal to Constitution modifier (min 1), regained on long rest. You can also use the tendrils to manipulate objects, open unlocked containers, or pour vials, but can't wield weapons or carry more than 5 lbs each.</p></description>
-        <sheet action="Bonus Action" usage="{{constitution:modifier:min1}}/Long Rest"><description>Make two tendril unarmed strikes (10 ft reach, 1d4 bludgeoning each). These don't benefit from class features enhancing unarmed strikes. Tendrils can manipulate objects and interact with the environment.</description></sheet>
+        <sheet action="Bonus Action" usage="{{constitution:modifier}}/Long Rest"><description>Make two tendril unarmed strikes (10 ft reach, 1d4 bludgeoning each). These don't benefit from class features enhancing unarmed strikes. Tendrils can manipulate objects and interact with the environment.</description></sheet>
     </element>
 
     <element name="Symbiotic Attunement" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_GRAFTED_SYMBIOTIC_ATTUNEMENT">
