@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Frostwight</name>
+        <description>The Frostwight species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-frostwight.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-frostwight.xml" />
+        </update>
+    </info>
+
+    <element name="Frostwight" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_FROSTWIGHT">
+        <description>
+            <p class="flavor">Frostwights endure not because they remember life, but because the frost gives them a task too cold to refuse. They are Undead shaped and hardened by tundra winds, with bodies and minds sharpened by repetition. Their settlements are orderly, their laws unkind—and yet they hold. Among them, strength is earned without cruelty and survival is paramount. They do not question what they are. They simply make the ice livable. I've rarely seen more honest clarity.</p>
+            <p>Frostwights are Undead beings bound to the frozen lands of Aiwelen's North through an ancient curse—one whose origins no surviving scholar fully understands. What is known is this: the curse did not predate the world's unraveling. Those who study the phenomenon link its first recorded occurrence to the period following the God Wars, when the Eldritch Moon began to rise and bleed its wrongness into the world's coldest, most forgotten places. Something in those eldritch surges found purchase in the North, settling into a place that locals speak of only in whispers and never by name in open air.</p>
+            <p class="indent">That place is Blood Hollow—a valley deep in the Northern wastes, where the air itself feels wrong and the ground does not freeze the way ground should. Those who die within its reach, or sometimes merely within the wider cursed radius that pulses outward from it in irregular, unpredictable waves, do not stay dead. They rise as frostwights, devoid of memory but still bearing the tools and remnants of their mortal life. What Blood Hollow is, exactly—whether a wound in the world, a site of ancient ritual catastrophe, or something the Eldritch Moon left behind like a scar—remains one of Aiwelen's most genuinely terrifying unanswered questions.</p>
+            <h4>LIFE AMONG THE FROST</h4>
+            <p>Frostwight enclaves are hidden inside glacial caves, within archaic ruins, or beneath layers of ice in Aiwelen's far North. These settlements are havens of survival, blending scavenged materials with frozen structures to withstand the unforgiving tundras. Entry into a settlement is not guaranteed—newly risen frostwights must often prove their worth in brutal trials of combat or skill to secure a place among their kin. Failure means exile to the frigid wilderness.</p>
+            <p class="indent">Life within an enclave is cutthroat, with every member expected to contribute meaningfully. Frostwights defend their sanctuaries fiercely, scavenging the tundras for supplies, crafting tools, and weapons. The strong lead without ceremony. The weak are cast out without hesitation. Seasonal gatherings serve as opportunities for alliances and to distribute scarce resources, but they are also moments of tension and competition that decide the fates of those deemed unworthy.</p>
+            <h4>RAIDERS OF THE NORTH</h4>
+            <p>Frostwights do not wait for the world to come to them. They raid—settlements, caravans, outposts, anything that offers supplies, weapons, or the simple satisfaction of demonstrating dominance over the living. The Northern peoples who share the tundra with them know this well. The Kuzey tribes, the Goliath clans, the scattered human settlements of the far North all fight defensive wars against frostwight incursions, building their walls taller and their watches longer because of what can come screaming out of a blizzard in the dark. The frostwights are not, in most Northern cultures, regarded as a race to be reasoned with—they are a hazard, like avalanches or wolves, to be survived rather than negotiated with.</p>
+            <p class="indent">The Inquisition's response has been characteristically institutional: a dedicated military detachment known as the Engizisyoncu Veterinerler operates in the North specifically to combat the frostwight threat. These veterans fight not out of theology but out of hard-won experience, and they are among the few surface-dwelling forces that treat frostwight raids as a tactical problem rather than a spiritual one. The Inquisition classifies all frostwights as Undead abominations—the same category as any other stitched or reanimated dead—and the Veterinerler operate accordingly.</p>
+            <h4>GUARDIANS AND OUTCASTS</h4>
+            <p>Interactions with the outside world are cautious and rare for those frostwights who choose a different path. Some frostwights, driven by something that persists beyond memory—a habit of restraint, an instinct toward caution—resist the raiding culture entirely. These individuals are often exiled or simply choose to leave. Outside the North, a frostwight moving through settled lands must navigate the twin dangers of being recognized by Inquisition forces and being feared on sight by everyone else.</p>
+            <h4>FROZEN LEGACY</h4>
+            <p>Death for frostwights is not an ending but a transformation. They awaken with no memories of their mortal lives, clad in frost-covered relics of their past. Most accept their purpose as guardians—or raiders—of the tundra. Others resist the frost's grip, driven to uncover the truth of their affliction and the nature of Blood Hollow itself. These frostwights scour crumbling ruins and glacial crypts, piecing together fragments of obscure lore in hopes of finding a cure and reclaiming their lost lives.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Frostwights are frozen remnants of various Humanoids; each retains the features of their original species, whether the scaled hide of a lizardfolk, the wiry frame of a kobold, the hulking bulk of an orc, or the lean grace of an elf. Whatever they once were, their once-living bodies are now bloodless and lined with icy blue veins. Fragments of their former mortal lives remain visible in their appearance—tattered armor, worn tools, or faded clothing, now encased in frost, offer hints of who they were before Blood Hollow's curse claimed them.</p>
+            <p class="indent">When creating your frostwight, consider: Icy Features (what icy traits define your character? Do they have jagged wounds, frost-coated limbs, or crystalline protrusions?), Eyes (what hues and intensities mark your character's glowing gaze?), Remnants of Mortality (what items or trappings of their past life do they carry?), and Movement and Aura (how does the cold manifest in their movement or presence? Do they exude an icy mist or leave frost trails behind?).</p>
+            <table>
+                <tr><th>d10</th><th>Background</th></tr>
+                <tr><td>1</td><td>You were a warrior who fell in a great battle and were reanimated to protect the tundra.</td></tr>
+                <tr><td>2</td><td>You were a mystic who sought forbidden knowledge, resulting in your frostbound transformation.</td></tr>
+                <tr><td>3</td><td>You perished in an avalanche, and the frost reanimated you as its steward.</td></tr>
+                <tr><td>4</td><td>You willingly gave your life to the frost, dedicating yourself to eternal service.</td></tr>
+                <tr><td>5</td><td>You were the victim of a powerful curse that bound your soul to the ice.</td></tr>
+                <tr><td>6</td><td>You were a healer who froze to death while aiding others.</td></tr>
+                <tr><td>7</td><td>You fell defending your people from an invading force, rising again to finish the fight.</td></tr>
+                <tr><td>8</td><td>You wandered into Blood Hollow and were claimed by its magic.</td></tr>
+                <tr><td>9</td><td>You succumbed to the cold during a fateful journey, awakening with no memory of your past.</td></tr>
+                <tr><td>10</td><td>You were chosen by the frost itself, rising without understanding why but feeling its purpose.</td></tr>
+            </table>
+            <h4>FROSTWIGHT NAMES</h4>
+            <p>Frostwight names are as cold and haunting as the tundras they wander, often reflecting their actions, traits, or roles in their harsh existence. Each name carries echoes of the frost and the soul's passage into undeath. They typically sound sharp and brittle, like cracking ice or the howl of an arctic wind. Many frostwights adopt monikers earned through deeds, such as "Glacier's Edge" for a warrior or "Shardseer" for one attuned to frost magic.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Arnok, Eryth, Frayn, Haldor, Hrist, Ivarn, Kalt, Thryk, Veyr, Yrvar</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Althys, Crya, Froska, Krynn, Lyshka, Syrr, Thalyss, Velka, Ysse, Zyvara</p>
+            <h4>FROSTWIGHT TRAITS</h4>
+            <p>Your frostwight character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are an Undead. You are also considered a Humanoid for any prerequisite or effect that requires you to be a Humanoid.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Chilling Aura.</em></strong> As a bonus action, you can unleash an aura of freezing cold in a 10-foot radius around you for 1 minute. Creatures of your choice that enter the area for the first time on a turn or start their turn there must succeed on a Constitution saving throw (DC equals 8 + your Wisdom modifier + your proficiency bonus). On a failed save, a creature's speed is halved until the end of its next turn or until it leaves the area. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Frostbound Flesh.</em></strong> You have resistance to cold damage.</p>
+            <p class="indent"><strong><em>Frozen Touch.</em></strong> As a bonus action, you can imbue your attacks with an icy edge. Until the end of your turn, when you hit a creature with an unarmed strike or melee weapon attack, it deals an extra 1d6 cold damage. This damage increases to 2d6 at 6th level, 3d6 at 11th level, and 4d6 at 16th level. Once used, you can't use this trait again until you finish a short or long rest.</p>
+            <p class="indent"><strong><em>Hold Breath.</em></strong> You can hold your breath for 1 hour.</p>
+            <p class="indent"><strong><em>Soul of Frost.</em></strong> You know the shiver cantrip. Starting at 3rd level, you can cast the grave strength spell with this trait. Once you cast grave strength with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level. Wisdom is your spellcasting ability for these spells.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your GM agree is appropriate for the character.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="wisdom" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_FROSTWIGHT_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_FROSTWIGHT_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Frostwight)" supports="ID_HAILJOE_RACE_VARIANT_FROSTWIGHT_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_FROSTWIGHT_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Frostwight)" supports="Standard||Exotic" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_CHILLING_AURA" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_FROSTBOUND_FLESH" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_FROZEN_TOUCH" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_HOLD_BREATH" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_SOUL_OF_FROST" />
+        </rules>
+    </element>
+
+    <element name="Frostwight Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_FROSTWIGHT_SIZE_MEDIUM">
+        <supports>Frostwight</supports>
+        <description><p>You are Medium.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Frostwight Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_FROSTWIGHT_SIZE_SMALL">
+        <supports>Frostwight</supports>
+        <description><p>You are Small.</p></description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_FROSTWIGHT_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Frostwight Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_FROSTWIGHT_SIZE_SMALL" />
+
+    <element name="Chilling Aura" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_CHILLING_AURA">
+        <description>
+            <p>As a bonus action, you can unleash an aura of freezing cold in a 10-foot radius around you for 1 minute. Creatures of your choice that enter the area for the first time on a turn or start their turn there must succeed on a Constitution saving throw (DC equals 8 + your Wisdom modifier + your proficiency bonus). On a failed save, a creature's speed is halved until the end of its next turn or until it leaves the area. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{proficiency}}/Short Rest">
+            <description>You unleash a 10-foot radius aura of freezing cold for 1 minute. Creatures that enter or start their turn there make a Constitution saving throw (DC {{frostwight:chilling aura:dc}}) or have their speed halved until the end of their next turn or until they leave the area.</description>
+        </sheet>
+        <rules>
+            <stat name="frostwight:chilling aura:dc" value="8" />
+            <stat name="frostwight:chilling aura:dc" value="wisdom:modifier" />
+            <stat name="frostwight:chilling aura:dc" value="proficiency" />
+        </rules>
+    </element>
+
+    <element name="Frostbound Flesh" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_FROSTBOUND_FLESH">
+        <description>
+            <p>You have resistance to cold damage.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Frozen Touch" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_FROZEN_TOUCH">
+        <description>
+            <p>As a bonus action, you can imbue your attacks with an icy edge. Until the end of your turn, when you hit a creature with an unarmed strike or melee weapon attack, it deals an extra 1d6 cold damage. This damage increases to 2d6 at 6th level, 3d6 at 11th level, and 4d6 at 16th level. Once used, you can't use this trait again until you finish a short or long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Short Rest">
+            <description level="1">Until the end of your turn, your unarmed strikes and melee weapon attacks deal an extra 1d6 cold damage.</description>
+            <description level="6">Until the end of your turn, your unarmed strikes and melee weapon attacks deal an extra 2d6 cold damage.</description>
+            <description level="11">Until the end of your turn, your unarmed strikes and melee weapon attacks deal an extra 3d6 cold damage.</description>
+            <description level="16">Until the end of your turn, your unarmed strikes and melee weapon attacks deal an extra 4d6 cold damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Hold Breath" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_HOLD_BREATH">
+        <description>
+            <p>You can hold your breath for 1 hour.</p>
+        </description>
+        <sheet>
+            <description>You can hold your breath for 1 hour.</description>
+        </sheet>
+    </element>
+
+    <element name="Soul of Frost" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_FROSTWIGHT_SOUL_OF_FROST">
+        <description>
+            <p>You know the shiver cantrip. Starting at 3rd level, you can cast the grave strength spell with this trait. Once you cast grave strength with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level. Wisdom is your spellcasting ability for these spells.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>You know the shiver cantrip. Starting at 3rd level, you can cast grave strength with this trait (1/long rest). Wisdom is your spellcasting ability for these spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_HAILJOE_SPELL_SHIVER" />
+            <grant type="Spell" id="ID_HAILJOE_SPELL_GRAVE_STRENGTH" level="3" />
+        </rules>
+    </element>
+
+</elements>
