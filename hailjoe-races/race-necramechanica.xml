@@ -3,7 +3,7 @@
     <info>
         <name>Necramechanica</name>
         <description>The Necramechanica species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="race-necramechanica.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-necramechanica.xml" />
         </update>
     </info>
@@ -194,7 +194,8 @@
         </sheet>
         <rules>
             <stat name="ac:natural armor:dreadnought" value="13" bonus="base" />
-            <stat name="ac:natural armor:dreadnought" value="dexterity:modifier:2" bonus="ability" />
+            <stat name="ac:natural armor:dreadnought" value="dexterity:modifier" bonus="ability" />
+            <stat name="ac:natural armor:dreadnought:cap" value="2" bonus="base" />
             <stat name="ac:calculation" value="ac:natural armor:dreadnought" bonus="calculation" alt="Natural Armor (Dreadnought)" />
         </rules>
     </element>
