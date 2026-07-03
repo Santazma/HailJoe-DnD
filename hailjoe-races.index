@@ -4,7 +4,7 @@
 		<name>HailJoe Races</name>
 		<description>Hailjoe's homebrew races</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.26">
+		<update version="0.0.27">
 			<file name="hailjoe-races.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races.index" />
 		</update>
 	</info>
@@ -25,5 +25,6 @@
 		<file name="race-risen.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-risen.xml" />
 		<file name="race-shade.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-shade.xml" />
 		<file name="race-valcarrion.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-valcarrion.xml" />
+		<file name="race-voidkin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-voidkin.xml" />
 	</files>
 </index>
