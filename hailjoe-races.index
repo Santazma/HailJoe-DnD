@@ -4,7 +4,7 @@
 		<name>HailJoe Races</name>
 		<description>Hailjoe's homebrew races</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.23">
+		<update version="0.0.24">
 			<file name="hailjoe-races.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races.index" />
 		</update>
 	</info>
@@ -22,5 +22,6 @@
 		<file name="race-grafted.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-grafted.xml" />
 		<file name="race-mothkin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-mothkin.xml" />
 		<file name="race-necramechanica.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-necramechanica.xml" />
+		<file name="race-risen.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-risen.xml" />
 	</files>
 </index>
