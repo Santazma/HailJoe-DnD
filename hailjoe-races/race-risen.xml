@@ -3,7 +3,7 @@
     <info>
         <name>Risen</name>
         <description>The Risen species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="race-risen.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-risen.xml" />
         </update>
     </info>
@@ -166,7 +166,7 @@
             <p>Ironbones are formidable warriors known for their enhanced durability and combat prowess. Through a unique tempering process, their skeletons have been infused with iron, granting them additional protection and strength.</p>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
             <p class="indent"><strong><em>Arcane Protection.</em></strong> At 3rd level, you can cast the shield spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a short or long rest. Your spellcasting ability for this trait is the same as the ability you chose for Soulbound Magic.</p>
-            <p class="indent"><strong><em>Iron Infusion.</em></strong> Your iron-infused bones grant you natural armor. While not wearing armor, your AC equals 12 + your Dexterity or Constitution modifier (choose when you select this race).</p>
+            <p class="indent"><strong><em>Iron Infusion.</em></strong> Your iron-infused bones grant you natural armor. While not wearing armor, your AC equals 12 + your Constitution modifier (choose when you select this race).</p>
         </description>
         <sheet display="false" />
         <rules>
