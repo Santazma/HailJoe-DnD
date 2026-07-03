@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Risen</name>
+        <description>The Risen species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-risen.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-risen.xml" />
+        </update>
+    </info>
+
+    <element name="Risen" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_RISEN">
+        <description>
+            <p class="flavor">Risen are not echoes of past lives but something entirely new. They awaken with no memories, no inherited customs—only a soul bound to arcane bone. They were built, not resurrected, and their sentience begins at the moment of animation. They challenge what it means to be alive by proving that a soul, even in a constructed shell, can grow, choose, and leave its own mark. In them, we don't see death reversed; we see life redefined.</p>
+            <p>In the years following the God Wars—when the world had barely caught its breath from the conflict that had shaken the divine order and left Vidar, god of death, among the fallen—a small sect of Vidar's most devoted necromancers did something unexpected. They did not mourn quietly, and they did not seek revenge. They studied.</p>
+            <p class="indent">These scholars called themselves the Ossuary Compact. Their founding argument was deceptively simple: Vidar's death had not broken the cycle of life and death—it had merely left it unattended, like a great mechanism with no one to wind it. The Compact believed that flesh, being corruptible and temporary, was the wrong medium for preserving life beyond death. Flesh rotted. Flesh carried disease and decay. Flesh, when reanimated, produced the shambling horrors that gave necromancy its reputation. But bone was different. Bone endured. Bone was what remained when everything else had fallen away—the last honest record of a life lived.</p>
+            <p class="indent">Their experiment was to bind souls not to flesh, but to carefully prepared skeletal remains, held together not by necrotic energy alone but by intricate magical runes carved directly into the bone. The result was not undeath in the traditional sense—not a mindless skeleton, not a wight driven by hunger—but something wholly new: a being of living bone, inhabited by a soul that had never known the body it occupied, awakening into consciousness as if for the first time. These were the risen.</p>
+            <p class="indent">The Ossuary Compact was eventually destroyed—its members hunted by the Inquisition's predecessors, its records scattered, its laboratories sealed or burned. But the risen they created survived, and some have continued to emerge in the centuries since, from hidden caches of prepared remains that still wait, dormant, for a soul to find them.</p>
+            <h4>THE INQUISITION'S JUDGMENT</h4>
+            <p>The Inquisition does not recognize the distinction the Ossuary Compact drew between their method and conventional necromancy. A soul in a body it was not born into is, in the Inquisition's view, an abomination regardless of whether that body is flesh or bone. Risen who are discovered face the same fate as Eidolons and other beings the Inquisition classifies as violations of the natural order: persecution, forced dissolution, or worse. There is no theological nuance extended to them. The fact that the Ossuary Compact believed they were honoring Vidar's cycle rather than subverting it has never moved a single inquisitor.</p>
+            <h4>FIRST AWAKENING</h4>
+            <p>As the first rune-bound risen stirred into consciousness, they found themselves in an unfamiliar world, each step a discovery, each thought a novel creation. They possessed no memories of any past existence, allowing them to view the world with unbiased and unburdened minds. Their new existence was a fresh start at life through a nontraditional form of undeath.</p>
+            <h4>EMERGENCE OF A NEW PEOPLE</h4>
+            <p>Despite facing skepticism and fear from broader society, the risen tirelessly advocate for their right to exist as individuals. They challenge preconceived notions about life and consciousness, demonstrating through their actions the resilience of the soul and its capacity for adaptation and growth. Risen can be found anywhere in Aiwelen—wherever a cache of prepared remains survives from the Ossuary Compact's scattered work, wherever a soul finds its way into bone rather than passing on. There is no homeland, no concentration, no region that can claim them. They simply appear, one at a time, and make their way in a world that has no comfortable place for them.</p>
+            <h4>LEGACY OF THE RISEN</h4>
+            <p>Risen find sanctuary and purpose within their clans, where they forge strong bonds and delve into their arcane gifts. Despite facing skepticism from the broader world, these clans serve as nurturing grounds to explore their new identities and the depths of their reborn souls. United by shared origins and a collective pursuit of enlightenment, the clans work to redefine their existence, proving their worth beyond the chains of their creation.</p>
+            <h4>ROLES OF THE RISEN</h4>
+            <p>Within their clans, the risen develop unique worldviews, leading them to various roles in society. Their unbiased perspectives and resilience make them effective guardians of the natural world. Many also become formidable warriors, using their durable forms to protect others. Their meticulous nature and infinite patience drive some risen towards craftsmanship and artistry, while others find fulfillment in spiritual roles, serving as counselors or healers. Their inclination towards knowledge and discovery sees them thrive as scholars and researchers.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>The risen are a spectacle of magical craftsmanship, each skeleton a unique manifestation of arcane artistry. Their forms are composed of bones from various sources, ranging from humanoids to monstrous creatures, giving rise to a diversity in stature and build. Some may bear the delicate bones of an elf, while others display the robust frame of an orc or the formidable structure of a minotaur.</p>
+            <p class="indent">Carved into their bones are magical runes that glow with an inner light that varies in intensity and pattern. These inscriptions are the core of a risen's existence, binding the soul to the skeletal form. In place of traditional eyes, the risen have glowing points or ethereal lights within their eye sockets. These lights vary in color, offering a glimpse into the soul's essence.</p>
+            <p class="indent">When envisioning your risen character, consider: Skeletal Source (the origin of your bones, be it humanoid or monstrous, which shapes your size and physical appearance), Runes and Elemental Residues (the patterns and glow of the runes etched into your bones), Adaptive Anatomy (any modifications to your bone structure that enhance your functionality), and Soul Windows (the appearance of the magical lights that serve as your eyes).</p>
+            <table>
+                <tr><th>d10</th><th>Aesthetic</th></tr>
+                <tr><td>1</td><td>Intricate inlays of small, colorful gemstones adorn your bones, forming complex patterns that shimmer with light as you move.</td></tr>
+                <tr><td>2</td><td>Your skull is painted with the symbols of your society, marking you as a member of a specific group within your clan.</td></tr>
+                <tr><td>3</td><td>Your arms and ribcage are graced with delicate floral carvings, resembling vines winding around your skeletal form.</td></tr>
+                <tr><td>4</td><td>A thin, metallic filigree traces your bones, imparting a regal and ornate appearance akin to royal jewelry or armor.</td></tr>
+                <tr><td>5</td><td>Swirling dark tattoos cloak portions of your bones, subtly shifting and changing when not in direct view.</td></tr>
+                <tr><td>6</td><td>Crystal-like formations cluster on your joints and spine, sparkling in a kaleidoscope of colors that capture and refract light.</td></tr>
+                <tr><td>7</td><td>Glowing runes of power bedeck your bones, pulsating with a soft light that intensifies with strong emotions.</td></tr>
+                <tr><td>8</td><td>Bearing the marks of battle, your bones display nicks, scratches, and even embedded arrowheads or small weapons, echoing a warrior's past.</td></tr>
+                <tr><td>9</td><td>Moss, small flowers, or ivy drape over parts of your bones, lending an appearance that is both eerie and serene.</td></tr>
+                <tr><td>10</td><td>Detailed star maps adorn your arms and legs, faintly glowing in the dark, aligning with the constellations and stars of the night sky during specific times of the year.</td></tr>
+            </table>
+            <h4>RISEN NAMES</h4>
+            <p>Risen names are deeply rooted in the lore of their creation and the clans they form. Each risen is typically associated with a society, a group of like-minded individuals bound by common goals or the circumstances of their reanimation. The society names serve as a surname, uniting members under a shared banner and heritage.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Cadmus, Darius, Emeric, Gavrel, Ivor, Jareth, Mael, Orin, Silas, Xephir</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Aurelia, Elara, Iris, Liora, Mira, Nyx, Selene, Seraphine, Thalia, Vesper</p>
+            <p class="indent"><strong><em>Society Names:</em></strong> Emberheart, Frostmarrow, Ironcrest, Lightshard, Nightbloom, Runebound, Shadowveil, Starbone, Thornspire, Voidwhisper</p>
+            <h4>RISEN TRAITS</h4>
+            <p>Your risen character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1, and your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Construct.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+            <p class="indent"><strong><em>Age.</em></strong> You do not age or suffer the effects of aging, continuing to exist as long as the soul magic that binds your body remains intact.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+            <p class="indent"><strong><em>Living Construct.</em></strong> While you were created with magic, you have been imbued with a soul that grants you a semblance of life. You are affected by spells and effects that target Humanoids as well as Constructs. Despite your skeletal form, you can benefit from healing spells and similar effects. However, you do not require air, food, drink, or sleep. To gain the benefits of a long rest, you spend the time in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it does not render you unconscious, and you can still see and hear as normal.</p>
+            <p class="indent"><strong><em>Poison Resilience.</em></strong> You have resistance to poison damage and have advantage on saving throws against being poisoned.</p>
+            <p class="indent"><strong><em>Soulbound Magic.</em></strong> At 3rd level, you can cast the detect magic spell as a ritual. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast this spell with this trait (choose when you select this race).</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> Two main subraces of risen exist in the world: ironbones and mystic marrow. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" />
+            <stat name="wisdom" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_RISEN_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_RISEN_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Risen)" supports="ID_HAILJOE_RACE_VARIANT_RISEN_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_RISEN_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Risen)" supports="Standard||Exotic" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_LIVING_CONSTRUCT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_POISON_RESILIENCE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_SOULBOUND_MAGIC" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_SUBRACE" />
+        </rules>
+    </element>
+
+    <!-- Size Variants -->
+
+    <element name="Risen Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_RISEN_SIZE_MEDIUM">
+        <supports>Risen</supports>
+        <description><p>You are Medium.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Risen Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_RISEN_SIZE_SMALL">
+        <supports>Risen</supports>
+        <description><p>You are Small.</p></description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_RISEN_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Risen Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_RISEN_SIZE_SMALL" />
+
+    <!-- Core Traits -->
+
+    <element name="Living Construct" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_LIVING_CONSTRUCT">
+        <description>
+            <p>While you were created with magic, you have been imbued with a soul that grants you a semblance of life. You are affected by spells and effects that target Humanoids as well as Constructs. Despite your skeletal form, you can benefit from healing spells and similar effects. However, you do not require air, food, drink, or sleep. To gain the benefits of a long rest, you spend the time in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it does not render you unconscious, and you can still see and hear as normal.</p>
+        </description>
+        <sheet>
+            <description>You are affected by spells targeting Humanoids and Constructs, and can benefit from healing spells. You don't need air, food, drink, or sleep. Long rest: 4 hours inactive but conscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Poison Resilience" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_POISON_RESILIENCE">
+        <description>
+            <p>You have resistance to poison damage and have advantage on saving throws against being poisoned.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to poison damage and advantage on saving throws against being poisoned.</description>
+        </sheet>
+    </element>
+
+    <element name="Soulbound Magic" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_SOULBOUND_MAGIC">
+        <description>
+            <p>At 3rd level, you can cast the detect magic spell as a ritual. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast this spell with this trait (choose when you select this race).</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>At 3rd level, you can cast detect magic as a ritual. Your chosen ability is your spellcasting ability for it.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_MAGIC" level="3" />
+            <select type="Racial Trait" name="Spellcasting Ability (Soulbound Magic)" supports="Soulbound Magic Spellcasting Ability, Risen" />
+        </rules>
+    </element>
+
+    <element name="Soulbound Magic: Intelligence" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_SOULBOUND_MAGIC_INT">
+        <supports>Soulbound Magic Spellcasting Ability, Risen</supports>
+        <description><p>Intelligence is your spellcasting ability for Soulbound Magic.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Soulbound Magic: Wisdom" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_SOULBOUND_MAGIC_WIS">
+        <supports>Soulbound Magic Spellcasting Ability, Risen</supports>
+        <description><p>Wisdom is your spellcasting ability for Soulbound Magic.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Soulbound Magic: Charisma" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_SOULBOUND_MAGIC_CHA">
+        <supports>Soulbound Magic Spellcasting Ability, Risen</supports>
+        <description><p>Charisma is your spellcasting ability for Soulbound Magic.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Risen Subrace" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_SUBRACE">
+        <description><p>Two main subraces of risen exist: ironbones and mystic marrow. Choose one.</p></description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Risen Subrace" supports="Risen" />
+        </rules>
+    </element>
+
+    <!-- Subraces -->
+
+    <element name="Ironbones" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_RISEN_IRONBONES">
+        <supports>Risen</supports>
+        <description>
+            <p>Ironbones are formidable warriors known for their enhanced durability and combat prowess. Through a unique tempering process, their skeletons have been infused with iron, granting them additional protection and strength.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Arcane Protection.</em></strong> At 3rd level, you can cast the shield spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a short or long rest. Your spellcasting ability for this trait is the same as the ability you chose for Soulbound Magic.</p>
+            <p class="indent"><strong><em>Iron Infusion.</em></strong> Your iron-infused bones grant you natural armor. While not wearing armor, your AC equals 12 + your Dexterity or Constitution modifier (choose when you select this race).</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_ARCANE_PROTECTION" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_IRON_INFUSION" />
+        </rules>
+    </element>
+
+    <element name="Arcane Protection" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_ARCANE_PROTECTION">
+        <description>
+            <p>At 3rd level, you can cast the shield spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a short or long rest. Your spellcasting ability for this trait is the same as the ability you chose for Soulbound Magic.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>At 3rd level, you can cast the shield spell (1/short rest). Your spellcasting ability is the same as your Soulbound Magic choice.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHIELD" level="3" />
+        </rules>
+    </element>
+
+    <element name="Iron Infusion" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_IRON_INFUSION">
+        <description>
+            <p>Your iron-infused bones grant you natural armor. While not wearing armor, your AC equals 12 + your Constitution modifier.</p>
+        </description>
+        <sheet>
+            <description>While not wearing armor, your AC is {{ac:natural armor:ironbones}}.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:natural armor:ironbones" value="12" bonus="base" />
+            <stat name="ac:natural armor:ironbones" value="constitution:modifier" bonus="ability" />
+            <stat name="ac:calculation" value="ac:natural armor:ironbones" bonus="calculation" alt="Natural Armor (Ironbones)" />
+        </rules>
+    </element>
+
+    <element name="Mystic Marrow" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_RISEN_MYSTIC_MARROW">
+        <supports>Risen</supports>
+        <description>
+            <p>Mystic marrows have pursued the path of magic, focusing their existence on the study and mastery of the arcane arts. Their bones are etched with additional runes and glyphs that empower their magical abilities, making them adept spellcasters and scholars.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+            <p class="indent"><strong><em>Arcanist.</em></strong> You are proficient in the Arcana skill.</p>
+            <p class="indent"><strong><em>Runic Storage.</em></strong> Starting at 3rd level, your bones become inscribed with arcane runes capable of storing a single spell. When you finish a long rest, you can choose one spell you know or have prepared. The spell must be of a level you can cast and must target only yourself or a creature you can see. That spell becomes stored within your runes and can be cast once without expending a spell slot. The stored spell remains until it is cast or until you finish another long rest. The maximum level of the spell you can store increases as you gain levels: at 3rd level, a 1st-level spell; at 7th level, up to a 2nd-level spell; at 11th level, up to a 3rd-level spell; at 15th level, up to a 4th-level spell. Your spellcasting ability for this trait is the same as the ability you chose for Soulbound Magic.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_ARCANIST" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_RUNIC_STORAGE" />
+        </rules>
+    </element>
+
+    <element name="Arcanist" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_ARCANIST">
+        <description>
+            <p>You are proficient in the Arcana skill.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Runic Storage" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_RISEN_RUNIC_STORAGE">
+        <description>
+            <p>Starting at 3rd level, your bones become inscribed with arcane runes capable of storing a single spell. When you finish a long rest, you can choose one spell you know or have prepared. The spell must be of a level you can cast and must target only yourself or a creature you can see. That spell becomes stored within your runes and can be cast once without expending a spell slot. The stored spell remains until it is cast or until you finish another long rest. The maximum level of the spell you can store increases as you gain levels: at 3rd level, a 1st-level spell; at 7th level, up to a 2nd-level spell; at 11th level, up to a 3rd-level spell; at 15th level, up to a 4th-level spell. Your spellcasting ability for this trait is the same as the ability you chose for Soulbound Magic.</p>
+        </description>
+        <sheet>
+            <description level="3">After a long rest, store a 1st-level spell in your runes. Cast it once without a spell slot. Your spellcasting ability is your Soulbound Magic choice.</description>
+            <description level="7">After a long rest, store a spell of up to 2nd level in your runes. Cast it once without a spell slot.</description>
+            <description level="11">After a long rest, store a spell of up to 3rd level in your runes. Cast it once without a spell slot.</description>
+            <description level="15">After a long rest, store a spell of up to 4th level in your runes. Cast it once without a spell slot.</description>
+        </sheet>
+    </element>
+
+</elements>
