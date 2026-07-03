@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Valcarrion</name>
+        <description>The Valcarrion species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-valcarrion.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-valcarrion.xml" />
+        </update>
+    </info>
+
+    <element name="Valcarrion" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_VALCARRION">
+        <description>
+            <p class="flavor">Valcarrion were once stewards of sacred wilds—bodies bound to earth, spirit sworn to cycle. But corruption made them engines of death, their grace buried beneath chain and bone. Now unshackled, they stride between memory and purpose, seeking no redemption, only a future of their own. They are not what they were, nor what they were made to be. They are what endures when both are taken.</p>
+            <p>Valcarrion were once noble centaurs, celebrated as guardians of sacred groves and defenders of nature's balance. Their fate took a dark turn when necromancers and researchers in service to Morvath Sangrave, the First Elder Vampire, captured entire herds for a singular purpose: to forge living weapons for the legion armies of Aiwelen's high vampires. These necromancers used forbidden rituals to corrupt the valcarrion, twisting their forms and spirits into Undead warriors bound to serve the bloodline that had claimed them. Despite their grotesque transformation, these beings retained a vestige of their former grace, soaring through the air by the power of the malevolent magic that remade them.</p>
+            <h4>THE BROKEN BRIDLE REVOLT</h4>
+            <p>For generations following the God Wars, valcarrion served as elite enforcers in the legion armies of the high vampires descended from Morvath's line, instilling fear and despair across battlefields fought in service to bloodlines they had never chosen. Their doom-laden presence foretold destruction, their pounding hooves acting as the drums of war that drove vampiric armies into battle.</p>
+            <p class="indent">Not all valcarrion remain bound. In the centuries after the God Wars, one legion—stationed under the command of the vampire lord Voreth Kall, a particularly cruel scion of Morvath's bloodline—rose against their master in what has come to be called the Broken Bridle Revolt. The uprising was costly and desperate, fought not with the hope of victory so much as the refusal to remain chained. Against every expectation, the revolting legion shattered Voreth Kall's hold over them, breaking the ritual bonds that tied their wills to his, and fled into hiding before the vampire could rally his remaining forces to reclaim them.</p>
+            <p class="indent">This liberated legion calls itself the Unshackled. They are not the whole of the valcarrion people—the vast majority of valcarrion herds remain bound to other vampire lords across Aiwelen, some resigned to their service, a few even embracing it—but the Unshackled represent proof that the chains can be broken, and their continued survival is both an inspiration and a target for retaliation that has never fully materialized, if only because Voreth Kall has been unwilling to spend the resources to hunt down what he lost.</p>
+            <h4>VALCARRION ENCLAVES</h4>
+            <p>Freed but adrift, the Unshackled abandoned their defiled sacred groves in search of a new home, unable to return to the surface lands still watched by vampiric agents. They wandered through desolate lands and haunted ruins, eventually finding refuge primarily within the Underdark, where roughly four in five valcarrion Necropolises are carved—architectural wonders hewn from living rock, adorned with grand, tree-like spires that echo the sacred groves of their past. Illuminated by bioluminescent fungi and underground plants, these caverns not only sustain the valcarrion but also reconnect them to the natural world they once cherished. A smaller number of Necropolises—perhaps one in five—have been established on the surface, in specific remote and heavily defended locations far from vampiric or Inquisition attention.</p>
+            <h4>WARRIOR CULTURE</h4>
+            <p>At the heart of each Necropolis stands a grand hall, a gathering place for rituals and communal activities. These halls, adorned with relics and runes of rebirth, serve as constant reminders of the valcarrion's journey from servitude to autonomy. Over time, they developed a warrior culture, fiercely defending their underground sanctuaries. Valuing strength, resilience, and strategic prowess, every valcarrion is trained in the art of war. Festivals of Remembrance celebrate their liberation, recounting tales of ancestors and heroes, and helping to forge a new identity that balances the nobility of their origins with the darkness of their transformation.</p>
+            <h4>HELMS OF DOMINION</h4>
+            <p>Helms of Dominion are revered artifacts among the valcarrion and a visual representation of their individual roles and history. Originally used by the vampire legions that once commanded them, these helms have been reforged by the Unshackled to reflect their newfound autonomy.</p>
+            <p class="indent">Valcarrion hold an unwavering belief that their helms are not merely armor but extensions of their identity and honor. As a result, they refuse to be seen without their helms, considering it a grave dishonor to reveal their faces to others. This practice reinforces their commitment to their culture and the warrior code they live by, ensuring that their true selves are only ever known to those within their close-knit community. These helms are living records of the wearer's journey, continuously updated to highlight ongoing achievements.</p>
+            <p class="indent">Every helm is meticulously crafted to capture the wearer's role, accomplishments, and evolving identity. Warriors may don helms painted with fierce crimson hues and adorned with sharp, aggressive patterns, while healers favor calming blues with intricate, flowing designs. Adornments, such as feathers, bones, gemstones, and other valuable materials, commemorate significant milestones in a valcarrion's life. Runes and sigils inscribed into the helms tell deeper stories—honoring acts of courage or recording moments of failure and redemption.</p>
+            <p class="indent">Gaining the privilege to wear a Helm of Dominion is a significant rite of passage, requiring one to undergo trials that test strength, strategic intellect, and spiritual endurance.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Valcarrion display a striking diversity in appearance, a reflection of their complex heritage and the necromantic rituals that reshaped their ancestors. Each generation inherits distinct traits that blend noble centaur features with eerie, otherworldly characteristics.</p>
+            <p class="indent">Eyes. Valcarrion's eyes glow with an eerie light, shifting slightly with their emotions. Colors range from ghostly whites and silvers to vibrant purples and deep reds. Lower Body. Their lower bodies are skeletal or withered, ending in jagged, claw-like hooves. Exposed bones wrapped in sinew and decayed flesh pulse with dark energy, a legacy of their necromantic origins. Upper Body. Valcarrion skin ranges from pale, translucent hues to deep, shadowy colors. Intricate tattoos and markings often adorn their skin, symbolizing their life's journey and spiritual beliefs. Wings. Their vestigial wings, though non-functional for flight, are adorned with colored ribbons and stones, ranging from skeletal and tattered to fleshy with scales or feathers.</p>
+            <table>
+                <tr><th>d10</th><th>Trait</th></tr>
+                <tr><td>1</td><td>Large, branching antlers grow from the head, a trait celebrated by families whose ancestors were protectors of sacred forests. These antlers represent wisdom and strength, and their size and complexity are often seen as a mark of honor.</td></tr>
+                <tr><td>2</td><td>Patches of tough, reptilian scales cover parts of the body. Families with this trait take pride in their connection to ancient draconic beings, believing it signifies a legacy of power and resilience.</td></tr>
+                <tr><td>3</td><td>Sharp, beast-like claws are reminiscent of the predatory nature of ancestors who thrived in harsh environments. Families view these claws as signifying survival instincts and combat prowess.</td></tr>
+                <tr><td>4</td><td>Bioluminescent patterns that glow faintly in the dark are a cherished trait. These markings are seen as a connection to mystical energies, and families with this trait often hold prominent spiritual roles within the community.</td></tr>
+                <tr><td>5</td><td>Slit, cat-like eyes grant an intense, predatory gaze. Families with this trait are known for their keen perception and agility, often taking pride in their hunting skills and strategic thinking.</td></tr>
+                <tr><td>6</td><td>Gills on the neck hint at an aquatic lineage, prized by families with a history of adaptability and survival in diverse environments. This trait is celebrated for its representation of versatility and endurance.</td></tr>
+                <tr><td>7</td><td>A crest of feathers runs down the back, often changing color with emotions. Families with this trait cherish it as embodying freedom and emotional depth, with the colors representing various aspects of their heritage.</td></tr>
+                <tr><td>8</td><td>A long, spiked tail extends from the lower back, forming a distinctive appearance. This trait is a source of pride for families known for their balance, agility, and adaptive nature.</td></tr>
+                <tr><td>9</td><td>Hooves smolder with an inner fire, a remnant of the nightmare creatures from which your ancestors were grafted. This trait is seen as a sign of fierce determination and strength, with families believing that it bestows an unyielding spirit and a connection to powerful, fiery magic.</td></tr>
+                <tr><td>10</td><td>Curved, ram-like horns protrude from the forehead, signifying resilience and a deep connection to the earth. Families with this trait are often respected for their strength and grounding presence within the community.</td></tr>
+            </table>
+            <h4>NAMES</h4>
+            <p>Valcarrion names are deeply connected to their storied past and the clans to which they belong, reflecting their heritage and newfound purpose. After gaining autonomy from Voreth Kall's legion, each member of the Unshackled aligned with a clan formed around the leaders of their liberation. These clans serve as extended families, with surnames that unite members under a shared heritage.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Arvan, Eiron, Ikaros, Kaelis, Lykar, Maelgor, Tharion, Vardak, Xavrin, Zephryn</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Calindra, Elyria, Lythia, Miren, Nyxara, Orlena, Seraphine, Thalira, Velara, Veridra</p>
+            <p class="indent"><strong><em>Clan Names:</em></strong> Bonecrest, Dawnspire, Duskhorn, Emberhoof, Frostmane, Nightrider, Runehorn, Shadowfall, Starcaller, Voidheart</p>
+            <h4>TRAITS</h4>
+            <p>Your valcarrion character has the following traits.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are an Undead. You are also considered a Humanoid for any prerequisite or effect that requires you to be a Humanoid.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Valcarrion stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. You are Medium.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Valcarrion grow quickly relative to their lifespan, reaching maturity around 20 years and potentially living up to 300 years.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 40 feet.</p>
+            <p class="indent"><strong><em>Flight.</em></strong> You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor. This flight is considered magical.</p>
+            <p class="indent"><strong><em>Carnivorous Sustenance.</em></strong> You must consume raw meat to sustain your energy. You don't eat plants or cooked food.</p>
+            <p class="indent"><strong><em>Equine Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.</p>
+            <p class="indent"><strong><em>Necrotic Hooves.</em></strong> Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d6 + your Strength modifier necrotic damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
+            <p class="indent"><strong><em>Undying Legacy.</em></strong> You have resistance to poison damage and are immune to the poison condition.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your GM agree is appropriate for your character.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> Valcarrion have two main subraces: boneguard and wraithrider.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="innate speed" value="40" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Valcarrion)" supports="Standard||Exotic" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_FLIGHT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_CARNIVOROUS_SUSTENANCE" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_EQUINE_BUILD" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_NECROTIC_HOOVES" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_SUBRACE" />
+        </rules>
+    </element>
+
+    <element name="Flight" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_FLIGHT">
+        <description>
+            <p>You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor. This flight is considered magical.</p>
+        </description>
+        <sheet>
+            <description>You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</description>
+        </sheet>
+        <rules>
+            <stat name="speed:fly" value="30" bonus="base" equipped="!armor:medium,!armor:heavy" />
+        </rules>
+    </element>
+
+    <element name="Carnivorous Sustenance" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_CARNIVOROUS_SUSTENANCE">
+        <description>
+            <p>You must consume raw meat to sustain your energy. You don't eat plants or cooked food.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Equine Build" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_EQUINE_BUILD">
+        <description>
+            <p>You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.</p>
+        </description>
+        <sheet>
+            <description>You count as one size larger for carrying capacity and push/drag weight. Climbing that requires hands and feet costs you 4 extra feet of movement per foot climbed instead of 1.</description>
+        </sheet>
+    </element>
+
+    <element name="Necrotic Hooves" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_NECROTIC_HOOVES">
+        <description>
+            <p>Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d6 + your Strength modifier necrotic damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
+        </description>
+        <sheet>
+            <description>Your hoof unarmed strikes deal 1d6 + Strength modifier necrotic damage instead of normal bludgeoning damage.</description>
+        </sheet>
+        
+    </element>
+
+    <element name="Valcarrion Subrace" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_SUBRACE">
+        <description><p>Valcarrion have two main subraces: boneguard and wraithrider. Choose one.</p></description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Valcarrion Subrace" supports="Valcarrion" />
+        </rules>
+    </element>
+
+    <!-- Subraces -->
+
+    <element name="Boneguard" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_VALCARRION_BONEGUARD">
+        <supports>Valcarrion</supports>
+        <description>
+            <p>Boneguards are the vanguard of the valcarrion, embodying the unyielding strength of their Undead lineage. These warriors are the first to charge into battle, their skeletal forms bolstered by necromantic energy.</p>
+            <p class="indent"><strong><em>Bone Armor.</em></strong> Starting at 3rd level, as a reaction to being hit by a melee attack by a creature within 5 feet of you, you can encase yourself in a protective layer of bone shards. The attacking creature takes 1d4 piercing damage. This damage increases by 1d4 at 6th level (2d4), at 11th level (3d4), and at 16th level (4d4). You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Skeletal Fortitude.</em></strong> When an attack made against you is a critical hit, you can use your reaction to turn the critical hit into a hit instead. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_BONE_ARMOR" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_SKELETAL_FORTITUDE" />
+        </rules>
+    </element>
+
+    <element name="Bone Armor" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_BONE_ARMOR">
+        <description>
+            <p>Starting at 3rd level, as a reaction to being hit by a melee attack by a creature within 5 feet of you, you can encase yourself in a protective layer of bone shards. The attacking creature takes 1d4 piercing damage. This damage increases by 1d4 at 6th level (2d4), at 11th level (3d4), and at 16th level (4d4). You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="{{proficiency}}/Long Rest">
+            <description level="3">When hit by a melee attack from a creature within 5 feet, encase yourself in bone shards; the attacker takes 1d4 piercing damage.</description>
+            <description level="6">When hit by a melee attack from a creature within 5 feet, encase yourself in bone shards; the attacker takes 2d4 piercing damage.</description>
+            <description level="11">When hit by a melee attack from a creature within 5 feet, encase yourself in bone shards; the attacker takes 3d4 piercing damage.</description>
+            <description level="16">When hit by a melee attack from a creature within 5 feet, encase yourself in bone shards; the attacker takes 4d4 piercing damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Skeletal Fortitude" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_SKELETAL_FORTITUDE">
+        <description>
+            <p>When an attack made against you is a critical hit, you can use your reaction to turn the critical hit into a hit instead. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="1/Long Rest">
+            <description>When an attack against you is a critical hit, you can turn it into a normal hit instead.</description>
+        </sheet>
+    </element>
+
+    <element name="Wraithrider" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_VALCARRION_WRAITHRIDER">
+        <supports>Valcarrion</supports>
+        <description>
+            <p>Wraithriders move with an ethereal grace, existing between the Material and Ethereal Planes. Their connection to the spectral realms allows them to phase in and out of existence, slipping past defenses with ease. Masters of stealth and mobility, wraithriders use their ghostly powers to outmaneuver their enemies, striking from the shadows and disappearing without a trace.</p>
+            <p class="indent"><strong><em>Ghostly Veil.</em></strong> Starting at 3rd level, you can cast the invisibility spell on yourself. Once you cast that spell with this trait, you can't do so again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Spectral Movement.</em></strong> As an action, you can shift your form, overlaying your body with a ghostly apparition. Until the end of your turn, you can move through other creatures as if they were difficult terrain. If you end your turn in another creature's space, you are shunted to the nearest unoccupied space you last occupied. Each creature you pass through during this movement must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of its next turn. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_GHOSTLY_VEIL" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_SPECTRAL_MOVEMENT" />
+        </rules>
+    </element>
+
+    <element name="Ghostly Veil" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_GHOSTLY_VEIL">
+        <description>
+            <p>Starting at 3rd level, you can cast the invisibility spell on yourself. Once you cast that spell with this trait, you can't do so again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>Starting at 3rd level, you can cast invisibility on yourself (1/long rest).</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_INVISIBILITY" level="3" />
+        </rules>
+    </element>
+
+    <element name="Spectral Movement" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VALCARRION_SPECTRAL_MOVEMENT">
+        <description>
+            <p>As an action, you can shift your form, overlaying your body with a ghostly apparition. Until the end of your turn, you can move through other creatures as if they were difficult terrain. If you end your turn in another creature's space, you are shunted to the nearest unoccupied space you last occupied. Each creature you pass through during this movement must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of its next turn. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="{{proficiency}}/Long Rest">
+            <description>You move through other creatures as if they were difficult terrain until the end of your turn. Each creature you pass through must succeed on a Wisdom saving throw (DC {{valcarrion:spectral movement:dc}}) or be frightened of you until the end of its next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="valcarrion:spectral movement:dc" value="8" />
+            <stat name="valcarrion:spectral movement:dc" value="proficiency" />
+            <stat name="valcarrion:spectral movement:dc" value="charisma:modifier" />
+        </rules>
+    </element>
+
+</elements>
