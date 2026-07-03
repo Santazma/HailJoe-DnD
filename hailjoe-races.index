@@ -4,7 +4,7 @@
 		<name>HailJoe Races</name>
 		<description>Hailjoe's homebrew races</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.25">
+		<update version="0.0.26">
 			<file name="hailjoe-races.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races.index" />
 		</update>
 	</info>
@@ -24,5 +24,6 @@
 		<file name="race-necramechanica.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-necramechanica.xml" />
 		<file name="race-risen.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-risen.xml" />
 		<file name="race-shade.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-shade.xml" />
+		<file name="race-valcarrion.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-valcarrion.xml" />
 	</files>
 </index>
