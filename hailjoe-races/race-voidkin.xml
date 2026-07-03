@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Voidkin</name>
+        <description>The Voidkin species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-voidkin.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-voidkin.xml" />
+        </update>
+    </info>
+
+    <element name="Voidkin" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_VOIDKIN">
+        <description>
+            <p class="flavor">Voidkin are not the dead returned. They are something wholly new: flesh awakened by a sentient parasite from beyond the stars. This presence does not possess them but fuses with dormant tissue, birthing a consciousness neither mortal nor alien, but both. The voidkin live as dual minds—one shaped by instinct and memory, the other by a vast, unknowable will. Their very existence raises a question no scholar has yet answered: who is in control?</p>
+            <p>In the final, catastrophic days of the Desolation—when the Darkness That Is tore across the world in its war against the Earthbound Gods—a battlefield strewn with the countless dead became the unlikely womb for the birth of the voidkin. As that dark god's power surged across the dying land, something of its nature—a fragment, an echo, a sentient sliver of the Darkness's own essence—descended into the fallen. It found refuge in the abandoned vessels of dead soldiers, and this confluence of divine corruption and mortal remains awakened the corpses to a new state of being. Thus were born the voidkin, beings with fragmented memories of lives once lived and a newfound consciousness imbued with fragments of the Darkness That Is itself.</p>
+            <p class="indent">Whether the voidkin serve some grand design of their dark progenitor or are simply a byproduct of its passing—a wound the Darkness left in the world without meaning to—no voidkin has ever given a clear answer, and most seem genuinely unable to. Their purpose, if they have one, feels mystical and unresolved even to themselves: less a mission handed down from on high than a compulsion they cannot fully name, oriented toward truths that exist beyond mortal comprehension.</p>
+            <h4>KNOWN ONLY TO THE POWERS BENEATH</h4>
+            <p>Voidkin are not a known people, not even in the sense that batkin or frostwights are known as monsters of legend. Ordinary folk across Aiwelen have no framework for them at all, no folklore, no warnings passed down through generations, because voidkin so rarely surface into the world the living inhabit. Their existence is documented—if that is even the right word—only among the deep and terrible powers that hold sway over the Underdark and its hidden dominions: Dark Lords who rule from thrones no sunlight has ever touched, the mortal agents and cultists of slumbering Great Old Ones, and the rare few whose power and reach extend far enough into the world's cosmic undercurrents to recognize what a voidkin actually is.</p>
+            <p class="indent">The Inquisition, for its part, has no special awareness of the voidkin's true nature or origin. On the rare occasion an inquisitor encounters one, it is filed away as just another aberration born of the void—no different, in their estimation, from any other creature that claws its way out of some forgotten rift. They do not recognize the voidkin's connection to the Darkness That Is, and would likely not care if they did; to the Inquisition, a voidkin is simply one more thing to be eliminated, unremarkable among the world's long catalogue of things that should not exist. This ignorance is, in its own way, dangerous—the Inquisition has no idea how genuinely significant, or how genuinely perilous, a being touched by the Darkness's own essence can be.</p>
+            <h4>ANCESTRAL MEMORIES</h4>
+            <p>Each voidkin carries within them a mosaic of their former selves—echoes of emotions, skills, and instincts from the lives their bodies once led. A voidkin who was a knight may feel an inexplicable pull towards old battlegrounds, a natural aptitude for swordplay, or a sense of chivalry towards the weak. Another, the shell of a fallen healer, might find themselves instinctively reaching out to the injured, their hands remembering the motions of ancient remedies and salves. This retention of skills and memories lends each voidkin a unique perspective, influencing their roles and identities in the present.</p>
+            <h4>SYMBIOTIC CONSCIOUSNESS</h4>
+            <p>The sentient parasites that sparked the reanimation are not mere passengers; they are cohabitants of the voidkin's mind. These entities bring with them a cosmic awareness, offering insights into the fabric of reality that no unaltered mind could fathom. Their dual minds allow them to comprehend languages that have never touched their ears and solve riddles with logic that seems alien to the common folk.</p>
+            <h4>EXISTENTIAL ODYSSEY</h4>
+            <p>No longer constrained by the mortal coil, voidkin are driven by an insatiable urge to uncover the truths of their existence and the world around them. These pursuits are more than mere curiosity; they are the manifestation of the voidkin's innate need to understand their place in the cosmos, forging a path that intertwines the destiny of their race with the very secrets of existence—and, whether they admit it or not, with the nature of the entity that remade them.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>The voidkin's physical form is marked by the tangible influence of the parasitic entity within. Their stature typically mirrors the average human, yet there is a distinct lightness to their frame, a result of the void's alterations rather than a reduction in physical strength.</p>
+            <p class="indent">Their skin may exhibit a variety of mutations. The texture is often irregular, with areas that are unnaturally smooth or rough to the touch, sometimes resembling the bark of an ancient tree or the surface of a well-worn stone. Hues tend toward muted earth tones or blues and greens, occasionally veined with darker or lighter shades that map out the parasite's integration with the host.</p>
+            <p class="indent">Eyes are perhaps the most haunting of the voidkin's features, no longer windows to a soul but to an abyss. The eyes have adapted to their new existence, often appearing as solid colors without visible pupils, or with a faint glow that hints at the unnatural life force pulsating within them.</p>
+            <p class="indent">When determining your voidkin character's appearance, consider: Skin Texture (some parts may be smoother or rougher, displaying the random patterns of your parasitic transformation), Eyes (your eyes might be a uniform color or possess an unnatural sheen), Parasite's Imprint (a distinct area on your body showcases the bond with the parasite), Altered Limbs (your hands, arms, or other extremities may show mutations like elongation or additional joint articulations), and Unsettling Silhouette (slight shifts in your physical form create an otherworldly profile).</p>
+            <table>
+                <tr><th>d10</th><th>Mutation</th></tr>
+                <tr><td>1</td><td>A cluster of glowing orbs emerges from your scalp, each one swirling with a tiny galaxy's luminescence.</td></tr>
+                <tr><td>2</td><td>From your head and back sprout tendrils that hold the shimmer of the stars, moving with a life of their own.</td></tr>
+                <tr><td>3</td><td>Your skin has hardened into an armor-like exterior, etched with runes and symbols of a bygone era.</td></tr>
+                <tr><td>4</td><td>Your veins emit a soft light, visible through your skin, pulsing in rhythm with your otherworldly heart.</td></tr>
+                <tr><td>5</td><td>Your presence is accompanied by faint whispers, a remnant of the void's knowledge that spills into the air around you.</td></tr>
+                <tr><td>6</td><td>Your body is covered in a carapace that resembles ceremonial armor, complete with pauldrons and greaves crafted from an unknown cosmic material.</td></tr>
+                <tr><td>7</td><td>Your eyes are deep pools of darkness, with tiny lights flickering within them like distant stars.</td></tr>
+                <tr><td>8</td><td>One of your limbs ends in a twisted, mutated appendage of clear eldritch origin.</td></tr>
+                <tr><td>9</td><td>Parts of your flesh are semi-transparent, revealing the swirling cosmic energy that flows within.</td></tr>
+                <tr><td>10</td><td>A flowing mist seeps from your pores, shifting in color like the surface of a nebula.</td></tr>
+            </table>
+            <h4>VOIDKIN NAMES</h4>
+            <p>Voidkin names are as unique as their origins, often combining remnants of their past lives with the esoteric language of the void that now pulses through their veins. Names are chosen through personal revelation or bestowed by their peers, reflecting their nature and the newfound identity they embrace.</p>
+            <p class="indent"><strong><em>Voidkin Names:</em></strong> Astyr, Celthara, Dorneth, Ecthor, Elyndra, Felyndra, Ghaliri, Gralmor, Ilthara, Jhex, Jhul, Kael, Krevoss, Lyr, Mordek, Mordrenna, Nyssra, Nyx, Orin, Rys, Syth, Thalrin, Thalvia, Thar, Vexia, Vorn, Vyrak, Xilthar, Zarvok, Zyre</p>
+            <h4>VOIDKIN TRAITS</h4>
+            <p>Your voidkin character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Voidkin are created fully grown and do not age in the same way as other races. They are effectively immortal, as long as their parasitic bond remains intact.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+            <p class="indent"><strong><em>Eldritch Insight.</em></strong> Thanks to your connection to the void, you gain proficiency with one of the following skills of your choice: Arcana, Insight, Perception, or Survival.</p>
+            <p class="indent"><strong><em>Void Morphosis.</em></strong> You harbor a void parasite within, a creature of the chaos that underpins the universe. As an action, you can unleash the essence of the void, causing your body to undergo a dramatic and terrifying transformation. Your form mutates into a swirling mass of aberrant shapes and eerie energies. Each creature within 30 feet of you that can see you must succeed on a Charisma saving throw or become frightened of you until the end of its next turn. The DC for this saving throw equals 8 + your proficiency bonus + your Charisma modifier. Once you use this trait, you can't use it again until you finish a long rest.</p>
+            <p class="indent"><strong><em>Elder Languages.</em></strong> You can speak, read, and write Common and two other languages that you and your GM agree is appropriate for your character.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> Two main subraces of voidkin exist in the world: harbingers of silence and scholars of ruin. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_VOIDKIN_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_VOIDKIN_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Voidkin)" supports="ID_HAILJOE_RACE_VARIANT_VOIDKIN_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_VOIDKIN_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Voidkin) 1" supports="Standard||Exotic" />
+            <select type="Language" name="Language (Voidkin) 2" supports="Standard||Exotic" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <select type="Proficiency" name="Skill Proficiency (Eldritch Insight)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_VOID_MORPHOSIS" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_SUBRACE" />
+        </rules>
+    </element>
+
+    <!-- Size Variants -->
+
+    <element name="Voidkin Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_VOIDKIN_SIZE_MEDIUM">
+        <supports>Voidkin</supports>
+        <description><p>You are Medium.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Voidkin Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_VOIDKIN_SIZE_SMALL">
+        <supports>Voidkin</supports>
+        <description><p>You are Small.</p></description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_VOIDKIN_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Voidkin Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_VOIDKIN_SIZE_SMALL" />
+
+    <!-- Core Traits -->
+
+    <element name="Void Morphosis" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_VOID_MORPHOSIS">
+        <description>
+            <p>You harbor a void parasite within, a creature of the chaos that underpins the universe. As an action, you can unleash the essence of the void, causing your body to undergo a dramatic and terrifying transformation. Your form mutates into a swirling mass of aberrant shapes and eerie energies. Each creature within 30 feet of you that can see you must succeed on a Charisma saving throw or become frightened of you until the end of its next turn. The DC for this saving throw equals 8 + your proficiency bonus + your Charisma modifier. Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>Your body transforms into a swirling mass of aberrant shapes. Each creature within 30 feet that can see you makes a Charisma saving throw (DC {{voidkin:void morphosis:dc}}) or becomes frightened of you until the end of its next turn.</description>
+        </sheet>
+        <rules>
+            <stat name="voidkin:void morphosis:dc" value="8" />
+            <stat name="voidkin:void morphosis:dc" value="proficiency" />
+            <stat name="voidkin:void morphosis:dc" value="charisma:modifier" />
+        </rules>
+    </element>
+
+    <element name="Voidkin Subrace" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_SUBRACE">
+        <description><p>Two main subraces of voidkin exist: harbingers of silence and scholars of ruin. Choose one.</p></description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Voidkin Subrace" supports="Voidkin" />
+        </rules>
+    </element>
+
+    <!-- Subraces -->
+
+    <element name="Harbinger of Silence" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_VOIDKIN_HARBINGER_OF_SILENCE">
+        <supports>Voidkin</supports>
+        <description>
+            <p>The harbingers of silence are voidkin who embody the quiet of the void from which they were born. Moving with the silence of the grave, they are the unseen and unheard sentinels and assassins, adept in the arts of stealth and subtlety. Harbingers use their command over quiet to gain the advantage over their foes, to protect secrets, and sometimes to strike before they are ever detected. They are as much a part of the silence as the void itself.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Silent Steps.</em></strong> You are proficient in the Stealth skill.</p>
+            <p class="indent"><strong><em>Veil of Silence.</em></strong> Starting at 3rd level, you can cast the silence spell with this trait. Intelligence is your spellcasting ability for it when you cast this spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_VEIL_OF_SILENCE" />
+        </rules>
+    </element>
+
+    <element name="Veil of Silence" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_VEIL_OF_SILENCE">
+        <description>
+            <p>Starting at 3rd level, you can cast the silence spell with this trait. Intelligence is your spellcasting ability for it when you cast this spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>Starting at 3rd level, you can cast silence with this trait (1/long rest). Intelligence is your spellcasting ability for it.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_SILENCE" level="3" />
+        </rules>
+    </element>
+
+    <element name="Scholar of Ruin" type="Sub Race" source="HailJoe's Races" id="ID_HAILJOE_SUB_RACE_VOIDKIN_SCHOLAR_OF_RUIN">
+        <supports>Voidkin</supports>
+        <description>
+            <p>Scholars of ruin are voidkin who have dedicated themselves to the pursuit of ancient and often forbidden knowledge in the ruins of old libraries and lost cities. They serve as living archives of the world's lost histories and are relentless in their quest to uncover the secrets of the past. Their wisdom is a beacon that lights the way through the darkness of ignorance, their knowledge a treasure beyond measure.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Knowledge of the Ages.</em></strong> You are proficient in the History skill.</p>
+            <p class="indent"><strong><em>Rune of Eldritch Knowledge.</em></strong> Starting at 3rd level, you can cast the detect thoughts spell with this trait. Intelligence is your spellcasting ability for it when you cast this spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_RUNE_OF_ELDRITCH_KNOWLEDGE" />
+        </rules>
+    </element>
+
+    <element name="Rune of Eldritch Knowledge" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_VOIDKIN_RUNE_OF_ELDRITCH_KNOWLEDGE">
+        <description>
+            <p>Starting at 3rd level, you can cast the detect thoughts spell with this trait. Intelligence is your spellcasting ability for it when you cast this spell with this trait. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>Starting at 3rd level, you can cast detect thoughts with this trait (1/long rest). Intelligence is your spellcasting ability for it.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_THOUGHTS" level="3" />
+        </rules>
+    </element>
+
+</elements>
