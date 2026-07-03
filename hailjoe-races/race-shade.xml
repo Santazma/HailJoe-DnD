@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Shade</name>
+        <description>The Shade species from the Erevan's Guide to Death and Beyond, revised and reflavoured by HailJoe.</description>
+        <update version="0.0.1">
+            <file name="race-shade.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-races/race-shade.xml" />
+        </update>
+    </info>
+
+    <element name="Shade" type="Race" source="HailJoe's Races" id="ID_HAILJOE_RACE_SHADE">
+        <description>
+            <p class="flavor">A shade is the impression of a life, reconstituted in darkness. They are not truly flesh, though they wear the outline of it. Their forms flicker like a half-remembered memory, solid only when willed. Their eyes shine with no heat, yet they see clearly. They speak little, cast no warmth, and bleed nothing—but they carry fragments of lives they did not live, shaped by instincts they never earned. They are not impostors. They are echoes made sovereign.</p>
+            <p>Shades originate from the Shadowfell, where they were once formless entities drifting in endless darkness. When fractures in the cosmic veil allowed them to slip into the Material Plane, they merged with physical bodies to anchor their existence. The origins of these shadow and flesh beings remain a subject of speculation among scholars, who debate whether shades are an accidental byproduct of planar breaches or deliberately shaped by some ancient force lurking within the Shadowfell's deeper reaches.</p>
+            <h4>ORIGINS OF THE SHADOWED</h4>
+            <p>When an elemental shadow enters the Material Plane, it hunts for a living host, enticed by their warmth and presence. But this hunt is not indiscriminate. The first host a shade claims is chosen according to a deliberate, unerring pattern—strength, skill, some quality that made that mortal life worth consuming rather than merely ending. The shadow pours into the body, sinking through the skin, mouth, and eyes like liquid night. A freezing weight spreads through the host, their breath faltering as the shadow fuses with their form. Their pulse slows, their flesh dulls, and their shadow twists unnaturally. The host's memories scatter as the darkness takes hold, leaving behind fragments of identity. When the process ends, the new shade rises—no longer purely shadow or fully mortal, but something in between.</p>
+            <p class="indent">Should a shade ever need to claim a second host—their first form destroyed beyond salvaging, or their bond to it severed by some magic or violence—they do not hunt blindly a second time. Instead, they draw upon the scattered memories of their first victim, tracing the threads of relationships, rivalries, and half-remembered names still lodged somewhere in that borrowed mind, until they find their way to whoever that memory leads them to. Each subsequent host is thus chosen through the last: a chain of consumption reaching backward through lives that were never truly the shade's own.</p>
+            <h4>THE INQUISITION'S HIDDEN HAND</h4>
+            <p>On paper, the Inquisition classifies shades exactly as it classifies any other being born of planar corruption and stolen flesh: heretical, unnatural, to be destroyed on sight. This is the version of the truth available to the public, to lesser clergy, to the vast majority of the faithful. It is not the whole truth.</p>
+            <p class="indent">In practice, a very small circle within the Inquisition's upper hierarchy has learned to use shades as weapons—infiltrators, assassins, information-gatherers whose ability to wear a stolen face makes them uniquely suited to tasks the Inquisition would never officially sanction. These operations are conducted through cutouts: specialized shadow-hunter cells and small, deniable cadres who know the truth of what they handle and are sworn, on pain of death, never to speak of it. The ordinary Inquisitor, the ordinary priest, the ordinary citizen has no idea that the same abomination burned in effigy on the Day of Shattered Crowns might, in some sealed vault beneath the White City, be receiving orders from a cardinal.</p>
+            <h4>SHADOWBORNE EXISTENCE</h4>
+            <p>For a shade, life is a constant adaptation. Each inherits fragments of their absorbed victim's physical traits and skills, allowing them to integrate aspects of those past lives into their own. Yet many shades struggle to balance the former lives they inherited with their shadow-based abilities. Some embrace the strength granted by their elemental origin to manipulate light and darkness, while others immerse themselves in the mortal world to explore what it means to live beyond survival.</p>
+            <p class="indent">Shades are neither lost wanderers nor aimless predators; they are pragmatic survivors. They adapt to their surroundings with uncanny efficiency, making allies when it benefits them and disappearing into the shadows when it does not. Each shade seeks a purpose shaped by a world that sees them as both a marvel and a threat.</p>
+            <h4>SHADOWS AMONG THE LIVING</h4>
+            <p>Shades rarely integrate well into mortal societies, as their shadowy forms evoke unease and outright fear in most civilizations. Instead, they carve out solitary lives, often serving as spies, assassins, or thieves slinking through the darkness they once called home. Others become self-appointed guardians of the wilderness or forgotten places, drawn to the solitude of the shadows they understand best.</p>
+            <p class="indent">However, shades are not without social bonds. When two or more meet, they often form fleeting alliances, recognizing in each other a shared origin and a kindred spirit. These connections are practical but can evolve into deeper camaraderie over time.</p>
+            <h4>PHYSICAL APPEARANCE</h4>
+            <p>Shades are humanoid figures wreathed in wispy darkness, their forms blending flesh and elemental shadow. Their skin ranges from deep gray to pitch black, often appearing translucent or blurred at the edges. Their pupilless eyes shimmer in hues of silver, violet, or pale blue. Features from their absorbed victims—such as facial structures, scars, or body shapes—remain visible, though distorted.</p>
+            <p class="indent">Shades often flicker like candlelight or shift in and out of focus. This effect becomes more pronounced in dim light or darkness, where they seem almost incorporeal, moving with an unnatural grace that can unsettle those unaccustomed to their presence.</p>
+            <p class="indent">When envisioning your character, consider: how does your shadow nature manifest? Do parts of your body appear wispy and shifting, or does your form remain fully solid but unnaturally dark? What physical traits remain from your absorbed form? Does your face resemble the host you consumed, or is it distorted and unrecognizable? How does your body interact with light? Do you cast an indistinct, flickering shadow, or do you absorb the light around you without casting one?</p>
+            <h4>BACKGROUND AND FORM</h4>
+            <p>The process of creating a shade involves determining both their physical form and the origin of their shadow-bound existence. The form reflects the Humanoid they absorbed. To determine these details, either roll a d10 on the table below or use the table as inspiration.</p>
+            <table>
+                <tr><th>d10</th><th>Humanoid Form</th><th>Description</th></tr>
+                <tr><td>1</td><td>Human</td><td>You were a scholar consumed while studying the nature of the Plane of Shadow.</td></tr>
+                <tr><td>2</td><td>Elf</td><td>You merged with a ranger who fell in an ambush while navigating the tundra.</td></tr>
+                <tr><td>3</td><td>Dwarf</td><td>You absorbed a miner lost in the darkness of an ancient cavern.</td></tr>
+                <tr><td>4</td><td>Halfling</td><td>You bonded with a merchant caught in an elemental storm while traveling.</td></tr>
+                <tr><td>5</td><td>Half-Orc</td><td>You became one with a warlord betrayed by their allies in battle.</td></tr>
+                <tr><td>6</td><td>Tiefling</td><td>You fused with an outcast seeking refuge in forbidden shadow magics.</td></tr>
+                <tr><td>7</td><td>Gnome</td><td>You absorbed an inventor who stumbled upon an unstable shadow artifact.</td></tr>
+                <tr><td>8</td><td>Dragonborn</td><td>You merged with a knight defending a sacred site to the death.</td></tr>
+                <tr><td>9</td><td>Lizardfolk</td><td>You fused with a hunter pursuing prey through the murky swamps.</td></tr>
+                <tr><td>10</td><td>Kobold</td><td>You absorbed a trapmaker who delved too deeply into shadowed ruins.</td></tr>
+            </table>
+            <h4>SHADE NAMES</h4>
+            <p>Shades derive their names from various sources, reflecting their unique existence. Some choose to retain the name of their bonded body, clinging to remnants of their past. Others abandon these connections, forging entirely new names that reflect their transformation. Names are often inspired by whispered syllables or sounds that evoke the essence of elemental shadow.</p>
+            <p class="indent"><strong><em>Male Names:</em></strong> Azrek, Brynthar, Chalthos, Drevik, Faelros, Krenvar, Lorath, Nyvor, Raltis, Zykar</p>
+            <p class="indent"><strong><em>Female Names:</em></strong> Althira, Brynneth, Calvara, Dyris, Feynna, Loryth, Maerith, Sylvara, Vynris, Zylera</p>
+            <p class="indent"><strong><em>Neutral Names:</em></strong> Ashen, Caelith, Draevor, Lirven, Myrkis, Solvarn, Thynel, Veyris, Xalith, Zorven</p>
+            <h4>SHADE TRAITS</h4>
+            <p>Your shade character has the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and your Charisma score increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Shades age slowly, their bodies sustained by shadow essence. They reach maturity at the same rate as their original physical form but can live up to 500 years before gradually fading into darkness.</p>
+            <p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered an Elemental for any prerequisite or effect that requires you to be an Elemental.</p>
+            <p class="indent"><strong><em>Size.</em></strong> You are Medium or Small, matching the size of the race you inhabited. At the GM's discretion, you can choose the size when you select this race.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Incorporeal Movement.</em></strong> As a bonus action, you can partially shift into the Shadowfell, allowing you to move through other creatures as if they were difficult terrain until the end of your turn. If you end your turn in the same space as a creature, you are immediately shunted back to the nearest unoccupied space you left and take force damage equal to 1d10 for each 5 feet traveled. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Shadow Stealth.</em></strong> While in dim light or darkness, you can take the Hide action as a bonus action.</p>
+            <p class="indent"><strong><em>Shared Essence.</em></strong> You inherit one racial trait from the Humanoid form you absorbed. Choose one racial trait from the list below or from another Humanoid race with your GM's approval.</p>
+            <p class="indent"><strong><em>Superior Darkvision.</em></strong> Accustomed to the Plane of Shadow, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your GM agree is appropriate for the character, typically that of your bonded form.</p>
+            <table>
+                <tr><th>d10</th><th>Humanoid Form</th><th>Shared Racial Trait</th></tr>
+                <tr><td>1</td><td>Human</td><td>Ability Score Increase. One ability score of your choice increases by 1.</td></tr>
+                <tr><td>2</td><td>Elf</td><td>Fey Ancestry. You have advantage on saving throws against being charmed, and magic can't put you to sleep.</td></tr>
+                <tr><td>3</td><td>Dwarf</td><td>Dwarven Resilience. You have advantage on saving throws against poison, and you have resistance against poison damage.</td></tr>
+                <tr><td>4</td><td>Halfling</td><td>Lucky. When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. Once used, you can't use this trait again until you finish a short or long rest.</td></tr>
+                <tr><td>5</td><td>Half-Orc</td><td>Savage Attacks. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</td></tr>
+                <tr><td>6</td><td>Tiefling</td><td>Infernal Legacy. You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell once with this trait, regaining the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait, regaining the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</td></tr>
+                <tr><td>7</td><td>Gnome</td><td>Gnome Cunning. You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</td></tr>
+                <tr><td>8</td><td>Dragonborn</td><td>Shadow Breath. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy. Each creature in a 15-foot cone must make a Constitution saving throw (DC 8 + your Constitution modifier + your proficiency bonus). A creature takes 2d6 necrotic damage on a failed save, or half as much damage on a successful one. This damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. A creature that fails its saving throw can't regain hit points until the start of your next turn. Once you use this trait, you can't use it again until you finish a short or long rest.</td></tr>
+                <tr><td>9</td><td>Lizardfolk</td><td>Natural Armor. When unarmored, your AC equals 13 + your Dexterity modifier.</td></tr>
+                <tr><td>10</td><td>Kobold</td><td>Defiance. You have advantage on saving throws against being frightened.</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="charisma" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_HAILJOE_INTERNAL_GRANTS_SHADE_SIZE_SMALL" />
+            <grant type="Size" id="ID_SIZE_SMALL" requirements="ID_HAILJOE_INTERNAL_GRANTS_SHADE_SIZE_SMALL" />
+            <select type="Race Variant" name="Size (Shade)" supports="ID_HAILJOE_RACE_VARIANT_SHADE_SIZE_MEDIUM|ID_HAILJOE_RACE_VARIANT_SHADE_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Shade)" supports="Standard||Exotic" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <stat name="darkvision:range" value="120" bonus="base" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_INCORPOREAL_MOVEMENT" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_SHADOW_STEALTH" />
+            <grant type="Racial Trait" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_SHARED_ESSENCE" />
+        </rules>
+    </element>
+
+    <!-- Size Variants -->
+
+    <element name="Shade Size: Medium" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_SHADE_SIZE_MEDIUM">
+        <supports>Shade</supports>
+        <description><p>You are Medium.</p></description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Shade Size: Small" type="Race Variant" source="HailJoe's Races" id="ID_HAILJOE_RACE_VARIANT_SHADE_SIZE_SMALL">
+        <supports>Shade</supports>
+        <description><p>You are Small.</p></description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Grants" id="ID_HAILJOE_INTERNAL_GRANTS_SHADE_SIZE_SMALL" />
+        </rules>
+    </element>
+
+    <element name="Shade Size Small Grant" type="Grants" source="Internal" id="ID_HAILJOE_INTERNAL_GRANTS_SHADE_SIZE_SMALL" />
+
+    <!-- Core Traits -->
+
+    <element name="Incorporeal Movement" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_INCORPOREAL_MOVEMENT">
+        <description>
+            <p>As a bonus action, you can partially shift into the Shadowfell, allowing you to move through other creatures as if they were difficult terrain until the end of your turn. If you end your turn in the same space as a creature, you are immediately shunted back to the nearest unoccupied space you left and take force damage equal to 1d10 for each 5 feet traveled. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+            <description>You partially shift into the Shadowfell, moving through creatures as if they were difficult terrain until the end of your turn. If you end your turn in a creature's space, you're shunted back and take 1d10 force damage per 5 feet traveled.</description>
+        </sheet>
+    </element>
+
+    <element name="Shadow Stealth" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_SHADOW_STEALTH">
+        <description>
+            <p>While in dim light or darkness, you can take the Hide action as a bonus action.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>While in dim light or darkness, you can take the Hide action as a bonus action.</description>
+        </sheet>
+    </element>
+
+    <element name="Shared Essence" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_SHARED_ESSENCE">
+        <description>
+            <p>You inherit one racial trait from the Humanoid form you absorbed. Choose one racial trait from the list below or from another Humanoid race with your GM's approval.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Shared Essence" supports="Shade Shared Essence" />
+        </rules>
+    </element>
+
+    <!-- Shared Essence Options -->
+
+    <element name="Shared Essence: Human" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_HUMAN">
+        <supports>Shade Shared Essence</supports>
+        <description><p>One ability score of your choice increases by 1.</p></description>
+        <sheet display="false" />
+        <rules>
+            <select type="Ability Score Improvement" name="Shared Essence: Human Ability Increase" supports="Custom Ability Score Improvement Option" />
+        </rules>
+    </element>
+
+    <element name="Shared Essence: Elf" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_ELF">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Fey Ancestry. You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p></description>
+        <sheet><description>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</description></sheet>
+    </element>
+
+    <element name="Shared Essence: Dwarf" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_DWARF">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Dwarven Resilience. You have advantage on saving throws against poison, and you have resistance against poison damage.</p></description>
+        <sheet><description>You have advantage on saving throws against poison and resistance to poison damage.</description></sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+        </rules>
+    </element>
+
+    <element name="Shared Essence: Halfling" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_HALFLING">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Lucky. When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. Once used, you can't use this trait again until you finish a short or long rest.</p></description>
+        <sheet usage="1/Short Rest"><description>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll and must use the new roll.</description></sheet>
+    </element>
+
+    <element name="Shared Essence: Half-Orc" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_HALF_ORC">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Savage Attacks. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p></description>
+        <sheet><description>When you score a critical hit with a melee weapon attack, roll one additional weapon damage die and add it to the extra critical hit damage.</description></sheet>
+    </element>
+
+    <element name="Shared Essence: Tiefling" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_TIEFLING">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Infernal Legacy. You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell once with this trait, regaining the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait, regaining the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p></description>
+        <sheet usage="1/Long Rest"><description>You know thaumaturgy. At 3rd level, cast hellish rebuke (1/long rest); at 5th level, cast darkness (1/long rest). Charisma is your spellcasting ability.</description></sheet>
+        <rules>
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_THAUMATURGY" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_HELLISH_REBUKE" level="3" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
+        </rules>
+    </element>
+
+    <element name="Shared Essence: Gnome" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_GNOME">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Gnome Cunning. You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p></description>
+        <sheet><description>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</description></sheet>
+    </element>
+
+    <element name="Shared Essence: Dragonborn" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_DRAGONBORN">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Shadow Breath. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy. Each creature in a 15-foot cone must make a Constitution saving throw (DC 8 + your Constitution modifier + your proficiency bonus). A creature takes 2d6 necrotic damage on a failed save, or half as much damage on a successful one. This damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. A creature that fails its saving throw can't regain hit points until the start of your next turn. Once you use this trait, you can't use it again until you finish a short or long rest.</p></description>
+        <sheet action="Attack" usage="1/Short Rest">
+            <description level="1">Replace one attack with a 15-foot cone exhalation. Constitution save (DC {{shade:shadow breath:dc}}) or 2d6 necrotic damage (half on success). Failed save: can't regain hit points until start of your next turn.</description>
+            <description level="6">Replace one attack with a 15-foot cone exhalation. Constitution save (DC {{shade:shadow breath:dc}}) or 3d6 necrotic damage (half on success).</description>
+            <description level="11">Replace one attack with a 15-foot cone exhalation. Constitution save (DC {{shade:shadow breath:dc}}) or 4d6 necrotic damage (half on success).</description>
+            <description level="16">Replace one attack with a 15-foot cone exhalation. Constitution save (DC {{shade:shadow breath:dc}}) or 5d6 necrotic damage (half on success).</description>
+        </sheet>
+        <rules>
+            <stat name="shade:shadow breath:dc" value="8" />
+            <stat name="shade:shadow breath:dc" value="constitution:modifier" />
+            <stat name="shade:shadow breath:dc" value="proficiency" />
+        </rules>
+    </element>
+
+    <element name="Shared Essence: Lizardfolk" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_LIZARDFOLK">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Natural Armor. When unarmored, your AC equals 13 + your Dexterity modifier.</p></description>
+        <sheet><description>When unarmored, your AC is {{ac:natural armor:shade}}.</description></sheet>
+        <rules>
+            <stat name="ac:natural armor:shade" value="13" bonus="base" />
+            <stat name="ac:natural armor:shade" value="dexterity:modifier" bonus="ability" />
+            <stat name="ac:calculation" value="ac:natural armor:shade" bonus="calculation" alt="Natural Armor (Shade)" />
+        </rules>
+    </element>
+
+    <element name="Shared Essence: Kobold" type="Racial Trait" source="HailJoe's Races" id="ID_HAILJOE_RACIAL_TRAIT_SHADE_ESSENCE_KOBOLD">
+        <supports>Shade Shared Essence</supports>
+        <description><p>Defiance. You have advantage on saving throws against being frightened.</p></description>
+        <sheet><description>You have advantage on saving throws against being frightened.</description></sheet>
+    </element>
+
+</elements>
