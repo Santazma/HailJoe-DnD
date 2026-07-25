@@ -3,7 +3,7 @@
 	<info>
 		<name>HailJoe's Homebrew Spells</name>
 		<description>Newmade Homebrew Spells from the HailJoe.</description>
-		<update version="0.0.21">
+		<update version="0.0.22">
 			<file name="hailjoe-homebrew-spells.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-spells/hailjoe-homebrew-spells/hailjoe-homebrew-spells.xml" />
 		</update>
 	</info>
@@ -1111,5 +1111,30 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+
+	<element name="Rift of Bound Fates" type="Spell" source="HailJoe Spells" id="ID_HAILJOE_SPELL_RIFT_OF_BOUND_FATES">
+    	<supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+    	<description>
+        	<p>You tear open a fracture in reality, layering an invisible fold of the void over an area you designate within range. Choose a point within range; the spell creates an invisible boundary in the shape of a sphere with a radius of up to 300 feet centered on that point. Creatures within the area have no innate awareness of the ward's existence. A creature that studies the area can attempt an Intelligence (Investigation) check against your spell save DC to notice subtle warping of light and sound at its edges, revealing the boundary's presence and approximate shape, though not the nature of what it does.</p>
+        	<p>When you cast this spell, you designate the condition under which the ward activates. You can specify a triggering condition of your choosing (such as a number of creatures being present within the area, or the passage of a set span of time), or you can instead reserve the right to activate the ward yourself as an action at any point before the spell ends, provided you have some awareness of the area, such as through scrying or another divination effect.</p>
+        	<p>When the ward activates, every creature within the area is instantaneously teleported to swap places with another creature within the same area. No creature is moved outside the boundary of the area by this effect. This exchange is not random: each creature is matched with the creature to whom its fate is most closely intertwined, as determined by threads of destiny beyond mortal reckoning—a bitter rival, a long-lost sibling, a killer and their future victim, or any other bond the fabric of fate itself deems significant. If you designate specific criteria when you cast the spell, such as grouping creatures by allegiance, appearance, or some other defining trait you specify, the fabric of fate honors that structure instead wherever possible, falling back to a fate-bound match for any creatures your criteria do not account for.</p>
+        	<p>This transposition happens with such overwhelming metaphysical certainty that no creature can resist it. The spell allows no saving throw against the teleportation effect itself.</p>
+        	<p>Once the ward activates, its power is spent, and the spell ends.</p>
+    	</description>
+    	<setters>
+			<set name="keywords">void, teleport, ward, rift, transposition</set>
+        	<set name="level">8</set>
+       	 	<set name="school">Conjuration</set>
+        	<set name="time">10 Minutes</set>
+			<set name="duration">24 Hours</set>
+        	<set name="range">1 Mile</set>
+        	<set name="hasVerbalComponent">true</set>
+        	<set name="hasSomaticComponent">true</set>
+        	<set name="hasMaterialComponent">true</set>
+        	<set name="materialComponent">a shard of a dead star which the spell consumes</set>
+        	<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+    	</setters>
+	</element>
 	
 </elements>
