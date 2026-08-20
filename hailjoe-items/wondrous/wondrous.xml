@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.29">
+    <update version="0.0.30">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -1037,6 +1037,55 @@
             <set name="rarity">Uncommon</set>
             <set name="slot">eyes</set>
         </setters>
+    </element>
+
+	<element name="Spectacles of the Sacred Pyre" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_SPECTACLES_OF_THE_SACRED_PYRE">
+        <description>
+			<div class="sidebar">
+	    		<p class="flavor">It is said that during the Siege of the Ashen Spire, Discount spent three days staring directly into a blazing holy pyre, seeking a sign from his deity 'Radiant One'. When he finally turned away, his mortal eyes were forever scarred by divine light, leaving him unable to perceive the mundane world without the aid of sanctified glass. The blacksmiths of the Order set tempered obsidian and molten ember-glass into a filigreed dark-iron frame, binding the glasses with sacred rites for him.</p>
+	  		</div>
+            <p>Crafted from filigreed dark metal and set with glowing, fiery obsidian-glass lenses, these spectacles were forged for inquisitors who blend sorcerous embers with holy fervor. The burning veins within the glass pulse in rhythm with the wearer's devotion.</p>
+            <p class="indent"><strong><em>Eyes of the Devout Judgement.</em></strong> You gain advantage on Wisdom (Insight) checks made to determine if a creature is lying, as the burning lenses visibly flare whenever dishonesty is uttered in your presence.</p>
+            <p class="indent"><strong><em>Audit the Weak.</em></strong> You can cast the Borrowed Knowledge spell without expending a spell slot. This spell doesn't count against the number of spells you have prepared. Once you cast the spell in this way, you can't do so again until you finish a long rest. Additionally, once per long rest, when a Fiend, Undead, or Aberration succeeds on a saving throw against a spell you cast that deals fire or radiant damage, you can choose to maximize the spell’s damage instead of rolling. The target still takes half damage as a result of a successful save, but that half damage is calculated using the maximum possible result of the spell's damage dice.</p>
+        </description>
+        <setters>
+			<set name="keywords">glasses, fire, radiant, fiery</set>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+            <set name="rarity">Rare</set>
+            <set name="slot">eyes</set>
+        </setters>
+		<rules>
+      		<grant type="Spell" id="ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE" />
+    	</rules> 
+    </element>
+
+	<element name="Mantle of the Sacred Ash" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_MANTLE_OF_THE_SACRED_ASH">
+        <description>
+			<div class="sidebar">
+	    		<p class="flavor">Legend says the cloth was soaked in holy oils and quenched three times in the ashes of burned fiendish texts. During his campaigns, Discount was known to descend from the sky like an avenging meteor—his dark coat unfurling into a torrent of divine embers as he cast Radiant Flames and Fiery Strikes from above.</p>
+	  		</div>
+            <p>Woven from threads spun in sanctified embers and trimmed with dark leather, this imposing overcoat pulses with the heat of an inner furnace. Its hem glows like molten iron, leaving a faint trail of ash wherever its wearer treads.</p>
+            <p class="indent"><strong><em>Fire Resistance.</em></strong> You have Resistance to fire damage. Additionally, you are immune to the effects of extreme cold, and you gain Advantage on saving throws against spells that deal cold damage.</p>
+            <p class="indent"><strong><em>Flight of the Pyre.</em></strong> You can use an action to cast the Fly spell on yourself without expending a spell slot or material components. When cast in this way, the spell requires no concentration, and a mantle of fiery embers billows from the coat's hem while you are aloft. Once used, this property cannot be used again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Purifying Conflagration.</em></strong> When you cast a spell that deals fire damage, you can choose to change spells damage to radiant damage instead. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <setters>
+			<set name="keywords">robe, fire, radiant, fiery, fly</set>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">1 lb.</set>
+            <set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
+		<rules>
+      		<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLY" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+    	</rules> 
     </element>
 	
 </elements>
