@@ -4,8 +4,8 @@
 		<name>Unearthed Arcana 2026: Villainous Options - Paths of Villainy</name>
 		<description>Path of the Death Knight and Path of the Lich feats from the Unearthed Arcana 2026: Villainous Options playtest document.</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
-			<file name="unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-2026-villianous-options-paths-of-villiany/unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" />
+		<update version="0.0.2">
+			<file name="unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-feats/unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" />
 		</update>
 	</info>
 
