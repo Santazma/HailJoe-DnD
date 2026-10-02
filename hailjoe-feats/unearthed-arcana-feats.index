@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Unearthed Arcana Feats</name>
+		<description>Unearthed Arcana Feats that made by WOTC and integrated by HailJoe</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="homebrew-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats.index" />
+		</update>
+	</info>
+	<files>
+		<file name="unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-2026-villianous-options-paths-of-villiany/unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" />
+	</files>
+</index>
