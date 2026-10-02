@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Unearthed Arcana 2026: Villainous Options - Paths of Villainy</name>
+		<description>Path of the Death Knight and Path of the Lich feats from the Unearthed Arcana 2026: Villainous Options playtest document.</description>
+		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+		<update version="0.0.1">
+			<file name="unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-2026-villianous-options-paths-of-villiany/unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" />
+		</update>
+	</info>
+
+	<!-- Path of the Death Knight -->
+
+	<element name="Death Knight Initiate" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_DEATH_KNIGHT_INITIATE">
+		<supports>Path of the Death Knight</supports>
+		<requirements>[character:4],(ID_INTERNAL_GRANTS_WEAPON_MASTERY_FEATURE||ID_HAILJOE_CLASS_FEATURE_PALADIN_WEAPON_MASTERY||ID_HAILJOE_CLASS_FEATURE_ROGUE_WEAPON_MASTERY)</requirements>
+		<prerequisite>Level 4+, Weapon Mastery Feature</prerequisite>
+		<description>
+			<p class="flavor">Path of the Death Knight Feat (Prerequisite: Level 4+, Weapon Mastery Feature)</p>
+			<p>Death knights are dastards, deserters, and disgraced champions, undead warriors who march toward perdition to fulfill selfish desires and slake their bloodthirst. A death knight's martial prowess is inextricably tied to their evil nature, but their heinous deeds extend far beyond the battlefield.</p>
+			<p>While each death knight is unique, every death knight's descent into villainy begins with a significant and dishonorable act—a deliberate wrongdoing or shameful mistake that marks their disgrace. You can roll on or choose from the Death Knight Journeys table to determine why your character has chosen to walk this path.</p>
+			<h5>DEATH KNIGHT JOURNEYS</h5>
+			<table>
+				<thead>
+					<tr><td class="col-1">1d6</td><td>You Fell from Grace When You...</td></tr>
+				</thead>
+				<tr><td>1</td><td>Abandoned your companions in battle.</td></tr>
+				<tr><td>2</td><td>Betrayed a loved one.</td></tr>
+				<tr><td>3</td><td>Intentionally harmed an innocent.</td></tr>
+				<tr><td>4</td><td>Made a pact with a malevolent entity such as a demon lord.</td></tr>
+				<tr><td>5</td><td>Offended a benevolent god.</td></tr>
+				<tr><td>6</td><td>Violated a sworn oath.</td></tr>
+			</table>
+			<p>To complete the Path of the Death Knight, begin by taking the Death Knight Initiate feat, followed by any other Path of the Death Knight feat you choose. Finally, when you reach level 12 or higher, take the Death Knight Ascension feat.</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Strength or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Death Points.</b></i> Your dedication to the path of the Death Knight gives you access to profane powers of undeath. Your ability to use such powers is represented by Death Points. You have a number of Death Points equal to your Proficiency Bonus. You regain all expended Death Points when you finish a Long Rest.</p>
+			<p class="indent">You can expend Death Points to use certain Path of the Death Knight benefits. This feat gives you one such benefit: Dread Strike.</p>
+			<p class="indent"><i><b>Dread Strike.</b></i> You always have the <i>Wrathful Smite</i> spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. When you expend Death Points to cast <i>Wrathful Smite</i>, the target has Disadvantage on Wisdom saving throws to avoid or end the spell's effect. You can also cast the spell using any spell slots you have.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_WRATHFUL_SMITE" />
+			</div>
+		</description>
+		<sheet alt="Death Points" usage="{{proficiency}}/Long Rest">
+			<description>You have {{proficiency}} Death Points that you can expend to use Path of the Death Knight benefits. You regain all expended Death Points when you finish a Long Rest.
+			Dread Strike: You always have Wrathful Smite prepared (Charisma). You can cast it without a spell slot by expending 1 Death Point; when you do, the target has Disadvantage on Wisdom saving throws to avoid or end the spell's effect. You can also cast it using any spell slots you have.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Death Knight Initiate)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WRATHFUL_SMITE" />
+		</rules>
+	</element>
+
+	<element name="Dread Authority" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_DREAD_AUTHORITY">
+		<supports>Path of the Death Knight</supports>
+		<requirements>ID_HAILJOE_FEAT_DEATH_KNIGHT_INITIATE</requirements>
+		<prerequisite>Death Knight Initiate Feat</prerequisite>
+		<description>
+			<p class="flavor">Path of the Death Knight Feat (Prerequisite: Death Knight Initiate Feat)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Constitution or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Dread Command.</b></i> You always have the <i>Command</i> spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast <i>Command</i>, Undead targeted by it have Disadvantage on the saving throw against the spell.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_COMMAND" />
+			</div>
+		</description>
+		<sheet alt="Dread Command" usage="1 Death Point">
+			<description>You always have Command prepared (Charisma). You can cast it without a spell slot by expending 1 Death Point; when you do, Undead targeted by it have Disadvantage on the saving throw against the spell. You can also cast it using any spell slots you have.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Dread Authority)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" />
+		</rules>
+	</element>
+
+	<element name="Harbinger of Doom" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_HARBINGER_OF_DOOM">
+		<supports>Path of the Death Knight</supports>
+		<requirements>ID_HAILJOE_FEAT_DEATH_KNIGHT_INITIATE</requirements>
+		<prerequisite>Death Knight Initiate Feat</prerequisite>
+		<description>
+			<p class="flavor">Path of the Death Knight Feat (Prerequisite: Death Knight Initiate Feat)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Ill Omen.</b></i> You always have the <i>Bane</i> spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast <i>Bane</i>, affected targets subtract 1d6 from attack rolls and saving throws instead of 1d4.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_BANE" />
+			</div>
+		</description>
+		<sheet alt="Ill Omen" usage="1 Death Point">
+			<description>You always have Bane prepared (Charisma). You can cast it without a spell slot by expending 1 Death Point; when you do, affected targets subtract 1d6 from attack rolls and saving throws instead of 1d4. You can also cast it using any spell slots you have.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Harbinger of Doom)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BANE" />
+		</rules>
+	</element>
+
+	<element name="Deathly Presence" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_DEATHLY_PRESENCE">
+		<supports>Path of the Death Knight</supports>
+		<requirements>[character:8],ID_HAILJOE_FEAT_DEATH_KNIGHT_INITIATE</requirements>
+		<prerequisite>Level 8+, Death Knight Initiate Feat</prerequisite>
+		<description>
+			<p class="flavor">Path of the Death Knight Feat (Prerequisite: Level 8+, Death Knight Initiate Feat)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Awful Presence.</b></i> You always have the <i>Fear</i> spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast <i>Fear</i>, you deal 7 (2d6) Psychic damage to each creature that fails its saving throw against the spell, in addition to the spell's normal effects.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_FEAR" />
+			</div>
+		</description>
+		<sheet alt="Awful Presence" usage="1 Death Point">
+			<description>You always have Fear prepared (Charisma). You can cast it without a spell slot by expending 1 Death Point; when you do, each creature that fails its saving throw against the spell also takes 7 (2d6) Psychic damage. You can also cast it using any spell slots you have.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Deathly Presence)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FEAR" />
+		</rules>
+	</element>
+
+	<element name="Unholy Steed" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_UNHOLY_STEED">
+		<supports>Path of the Death Knight</supports>
+		<requirements>[character:8],ID_HAILJOE_FEAT_DEATH_KNIGHT_INITIATE</requirements>
+		<prerequisite>Level 8+, Death Knight Initiate Feat</prerequisite>
+		<description>
+			<p class="flavor">Path of the Death Knight Feat (Prerequisite: Level 8+, Death Knight Initiate Feat)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Strength or Constitution score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Spectral Steed.</b></i> You always have the <i>Find Steed</i> spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. When you expend Death Points to cast <i>Find Steed</i>, the summoned steed is a Fiend, and targets you choose have Disadvantage on the Wisdom saving throw against its Fell Glare. You can also cast the spell using any spell slots you have.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_FIND_STEED" />
+			</div>
+		</description>
+		<sheet alt="Spectral Steed" usage="1 Death Point">
+			<description>You always have Find Steed prepared (Charisma). You can cast it without a spell slot by expending 1 Death Point; when you do, the steed is a Fiend, and targets you choose have Disadvantage on the Wisdom saving throw against its Fell Glare. You can also cast it using any spell slots you have.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Unholy Steed)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIND_STEED" />
+		</rules>
+	</element>
+
+	<element name="Death Knight Ascension" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_DEATH_KNIGHT_ASCENSION">
+		<supports>Path of the Death Knight</supports>
+		<requirements>[character:12],ID_HAILJOE_FEAT_DEATH_KNIGHT_INITIATE,(ID_HAILJOE_FEAT_DREAD_AUTHORITY||ID_HAILJOE_FEAT_HARBINGER_OF_DOOM||ID_HAILJOE_FEAT_DEATHLY_PRESENCE||ID_HAILJOE_FEAT_UNHOLY_STEED)</requirements>
+		<prerequisite>Level 12+, two Path of the Death Knight Feats</prerequisite>
+		<description>
+			<p class="flavor">Path of the Death Knight Feat (Prerequisite: Level 12+, two Path of the Death Knight Feats)</p>
+			<p>Your path to becoming a death knight is complete. You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Strength or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Undead.</b></i> Your creature type is Undead.</p>
+			<p class="indent"><i><b>Unholy Anatomy.</b></i> You have Resistance to Necrotic and Poison damage. You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation.</p>
+			<p class="indent"><i><b>Hellfire Orb.</b></i> As a Magic action, you can expend 1 to 5 Death Points to throw an orb of pure hellfire at a point you can see within 120 feet. Each creature in a 20-foot-radius Sphere centered on the chosen point makes a Dexterity saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus). On a failed save, a target takes 2d6 Fire damage and 2d6 Necrotic damage per Death Point expended. On a successful save, the target takes half as much damage.</p>
+		</description>
+		<sheet alt="Hellfire Orb" action="Action" usage="1-5 Death Points">
+			<description>Your creature type is Undead. You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation.
+			As a Magic action, expend 1 to 5 Death Points to throw an orb of hellfire at a point within 120 ft. Each creature in a 20-ft.-radius Sphere makes a DC {{hellfire orb:dc}} Dexterity save, taking 2d6 Fire and 2d6 Necrotic damage per Death Point expended on a failed save, or half as much on a success.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Death Knight Ascension)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+			<stat name="hellfire orb:dc" value="8" />
+			<stat name="hellfire orb:dc" value="charisma:modifier" />
+			<stat name="hellfire orb:dc" value="proficiency" />
+		</rules>
+	</element>
+
+	<!-- Path of the Lich -->
+
+	<element name="Lich Initiate" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_LICH_INITIATE">
+		<supports>Path of the Lich</supports>
+		<requirements>[character:4],(ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE||ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE)</requirements>
+		<prerequisite>Level 4+, Spellcasting or Pact Magic Feature</prerequisite>
+		<description>
+			<p class="flavor">Path of the Lich Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)</p>
+			<p>Liches are powerful spellcasters who have conquered death through the relentless pursuit of arcane power. All liches undergo a ritual that binds their soul to a spirit jar, a personal and well-protected object that allows the lich's destroyed body to re-form as long as the object is intact.</p>
+			<p>The path to lichdom is unique to each who walks it. To complete the transformation, aspirants must fulfill a personal and often profane ritual. The Lich Rites table contains examples of such rituals to inspire your journey.</p>
+			<h5>LICH RITES</h5>
+			<table>
+				<thead>
+					<tr><td class="col-1">1d6</td><td>To Conduct Your Ritual, You Must...</td></tr>
+				</thead>
+				<tr><td>1</td><td>Consume one hundred souls to strengthen your magic.</td></tr>
+				<tr><td>2</td><td>Decipher and recite a forbidden incantation from a lost tome written in a dead language.</td></tr>
+				<tr><td>3</td><td>Use ancient abjuration magic to conceal yourself from the gods of death.</td></tr>
+				<tr><td>4</td><td>Pen a blasphemous verse and perform it in a defiled temple.</td></tr>
+				<tr><td>5</td><td>Craft a potion from your victims' remains and imbibe it beneath a full moon.</td></tr>
+				<tr><td>6</td><td>Corrupt your soul so completely no afterlife will accept it.</td></tr>
+			</table>
+			<p>To complete the Path of the Lich, begin by taking the Lich Initiate feat, followed by any other Path of the Lich feat you choose. Finally, when you reach level 12 or higher, take the Lich Ascension feat.</p>
+			<p>You take the first steps toward lichdom, which involve creating your spirit jar, a magical vessel that anchors your soul to the world of the living in the event of your body's destruction. You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Creating Your Spirit Jar.</b></i> Choose a Tiny object of great significance to you. Roll on or choose from the Spirit Jars table to inspire this object. You spend a Long Rest anchoring your soul to this object, allowing you to consume the souls of the living to bolster your own power. You can have only one spirit jar at a time. If you create a second spirit jar, the old one is destroyed.</p>
+			<h5>SPIRIT JARS</h5>
+			<table>
+				<thead>
+					<tr><td class="col-1">1d6</td><td>Your Spirit Jar Is...</td></tr>
+				</thead>
+				<tr><td>1</td><td>An acorn from a forest destroyed long ago.</td></tr>
+				<tr><td>2</td><td>A love letter from a deceased paramour.</td></tr>
+				<tr><td>3</td><td>The inkwell that you used to scribe your first spell or prayer.</td></tr>
+				<tr><td>4</td><td>The defaced holy symbol of a god you've denounced.</td></tr>
+				<tr><td>5</td><td>A bell whose toll becomes lower with each soul you collect.</td></tr>
+				<tr><td>6</td><td>A desiccated body part—such as an eye, finger, or horn—that was once part of you or someone you knew.</td></tr>
+			</table>
+			<p class="indent"><i><b>Spirit Jar Destruction.</b></i> Your spirit jar's Armor Class equals your spell save DC, and it has a number of Hit Points equal to your spellcasting ability modifier plus your character level. If your spirit jar is destroyed, you gain 2 Exhaustion levels, and you can't use the Soul Siphon ability until you create a new one.</p>
+			<p class="indent"><i><b>Soul Siphon.</b></i> When you reduce a Humanoid enemy to 0 Hit Points, you can consume its soul and gain a boost of arcane energy (no action required). On your next turn, the first creature you hit with an attack takes extra Necrotic damage equal to 1d6 plus your spellcasting ability modifier. You also gain this benefit if someone else reduces a Humanoid enemy within 10 feet of you to 0 Hit Points. A soul consumed in this way can be restored only by a <i>True Resurrection</i> or <i>Wish</i> spell.</p>
+		</description>
+		<sheet alt="Soul Siphon">
+			<description>Spirit Jar: AC equals your spell save DC; HP equals your spellcasting ability modifier + {{level}}. If it is destroyed, you gain 2 Exhaustion levels and can't use Soul Siphon until you create a new one.
+			Soul Siphon: When you reduce a Humanoid enemy to 0 HP (or someone else does within 10 ft. of you), you can consume its soul (no action required). On your next turn, the first creature you hit with an attack takes an extra 1d6 + your spellcasting ability modifier Necrotic damage.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Lich Initiate)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+		</rules>
+	</element>
+
+	<element name="Arcane Restoration" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ARCANE_RESTORATION">
+		<supports>Path of the Lich</supports>
+		<requirements>ID_HAILJOE_FEAT_LICH_INITIATE</requirements>
+		<prerequisite>Lich Initiate Feat</prerequisite>
+		<description>
+			<p class="flavor">Path of the Lich Feat (Prerequisite: Lich Initiate Feat)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Essence Rejuvenation.</b></i> When you use Soul Siphon to consume a soul, you can choose one or more expended spell slots to recover. The spell slots can have a combined level equal to no more than 4. Once you use this feature, you can't use it again until you finish a Short or Long Rest.</p>
+		</description>
+		<sheet alt="Essence Rejuvenation" usage="1/Short Rest">
+			<description>When you use Soul Siphon to consume a soul, you can recover expended spell slots with a combined level of no more than 4.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Arcane Restoration)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+		</rules>
+	</element>
+
+	<element name="Transfer Life" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_TRANSFER_LIFE">
+		<supports>Path of the Lich</supports>
+		<requirements>ID_HAILJOE_FEAT_LICH_INITIATE</requirements>
+		<prerequisite>Lich Initiate Feat</prerequisite>
+		<description>
+			<p class="flavor">Path of the Lich Feat (Prerequisite: Lich Initiate Feat)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Soul Transference.</b></i> When you use Soul Siphon to consume a soul, you can choose a creature within 60 feet of yourself to gain Temporary Hit Points equal to your Proficiency Bonus plus your spellcasting ability modifier (minimum of 1 Temporary Hit Point).</p>
+		</description>
+		<sheet alt="Soul Transference">
+			<description>When you use Soul Siphon to consume a soul, a creature of your choice within 60 ft. gains {{proficiency}} + your spellcasting ability modifier Temporary Hit Points (minimum of 1).</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Transfer Life)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+		</rules>
+	</element>
+
+	<element name="Undead Grasp" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_UNDEAD_GRASP">
+		<supports>Path of the Lich</supports>
+		<requirements>ID_HAILJOE_FEAT_LICH_INITIATE</requirements>
+		<prerequisite>Lich Initiate Feat</prerequisite>
+		<description>
+			<p class="flavor">Path of the Lich Feat (Prerequisite: Lich Initiate Feat)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Paralyzing Touch.</b></i> You know the <i>Chill Touch</i> cantrip. If you already know it, you learn another cantrip of your choice. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).</p>
+			<p class="indent">When you deal damage with <i>Chill Touch</i>, you can expend a level 1+ spell slot to attempt to paralyze the target. The target takes an extra 1d10 Necrotic damage per level of the spell slot expended and must succeed on a Constitution saving throw against your spell save DC or have the Paralyzed condition until the start of your next turn.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_CHILL_TOUCH" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Undead Grasp)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<select type="Feat Feature" name="Spellcasting Ability (Undead Grasp)" supports="Undead Grasp Spellcasting" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHILL_TOUCH" />
+		</rules>
+	</element>
+
+	<element name="Intelligence" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_FEATURE_UNDEAD_GRASP_INTELLIGENCE">
+		<supports>Undead Grasp Spellcasting</supports>
+		<compendium display="false" />
+		<description>
+			<p>Intelligence is your spellcasting ability for the <i>Chill Touch</i> spell from the Undead Grasp feat.</p>
+		</description>
+		<sheet alt="Paralyzing Touch">
+			<description>You know the Chill Touch cantrip (Intelligence). When you deal damage with it, you can expend a level 1+ spell slot: the target takes an extra 1d10 Necrotic damage per slot level and must succeed on a Constitution save against your spell save DC or have the Paralyzed condition until the start of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Wisdom" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_FEATURE_UNDEAD_GRASP_WISDOM">
+		<supports>Undead Grasp Spellcasting</supports>
+		<compendium display="false" />
+		<description>
+			<p>Wisdom is your spellcasting ability for the <i>Chill Touch</i> spell from the Undead Grasp feat.</p>
+		</description>
+		<sheet alt="Paralyzing Touch">
+			<description>You know the Chill Touch cantrip (Wisdom). When you deal damage with it, you can expend a level 1+ spell slot: the target takes an extra 1d10 Necrotic damage per slot level and must succeed on a Constitution save against your spell save DC or have the Paralyzed condition until the start of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Charisma" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_FEATURE_UNDEAD_GRASP_CHARISMA">
+		<supports>Undead Grasp Spellcasting</supports>
+		<compendium display="false" />
+		<description>
+			<p>Charisma is your spellcasting ability for the <i>Chill Touch</i> spell from the Undead Grasp feat.</p>
+		</description>
+		<sheet alt="Paralyzing Touch">
+			<description>You know the Chill Touch cantrip (Charisma). When you deal damage with it, you can expend a level 1+ spell slot: the target takes an extra 1d10 Necrotic damage per slot level and must succeed on a Constitution save against your spell save DC or have the Paralyzed condition until the start of your next turn.</description>
+		</sheet>
+	</element>
+
+	<element name="Lich Ascension" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_LICH_ASCENSION">
+		<supports>Path of the Lich</supports>
+		<requirements>[character:12],ID_HAILJOE_FEAT_LICH_INITIATE,(ID_HAILJOE_FEAT_ARCANE_RESTORATION||ID_HAILJOE_FEAT_TRANSFER_LIFE||ID_HAILJOE_FEAT_UNDEAD_GRASP)</requirements>
+		<prerequisite>Level 12+, at least two Path of the Lich Feats</prerequisite>
+		<description>
+			<p class="flavor">Path of the Lich Feat (Prerequisite: Level 12+, at least two Path of the Lich Feats)</p>
+			<p>Your path to lichdom is complete. You gain the following benefits.</p>
+			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Undead.</b></i> Your creature type is Undead.</p>
+			<p class="indent"><i><b>Unholy Anatomy.</b></i> You have Resistance to Necrotic and Poison damage. You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation.</p>
+			<p class="indent"><i><b>Frightening Gaze.</b></i> You learn the <i>Fear</i> spell if you don't already know it, and you always have it prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can cast the spell without expending a spell slot a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+			<p class="indent"><i><b>Rejuvenation.</b></i> If you die, you re-form in 1d10 days if you have a spirit jar and aren't revived before then. You gain a new body, appearing with all your Hit Points in the nearest unoccupied space within 5 feet of your spirit jar.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_FEAR" />
+			</div>
+		</description>
+		<sheet alt="Lich Ascension">
+			<description>Your creature type is Undead. You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation.
+			Rejuvenation: If you die, you re-form in 1d10 days if you have a spirit jar and aren't revived before then, appearing with all your Hit Points within 5 ft. of your spirit jar.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Lich Ascension)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+			<select type="Feat Feature" name="Spellcasting Ability (Lich Ascension)" supports="Lich Ascension Spellcasting" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FEAR" />
+		</rules>
+	</element>
+
+	<element name="Intelligence" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_FEATURE_LICH_ASCENSION_INTELLIGENCE">
+		<supports>Lich Ascension Spellcasting</supports>
+		<compendium display="false" />
+		<description>
+			<p>Intelligence is your spellcasting ability for the <i>Fear</i> spell from the Lich Ascension feat.</p>
+		</description>
+		<sheet alt="Frightening Gaze" usage="{{intelligence:modifier}}/Long Rest">
+			<description>You always have Fear prepared (Intelligence). You can cast it without expending a spell slot a number of times equal to your Intelligence modifier (minimum of once) per Long Rest.</description>
+		</sheet>
+	</element>
+	<element name="Wisdom" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_FEATURE_LICH_ASCENSION_WISDOM">
+		<supports>Lich Ascension Spellcasting</supports>
+		<compendium display="false" />
+		<description>
+			<p>Wisdom is your spellcasting ability for the <i>Fear</i> spell from the Lich Ascension feat.</p>
+		</description>
+		<sheet alt="Frightening Gaze" usage="{{wisdom:modifier}}/Long Rest">
+			<description>You always have Fear prepared (Wisdom). You can cast it without expending a spell slot a number of times equal to your Wisdom modifier (minimum of once) per Long Rest.</description>
+		</sheet>
+	</element>
+	<element name="Charisma" type="Feat Feature" source="HailJoe Feats" id="ID_HAILJOE_FEAT_FEATURE_LICH_ASCENSION_CHARISMA">
+		<supports>Lich Ascension Spellcasting</supports>
+		<compendium display="false" />
+		<description>
+			<p>Charisma is your spellcasting ability for the <i>Fear</i> spell from the Lich Ascension feat.</p>
+		</description>
+		<sheet alt="Frightening Gaze" usage="{{charisma:modifier}}/Long Rest">
+			<description>You always have Fear prepared (Charisma). You can cast it without expending a spell slot a number of times equal to your Charisma modifier (minimum of once) per Long Rest.</description>
+		</sheet>
+	</element>
+
+</elements>
