@@ -5,7 +5,7 @@
 		<description>Unearthed Arcana Feats that made by WOTC and integrated by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
 		<update version="0.0.1">
-			<file name="homebrew-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats.index" />
+			<file name="homebrew-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-feats.index" />
 		</update>
 	</info>
 	<files>
