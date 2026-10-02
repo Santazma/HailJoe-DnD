@@ -4,11 +4,11 @@
 		<name>Unearthed Arcana Feats</name>
 		<description>Unearthed Arcana Feats that made by WOTC and integrated by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="unearthed-arcana-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-feats.index" />
 		</update>
 	</info>
 	<files>
-		<file name="unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-2026-villianous-options-paths-of-villiany/unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" />
+		<file name="unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/unearthed-arcana-feats/unearthed-arcana-2026-villianous-options-paths-of-villiany.xml" />
 	</files>
 </index>
