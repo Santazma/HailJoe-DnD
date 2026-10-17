@@ -3,7 +3,7 @@
 	<info>
 		<name>Jaeger(2024)</name>
 		<description>Jaeger class (5.5e / 2024 rules, v2.1.3) from Steinhardt's Guide to the Eldritch Hunt. Separate from the 2014 Steinhardt "Jaeger" class; both can be loaded together.</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-jeager.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-classes/class-jeager.xml" />
 		</update>
 	</info>
@@ -613,6 +613,7 @@
 		</spellcasting>
 		<rules>
 			<!-- Pact-style slots: like Pact Magic, these don't combine with multiclass spell slots -->
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
 
 			<stat name="warlock:spellcasting:slots:count" value="1" level="3" />
