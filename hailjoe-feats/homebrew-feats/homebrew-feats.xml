@@ -1,26 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <info>
-    <name>homebrew feats</name>
-    <description>Homebrew Feats from the HailJoe.</description>
-    <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.1">
-      <file name="homebrew-feats.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats/homebrew-feats.xml" />
-    </update>
-  </info>
-  <element name="Ancestral Artisan Craftsman" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ANCESTRAL_ARTISAN_CRAFTSMAN">
-    <description>
-      <p>You have honed your blacksmithing skills coming from you heritage to a level of mastery, becoming a true artisan in the forge. Through countless hours of practice and dedication, you have gained unparalleled expertise in shaping metal and crafting extraordinary creations. As a Master Craftsman, your keen eye for detail and meticulous techniques set you apart from other blacksmiths.</p>
-      <ul>
-        <li>Whenever you make an Intelligence (History) check related to the origin of blacksmith crafting, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</li>
-        <li>Once per long rest, you can spend 8 hours and 250 gold pieces worth of materials to infuse a non-magical weapon or armor with a temporary magical property. The infused item gains a +1 bonus to attack rolls and damage rolls for 24 hours. This bonus increases to +2 at 10th level and +3 at 15th level. This temporary upgrade, lasts for 1 day.</li>
-        <li>You can also imbue your creations with elemental properties instead of pure upgrade. Once per long rest, instead of giving a pure upgrade, you can spend required time and resources to infuse a non-magical weapon or armor with elemental damage (e.g., fire, cold, or lightning) for 24 hours. The infused item gains a 1d6 bonus to damage rolls for 24 hours. You choose the damage type while forging. This bonus increases to 2d6 at 10th level and 3d6 at 15th level. This temporary upgrade, lasts for 1 day.</li>
-      </ul>
-    </description>
-    <sheet>
-      <description>Whenever you make an Intelligence (History) check related to the origin of blacksmith crafting, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
-      Once per long rest, you can spend 8 hours and 250 gold pieces worth of materials to infuse a non-magical weapon or armor with a temporary magical property. The infused item gains a +1 bonus to attack rolls and damage rolls for 24 hours. This bonus increases to +2 at 10th level and +3 at 15th level. This temporary upgrade, lasts for 1 day.
-      You can also imbue your creations with elemental properties instead of pure upgrade. Once per long rest, instead of giving a pure upgrade, you can spend required time and resources to infuse a non-magical weapon or armor with elemental damage (e.g., fire, cold, or lightning) for 24 hours. The infused item gains a 1d6 bonus to damage rolls for 24 hours. You choose the damage type while forging. This bonus increases to 2d6 at 10th level and 3d6 at 15th level. This temporary upgrade, lasts for 1 day.</description>
-    </sheet>
-  </element>
+    <info>
+        <name>Homebrew Feats</name>
+        <description>Homebrew Feats from the HailJoe.</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+        <update version="0.0.2">
+            <file name="homebrew-feats.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats/homebrew-feats.xml" />
+        </update>
+    </info>
+
+    <element name="Ancestral Artisan Craftsman" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_ANCESTRAL_ARTISAN_CRAFTSMAN">
+        <description>
+            <p>You have honed your blacksmithing skills coming from you heritage to a level of mastery, becoming a true artisan in the forge. Through countless hours of practice and dedication, you have gained unparalleled expertise in shaping metal and crafting extraordinary creations. As a Master Craftsman, your keen eye for detail and meticulous techniques set you apart from other blacksmiths.</p>
+            <ul>
+                <li>Whenever you make an Intelligence (History) check related to the origin of blacksmith crafting, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</li>
+                <li>Once per long rest, you can spend 8 hours and 250 gold pieces worth of materials to infuse a non-magical weapon or armor with a temporary magical property. The infused item gains a +1 bonus to attack rolls and damage rolls for 24 hours. This bonus increases to +2 at 10th level and +3 at 15th level. This temporary upgrade, lasts for 1 day.</li>
+                <li>You can also imbue your creations with elemental properties instead of pure upgrade. Once per long rest, instead of giving a pure upgrade, you can spend required time and resources to infuse a non-magical weapon or armor with elemental damage (e.g., fire, cold, or lightning) for 24 hours. The infused item gains a 1d6 bonus to damage rolls for 24 hours. You choose the damage type while forging. This bonus increases to 2d6 at 10th level and 3d6 at 15th level. This temporary upgrade, lasts for 1 day.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Whenever you make an Intelligence (History) check related to the origin of blacksmith crafting, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+            Once per long rest, you can spend 8 hours and 250 gold pieces worth of materials to infuse a non-magical weapon or armor with a temporary magical property. The infused item gains a +1 bonus to attack rolls and damage rolls for 24 hours. This bonus increases to +2 at 10th level and +3 at 15th level. This temporary upgrade, lasts for 1 day.
+            You can also imbue your creations with elemental properties instead of pure upgrade. Once per long rest, instead of giving a pure upgrade, you can spend required time and resources to infuse a non-magical weapon or armor with elemental damage (e.g., fire, cold, or lightning) for 24 hours. The infused item gains a 1d6 bonus to damage rolls for 24 hours. You choose the damage type while forging. This bonus increases to 2d6 at 10th level and 3d6 at 15th level. This temporary upgrade, lasts for 1 day.</description>
+        </sheet>
+    </element>
+
+    <!-- ============================================================ -->
+    <!-- STEINHARDT'S GUIDE TO THE ELDRITCH HUNT (5.5e) FEATS          -->
+    <!-- Requirements follow the PHB 2024 General Feat pattern.        -->
+    <!-- ============================================================ -->
+
+    <element name="Brutalizer" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_BRUTALIZER">
+        <supports>General</supports>
+        <requirements>([character:4],[str:16],!ID_LT_SGEH_FEAT_BRUTAL_ATTACKER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+        <prerequisite>Level 4+, Strength 16+</prerequisite>
+        <description>
+            <p class="flavor">General Feat (Prerequisite: Level 4+, Strength 16+)</p>
+            <p>You master a reckless approach that maximizes your offensive capabilities. You gain the following benefits.</p>
+            <p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p>
+            <p class="indent"><b><i>Brutal Weaponry.</i></b> You can wield a weapon with the Two-Handed property in one hand, as long as your other hand is empty or wielding a one-handed weapon.</p>
+            <p class="indent"><b><i>Killing Streak.</i></b> When you reduce a creature to 0 Hit Points, your next attack roll before the end of your next turn has Advantage.</p>
+        </description>
+        <sheet>
+            <description>You can wield a weapon with the Two-Handed property in one hand, as long as your other hand is empty or wielding a one-handed weapon. When you reduce a creature to 0 Hit Points, your next attack roll before the end of your next turn has Advantage.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (Brutalizer)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+        </rules>
+    </element>
+
+    <element name="Cannoneer" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_CANNONEER">
+        <supports>General</supports>
+        <requirements>([character:8],[str:18],!ID_LT_SGEH_FEAT_CANNONEER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+        <prerequisite>Level 8+, Strength 18+</prerequisite>
+        <description>
+            <p class="flavor">General Feat (Prerequisite: Level 8+, Strength 18+)</p>
+            <p>The best defense is a good offense, and the best offense is a cannon; you gain the following benefits.</p>
+            <p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength score by 1, to a maximum of 20.</p>
+            <p class="indent"><b><i>Cannon Proficiency.</i></b> You gain proficiency with Cannons, and you can reload a Cannon as a Bonus Action instead of an action. You can take this Bonus Action only if you haven’t moved during your turn, and after you take the Bonus Action, your Speed is 0 until the end of your turn. Starting at character level 11, this doesn’t reduce your Speed, and when you take the Attack action, you can replace one of your attacks with reloading the Cannon. When you reach character level 20, you can ignore the Artillery property of Cannons.</p>
+            <p class="indent"><b><i>Siege.</i></b> Your attacks with Cannons deal double damage to objects and structures.</p>
+            <p class="indent"><b><i>Strong Back.</i></b> The weight of Cannons and Cannonballs count as half for you.</p>
+        </description>
+        <sheet>
+            <description>You can reload a Cannon as a Bonus Action if you haven’t moved this turn (your Speed becomes 0 until the end of the turn; from level 11 it doesn’t, and you can replace one attack of the Attack action with reloading the Cannon; at level 20 you ignore the Artillery property of Cannons). Your attacks with Cannons deal double damage to objects and structures. Cannons and Cannonballs weigh half for you.</description>
+        </sheet>
+        <rules>
+            <stat name="strength" value="1" alt="Cannoneer" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CANNON" />
+        </rules>
+    </element>
+
+    <element name="Cosmos Touched" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_COSMOS_TOUCHED">
+        <supports>General</supports>
+        <requirements>([character:4],!ID_LT_SGEH_FEAT_COSMOS_TOUCHED)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+        <prerequisite>Level 4+</prerequisite>
+        <description>
+            <p class="flavor">General Feat (Prerequisite: Level 4+)</p>
+            <p>You gain the following benefits.</p>
+            <p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Intelligence, Wisdom or Charisma score by 1, to a maximum of 20.</p>
+            <p class="indent"><b><i>Cosmos Magic.</i></b> Choose one level 1 spell from the Abjuration or Transmutation school of magic. You always have that spell and the Alter Self spell prepared. You can cast each of these spells without a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using any spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</p>
+            <div class="reference">
+                <div element="ID_WOTC_PHB24_SPELL_ALTER_SELF" />
+            </div>
+        </description>
+        <sheet>
+            <description>You always have Alter Self and your chosen level 1 Abjuration or Transmutation spell prepared. You can cast each of them once without a spell slot, regaining the ability on a Long Rest, and you can also cast them using spell slots of the appropriate level. Their spellcasting ability is the ability you increased with this feat.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (Cosmos Touched)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+            <select type="Spell" name="Spell (Cosmos Touched)" supports="1,(Abjuration||Transmutation)" />
+            <grant type="Spell" id="ID_WOTC_PHB24_SPELL_ALTER_SELF" />
+        </rules>
+    </element>
+
+    <element name="Focused Hunter" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_FOCUSED_HUNTER">
+        <supports>General</supports>
+        <requirements>([character:4],!ID_LT_SGEH_FEAT_FOCUSED_HUNTER)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+        <prerequisite>Level 4+</prerequisite>
+        <description>
+            <p class="flavor">General Feat (Prerequisite: Level 4+)</p>
+            <p>During hunts, you are capable of bursts of focus when you need them most. You gain the following benefits:</p>
+            <p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p>
+            <p class="indent"><b><i>Improved Focus.</i></b> You gain 1 Focus Point (adding to your existing Focus Points if you already have Focus Points), and learn one new Focus Art, choosing from Weapon Parry, Dodge Step, or any of the Jaeger’s Additional Focus Arts. You regain all expended Focus Points when you finish a Short or Long Rest.</p>
+            <p><i>HailJoe note: for the Jaeger(2024) class, Focus Points and Focus Arts are Adrenaline Points and Adrenaline Arts. The point gained from this feat is added to the same pool.</i></p>
+        </description>
+        <sheet usage="{{jaeger24:adrenaline points}}/Short Rest">
+            <description>You gain 1 Adrenaline (Focus) Point, added to your existing pool if you have one ({{jaeger24:adrenaline points}} total), and you learn one Adrenaline (Focus) Art. You regain all expended points when you finish a Short or Long Rest.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (Focused Hunter)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+            <stat name="jaeger24:adrenaline points" value="1" />
+            <select type="Class Feature" name="Adrenaline Art (Focused Hunter)" supports="ID_HAILJOE_CLASS_FEATURE_JAEGER_FOCUS_WEAPON_PARRY|ID_HAILJOE_CLASS_FEATURE_JAEGER_FOCUS_DODGE_STEP|Jaeger 2024 Adrenaline Art" />
+        </rules>
+    </element>
+
+    <element name="Marksman" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_MARKSMAN">
+        <supports>General</supports>
+        <requirements>([character:4],!ID_LT_SGEH_FEAT_MARKSMAN)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+        <prerequisite>Level 4+</prerequisite>
+        <description>
+            <p class="flavor">General Feat (Prerequisite: Level 4+)</p>
+            <p>You know your firearms inside and out and are a master at handling them. You gain the following benefits.</p>
+            <p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Dexterity score by 1, to a maximum of 20.</p>
+            <p class="indent"><b><i>Fast Hands.</i></b> You can reload weapons with the Barrel property as a Bonus Action even if they do not possess the Light property. If a weapon possesses both the Barrel and Light properties, you can ignore the Barrel property.</p>
+            <p class="indent"><b><i>Steady Aim.</i></b> Being within 5 feet of an enemy doesn't impose Disadvantage on your ranged attack rolls, nor do you have Disadvantage on ranged attacks against creatures with the Prone condition within 30 feet of you.</p>
+        </description>
+        <sheet>
+            <description>You can reload weapons with the Barrel property as a Bonus Action even if they aren’t Light; you ignore the Barrel property of weapons that have both the Barrel and Light properties. Being within 5 feet of an enemy doesn't impose Disadvantage on your ranged attack rolls, and you don't have Disadvantage on ranged attacks against Prone creatures within 30 feet of you.</description>
+        </sheet>
+        <rules>
+            <stat name="dexterity" value="1" alt="Marksman" />
+        </rules>
+    </element>
+
+    <element name="Osteomantic Adept" type="Feat" source="HailJoe Feats" id="ID_HAILJOE_FEAT_OSTEOMANTIC_ADEPT">
+        <supports>General</supports>
+        <requirements>([character:4],!ID_LT_SGEH_FEAT_OSTEOMANTIC_ADEPT)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+        <prerequisite>Level 4+</prerequisite>
+        <description>
+            <p class="flavor">General Feat (Prerequisite: Level 4+)</p>
+            <p>You gain the following benefits.</p>
+            <p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
+            <p class="indent"><b><i>Empowered Osteomancy.</i></b> When you cast an Osteomancy* spell of level 1 or higher, you can sacrifice your life force to empower it, increasing the level this spell is cast at by one. You then roll a number of d6s equal to half the original spell's level (rounded up, minimum of 1) and take Necrotic damage equal to the number rolled, which can’t be reduced or prevented in any way.</p>
+            <p class="indent">The first time you use this benefit after you finish a Long Rest, it doesn’t damage you.</p>
+            <p><i>*Osteomancy Spells: Amputate, Arm Cannon, Aspect of Death, Bone Claws, Bone Cocoon, Bone Shield, Boneyard, Brittle Bone Throw, Calcified Memories, Chisel Skull, Displacing Maw, Dread Scarecrow, Forest of Dread, Fractured Shell, Maiden of Bones, Marrow Transfer, Osseous Cage, Osseous Impalement, Osteophagia, Phalangeal Shot, Rolling Bones, Rubber Bones, Rupturing Curse, Skeletal Tail, Wall of Bones.</i></p>
+        </description>
+        <sheet>
+            <description>When you cast an Osteomancy spell of level 1 or higher, you can increase the level it is cast at by one. Then roll d6s equal to half the original spell's level (rounded up, minimum 1) and take that much Necrotic damage, which can’t be reduced or prevented. The first use after each Long Rest deals no damage.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase (Osteomantic Adept)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
+        </rules>
+    </element>
+
 </elements>
