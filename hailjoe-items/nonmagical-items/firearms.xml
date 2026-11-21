@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Steinhardt's Weapons &amp; Firearms (2024)</name>
+        <description>Weapons, firearms, firearm properties, weapon masteries and ammunition from Steinhardt's Guide to the Eldritch Hunt (5.5e), adapted for the 2024 rules. Separate from the 2014 Steinhardt's files; both can be loaded together.</description>
+        <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
+        <update version="0.0.1">
+            <file name="firearms.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/nonmagical-items/firearms.xml" />
+        </update>
+    </info>
+
+    <!-- ============================================================ -->
+    <!-- WEAPON PROPERTIES                                            -->
+    <!-- ============================================================ -->
+
+    <element name="Artillery" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_ARTILLERY">
+        <description>
+            <p>You must use Strength instead of Dexterity for the attack rolls and damage rolls of a weapon with the Artillery property, and you can use the weapon to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Weapons with the Artillery property must be reloaded with an action. After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Barrel 1" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_1">
+        <description>
+            <p>A Barrel weapon can be fired a number of times equal to the number of bullets its barrel can hold (written as Barrel X) before it must be reloaded. It can be reloaded as either an action or instead of an attack as part of the Attack action. If the weapon also has the Light property, it can also be reloaded as a Bonus Action. You must have one free hand to reload the weapon.</p>
+            <p>This weapon's barrel holds 1 bullet.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Barrel 2" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_2">
+        <description>
+            <p>A Barrel weapon can be fired a number of times equal to the number of bullets its barrel can hold (written as Barrel X) before it must be reloaded. It can be reloaded as either an action or instead of an attack as part of the Attack action. If the weapon also has the Light property, it can also be reloaded as a Bonus Action. You must have one free hand to reload the weapon.</p>
+            <p>This weapon's barrel holds 2 bullets.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Barrel 6" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_6">
+        <description>
+            <p>A Barrel weapon can be fired a number of times equal to the number of bullets its barrel can hold (written as Barrel X) before it must be reloaded. It can be reloaded as either an action or instead of an attack as part of the Attack action. If the weapon also has the Light property, it can also be reloaded as a Bonus Action. You must have one free hand to reload the weapon.</p>
+            <p>This weapon's barrel holds 6 bullets.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Blaring" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING">
+        <description>
+            <p>Firing a Blaring weapon makes a thunderous crack. The sound can be heard from up to 100 feet away. Making a ranged attack using a weapon with this property makes it hard to go undetected; you have Disadvantage on Dexterity (Stealth) checks made as part of the Hide action until the start of your next turn. In addition, if a creature is within the area of the sound blast, it has Advantage on Wisdom (Perception) checks made against you as part of the Search action.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Booming" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BOOMING">
+        <description>
+            <p>The deflagration from firing a Booming weapon makes a stupendous booming sound. The sound can be heard from up to 500 feet away. Making a ranged attack using a weapon with this property makes it impossible to go undetected; you automatically fail Dexterity (Stealth) checks made as part of the Hide action until the start of your next turn. In addition, if a creature is within the area of the sound blast, it automatically succeeds on Wisdom (Perception) checks made against you as part of the Search action.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Fan Fire" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_FAN_FIRE">
+        <description>
+            <p>You can quickly fire this weapon by slamming the hammer repeatedly. As an action, you fire a number of bullets in a row equal to your Dexterity modifier (minimum of 2, up to the entirety of the barrel). Each attack after the first suffers a cumulative −3 penalty to the attack roll. You cannot add any modifier to the damage roll of these attacks beyond the first (such as the bonus from your Dexterity modifier or a magic weapon's bonus to damage rolls). When you take this action, your Speed becomes 0 until the end of your turn, and attacks you make using the long range of the weapon automatically miss.</p>
+            <p>If you roll a 1 on any of the attack rolls, the weapon jams and can't be used again until it is repaired. You can take an action to make a DC 15 Dexterity (Sleight of Hand) check, repairing the weapon on a success. Alternatively, you can spend 1 hour mending it to automatically succeed on the check. If your check fails, the weapon is broken and must be mended in a specialist's store at a quarter of the cost of the firearm.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Spread Fire" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_SPREAD_FIRE">
+        <description>
+            <p>A weapon that has the Spread Fire property can't make a normal attack. It instead sprays a Cone with a length equal to its range (for example, a Blunderbuss with a range of 20 feet will fire in a 20-foot Cone). Each creature in the area must succeed on a Dexterity saving throw (DC equals 8 plus your Dexterity modifier and your Proficiency Bonus) or take the weapon's normal damage.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Steady" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_STEADY">
+        <description>
+            <p>A weapon with this property can be stabilized for greater accuracy. As a Bonus Action, you give yourself a bonus to your next attack roll with this weapon this turn equal to your Proficiency Bonus, and attacking at the weapon's long range doesn't impose Disadvantage on the attack roll. You can take this Bonus Action only if you haven't moved during your turn, and after you take the Bonus Action, your Speed is halved until the end of your turn.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Twinned Barrel" type="Weapon Property" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_TWINNED_BARREL">
+        <description>
+            <p>A Twinned Barrel weapon has two barrels that can each hold a Firearm Bullet and can both be loaded as part of reloading the weapon. You can fire both barrels of a Twinned Barrel weapon as part of an attack, instead of each barrel individually. Doing so empties both barrels of the weapon (as per the Barrel property) and increases the damage die of the weapon on a hit (from d4 to d6 to d8 to d10 to d12).</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <!-- ============================================================ -->
+    <!-- AMMUNITION                                                   -->
+    <!-- ============================================================ -->
+
+    <element name="Bullets" type="Item" source="HailJoe Items" id="ID_HAILJOE_SGEH24_ITEM_BULLETS">
+        <description>
+            <p><i>Ammunition (Bullet), Mundane</i></p>
+            <p>Lead bullets fired by firearms with the Ammunition (Bullet) property. Stored in a pouch; sold in bundles of 10.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="type">Ammunition</set>
+            <set name="cost" currency="gp">2</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="stackable">true</set>
+            <set name="quantity" amount="10" />
+        </setters>
+    </element>
+
+    <element name="Cannonball" type="Item" source="HailJoe Items" id="ID_HAILJOE_SGEH24_ITEM_CANNONBALL">
+        <description>
+            <p><i>Ammunition (Cannonball), Mundane</i></p>
+            <p>A large, spherical projectile used as ammunition for the Cannon. Stored in a sack.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="type">Ammunition</set>
+            <set name="cost" currency="gp">3</set>
+            <set name="weight" lb="9">9 lb.</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+
+    <element name="Explosive Bullets" type="Item" source="HailJoe Items" id="ID_HAILJOE_SGEH24_ITEM_EXPLOSIVE_BULLETS">
+        <description>
+            <p><i>Ammunition (Bullet), Mundane</i></p>
+            <p>A creature hit by this ammunition takes the weapon's normal damage, and each creature within 5 feet of it must succeed on a Dexterity saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus) or take 1d8 Fire damage. On a miss, the ammunition fails to detonate.</p>
+            <p>Once it hits a target, the ammunition is destroyed.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="type">Ammunition</set>
+            <set name="cost" currency="gp">40</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="stackable">true</set>
+            <set name="quantity" amount="10" />
+        </setters>
+    </element>
+
+    <element name="Explosive Cannonball" type="Item" source="HailJoe Items" id="ID_HAILJOE_SGEH24_ITEM_EXPLOSIVE_CANNONBALL">
+        <description>
+            <p><i>Ammunition (Cannonball), Mundane</i></p>
+            <p>A creature hit by this ammunition takes the weapon's normal damage, and each creature within 10 feet of it must succeed on a Dexterity saving throw (DC 8 plus your Strength modifier and your Proficiency Bonus) or take 2d8 Fire damage. On a miss, the ammunition fails to detonate.</p>
+            <p>Once it hits a target, the ammunition is destroyed.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="type">Ammunition</set>
+            <set name="cost" currency="gp">30</set>
+            <set name="weight" lb="12">12 lb.</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+
+    <element name="Scatter Bullets" type="Item" source="HailJoe Items" id="ID_HAILJOE_SGEH24_ITEM_SCATTER_BULLETS">
+        <description>
+            <p><i>Ammunition (Bullet), Mundane</i></p>
+            <p>When you make an attack using a weapon with the Spread Fire property, you can choose to use this ammunition. If you do, ignore the Spread Fire property and instead make an attack roll. On a hit, the target takes the weapon's normal damage, and the bullet explodes, sending shrapnel flying in a 15-foot Cone originating from the target and extending away from you. Each creature in the area must make a Dexterity saving throw (DC equals 8 plus your Dexterity modifier plus your Proficiency Bonus). On a failed save, a creature takes damage equal to your weapon damage.</p>
+            <p>Once it hits a target, the ammunition is destroyed.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="type">Ammunition</set>
+            <set name="cost" currency="gp">15</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="stackable">true</set>
+            <set name="quantity" amount="10" />
+        </setters>
+    </element>
+
+    <!-- ============================================================ -->
+    <!-- WEAPONS                                                      -->
+    <!-- ============================================================ -->
+
+    <element name="Cleaver" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_CLEAVER">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_WOTC_PHB24_WEAPON_PROPERTY_GRAZE</supports>
+        <description>
+            <p><i>Martial Melee Weapon</i></p>
+            <p><b>Properties:</b> Heavy, Versatile (1d12)</p>
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Graze.</b> If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="damage" type="slashing">1d8</set>
+            <set name="versatile">1d12</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="cost" currency="gp">15</set>
+            <set name="slot">onehand</set>
+            <set name="proficiency">ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CLEAVER</set>
+        </setters>
+    </element>
+
+    <element name="Scythe" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_SCYTHE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_CLEAVE</supports>
+        <description>
+            <p><i>Martial Melee Weapon</i></p>
+            <p><b>Properties:</b> Finesse, Reach, Two-Handed</p>
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Cleave.</b> If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="slot">twohand</set>
+            <set name="proficiency">ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_SCYTHE</set>
+        </setters>
+    </element>
+
+    <element name="Blunderbuss" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_BLUNDERBUSS">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_2, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_SPREAD_FIRE, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_TWINNED_BARREL, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE</supports>
+        <description>
+            <p><i>Simple Ranged Weapon, Firearm</i></p>
+            <p><b>Properties:</b> Ammunition (Range 20; Bullet), Barrel 2, Blaring, Spread Fire, Twinned Barrel, Two-Handed</p>
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_2" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_SPREAD_FIRE" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_TWINNED_BARREL" />
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Topple.</b> If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="damage" type="piercing">2d4</set>
+            <set name="range">20; Bullet</set>
+            <set name="weight" lb="10">10 lb.</set>
+            <set name="cost" currency="gp">30</set>
+            <set name="slot">twohand</set>
+            <set name="proficiency">ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_BLUNDERBUSS</set>
+            <set name="ammunition">ID_HAILJOE_SGEH24_ITEM_BULLETS</set>
+        </setters>
+    </element>
+
+    <element name="Flintlock" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_FLINTLOCK">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_1, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP</supports>
+        <description>
+            <p><i>Simple Ranged Weapon, Firearm</i></p>
+            <p><b>Properties:</b> Ammunition (Range 100/320; Bullet), Barrel 1, Blaring, Light</p>
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_1" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING" />
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Sap.</b> If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="damage" type="piercing">1d8</set>
+            <set name="range">100/320; Bullet</set>
+            <set name="weight" lb="3">3 lb.</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="slot">onehand</set>
+            <set name="proficiency">ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_FLINTLOCK</set>
+            <set name="ammunition">ID_HAILJOE_SGEH24_ITEM_BULLETS</set>
+        </setters>
+    </element>
+
+    <element name="Cannon" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_CANNON">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_ARTILLERY, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BOOMING, ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH</supports>
+        <description>
+            <p><i>Martial Ranged Weapon, Firearm</i></p>
+            <p><b>Properties:</b> Artillery (Range 120/240; Cannonball), Booming, Two-Handed</p>
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_ARTILLERY" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BOOMING" />
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Push.</b> If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="damage" type="bludgeoning">3d10</set>
+            <set name="range">120/240; Cannonball</set>
+            <set name="weight" lb="90">90 lb.</set>
+            <set name="cost" currency="gp">500</set>
+            <set name="slot">twohand</set>
+            <set name="proficiency">ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CANNON</set>
+            <set name="ammunition">ID_HAILJOE_SGEH24_ITEM_CANNONBALL</set>
+        </setters>
+    </element>
+
+    <element name="Pistol" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_PISTOL">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_6, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_FAN_FIRE, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+        <description>
+            <p><i>Martial Ranged Weapon, Firearm</i></p>
+            <p><b>Properties:</b> Ammunition (Range 40/120; Bullet), Barrel 6, Blaring, Fan Fire</p>
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_6" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_FAN_FIRE" />
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Vex.</b> If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="range">40/120; Bullet</set>
+            <set name="weight" lb="3">3 lb.</set>
+            <set name="cost" currency="gp">15</set>
+            <set name="slot">onehand</set>
+            <set name="proficiency">ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_PISTOL</set>
+            <set name="ammunition">ID_HAILJOE_SGEH24_ITEM_BULLETS</set>
+        </setters>
+    </element>
+
+    <element name="Rifle" type="Weapon" source="HailJoe Items" id="ID_HAILJOE_SGEH24_WEAPON_RIFLE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_2, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_STEADY, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_TWINNED_BARREL, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+        <description>
+            <p><i>Martial Ranged Weapon, Firearm</i></p>
+            <p><b>Properties:</b> Ammunition (Range 120/240; Bullet), Barrel 2, Blaring, Steady, Twinned Barrel, Two-Handed</p>
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_2" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_STEADY" />
+            <div element="ID_HAILJOE_SGEH24_WEAPON_PROPERTY_TWINNED_BARREL" />
+            <div class="sidebar" style="margin-top:10px">
+                <h5>MASTERY</h5>
+                <p><b>Slow.</b> If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.</p>
+            </div>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="damage" type="piercing">1d10</set>
+            <set name="range">120/240; Bullet</set>
+            <set name="weight" lb="8">8 lb.</set>
+            <set name="cost" currency="gp">25</set>
+            <set name="slot">twohand</set>
+            <set name="proficiency">ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_RIFLE</set>
+            <set name="ammunition">ID_HAILJOE_SGEH24_ITEM_BULLETS</set>
+        </setters>
+    </element>
+
+    <!-- ============================================================ -->
+    <!-- PROFICIENCIES                                                -->
+    <!-- ============================================================ -->
+
+    <element name="Weapon Proficiency (Cleaver)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CLEAVER">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_WOTC_PHB24_WEAPON_PROPERTY_GRAZE</supports>
+        <sheet alt="Cleaver" />
+    </element>
+
+    <element name="Weapon Proficiency (Scythe)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_SCYTHE">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_CLEAVE</supports>
+        <sheet alt="Scythe" />
+    </element>
+
+    <element name="Weapon Proficiency (Blunderbuss)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_BLUNDERBUSS">
+        <supports>Weapon, Simple, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_2, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_SPREAD_FIRE, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_TWINNED_BARREL, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE</supports>
+        <sheet alt="Blunderbuss" />
+    </element>
+
+    <element name="Weapon Proficiency (Flintlock)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_FLINTLOCK">
+        <supports>Weapon, Simple, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_1, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_WOTC_PHB24_WEAPON_PROPERTY_SAP</supports>
+        <sheet alt="Flintlock" />
+    </element>
+
+    <element name="Weapon Proficiency (Cannon)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CANNON">
+        <supports>Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_ARTILLERY, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BOOMING, ID_WOTC_PHB24_WEAPON_PROPERTY_PUSH</supports>
+        <sheet alt="Cannon" />
+    </element>
+
+    <element name="Weapon Proficiency (Pistol)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_PISTOL">
+        <supports>Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_6, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_FAN_FIRE, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+        <sheet alt="Pistol" />
+    </element>
+
+    <element name="Weapon Proficiency (Rifle)" type="Proficiency" source="HailJoe Items" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_RIFLE">
+        <supports>Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BARREL_2, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_BLARING, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_STEADY, ID_HAILJOE_SGEH24_WEAPON_PROPERTY_TWINNED_BARREL, ID_WOTC_PHB24_WEAPON_PROPERTY_SLOW</supports>
+        <sheet alt="Rifle" />
+    </element>
+
+    <!-- Simple / Martial weapon proficiency also covers these weapons (same pattern as the PHB 2024 Pistol and Musket) -->
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS">
+        <rules>
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CLEAVER" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_SCYTHE" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CANNON" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_PISTOL" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_RIFLE" />
+        </rules>
+    </append>
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS">
+        <rules>
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_BLUNDERBUSS" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_FLINTLOCK" />
+        </rules>
+    </append>
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+        <rules>
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CANNON" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_PISTOL" />
+            <grant type="Proficiency" id="ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_RIFLE" />
+        </rules>
+    </append>
+
+    <!-- ============================================================ -->
+    <!-- WEAPON MASTERY OPTIONS (Fighter, Barbarian, Jaeger(2024)...) -->
+    <!-- ============================================================ -->
+
+    <element name="Cleaver (Graze)" type="Class Feature" source="HailJoe Items" id="ID_HAILJOE_SGEH24_CLASS_FEATURE_MASTERY_PROPERTY_CLEAVER_GRAZE">
+        <supports>Weapon Mastery, Martial, Melee</supports>
+        <requirements>ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CLEAVER</requirements>
+        <compendium display="false" />
+        <description>
+            <p>If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.</p>
+        </description>
+        <sheet>
+            <description>If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.</description>
+        </sheet>
+    </element>
+
+    <element name="Scythe (Cleave)" type="Class Feature" source="HailJoe Items" id="ID_HAILJOE_SGEH24_CLASS_FEATURE_MASTERY_PROPERTY_SCYTHE_CLEAVE">
+        <supports>Weapon Mastery, Martial, Melee</supports>
+        <requirements>ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_SCYTHE</requirements>
+        <compendium display="false" />
+        <description>
+            <p>If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.</p>
+        </description>
+        <sheet>
+            <description>If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Blunderbuss (Topple)" type="Class Feature" source="HailJoe Items" id="ID_HAILJOE_SGEH24_CLASS_FEATURE_MASTERY_PROPERTY_BLUNDERBUSS_TOPPLE">
+        <supports>Weapon Mastery, Simple, Ranged</supports>
+        <requirements>ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_BLUNDERBUSS</requirements>
+        <compendium display="false" />
+        <description>
+            <p>If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.</p>
+        </description>
+        <sheet>
+            <description>If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Flintlock (Sap)" type="Class Feature" source="HailJoe Items" id="ID_HAILJOE_SGEH24_CLASS_FEATURE_MASTERY_PROPERTY_FLINTLOCK_SAP">
+        <supports>Weapon Mastery, Simple, Ranged</supports>
+        <requirements>ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_FLINTLOCK</requirements>
+        <compendium display="false" />
+        <description>
+            <p>If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.</p>
+        </description>
+        <sheet>
+            <description>If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Cannon (Push)" type="Class Feature" source="HailJoe Items" id="ID_HAILJOE_SGEH24_CLASS_FEATURE_MASTERY_PROPERTY_CANNON_PUSH">
+        <supports>Weapon Mastery, Martial, Ranged</supports>
+        <requirements>ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_CANNON</requirements>
+        <compendium display="false" />
+        <description>
+            <p>If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.</p>
+        </description>
+        <sheet>
+            <description>If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.</description>
+        </sheet>
+    </element>
+
+    <element name="Pistol (Vex)" type="Class Feature" source="HailJoe Items" id="ID_HAILJOE_SGEH24_CLASS_FEATURE_MASTERY_PROPERTY_PISTOL_VEX">
+        <supports>Weapon Mastery, Martial, Ranged</supports>
+        <requirements>ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_PISTOL</requirements>
+        <compendium display="false" />
+        <description>
+            <p>If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>
+        </description>
+        <sheet>
+            <description>If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</description>
+        </sheet>
+    </element>
+
+    <element name="Rifle (Slow)" type="Class Feature" source="HailJoe Items" id="ID_HAILJOE_SGEH24_CLASS_FEATURE_MASTERY_PROPERTY_RIFLE_SLOW">
+        <supports>Weapon Mastery, Martial, Ranged</supports>
+        <requirements>ID_HAILJOE_SGEH24_PROFICIENCY_WEAPON_RIFLE</requirements>
+        <compendium display="false" />
+        <description>
+            <p>If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.</p>
+        </description>
+        <sheet>
+            <description>If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.</description>
+        </sheet>
+    </element>
+
+</elements>
