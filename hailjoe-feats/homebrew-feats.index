@@ -4,7 +4,7 @@
 		<name>Homebrew Feats</name>
 		<description>Homebrew Feats that doesn't exist in the game and made by HailJoe</description>
 		<author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="homebrew-feats.index" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-feats/homebrew-feats.index" />
 		</update>
 	</info>
