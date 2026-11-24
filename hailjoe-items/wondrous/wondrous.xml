@@ -4,7 +4,7 @@
     <name>wondrous</name>
     <description/>
     <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-    <update version="0.0.30">
+    <update version="0.0.31">
       <file name="wondrous.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/wondrous/wondrous.xml"/>
     </update>
   </info>
@@ -1086,6 +1086,25 @@
       		<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLY" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
     	</rules> 
+    </element>
+
+	<element name="Hair-Trigger Ring" type="Magic Item" source="HailJoe Items" id="ID_HAILJOE_ITEM_HAIR_TRIGGER_RING">
+        <description>
+            <div class="sidebar">
+                <p class="flavor">The gunsmiths of the Tezkiriş workshops say a firearm is only as patient as the hand that holds it. This plain band of blued steel was made for those hands. Its inner surface is etched with a single thin line, as fine as a hair, said to be measured from the trigger of the first flintlock ever to leave the family's forge. Those who wear it swear the world slows by a heartbeat in the moment before the shot, just long enough to find the one place where the bullet will matter most.</p>
+            </div>
+            <p>This ring of dark, blued steel is cool to the touch and slightly heavier than it looks. A hairline groove runs along its inner surface.</p>
+            <p class="indent"><strong><em>Fatal Margin.</em></strong> While you wear this ring, your attack rolls with weapons score a Critical Hit on a roll of 19 or 20. If you already have a feature or another effect that expands your Critical Hit range, this ring reduces the number you need for a Critical Hit by 1 more (for example, from 19–20 to 18–20).</p>
+        </description>
+        <setters>
+            <set name="keywords">ring, critical, crit, firearm, trigger</set>
+            <set name="category">Rings</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type">Ring</set>
+            <set name="slot">misc</set>
+            <set name="attunement">false</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
     </element>
 	
 </elements>
