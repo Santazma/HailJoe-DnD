@@ -3,7 +3,7 @@
         <name>weapons</name>
         <description/>
         <author url="https://github.com/Santazma/HailJoe-DnD">HailJoe</author>
-        <update version="0.0.27">
+        <update version="0.0.28">
             <file name="weapons.xml" url="https://raw.githubusercontent.com/Santazma/HailJoe-DnD/main/hailjoe-items/weapons/weapons.xml"/>
         </update>
     </info>
@@ -1005,7 +1005,7 @@
             <set name="attunement" addition="by a spellcaster">true</set>
             <set name="rarity">Uncommon</set>
             <set name="enhancement">0</set>
-            <set name="weapon">ID_HAILJOE_SGEH24_WEAPON_SCYTHE</set>
+            <set name="weapon">Scythe</set>
         </setters>
         <rules>
             <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_EVIL_AND_GOOD" />
@@ -1037,7 +1037,7 @@
             <set name="attunement" addition="by a spellcaster">true</set>
             <set name="rarity">Rare</set>
             <set name="enhancement">0</set>
-            <set name="weapon">ID_HAILJOE_SGEH24_WEAPON_SCYTHE</set>
+            <set name="weapon">Scythe</set>
         </setters>
         <rules>
             <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_EVIL_AND_GOOD" />
@@ -1070,7 +1070,7 @@
             <set name="attunement" addition="by a spellcaster">true</set>
             <set name="rarity">Very Rare</set>
             <set name="enhancement">0</set>
-            <set name="weapon">ID_HAILJOE_SGEH24_WEAPON_SCYTHE</set>
+            <set name="weapon">Scythe</set>
         </setters>
         <rules>
             <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_EVIL_AND_GOOD" />
